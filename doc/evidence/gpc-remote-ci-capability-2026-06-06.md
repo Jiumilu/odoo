@@ -22,6 +22,7 @@ git remote get-url --push origin
 | 首次 CI run | `27045220938` |
 | 第二次 CI run | `27045410278` |
 | 第三次 CI run | `27045705371` |
+| 第四次 CI run | `27045895834` |
 
 ## 首次远端 CI 结果
 
@@ -85,6 +86,41 @@ git remote get-url --push origin
 - portal 用户不存在时创建事务内临时 smoke 门户用户，并在脚本结尾 rollback，不污染数据库。
 - 本地证据 `doc/evidence/gpc-core-flow-smoke.json` 已验证 `portal_sale_create=AccessError`、`public_sale_create=AccessError`。
 
+## 第四次远端 CI 结果
+
+第四次 run 已通过，GitHub Actions 地址：
+
+`https://github.com/Jiumilu/odoo/actions/runs/27045895834`
+
+通过步骤：
+
+- checkout、Python/Node setup、系统依赖安装
+- Python 依赖安装与 `python -m pip check`
+- 本地维护工具 `py_compile`
+- Browser E2E 脚本语法检查
+- 本地工具单元测试
+- `zh_CN.po` 语法检查
+- 核心 GlobalCloud GPC 业务模块安装并加载 `zh_CN`
+- 运行态本地化默认值应用
+- Odoo 最小 test runner smoke
+- HTTP smoke
+- 登录态后台 smoke
+- Browser 表单 E2E
+- 核心业务流程 smoke
+
+远端核心流程 smoke 关键证据：
+
+- `contact_crud.ok=true`，测试客户 `lang=zh_CN`、`tz=Asia/Shanghai`
+- `crm_opportunity.ok=true`
+- `sales_order.ok=true`
+- `purchase_order.ok=true`
+- `stock_receipt_delivery.ok=true`
+- `manufacturing_order.ok=true`
+- `project_task.ok=true`
+- `permission_boundary.ok=true`，`portal_sale_create=AccessError`、`public_sale_create=AccessError`
+
+后续调整：第四次 run 的 live-only coverage 为 `87%`，因为只统计真实 smoke 正常路径，未合并已存在的异常分支单元测试。CI 已调整为先运行 `CoreFlowSmokeTests`，再追加真实核心流程 smoke，以使覆盖率报告同时反映异常分支与真实业务路径。
+
 ## 结论
 
-当前已具备可写 fork 并已触发远端 CI。前三次 run 已连续关闭 CI-only 缺陷；需要重新推送后确认第四轮 run 结果。
+当前已具备可写 fork 并已触发远端 CI。第四次 run 已完整通过；下一轮只需确认合并覆盖率统计后的第五次 run 结果。

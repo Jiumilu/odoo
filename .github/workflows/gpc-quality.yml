@@ -171,7 +171,9 @@ jobs:
             --report-json .runtime/gpc-browser-form-e2e.json \
             --report-md .runtime/gpc-browser-form-e2e.md \
             --screenshot .runtime/gpc-browser-form-e2e.png
-          coverage run --include='*/tools/gpc_core_flow_smoke.py' tools/gpc_core_flow_smoke.py \
+          coverage erase
+          coverage run --include='*/tools/gpc_core_flow_smoke.py' -m unittest tests.test_gpc_tools.CoreFlowSmokeTests
+          coverage run --append --include='*/tools/gpc_core_flow_smoke.py' tools/gpc_core_flow_smoke.py \
             --config .runtime/ci-odoo.conf \
             --database gpc_ci \
             --base-url http://127.0.0.1:18069 \

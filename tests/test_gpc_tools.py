@@ -97,6 +97,156 @@ class CoreFlowSmokeTests(unittest.TestCase):
         self.assertEqual(result["model"], "res.partner")
         self.assertEqual(result["error"], "boom")
 
+    def test_permission_boundary_creates_missing_portal_user(self) -> None:
+        class AccessError(Exception):
+            pass
+
+        class FakeRecord:
+            def __init__(self, record_id=1, login="record", name="Record"):
+                self.id = record_id
+                self.login = login
+                self.name = name
+
+            def __bool__(self):
+                return True
+
+        class EmptyRecord:
+            def __bool__(self):
+                return False
+
+        class FakeUserModel:
+            _fields = {"group_ids": object()}
+
+            def __init__(self):
+                self.created_values = None
+
+            def with_context(self, **kwargs):
+                self.context = kwargs
+                return self
+
+            def search(self, domain, limit=1):
+                login = domain[0][2]
+                if login == "portal":
+                    return EmptyRecord()
+                return EmptyRecord()
+
+            def create(self, values):
+                self.created_values = values
+                return FakeRecord(4, values["login"], values["name"])
+
+        class FakePartnerModel:
+            def create(self, values):
+                return FakeRecord(5, values.get("email", "partner"), values["name"])
+
+        class FakeSaleOrderModel:
+            def create(self, values):
+                raise AccessError("denied")
+
+        class FakeEnvironment:
+            def __init__(self, active_user=None):
+                self.active_user = active_user
+                self.user_model = FakeUserModel()
+
+            def __call__(self, user):
+                env = FakeEnvironment(user)
+                env.user_model = self.user_model
+                return env
+
+            def __getitem__(self, model):
+                if model == "res.users":
+                    return self.user_model
+                if model == "res.partner":
+                    return FakePartnerModel()
+                if model == "sale.order":
+                    return FakeSaleOrderModel()
+                raise AssertionError(model)
+
+            def ref(self, xmlid):
+                records = {
+                    "base.user_admin": FakeRecord(1, "admin", "Administrator"),
+                    "base.public_user": FakeRecord(2, "public", "Public"),
+                    "base.group_portal": FakeRecord(3, "group_portal", "Portal"),
+                }
+                return records[xmlid]
+
+        env = FakeEnvironment()
+        result = gpc_core_flow_smoke.run_permission_boundary_smoke(env, FakeRecord(9, "partner"))
+
+        self.assertTrue(result["ok"])
+        self.assertEqual(result["portal_source"], "created_for_smoke")
+        self.assertEqual(result["portal_sale_create"], "AccessError")
+        self.assertEqual(result["public_sale_create"], "AccessError")
+        self.assertEqual(env.user_model.created_values["group_ids"], [(6, 0, [3])])
+
+    def test_permission_boundary_flags_unexpected_allow(self) -> None:
+        class AccessError(Exception):
+            pass
+
+        class FakeRecord:
+            id = 1
+            name = "Record"
+
+            def __init__(self, login="record"):
+                self.login = login
+
+            def __bool__(self):
+                return True
+
+        class FakeUserModel:
+            _fields = {"group_ids": object()}
+
+            def with_context(self, **kwargs):
+                return self
+
+            def search(self, domain, limit=1):
+                login = domain[0][2]
+                if login == "gcgpc@csydsc.com":
+                    return FakeRecord(login)
+                if login == "portal":
+                    return FakeRecord("portal")
+                raise AssertionError(login)
+
+        class FakePartnerModel:
+            def create(self, values):
+                return FakeRecord("partner")
+
+        class FakeSaleOrderModel:
+            def __init__(self, active_user):
+                self.active_user = active_user
+
+            def create(self, values):
+                if self.active_user.login == "portal":
+                    return FakeRecord("sale")
+                raise AccessError("denied")
+
+        class FakeEnvironment:
+            def __init__(self, active_user=None):
+                self.active_user = active_user
+                self.user_model = FakeUserModel()
+
+            def __call__(self, user):
+                env = FakeEnvironment(user)
+                env.user_model = self.user_model
+                return env
+
+            def __getitem__(self, model):
+                if model == "res.users":
+                    return self.user_model
+                if model == "res.partner":
+                    return FakePartnerModel()
+                if model == "sale.order":
+                    return FakeSaleOrderModel(self.active_user)
+                raise AssertionError(model)
+
+            def ref(self, xmlid):
+                return FakeRecord("public")
+
+        result = gpc_core_flow_smoke.run_permission_boundary_smoke(FakeEnvironment(), FakeRecord("partner"))
+
+        self.assertFalse(result["ok"])
+        self.assertEqual(result["portal_sale_create"], "unexpectedly_allowed")
+        self.assertEqual(result["public_sale_create"], "AccessError")
+
     def test_run_orm_smoke_reports_missing_modules_without_database_writes(self) -> None:
         class FakeCursor:
             rolled_back = False
@@ -284,6 +434,20 @@ class CoreFlowSmokeTests(unittest.TestCase):
             self.assertFalse(flows[name]["ok"], name)
             self.assertIn("error", flows[name])
         self.assertTrue(FakeRegistry.cursor_obj.rolled_back)
+
+        with mock.patch.dict(
+            sys.modules,
+            {
+                "odoo": fake_odoo,
+                "odoo.exceptions": fake_exceptions,
+                "odoo.modules.registry": fake_registry_module,
+                "odoo.tools": fake_tools,
+            },
+        ), mock.patch.object(gpc_core_flow_smoke, "run_permission_boundary_smoke", side_effect=FakeAccessError("explicit permission denial")):
+            flows = gpc_core_flow_smoke.run_orm_smoke("fake.conf", "fake_db")
+
+        self.assertFalse(flows["permission_boundary"]["ok"])
+        self.assertIn("explicit permission denial", flows["permission_boundary"]["error"])
 
     def test_markdown_report_contains_flow_evidence(self) -> None:
         report = gpc_core_flow_smoke.markdown_report(
