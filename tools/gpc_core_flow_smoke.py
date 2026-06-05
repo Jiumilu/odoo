@@ -140,6 +140,130 @@ def run_orm_smoke(config_path: str, db_name: str) -> dict[str, Any]:
             flows["purchase_order"] = mark(False, {"model": "purchase.order"}, repr(exc))
 
         try:
+            stock_location = env.ref("stock.stock_location_stock")
+            customer_location = env.ref("stock.stock_location_customers")
+            vendor_location = env.ref("stock.stock_location_suppliers")
+            receipt_type = env.ref("stock.picking_type_in")
+            delivery_type = env.ref("stock.picking_type_out")
+            stock_product = env["product.product"].create({"name": "GPC Stock Smoke Product", "type": "consu", "is_storable": True})
+            receipt = env["stock.picking"].create(
+                {
+                    "picking_type_id": receipt_type.id,
+                    "location_id": vendor_location.id,
+                    "location_dest_id": stock_location.id,
+                    "move_ids": [
+                        (
+                            0,
+                            0,
+                            {
+                                "description_picking": "GPC smoke receipt",
+                                "product_id": stock_product.id,
+                                "product_uom_qty": 5,
+                                "product_uom": stock_product.uom_id.id,
+                                "location_id": vendor_location.id,
+                                "location_dest_id": stock_location.id,
+                            },
+                        )
+                    ],
+                }
+            )
+            receipt.action_confirm()
+            receipt.action_assign()
+            for move in receipt.move_ids:
+                move.quantity = move.product_uom_qty
+                move.picked = True
+            receipt.button_validate()
+            qty_after_receipt = env["stock.quant"]._get_available_quantity(stock_product, stock_location)
+
+            delivery = env["stock.picking"].create(
+                {
+                    "picking_type_id": delivery_type.id,
+                    "location_id": stock_location.id,
+                    "location_dest_id": customer_location.id,
+                    "move_ids": [
+                        (
+                            0,
+                            0,
+                            {
+                                "description_picking": "GPC smoke delivery",
+                                "product_id": stock_product.id,
+                                "product_uom_qty": 2,
+                                "product_uom": stock_product.uom_id.id,
+                                "location_id": stock_location.id,
+                                "location_dest_id": customer_location.id,
+                            },
+                        )
+                    ],
+                }
+            )
+            delivery.action_confirm()
+            delivery.action_assign()
+            for move in delivery.move_ids:
+                move.quantity = move.product_uom_qty
+                move.picked = True
+            delivery.button_validate()
+            qty_after_delivery = env["stock.quant"]._get_available_quantity(stock_product, stock_location)
+            flows["stock_receipt_delivery"] = mark(
+                receipt.state == "done" and delivery.state == "done" and qty_after_receipt == 5 and qty_after_delivery == 3,
+                {
+                    "receipt_id": receipt.id,
+                    "delivery_id": delivery.id,
+                    "receipt_state": receipt.state,
+                    "delivery_state": delivery.state,
+                    "qty_after_receipt": qty_after_receipt,
+                    "qty_after_delivery": qty_after_delivery,
+                },
+            )
+        except Exception as exc:
+            flows["stock_receipt_delivery"] = mark(False, {"model": "stock.picking"}, repr(exc))
+
+        try:
+            stock_location = env.ref("stock.stock_location_stock")
+            component = env["product.product"].create({"name": "GPC MRP Component", "type": "consu", "is_storable": True})
+            finished = env["product.product"].create({"name": "GPC MRP Finished", "type": "consu", "is_storable": True})
+            env["stock.quant"]._update_available_quantity(component, stock_location, 10)
+            bom = env["mrp.bom"].create(
+                {
+                    "product_tmpl_id": finished.product_tmpl_id.id,
+                    "product_qty": 1,
+                    "product_uom_id": finished.uom_id.id,
+                    "type": "normal",
+                    "bom_line_ids": [(0, 0, {"product_id": component.id, "product_qty": 2, "product_uom_id": component.uom_id.id})],
+                }
+            )
+            production = env["mrp.production"].create(
+                {
+                    "product_id": finished.id,
+                    "product_qty": 1,
+                    "product_uom_id": finished.uom_id.id,
+                    "bom_id": bom.id,
+                }
+            )
+            states = [production.state]
+            production.action_confirm()
+            states.append(production.state)
+            production.move_raw_ids._action_assign()
+            production.move_raw_ids.picked = True
+            production.move_raw_ids._action_done()
+            states.append(production.state)
+            production.qty_producing = 1
+            production.button_mark_done()
+            states.append(production.state)
+            qty_finished = env["stock.quant"]._get_available_quantity(finished, stock_location)
+            flows["manufacturing_order"] = mark(
+                production.state == "done" and production.move_raw_ids.state == "done" and production.move_finished_ids.state == "done" and qty_finished == 1,
+                {
+                    "production_id": production.id,
+                    "states": states,
+                    "raw_moves": len(production.move_raw_ids),
+                    "finished_moves": len(production.move_finished_ids),
+                    "qty_finished": qty_finished,
+                },
+            )
+        except Exception as exc:
+            flows["manufacturing_order"] = mark(False, {"model": "mrp.production"}, repr(exc))
+
+        try:
             project = env["project.project"].create({"name": "GPC Smoke Project"})
             task = env["project.task"].create({"name": "GPC Smoke Task", "project_id": project.id})
             stages = env["project.task.type"].search([], limit=2)

@@ -56,6 +56,9 @@ def localize_json_error(body: bytes) -> bytes:
         return body
 
     error = payload.get("error") if isinstance(payload, dict) else None
+    if not isinstance(error, dict):
+        return body
+
     data = error.get("data") if isinstance(error, dict) else None
     name = data.get("name") if isinstance(data, dict) else None
     message = ERROR_MESSAGES.get(name)

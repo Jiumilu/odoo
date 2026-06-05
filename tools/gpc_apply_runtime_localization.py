@@ -15,14 +15,17 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 REPLACEMENTS = {
-    "YourCompany": "GlobalCloud GPC",
-    "yourcompany": "globalcloud-gpc",
-    "公司 name": "GlobalCloud GPC",
     "OdooBot": "GlobalCloud GPC 助手",
     "odoobot@example.com": "bot@gc-gpc.example.com",
     "info@yourcompany.example.com": "service@gc-gpc.example.com",
+    "info@globalcloud-gpc.example.com": "service@gc-gpc.example.com",
     "vauxoo@yourcompany.example.com": "partner@gc-gpc.example.com",
+    "vauxoo@globalcloud-gpc.example.com": "partner@gc-gpc.example.com",
     "chicago@yourcompany.com": "branch@gc-gpc.example.com",
+    "chicago@globalcloud-gpc.com": "branch@gc-gpc.example.com",
+    "YourCompany": "GlobalCloud GPC",
+    "yourcompany": "globalcloud-gpc",
+    "公司 name": "GlobalCloud GPC",
     "+1 555-555-5556": "18607163009",
     "+1 312 349 3030": "18607163009",
 }
@@ -70,7 +73,15 @@ def main() -> int:
     config.parse_config(["-c", args.config, "-d", args.database, "--log-level=warn"])
     del odoo
 
-    evidence: dict[str, Any] = {"views": [], "mail_templates": [], "partners": [], "companies": [], "websites": []}
+    evidence: dict[str, Any] = {
+        "views": [],
+        "mail_templates": [],
+        "partners": [],
+        "companies": [],
+        "websites": [],
+        "discuss_channels": [],
+        "mail_messages": [],
+    }
     with Registry(args.database).cursor() as cr:
         env = api.Environment(cr, api.SUPERUSER_ID, {"active_test": False})
 
@@ -113,6 +124,23 @@ def main() -> int:
             if updates:
                 company.write(updates)
                 evidence["companies"].append({"id": company.id, "name": company.name, "updates": updates})
+
+        for channel in env["discuss.channel"].search([]):
+            new_name, changed = replace_text(channel.name)
+            if changed:
+                channel.write({"name": new_name})
+                evidence["discuss_channels"].append({"id": channel.id, "updates": {"name": new_name}})
+
+        for message in env["mail.message"].search([]):
+            updates = {}
+            for field in ("subject", "body"):
+                if field in message._fields:
+                    new_value, changed = replace_text(message[field])
+                    if changed:
+                        updates[field] = new_value
+            if updates:
+                message.write(updates)
+                evidence["mail_messages"].append({"id": message.id, "updates": sorted(updates)})
 
         for website in env["website"].search([]):
             updates = {}

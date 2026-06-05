@@ -73,7 +73,10 @@ jobs:
         run: python -m pip check
 
       - name: Compile local maintenance tools
-        run: python -m py_compile tools/gpc_health_check.py tools/gpc_reverse_proxy.py tools/complete_zh_cn_i18n.py tools/gpc_core_flow_smoke.py tools/gpc_apply_runtime_localization.py
+        run: python -m py_compile tools/gpc_health_check.py tools/gpc_reverse_proxy.py tools/complete_zh_cn_i18n.py tools/gpc_core_flow_smoke.py tools/gpc_apply_runtime_localization.py tests/test_gpc_tools.py
+
+      - name: Run local tool unit tests
+        run: python -m unittest discover -s tests -p 'test_*.py' -v
 
       - name: Validate zh_CN translation syntax
         run: |

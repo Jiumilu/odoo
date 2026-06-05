@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-06T06:12:58+0800",
+  "timestamp": "2026-06-06T06:36:04+0800",
   "config": ".runtime/gpc-odoo.conf",
   "database": "GCGPC",
   "base_url": "http://127.0.0.1:8069",
@@ -7,20 +7,20 @@
     "website_home": {
       "ok": true,
       "status": 200,
-      "bytes": 21226,
-      "seconds": 0.024
+      "bytes": 21214,
+      "seconds": 0.125
     },
     "login": {
       "ok": true,
       "status": 200,
-      "bytes": 20216,
-      "seconds": 0.029
+      "bytes": 20204,
+      "seconds": 0.052
     },
     "apps": {
       "ok": true,
       "status": 200,
-      "bytes": 20263,
-      "seconds": 0.057
+      "bytes": 20251,
+      "seconds": 0.231
     }
   },
   "flows": {
@@ -49,7 +49,7 @@
     "contact_crud": {
       "ok": true,
       "model": "res.partner",
-      "record_id": 73,
+      "record_id": 88,
       "created_name": "GPC Smoke Customer",
       "updated_phone": "13800000000",
       "lang": "zh_CN",
@@ -58,7 +58,7 @@
     "crm_opportunity": {
       "ok": true,
       "model": "crm.lead",
-      "record_id": 57,
+      "record_id": 61,
       "before_stage": "New",
       "after_stage": "Won",
       "is_won": true
@@ -66,7 +66,7 @@
     "sales_order": {
       "ok": true,
       "model": "sale.order",
-      "record_id": 39,
+      "record_id": 43,
       "before_state": "draft",
       "after_state": "sale",
       "delivery_count": 1
@@ -74,16 +74,38 @@
     "purchase_order": {
       "ok": true,
       "model": "purchase.order",
-      "record_id": 26,
+      "record_id": 30,
       "before_state": "draft",
       "after_state": "purchase",
       "receipt_count": 1
     },
+    "stock_receipt_delivery": {
+      "ok": true,
+      "receipt_id": 93,
+      "delivery_id": 94,
+      "receipt_state": "done",
+      "delivery_state": "done",
+      "qty_after_receipt": 5.0,
+      "qty_after_delivery": 3.0
+    },
+    "manufacturing_order": {
+      "ok": true,
+      "production_id": 18,
+      "states": [
+        "draft",
+        "confirmed",
+        "progress",
+        "done"
+      ],
+      "raw_moves": 1,
+      "finished_moves": 1,
+      "qty_finished": 1.0
+    },
     "project_task": {
       "ok": true,
       "model": "project.task",
-      "record_id": 88,
-      "project_id": 20,
+      "record_id": 93,
+      "project_id": 24,
       "before_stage": false,
       "after_stage": "Inbox"
     },
