@@ -4,7 +4,7 @@ import json
 import unittest
 from unittest import mock
 
-from tools import gpc_apply_runtime_localization, gpc_core_flow_smoke, gpc_reverse_proxy
+from tools import gpc_apply_runtime_localization, gpc_authenticated_backend_smoke, gpc_core_flow_smoke, gpc_reverse_proxy
 
 
 class ReverseProxyLocalizationTests(unittest.TestCase):
@@ -98,6 +98,37 @@ class CoreFlowSmokeTests(unittest.TestCase):
         self.assertIn("总体结果：`通过`", report)
         self.assertIn("contact_crud", report)
         self.assertIn("所有 ORM 写入", report)
+
+
+class AuthenticatedBackendSmokeTests(unittest.TestCase):
+    def test_extract_csrf_token(self) -> None:
+        token = gpc_authenticated_backend_smoke.extract_csrf_token('<input name="csrf_token" value="abc&amp;123">')
+
+        self.assertEqual(token, "abc&123")
+
+    def test_authenticated_backend_markdown_report(self) -> None:
+        report = gpc_authenticated_backend_smoke.markdown_report(
+            {
+                "timestamp": "2026-06-06T00:00:00+0800",
+                "base_url": "http://127.0.0.1:8069",
+                "test_user": {"login": "gpc.e2e@example.invalid"},
+                "ok": True,
+                "backend": {
+                    "entries": {
+                        "apps": {
+                            "ok": True,
+                            "status": 200,
+                            "final_url": "http://127.0.0.1:8069/odoo/apps",
+                            "visible_has_legacy_brand": False,
+                        }
+                    }
+                },
+            }
+        )
+
+        self.assertIn("总体结果：`通过`", report)
+        self.assertIn("gpc.e2e@example.invalid", report)
+        self.assertIn("apps", report)
 
 
 if __name__ == "__main__":

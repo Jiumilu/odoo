@@ -1,0 +1,125 @@
+{
+  "timestamp": "2026-06-05T22:41:07+0000",
+  "config": ".runtime/gpc-odoo.conf",
+  "database": "GCGPC",
+  "base_url": "http://127.0.0.1:8069",
+  "test_user": {
+    "user_id": 7,
+    "login": "gpc.e2e@example.invalid",
+    "groups": [
+      "base.group_user",
+      "base.group_system",
+      "sales_team.group_sale_manager",
+      "purchase.group_purchase_manager",
+      "stock.group_stock_manager",
+      "mrp.group_mrp_manager",
+      "project.group_project_manager"
+    ]
+  },
+  "backend": {
+    "login_page": {
+      "ok": true,
+      "url": "http://127.0.0.1:8069/web/login",
+      "status": 200
+    },
+    "authenticated": {
+      "ok": true,
+      "url": "http://127.0.0.1:8069/odoo/discuss",
+      "status": 200
+    },
+    "entries": {
+      "discuss": {
+        "ok": true,
+        "path": "/odoo/discuss",
+        "status": 200,
+        "final_url": "http://127.0.0.1:8069/odoo/discuss",
+        "bytes": 6495,
+        "seconds": 0.097,
+        "has_webclient_asset": true,
+        "visible_has_legacy_brand": false
+      },
+      "apps": {
+        "ok": true,
+        "path": "/odoo/apps",
+        "status": 200,
+        "final_url": "http://127.0.0.1:8069/odoo/apps",
+        "bytes": 6495,
+        "seconds": 0.178,
+        "has_webclient_asset": true,
+        "visible_has_legacy_brand": false
+      },
+      "contacts": {
+        "ok": true,
+        "path": "/odoo/contacts",
+        "status": 200,
+        "final_url": "http://127.0.0.1:8069/odoo/contacts",
+        "bytes": 6495,
+        "seconds": 0.086,
+        "has_webclient_asset": true,
+        "visible_has_legacy_brand": false
+      },
+      "crm": {
+        "ok": true,
+        "path": "/odoo/crm",
+        "status": 200,
+        "final_url": "http://127.0.0.1:8069/odoo/crm",
+        "bytes": 6495,
+        "seconds": 0.085,
+        "has_webclient_asset": true,
+        "visible_has_legacy_brand": false
+      },
+      "sales": {
+        "ok": true,
+        "path": "/odoo/sales",
+        "status": 200,
+        "final_url": "http://127.0.0.1:8069/odoo/sales",
+        "bytes": 6495,
+        "seconds": 0.11,
+        "has_webclient_asset": true,
+        "visible_has_legacy_brand": false
+      },
+      "purchase": {
+        "ok": true,
+        "path": "/odoo/purchase",
+        "status": 200,
+        "final_url": "http://127.0.0.1:8069/odoo/purchase",
+        "bytes": 6495,
+        "seconds": 0.123,
+        "has_webclient_asset": true,
+        "visible_has_legacy_brand": false
+      },
+      "inventory": {
+        "ok": true,
+        "path": "/odoo/inventory",
+        "status": 200,
+        "final_url": "http://127.0.0.1:8069/odoo/inventory",
+        "bytes": 6495,
+        "seconds": 0.103,
+        "has_webclient_asset": true,
+        "visible_has_legacy_brand": false
+      },
+      "manufacturing": {
+        "ok": true,
+        "path": "/odoo/manufacturing",
+        "status": 200,
+        "final_url": "http://127.0.0.1:8069/odoo/manufacturing",
+        "bytes": 6495,
+        "seconds": 0.081,
+        "has_webclient_asset": true,
+        "visible_has_legacy_brand": false
+      },
+      "project": {
+        "ok": true,
+        "path": "/odoo/project",
+        "status": 200,
+        "final_url": "http://127.0.0.1:8069/odoo/project",
+        "bytes": 6495,
+        "seconds": 0.105,
+        "has_webclient_asset": true,
+        "visible_has_legacy_brand": false
+      }
+    },
+    "ok": true
+  },
+  "ok": true
+}

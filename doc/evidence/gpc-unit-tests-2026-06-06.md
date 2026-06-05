@@ -17,8 +17,10 @@ test_html_and_headers_are_localized (test_gpc_tools.ReverseProxyLocalizationTest
 test_known_json_error_is_localized (test_gpc_tools.ReverseProxyLocalizationTests.test_known_json_error_is_localized) ... ok
 test_non_error_json_passes_through (test_gpc_tools.ReverseProxyLocalizationTests.test_non_error_json_passes_through) ... ok
 test_runtime_replacements_cover_brand_and_contacts (test_gpc_tools.RuntimeLocalizationTests.test_runtime_replacements_cover_brand_and_contacts) ... ok
+test_authenticated_backend_markdown_report (test_gpc_tools.AuthenticatedBackendSmokeTests.test_authenticated_backend_markdown_report) ... ok
+test_extract_csrf_token (test_gpc_tools.AuthenticatedBackendSmokeTests.test_extract_csrf_token) ... ok
 
-Ran 6 tests in 0.002s
+Ran 8 tests in 0.005s
 
 OK
 ```
@@ -30,6 +32,7 @@ OK
 | `tools/gpc_reverse_proxy.py` | 普通 JSON 透传、JSON 错误中文化、HTML 品牌/错误页替换、响应头修正 | 防止代理再次吞掉 `/website/translations` 等正常 JSON |
 | `tools/gpc_apply_runtime_localization.py` | 旧品牌、测试邮箱、电话替换规则 | 防止具体邮箱被通用域名规则提前覆盖 |
 | `tools/gpc_core_flow_smoke.py` | HTTP 成功/错误探针、Markdown 报告生成 | 防止 smoke 证据生成格式回退 |
+| `tools/gpc_authenticated_backend_smoke.py` | CSRF token 提取、登录态后台报告生成 | 防止认证后台 smoke 登录流程和报告格式回退 |
 
 ## 结论
 

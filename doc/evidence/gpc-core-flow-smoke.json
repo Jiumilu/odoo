@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-06T06:36:04+0800",
+  "timestamp": "2026-06-06T06:41:08+0800",
   "config": ".runtime/gpc-odoo.conf",
   "database": "GCGPC",
   "base_url": "http://127.0.0.1:8069",
@@ -8,19 +8,19 @@
       "ok": true,
       "status": 200,
       "bytes": 21214,
-      "seconds": 0.125
+      "seconds": 0.054
     },
     "login": {
       "ok": true,
       "status": 200,
       "bytes": 20204,
-      "seconds": 0.052
+      "seconds": 0.068
     },
     "apps": {
       "ok": true,
       "status": 200,
       "bytes": 20251,
-      "seconds": 0.231
+      "seconds": 0.095
     }
   },
   "flows": {
@@ -49,7 +49,7 @@
     "contact_crud": {
       "ok": true,
       "model": "res.partner",
-      "record_id": 88,
+      "record_id": 91,
       "created_name": "GPC Smoke Customer",
       "updated_phone": "13800000000",
       "lang": "zh_CN",
@@ -58,7 +58,7 @@
     "crm_opportunity": {
       "ok": true,
       "model": "crm.lead",
-      "record_id": 61,
+      "record_id": 62,
       "before_stage": "New",
       "after_stage": "Won",
       "is_won": true
@@ -66,7 +66,7 @@
     "sales_order": {
       "ok": true,
       "model": "sale.order",
-      "record_id": 43,
+      "record_id": 44,
       "before_state": "draft",
       "after_state": "sale",
       "delivery_count": 1
@@ -74,15 +74,15 @@
     "purchase_order": {
       "ok": true,
       "model": "purchase.order",
-      "record_id": 30,
+      "record_id": 31,
       "before_state": "draft",
       "after_state": "purchase",
       "receipt_count": 1
     },
     "stock_receipt_delivery": {
       "ok": true,
-      "receipt_id": 93,
-      "delivery_id": 94,
+      "receipt_id": 97,
+      "delivery_id": 98,
       "receipt_state": "done",
       "delivery_state": "done",
       "qty_after_receipt": 5.0,
@@ -90,7 +90,7 @@
     },
     "manufacturing_order": {
       "ok": true,
-      "production_id": 18,
+      "production_id": 19,
       "states": [
         "draft",
         "confirmed",
@@ -104,8 +104,8 @@
     "project_task": {
       "ok": true,
       "model": "project.task",
-      "record_id": 93,
-      "project_id": 24,
+      "record_id": 94,
+      "project_id": 25,
       "before_stage": false,
       "after_stage": "Inbox"
     },
