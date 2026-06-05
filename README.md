@@ -19,9 +19,17 @@ GlobalCloud GPC（绿色供应链公共服务平台）是基于 Odoo 19.0 的本
    python3.11 -m venv .venv311
    .venv311/bin/python -m pip install --upgrade pip setuptools wheel
    .venv311/bin/python -m pip install -r requirements.txt
+   .venv311/bin/python -m pip install -r requirements-dev.txt
    ```
 
-2. 准备运行配置。
+2. 准备浏览器 E2E 依赖。
+
+   ```bash
+   npm ci
+   npx playwright install chromium
+   ```
+
+3. 准备运行配置。
 
    ```bash
    cp config/gpc-odoo.production.conf.example .runtime/gpc-odoo.conf
@@ -30,17 +38,17 @@ GlobalCloud GPC（绿色供应链公共服务平台）是基于 Odoo 19.0 的本
 
    修改 `.runtime/gpc-odoo.conf` 中的数据库密码、主密码、`addons_path` 和 `data_dir`。
 
-3. 启动 PostgreSQL。
+4. 启动 PostgreSQL。
 
    当前本地约定使用 Docker 容器 `gpc-postgres`，端口映射到 `127.0.0.1:54329`。如需生产部署，请参考 [GPC_DEPLOYMENT.md](/doc/GPC_DEPLOYMENT.md)。
 
-4. 启动 Odoo worker。
+5. 启动 Odoo worker。
 
    ```bash
    .venv311/bin/python odoo-bin -c .runtime/gpc-odoo.conf -d GCGPC
    ```
 
-5. 启动本地反向代理。
+6. 启动本地反向代理。
 
    ```bash
    .venv311/bin/python tools/gpc_reverse_proxy.py \
@@ -50,7 +58,7 @@ GlobalCloud GPC（绿色供应链公共服务平台）是基于 Odoo 19.0 的本
      --websocket-target http://127.0.0.1:8072
    ```
 
-6. 打开系统。
+7. 打开系统。
 
    ```text
    http://127.0.0.1:8069
@@ -72,7 +80,9 @@ GlobalCloud GPC（绿色供应链公共服务平台）是基于 Odoo 19.0 的本
 
 ```bash
 .venv311/bin/python -m pip check
-.venv311/bin/python -m py_compile tools/gpc_health_check.py tools/gpc_reverse_proxy.py tools/complete_zh_cn_i18n.py
+.venv311/bin/python -m py_compile tools/gpc_health_check.py tools/gpc_reverse_proxy.py tools/complete_zh_cn_i18n.py tools/gpc_core_flow_smoke.py tools/gpc_authenticated_backend_smoke.py tools/gpc_apply_runtime_localization.py tests/test_gpc_tools.py
+.venv311/bin/python -m unittest discover -s tests -p 'test_*.py' -v
+npm test
 find addons odoo/addons -path '*/i18n/zh_CN.po' -print0 | xargs -0 -n 1 msgfmt --check -o /tmp/gpc_i18n_check.mo
 .venv311/bin/python odoo-bin -c .runtime/gpc-odoo.conf -d GCGPC --test-enable --test-tags ':TestSelector.test_selector_parser' --stop-after-init --workers=0 --max-cron-threads=0 --http-port=18091 --log-level=test
 ```
@@ -99,6 +109,12 @@ find addons odoo/addons -path '*/i18n/zh_CN.po' -print0 | xargs -0 -n 1 msgfmt -
 .venv311/bin/coverage report -m tools/gpc_core_flow_smoke.py
 ```
 
+真实浏览器表单级 E2E：
+
+```bash
+npm run test:browser:e2e
+```
+
 GitHub Actions 工作流位于 [.github/workflows/gpc-quality.yml](/.github/workflows/gpc-quality.yml)。
 
 ## 交付文档
@@ -114,10 +130,9 @@ GitHub Actions 工作流位于 [.github/workflows/gpc-quality.yml](/.github/work
 
 ## 当前限制
 
-- 当前项目处置等级为 C 类：专项修复后再开发。
-- 未清零 P0/P1 前，不建议上线或新增大功能。
-- 核心业务流程仍需完成 3-5 条可复现 smoke test。
-- 生产部署前必须完成备份、恢复、监控、权限、回滚演练。
+- 当前项目已具备继续开发和交付准备基础。
+- 正式上线前仍需在远端 GitHub Actions 或目标交付环境运行完整门禁。
+- 对上游 Odoo 深层文案的全量人工审校尚未完成；当前中文化证据覆盖 GPC 交付主路径和关键表面。
 
 ## 上游说明
 

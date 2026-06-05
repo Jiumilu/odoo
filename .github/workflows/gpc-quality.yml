@@ -37,6 +37,12 @@ jobs:
           cache: pip
           cache-dependency-path: requirements.txt
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
       - name: Install system packages
         run: |
           sudo apt-get update
@@ -47,6 +53,11 @@ jobs:
           python -m pip install --upgrade pip setuptools wheel
           python -m pip install -r requirements.txt
           python -m pip install -r requirements-dev.txt
+
+      - name: Install browser test dependencies
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
 
       - name: Create CI runtime config
         run: |
@@ -154,6 +165,11 @@ jobs:
             --base-url http://127.0.0.1:18069 \
             --report-json .runtime/gpc-authenticated-backend-smoke.json \
             --report-md .runtime/gpc-authenticated-backend-smoke.md
+          node tools/gpc_browser_form_e2e.cjs \
+            --base-url http://127.0.0.1:18069 \
+            --report-json .runtime/gpc-browser-form-e2e.json \
+            --report-md .runtime/gpc-browser-form-e2e.md \
+            --screenshot .runtime/gpc-browser-form-e2e.png
           coverage run --include='*/tools/gpc_core_flow_smoke.py' tools/gpc_core_flow_smoke.py \
             --config .runtime/ci-odoo.conf \
             --database gpc_ci \

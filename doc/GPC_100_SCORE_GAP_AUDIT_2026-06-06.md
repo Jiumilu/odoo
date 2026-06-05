@@ -21,6 +21,8 @@
 - 上线演练记录已补充到 `doc/GPC_RELEASE_REHEARSAL_2026-06-06.md`。
 - 本地等价质量门禁证据已补充到 `doc/evidence/gpc-local-quality-gate-2026-06-06.md`。
 - 中文化表面抽查已补充到 `doc/evidence/gpc-localization-surface-audit.md`，覆盖联系人导出字段、邮件模板、报表动作。
+- Playwright 已标准化到本仓库 `package.json/package-lock.json`，浏览器 E2E 不再依赖兄弟项目 node_modules。
+- 远端 CI 能力检查已补充到 `doc/evidence/gpc-remote-ci-capability-2026-06-06.md`：当前 `odoo/odoo` 权限为 `READ`，无可写 fork。
 - 外部集成范围已写入 `doc/GPC_SCOPE_AND_EXTERNAL_INTEGRATIONS.md`。
 
 ## 2. 100 分完成判定
@@ -29,18 +31,17 @@
 |---|---|---|---|
 | 健康度 | 接近 | `tools/gpc_health_check.py --json` 可恢复到 local/prod 100；8069/8070/8072 均可运行 | 当前本轮仍有待提交文件，提交后才可重新确认 clean worktree |
 | 功能完整性 | 接近 | 核心模块和 9 条 ORM smoke 通过；登录后 9 个后台入口浏览器通过；认证后台 HTTP smoke 通过；真实浏览器联系人表单 E2E 通过 | 仍需更多业务对象的表单级 E2E，但核心联系人路径已闭环 |
-| 软件测试 | 接近 | 单元测试 11/11 通过；认证后台 HTTP smoke 通过；核心 smoke 通过；核心 smoke coverage 99%；真实浏览器表单 E2E 通过 | 远端 CI 未实际运行；浏览器 E2E 依赖本机 Playwright 来源路径 |
+| 软件测试 | 接近 | 单元测试 11/11 通过；认证后台 HTTP smoke 通过；核心 smoke 通过；核心 smoke coverage 99%；真实浏览器表单 E2E 通过；Playwright 依赖已锁定 | 远端 CI 未实际运行，原因是当前远端只读且无可写 fork |
 | 中文化 | 接近 | 公开页面、登录页、404、登录后后台入口无可见旧品牌残留；联系人导出字段、邮件模板、报表动作抽查通过 | 上游 Odoo 全量深层文案仍未逐条人工审校 |
-| 治理成熟度 | 接近 | README、CI、部署、运维、回滚、范围说明、测试报告、ADR、上线演练、本地质量门禁证据齐备 | 远端 GitHub Actions 未实际运行；浏览器 E2E 依赖本机 Playwright 来源路径 |
+| 治理成熟度 | 接近 | README、CI、部署、运维、回滚、范围说明、测试报告、ADR、上线演练、本地质量门禁证据齐备；浏览器 E2E 依赖已标准化；远端权限已查明 | 远端 GitHub Actions 未实际运行，需可写远端 |
 
 ## 3. 下一步
 
 要真实达到 100，下一轮必须完成：
 
 1. 提交本轮代码与证据后复跑健康检查，确认 clean worktree 下 local/prod health 均为 100。
-2. 将浏览器表单 E2E 的 Playwright 来源标准化到本仓库或 CI 环境。
-3. 在远端 GitHub Actions 或目标交付环境运行完整门禁。
-4. 对上游 Odoo 深层文案做全量人工审校，或明确纳入范围外风险接受。
+2. 创建/授权可写 fork 或切换项目交付远端后，在远端 GitHub Actions 或目标交付环境运行完整门禁。
+3. 对上游 Odoo 深层文案做全量人工审校，或明确纳入范围外风险接受。
 
 ## 4. 当前结论
 

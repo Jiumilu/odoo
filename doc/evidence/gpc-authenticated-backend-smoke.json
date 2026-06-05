@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-05T23:02:41+0000",
+  "timestamp": "2026-06-05T23:14:28+0000",
   "config": ".runtime/gpc-odoo.conf",
   "database": "GCGPC",
   "base_url": "http://127.0.0.1:8069",
@@ -34,7 +34,7 @@
         "status": 200,
         "final_url": "http://127.0.0.1:8069/odoo/discuss",
         "bytes": 6495,
-        "seconds": 0.093,
+        "seconds": 0.101,
         "has_webclient_asset": true,
         "visible_has_legacy_brand": false
       },
@@ -44,7 +44,7 @@
         "status": 200,
         "final_url": "http://127.0.0.1:8069/odoo/apps",
         "bytes": 6495,
-        "seconds": 0.102,
+        "seconds": 0.109,
         "has_webclient_asset": true,
         "visible_has_legacy_brand": false
       },
@@ -54,7 +54,7 @@
         "status": 200,
         "final_url": "http://127.0.0.1:8069/odoo/contacts",
         "bytes": 6495,
-        "seconds": 0.198,
+        "seconds": 0.093,
         "has_webclient_asset": true,
         "visible_has_legacy_brand": false
       },
@@ -64,7 +64,7 @@
         "status": 200,
         "final_url": "http://127.0.0.1:8069/odoo/crm",
         "bytes": 6495,
-        "seconds": 0.1,
+        "seconds": 0.113,
         "has_webclient_asset": true,
         "visible_has_legacy_brand": false
       },
@@ -74,7 +74,7 @@
         "status": 200,
         "final_url": "http://127.0.0.1:8069/odoo/sales",
         "bytes": 6495,
-        "seconds": 0.09,
+        "seconds": 0.121,
         "has_webclient_asset": true,
         "visible_has_legacy_brand": false
       },
@@ -84,7 +84,7 @@
         "status": 200,
         "final_url": "http://127.0.0.1:8069/odoo/purchase",
         "bytes": 6495,
-        "seconds": 0.083,
+        "seconds": 0.11,
         "has_webclient_asset": true,
         "visible_has_legacy_brand": false
       },
@@ -94,7 +94,7 @@
         "status": 200,
         "final_url": "http://127.0.0.1:8069/odoo/inventory",
         "bytes": 6495,
-        "seconds": 0.114,
+        "seconds": 0.113,
         "has_webclient_asset": true,
         "visible_has_legacy_brand": false
       },
@@ -104,7 +104,7 @@
         "status": 200,
         "final_url": "http://127.0.0.1:8069/odoo/manufacturing",
         "bytes": 6495,
-        "seconds": 0.101,
+        "seconds": 0.113,
         "has_webclient_asset": true,
         "visible_has_legacy_brand": false
       },
@@ -114,7 +114,7 @@
         "status": 200,
         "final_url": "http://127.0.0.1:8069/odoo/project",
         "bytes": 6495,
-        "seconds": 0.345,
+        "seconds": 0.096,
         "has_webclient_asset": true,
         "visible_has_legacy_brand": false
       }

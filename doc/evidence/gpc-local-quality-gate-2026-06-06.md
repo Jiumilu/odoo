@@ -10,6 +10,8 @@
 | 健康检查 | `.venv311/bin/python tools/gpc_health_check.py --json` | `local_health_score=100`，`production_readiness_score=100` |
 | Python 编译 | `.venv311/bin/python -m py_compile ...` | 通过 |
 | 单元测试 | `.venv311/bin/python -m unittest discover -s tests -p 'test_*.py' -v` | `11/11 OK` |
+| Node 依赖 | `npm ci` | Playwright 依赖可从本仓库 lockfile 安装 |
+| 浏览器脚本语法 | `npm test` | 通过 |
 | 认证后台 HTTP smoke | `.venv311/bin/python tools/gpc_authenticated_backend_smoke.py --config .runtime/gpc-odoo.conf --database GCGPC --base-url http://127.0.0.1:8069` | 通过，9 个后台入口无失败 |
 | 核心业务 smoke | `.venv311/bin/python tools/gpc_core_flow_smoke.py --config .runtime/gpc-odoo.conf --database GCGPC --base-url http://127.0.0.1:8069 --report-json doc/evidence/gpc-core-flow-smoke.json --report-md doc/evidence/gpc-core-flow-smoke.md` | 通过 |
 | 核心 smoke 覆盖率 | `.venv311/bin/coverage report -m tools/gpc_core_flow_smoke.py` | `99%` |
@@ -18,8 +20,7 @@
 ## 当前限制
 
 - 远端 GitHub Actions 未实际运行；当前为本地等价门禁。
-- 浏览器表单 E2E 复用了本机已有 Playwright：`/Users/lujunxiang/Projects/GlobalCloud GFIS/node_modules/playwright/index.js`。
-- 正式 CI 上线前需要把 Playwright 依赖标准化到本仓库或 CI runner。
+- 浏览器表单 E2E 已标准化到本仓库 `package.json/package-lock.json`，本地复跑来源为 `/Users/lujunxiang/Projects/GlobalCloud GPC/node_modules/playwright/index.js`；正式远端验证仍需要推送到可执行远端。
 
 ## 结论
 

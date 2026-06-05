@@ -44,9 +44,6 @@ function resolvePlaywright() {
   const candidates = [
     process.env.GPC_PLAYWRIGHT_MODULE,
     path.resolve(ROOT, "node_modules/playwright"),
-    path.resolve(ROOT, "../GlobalCloud GFIS/node_modules/playwright"),
-    path.resolve(ROOT, "../GlobalCloud XGD/node_modules/playwright"),
-    path.resolve(ROOT, "../GlobalCloud XiaoC/node_modules/.pnpm/playwright@1.58.2/node_modules/playwright"),
   ].filter(Boolean);
 
   for (const candidate of candidates) {
