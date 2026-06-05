@@ -309,6 +309,26 @@ class AuthenticatedBackendSmokeTests(unittest.TestCase):
 
         self.assertEqual(token, "abc&123")
 
+    def test_select_installed_language_prefers_chinese_and_falls_back(self) -> None:
+        class FakeLangModel:
+            def __init__(self, languages):
+                self.languages = languages
+
+            def get_installed(self):
+                return self.languages
+
+        class FakeEnvironment:
+            def __init__(self, languages):
+                self.languages = languages
+
+            def __getitem__(self, model):
+                self.model = model
+                return FakeLangModel(self.languages)
+
+        self.assertEqual(gpc_authenticated_backend_smoke.select_installed_language(FakeEnvironment([("en_US", "English"), ("zh_CN", "Chinese")])), "zh_CN")
+        self.assertEqual(gpc_authenticated_backend_smoke.select_installed_language(FakeEnvironment([("en_US", "English")])), "en_US")
+        self.assertEqual(gpc_authenticated_backend_smoke.select_installed_language(FakeEnvironment([("fr_FR", "French")])), "fr_FR")
+
     def test_authenticated_backend_markdown_report(self) -> None:
         report = gpc_authenticated_backend_smoke.markdown_report(
             {

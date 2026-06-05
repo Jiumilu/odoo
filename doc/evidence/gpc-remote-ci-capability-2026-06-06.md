@@ -20,6 +20,7 @@ git remote get-url --push origin
 | `Jiumilu/odoo` fork | 已创建 |
 | CI 分支 | `gpc-quality-100` |
 | 首次 CI run | `27045220938` |
+| 第二次 CI run | `27045410278` |
 
 ## 首次远端 CI 结果
 
@@ -45,6 +46,24 @@ git remote get-url --push origin
 
 修复动作：运行态本地化脚本已改为检测可选模型是否存在；缺失 `website`、`mail.template`、`discuss.channel`、`mail.message` 时记录到 `skipped_models`，不再使最小 CI 模块集失败。
 
+## 第二次远端 CI 结果
+
+第二次 run 已验证第一次修复有效，以下步骤新增通过：
+
+- Apply runtime localization defaults
+- minimal Odoo test runner smoke
+- HTTP smoke check
+
+失败步骤：`Run core business flow smoke test`。
+
+失败原因：CI 数据库只校验了 `zh_CN.po` 语法，但未在数据库初始化时安装并激活 `zh_CN`；登录态后台 smoke 创建测试账号时设置 `lang=zh_CN`，触发 `UserError: Invalid language code: zh_CN`。
+
+修复动作：
+
+- CI 安装核心业务模块时增加 `--load-language=zh_CN`，确保数据库层面加载简体中文语言。
+- 登录态后台 smoke 增加已安装语言选择逻辑：优先使用 `zh_CN`，未安装时回退到 `en_US` 或当前任一已安装语言。
+- 本地证据 `doc/evidence/gpc-authenticated-backend-smoke.json` 已记录测试账号实际语言为 `zh_CN`。
+
 ## 结论
 
-当前已具备可写 fork 并已触发远端 CI。第一次 run 已发现并修复一个 CI-only 缺陷；需要重新推送后确认第二轮 run 结果。
+当前已具备可写 fork 并已触发远端 CI。前两次 run 已连续关闭 CI-only 缺陷；需要重新推送后确认第三轮 run 结果。

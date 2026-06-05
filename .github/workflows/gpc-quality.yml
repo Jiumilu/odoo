@@ -101,6 +101,7 @@ jobs:
         run: |
           python odoo-bin -c .runtime/ci-odoo.conf -d gpc_ci \
             --init contacts,crm,sale_management,purchase,stock,mrp,project \
+            --load-language=zh_CN \
             --stop-after-init \
             --workers=0 \
             --max-cron-threads=0 \

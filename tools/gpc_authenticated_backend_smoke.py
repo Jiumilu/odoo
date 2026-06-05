@@ -34,6 +34,15 @@ BACKEND_ENTRIES = (
 )
 
 
+def select_installed_language(env: Any, preferred: str = "zh_CN", fallback: str = "en_US") -> str:
+    installed = {code for code, _name in env["res.lang"].get_installed()}
+    if preferred in installed:
+        return preferred
+    if fallback in installed:
+        return fallback
+    return sorted(installed)[0] if installed else fallback
+
+
 def ensure_test_user(config_path: str, db_name: str, login: str, password: str) -> dict[str, Any]:
     import odoo
     from odoo import api
@@ -57,11 +66,12 @@ def ensure_test_user(config_path: str, db_name: str, login: str, password: str) 
         groups = [env.ref(xmlid).id for xmlid in group_xmlids]
         user = env["res.users"].search([("login", "=", login)], limit=1)
         group_field = "groups_id" if "groups_id" in env["res.users"]._fields else "group_ids"
+        language = select_installed_language(env)
         values = {
             "name": "GlobalCloud GPC E2E User",
             "login": login,
             "email": login,
-            "lang": "zh_CN",
+            "lang": language,
             "tz": "Asia/Shanghai",
             "active": True,
             group_field: [(6, 0, groups)],
@@ -72,7 +82,7 @@ def ensure_test_user(config_path: str, db_name: str, login: str, password: str) 
             user = env["res.users"].create(values)
         user.write({"password": password})
         cr.commit()
-        return {"user_id": user.id, "login": login, "groups": list(group_xmlids)}
+        return {"user_id": user.id, "login": login, "lang": language, "groups": list(group_xmlids)}
 
 
 def open_text(opener: urllib.request.OpenerDirector, url: str, data: bytes | None = None, timeout: int = 15) -> tuple[str, str, int]:
