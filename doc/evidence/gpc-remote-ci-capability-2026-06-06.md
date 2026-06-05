@@ -23,6 +23,7 @@ git remote get-url --push origin
 | 第二次 CI run | `27045410278` |
 | 第三次 CI run | `27045705371` |
 | 第四次 CI run | `27045895834` |
+| 第五次 CI run | `27046203457` |
 
 ## 首次远端 CI 结果
 
@@ -121,6 +122,22 @@ git remote get-url --push origin
 
 后续调整：第四次 run 的 live-only coverage 为 `87%`，因为只统计真实 smoke 正常路径，未合并已存在的异常分支单元测试。CI 已调整为先运行 `CoreFlowSmokeTests`，再追加真实核心流程 smoke，以使覆盖率报告同时反映异常分支与真实业务路径。
 
+## 第五次远端 CI 结果
+
+第五次 run 已通过，GitHub Actions 地址：
+
+`https://github.com/Jiumilu/odoo/actions/runs/27046203457`
+
+确认结果：
+
+- workflow 总结论：`success`
+- job：`Python, i18n, and Odoo smoke checks`
+- job 结论：`success`
+- 核心流程 smoke：`ok=true`
+- Browser 表单 E2E：保存联系人并回查成功，页面标题为 `联系人`，`visibleHasLegacyBrand=false`
+- 权限边界：`permission_boundary.ok=true`，CI 中临时创建 portal smoke 用户，`portal_sale_create=AccessError`、`public_sale_create=AccessError`
+- 覆盖率：`tools/gpc_core_flow_smoke.py 187 stmts, 0 miss, 100%`
+
 ## 结论
 
-当前已具备可写 fork 并已触发远端 CI。第四次 run 已完整通过；下一轮只需确认合并覆盖率统计后的第五次 run 结果。
+当前已具备可写 fork 并已触发远端 CI。第五次 run 已完整通过，且远端核心流程 smoke 覆盖率为 `100%`。
