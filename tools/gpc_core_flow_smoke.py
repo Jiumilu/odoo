@@ -48,6 +48,7 @@ def mark(ok: bool, evidence: dict[str, Any], error: str | None = None) -> dict[s
 def run_orm_smoke(config_path: str, db_name: str) -> dict[str, Any]:
     import odoo
     from odoo import api
+    from odoo.exceptions import AccessError
     from odoo.modules.registry import Registry
     from odoo.tools import config
 
@@ -151,6 +152,32 @@ def run_orm_smoke(config_path: str, db_name: str) -> dict[str, Any]:
             )
         except Exception as exc:
             flows["project_task"] = mark(False, {"model": "project.task"}, repr(exc))
+
+        try:
+            admin = env["res.users"].with_context(active_test=False).search([("login", "=", "gcgpc@csydsc.com")], limit=1)
+            portal = env["res.users"].with_context(active_test=False).search([("login", "=", "portal")], limit=1)
+            public = env["res.users"].with_context(active_test=False).search([("login", "=", "public")], limit=1)
+            admin_partner = env(user=admin)["res.partner"].create({"name": "GPC Permission Smoke Customer"})
+            denied: dict[str, str] = {}
+            for login, user in (("portal", portal), ("public", public)):
+                try:
+                    env(user=user)["sale.order"].create({"partner_id": partner.id})
+                    denied[login] = "unexpectedly_allowed"
+                except Exception as exc:
+                    denied[login] = type(exc).__name__
+            flows["permission_boundary"] = mark(
+                bool(admin_partner.id) and denied == {"portal": "AccessError", "public": "AccessError"},
+                {
+                    "admin_create_partner": bool(admin_partner.id),
+                    "portal_sale_create": denied.get("portal"),
+                    "public_sale_create": denied.get("public"),
+                    "expected_denial": "AccessError",
+                },
+            )
+        except AccessError as exc:
+            flows["permission_boundary"] = mark(False, {"model": "res.users/sale.order"}, repr(exc))
+        except Exception as exc:
+            flows["permission_boundary"] = mark(False, {"model": "res.users/sale.order"}, repr(exc))
 
         cr.rollback()
 

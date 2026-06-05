@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-05T23:50:58+0800",
+  "timestamp": "2026-06-06T06:12:58+0800",
   "config": ".runtime/gpc-odoo.conf",
   "database": "GCGPC",
   "base_url": "http://127.0.0.1:8069",
@@ -7,20 +7,20 @@
     "website_home": {
       "ok": true,
       "status": 200,
-      "bytes": 21052,
-      "seconds": 0.022
+      "bytes": 21226,
+      "seconds": 0.024
     },
     "login": {
       "ok": true,
       "status": 200,
       "bytes": 20216,
-      "seconds": 0.019
+      "seconds": 0.029
     },
     "apps": {
       "ok": true,
       "status": 200,
       "bytes": 20263,
-      "seconds": 0.023
+      "seconds": 0.057
     }
   },
   "flows": {
@@ -49,7 +49,7 @@
     "contact_crud": {
       "ok": true,
       "model": "res.partner",
-      "record_id": 66,
+      "record_id": 73,
       "created_name": "GPC Smoke Customer",
       "updated_phone": "13800000000",
       "lang": "zh_CN",
@@ -58,7 +58,7 @@
     "crm_opportunity": {
       "ok": true,
       "model": "crm.lead",
-      "record_id": 54,
+      "record_id": 57,
       "before_stage": "New",
       "after_stage": "Won",
       "is_won": true
@@ -66,7 +66,7 @@
     "sales_order": {
       "ok": true,
       "model": "sale.order",
-      "record_id": 36,
+      "record_id": 39,
       "before_state": "draft",
       "after_state": "sale",
       "delivery_count": 1
@@ -74,7 +74,7 @@
     "purchase_order": {
       "ok": true,
       "model": "purchase.order",
-      "record_id": 23,
+      "record_id": 26,
       "before_state": "draft",
       "after_state": "purchase",
       "receipt_count": 1
@@ -82,10 +82,17 @@
     "project_task": {
       "ok": true,
       "model": "project.task",
-      "record_id": 85,
-      "project_id": 17,
+      "record_id": 88,
+      "project_id": 20,
       "before_stage": false,
       "after_stage": "Inbox"
+    },
+    "permission_boundary": {
+      "ok": true,
+      "admin_create_partner": true,
+      "portal_sale_create": "AccessError",
+      "public_sale_create": "AccessError",
+      "expected_denial": "AccessError"
     }
   },
   "ok": true

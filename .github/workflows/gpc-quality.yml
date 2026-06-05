@@ -73,7 +73,7 @@ jobs:
         run: python -m pip check
 
       - name: Compile local maintenance tools
-        run: python -m py_compile tools/gpc_health_check.py tools/gpc_reverse_proxy.py tools/complete_zh_cn_i18n.py
+        run: python -m py_compile tools/gpc_health_check.py tools/gpc_reverse_proxy.py tools/complete_zh_cn_i18n.py tools/gpc_core_flow_smoke.py tools/gpc_apply_runtime_localization.py
 
       - name: Validate zh_CN translation syntax
         run: |
@@ -89,6 +89,13 @@ jobs:
             --max-cron-threads=0 \
             --http-port=18069 \
             --log-level=warn
+
+      - name: Apply runtime localization defaults
+        run: |
+          python tools/gpc_apply_runtime_localization.py \
+            --config .runtime/ci-odoo.conf \
+            --database gpc_ci \
+            --json
 
       - name: Run minimal Odoo test runner smoke test
         run: |
