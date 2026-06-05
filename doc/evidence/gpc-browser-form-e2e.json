@@ -1,0 +1,50 @@
+{
+  "timestamp": "2026-06-05T23:03:04.469Z",
+  "baseUrl": "http://127.0.0.1:8069",
+  "playwrightSource": "/Users/lujunxiang/Projects/GlobalCloud GFIS/node_modules/playwright/index.js",
+  "contactName": "GPC Browser Form E2E 20260605230242",
+  "steps": [
+    {
+      "name": "login",
+      "ok": true,
+      "url": "http://127.0.0.1:8069/odoo/discuss",
+      "title": "讨论"
+    },
+    {
+      "name": "open_contacts",
+      "ok": true,
+      "url": "http://127.0.0.1:8069/odoo/contacts",
+      "title": "联系人"
+    },
+    {
+      "name": "fill_contact_form",
+      "ok": true,
+      "contactName": "GPC Browser Form E2E 20260605230242",
+      "email": "browser-form-e2e@gc-gpc.example.com",
+      "phone": "13900000002"
+    },
+    {
+      "name": "save_contact",
+      "ok": true,
+      "url": "http://127.0.0.1:8069/odoo/contacts/102",
+      "title": "GPC Browser Form E2E 20260605230242",
+      "recordId": 102,
+      "hasContactName": true,
+      "savedRecord": {
+        "id": 102,
+        "name": "GPC Browser Form E2E 20260605230242",
+        "email": "browser-form-e2e@gc-gpc.example.com",
+        "phone": "13900000002"
+      }
+    },
+    {
+      "name": "search_contact",
+      "ok": true,
+      "url": "http://127.0.0.1:8069/odoo/contacts",
+      "title": "联系人",
+      "hasContactName": true,
+      "visibleHasLegacyBrand": false
+    }
+  ],
+  "ok": true
+}

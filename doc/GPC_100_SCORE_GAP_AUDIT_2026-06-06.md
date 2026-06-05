@@ -14,7 +14,13 @@
 - 反向代理已修复正常 JSON 响应透传问题，`/website/translations` 通过 8069 返回 `200` 和 `367811` 字节 JSON。
 - 网站/邮件模板/伙伴/聊天频道/历史消息中的可见 YourCompany、公司 name、OdooBot 残留已清理。
 - 认证后台 HTTP smoke 已加入 `tools/gpc_authenticated_backend_smoke.py`，可自动登录并验证 9 个后台入口。
-- 本地工具单元测试已加入 `tests/test_gpc_tools.py`，当前 `8/8` 通过，并纳入 `.github/workflows/gpc-quality.yml`。
+- 真实浏览器表单级 E2E 已加入 `tools/gpc_browser_form_e2e.cjs`，已验证登录、联系人新建、字段输入、保存、登录态 API 读取、列表搜索。
+- 本地工具单元测试已加入 `tests/test_gpc_tools.py`，当前 `11/11` 通过，并纳入 `.github/workflows/gpc-quality.yml`。
+- 核心 smoke coverage 已从 `88%` 提升到 `99%`。
+- ADR 已补充到 `doc/GPC_ADR_2026-06-06.md`。
+- 上线演练记录已补充到 `doc/GPC_RELEASE_REHEARSAL_2026-06-06.md`。
+- 本地等价质量门禁证据已补充到 `doc/evidence/gpc-local-quality-gate-2026-06-06.md`。
+- 中文化表面抽查已补充到 `doc/evidence/gpc-localization-surface-audit.md`，覆盖联系人导出字段、邮件模板、报表动作。
 - 外部集成范围已写入 `doc/GPC_SCOPE_AND_EXTERNAL_INTEGRATIONS.md`。
 
 ## 2. 100 分完成判定
@@ -22,20 +28,19 @@
 | 维度 | 是否可声称 100 | 当前证据 | 阻止 100 的原因 |
 |---|---|---|---|
 | 健康度 | 接近 | `tools/gpc_health_check.py --json` 可恢复到 local/prod 100；8069/8070/8072 均可运行 | 当前本轮仍有待提交文件，提交后才可重新确认 clean worktree |
-| 功能完整性 | 接近 | 核心模块和 9 条 ORM smoke 通过；登录后 9 个后台入口浏览器通过；认证后台 HTTP smoke 通过 | 仍缺真实用户级表单点击 E2E 自动化，当前由 ORM smoke 证明业务闭环 |
-| 软件测试 | 未完成 | 单元测试 8/8 通过；认证后台 HTTP smoke 通过；核心 smoke 通过；核心 smoke coverage 88% | 未达到 95% 覆盖率目标；浏览器 E2E 仍未覆盖真实表单点击 |
-| 中文化 | 接近 | 公开页面、登录页、404、登录后后台入口无可见旧品牌残留 | 导出文件、邮件预览、报表字段仍需抽查 |
-| 治理成熟度 | 接近 | README、CI、部署、运维、回滚、范围说明、测试报告、证据文件齐备 | 远端 GitHub Actions 未实际运行，ADR/上线演练记录仍不足 |
+| 功能完整性 | 接近 | 核心模块和 9 条 ORM smoke 通过；登录后 9 个后台入口浏览器通过；认证后台 HTTP smoke 通过；真实浏览器联系人表单 E2E 通过 | 仍需更多业务对象的表单级 E2E，但核心联系人路径已闭环 |
+| 软件测试 | 接近 | 单元测试 11/11 通过；认证后台 HTTP smoke 通过；核心 smoke 通过；核心 smoke coverage 99%；真实浏览器表单 E2E 通过 | 远端 CI 未实际运行；浏览器 E2E 依赖本机 Playwright 来源路径 |
+| 中文化 | 接近 | 公开页面、登录页、404、登录后后台入口无可见旧品牌残留；联系人导出字段、邮件模板、报表动作抽查通过 | 上游 Odoo 全量深层文案仍未逐条人工审校 |
+| 治理成熟度 | 接近 | README、CI、部署、运维、回滚、范围说明、测试报告、ADR、上线演练、本地质量门禁证据齐备 | 远端 GitHub Actions 未实际运行；浏览器 E2E 依赖本机 Playwright 来源路径 |
 
 ## 3. 下一步
 
 要真实达到 100，下一轮必须完成：
 
 1. 提交本轮代码与证据后复跑健康检查，确认 clean worktree 下 local/prod health 均为 100。
-2. 将浏览器登录态 E2E 进一步提升到真实表单点击级，至少覆盖登录、进入后台模块、创建/搜索/查看一条业务记录。
-3. 将核心流程 coverage 从 88% 提升到 95% 以上，或建立明确的风险接受说明。
-4. 补 ADR、上线演练记录、远端 CI 或本地等价 CI 完整日志。
-5. 抽查导出、邮件预览、报表字段的中文化。
+2. 将浏览器表单 E2E 的 Playwright 来源标准化到本仓库或 CI 环境。
+3. 在远端 GitHub Actions 或目标交付环境运行完整门禁。
+4. 对上游 Odoo 深层文案做全量人工审校，或明确纳入范围外风险接受。
 
 ## 4. 当前结论
 

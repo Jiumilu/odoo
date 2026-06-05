@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import json
+import sys
+import types
 import unittest
 from unittest import mock
 
@@ -81,6 +83,207 @@ class CoreFlowSmokeTests(unittest.TestCase):
         self.assertFalse(failure["ok"])
         self.assertEqual(failure["status"], 404)
         self.assertEqual(failure["bytes"], 0)
+
+        with mock.patch("urllib.request.urlopen", side_effect=TimeoutError("timed out")):
+            timeout = gpc_core_flow_smoke.http_probe("http://example.invalid")
+
+        self.assertFalse(timeout["ok"])
+        self.assertIsNone(timeout["status"])
+        self.assertIn("timed out", timeout["error"])
+
+    def test_mark_adds_error_when_provided(self) -> None:
+        result = gpc_core_flow_smoke.mark(False, {"model": "res.partner"}, "boom")
+
+        self.assertEqual(result["model"], "res.partner")
+        self.assertEqual(result["error"], "boom")
+
+    def test_run_orm_smoke_reports_missing_modules_without_database_writes(self) -> None:
+        class FakeCursor:
+            rolled_back = False
+
+            def __enter__(self):
+                return self
+
+            def __exit__(self, *args):
+                return None
+
+            def rollback(self):
+                self.rolled_back = True
+
+        class FakeRegistry:
+            cursor_obj = FakeCursor()
+
+            def __init__(self, database):
+                self.database = database
+
+            def cursor(self):
+                return self.cursor_obj
+
+        class FakeRecordSet:
+            def mapped(self, field):
+                self.mapped_field = field
+                return []
+
+        class FakeModuleModel:
+            def search(self, domain):
+                self.domain = domain
+                return FakeRecordSet()
+
+        class FakeEnvironment:
+            SUPERUSER_ID = 1
+
+            def __init__(self, cr, user, context):
+                self.cr = cr
+                self.user = user
+                self.context = context
+
+            def __getitem__(self, model):
+                self.model = model
+                return FakeModuleModel()
+
+        fake_odoo = types.ModuleType("odoo")
+        fake_api = types.SimpleNamespace(Environment=FakeEnvironment, SUPERUSER_ID=1)
+        fake_odoo.api = fake_api
+        fake_exceptions = types.ModuleType("odoo.exceptions")
+        fake_exceptions.AccessError = type("AccessError", (Exception,), {})
+        fake_registry_module = types.ModuleType("odoo.modules.registry")
+        fake_registry_module.Registry = FakeRegistry
+        fake_tools = types.ModuleType("odoo.tools")
+        fake_tools.config = types.SimpleNamespace(parse_config=lambda args: None)
+        fake_odoo.tools = fake_tools
+
+        with mock.patch.dict(
+            sys.modules,
+            {
+                "odoo": fake_odoo,
+                "odoo.exceptions": fake_exceptions,
+                "odoo.modules.registry": fake_registry_module,
+                "odoo.tools": fake_tools,
+            },
+        ):
+            flows = gpc_core_flow_smoke.run_orm_smoke("fake.conf", "fake_db")
+
+        self.assertFalse(flows["module_baseline"]["ok"])
+        self.assertEqual(flows["module_baseline"]["installed"], [])
+        self.assertEqual(sorted(flows["module_baseline"]["missing"]), sorted(gpc_core_flow_smoke.REQUIRED_MODULES))
+        self.assertTrue(FakeRegistry.cursor_obj.rolled_back)
+
+    def test_run_orm_smoke_reports_flow_failures(self) -> None:
+        class FakeAccessError(Exception):
+            pass
+
+        class FakeCursor:
+            def __enter__(self):
+                return self
+
+            def __exit__(self, *args):
+                return None
+
+            def rollback(self):
+                self.rolled_back = True
+
+        class FakeRegistry:
+            cursor_obj = FakeCursor()
+
+            def __init__(self, database):
+                self.database = database
+
+            def cursor(self):
+                return self.cursor_obj
+
+        class FakeRecordSet:
+            def mapped(self, field):
+                return list(gpc_core_flow_smoke.REQUIRED_MODULES)
+
+        class FakeModuleModel:
+            def search(self, domain):
+                return FakeRecordSet()
+
+        class FakeRecord:
+            id = 1
+            phone = ""
+            lang = "zh_CN"
+            tz = "Asia/Shanghai"
+            name = "Fake Record"
+
+            def write(self, values):
+                for key, value in values.items():
+                    setattr(self, key, value)
+
+            def exists(self):
+                return True
+
+        class FakePartnerModel:
+            def __init__(self, user=None):
+                self.user = user
+
+            def create(self, values):
+                if self.user:
+                    raise FakeAccessError("permission denied")
+                record = FakeRecord()
+                record.name = values.get("name", "Fake Record")
+                return record
+
+        class FakeFailModel:
+            def create(self, values):
+                raise RuntimeError("planned failure")
+
+        class FakeUserModel:
+            def search(self, domain, limit=1):
+                user = FakeRecord()
+                user.login = domain[0][2]
+                return user
+
+        class FakeEnvironment:
+            def __init__(self, cr, user, context, active_user=None):
+                self.cr = cr
+                self.user = user
+                self.context = context
+                self.active_user = active_user
+
+            def __call__(self, user):
+                return FakeEnvironment(self.cr, self.user, self.context, user)
+
+            def __getitem__(self, model):
+                if model == "ir.module.module":
+                    return FakeModuleModel()
+                if model == "res.partner":
+                    return FakePartnerModel(self.active_user)
+                if model == "res.users":
+                    return FakeUserModel()
+                return FakeFailModel()
+
+            def ref(self, xmlid):
+                raise RuntimeError(f"missing ref {xmlid}")
+
+        fake_odoo = types.ModuleType("odoo")
+        fake_api = types.SimpleNamespace(Environment=FakeEnvironment, SUPERUSER_ID=1)
+        fake_odoo.api = fake_api
+        fake_exceptions = types.ModuleType("odoo.exceptions")
+        fake_exceptions.AccessError = FakeAccessError
+        fake_registry_module = types.ModuleType("odoo.modules.registry")
+        fake_registry_module.Registry = FakeRegistry
+        fake_tools = types.ModuleType("odoo.tools")
+        fake_tools.config = types.SimpleNamespace(parse_config=lambda args: None)
+        fake_odoo.tools = fake_tools
+
+        with mock.patch.dict(
+            sys.modules,
+            {
+                "odoo": fake_odoo,
+                "odoo.exceptions": fake_exceptions,
+                "odoo.modules.registry": fake_registry_module,
+                "odoo.tools": fake_tools,
+            },
+        ):
+            flows = gpc_core_flow_smoke.run_orm_smoke("fake.conf", "fake_db")
+
+        self.assertTrue(flows["module_baseline"]["ok"])
+        self.assertTrue(flows["contact_crud"]["ok"])
+        for name in ("crm_opportunity", "sales_order", "purchase_order", "stock_receipt_delivery", "manufacturing_order", "project_task", "permission_boundary"):
+            self.assertFalse(flows[name]["ok"], name)
+            self.assertIn("error", flows[name])
+        self.assertTrue(FakeRegistry.cursor_obj.rolled_back)
 
     def test_markdown_report_contains_flow_evidence(self) -> None:
         report = gpc_core_flow_smoke.markdown_report(

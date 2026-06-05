@@ -1,0 +1,21 @@
+{
+  "sample_partner": {
+    "id": 101,
+    "name": "GPC Browser Form E2E 20260605225526",
+    "email": "browser-form-e2e@gc-gpc.example.com",
+    "phone": "13900000002"
+  },
+  "export": {
+    "path": "/Users/lujunxiang/Projects/GlobalCloud GPC/doc/evidence/gpc-contact-export-sample.csv",
+    "headers": [
+      "名称",
+      "电子邮件",
+      "电话"
+    ],
+    "row_count": 1,
+    "utf8_sig": true
+  },
+  "mail_template_legacy_hits": [],
+  "report_legacy_hits": [],
+  "ok": true
+}
