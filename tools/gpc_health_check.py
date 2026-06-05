@@ -11,6 +11,7 @@ import re
 import subprocess
 import sys
 import time
+import urllib.parse
 import urllib.error
 import urllib.request
 from pathlib import Path
@@ -105,6 +106,21 @@ def git_dirty_counts() -> dict:
     return counts
 
 
+def listen_ports() -> dict:
+    result = run(["lsof", "-nP", "-iTCP", "-sTCP:LISTEN"], timeout=10)
+    listeners: dict[str, list[str]] = {}
+    for line in result.get("stdout", "").splitlines()[1:]:
+        parts = line.split()
+        if len(parts) < 9:
+            continue
+        address = parts[-2] if parts[-1] == "(LISTEN)" else parts[-1]
+        if ":" not in address:
+            continue
+        port = address.rsplit(":", 1)[-1]
+        listeners.setdefault(port, []).append(" ".join(parts[:2] + [address]))
+    return {"ok": result["ok"], "ports": listeners}
+
+
 def score_item(points: int, ok: bool, label: str, evidence: dict | str, findings: list[dict]) -> int:
     if ok:
         return points
@@ -125,8 +141,11 @@ def main() -> int:
 
     login = http_probe(args.base_url.rstrip("/") + "/web/login")
     apps = http_probe(args.base_url.rstrip("/") + "/odoo/apps")
+    base = urllib.parse.urlparse(args.base_url)
+    base_port = str(base.port or (443 if base.scheme == "https" else 80))
     ports = run(["docker", "ps", "--format", "{{.Names}}\t{{.Status}}\t{{.Ports}}"], timeout=10)
     port_line = next((line for line in ports["stdout"].splitlines() if line.startswith("gpc-postgres\t")), "")
+    listeners = listen_ports()
     proc = run(["sh", "-c", "ps -axo pid,command | rg 'odoo-bin' | rg -v rg"], timeout=10)
     cmdline = proc["stdout"]
 
@@ -170,6 +189,19 @@ def main() -> int:
     if config.get("workers", "0") in {"0", ""}:
         production_findings.append({"label": "workers_not_enabled", "lost": 10, "evidence": {"workers": config.get("workers")}})
         production -= 10
+    workers_enabled = config.get("workers", "0") not in {"0", ""}
+    if workers_enabled and not config.get("gevent_port"):
+        production_findings.append({"label": "gevent_port_not_configured", "lost": 5, "evidence": {"gevent_port": config.get("gevent_port")}})
+        production -= 5
+    if workers_enabled and config.get("http_port") == base_port:
+        production_findings.append(
+            {
+                "label": "worker_http_port_exposed_directly",
+                "lost": 5,
+                "evidence": {"base_url_port": base_port, "http_port": config.get("http_port"), "expected": "reverse proxy in front of worker HTTP port"},
+            }
+        )
+        production -= 5
 
     result = {
         "local_health_score": max(0, min(100, local)),
@@ -180,13 +212,16 @@ def main() -> int:
             "login": login,
             "apps": apps,
             "postgres_port": port_line,
+            "listeners": listeners,
             "db": {"locks": locks, "long_queries": long_queries, "long_transactions": long_tx, "pending_modules": pending_modules, "cron_failures": cron_failures},
             "git": git_counts,
             "config": {
                 "path": str(config_path),
                 "list_db": config.get("list_db"),
                 "workers": config.get("workers"),
+                "gevent_port": config.get("gevent_port"),
                 "http_interface": config.get("http_interface"),
+                "http_port": config.get("http_port"),
                 "db_host": config.get("db_host"),
                 "db_port": config.get("db_port"),
             },

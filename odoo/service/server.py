@@ -1313,10 +1313,15 @@ class Worker(object):
     def run(self):
         try:
             self.start()
-            t = threading.Thread(name="Worker %s (%s) workthread" % (self.__class__.__name__, self.pid), target=self._runloop)
-            t.daemon = True
-            t.start()
-            t.join()
+            if platform.system() == 'Darwin':
+                # Avoid a macOS libpq/psycopg2 fork crash when the worker opens
+                # database connections from an extra child thread.
+                self._runloop()
+            else:
+                t = threading.Thread(name="Worker %s (%s) workthread" % (self.__class__.__name__, self.pid), target=self._runloop)
+                t.daemon = True
+                t.start()
+                t.join()
             _logger.info("Worker (%s) exiting. request_count: %s, registry count: %s.",
                          self.pid, self.request_count,
                          len(Registry.registries))
