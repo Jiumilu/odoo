@@ -58,6 +58,10 @@ def replace_jsonb_column(cr, table: str, column: str) -> int:
     return changed
 
 
+def has_model(env, model_name: str) -> bool:
+    return model_name in env.registry.models
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--config", default=".runtime/gpc-odoo.conf")
@@ -81,6 +85,7 @@ def main() -> int:
         "websites": [],
         "discuss_channels": [],
         "mail_messages": [],
+        "skipped_models": [],
     }
     with Registry(args.database).cursor() as cr:
         env = api.Environment(cr, api.SUPERUSER_ID, {"active_test": False})
@@ -91,17 +96,20 @@ def main() -> int:
                 view.write({"arch_db": new_arch})
                 evidence["views"].append({"id": view.id, "key": view.key, "name": view.name})
 
-        for template in env["mail.template"].search([]):
-            updates = {}
-            new_body, body_changed = replace_text(template.body_html)
-            if body_changed:
-                updates["body_html"] = new_body
-            new_subject, subject_changed = replace_text(template.subject)
-            if subject_changed:
-                updates["subject"] = new_subject
-            if updates:
-                template.write(updates)
-                evidence["mail_templates"].append({"id": template.id, "name": template.name})
+        if has_model(env, "mail.template"):
+            for template in env["mail.template"].search([]):
+                updates = {}
+                new_body, body_changed = replace_text(template.body_html)
+                if body_changed:
+                    updates["body_html"] = new_body
+                new_subject, subject_changed = replace_text(template.subject)
+                if subject_changed:
+                    updates["subject"] = new_subject
+                if updates:
+                    template.write(updates)
+                    evidence["mail_templates"].append({"id": template.id, "name": template.name})
+        else:
+            evidence["skipped_models"].append("mail.template")
 
         for partner in env["res.partner"].search([]):
             updates = {}
@@ -125,38 +133,52 @@ def main() -> int:
                 company.write(updates)
                 evidence["companies"].append({"id": company.id, "name": company.name, "updates": updates})
 
-        for channel in env["discuss.channel"].search([]):
-            new_name, changed = replace_text(channel.name)
-            if changed:
-                channel.write({"name": new_name})
-                evidence["discuss_channels"].append({"id": channel.id, "updates": {"name": new_name}})
+        if has_model(env, "discuss.channel"):
+            for channel in env["discuss.channel"].search([]):
+                new_name, changed = replace_text(channel.name)
+                if changed:
+                    channel.write({"name": new_name})
+                    evidence["discuss_channels"].append({"id": channel.id, "updates": {"name": new_name}})
+        else:
+            evidence["skipped_models"].append("discuss.channel")
 
-        for message in env["mail.message"].search([]):
-            updates = {}
-            for field in ("subject", "body"):
-                if field in message._fields:
-                    new_value, changed = replace_text(message[field])
-                    if changed:
-                        updates[field] = new_value
-            if updates:
-                message.write(updates)
-                evidence["mail_messages"].append({"id": message.id, "updates": sorted(updates)})
+        if has_model(env, "mail.message"):
+            for message in env["mail.message"].search([]):
+                updates = {}
+                for field in ("subject", "body"):
+                    if field in message._fields:
+                        new_value, changed = replace_text(message[field])
+                        if changed:
+                            updates[field] = new_value
+                if updates:
+                    message.write(updates)
+                    evidence["mail_messages"].append({"id": message.id, "updates": sorted(updates)})
+        else:
+            evidence["skipped_models"].append("mail.message")
 
-        for website in env["website"].search([]):
-            updates = {}
-            new_name, changed = replace_text(website.name)
-            if changed or website.name != "绿色供应链公共服务平台":
-                updates["name"] = "绿色供应链公共服务平台"
-            if updates:
-                website.write(updates)
-                evidence["websites"].append({"id": website.id, "updates": updates})
+        if has_model(env, "website"):
+            for website in env["website"].search([]):
+                updates = {}
+                new_name, changed = replace_text(website.name)
+                if changed or website.name != "绿色供应链公共服务平台":
+                    updates["name"] = "绿色供应链公共服务平台"
+                if updates:
+                    website.write(updates)
+                    evidence["websites"].append({"id": website.id, "updates": updates})
+        else:
+            evidence["skipped_models"].append("website")
 
         evidence["jsonb_replacements"] = {
             "ir_ui_view.arch_db": replace_jsonb_column(cr, "ir_ui_view", "arch_db"),
-            "mail_template.name": replace_jsonb_column(cr, "mail_template", "name"),
-            "mail_template.subject": replace_jsonb_column(cr, "mail_template", "subject"),
-            "mail_template.body_html": replace_jsonb_column(cr, "mail_template", "body_html"),
         }
+        if has_model(env, "mail.template"):
+            evidence["jsonb_replacements"].update(
+                {
+                    "mail_template.name": replace_jsonb_column(cr, "mail_template", "name"),
+                    "mail_template.subject": replace_jsonb_column(cr, "mail_template", "subject"),
+                    "mail_template.body_html": replace_jsonb_column(cr, "mail_template", "body_html"),
+                }
+            )
 
         cr.commit()
 
