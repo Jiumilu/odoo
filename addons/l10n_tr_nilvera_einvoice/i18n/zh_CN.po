@@ -1,0 +1,576 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_tr_nilvera_einvoice
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:res.partner.category,name:l10n_tr_nilvera_einvoice.res_partner_category_aboneno
+msgid "ABONENO"
+msgstr "ABONENO（技术名称）"
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:res.partner.category,name:l10n_tr_nilvera_einvoice.res_partner_category_aracikurumetiket
+msgid "ARACIKURUMETIKET"
+msgstr "ARACIKURUMETIKET（技术名称）"
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:res.partner.category,name:l10n_tr_nilvera_einvoice.res_partner_category_aracikurumvkn
+msgid "ARACIKURUMVKN"
+msgstr "ARACIKURUMVKN（技术名称）"
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_tr_nilvera_einvoice.model_account_move_send
+msgid "Account Move Send"
+msgstr "科目分录发送"
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:res.partner.category,name:l10n_tr_nilvera_einvoice.res_partner_category_bayino
+msgid "BAYINO"
+msgstr "BAYINO（技术名称）"
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:res.partner.category,name:l10n_tr_nilvera_einvoice.res_partner_category_ciftcino
+msgid "CIFTCINO"
+msgstr "CIFTCINO（技术名称）"
+
+#. module: l10n_tr_nilvera_einvoice
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_einvoice/models/account_move_send.py:0
+msgid "Check Tax ID, City, Street, State, and Country or Company(s)"
+msgstr "检查 税 ID, 城市, Street, 状态, and 国家/地区 or 公司(s)"
+
+#. module: l10n_tr_nilvera_einvoice
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_einvoice/models/account_move_send.py:0
+msgid "Check Tax ID, City, Street, State, and Country or Partner(s)"
+msgstr "检查 税 ID, 城市, Street, 状态, and 国家/地区 or 业务伙伴(s)"
+
+#. module: l10n_tr_nilvera_einvoice
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_einvoice/models/account_move_send.py:0
+msgid "Check data on Invoice(s)"
+msgstr "检查 data on 发票(s)"
+
+#. module: l10n_tr_nilvera_einvoice
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_einvoice/models/account_move_send.py:0
+msgid "Check e-Invoice Format or Nilvera Status on Partner(s)"
+msgstr "检查 电子发票 Format or Nilvera 状态 on 业务伙伴(s)"
+
+#. module: l10n_tr_nilvera_einvoice
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_einvoice/models/account_move_send.py:0
+msgid "Check name on Invoice(s)"
+msgstr "检查 名称 on 发票(s)"
+
+#. module: l10n_tr_nilvera_einvoice
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_einvoice/models/account_move_send.py:0
+msgid "Check reference on Partner(s)"
+msgstr "检查 参考 on 业务伙伴(s)"
+
+#. module: l10n_tr_nilvera_einvoice
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_einvoice/models/account_move_send.py:0
+msgid "Check tags on company(s)"
+msgstr "检查 tags on 公司(s)"
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:res.partner.category,name:l10n_tr_nilvera_einvoice.res_partner_category_distributorno
+msgid "DISTRIBUTORNO"
+msgstr "DISTRIBUTORNO（技术名称）"
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:res.partner.category,name:l10n_tr_nilvera_einvoice.res_partner_category_dosyano
+msgid "DOSYANO"
+msgstr "DOSYANO（技术名称）"
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_einvoice.field_account_edi_xml_ubl_tr__display_name
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_einvoice.field_account_journal__display_name
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_einvoice.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_einvoice.field_account_move_send__display_name
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_einvoice.field_res_partner_category__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:res.partner.category,name:l10n_tr_nilvera_einvoice.res_partner_category_epdkno
+msgid "EPDKNO"
+msgstr "EPDKNO（技术名称）"
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_tr_nilvera_einvoice.selection__account_move__l10n_tr_nilvera_send_status__error
+msgid "Error"
+msgstr "错误"
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_tr_nilvera_einvoice.account_nilvera_view_invoice_tree
+#: model_terms:ir.ui.view,arch_db:l10n_tr_nilvera_einvoice.account_nilvera_view_move_form
+msgid "Fetch Nilvera PDF"
+msgstr "Fetch Nilvera PDF（技术名称）"
+
+#. module: l10n_tr_nilvera_einvoice
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_einvoice/models/account_journal.py:0
+msgid "Go to the Accounting Settings"
+msgstr "Go to the Accounting 设置"
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:res.partner.category,name:l10n_tr_nilvera_einvoice.res_partner_category_hastano
+msgid "HASTANO"
+msgstr "HASTANO（技术名称）"
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:res.partner.category,name:l10n_tr_nilvera_einvoice.res_partner_category_hizmetno
+msgid "HIZMETNO"
+msgstr "HIZMETNO（技术名称）"
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_einvoice.field_account_edi_xml_ubl_tr__id
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_einvoice.field_account_journal__id
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_einvoice.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_einvoice.field_account_move_send__id
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_einvoice.field_res_partner_category__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:res.partner.category,name:l10n_tr_nilvera_einvoice.res_partner_category_imalatcino
+msgid "IMALATCINO"
+msgstr "IMALATCINO（技术名称）"
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_tr_nilvera_einvoice.model_account_journal
+msgid "Journal"
+msgstr "日记账"
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_tr_nilvera_einvoice.model_account_move
+msgid "Journal Entry"
+msgstr "日记账分录"
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:res.partner.category,name:l10n_tr_nilvera_einvoice.res_partner_category_mersisno
+msgid "MERSISNO"
+msgstr "MERSISNO（技术名称）"
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:res.partner.category,name:l10n_tr_nilvera_einvoice.res_partner_category_musterino
+msgid "MUSTERINO"
+msgstr "MUSTERINO（技术名称）"
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_einvoice.field_account_bank_statement_line__l10n_tr_nilvera_uuid
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_einvoice.field_account_move__l10n_tr_nilvera_uuid
+msgid "Nilvera Document UUID"
+msgstr "Nilvera 单据 UUID"
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_einvoice.field_account_bank_statement_line__l10n_tr_nilvera_send_status
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_einvoice.field_account_move__l10n_tr_nilvera_send_status
+#: model_terms:ir.ui.view,arch_db:l10n_tr_nilvera_einvoice.account_nilvera_view_account_invoice_filter
+#: model_terms:ir.ui.view,arch_db:l10n_tr_nilvera_einvoice.account_nilvera_view_invoice_tree
+msgid "Nilvera Status"
+msgstr "Nilvera 状态"
+
+#. module: l10n_tr_nilvera_einvoice
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_einvoice/models/account_move.py:0
+msgid "Nilvera document has been received successfully"
+msgstr "Nilvera 单据 has been 已接收 successfully"
+
+#. module: l10n_tr_nilvera_einvoice
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_einvoice/models/account_edi_xml_ubl_tr.py:0
+#: code:addons/l10n_tr_nilvera_einvoice/models/account_move_send.py:0
+msgid ""
+"Nilvera portal cannot process negative quantity nor negative price on "
+"invoice lines"
+msgstr "Nilvera portal cannot process negative 数量 nor negative 价格 on 发票明细行"
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.server,name:l10n_tr_nilvera_einvoice.ir_cron_nilvera_get_new_einvoice_sale_documents_ir_actions_server
+msgid "Nilvera: retrieve E-Invoice new sale documents"
+msgstr "Nilvera: retrieve 电子发票 新建 销售 单据"
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.server,name:l10n_tr_nilvera_einvoice.ir_cron_nilvera_get_invoice_status_ir_actions_server
+msgid "Nilvera: retrieve invoice status"
+msgstr "Nilvera: retrieve 发票 状态"
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.server,name:l10n_tr_nilvera_einvoice.ir_cron_nilvera_get_new_earchive_sale_documents_ir_actions_server
+msgid "Nilvera: retrieve new E-Archive sale documents"
+msgstr "Nilvera: retrieve 新建 E-Archive 销售 单据"
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.server,name:l10n_tr_nilvera_einvoice.ir_cron_nilvera_get_new_purchase_documents_ir_actions_server
+msgid "Nilvera: retrieve new purchase documents"
+msgstr "Nilvera: retrieve 新建 采购 单据"
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.server,name:l10n_tr_nilvera_einvoice.ir_cron_nilvera_get_sale_pdf_ir_actions_server
+msgid "Nilvera: retrieve sale PDFs"
+msgstr "Nilvera: retrieve 销售 PDFs"
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_tr_nilvera_einvoice.selection__account_move__l10n_tr_nilvera_send_status__not_sent
+msgid "Not sent"
+msgstr "Not 已发送"
+
+#. module: l10n_tr_nilvera_einvoice
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_einvoice/models/account_move.py:0
+msgid ""
+"Oops, seems like you're unauthorised to do this. Try another API key with "
+"more rights or contact Nilvera."
+msgstr ""
+"Oops, seems like you're unauthorised to do this. Try another API key with "
+"more rights or 联系人 Nilvera."
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:res.partner.category,name:l10n_tr_nilvera_einvoice.res_partner_category_pasaportno
+msgid "PASAPORTNO"
+msgstr "PASAPORTNO（技术名称）"
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_tr_nilvera_einvoice.model_res_partner_category
+msgid "Partner Tags"
+msgstr "联系人标签"
+
+#. module: l10n_tr_nilvera_einvoice
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_einvoice/models/account_journal.py:0
+msgid "Please configure your Nilvera API key"
+msgstr "Please 配置 your Nilvera API key"
+
+#. module: l10n_tr_nilvera_einvoice
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_einvoice/models/account_move_send.py:0
+msgid ""
+"Please ensure that your company contact has either the 'MERSISNO' or "
+"'TICARETSICILNO' tag with a value assigned."
+msgstr ""
+"Please ensure that your 公司 联系人 has either the 'MERSISNO' or 'TICARETSICILNO'"
+" tag with a 值 assigned."
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:res.partner.category,name:l10n_tr_nilvera_einvoice.res_partner_category_sayacno
+msgid "SAYACNO"
+msgstr "SAYACNO（技术名称）"
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:res.partner.category,name:l10n_tr_nilvera_einvoice.res_partner_category_subeno
+msgid "SUBENO"
+msgstr "SUBENO（技术名称）"
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_tr_nilvera_einvoice.selection__account_move__l10n_tr_nilvera_send_status__sent
+msgid "Sent and waiting response"
+msgstr "已发送 and waiting response"
+
+#. module: l10n_tr_nilvera_einvoice
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_einvoice/models/account_move.py:0
+msgid "Server error from Nilvera, please try again later."
+msgstr "Server 错误 从 Nilvera, please try again later."
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_tr_nilvera_einvoice.selection__account_move__l10n_tr_nilvera_send_status__succeed
+msgid "Successful"
+msgstr "Successful（技术名称）"
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:res.partner.category,name:l10n_tr_nilvera_einvoice.res_partner_category_tapdkno
+msgid "TAPDKNO"
+msgstr "TAPDKNO（技术名称）"
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:res.partner.category,name:l10n_tr_nilvera_einvoice.res_partner_category_telefonno
+msgid "TELEFONNO"
+msgstr "TELEFONNO（技术名称）"
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:res.partner.category,name:l10n_tr_nilvera_einvoice.res_partner_category_tesisatno
+msgid "TESISATNO"
+msgstr "TESISATNO（技术名称）"
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:res.partner.category,name:l10n_tr_nilvera_einvoice.res_partner_category_ticaretsicilno
+msgid "TICARETSICILNO"
+msgstr "TICARETSICILNO（技术名称）"
+
+#. module: l10n_tr_nilvera_einvoice
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_einvoice/models/account_move_send.py:0
+msgid "TR Company(s)"
+msgstr "TR 公司(s)"
+
+#. module: l10n_tr_nilvera_einvoice
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_einvoice/models/account_move_send.py:0
+msgid "Testing mode is enabled."
+msgstr "Testing mode is 已启用."
+
+#. module: l10n_tr_nilvera_einvoice
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_einvoice/models/res_partner_category.py:0
+msgid ""
+"The Contact Tag(s) cannot be deleted because it is used in Türkiye "
+"electronic integrations."
+msgstr ""
+"The 联系人 Tag(s) cannot be 已删除 because it is used in Türkiye electronic "
+"integrations."
+
+#. module: l10n_tr_nilvera_einvoice
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_einvoice/models/account_move_send.py:0
+msgid ""
+"The following E-Invoice partner(s) must have the reference field set to the "
+"tax office name."
+msgstr ""
+"The following 电子发票 业务伙伴(s) must have the 参考 field set to the 税 office 名称."
+
+#. module: l10n_tr_nilvera_einvoice
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_einvoice/models/account_move_send.py:0
+msgid ""
+"The following TR Company(s) must have the reference field set to the tax "
+"office name."
+msgstr "The following TR 公司(s) must have the 参考 field set to the 税 office 名称."
+
+#. module: l10n_tr_nilvera_einvoice
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_einvoice/models/account_move_send.py:0
+msgid ""
+"The following company(s) either do not have their country set as Türkiye or "
+"are missing at least one of these fields: Tax ID, Street, City, or State"
+msgstr ""
+"The following 公司(s) either do not have their 国家/地区 set as Türkiye or are "
+"missing at least one of these fields: 税 ID, Street, 城市, or 状态"
+
+#. module: l10n_tr_nilvera_einvoice
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_einvoice/models/account_move_send.py:0
+msgid ""
+"The following invoice(s) need to have the same Start Date and End Date on "
+"all their respective Invoice Lines."
+msgstr ""
+"The following 发票(s) need to have the same Start 日期 and End 日期 on all their "
+"respective 发票明细行."
+
+#. module: l10n_tr_nilvera_einvoice
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_einvoice/models/account_move_send.py:0
+msgid ""
+"The following partner(s) are missing at least one of these fields: Tax ID, "
+"Street, City, State or Country"
+msgstr ""
+"The following 业务伙伴(s) are missing at least one of these fields: 税 ID, "
+"Street, 城市, 状态 or 国家/地区"
+
+#. module: l10n_tr_nilvera_einvoice
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_einvoice/models/account_move_send.py:0
+msgid ""
+"The following partner(s) either do not have the e-invoice format UBL TR 1.2 "
+"or have not checked their Nilvera Status"
+msgstr ""
+"The following 业务伙伴(s) either do not have the 电子发票 format UBL TR 1.2 or have "
+"not checked their Nilvera 状态"
+
+#. module: l10n_tr_nilvera_einvoice
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_einvoice/models/account_move.py:0
+msgid "The invoice couldn't be sent due to the following errors:\n"
+msgstr "The 发票 couldn't be 已发送 due to the following 错误:\n"
+
+#. module: l10n_tr_nilvera_einvoice
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_einvoice/models/account_move.py:0
+msgid "The invoice couldn't be sent to the recipient."
+msgstr "The 发票 couldn't be 已发送 to the recipient."
+
+#. module: l10n_tr_nilvera_einvoice
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_einvoice/models/account_move.py:0
+msgid "The invoice has been successfully sent to Nilvera."
+msgstr "The 发票 has been successfully 已发送 to Nilvera."
+
+#. module: l10n_tr_nilvera_einvoice
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_einvoice/models/account_move_send.py:0
+msgid ""
+"The invoice name must follow the format when sending to Nilvera: 3 "
+"alphanumeric characters, followed by the year, and then a sequential number."
+" Example: INV/2025/000001"
+msgstr ""
+"The 发票 名称 must 关注 the format when sending to Nilvera: 3 alphanumeric "
+"characters, followed by the year, and then a sequential 编号. Example: "
+"INV/2025/000001"
+
+#. module: l10n_tr_nilvera_einvoice
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_einvoice/models/account_move.py:0
+msgid "The invoice status couldn't be retrieved from Nilvera."
+msgstr "The 发票 状态 couldn't be retrieved 从 Nilvera."
+
+#. module: l10n_tr_nilvera_einvoice
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_einvoice/models/account_move.py:0
+#: model_terms:ir.ui.view,arch_db:l10n_tr_nilvera_einvoice.account_nilvera_view_move_form
+msgid ""
+"To preserve accounting integrity and comply with legal requirements, "
+"invoices cannot be reused once an error occurs. Please create a new invoice "
+"to continue."
+msgstr ""
+"To preserve accounting integrity and comply with legal requirements, 发票 "
+"cannot be reused once an 错误 occurs. Please 创建 a 新建 发票 to continue."
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_tr_nilvera_einvoice.model_account_edi_xml_ubl_tr
+msgid "UBL-TR 1.2"
+msgstr "UBL-TR 1.2（技术名称）"
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:res.partner.category,name:l10n_tr_nilvera_einvoice.res_partner_category_ureticino
+msgid "URETICINO"
+msgstr "URETICINO（技术名称）"
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_tr_nilvera_einvoice.field_account_bank_statement_line__l10n_tr_nilvera_uuid
+#: model:ir.model.fields,help:l10n_tr_nilvera_einvoice.field_account_move__l10n_tr_nilvera_uuid
+msgid "Universally unique identifier of the Invoice"
+msgstr "Universally unique identifier of the 发票"
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_tr_nilvera_einvoice.selection__account_move__l10n_tr_nilvera_send_status__unknown
+msgid "Unknown"
+msgstr "未知"
+
+#. module: l10n_tr_nilvera_einvoice
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_einvoice/models/account_move_send.py:0
+msgid "View Company(s)"
+msgstr "查看 公司(s)"
+
+#. module: l10n_tr_nilvera_einvoice
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_einvoice/models/account_move_send.py:0
+msgid "View Invoice(s)"
+msgstr "查看发票"
+
+#. module: l10n_tr_nilvera_einvoice
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_einvoice/models/account_move_send.py:0
+msgid "View Partner(s)"
+msgstr "查看合作伙伴"
+
+#. module: l10n_tr_nilvera_einvoice
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_tr_nilvera_einvoice.selection__account_move__l10n_tr_nilvera_send_status__waiting
+msgid "Waiting"
+msgstr "正在等待"
+
+#. module: l10n_tr_nilvera_einvoice
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_einvoice/models/account_move.py:0
+msgid "You cannot reset to draft an entry that has been sent to Nilvera."
+msgstr "You cannot reset to 草稿 an 分录 that has been 已发送 to Nilvera."
+
+#. module: l10n_tr_nilvera_einvoice
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_einvoice/models/account_move_send.py:0
+msgid "by Nilvera"
+msgstr "by Nilvera（技术名称）"

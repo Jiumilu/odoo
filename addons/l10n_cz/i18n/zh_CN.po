@@ -1,0 +1,1758 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_cz
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_cz.report_invoice_document
+msgid "<strong>Trade registry: </strong>"
+msgstr "<strong>Trade registry: </strong>（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_cz.model_account_chart_template
+msgid "Account Chart Template"
+msgstr "科目表模版"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_cz.view_l10n_cz_tax_office_search
+msgid "By region"
+msgstr "By region（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_13
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_14
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_15
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_16
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_17
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_18
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_19
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_20
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_21
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_22
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_23
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_24
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_25
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_26
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_27
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_28
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_29
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_30
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_31
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_32
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_33
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_34
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_35
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_36
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_37
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_38
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_39
+msgid "Central Bohemian"
+msgstr "Central Bohemian（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_cz.field_l10n_cz_tax_office__code
+msgid "Code"
+msgstr "代码"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_cz.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_cz.model_base_document_layout
+msgid "Company Document Layout"
+msgstr "公司文档布局"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_cz.field_base_document_layout__company_registry
+msgid "Company ID"
+msgstr "公司注册号"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_cz.l10n_cz_external_layout_folder
+#: model_terms:ir.ui.view,arch_db:l10n_cz.registry_vat_external_layout
+#: model_terms:ir.ui.view,arch_db:l10n_cz.report_invoice_document
+msgid "Company ID:"
+msgstr "公司 ID:"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_cz.field_l10n_cz_tax_office__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_cz.field_l10n_cz_tax_office__create_date
+msgid "Created on"
+msgstr "创建日期"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_cz.field_account_chart_template__display_name
+#: model:ir.model.fields,field_description:l10n_cz.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_cz.field_base_document_layout__display_name
+#: model:ir.model.fields,field_description:l10n_cz.field_l10n_cz_tax_office__display_name
+#: model:ir.model.fields,field_description:l10n_cz.field_res_company__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_136
+msgid "Financial Authority Vysočina Region"
+msgstr "Financial Authority Vysočina Region（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_124
+msgid "Financial Office Pardubice"
+msgstr "Financial Office Pardubice（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_58
+msgid "Financial Office Plzeň"
+msgstr "Financial Office Plzeň（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_202
+msgid "Financial Office Zlín Region"
+msgstr "Financial Office Zlín Region（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_cz.field_base_document_layout__account_fiscal_country_id
+msgid "Fiscal Country"
+msgstr "会计所在国家/地区"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_109
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_110
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_111
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_112
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_113
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_114
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_115
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_116
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_117
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_118
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_119
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_120
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_121
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_122
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_123
+msgid "Hradec Králové"
+msgstr "Hradec Králové（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_cz.field_account_chart_template__id
+#: model:ir.model.fields,field_description:l10n_cz.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_cz.field_base_document_layout__id
+#: model:ir.model.fields,field_description:l10n_cz.field_l10n_cz_tax_office__id
+#: model:ir.model.fields,field_description:l10n_cz.field_res_company__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_cz.model_account_move
+msgid "Journal Entry"
+msgstr "日记账分录"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_74
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_75
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_76
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_77
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_78
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_79
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_80
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_81
+msgid "Karlovy Vary"
+msgstr "Karlovy Vary（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_cz.field_l10n_cz_tax_office__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_cz.field_l10n_cz_tax_office__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_100
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_101
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_102
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_103
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_104
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_105
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_106
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_107
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_108
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_98
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_99
+msgid "Liberec"
+msgstr "Liberec（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_183
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_184
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_185
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_186
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_187
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_188
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_189
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_190
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_191
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_192
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_193
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_194
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_195
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_196
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_197
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_198
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_199
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_200
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_201
+msgid "Moravian-Silesian"
+msgstr "Moravian-Silesian（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_cz.field_l10n_cz_tax_office__name
+msgid "Name"
+msgstr "名称"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_172
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_173
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_174
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_175
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_176
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_177
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_178
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_179
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_180
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_181
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_182
+msgid "Olomouc"
+msgstr "Olomouc（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_124
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_125
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_126
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_127
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_128
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_129
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_130
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_131
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_132
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_133
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_134
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_135
+msgid "Pardubice"
+msgstr "Pardubice（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_58
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_59
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_60
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_61
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_62
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_63
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_64
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_65
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_66
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_67
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_68
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_69
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_70
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_71
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_72
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_73
+msgid "Plzeň"
+msgstr "Plzeň（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_1
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_10
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_11
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_12
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_2
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_3
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_4
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_5
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_6
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_7
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_8
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_9
+msgid "Prague"
+msgstr "Prague（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_cz.field_l10n_cz_tax_office__region
+msgid "Region"
+msgstr "地区"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_156
+msgid "Regional office Brno - countryside"
+msgstr "Regional office Brno - countryside（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_152
+msgid "Regional office Brno I"
+msgstr "Regional office Brno I（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_153
+msgid "Regional office Brno II"
+msgstr "Regional office Brno II（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_154
+msgid "Regional office Brno III"
+msgstr "Regional office Brno III（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_155
+msgid "Regional office Brno IV"
+msgstr "Regional office Brno IV（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_184
+msgid "Regional office Ostrava I"
+msgstr "Regional office Ostrava I（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_185
+msgid "Regional office Ostrava II"
+msgstr "Regional office Ostrava II（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_186
+msgid "Regional office Ostrava III"
+msgstr "Regional office Ostrava III（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_60
+msgid "Regional office Pilsen - North"
+msgstr "Regional office Pilsen - North（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_61
+msgid "Regional office Pilsen - South"
+msgstr "Regional office Pilsen - South（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_12
+msgid "Regional office for Prague - Modřany"
+msgstr "Regional office for Prague - Modřany（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_11
+msgid "Regional office for Prague - South City"
+msgstr "Regional office for Prague - South 城市"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_1
+msgid "Regional office for Prague 1"
+msgstr "Regional office for Prague 1（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_10
+msgid "Regional office for Prague 10"
+msgstr "Regional office for Prague 10（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_2
+msgid "Regional office for Prague 2"
+msgstr "Regional office for Prague 2（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_3
+msgid "Regional office for Prague 3"
+msgstr "Regional office for Prague 3（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_4
+msgid "Regional office for Prague 4"
+msgstr "Regional office for Prague 4（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_5
+msgid "Regional office for Prague 5"
+msgstr "Regional office for Prague 5（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_6
+msgid "Regional office for Prague 6"
+msgstr "Regional office for Prague 6（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_7
+msgid "Regional office for Prague 7"
+msgstr "Regional office for Prague 7（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_8
+msgid "Regional office for Prague 8"
+msgstr "Regional office for Prague 8（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_9
+msgid "Regional office for Prague 9"
+msgstr "Regional office for Prague 9（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_76
+msgid "Regional office in As"
+msgstr "Regional office in As（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_167
+msgid "Regional office in Austerlitz"
+msgstr "Regional office in Austerlitz（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_16
+msgid "Regional office in Benesov"
+msgstr "Regional office in Benesov（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_17
+msgid "Regional office in Beroun"
+msgstr "Regional office in Beroun（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_84
+msgid "Regional office in Bilina"
+msgstr "Regional office in Bilina（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_157
+msgid "Regional office in Blansko"
+msgstr "Regional office in Blansko（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_42
+msgid "Regional office in Blatné"
+msgstr "Regional office in Blatné（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_62
+msgid "Regional office in Blovice"
+msgstr "Regional office in Blovice（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_187
+msgid "Regional office in Bohumíně"
+msgstr "Regional office in Bohumíně（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_158
+msgid "Regional office in Boskovice"
+msgstr "Regional office in Boskovice（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_18
+msgid "Regional office in Brandys nad Labem - Old Boleslav"
+msgstr "Regional office in Brandys nad Labem - Old Boleslav（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_159
+msgid "Regional office in Breclav"
+msgstr "Regional office in Breclav（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_210
+msgid "Regional office in Brod"
+msgstr "Regional office in Brod（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_111
+msgid "Regional office in Broumov"
+msgstr "Regional office in Broumov（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_188
+msgid "Regional office in Bruntal"
+msgstr "Regional office in Bruntal（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_160
+msgid "Regional office in Bučovice"
+msgstr "Regional office in Bučovice（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_138
+msgid "Regional office in Bystrice"
+msgstr "Regional office in Bystrice（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_204
+msgid "Regional office in Bystřice pod Hostýnem"
+msgstr "Regional office in Bystřice pod Hostýnem（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_75
+msgid "Regional office in Carlsbad"
+msgstr "Regional office in Carlsbad（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_19
+msgid "Regional office in Caslav"
+msgstr "Regional office in Caslav（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_77
+msgid "Regional office in Cheb"
+msgstr "Regional office in Cheb（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_86
+msgid "Regional office in Chomutov"
+msgstr "Regional office in Chomutov（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_141
+msgid "Regional office in Chotěboř"
+msgstr "Regional office in Chotěboř（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_128
+msgid "Regional office in Chrudim"
+msgstr "Regional office in Chrudim（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_44
+msgid "Regional office in Dačice"
+msgstr "Regional office in Dačice（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_85
+msgid "Regional office in Decin"
+msgstr "Regional office in Decin（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_112
+msgid "Regional office in Dobruška"
+msgstr "Regional office in Dobruška（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_21
+msgid "Regional office in Dobříš"
+msgstr "Regional office in Dobříš（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_63
+msgid "Regional office in Domažlicích"
+msgstr "Regional office in Domažlicích（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_113
+msgid "Regional office in Dvur Kralove nad Labem"
+msgstr "Regional office in Dvur Kralove nad Labem（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_190
+msgid "Regional office in Frydek-Mistek"
+msgstr "Regional office in Frydek-Mistek（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_101
+msgid "Regional office in Frydlant"
+msgstr "Regional office in Frydlant（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_191
+msgid "Regional office in Frýdlant"
+msgstr "Regional office in Frýdlant（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_192
+msgid "Regional office in Fulnek"
+msgstr "Regional office in Fulnek（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_193
+msgid "Regional office in Havirov"
+msgstr "Regional office in Havirov（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_139
+msgid "Regional office in Havlickuv Brod"
+msgstr "Regional office in Havlickuv Brod（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_126
+msgid "Regional office in Hlinsku"
+msgstr "Regional office in Hlinsku（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_194
+msgid "Regional office in Hlučín"
+msgstr "Regional office in Hlučín（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_161
+msgid "Regional office in Hodonin"
+msgstr "Regional office in Hodonin（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_205
+msgid "Regional office in Holešov"
+msgstr "Regional office in Holešov（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_127
+msgid "Regional office in Holice"
+msgstr "Regional office in Holice（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_64
+msgid "Regional office in Horažďovicích"
+msgstr "Regional office in Horažďovicích（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_65
+msgid "Regional office in Horsovsky Tyn"
+msgstr "Regional office in Horsovsky Tyn（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_114
+msgid "Regional office in Hořice"
+msgstr "Regional office in Hořice（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_22
+msgid "Regional office in Hořovice"
+msgstr "Regional office in Hořovice（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_110
+msgid "Regional office in Hradec Kralove"
+msgstr "Regional office in Hradec Kralove（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_174
+msgid "Regional office in Hranicích"
+msgstr "Regional office in Hranicích（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_140
+msgid "Regional office in Humpolci"
+msgstr "Regional office in Humpolci（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_162
+msgid "Regional office in Hustopeče"
+msgstr "Regional office in Hustopeče（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_163
+msgid "Regional office in Ivančice"
+msgstr "Regional office in Ivančice（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_102
+msgid "Regional office in Jablonec nad Nisou"
+msgstr "Regional office in Jablonec nad Nisou（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_115
+msgid "Regional office in Jaroměři"
+msgstr "Regional office in Jaroměři（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_175
+msgid "Regional office in Jesenik"
+msgstr "Regional office in Jesenik（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_116
+msgid "Regional office in Jicin"
+msgstr "Regional office in Jicin（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_137
+msgid "Regional office in Jihlava"
+msgstr "Regional office in Jihlava（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_103
+msgid "Regional office in Jilemnici"
+msgstr "Regional office in Jilemnici（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_45
+msgid "Regional office in Jindrichuv Hradec"
+msgstr "Regional office in Jindrichuv Hradec（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_87
+msgid "Regional office in Kadan"
+msgstr "Regional office in Kadan（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_46
+msgid "Regional office in Kaplice"
+msgstr "Regional office in Kaplice（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_195
+msgid "Regional office in Karvina"
+msgstr "Regional office in Karvina（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_23
+msgid "Regional office in Kladno"
+msgstr "Regional office in Kladno（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_66
+msgid "Regional office in Klatovy"
+msgstr "Regional office in Klatovy（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_24
+msgid "Regional office in Kolín"
+msgstr "Regional office in Kolín（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_176
+msgid "Regional office in Konice"
+msgstr "Regional office in Konice（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_196
+msgid "Regional office in Kopřivnice"
+msgstr "Regional office in Kopřivnice（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_117
+msgid "Regional office in Kostelec nad Orlici"
+msgstr "Regional office in Kostelec nad Orlici（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_67
+msgid "Regional office in Kralovice"
+msgstr "Regional office in Kralovice（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_25
+msgid "Regional office in Kralupy nad Vltavou"
+msgstr "Regional office in Kralupy nad Vltavou（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_78
+msgid "Regional office in Kraslice"
+msgstr "Regional office in Kraslice（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_197
+msgid "Regional office in Krnov"
+msgstr "Regional office in Krnov（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_206
+msgid "Regional office in Kromeriz"
+msgstr "Regional office in Kromeriz（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_26
+msgid "Regional office in Kutna Hora"
+msgstr "Regional office in Kutna Hora（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_164
+msgid "Regional office in Kyjov"
+msgstr "Regional office in Kyjov（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_142
+msgid "Regional office in Ledeč Sázavou"
+msgstr "Regional office in Ledeč Sázavou（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_99
+msgid "Regional office in Liberec"
+msgstr "Regional office in Liberec（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_88
+msgid "Regional office in Libochovice"
+msgstr "Regional office in Libochovice（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_89
+msgid "Regional office in Litomerice"
+msgstr "Regional office in Litomerice（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_129
+msgid "Regional office in Litomysl"
+msgstr "Regional office in Litomysl（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_177
+msgid "Regional office in Litovli"
+msgstr "Regional office in Litovli（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_90
+msgid "Regional office in Litvínov"
+msgstr "Regional office in Litvínov（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_91
+msgid "Regional office in Louny"
+msgstr "Regional office in Louny（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_207
+msgid "Regional office in Luhačovice"
+msgstr "Regional office in Luhačovice（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_79
+msgid "Regional office in Marianske Lazne"
+msgstr "Regional office in Marianske Lazne（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_27
+msgid "Regional office in Melnik"
+msgstr "Regional office in Melnik（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_149
+msgid "Regional office in Mezirici"
+msgstr "Regional office in Mezirici（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_165
+msgid "Regional office in Mikulov"
+msgstr "Regional office in Mikulov（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_47
+msgid "Regional office in Milevsko"
+msgstr "Regional office in Milevsko（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_28
+msgid "Regional office in Mlada Boleslav"
+msgstr "Regional office in Mlada Boleslav（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_143
+msgid "Regional office in Moravian Budejovice"
+msgstr "Regional office in Moravian Budejovice（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_166
+msgid "Regional office in Moravsky Krumlov"
+msgstr "Regional office in Moravsky Krumlov（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_92
+msgid "Regional office in Most"
+msgstr "Regional office in Most（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_29
+msgid "Regional office in Munich Hradiste"
+msgstr "Regional office in Munich Hradiste（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_118
+msgid "Regional office in Nachod"
+msgstr "Regional office in Nachod（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_144
+msgid "Regional office in Namest nad Oslavou"
+msgstr "Regional office in Namest nad Oslavou（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_68
+msgid "Regional office in Nepomuk"
+msgstr "Regional office in Nepomuk（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_30
+msgid "Regional office in Neratovice"
+msgstr "Regional office in Neratovice（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_104
+msgid "Regional office in Novy Bor"
+msgstr "Regional office in Novy Bor（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_198
+msgid "Regional office in Novy Jicin"
+msgstr "Regional office in Novy Jicin（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_119
+msgid "Regional office in Nová Paka"
+msgstr "Regional office in Nová Paka（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_31
+msgid "Regional office in Nymburk"
+msgstr "Regional office in Nymburk（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_173
+msgid "Regional office in Olomouc"
+msgstr "Regional office in Olomouc（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_199
+msgid "Regional office in Opava"
+msgstr "Regional office in Opava（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_200
+msgid "Regional office in Orlova"
+msgstr "Regional office in Orlova（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_80
+msgid "Regional office in Ostrov"
+msgstr "Regional office in Ostrov（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_208
+msgid "Regional office in Otrokovice"
+msgstr "Regional office in Otrokovice（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_145
+msgid "Regional office in Pacově"
+msgstr "Regional office in Pacově（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_125
+msgid "Regional office in Pardubice"
+msgstr "Regional office in Pardubice（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_146
+msgid "Regional office in Pelhřimov"
+msgstr "Regional office in Pelhřimov（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_59
+msgid "Regional office in Pilsen"
+msgstr "Regional office in Pilsen（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_48
+msgid "Regional office in Pisek"
+msgstr "Regional office in Pisek（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_93
+msgid "Regional office in Podborany"
+msgstr "Regional office in Podborany（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_32
+msgid "Regional office in Podebrady"
+msgstr "Regional office in Podebrady（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_49
+msgid "Regional office in Prachaticích"
+msgstr "Regional office in Prachaticích（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_14
+msgid "Regional office in Prague - East"
+msgstr "Regional office in Prague - East（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_15
+msgid "Regional office in Prague - West"
+msgstr "Regional office in Prague - West（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_179
+msgid "Regional office in Prerov"
+msgstr "Regional office in Prerov（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_69
+msgid "Regional office in Prestice"
+msgstr "Regional office in Prestice（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_33
+msgid "Regional office in Pribram"
+msgstr "Regional office in Pribram（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_178
+msgid "Regional office in Prostejov"
+msgstr "Regional office in Prostejov（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_131
+msgid "Regional office in Přelouč"
+msgstr "Regional office in Přelouč（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_34
+msgid "Regional office in Rakovnik"
+msgstr "Regional office in Rakovnik（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_35
+msgid "Regional office in Ricanech"
+msgstr "Regional office in Ricanech（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_70
+msgid "Regional office in Rokycany"
+msgstr "Regional office in Rokycany（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_94
+msgid "Regional office in Roudnice nad Labem"
+msgstr "Regional office in Roudnice nad Labem（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_209
+msgid "Regional office in Roznov"
+msgstr "Regional office in Roznov（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_95
+msgid "Regional office in Rumburk"
+msgstr "Regional office in Rumburk（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_121
+msgid "Regional office in Rychnov"
+msgstr "Regional office in Rychnov（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_105
+msgid "Regional office in Semilech"
+msgstr "Regional office in Semilech（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_37
+msgid "Regional office in Slaný"
+msgstr "Regional office in Slaný（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_50
+msgid "Regional office in Soběslavi"
+msgstr "Regional office in Soběslavi（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_81
+msgid "Regional office in Sokolov"
+msgstr "Regional office in Sokolov（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_51
+msgid "Regional office in Strakonice"
+msgstr "Regional office in Strakonice（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_72
+msgid "Regional office in Stříbře"
+msgstr "Regional office in Stříbře（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_73
+msgid "Regional office in Susice"
+msgstr "Regional office in Susice（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_132
+msgid "Regional office in Svitavy"
+msgstr "Regional office in Svitavy（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_52
+msgid "Regional office in Tabor"
+msgstr "Regional office in Tabor（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_71
+msgid "Regional office in Tachov"
+msgstr "Regional office in Tachov（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_106
+msgid "Regional office in Tanvald"
+msgstr "Regional office in Tanvald（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_147
+msgid "Regional office in Telči"
+msgstr "Regional office in Telči（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_96
+msgid "Regional office in Teplice"
+msgstr "Regional office in Teplice（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_168
+msgid "Regional office in Tišnově"
+msgstr "Regional office in Tišnově（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_148
+msgid "Regional office in Trebic"
+msgstr "Regional office in Trebic（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_54
+msgid "Regional office in Trebon"
+msgstr "Regional office in Trebon（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_53
+msgid "Regional office in Trhové Sviny"
+msgstr "Regional office in Trhové Sviny（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_201
+msgid "Regional office in Trinec"
+msgstr "Regional office in Trinec（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_122
+msgid "Regional office in Trutnov"
+msgstr "Regional office in Trutnov（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_107
+msgid "Regional office in Turnovo"
+msgstr "Regional office in Turnovo（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_55
+msgid "Regional office in Tyn nad Vltavou"
+msgstr "Regional office in Tyn nad Vltavou（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_211
+msgid "Regional office in Uherske Hradiste"
+msgstr "Regional office in Uherske Hradiste（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_83
+msgid "Regional office in Usti nad Labem"
+msgstr "Regional office in Usti nad Labem（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_133
+msgid "Regional office in Usti nad Orlici"
+msgstr "Regional office in Usti nad Orlici（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_212
+msgid "Regional office in Valasske Mezirici"
+msgstr "Regional office in Valasske Mezirici（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_213
+msgid "Regional office in Valašské Klobouky"
+msgstr "Regional office in Valašské Klobouky（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_169
+msgid "Regional office in Veseli nad Moravia"
+msgstr "Regional office in Veseli nad Moravia（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_56
+msgid "Regional office in Vimperk"
+msgstr "Regional office in Vimperk（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_38
+msgid "Regional office in Vlašimi"
+msgstr "Regional office in Vlašimi（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_57
+msgid "Regional office in Vodňany"
+msgstr "Regional office in Vodňany（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_39
+msgid "Regional office in Voticích"
+msgstr "Regional office in Voticích（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_123
+msgid "Regional office in Vrchlabi"
+msgstr "Regional office in Vrchlabi（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_214
+msgid "Regional office in Vsetin"
+msgstr "Regional office in Vsetin（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_170
+msgid "Regional office in Vyskov"
+msgstr "Regional office in Vyskov（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_134
+msgid "Regional office in Vysoké Mýto"
+msgstr "Regional office in Vysoké Mýto（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_97
+msgid "Regional office in Zatec"
+msgstr "Regional office in Zatec（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_108
+msgid "Regional office in Zelezny Brod"
+msgstr "Regional office in Zelezny Brod（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_203
+msgid "Regional office in Zlin"
+msgstr "Regional office in Zlin（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_171
+msgid "Regional office in Znojmo"
+msgstr "Regional office in Znojmo（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_182
+msgid "Regional office in Zábřeh"
+msgstr "Regional office in Zábřeh（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_120
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_20
+msgid "Regional office in the Czech Brod"
+msgstr "Regional office in the Czech Brod（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_41
+msgid "Regional office in the Czech Budejovice"
+msgstr "Regional office in the Czech Budejovice（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_189
+msgid "Regional office in the Czech Cieszyn"
+msgstr "Regional office in the Czech Cieszyn（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_43
+msgid "Regional office in the Czech Krumlov"
+msgstr "Regional office in the Czech Krumlov（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_100
+msgid "Regional office in the Czech Lipa"
+msgstr "Regional office in the Czech Lipa（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_130
+msgid "Regional office in the Moravian Třebová"
+msgstr "Regional office in the Moravian Třebová（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_180
+msgid "Regional office in Šternberk"
+msgstr "Regional office in Šternberk（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_181
+msgid "Regional office in Šumperk"
+msgstr "Regional office in Šumperk（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_135
+msgid "Regional office in Žamberk"
+msgstr "Regional office in Žamberk（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_150
+msgid "Regional office in Žďár nad Sázavou"
+msgstr "Regional office in Žďár nad Sázavou（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_36
+msgid "Regional office of the Town"
+msgstr "Regional office of the Town（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_40
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_41
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_42
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_43
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_44
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_45
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_46
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_47
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_48
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_49
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_50
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_51
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_52
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_53
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_54
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_55
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_56
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_57
+msgid "South Bohemian"
+msgstr "South Bohemian（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_151
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_152
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_153
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_154
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_155
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_156
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_157
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_158
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_159
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_160
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_161
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_162
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_163
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_164
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_165
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_166
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_167
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_168
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_169
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_170
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_171
+msgid "South Moravian"
+msgstr "South Moravian（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.act_window,name:l10n_cz.action_l10n_cz_tax_office_tree
+#: model:ir.ui.menu,name:l10n_cz.menu_l10n_cz_tax_office
+#: model_terms:ir.ui.view,arch_db:l10n_cz.view_l10n_cz_tax_office_form
+#: model_terms:ir.ui.view,arch_db:l10n_cz.view_l10n_cz_tax_office_tree
+msgid "Tax Office"
+msgstr "税 Office"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_cz.field_res_company__l10n_cz_tax_office_id
+msgid "Tax Office (CZ)"
+msgstr "税 Office (CZ)"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_109
+msgid "Tax Office for Hradec Králové Region"
+msgstr "税 Office for Hradec Králové Region"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_74
+msgid "Tax Office for Karlovy Vary"
+msgstr "税 Office for Karlovy Vary"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_98
+msgid "Tax Office for Liberec Region"
+msgstr "税 Office for Liberec Region"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_40
+msgid "Tax Office for South Bohemia"
+msgstr "税 Office for South Bohemia"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_151
+msgid "Tax Office for South Moravian Region"
+msgstr "税 Office for South Moravian Region"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_13
+msgid "Tax Office for the Central Bohemian Region"
+msgstr "税 Office for the Central Bohemian Region"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_183
+msgid "Tax Office for the Moravian-Silesian Region"
+msgstr "税 Office for the Moravian-Silesian Region"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_172
+msgid "Tax Office for the Olomouc Region"
+msgstr "税 Office for the Olomouc Region"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,name:l10n_cz.tax_office_82
+msgid "Tax Office for the Ústí nad Labem Region"
+msgstr "税 Office for the Ústí nad Labem Region"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_cz.model_l10n_cz_tax_office
+msgid "Tax office in Czech Republic"
+msgstr "税 office in Czech Republic"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_cz.view_l10n_cz_tax_office_form
+msgid "Tax office name"
+msgstr "税 office 名称"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_cz.field_l10n_cz_tax_office__workplace_code
+msgid "Territorial Office"
+msgstr "Territorial Office（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_cz.field_base_document_layout__account_fiscal_country_id
+msgid "The country to use the tax reports from for this company"
+msgstr "使用该公司税务报表的国家/地区"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_cz.field_base_document_layout__company_registry
+msgid ""
+"The registry number of the company. Use it if it is different from the Tax "
+"ID. It must be unique across all partners of a same country"
+msgstr "公司注册号。如果与税号不同，请使用该号码。在同一国家的所有合作伙伴中，该号码必须是唯一的"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.constraint,message:l10n_cz.constraint_l10n_cz_tax_office_workplace_code_unique
+msgid "The territorial workplace code must be unique"
+msgstr "The territorial workplace 代码 must be unique"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_cz.field_res_company__trade_registry
+msgid "Trade Registry"
+msgstr "Trade Registry（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_136
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_137
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_138
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_139
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_140
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_141
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_142
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_143
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_144
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_145
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_146
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_147
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_148
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_149
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_150
+msgid "Vysočina"
+msgstr "Vysočina（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_202
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_203
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_204
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_205
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_206
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_207
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_208
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_209
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_210
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_211
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_212
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_213
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_214
+msgid "Zlín"
+msgstr "Zlín（技术名称）"
+
+#. module: l10n_cz
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_82
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_83
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_84
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_85
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_86
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_87
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_88
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_89
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_90
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_91
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_92
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_93
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_94
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_95
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_96
+#: model:l10n_cz.tax_office,region:l10n_cz.tax_office_97
+msgid "Ústí nad Labem"
+msgstr "Ústí nad Labem（技术名称）"

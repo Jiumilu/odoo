@@ -12,8 +12,7 @@ msgstr ""
 "POT-Creation-Date: 2026-04-10 18:38+0000\n"
 "PO-Revision-Date: 2025-12-20 09:34+0000\n"
 "Last-Translator: \"Chloe Wang (chwa)\" <chwa@odoo.com>\n"
-"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
-"projects/odoo-19/html_builder/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/projects/odoo-19/html_builder/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,9 +44,7 @@ msgstr "%spx （建议）"
 msgid ""
 "'Alt tag' specifies an alternate text for an image, if the image cannot be "
 "displayed (slow connection, missing image, screen reader ...)."
-msgstr ""
-"如果无法显示图像，则'Alt tag' 指定图像的替代文本（连接速度慢，图像丢失，屏幕"
-"阅读器......）。"
+msgstr "如果无法显示图像，则'Alt tag' 指定图像的替代文本（连接速度慢，图像丢失，屏幕阅读器......）。"
 
 #. module: html_builder
 #. odoo-javascript
@@ -59,7 +56,7 @@ msgstr "'标题标签' 当您移动鼠标到图片上面悬停的时候显示标
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/shape/shape_selector.xml:0
 msgid "A"
-msgstr ""
+msgstr "A（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -68,6 +65,8 @@ msgid ""
 "A technical issue occurred in the builder, you should save or discard your "
 "changes."
 msgstr ""
+"A technical issue occurred in the builder, you should 保存 or discard your "
+"changes."
 
 #. module: html_builder
 #. odoo-javascript
@@ -104,85 +103,85 @@ msgstr "飄逸"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Airy 01"
-msgstr ""
+msgstr "Airy 01（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Airy 02"
-msgstr ""
+msgstr "Airy 02（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Airy 03"
-msgstr ""
+msgstr "Airy 03（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Airy 04"
-msgstr ""
+msgstr "Airy 04（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Airy 05"
-msgstr ""
+msgstr "Airy 05（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Airy 06"
-msgstr ""
+msgstr "Airy 06（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Airy 07"
-msgstr ""
+msgstr "Airy 07（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Airy 08"
-msgstr ""
+msgstr "Airy 08（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Airy 09"
-msgstr ""
+msgstr "Airy 09（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Airy 10"
-msgstr ""
+msgstr "Airy 10（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Airy 11"
-msgstr ""
+msgstr "Airy 11（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Airy 12"
-msgstr ""
+msgstr "Airy 12（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Airy 13"
-msgstr ""
+msgstr "Airy 13（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Airy 14"
-msgstr ""
+msgstr "Airy 14（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -248,9 +247,11 @@ msgstr "Alt 标签"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/core/anchor/anchor_plugin.js:0
 msgid ""
-"Anchor copied to clipboard%(br)s%(open_span)sLink: %(anchor_link)s%"
-"(close_span)s"
+"Anchor copied to clipboard%(br)s%(open_span)sLink: "
+"%(anchor_link)s%(close_span)s"
 msgstr ""
+"Anchor copied to clipboard%(br)s%(open_span)sLink: "
+"%(anchor_link)s%(close_span)s（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -268,61 +269,61 @@ msgstr "Angular框架"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Angular 01"
-msgstr ""
+msgstr "Angular 01（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Angular 02"
-msgstr ""
+msgstr "Angular 02（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Angular 03"
-msgstr ""
+msgstr "Angular 03（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Angular 04"
-msgstr ""
+msgstr "Angular 04（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Angular 05"
-msgstr ""
+msgstr "Angular 05（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Angular 06"
-msgstr ""
+msgstr "Angular 06（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Angular 07"
-msgstr ""
+msgstr "Angular 07（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Angular 08"
-msgstr ""
+msgstr "Angular 08（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Angular 09"
-msgstr ""
+msgstr "Angular 09（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Angular 10"
-msgstr ""
+msgstr "Angular 10（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -371,55 +372,55 @@ msgstr "基础的"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Blob 01"
-msgstr ""
+msgstr "Blob 01（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Blob 02"
-msgstr ""
+msgstr "Blob 02（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Blob 03"
-msgstr ""
+msgstr "Blob 03（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Blob 04"
-msgstr ""
+msgstr "Blob 04（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Blob 05"
-msgstr ""
+msgstr "Blob 05（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Blob 06"
-msgstr ""
+msgstr "Blob 06（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Blob 07"
-msgstr ""
+msgstr "Blob 07（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Blob 08"
-msgstr ""
+msgstr "Blob 08（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Blob 09"
-msgstr ""
+msgstr "Blob 09（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -431,43 +432,43 @@ msgstr "油污效果 1"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Blob 10"
-msgstr ""
+msgstr "Blob 10（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Blob 11"
-msgstr ""
+msgstr "Blob 11（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Blob 12"
-msgstr ""
+msgstr "Blob 12（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Blob 13"
-msgstr ""
+msgstr "Blob 13（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Blob 14"
-msgstr ""
+msgstr "Blob 14（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Blob 15"
-msgstr ""
+msgstr "Blob 15（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Blob 16"
-msgstr ""
+msgstr "Blob 16（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -539,13 +540,13 @@ msgstr "构造块"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Block & Rainy"
-msgstr ""
+msgstr "Block & Rainy（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/snippets/add_snippet_dialog.xml:0
 msgid "Block Categories"
-msgstr ""
+msgstr "Block Categories（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -557,19 +558,19 @@ msgstr "阻塞"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Blocks 01"
-msgstr ""
+msgstr "Blocks 01（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Blocks 02"
-msgstr ""
+msgstr "Blocks 02（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Blocks 03"
-msgstr ""
+msgstr "Blocks 03（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -588,37 +589,37 @@ msgstr "模糊效果"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Blurry 01"
-msgstr ""
+msgstr "Blurry 01（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Blurry 02"
-msgstr ""
+msgstr "Blurry 02（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Blurry 03"
-msgstr ""
+msgstr "Blurry 03（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Blurry 04"
-msgstr ""
+msgstr "Blurry 04（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Blurry 05"
-msgstr ""
+msgstr "Blurry 05（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Blurry 06"
-msgstr ""
+msgstr "Blurry 06（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -630,73 +631,73 @@ msgstr "加粗"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Bold 01"
-msgstr ""
+msgstr "Bold 01（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Bold 02"
-msgstr ""
+msgstr "Bold 02（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Bold 03"
-msgstr ""
+msgstr "Bold 03（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Bold 04"
-msgstr ""
+msgstr "Bold 04（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Bold 05"
-msgstr ""
+msgstr "Bold 05（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Bold 06"
-msgstr ""
+msgstr "Bold 06（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Bold 07"
-msgstr ""
+msgstr "Bold 07（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Bold 08"
-msgstr ""
+msgstr "Bold 08（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Bold 09"
-msgstr ""
+msgstr "Bold 09（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Bold 10"
-msgstr ""
+msgstr "Bold 10（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Bold 11"
-msgstr ""
+msgstr "Bold 11（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Bold 12"
-msgstr ""
+msgstr "Bold 12（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -827,7 +828,7 @@ msgstr "循环"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_position_overlay.xml:0
 msgid "Click and drag the background to adjust its position!"
-msgstr ""
+msgstr "Click and drag the background to adjust its position!（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -896,157 +897,157 @@ msgstr "连接"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Connections 01"
-msgstr ""
+msgstr "Connections 01（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Connections 02"
-msgstr ""
+msgstr "Connections 02（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Connections 03"
-msgstr ""
+msgstr "Connections 03（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Connections 04"
-msgstr ""
+msgstr "Connections 04（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Connections 05"
-msgstr ""
+msgstr "Connections 05（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Connections 06"
-msgstr ""
+msgstr "Connections 06（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Connections 07"
-msgstr ""
+msgstr "Connections 07（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Connections 08"
-msgstr ""
+msgstr "Connections 08（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Connections 09"
-msgstr ""
+msgstr "Connections 09（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Connections 10"
-msgstr ""
+msgstr "Connections 10（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Connections 11"
-msgstr ""
+msgstr "Connections 11（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Connections 12"
-msgstr ""
+msgstr "Connections 12（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Connections 13"
-msgstr ""
+msgstr "Connections 13（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Connections 14"
-msgstr ""
+msgstr "Connections 14（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Connections 15"
-msgstr ""
+msgstr "Connections 15（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Connections 16"
-msgstr ""
+msgstr "Connections 16（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Connections 17"
-msgstr ""
+msgstr "Connections 17（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Connections 18"
-msgstr ""
+msgstr "Connections 18（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Connections 19"
-msgstr ""
+msgstr "Connections 19（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Connections 20"
-msgstr ""
+msgstr "Connections 20（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Container 01"
-msgstr ""
+msgstr "Container 01（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Container 02"
-msgstr ""
+msgstr "Container 02（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Container 03"
-msgstr ""
+msgstr "Container 03（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Container 04"
-msgstr ""
+msgstr "Container 04（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Container 05"
-msgstr ""
+msgstr "Container 05（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Container 06"
-msgstr ""
+msgstr "Container 06（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -1070,7 +1071,7 @@ msgstr "角落三角形"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Cornered"
-msgstr ""
+msgstr "Cornered（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -1132,7 +1133,7 @@ msgstr "自定义内部内容"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Cut Circle"
-msgstr ""
+msgstr "Cut Circle（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -1158,7 +1159,7 @@ msgstr "深色"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_filter_option.xml:0
 msgid "Darken"
-msgstr ""
+msgstr "Darken（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -1170,7 +1171,7 @@ msgstr "虚线"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Decorative"
-msgstr ""
+msgstr "Decorative（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -1182,13 +1183,13 @@ msgstr "默认"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/snippets/snippet_viewer.js:0
 msgid "Delete %(snippetName)s"
-msgstr ""
+msgstr "删除 %(snippetName)s"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/sidebar/custom_inner_snippet.js:0
 msgid "Delete %(snippetTitle)s"
-msgstr ""
+msgstr "删除 %(snippetTitle)s"
 
 #. module: html_builder
 #. odoo-javascript
@@ -1208,9 +1209,7 @@ msgstr "移除这字体"
 msgid ""
 "Deleting a font requires a reload of the page. This will save all your "
 "changes and reload the page, are you sure you want to proceed?"
-msgstr ""
-"删除字体需要重新加载网页。这将保存您的所有更改并重新加载网页，您确定要继续"
-"吗？"
+msgstr "删除字体需要重新加载网页。这将保存您的所有更改并重新加载网页，您确定要继续吗？"
 
 #. module: html_builder
 #. odoo-javascript
@@ -1234,7 +1233,7 @@ msgstr "钻石"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Diamond (R)"
-msgstr ""
+msgstr "Diamond (R)（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -1266,7 +1265,7 @@ msgstr "门牌"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Door (R)"
-msgstr ""
+msgstr "Door (R)（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -1284,13 +1283,13 @@ msgstr "双"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Double Pill"
-msgstr ""
+msgstr "Double Pill（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Double Sonar"
-msgstr ""
+msgstr "Double Sonar（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -1314,31 +1313,31 @@ msgstr "拖曳并移动"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/core/building_blocks/builder_list.xml:0
 msgid "Drag and sort field"
-msgstr ""
+msgstr "Drag and sort field（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Duo"
-msgstr ""
+msgstr "Duo（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Duo (R)"
-msgstr ""
+msgstr "Duo (R)（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Duo Step"
-msgstr ""
+msgstr "Duo Step（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Duo Step Pill"
-msgstr ""
+msgstr "Duo Step Pill（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -1369,19 +1368,19 @@ msgstr "编辑图像"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Emerald"
-msgstr ""
+msgstr "Emerald（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Emerald (R)"
-msgstr ""
+msgstr "Emerald (R)（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_filter_option.xml:0
 msgid "Exclusion"
-msgstr ""
+msgstr "Exclusion（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -1418,49 +1417,49 @@ msgstr "格式"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Galaxy S #1"
-msgstr ""
+msgstr "Galaxy S #1（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Galaxy S #2"
-msgstr ""
+msgstr "Galaxy S #2（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Galaxy S #3"
-msgstr ""
+msgstr "Galaxy S #3（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Galaxy S #4"
-msgstr ""
+msgstr "Galaxy S #4（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Galaxy S #5"
-msgstr ""
+msgstr "Galaxy S #5（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Galaxy S #6"
-msgstr ""
+msgstr "Galaxy S #6（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Gem"
-msgstr ""
+msgstr "Gem（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Gem (R)"
-msgstr ""
+msgstr "Gem (R)（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -1484,49 +1483,49 @@ msgstr "几何图形圆角"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Grid 01"
-msgstr ""
+msgstr "Grid 01（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Grid 02"
-msgstr ""
+msgstr "Grid 02（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Grid 03"
-msgstr ""
+msgstr "Grid 03（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Grid 04"
-msgstr ""
+msgstr "Grid 04（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Grid 05"
-msgstr ""
+msgstr "Grid 05（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Grid 06"
-msgstr ""
+msgstr "Grid 06（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Grid 07"
-msgstr ""
+msgstr "Grid 07（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Grid 08"
-msgstr ""
+msgstr "Grid 08（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -1538,13 +1537,13 @@ msgstr "网格布局"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Half Circle"
-msgstr ""
+msgstr "Half Circle（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Half Galaxy S"
-msgstr ""
+msgstr "Half Galaxy S（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -1568,7 +1567,7 @@ msgstr "Header 1 Display 4"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/rating_option.xml:0
 msgid "Hearts"
-msgstr ""
+msgstr "Hearts（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -1580,25 +1579,25 @@ msgstr "高度"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Heptagon"
-msgstr ""
+msgstr "Heptagon（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Heptagon (R)"
-msgstr ""
+msgstr "Heptagon (R)（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Hexagon"
-msgstr ""
+msgstr "Hexagon（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Hexagon (R)"
-msgstr ""
+msgstr "Hexagon (R)（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -1682,9 +1681,11 @@ msgstr "无形的元素"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/core/version_error_plugin.js:0
 msgid ""
-"It might have caused problem during the editing. Please drag the new version "
-"from the snippet panel to update it."
+"It might have caused problem during the editing. Please drag the new version"
+" from the snippet panel to update it."
 msgstr ""
+"It might have caused problem during the editing. Please drag the 新建 version "
+"从 the snippet panel to update it."
 
 #. module: html_builder
 #. odoo-javascript
@@ -1731,7 +1732,7 @@ msgstr "左"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Lemon (R)"
-msgstr ""
+msgstr "Lemon (R)（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -1745,19 +1746,19 @@ msgstr "明亮"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_filter_option.xml:0
 msgid "Lighten"
-msgstr ""
+msgstr "Lighten（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Line 1"
-msgstr ""
+msgstr "行 1"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Line 2"
-msgstr ""
+msgstr "行 2"
 
 #. module: html_builder
 #. odoo-javascript
@@ -1775,13 +1776,13 @@ msgstr "链接锚"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "MacBook #1"
-msgstr ""
+msgstr "MacBook #1（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "MacBook #2"
-msgstr ""
+msgstr "MacBook #2（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -1824,61 +1825,61 @@ msgstr "杂项"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Miscellaneous 01"
-msgstr ""
+msgstr "Miscellaneous 01（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Miscellaneous 02"
-msgstr ""
+msgstr "Miscellaneous 02（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Miscellaneous 03"
-msgstr ""
+msgstr "Miscellaneous 03（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Miscellaneous 04"
-msgstr ""
+msgstr "Miscellaneous 04（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Miscellaneous 05"
-msgstr ""
+msgstr "Miscellaneous 05（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Miscellaneous 06"
-msgstr ""
+msgstr "Miscellaneous 06（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Miscellaneous 07"
-msgstr ""
+msgstr "Miscellaneous 07（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Miscellaneous 08"
-msgstr ""
+msgstr "Miscellaneous 08（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Mixed 1"
-msgstr ""
+msgstr "Mixed 1（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Mixed 2"
-msgstr ""
+msgstr "Mixed 2（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -1908,7 +1909,7 @@ msgstr "右移"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_filter_option.xml:0
 msgid "Multiply"
-msgstr ""
+msgstr "Multiply（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -1981,25 +1982,25 @@ msgstr "有机"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Organic Caps"
-msgstr ""
+msgstr "Organic Caps（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Organic Cross"
-msgstr ""
+msgstr "Organic Cross（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Organic Dot"
-msgstr ""
+msgstr "Organic Dot（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Organic Line"
-msgstr ""
+msgstr "Organic 行"
 
 #. module: html_builder
 #. odoo-javascript
@@ -2011,13 +2012,13 @@ msgstr "一开始"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Oval Line"
-msgstr ""
+msgstr "Oval 行"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Oval Zebra"
-msgstr ""
+msgstr "Oval Zebra（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -2041,37 +2042,37 @@ msgstr "页面选项"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Pattern 01"
-msgstr ""
+msgstr "Pattern 01（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Pattern 02"
-msgstr ""
+msgstr "Pattern 02（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Pattern 03"
-msgstr ""
+msgstr "Pattern 03（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Pattern 04"
-msgstr ""
+msgstr "Pattern 04（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Pattern 05"
-msgstr ""
+msgstr "Pattern 05（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Pattern 06"
-msgstr ""
+msgstr "Pattern 06（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -2084,31 +2085,31 @@ msgstr "模式"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Pentagon"
-msgstr ""
+msgstr "Pentagon（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Pentagon (R)"
-msgstr ""
+msgstr "Pentagon (R)（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Pill (R)"
-msgstr ""
+msgstr "Pill (R)（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Planet 1"
-msgstr ""
+msgstr "Planet 1（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Planet 2"
-msgstr ""
+msgstr "Planet 2（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -2151,61 +2152,61 @@ msgstr "质量"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Rain"
-msgstr ""
+msgstr "Rain（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Rainy 01"
-msgstr ""
+msgstr "Rainy 01（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Rainy 02"
-msgstr ""
+msgstr "Rainy 02（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Rainy 03"
-msgstr ""
+msgstr "Rainy 03（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Rainy 04"
-msgstr ""
+msgstr "Rainy 04（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Rainy 05"
-msgstr ""
+msgstr "Rainy 05（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Rainy 06"
-msgstr ""
+msgstr "Rainy 06（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Rainy 07"
-msgstr ""
+msgstr "Rainy 07（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Rainy 08"
-msgstr ""
+msgstr "Rainy 08（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Rainy 09"
-msgstr ""
+msgstr "Rainy 09（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -2223,7 +2224,7 @@ msgstr "移除"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_image.xml:0
 msgid "Remove image"
-msgstr ""
+msgstr "移除 image"
 
 #. module: html_builder
 #. odoo-javascript
@@ -2235,13 +2236,13 @@ msgstr "移除此块"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/snippets/snippet_viewer.js:0
 msgid "Rename %(snippetName)s"
-msgstr ""
+msgstr "Rename %(snippetName)s（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/sidebar/custom_inner_snippet.js:0
 msgid "Rename %(snippetTitle)s"
-msgstr ""
+msgstr "Rename %(snippetTitle)s（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -2273,19 +2274,19 @@ msgstr "替换图标"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/replace_media_option.js:0
 msgid "Replace Image"
-msgstr ""
+msgstr "Replace Image（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/replace_media_option.js:0
 msgid "Replace Media"
-msgstr ""
+msgstr "Replace Media（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/replace_media_option.js:0
 msgid "Replace Video"
-msgstr ""
+msgstr "Replace Video（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -2304,7 +2305,7 @@ msgstr "重置裁切"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shape_option.xml:0
 msgid "Reset shape transformation"
-msgstr ""
+msgstr "Reset shape transformation（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -2392,7 +2393,7 @@ msgstr "保存和安装"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/core/save_snippet_plugin.js:0
 msgid "Saved as %s. Find it in your snippets."
-msgstr ""
+msgstr "Saved as %s. Find it in your snippets.（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -2498,13 +2499,13 @@ msgstr "在移动端显示/隐藏"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Shuriken"
-msgstr ""
+msgstr "Shuriken（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Shuriken (R)"
-msgstr ""
+msgstr "Shuriken (R)（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -2533,7 +2534,7 @@ msgstr "小"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Snow"
-msgstr ""
+msgstr "Snow（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -2551,13 +2552,13 @@ msgstr "实线"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Sonar"
-msgstr ""
+msgstr "Sonar（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Sonar (R)"
-msgstr ""
+msgstr "Sonar (R)（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -2583,7 +2584,7 @@ msgstr "扩展"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Square (R)"
-msgstr ""
+msgstr "Square (R)（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -2595,13 +2596,13 @@ msgstr "正方形 1"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Square 1 (R)"
-msgstr ""
+msgstr "Square 1 (R)（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Square 2"
-msgstr ""
+msgstr "Square 2（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -2613,109 +2614,109 @@ msgstr "正方形 2（反转）"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Square 3"
-msgstr ""
+msgstr "Square 3（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Square 4"
-msgstr ""
+msgstr "Square 4（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Square 5"
-msgstr ""
+msgstr "Square 5（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Square 6"
-msgstr ""
+msgstr "Square 6（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Square Dot 1"
-msgstr ""
+msgstr "Square Dot 1（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Square Dot 2"
-msgstr ""
+msgstr "Square Dot 2（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Square Dot 3"
-msgstr ""
+msgstr "Square Dot 3（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Square Dot 4"
-msgstr ""
+msgstr "Square Dot 4（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Square Line"
-msgstr ""
+msgstr "Square 行"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/rating_option.xml:0
 msgid "Squares"
-msgstr ""
+msgstr "Squares（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Star"
-msgstr ""
+msgstr "Star（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Star 1"
-msgstr ""
+msgstr "Star 1（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Star 1 (R)"
-msgstr ""
+msgstr "Star 1 (R)（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Star 2"
-msgstr ""
+msgstr "Star 2（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Star 2 (R)"
-msgstr ""
+msgstr "Star 2 (R)（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Star 3"
-msgstr ""
+msgstr "Star 3（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Star 3 (R)"
-msgstr ""
+msgstr "Star 3 (R)（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Star 4 (R)"
-msgstr ""
+msgstr "Star 4 (R)（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -2772,19 +2773,19 @@ msgstr "看看搜索栏，可能有一个小错别字！"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Tear"
-msgstr ""
+msgstr "Tear（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Tear (R)"
-msgstr ""
+msgstr "Tear (R)（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Tetris"
-msgstr ""
+msgstr "Tetris（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -2822,13 +2823,13 @@ msgstr "此字体由谷歌服务器托管并提供给您的访客"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/core/version_error_plugin.js:0
 msgid "This snippet is outdated"
-msgstr ""
+msgstr "This snippet is outdated（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/rating_option.xml:0
 msgid "Thumbs"
-msgstr ""
+msgstr "Thumbs（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -2907,13 +2908,13 @@ msgstr "三角形线条"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Trio In (R)"
-msgstr ""
+msgstr "Trio In (R)（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Trio Out (R)"
-msgstr ""
+msgstr "Trio Out (R)（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -2987,25 +2988,25 @@ msgstr "警告"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Wave 1"
-msgstr ""
+msgstr "Wave 1（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Wave 2"
-msgstr ""
+msgstr "Wave 2（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Wave 3"
-msgstr ""
+msgstr "Wave 3（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "Wave 4"
-msgstr ""
+msgstr "Wave 4（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -3017,97 +3018,97 @@ msgstr "波浪"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Wavy 01"
-msgstr ""
+msgstr "Wavy 01（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Wavy 02"
-msgstr ""
+msgstr "Wavy 02（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Wavy 03"
-msgstr ""
+msgstr "Wavy 03（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Wavy 04"
-msgstr ""
+msgstr "Wavy 04（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Wavy 05"
-msgstr ""
+msgstr "Wavy 05（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Wavy 06"
-msgstr ""
+msgstr "Wavy 06（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Wavy 07"
-msgstr ""
+msgstr "Wavy 07（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Wavy 08"
-msgstr ""
+msgstr "Wavy 08（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Wavy 09"
-msgstr ""
+msgstr "Wavy 09（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Wavy 10"
-msgstr ""
+msgstr "Wavy 10（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Wavy 11"
-msgstr ""
+msgstr "Wavy 11（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Wavy 12"
-msgstr ""
+msgstr "Wavy 12（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Wavy 13"
-msgstr ""
+msgstr "Wavy 13（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/background_option/background_shapes_definition.js:0
 msgid "Wavy 14"
-msgstr ""
+msgstr "Wavy 14（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_filter_option.js:0
 msgid "WebGL is not enabled on your browser."
-msgstr ""
+msgstr "WebGL is not 已启用 on your browser."
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_format_option.xml:0
 msgid "WebP compression not supported on this browser"
-msgstr ""
+msgstr "WebP compression not supported on this browser（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
@@ -3139,7 +3140,7 @@ msgstr "是"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/core/building_blocks/builder_list.xml:0
 msgid "You don't have any record to add"
-msgstr ""
+msgstr "You don't have any record to 添加"
 
 #. module: html_builder
 #. odoo-javascript
@@ -3157,97 +3158,97 @@ msgstr "自动"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "iMac #1"
-msgstr ""
+msgstr "iMac #1（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "iMac #2"
-msgstr ""
+msgstr "iMac #2（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "iMac #3"
-msgstr ""
+msgstr "iMac #3（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "iPad #1"
-msgstr ""
+msgstr "iPad #1（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "iPad #2"
-msgstr ""
+msgstr "iPad #2（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "iPad #3"
-msgstr ""
+msgstr "iPad #3（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "iPad #4"
-msgstr ""
+msgstr "iPad #4（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "iPad #5"
-msgstr ""
+msgstr "iPad #5（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "iPad #6"
-msgstr ""
+msgstr "iPad #6（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "iPhone #1"
-msgstr ""
+msgstr "iPhone #1（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "iPhone #2"
-msgstr ""
+msgstr "iPhone #2（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "iPhone #3"
-msgstr ""
+msgstr "iPhone #3（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "iPhone #4"
-msgstr ""
+msgstr "iPhone #4（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "iPhone #5"
-msgstr ""
+msgstr "iPhone #5（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_shapes_definition.js:0
 msgid "iPhone #6"
-msgstr ""
+msgstr "iPhone #6（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/shape/shape_selector.xml:0
 msgid "nimated"
-msgstr ""
+msgstr "nimated（技术名称）"
 
 #. module: html_builder
 #. odoo-javascript

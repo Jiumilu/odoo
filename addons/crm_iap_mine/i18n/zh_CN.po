@@ -13,8 +13,7 @@ msgstr ""
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2025-09-16 15:22+0000\n"
 "Last-Translator: \"Tiffany Chang (tic)\" <tic@odoo.com>\n"
-"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
-"projects/odoo-19/crm_iap_mine/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/projects/odoo-19/crm_iap_mine/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -41,8 +40,7 @@ msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <p>Dear,</p>\n"
 "    <p>There are no more credits on your IAP Lead Generation account.<br/>\n"
-"    You can charge your IAP Lead Generation account in the settings of the "
-"CRM app.<br/></p>\n"
+"    You can charge your IAP Lead Generation account in the settings of the CRM app.<br/></p>\n"
 "    <p>Best regards,</p>\n"
 "    <p>Odoo S.A.</p>\n"
 "</div>"
@@ -52,7 +50,7 @@ msgstr ""
 "    <p>您的IAP线索生成账户中没有太多余额。<br/>\n"
 "    您可以在CRM应用程序的设置中向IAP线索生成账户充值。<br/></p>\n"
 "    <p>谨致问候。</p>\n"
-"    <p>Odoo S.A.</p>\n"
+"    <p>GlobalCloud GPC</p>\n"
 "</div>"
 
 #. module: crm_iap_mine
@@ -61,20 +59,22 @@ msgid ""
 "<i class=\"fa fa-fw me-2 fa-address-book text-primary\"/>\n"
 "                    <b>Address</b>"
 msgstr ""
+"<i class=\"fa fa-fw me-2 fa-address-book text-primary\"/> "
+"<b>Address</b>（技术名称）"
 
 #. module: crm_iap_mine
 #: model_terms:ir.ui.view,arch_db:crm_iap_mine.enrich_company
 msgid ""
 "<i class=\"fa fa-fw me-2 fa-cube text-primary\"/>\n"
 "                    <b>Industries</b>"
-msgstr ""
+msgstr "<i class=\"fa fa-fw me-2 fa-cube text-primary\"/> <b>Industries</b>（技术名称）"
 
 #. module: crm_iap_mine
 #: model_terms:ir.ui.view,arch_db:crm_iap_mine.enrich_company
 msgid ""
 "<i class=\"fa fa-fw me-2 fa-globe text-primary\"/>\n"
 "                    <b>Website</b>"
-msgstr ""
+msgstr "<i class=\"fa fa-fw me-2 fa-globe text-primary\"/> <b>Website</b>（技术名称）"
 
 #. module: crm_iap_mine
 #: model_terms:ir.ui.view,arch_db:crm_iap_mine.enrich_company
@@ -82,6 +82,8 @@ msgid ""
 "<i class=\"fa fa-fw me-2 fa-solid fa-id-card text-primary\"/>\n"
 "                    <b>Tax ID</b>"
 msgstr ""
+"<i class=\"fa fa-fw me-2 fa-solid fa-id-card text-primary\"/> <b>Tax "
+"ID</b>（技术名称）"
 
 #. module: crm_iap_mine
 #: model_terms:ir.ui.view,arch_db:crm_iap_mine.crm_iap_lead_mining_request_view_form
@@ -104,8 +106,8 @@ msgid ""
 "<span invisible=\"error_type != 'no_result'\">Your request did not return "
 "any result (no credits were used). Try removing some filters.</span>"
 msgstr ""
-"<span invisible=\"error_type != 'no_result'\">您的请求未返回任何结果（未使用"
-"积分）。请尝试移除一些筛选条件。</span>"
+"<span invisible=\"error_type != "
+"'no_result'\">您的请求未返回任何结果（未使用积分）。请尝试移除一些筛选条件。</span>"
 
 #. module: crm_iap_mine
 #: model:crm.iap.lead.industry,name:crm_iap_mine.crm_iap_mine_industry_238
@@ -507,7 +509,8 @@ msgstr "法律"
 #. module: crm_iap_mine
 #. odoo-javascript
 #: code:addons/crm_iap_mine/static/src/js/tours/crm_iap_lead.js:0
-msgid "Looking for more opportunities?<br>Try the <b>Lead Generation</b> tool."
+msgid ""
+"Looking for more opportunities?<br>Try the <b>Lead Generation</b> tool."
 msgstr "寻找更多机会？<br>试试<b>\"线索生成\"</b>工具。"
 
 #. module: crm_iap_mine
@@ -590,7 +593,7 @@ msgstr "商机"
 #. odoo-python
 #: code:addons/crm_iap_mine/models/crm_iap_lead_mining_request.py:0
 msgid "Opportunity created by Odoo Lead Generation"
-msgstr "由Odoo线索生成产生的商机"
+msgstr "由绿色供应链公共服务平台线索生成产生的商机"
 
 #. module: crm_iap_mine
 #: model:ir.model.fields,field_description:crm_iap_mine.field_crm_iap_lead_mining_request__role_ids
@@ -794,11 +797,9 @@ msgstr "类型"
 #. odoo-python
 #: code:addons/crm_iap_mine/models/crm_iap_lead_mining_request.py:0
 msgid ""
-"Up to %(credit_count)d additional credits will be consumed to identify %"
-"(contact_count)d contacts per company."
-msgstr ""
-"将消耗最多%(credit_count)d个额外积分来识别每个公司的 %(contact_count)d个联系"
-"人。"
+"Up to %(credit_count)d additional credits will be consumed to identify "
+"%(contact_count)d contacts per company."
+msgstr "将消耗最多%(credit_count)d个额外积分来识别每个公司的 %(contact_count)d个联系人。"
 
 #. module: crm_iap_mine
 #. odoo-javascript
@@ -847,11 +848,11 @@ msgstr "到"
 
 #~ msgid ""
 #~ "<span attrs=\"{'invisible': [('error_type', '!=', 'no_result')]}\">Your "
-#~ "request did not return any result (no credits were used). Try removing "
-#~ "some filters.</span>"
+#~ "request did not return any result (no credits were used). Try removing some "
+#~ "filters.</span>"
 #~ msgstr ""
-#~ "<span attrs=\"{'invisible': [('error_type', '!=', 'no_result')]}\">您的请"
-#~ "求没有返回任何结果（没有使用信贷）。尝试删除一些筛选。</span>"
+#~ "<span attrs=\"{'invisible': [('error_type', '!=', "
+#~ "'no_result')]}\">您的请求没有返回任何结果（没有使用信贷）。尝试删除一些筛选。</span>"
 
 #~ msgid "Display Lead Label"
 #~ msgstr "显示显示标签"

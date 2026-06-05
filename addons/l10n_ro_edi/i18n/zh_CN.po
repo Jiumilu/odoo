@@ -1,0 +1,882 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_ro_edi
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ro_edi.field_account_bank_statement_line__l10n_ro_edi_state
+#: model:ir.model.fields,help:l10n_ro_edi.field_account_move__l10n_ro_edi_state
+msgid ""
+"- Not indexed: Invoice index was not received on time due to a server timeout\n"
+"                - Sent: Successfully sent to the SPV, waiting for validation\n"
+"                - Validated: Sent & validated by the SPV\n"
+"                - Refused: Validation error from the SPV\n"
+"        "
+msgstr ""
+"- Not indexed: 发票 index was not 已接收 on time due to a server timeout - 已发送: "
+"Successfully 已发送 to the SPV, waiting for validation - Validated: 已发送 & "
+"validated by the SPV - Refused: Validation 错误 从 the SPV"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ro_edi.res_config_settings_form_inherit_l10n_ro_edi
+msgid ""
+".\n"
+"                                        Login or Sign Up if you don't have an account yet"
+msgstr ". Login or Sign Up if you don't have an 账户 yet"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ro_edi.res_config_settings_form_inherit_l10n_ro_edi
+msgid ""
+"<span class=\"o_form_label\">\n"
+"                                    E-Factura Details\n"
+"                                </span>\n"
+"                                <span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-specific.\"/>"
+msgstr ""
+"<span class=\"o_form_label\"> E-Factura Details </span> <span class=\"fa fa-"
+"lg fa-building-o\" title=\"Values set here are company-specific.\"/>（技术名称）"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_res_company__l10n_ro_edi_access_token
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_res_config_settings__l10n_ro_edi_access_token
+msgid "Access Token"
+msgstr "访问令牌"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_res_company__l10n_ro_edi_access_expiry_date
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_res_config_settings__l10n_ro_edi_access_expiry_date
+msgid "Access Token Expiry Date"
+msgstr "访问 Token Expiry 日期"
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/controllers/main.py:0
+msgid ""
+"Access key not found. Please try again.\n"
+"Response: %s"
+msgstr "访问 key not found. Please try again. Response: %s"
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/models/utils.py:0
+msgid "Access token is forbidden."
+msgstr "访问 token is forbidden."
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/models/utils.py:0
+msgid "Access token is unauthorized."
+msgstr "访问 token is unauthorized."
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ro_edi.model_account_move_send
+msgid "Account Move Send"
+msgstr "科目分录发送"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ro_edi.model_account_move_send_wizard
+msgid "Account Move Send Wizard"
+msgstr "账户移动发送向导"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ro_edi.res_config_settings_form_inherit_l10n_ro_edi
+msgid "Activate test environment for sending E-Factura to SPV"
+msgstr "Activate test environment for sending E-Factura to SPV（技术名称）"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_l10n_ro_edi_document__attachment
+msgid "Attachment"
+msgstr "附件"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ro_edi.model_account_edi_xml_ubl_ro
+msgid "CIUS RO"
+msgstr "CIUS RO（技术名称）"
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/models/account_move.py:0
+msgid "CIUS-RO XML attachment not found."
+msgstr "CIUS-RO XML 附件 not found."
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/models/account_move_send.py:0
+msgid "Check Invoice(s)"
+msgstr "检查发票"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ro_edi.res_config_settings_form_inherit_l10n_ro_edi
+msgid "Client ID"
+msgstr "客户 ID"
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/controllers/main.py:0
+#: code:addons/l10n_ro_edi/models/res_company.py:0
+msgid "Client ID and Client Secret field must be filled."
+msgstr "Client ID and Client Secret field must be filled.（技术名称）"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_res_company__l10n_ro_edi_client_secret
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_res_config_settings__l10n_ro_edi_client_secret
+msgid "Client Secret"
+msgstr "客户密钥"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ro_edi.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ro_edi.model_res_config_settings
+msgid "Config Settings"
+msgstr "配置设定"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ro_edi.model_res_partner
+msgid "Contact"
+msgstr "联系人"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ro_edi.res_config_settings_form_inherit_l10n_ro_edi
+msgid "Copy the generated Client ID and Client Secret to the fields below"
+msgstr "Copy the 已生成 Client ID and Client Secret to the fields below"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,website_form_label:l10n_ro_edi.model_res_partner
+msgid "Create a Customer"
+msgstr "创建客户"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_l10n_ro_edi_document__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_l10n_ro_edi_document__create_date
+msgid "Created on"
+msgstr "创建日期"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ro_edi.res_config_settings_form_inherit_l10n_ro_edi
+msgid ""
+"Data needed to generate token for sending RO-CIUS to Romanian government"
+msgstr ""
+"Data needed to generate token for sending RO-CIUS to Romanian "
+"government（技术名称）"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_l10n_ro_edi_document__datetime
+msgid "Datetime"
+msgstr "日期和时间"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_account_edi_xml_ubl_ro__display_name
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_account_move_send__display_name
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_account_move_send_wizard__display_name
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_l10n_ro_edi_document__display_name
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_res_company__display_name
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_res_partner__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_l10n_ro_edi_document__key_download
+msgid "Document download key"
+msgstr "单据 download key"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ro_edi.model_l10n_ro_edi_document
+msgid "Document object for tracking CIUS-RO XML sent to E-Factura"
+msgstr "单据 object for tracking CIUS-RO XML 已发送 to E-Factura"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ro_edi.account_move_form_inherit_l10n_ro_edi
+msgid "Download the document sent"
+msgstr "Download the 单据 已发送"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ro_edi.account_move_form_inherit_l10n_ro_edi
+msgid "Download the signature"
+msgstr "Download the signature（技术名称）"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ro_edi.account_move_form_inherit_l10n_ro_edi
+msgid "E-Factura"
+msgstr "E-Factura（技术名称）"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_account_bank_statement_line__l10n_ro_edi_index
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_account_move__l10n_ro_edi_index
+msgid "E-Factura Index"
+msgstr "E-Factura Index（技术名称）"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_account_bank_statement_line__l10n_ro_edi_state
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_account_move__l10n_ro_edi_state
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_l10n_ro_edi_document__state
+#: model_terms:ir.ui.view,arch_db:l10n_ro_edi.l10n_ro_edi_view_account_invoice_filter
+msgid "E-Factura Status"
+msgstr "E-Factura 状态"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.server,name:l10n_ro_edi.ir_cron_l10n_ro_edi_refresh_access_token_ir_actions_server
+msgid "E-Factura: Refresh Access Token"
+msgstr "E-Factura: Refresh 访问 Token"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.server,name:l10n_ro_edi.ir_cron_l10n_ro_edi_synchronize_invoices_ir_actions_server
+msgid "E-Factura: Synchronize with ANAF"
+msgstr "E-Factura: Synchronize with ANAF（技术名称）"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ro_edi.selection__l10n_ro_edi_document__state__invoice_refused
+msgid "Error"
+msgstr "错误"
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/controllers/main.py:0
+#: code:addons/l10n_ro_edi/models/res_company.py:0
+msgid "Error when converting response to json: %s"
+msgstr "错误 when converting response to JSON: %s"
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/controllers/main.py:0
+#: code:addons/l10n_ro_edi/models/res_company.py:0
+msgid "Error when decoding the access token payload: %s"
+msgstr "错误 when decoding the 访问 token payload: %s"
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/controllers/main.py:0
+msgid "Error when processing the response: %s"
+msgstr "错误 when processing the response: %s"
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/models/res_company.py:0
+msgid "Error when refreshing the access token: %s"
+msgstr "错误 when refreshing the 访问 token: %s"
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/models/account_move_send.py:0
+msgid "Error when sending CIUS-RO E-Factura to the SPV"
+msgstr "错误 when sending CIUS-RO E-Factura to the SPV"
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/models/account_move.py:0
+msgid "Error when trying to download the E-Factura data from the SPV: %s"
+msgstr "错误 when trying to download the E-Factura data 从 the SPV: %s"
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/models/account_move.py:0
+msgid "Error when trying to fetch the E-Factura status from the SPV: %s"
+msgstr "错误 when trying to fetch the E-Factura 状态 从 the SPV: %s"
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/models/account_move.py:0
+msgid "Error when trying to send the e-Factura to the SPV: %s"
+msgstr "错误 when trying to 发送 the e-Factura to the SPV: %s"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.server,name:l10n_ro_edi.l10n_ro_edi_action_fetch_ciusro_status
+msgid "Fetch E-Factura Status"
+msgstr "Fetch E-Factura 状态"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ro_edi.account_move_form_inherit_l10n_ro_edi
+msgid "Fetch status"
+msgstr "Fetch 状态"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ro_edi.res_config_settings_form_inherit_l10n_ro_edi
+msgid ""
+"Fill \"Callback URL 1\" with the following URL:\n"
+"                                                <br/>"
+msgstr "Fill \"Callback URL 1\" with the following URL: <br/>（技术名称）"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ro_edi.res_config_settings_form_inherit_l10n_ro_edi
+msgid ""
+"Fill \"Denumire Aplicatie\" with any desired name for your registration data"
+msgstr ""
+"Fill \"Denumire Aplicatie\" with any desired 名称 for your registration data"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ro_edi.res_config_settings_form_inherit_l10n_ro_edi
+msgid "Generate Token"
+msgstr "Generate Token（技术名称）"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ro_edi.res_config_settings_form_inherit_l10n_ro_edi
+msgid "Generate a new Client data"
+msgstr "Generate a 新建 Client data"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ro_edi.res_config_settings_form_inherit_l10n_ro_edi
+msgid "Go to"
+msgstr "转到"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ro_edi.res_config_settings_form_inherit_l10n_ro_edi
+msgid "Go to \"Editare profil Oauth\""
+msgstr "Go to \"Editare profil Oauth\"（技术名称）"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_account_edi_xml_ubl_ro__id
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_account_move_send__id
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_account_move_send_wizard__id
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_l10n_ro_edi_document__id
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_res_company__id
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_res_config_settings__id
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_res_partner__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ro_edi.res_config_settings_form_inherit_l10n_ro_edi
+msgid "Import Vendor Bills in :"
+msgstr "导入 供应商账单s in :"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ro_edi.res_config_settings_form_inherit_l10n_ro_edi
+msgid "In \"Serviciu\", select the option \"E-Factura\""
+msgstr "In \"Serviciu\", select the option \"E-Factura\"（技术名称）"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_l10n_ro_edi_document__invoice_id
+msgid "Invoice"
+msgstr "发票"
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/models/account_move.py:0
+msgid ""
+"It was not possible to retrieve the PDF from the SPV for the following "
+"reason: %s"
+msgstr ""
+"It was not possible to retrieve the PDF 从 the SPV for the following 原因: %s"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ro_edi.model_account_move
+msgid "Journal Entry"
+msgstr "日记账分录"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_l10n_ro_edi_document__key_certificate
+msgid "Key Certificate"
+msgstr "Key 证书"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_l10n_ro_edi_document__key_signature
+msgid "Key Signature"
+msgstr "Key Signature（技术名称）"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_res_company__l10n_ro_edi_callback_url
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_res_config_settings__l10n_ro_edi_callback_url
+msgid "L10N Ro Edi Callback Url"
+msgstr "L10N Ro EDI Callback URL（技术名称）"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_account_bank_statement_line__l10n_ro_edi_document_ids
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_account_move__l10n_ro_edi_document_ids
+msgid "L10N Ro Edi Document"
+msgstr "L10N Ro EDI 单据"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_l10n_ro_edi_document__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_l10n_ro_edi_document__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_l10n_ro_edi_document__message
+msgid "Message"
+msgstr "信息"
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/models/account_move.py:0
+msgid "No PDF found: PDF imported from SPV."
+msgstr "否 PDF found: PDF imported 从 SPV."
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ro_edi.selection__account_move__l10n_ro_edi_state__invoice_not_indexed
+msgid "Not indexed"
+msgstr "Not indexed（技术名称）"
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/models/account_move.py:0
+msgid "Only posted entries can be sent to SPV."
+msgstr "Only 已过账 entries can be 已发送 to SPV."
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/controllers/main.py:0
+msgid "Received access key: %s"
+msgstr "已接收 访问 key: %s"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_res_company__l10n_ro_edi_refresh_token
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_res_config_settings__l10n_ro_edi_refresh_token
+msgid "Refresh Token"
+msgstr "更新 Token"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_res_company__l10n_ro_edi_refresh_expiry_date
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_res_config_settings__l10n_ro_edi_refresh_expiry_date
+msgid "Refresh Token Expiry Date"
+msgstr "Refresh Token Expiry 日期"
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/models/res_company.py:0
+msgid "Refresh token failed [company=%(company_id)s]"
+msgstr "Refresh token 失败 [公司=%(company_id)s]"
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/models/res_company.py:0
+msgid "Refresh token not found"
+msgstr "Refresh token not found（技术名称）"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ro_edi.selection__account_move__l10n_ro_edi_state__invoice_refused
+msgid "Refused"
+msgstr "已拒绝"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ro_edi.l10n_ro_edi_view_account_invoice_filter
+msgid "Refused E-Factura"
+msgstr "Refused E-Factura（技术名称）"
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/controllers/main.py:0
+msgid ""
+"Response (code=%(status_code)s) to %(url)s failed:\n"
+"%(text)s"
+msgstr "Response (代码=%(status_code)s) to %(url)s 失败: %(text)s"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ro_edi.selection__res_partner__invoice_edi_format__ciusro
+msgid "Romania (CIUS RO)"
+msgstr "Romania (CIUS RO)（技术名称）"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ro_edi.res_config_settings_form_inherit_l10n_ro_edi
+msgid "Romanian E-Factura"
+msgstr "Romanian E-Factura（技术名称）"
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/models/account_move.py:0
+msgid ""
+"Romanian access token not found. Please generate or fill it in the settings."
+msgstr "Romanian 访问 token not found. Please generate or fill it in the 设置."
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/models/account_move.py:0
+msgid ""
+"SPV failed to return with an index on time, synchronize this invoice to "
+"recover the index and the status."
+msgstr ""
+"SPV 失败 to 退货 with an index on time, synchronize this 发票 to recover the index"
+" and the 状态."
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/models/account_move.py:0
+msgid "SPV has not finished processing the invoice, try again later."
+msgstr "SPV has not finished processing the 发票, try again later."
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_res_company__l10n_ro_edi_anaf_imported_inv_journal_id
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_res_config_settings__l10n_ro_edi_anaf_imported_inv_journal_id
+msgid "Select journal for SPV imported bills"
+msgstr "Select 日记账 for SPV imported bills"
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/models/account_move_send.py:0
+#: code:addons/l10n_ro_edi/wizard/account_move_send_wizard.py:0
+msgid "Send E-Factura to SPV"
+msgstr "发送 E-Factura to SPV"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ro_edi.selection__account_move__l10n_ro_edi_state__invoice_sent
+#: model:ir.model.fields.selection,name:l10n_ro_edi.selection__l10n_ro_edi_document__state__invoice_sent
+msgid "Sent"
+msgstr "已发送"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ro_edi.field_l10n_ro_edi_document__state
+msgid ""
+"Sent -> Successfully sent to the SPV, waiting for validation.\n"
+"                Validated -> Sent & validated by the SPV.\n"
+"                Refused -> Sent & refused by the SPV.\n"
+"        "
+msgstr ""
+"已发送 -> Successfully 已发送 to the SPV, waiting for validation. Validated -> 已发送"
+" & validated by the SPV. Refused -> 已发送 & refused by the SPV."
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ro_edi.l10n_ro_edi_view_account_invoice_filter
+msgid "Sent E-Factura"
+msgstr "已发送 E-Factura"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_l10n_ro_edi_document__show_fetch_status_button
+msgid "Show Fetch Status Button"
+msgstr "Show Fetch 状态 Button"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ro_edi.res_config_settings_form_inherit_l10n_ro_edi
+msgid "Submit the form by clicking on \"Generare Client ID\""
+msgstr "提交 the 表单 by clicking on \"Generare Client ID\""
+
+#. module: l10n_ro_edi
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/static/src/components/fetch_invoices.xml:0
+msgid "Synchronize with ANAF"
+msgstr "Synchronize with ANAF（技术名称）"
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/models/account_move.py:0
+msgid "Synchronized with SPV from message %s"
+msgstr "Synchronized with SPV 从 消息 %s"
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/models/account_move_send.py:0
+msgid "The CIUS-RO E-Factura could not be found"
+msgstr "The CIUS-RO E-Factura could not be found（技术名称）"
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/models/utils.py:0
+msgid "The SPV data could not be parsed."
+msgstr "The SPV data could not be parsed.（技术名称）"
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/models/account_move.py:0
+msgid ""
+"The e-Factura has been sent and is now being validated by the SPV with index"
+" key: %s"
+msgstr ""
+"The e-Factura has been 已发送 and is now being validated by the SPV with index "
+"key: %s"
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/models/account_move_send.py:0
+msgid ""
+"The following invoice(s) are waiting for answer from the Romanian SPV: %s.We"
+" won't send them again."
+msgstr ""
+"The following 发票(s) are waiting for answer 从 the Romanian SPV: %s.We won't "
+"发送 them again."
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/models/account_edi_xml_ubl_ciusro.py:0
+msgid ""
+"The following partner doesn't have a VAT nor Company ID: %s. At least one of"
+" them is required. "
+msgstr ""
+"The following 业务伙伴 doesn't have a VAT nor 公司 ID: %s. At least one of them is"
+" 必填."
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/models/account_edi_xml_ubl_ciusro.py:0
+msgid ""
+"The following partner's city name is invalid: %s. If partner's state is "
+"București, the city name must be 'SECTORX', where X is a number between 1-6."
+msgstr ""
+"The following partner's 城市 名称 is 无效: %s. If partner's 状态 is București, the "
+"城市 名称 must be 'SECTORX', where X is a 编号 between 1-6."
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/models/account_move.py:0
+msgid "The invoice has already been sent to the SPV."
+msgstr "The 发票 has already been 已发送 to the SPV."
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/models/account_move.py:0
+msgid ""
+"The invoice has probably been refused by the SPV. We were unable to recover "
+"the reason of the refusal because the invoice had not received its index. "
+"Duplicate the invoice and attempt to send it again."
+msgstr ""
+"The 发票 has probably been refused by the SPV. We were unable to recover the "
+"原因 of the refusal because the 发票 had not 已接收 its index. 复制 the 发票 and "
+"attempt to 发送 it again."
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/models/account_move.py:0
+msgid "The invoice is not ready to be sent: %s"
+msgstr "The 发票 is not ready to be 已发送: %s"
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/models/utils.py:0
+msgid "There is something wrong with the SPV. Please try again later."
+msgstr "There is something wrong with the SPV. Please try again later.（技术名称）"
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/models/account_move.py:0
+msgid "This invoice has been accepted by the SPV."
+msgstr "This 发票 has been 已接受 by the SPV."
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/models/account_move.py:0
+msgid "This invoice was refused by the SPV for the following reason: %s"
+msgstr "This 发票 was refused by the SPV for the following 原因: %s"
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/models/utils.py:0
+msgid ""
+"Timeout while sending to SPV. Use Synchronise to SPV to update the status."
+msgstr ""
+"Timeout while sending to SPV. Use Synchronise to SPV to update the 状态."
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ro_edi.res_config_settings_form_inherit_l10n_ro_edi
+msgid ""
+"To benefit from this feature, you must have a digital signature USB token from\n"
+"                                        Romania connected with an ANAF account"
+msgstr ""
+"To benefit 从 this feature, you must have a digital signature USB token 从 "
+"Romania connected with an ANAF 账户"
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/models/res_company.py:0
+msgid ""
+"Token not found.\n"
+"Response: %s"
+msgstr "Token not found. Response: %s（技术名称）"
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/models/utils.py:0
+msgid "Unknown endpoint."
+msgstr "Unknown endpoint.（技术名称）"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_res_company__l10n_ro_edi_test_env
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_res_config_settings__l10n_ro_edi_test_env
+msgid "Use Test Environment"
+msgstr "Use Test Environment（技术名称）"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ro_edi.selection__account_move__l10n_ro_edi_state__invoice_validated
+#: model:ir.model.fields.selection,name:l10n_ro_edi.selection__l10n_ro_edi_document__state__invoice_validated
+msgid "Validated"
+msgstr "已验证"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ro_edi.l10n_ro_edi_view_account_invoice_filter
+msgid "Validated E-Factura"
+msgstr "Validated E-Factura（技术名称）"
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/models/account_move_send.py:0
+msgid "View Invoice(s)"
+msgstr "查看发票"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ro_edi.res_config_settings_form_inherit_l10n_ro_edi
+msgid ""
+"With the digital signature USB token inserted, generate the token using the "
+"button below"
+msgstr ""
+"With the digital signature USB token inserted, generate the token using the "
+"button below（技术名称）"
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/wizard/account_move_send_wizard.py:0
+msgid "You can't send now. Invoice is waiting for an answer."
+msgstr "You can't 发送 now. 发票 is waiting for an answer."
+
+#. module: l10n_ro_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ro_edi/models/utils.py:0
+msgid "You reached the limit of requests. Please try again later."
+msgstr "You reached the limit of requests. Please try again later.（技术名称）"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_res_company__l10n_ro_edi_client_id
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_res_config_settings__l10n_ro_edi_client_id
+msgid "eFactura Client ID"
+msgstr "eFactura Client ID（技术名称）"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_res_partner__invoice_edi_format
+#: model:ir.model.fields,field_description:l10n_ro_edi.field_res_users__invoice_edi_format
+msgid "eInvoice format"
+msgstr "电子发票格式"
+
+#. module: l10n_ro_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ro_edi.res_config_settings_form_inherit_l10n_ro_edi
+msgid "https://pfinternet.anaf.ro/"
+msgstr "https://pfinternet.anaf.ro/（技术名称）"

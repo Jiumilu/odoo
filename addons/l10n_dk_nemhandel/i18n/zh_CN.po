@@ -1,0 +1,1054 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_dk_nemhandel
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/wizard/account_move_send_wizard.py:0
+msgid " (Demo)"
+msgstr "(示例)"
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/wizard/account_move_send_wizard.py:0
+msgid " (Test)"
+msgstr "(测试)"
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/wizard/account_move_send_wizard.py:0
+msgid " (no VAT)"
+msgstr "（无增值税）"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel.l10n_dk_nemhandel_view_move_form
+msgid ""
+"<span class=\"mx-1\" invisible=\"'demo_' not in nemhandel_message_uuid\"> (Demo)</span>\n"
+"                    <span class=\"text-muted mx-3\" invisible=\"nemhandel_move_state != 'to_send'\">\n"
+"                        The invoice will be sent automatically via Nemhandel\n"
+"                    </span>"
+msgstr ""
+"<span class=\"mx-1\" invisible=\"'demo_' not in nemhandel_message_uuid\"> "
+"(Demo)</span> <span class=\"text-muted mx-3\" "
+"invisible=\"nemhandel_move_state != 'to_send'\"> The 发票 will be 已发送 "
+"automatically via Nemhandel </span>"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:web_tour.tour,rainbow_man_message:l10n_dk_nemhandel.nemhandel_onboarding_tour
+msgid ""
+"<span><strong><b>Good job!</b> You're registered on Nemhandel.</strong>\n"
+"            <br>You can now fill in the data for your customers and send them invoices electronically\n"
+"        </span>"
+msgstr ""
+"<span><strong><b>Good job!</b> You're registered on Nemhandel.</strong> "
+"<br>You can now fill in the data for your 客户 and 发送 them 发票 electronically "
+"</span>"
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/models/account_edi_proxy_user.py:0
+msgid ""
+"A participant with these details has already been registered on the network."
+" If you have previously registered to an alternative Nemhandel service, "
+"please deregister"
+msgstr ""
+"A participant with these details has already been registered on the network."
+" If you have previously registered to an alternative Nemhandel 服务, please "
+"deregister"
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/models/res_company.py:0
+msgid "A purchase journal must be used to receive Nemhandel documents."
+msgstr "A 采购 日记账 must be used to receive Nemhandel 单据."
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_dk_nemhandel.model_account_edi_proxy_client_user
+msgid "Account EDI proxy user"
+msgstr "科目EDI代理用户"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_dk_nemhandel.model_account_move_send
+msgid "Account Move Send"
+msgstr "科目分录发送"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_dk_nemhandel.model_account_move_send_batch_wizard
+msgid "Account Move Send Batch Wizard"
+msgstr "账户移动发送批次向导"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_dk_nemhandel.model_account_move_send_wizard
+msgid "Account Move Send Wizard"
+msgstr "账户移动发送向导"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel.nemhandel_registration_form
+msgid "Activate Nemhandel"
+msgstr "Activate Nemhandel（技术名称）"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel.nemhandel_registration_form
+msgid "Activate Nemhandel (Demo)"
+msgstr "Activate Nemhandel (Demo)（技术名称）"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel.nemhandel_registration_form
+msgid "Activate Nemhandel (Test)"
+msgstr "Activate Nemhandel (Test)（技术名称）"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel.res_config_settings_view_form
+msgid "Allow sending and receiving invoices through the Nemhandel network"
+msgstr "Allow sending and receiving 发票 through the Nemhandel network"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_dk_nemhandel.selection__res_partner__invoice_sending_method__nemhandel
+msgid "By Nemhandel"
+msgstr "By Nemhandel（技术名称）"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel.nemhandel_registration_form
+msgid ""
+"By clicking the button below I accept that Odoo may process my e-invoices."
+msgstr ""
+"By clicking the button below I accept that 绿色供应链公共服务平台 may process my 电子发票s."
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_dk_nemhandel.selection__res_partner__nemhandel_identifier_type__0184
+msgid "CVR"
+msgstr "CVR（技术名称）"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_dk_nemhandel.selection__res_company__l10n_dk_nemhandel_proxy_state__receiver
+msgid "Can send and receive"
+msgstr "可以发送和接收"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel.l10n_dk_nemhandel_view_move_form
+msgid "Cancel Nemhandel"
+msgstr "取消 Nemhandel"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel.nemhandel_registration_form
+msgid "Cancel Registration"
+msgstr "取消登记记录"
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/models/account_move.py:0
+msgid "Cannot cancel an entry that has already been sent to Nemhandel"
+msgstr "Cannot 取消 an 分录 that has already been 已发送 to Nemhandel"
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/models/account_edi_proxy_user.py:0
+#: code:addons/l10n_dk_nemhandel/wizard/nemhandel_registration.py:0
+msgid "Cannot register a user with a %s application"
+msgstr "无法使用%s应用程序注册用户"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_dk_nemhandel.field_nemhandel_registration__identifier_value
+#: model:ir.model.fields,help:l10n_dk_nemhandel.field_res_company__nemhandel_identifier_value
+#: model:ir.model.fields,help:l10n_dk_nemhandel.field_res_config_settings__nemhandel_identifier_value
+#: model:ir.model.fields,help:l10n_dk_nemhandel.field_res_partner__nemhandel_identifier_value
+#: model:ir.model.fields,help:l10n_dk_nemhandel.field_res_users__nemhandel_identifier_value
+msgid "Code used to identify the Endpoint on Nemhandel"
+msgstr "代码 used to identify the Endpoint on Nemhandel"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_dk_nemhandel.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_nemhandel_registration__company_id
+msgid "Company"
+msgstr "公司"
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/wizard/nemhandel_registration.py:0
+msgid "Company settings"
+msgstr "公司 设置"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_dk_nemhandel.model_res_config_settings
+msgid "Config Settings"
+msgstr "配置设定"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel.nemhandel_registration_form
+msgid "Confirm"
+msgstr "确认"
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/models/account_edi_proxy_user.py:0
+#: code:addons/l10n_dk_nemhandel/wizard/nemhandel_registration.py:0
+msgid "Connection error, please try again later."
+msgstr "连接 错误, please try again later."
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_dk_nemhandel.model_res_partner
+msgid "Contact"
+msgstr "联系人"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel.res_config_settings_view_form
+msgid "Contact Email"
+msgstr "联系EMail"
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/wizard/nemhandel_registration.py:0
+msgid "Contact email and phone number are required."
+msgstr "需要提供联络电子邮箱和电话号码。"
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/models/res_config_settings.py:0
+msgid "Contact email is required"
+msgstr "联系人 电子邮件 is 必填"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,website_form_label:l10n_dk_nemhandel.model_res_partner
+msgid "Create a Customer"
+msgstr "创建客户"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_nemhandel_registration__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_nemhandel_registration__create_date
+msgid "Created on"
+msgstr "创建日期"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_dk_nemhandel.selection__nemhandel_registration__edi_mode__demo
+msgid "Demo"
+msgstr "演示"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel.res_config_settings_view_form
+msgid "Deregister"
+msgstr "Deregister（技术名称）"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_account_edi_proxy_client_user__display_name
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_account_edi_xml_oioubl_21__display_name
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_account_journal__display_name
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_account_move_send__display_name
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_account_move_send_batch_wizard__display_name
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_account_move_send_wizard__display_name
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_nemhandel_registration__display_name
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_res_company__display_name
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_res_partner__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_dk_nemhandel.selection__account_move__nemhandel_move_state__done
+msgid "Done"
+msgstr "完成"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_dk_nemhandel.selection__res_partner__nemhandel_identifier_type__0088
+msgid "EAN/GLN"
+msgstr "EAN/GLN（技术名称）"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_nemhandel_registration__edi_mode
+msgid "EDI mode"
+msgstr "电子数据交换模式"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_nemhandel_registration__edi_user_id
+msgid "EDI user"
+msgstr "EDI 用户"
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/models/account_edi_proxy_user.py:0
+msgid "EDI user should be of type Nemhandel"
+msgstr "EDI 用户 should be of 类型 Nemhandel"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel.nemhandel_registration_form
+msgid "Email"
+msgstr "邮箱"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel.res_partner_form_l10n_dk_nemhandel
+msgid "Endpoint"
+msgstr "Endpoint（技术名称）"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_dk_nemhandel.selection__account_move__nemhandel_move_state__error
+msgid "Error"
+msgstr "错误"
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/models/account_move_send.py:0
+msgid "Errors occurred while creating the EDI document (format: %s):"
+msgstr "创建 EDI 文档时出现错误（格式：%s）："
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel.nemhandel_registration_form
+msgid "Fill in the code below that we sent you by SMS to"
+msgstr "Fill in the 代码 below that we 已发送 you by SMS to"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_dk_nemhandel.selection__res_partner__nemhandel_identifier_type__9918
+msgid "IBAN"
+msgstr "IBAN"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_account_edi_proxy_client_user__id
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_account_edi_xml_oioubl_21__id
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_account_journal__id
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_account_move_send__id
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_account_move_send_batch_wizard__id
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_account_move_send_wizard__id
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_nemhandel_registration__id
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_res_company__id
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_res_config_settings__id
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_res_partner__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel.nemhandel_registration_form
+msgid "Identifier Type"
+msgstr "Identifier 类型"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel.nemhandel_registration_form
+msgid "Identifier Value"
+msgstr "Identifier 值"
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/models/account_edi_proxy_user.py:0
+msgid ""
+"If you try to register with your CVR, please make sure your company has the "
+"same VAT"
+msgstr ""
+"If you try to 登记 with your CVR, please make sure your 公司 has the same VAT"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel.nemhandel_registration_form
+msgid ""
+"In demo mode sending invoices is simulated.\n"
+"                            There will be no communication with the Nemhandel network."
+msgstr ""
+"In demo mode sending 发票 is simulated. There will be 否 communication with the"
+" Nemhandel network."
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_dk_nemhandel.selection__res_company__l10n_dk_nemhandel_proxy_state__in_verification
+msgid "In verification"
+msgstr "In verification（技术名称）"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel.res_config_settings_view_form
+msgid "Incoming Invoices Journal"
+msgstr "传入 发票 日记账"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_res_partner__invoice_sending_method
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_res_users__invoice_sending_method
+msgid "Invoice sending"
+msgstr "传送发票"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_res_partner__is_using_nemhandel
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_res_users__is_using_nemhandel
+msgid "Is Using Nemhandel"
+msgstr "Is Using Nemhandel（技术名称）"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_dk_nemhandel.model_account_journal
+msgid "Journal"
+msgstr "日记账"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_dk_nemhandel.model_account_move
+msgid "Journal Entry"
+msgstr "日记账分录"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_account_journal__is_nemhandel_journal
+msgid "Journal used for Nemhandel"
+msgstr "日记账 used for Nemhandel"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_nemhandel_registration__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_nemhandel_registration__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_dk_nemhandel.selection__nemhandel_registration__edi_mode__prod
+msgid "Live"
+msgstr "现场直播"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_dk_nemhandel.selection__account_edi_proxy_client_user__proxy_type__nemhandel
+msgid "Nemhandel"
+msgstr "Nemhandel（技术名称）"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel.res_partner_form_l10n_dk_nemhandel
+msgid "Nemhandel Address"
+msgstr "Nemhandel 地址"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_nemhandel_registration__contact_email
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_res_company__nemhandel_contact_email
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_res_config_settings__nemhandel_contact_email
+msgid "Nemhandel Contact email"
+msgstr "Nemhandel 联系人 电子邮件"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel.res_config_settings_view_form
+msgid "Nemhandel E-Delivery"
+msgstr "Nemhandel E-Delivery（技术名称）"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_res_config_settings__nemhandel_edi_mode
+msgid "Nemhandel EDI operating mode"
+msgstr "Nemhandel EDI operating mode（技术名称）"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_res_company__nemhandel_edi_user
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_res_config_settings__nemhandel_edi_user
+msgid "Nemhandel Edi User"
+msgstr "Nemhandel EDI 用户"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_nemhandel_registration__identifier_value
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_res_company__nemhandel_identifier_value
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_res_config_settings__nemhandel_identifier_value
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_res_partner__nemhandel_identifier_value
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_res_users__nemhandel_identifier_value
+msgid "Nemhandel Endpoint"
+msgstr "Nemhandel Endpoint（技术名称）"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_nemhandel_registration__identifier_type
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_res_company__nemhandel_identifier_type
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_res_config_settings__nemhandel_identifier_type
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_res_partner__nemhandel_identifier_type
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_res_users__nemhandel_identifier_type
+msgid "Nemhandel Endpoint Type"
+msgstr "Nemhandel Endpoint 类型"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_nemhandel_registration__phone_number
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_res_company__nemhandel_phone_number
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_res_config_settings__nemhandel_phone_number
+msgid "Nemhandel Phone number (for validation)"
+msgstr "Nemhandel 电话号码 (for validation)"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_res_company__nemhandel_purchase_journal_id
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_res_config_settings__nemhandel_purchase_journal_id
+msgid "Nemhandel Purchase Journal"
+msgstr "Nemhandel 采购 日记账"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel.nemhandel_view_account_invoice_filter
+msgid "Nemhandel Ready"
+msgstr "Nemhandel Ready（技术名称）"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_dk_nemhandel.model_nemhandel_registration
+msgid "Nemhandel Registration"
+msgstr "Nemhandel Registration（技术名称）"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_account_edi_proxy_client_user__nemhandel_verification_code
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_nemhandel_registration__verification_code
+msgid "Nemhandel SMS verification code"
+msgstr "Nemhandel SMS verification 代码"
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/models/account_edi_proxy_user.py:0
+msgid "Nemhandel document (UUID: %(uuid)s) has been received successfully."
+msgstr "Nemhandel 单据 (UUID: %(uuid)s) has been 已接收 successfully."
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_res_partner__nemhandel_verification_state
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_res_users__nemhandel_verification_state
+msgid "Nemhandel endpoint verification"
+msgstr "Nemhandel endpoint verification（技术名称）"
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/models/account_edi_proxy_user.py:0
+msgid "Nemhandel error: %s"
+msgstr "Nemhandel 错误: %s"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_res_config_settings__nemhandel_edi_identification
+msgid "Nemhandel identification"
+msgstr "Nemhandel identification（技术名称）"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_account_bank_statement_line__nemhandel_message_uuid
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_account_move__nemhandel_message_uuid
+msgid "Nemhandel message ID"
+msgstr "Nemhandel 消息 ID"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_account_bank_statement_line__nemhandel_move_state
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_account_journal__l10n_dk_nemhandel_proxy_state
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_account_move__nemhandel_move_state
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_nemhandel_registration__l10n_dk_nemhandel_proxy_state
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_res_company__l10n_dk_nemhandel_proxy_state
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_res_config_settings__l10n_dk_nemhandel_proxy_state
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel.nemhandel_view_account_invoice_filter
+msgid "Nemhandel status"
+msgstr "Nemhandel 状态"
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/models/account_edi_proxy_user.py:0
+msgid "Nemhandel status update: %s"
+msgstr "Nemhandel 状态 update: %s"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.server,name:l10n_dk_nemhandel.ir_cron_nemhandel_get_new_documents_ir_actions_server
+msgid "Nemhandel: retrieve new documents"
+msgstr "Nemhandel: retrieve 新建 单据"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.server,name:l10n_dk_nemhandel.ir_cron_nemhandel_get_message_status_ir_actions_server
+msgid "Nemhandel: update message status"
+msgstr "Nemhandel: update 消息 状态"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.server,name:l10n_dk_nemhandel.ir_cron_nemhandel_get_participant_status_ir_actions_server
+msgid "Nemhandel: update participant status"
+msgstr "Nemhandel: update participant 状态"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.server,name:l10n_dk_nemhandel.ir_cron_nemhandel_webhook_keepalive_ir_actions_server
+msgid "Nemhandel: webhook keep alive"
+msgstr "Nemhandel: webhook keep alive（技术名称）"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_dk_nemhandel.selection__res_partner__nemhandel_verification_state__not_valid
+msgid "Not on Nemhandel"
+msgstr "Not on Nemhandel（技术名称）"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_dk_nemhandel.selection__res_company__l10n_dk_nemhandel_proxy_state__not_registered
+msgid "Not registered"
+msgstr "未登记"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_dk_nemhandel.selection__res_partner__nemhandel_verification_state__not_verified
+msgid "Not verified yet"
+msgstr "Not verified yet（技术名称）"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_dk_nemhandel.model_account_edi_xml_oioubl_21
+#: model:ir.model.fields.selection,name:l10n_dk_nemhandel.selection__res_partner__invoice_edi_format__oioubl_21
+msgid "OIOUBL 2.1"
+msgstr "OIOUBL 2.1（技术名称）"
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/models/res_partner.py:0
+msgid "On Nemhandel, only OIOUBL 2.1 is supported."
+msgstr "On Nemhandel, only OIOUBL 2.1 is supported.（技术名称）"
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/wizard/account_move_send_wizard.py:0
+msgid "Partner doesn't have a valid Nemhandel configuration."
+msgstr "业务伙伴 doesn't have a 有效 Nemhandel 配置."
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_dk_nemhandel.selection__account_move__nemhandel_move_state__processing
+msgid "Pending Reception"
+msgstr "待接待"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel.nemhandel_registration_form
+msgid "Phone"
+msgstr "电话"
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/tools/demo_utils.py:0
+#: code:addons/l10n_dk_nemhandel/wizard/nemhandel_registration.py:0
+msgid "Please enter a phone number to verify your application."
+msgstr "Please enter a 电话号码 to verify your 应用."
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/tools/demo_utils.py:0
+#: code:addons/l10n_dk_nemhandel/wizard/nemhandel_registration.py:0
+msgid "Please enter a primary contact email to verify your application."
+msgstr "Please enter a primary 联系人 电子邮件 to verify your 应用."
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/models/res_company.py:0
+msgid ""
+"Please enter the phone number in the correct international format.\n"
+"For example: +32123456789, where +32 is the country code.\n"
+"Currently, only European countries are supported."
+msgstr ""
+"Please enter the 电话号码 in the correct international format. For example: "
+"+32123456789, where +32 is the 国家/地区 代码. Currently, only European countries "
+"are supported."
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/models/account_edi_proxy_user.py:0
+msgid "Please fill in the Identifier Type and Value."
+msgstr "Please fill in the Identifier 类型 and 值."
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/wizard/nemhandel_registration.py:0
+msgid "Please fill in your company's VAT"
+msgstr "Please fill in your company's VAT（技术名称）"
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/wizard/nemhandel_registration.py:0
+msgid ""
+"Please first verify your phone number by clicking on 'Send a registration "
+"code by SMS'."
+msgstr ""
+"Please first verify your 电话号码 by clicking on '发送 a registration 代码 by SMS'."
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/models/res_company.py:0
+msgid "Please install the phonenumbers library."
+msgstr "请安装 phonenumbers 库."
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/models/account_edi_proxy_user.py:0
+msgid ""
+"Please set a journal for Nemhandel invoices on %s before receiving "
+"documents."
+msgstr "Please set a 日记账 for Nemhandel 发票 on %s before receiving 单据."
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/models/account_move_send.py:0
+msgid "Please verify partner configuration in partner settings."
+msgstr "Please verify 业务伙伴 配置 in 业务伙伴 设置."
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_dk_nemhandel.field_nemhandel_registration__contact_email
+#: model:ir.model.fields,help:l10n_dk_nemhandel.field_res_company__nemhandel_contact_email
+#: model:ir.model.fields,help:l10n_dk_nemhandel.field_res_config_settings__nemhandel_contact_email
+msgid "Primary contact email for Nemhandel-related communication"
+msgstr "Primary 联系人 电子邮件 for Nemhandel-related communication"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_account_edi_proxy_client_user__proxy_type
+msgid "Proxy Type"
+msgstr "代理类型"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_dk_nemhandel.selection__account_move__nemhandel_move_state__to_send
+msgid "Queued"
+msgstr "排队"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_dk_nemhandel.selection__account_move__nemhandel_move_state__ready
+msgid "Ready to send"
+msgstr "准备发送"
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/tools/demo_utils.py:0
+msgid "Registered to receive documents via Nemhandel (demo)."
+msgstr "Registered to receive 单据 via Nemhandel (demo)."
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/wizard/nemhandel_registration.py:0
+msgid "Registered to receive documents."
+msgstr "Registered to receive 单据."
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_dk_nemhandel.selection__res_company__l10n_dk_nemhandel_proxy_state__rejected
+msgid "Rejected"
+msgstr "拒绝"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_dk_nemhandel.selection__res_partner__nemhandel_identifier_type__0198
+msgid "SE"
+msgstr "SE（技术名称）"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel.nemhandel_registration_form
+msgid "Send again"
+msgstr "发送 again"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel.nemhandel_registration_form
+msgid ""
+"Send invoices and receive bills automatically on the Nemhandel network."
+msgstr "发送 发票 and receive bills automatically on the Nemhandel network."
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/wizard/nemhandel_registration.py:0
+msgid "Send via Nemhandel"
+msgstr "发送 via Nemhandel"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel.res_config_settings_view_form
+msgid "Start sending via Nemhandel"
+msgstr "Start sending via Nemhandel（技术名称）"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_dk_nemhandel.selection__nemhandel_registration__edi_mode__test
+msgid "Test"
+msgstr "测试"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel.nemhandel_registration_form
+msgid ""
+"Test mode allows sending e-invoices through the test Nemhandel network.\n"
+"                            By clicking the button below I accept that Odoo may process my e-invoices."
+msgstr ""
+"Test mode allows sending 电子发票s through the test Nemhandel network. By "
+"clicking the button below I accept that 绿色供应链公共服务平台 may process my 电子发票s."
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/tools/demo_utils.py:0
+msgid ""
+"The Nemhandel status of the documents has been reset when switching from "
+"Demo to Live."
+msgstr ""
+"The Nemhandel 状态 of the 单据 has been reset when switching 从 Demo to Live."
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/models/account_edi_xml_oioubl_21.py:0
+msgid "The company registry is required for french partner: %s"
+msgstr "The 公司 registry is 必填 for french 业务伙伴: %s"
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/models/account_move_send.py:0
+msgid ""
+"The document has been sent to the Nemhandel Access Point for processing"
+msgstr "The 单据 has been 已发送 to the Nemhandel 访问 Point for processing"
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/models/account_edi_xml_oioubl_21.py:0
+msgid "The following partner's street number is missing: %s"
+msgstr "The following partner's street 编号 is missing: %s"
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/models/account_move_send.py:0
+msgid "The partner is missing Nemhandel Endpoint Type or Value."
+msgstr "The 业务伙伴 is missing Nemhandel Endpoint 类型 or 值."
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_dk_nemhandel.field_res_config_settings__nemhandel_edi_identification
+msgid "The unique id that identifies this user, typically the vat"
+msgstr "标识该用户的唯一 ID，通常是增值税识别号"
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/models/account_edi_proxy_user.py:0
+#: code:addons/l10n_dk_nemhandel/wizard/nemhandel_registration.py:0
+msgid "The verification code is not correct"
+msgstr "The verification 代码 is not correct"
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/wizard/nemhandel_registration.py:0
+msgid "The verification code should contain six digits."
+msgstr "The verification 代码 should contain six digits."
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/models/account_edi_proxy_user.py:0
+#: code:addons/l10n_dk_nemhandel/wizard/nemhandel_registration.py:0
+msgid "This verification code has expired. Please request a new one."
+msgstr "This verification 代码 has expired. Please 请求 a 新建 one."
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel.res_config_settings_view_form
+msgid "This will delete your Nemhandel registration."
+msgstr "This will 删除 your Nemhandel registration."
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/models/account_edi_proxy_user.py:0
+#: code:addons/l10n_dk_nemhandel/wizard/nemhandel_registration.py:0
+msgid "Too many attempts to request an SMS code. Please try again later."
+msgstr "Too many attempts to 请求 an SMS 代码. Please try again later."
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_dk_nemhandel.field_nemhandel_registration__identifier_type
+#: model:ir.model.fields,help:l10n_dk_nemhandel.field_res_company__nemhandel_identifier_type
+#: model:ir.model.fields,help:l10n_dk_nemhandel.field_res_config_settings__nemhandel_identifier_type
+#: model:ir.model.fields,help:l10n_dk_nemhandel.field_res_partner__nemhandel_identifier_type
+#: model:ir.model.fields,help:l10n_dk_nemhandel.field_res_users__nemhandel_identifier_type
+msgid "Unique identifier used by OIOUBL and Nemhandel"
+msgstr "Unique identifier used by OIOUBL and Nemhandel（技术名称）"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel.res_config_settings_view_form
+msgid "Update contact details"
+msgstr "Update 联系人 details"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_dk_nemhandel.selection__res_partner__nemhandel_verification_state__valid
+msgid "Valid"
+msgstr "有效的"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel.res_partner_form_l10n_dk_nemhandel
+msgid "Verify"
+msgstr "验证"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.server,name:l10n_dk_nemhandel.partner_action_verify_l10n_dk_nemhandel
+msgid "Verify Nemhandel"
+msgstr "Verify Nemhandel（技术名称）"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel.res_partner_form_l10n_dk_nemhandel
+msgid "Verify partner's Nemhandel endpoint"
+msgstr "Verify partner's Nemhandel endpoint（技术名称）"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel.res_config_settings_view_form
+msgid ""
+"You are sending and receiving your e-invoices via Odoo with this Nemhandel "
+"ID"
+msgstr ""
+"You are sending and receiving your 电子发票s via 绿色供应链公共服务平台 with this Nemhandel"
+" ID"
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/tools/demo_utils.py:0
+msgid "You can now fake sending invoices in demo mode."
+msgstr "You can now fake sending 发票 in demo mode."
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/wizard/nemhandel_registration.py:0
+msgid "You can now receive documents via Nemhandel."
+msgstr "You can now receive 单据 via Nemhandel."
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel.res_config_settings_view_form
+msgid ""
+"You registration has been rejected, the reason has been sent to you via email.\n"
+"                                Please contact our support if you need further assistance."
+msgstr ""
+"You registration has been rejected, the 原因 has been 已发送 to you via 电子邮件. "
+"Please 联系人 our support if you need further assistance."
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_dk_nemhandel.field_nemhandel_registration__phone_number
+#: model:ir.model.fields,help:l10n_dk_nemhandel.field_res_company__nemhandel_phone_number
+#: model:ir.model.fields,help:l10n_dk_nemhandel.field_res_config_settings__nemhandel_phone_number
+msgid "You will receive a verification code to this phone number"
+msgstr "You will receive a verification 代码 to this 电话号码"
+
+#. module: l10n_dk_nemhandel
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel/wizard/nemhandel_registration.py:0
+msgid "Your confirmation code is"
+msgstr "Your confirmation 代码 is"
+
+#. module: l10n_dk_nemhandel
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_res_partner__invoice_edi_format
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel.field_res_users__invoice_edi_format
+msgid "eInvoice format"
+msgstr "电子发票格式"

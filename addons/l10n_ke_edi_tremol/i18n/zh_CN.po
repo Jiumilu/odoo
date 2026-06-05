@@ -1,0 +1,436 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_ke_edi_tremol
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_ke_edi_tremol
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ke_edi_tremol.l10n_ke_invoice
+msgid "<b>Date and Time of Signing: </b><br/>"
+msgstr "<b>Date and Time of Signing: </b><br/>（技术名称）"
+
+#. module: l10n_ke_edi_tremol
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ke_edi_tremol.l10n_ke_invoice
+msgid "<b>Invoice Number: </b><br/>"
+msgstr "<b>Invoice 编号: </b><br/>"
+
+#. module: l10n_ke_edi_tremol
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ke_edi_tremol.l10n_ke_invoice
+msgid "<b>Kenyan Fiscal Device Info</b>"
+msgstr "<b>Kenyan 财务 Device Info</b>"
+
+#. module: l10n_ke_edi_tremol
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ke_edi_tremol.l10n_ke_invoice
+msgid "<b>Serial Number: </b><br/>"
+msgstr "<b>Serial 编号: </b><br/>"
+
+#. module: l10n_ke_edi_tremol
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ke_edi_tremol.l10n_ke_invoice
+msgid "<strong class=\"text-center\">TIMS URL</strong><br/><br/>"
+msgstr "<strong class=\"text-center\">TIMS URL</strong><br/><br/>（技术名称）"
+
+#. module: l10n_ke_edi_tremol
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ke_edi_tremol.model_account_move_send
+msgid "Account Move Send"
+msgstr "科目分录发送"
+
+#. module: l10n_ke_edi_tremol
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ke_edi_tremol.model_account_move_send_wizard
+msgid "Account Move Send Wizard"
+msgstr "账户移动发送向导"
+
+#. module: l10n_ke_edi_tremol
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ke_edi_tremol/models/account_move.py:0
+msgid ""
+"An OSCU has been initialized for this company. Please send the e-invoice via"
+" Send and Print -> Send to eTIMS instead."
+msgstr ""
+"An OSCU has been initialized for this 公司. Please 发送 the 电子发票 via 发送 and 打印 "
+"-> 发送 to eTIMS instead."
+
+#. module: l10n_ke_edi_tremol
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ke_edi_tremol.field_account_bank_statement_line__l10n_ke_cu_invoice_number
+#: model:ir.model.fields,field_description:l10n_ke_edi_tremol.field_account_move__l10n_ke_cu_invoice_number
+msgid "CU Invoice Number"
+msgstr "CU 发票 编号"
+
+#. module: l10n_ke_edi_tremol
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ke_edi_tremol.field_account_bank_statement_line__l10n_ke_cu_qrcode
+#: model:ir.model.fields,field_description:l10n_ke_edi_tremol.field_account_move__l10n_ke_cu_qrcode
+msgid "CU QR Code"
+msgstr "CU 二维码"
+
+#. module: l10n_ke_edi_tremol
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ke_edi_tremol.field_account_bank_statement_line__l10n_ke_cu_serial_number
+#: model:ir.model.fields,field_description:l10n_ke_edi_tremol.field_account_move__l10n_ke_cu_serial_number
+msgid "CU Serial Number"
+msgstr "CU Serial 编号"
+
+#. module: l10n_ke_edi_tremol
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ke_edi_tremol.field_account_bank_statement_line__l10n_ke_cu_datetime
+#: model:ir.model.fields,field_description:l10n_ke_edi_tremol.field_account_move__l10n_ke_cu_datetime
+msgid "CU Signing Date and Time"
+msgstr "CU Signing 日期 and Time"
+
+#. module: l10n_ke_edi_tremol
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ke_edi_tremol/models/account_move_send.py:0
+msgid "Check Invoice(s)"
+msgstr "检查发票"
+
+#. module: l10n_ke_edi_tremol
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ke_edi_tremol.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: l10n_ke_edi_tremol
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ke_edi_tremol.model_res_config_settings
+msgid "Config Settings"
+msgstr "配置设定"
+
+#. module: l10n_ke_edi_tremol
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ke_edi_tremol/static/src/components/ke_proxy_hook.js:0
+msgid "Connection lost, please try again later."
+msgstr "连接 lost, please try again later."
+
+#. module: l10n_ke_edi_tremol
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ke_edi_tremol.model_res_partner
+msgid "Contact"
+msgstr "联系人"
+
+#. module: l10n_ke_edi_tremol
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,website_form_label:l10n_ke_edi_tremol.model_res_partner
+msgid "Create a Customer"
+msgstr "创建客户"
+
+#. module: l10n_ke_edi_tremol
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ke_edi_tremol.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_ke_edi_tremol.field_account_move_send__display_name
+#: model:ir.model.fields,field_description:l10n_ke_edi_tremol.field_account_move_send_wizard__display_name
+#: model:ir.model.fields,field_description:l10n_ke_edi_tremol.field_res_company__display_name
+#: model:ir.model.fields,field_description:l10n_ke_edi_tremol.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:l10n_ke_edi_tremol.field_res_partner__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_ke_edi_tremol
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ke_edi_tremol/static/src/components/ke_proxy_hook.js:0
+msgid ""
+"Error trying to connect to Odoo. Check your internet connection. Error "
+"message: %s"
+msgstr "错误 trying to connect to 绿色供应链公共服务平台. 检查 your internet 连接. 错误 消息: %s"
+
+#. module: l10n_ke_edi_tremol
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ke_edi_tremol/static/src/components/ke_proxy_hook.js:0
+msgid ""
+"Error trying to connect to the middleware. Is the middleware running? \n"
+" Error message: %s"
+msgstr ""
+"错误 trying to connect to the middleware. Is the middleware running? 错误 消息: %s"
+
+#. module: l10n_ke_edi_tremol
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ke_edi_tremol.field_res_partner__l10n_ke_exemption_number
+#: model:ir.model.fields,field_description:l10n_ke_edi_tremol.field_res_users__l10n_ke_exemption_number
+msgid "Exemption Number"
+msgstr "Exemption 编号"
+
+#. module: l10n_ke_edi_tremol
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ke_edi_tremol.field_res_company__l10n_ke_cu_proxy_address
+#: model:ir.model.fields,field_description:l10n_ke_edi_tremol.field_res_config_settings__l10n_ke_cu_proxy_address
+msgid "Fiscal Device Proxy Address"
+msgstr "财务 Device Proxy 地址"
+
+#. module: l10n_ke_edi_tremol
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ke_edi_tremol.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_ke_edi_tremol.field_account_move_send__id
+#: model:ir.model.fields,field_description:l10n_ke_edi_tremol.field_account_move_send_wizard__id
+#: model:ir.model.fields,field_description:l10n_ke_edi_tremol.field_res_company__id
+#: model:ir.model.fields,field_description:l10n_ke_edi_tremol.field_res_config_settings__id
+#: model:ir.model.fields,field_description:l10n_ke_edi_tremol.field_res_partner__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_ke_edi_tremol
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ke_edi_tremol/models/account_move.py:0
+msgid ""
+"Invalid invoice configuration on %(invoice)s:\n"
+"%(error_list)s\n"
+"\n"
+msgstr "无效 发票 配置 on %(invoice)s: %(error_list)s\n"
+
+#. module: l10n_ke_edi_tremol
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ke_edi_tremol.model_account_move
+msgid "Journal Entry"
+msgstr "日记账分录"
+
+#. module: l10n_ke_edi_tremol
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ke_edi_tremol.res_partner_view_form
+msgid "Kenya Accounting Details"
+msgstr "Kenya Accounting Details（技术名称）"
+
+#. module: l10n_ke_edi_tremol
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ke_edi_tremol.l10n_ke_inherit_account_move_search_view
+msgid "Kenya CU Invoice Number"
+msgstr "Kenya CU 发票 编号"
+
+#. module: l10n_ke_edi_tremol
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ke_edi_tremol.res_config_settings_view_form
+msgid "Kenya TIMS Integration"
+msgstr "Kenya TIMS Integration（技术名称）"
+
+#. module: l10n_ke_edi_tremol
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ke_edi_tremol/static/src/components/ke_proxy_dialog.xml:0
+msgid "OK"
+msgstr "OK"
+
+#. module: l10n_ke_edi_tremol
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ke_edi_tremol/models/account_move.py:0
+msgid ""
+"On line %s, a tax with a KRA item code must be selected, since the tax is "
+"0%% or exempt."
+msgstr ""
+"On 行 %s, a 税 with a KRA item 代码 must be selected, since the 税 is 0%% or "
+"exempt."
+
+#. module: l10n_ke_edi_tremol
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ke_edi_tremol/models/account_move.py:0
+msgid "On line %s, you must select one and only one VAT tax."
+msgstr "On 行 %s, you must select one and only one VAT 税."
+
+#. module: l10n_ke_edi_tremol
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ke_edi_tremol/static/src/components/ke_proxy_hook.js:0
+msgid "Posting invoice: %s"
+msgstr "Posting 发票: %s"
+
+#. module: l10n_ke_edi_tremol
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ke_edi_tremol/static/src/components/ke_proxy_hook.js:0
+msgid ""
+"Posting the invoice %s has failed with the message: \n"
+" %s"
+msgstr "Posting the 发票 %s has 失败 with the 消息: %s"
+
+#. module: l10n_ke_edi_tremol
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ke_edi_tremol.l10n_ke_invoice
+msgid "QR Code"
+msgstr "二维码"
+
+#. module: l10n_ke_edi_tremol
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ke_edi_tremol.l10n_ke_inherit_account_move_form
+msgid "Send To Fiscal Device"
+msgstr "发送 To 财务 Device"
+
+#. module: l10n_ke_edi_tremol
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.server,name:l10n_ke_edi_tremol.action_send_invoices_to_device
+msgid "Send to fiscal device"
+msgstr "发送 to 财务 device"
+
+#. module: l10n_ke_edi_tremol
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ke_edi_tremol/static/src/components/ke_proxy_dialog.xml:0
+msgid "Sending Invoices to Fiscal Device"
+msgstr "Sending 发票 to 财务 Device"
+
+#. module: l10n_ke_edi_tremol
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ke_edi_tremol.field_account_bank_statement_line__l10n_ke_cu_show_send_button
+#: model:ir.model.fields,field_description:l10n_ke_edi_tremol.field_account_move__l10n_ke_cu_show_send_button
+msgid "Show Send to Tremol button"
+msgstr "Show 发送 to Tremol button"
+
+#. module: l10n_ke_edi_tremol
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ke_edi_tremol.field_res_company__l10n_ke_cu_proxy_address
+#: model:ir.model.fields,help:l10n_ke_edi_tremol.field_res_config_settings__l10n_ke_cu_proxy_address
+msgid "The address of the proxy server for the fiscal device."
+msgstr "The 地址 of the proxy server for the 财务 device."
+
+#. module: l10n_ke_edi_tremol
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ke_edi_tremol/models/account_move.py:0
+msgid ""
+"The document already has details related to the fiscal device. Please make "
+"sure that the invoice has not already been sent."
+msgstr ""
+"The 单据 already has details 相关 to the 财务 device. Please make sure that the 发票"
+" has not already been 已发送."
+
+#. module: l10n_ke_edi_tremol
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ke_edi_tremol/models/account_move.py:0
+msgid "The document being sent should be an invoice or credit note."
+msgstr "The 单据 being 已发送 should be an 发票 or 贷项通知单."
+
+#. module: l10n_ke_edi_tremol
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ke_edi_tremol.field_res_partner__l10n_ke_exemption_number
+#: model:ir.model.fields,help:l10n_ke_edi_tremol.field_res_users__l10n_ke_exemption_number
+msgid ""
+"The exemption number of the partner. Provided by the Kenyan government."
+msgstr "The exemption 编号 of the 业务伙伴. Provided by the Kenyan government."
+
+#. module: l10n_ke_edi_tremol
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ke_edi_tremol/models/account_move_send.py:0
+msgid "The following documents have no details related to the fiscal device."
+msgstr "The following 单据 have 否 details 相关 to the 财务 device."
+
+#. module: l10n_ke_edi_tremol
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ke_edi_tremol.res_config_settings_view_form
+msgid ""
+"The tremol device makes use of a proxy server, which can be running locally "
+"on your computer or on an IoT Box. The proxy server must be on the same "
+"network as the fiscal device."
+msgstr ""
+"The tremol device makes use of a proxy server, which can be running locally "
+"on your computer or on an IoT Box. The proxy server must be on the same "
+"network as the 财务 device."
+
+#. module: l10n_ke_edi_tremol
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ke_edi_tremol/models/account_move.py:0
+msgid ""
+"This credit note must reference the previous invoice, and this previous "
+"invoice must have already been submitted."
+msgstr ""
+"This 贷项通知单 must 参考 the previous 发票, and this previous 发票 must have already "
+"been submitted."
+
+#. module: l10n_ke_edi_tremol
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ke_edi_tremol/models/account_move_send.py:0
+msgid ""
+"This document does not have details related to the fiscal device, a proforma"
+" invoice will be used."
+msgstr ""
+"This 单据 does not have details 相关 to the 财务 device, a proforma 发票 will be "
+"used."
+
+#. module: l10n_ke_edi_tremol
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ke_edi_tremol/models/account_move.py:0
+msgid ""
+"This invoice is not a Kenyan invoice and therefore can not be sent to the "
+"device."
+msgstr ""
+"This 发票 is not a Kenyan 发票 and therefore can not be 已发送 to the device."
+
+#. module: l10n_ke_edi_tremol
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ke_edi_tremol/models/account_move.py:0
+msgid ""
+"This invoice's company currency is not in Kenyan Shillings, conversion to "
+"KES is not possible."
+msgstr ""
+"This invoice's 公司 币种 is not in Kenyan Shillings, conversion to KES is not "
+"possible."
+
+#. module: l10n_ke_edi_tremol
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ke_edi_tremol/models/account_move.py:0
+msgid ""
+"This invoice/credit note has not been posted. Please confirm it to continue."
+msgstr "This 发票/贷项通知单 has not been 已过账. Please 确认 it to continue."
+
+#. module: l10n_ke_edi_tremol
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ke_edi_tremol.l10n_ke_inherit_account_move_search_view
+msgid "To Send to TIMS"
+msgstr "To 发送 to TIMS"
+
+#. module: l10n_ke_edi_tremol
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ke_edi_tremol.res_config_settings_view_form
+msgid "Tremol Device Settings"
+msgstr "Tremol Device 设置"
+
+#. module: l10n_ke_edi_tremol
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ke_edi_tremol.l10n_ke_inherit_account_move_form
+msgid "Tremol GO3 Fiscal Device"
+msgstr "Tremol GO3 财务 Device"
+
+#. module: l10n_ke_edi_tremol
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ke_edi_tremol/static/src/components/ke_proxy_hook.js:0
+msgid ""
+"Unexpected Error:\n"
+" %s"
+msgstr "Unexpected 错误: %s"
+
+#. module: l10n_ke_edi_tremol
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ke_edi_tremol/models/account_move_send.py:0
+msgid "View Invoice(s)"
+msgstr "查看发票"

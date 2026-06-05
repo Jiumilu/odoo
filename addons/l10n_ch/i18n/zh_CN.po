@@ -1,0 +1,508 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_ch
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_ch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ch/wizard/qr_invoice_wizard.py:0
+msgid "%(amount)s invoices could be printed in the %(format)s format."
+msgstr "%(amount)s 发票 could be printed in the %(format)s format."
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.report,print_report_name:l10n_ch.l10n_ch_qr_report
+msgid "'QR-bill-%s' % object.name"
+msgstr "'QR-bill-%s' % object.名称"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ch.l10n_ch_swissqr_template
+msgid "<span class=\"title\">Acceptance point</span>"
+msgstr "<span class=\"title\">Acceptance point</span>（技术名称）"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ch.l10n_ch_swissqr_template
+msgid "<span class=\"title\">Reference</span>"
+msgstr "<span class=\"title\">Reference</span>（技术名称）"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ch.l10n_ch_swissqr_template
+msgid "<span>Account / Payable to</span>"
+msgstr "<span>Account / Payable to</span>（技术名称）"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ch.l10n_ch_swissqr_template
+msgid "<span>Account / Payable to</span><br/>"
+msgstr "<span>Account / Payable to</span><br/>（技术名称）"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ch.l10n_ch_swissqr_template
+msgid "<span>Additional information</span>"
+msgstr "<span>附加信息rmation</span>"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ch.l10n_ch_swissqr_template
+msgid "<span>Amount</span>"
+msgstr "<span>金额</span>"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ch.l10n_ch_swissqr_template
+msgid "<span>Amount</span><br/>"
+msgstr "<span>Amount</span><br/>（技术名称）"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ch.l10n_ch_swissqr_template
+msgid "<span>Currency</span>"
+msgstr "<span>Currency</span>（技术名称）"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ch.l10n_ch_swissqr_template
+msgid "<span>Payable by</span>"
+msgstr "<span>Payable by</span>（技术名称）"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ch.l10n_ch_swissqr_template
+msgid "<span>Payment part</span>"
+msgstr "<span>Payment part</span>（技术名称）"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ch.l10n_ch_swissqr_template
+msgid "<span>Receipt</span>"
+msgstr "<span>Receipt</span>（技术名称）"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ch.l10n_ch_swissqr_template
+msgid "<span>Reference</span>"
+msgstr "<span>参考编号</span>"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ch.model_account_chart_template
+msgid "Account Chart Template"
+msgstr "科目表模版"
+
+#. module: l10n_ch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ch/wizard/qr_invoice_wizard.py:0
+msgid "All selected invoices must belong to the same Switzerland company"
+msgstr "All selected 发票 must belong to the same Switzerland 公司"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.column,name:l10n_ch.tax_report_balance
+msgid "Balance"
+msgstr "余额"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ch.model_res_partner_bank
+msgid "Bank Accounts"
+msgstr "银行账号"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ch.model_account_setup_bank_manual_config
+msgid "Bank setup manual config"
+msgstr "银行设置手动配置"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ch.l10n_ch_qr_invoice_wizard_form
+msgid "Check invalid invoices"
+msgstr "检查 无效 发票"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ch.field_l10n_ch_qr_invoice_wizard__classic_inv_text
+msgid "Classic Inv Text"
+msgstr "Classic Inv Text（技术名称）"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.cash.rounding,name:l10n_ch.cash_rounding_5_centime
+msgid "Coinage 0.05"
+msgstr "Coinage 0.05（技术名称）"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ch.field_account_journal__invoice_reference_model
+msgid "Communication Standard"
+msgstr "通信标准"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ch.field_l10n_ch_qr_invoice_wizard__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ch.field_l10n_ch_qr_invoice_wizard__create_date
+msgid "Created on"
+msgstr "创建日期"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ch.field_account_bank_statement_line__l10n_ch_is_qr_valid
+#: model:ir.model.fields,help:l10n_ch.field_account_move__l10n_ch_is_qr_valid
+msgid "Determines whether an invoice can be printed as a QR or not"
+msgstr "Determines whether an 发票 can be printed as a QR or not"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ch.field_account_chart_template__display_name
+#: model:ir.model.fields,field_description:l10n_ch.field_account_journal__display_name
+#: model:ir.model.fields,field_description:l10n_ch.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_ch.field_account_payment__display_name
+#: model:ir.model.fields,field_description:l10n_ch.field_account_setup_bank_manual_config__display_name
+#: model:ir.model.fields,field_description:l10n_ch.field_ir_actions_report__display_name
+#: model:ir.model.fields,field_description:l10n_ch.field_l10n_ch_qr_invoice_wizard__display_name
+#: model:ir.model.fields,field_description:l10n_ch.field_report_l10n_ch_qr_report_main__display_name
+#: model:ir.model.fields,field_description:l10n_ch.field_res_partner_bank__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ch.model_l10n_ch_qr_invoice_wizard
+msgid "Handles problems occurring while creating multiple QR-invoices at once"
+msgstr ""
+"Handles problems occurring while creating multiple QR-invoices at once（技术名称）"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ch.field_account_chart_template__id
+#: model:ir.model.fields,field_description:l10n_ch.field_account_journal__id
+#: model:ir.model.fields,field_description:l10n_ch.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_ch.field_account_payment__id
+#: model:ir.model.fields,field_description:l10n_ch.field_account_setup_bank_manual_config__id
+#: model:ir.model.fields,field_description:l10n_ch.field_ir_actions_report__id
+#: model:ir.model.fields,field_description:l10n_ch.field_l10n_ch_qr_invoice_wizard__id
+#: model:ir.model.fields,field_description:l10n_ch.field_report_l10n_ch_qr_report_main__id
+#: model:ir.model.fields,field_description:l10n_ch.field_res_partner_bank__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ch.account_tax_report_line_calc_impot
+msgid "II. TAX CALCULATION"
+msgstr "II. 税 CALCULATION"
+
+#. module: l10n_ch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ch/wizard/qr_invoice_wizard.py:0
+msgid "Invalid Invoices"
+msgstr "无效 发票"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ch.model_account_journal
+msgid "Journal"
+msgstr "日记账"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ch.model_account_move
+msgid "Journal Entry"
+msgstr "日记账分录"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ch.field_account_setup_bank_manual_config__l10n_ch_display_qr_bank_options
+#: model:ir.model.fields,field_description:l10n_ch.field_res_partner_bank__l10n_ch_display_qr_bank_options
+msgid "L10N Ch Display Qr Bank Options"
+msgstr "L10N Ch 显示 QR 银行 Options"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ch.field_account_bank_statement_line__l10n_ch_is_qr_valid
+#: model:ir.model.fields,field_description:l10n_ch.field_account_move__l10n_ch_is_qr_valid
+msgid "L10N Ch Is Qr Valid"
+msgstr "L10N Ch Is QR 有效"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ch.field_account_payment__l10n_ch_reference_warning_msg
+msgid "L10N Ch Reference Warning Msg"
+msgstr "L10N Ch 参考 警告 Msg"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ch.field_l10n_ch_qr_invoice_wizard__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ch.field_l10n_ch_qr_invoice_wizard__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ch.field_l10n_ch_qr_invoice_wizard__nb_classic_inv
+msgid "Nb Classic Inv"
+msgstr "Nb Classic Inv（技术名称）"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ch.field_l10n_ch_qr_invoice_wizard__nb_qr_inv
+msgid "Nb Qr Inv"
+msgstr "Nb QR Inv（技术名称）"
+
+#. module: l10n_ch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ch/wizard/qr_invoice_wizard.py:0
+msgid "No invoice could be printed in the %s format."
+msgstr "否 发票 could be printed in the %s format."
+
+#. module: l10n_ch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ch/wizard/qr_invoice_wizard.py:0
+msgid "No invoice was found to be printed."
+msgstr "否 发票 was found to be printed."
+
+#. module: l10n_ch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ch/wizard/qr_invoice_wizard.py:0
+msgid "One invoice could be printed in the %s format."
+msgstr "One 发票 could be printed in the %s format."
+
+#. module: l10n_ch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ch/models/account_invoice.py:0
+msgid "Only customers invoices can be QR-printed."
+msgstr "Only 客户 发票 can be QR-printed."
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ch.model_account_payment
+msgid "Payments"
+msgstr "付款"
+
+#. module: l10n_ch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ch/models/account_payment.py:0
+msgid ""
+"Please fill in a correct QRR reference in the payment reference. The banks "
+"will refuse your payment file otherwise."
+msgstr ""
+"Please fill in a correct QRR 参考 in the 付款参考. The banks will refuse your 付款 "
+"文件 otherwise."
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ch.l10n_ch_qr_invoice_wizard_form
+msgid "Print All"
+msgstr "打印 All"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ch.field_account_setup_bank_manual_config__l10n_ch_qr_iban
+#: model:ir.model.fields,help:l10n_ch.field_res_partner_bank__l10n_ch_qr_iban
+msgid ""
+"Put the QR-IBAN here for your own bank accounts.  That way, you can still "
+"use the main IBAN in the Account Number while you will see the QR-IBAN for "
+"the barcode.  "
+msgstr ""
+"Put the QR-IBAN here for your own 银行账户s. That way, you can still use the "
+"main IBAN in the 账户 编号 while you will see the QR-IBAN for the 条码."
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ch.l10n_ch_qr_invoice_wizard_form
+msgid "QR printing encountered a problem"
+msgstr "QR printing encountered a problem（技术名称）"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ch.field_account_setup_bank_manual_config__l10n_ch_qr_iban
+#: model:ir.model.fields,field_description:l10n_ch.field_res_partner_bank__l10n_ch_qr_iban
+msgid "QR-IBAN"
+msgstr "QR-IBAN（技术名称）"
+
+#. module: l10n_ch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ch/models/res_bank.py:0
+msgid "QR-IBAN numbers are only available in Switzerland."
+msgstr "QR-IBAN numbers are only 可用 in Switzerland."
+
+#. module: l10n_ch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ch/models/res_bank.py:0
+msgid "QR-IBAN “%s” is invalid."
+msgstr "QR-IBAN “%s” is 无效."
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.report,name:l10n_ch.l10n_ch_qr_report
+msgid "QR-bill"
+msgstr "QR-bill（技术名称）"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.act_window,name:l10n_ch.l10n_ch_qr_invoice_wizard
+msgid "Qr Batch error Wizard"
+msgstr "QR 批次 错误 向导"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ch.field_l10n_ch_qr_invoice_wizard__qr_inv_text
+msgid "Qr Inv Text"
+msgstr "QR Inv Text（技术名称）"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ch.model_ir_actions_report
+msgid "Report Action"
+msgstr "报表动作"
+
+#. module: l10n_ch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ch/models/account_invoice.py:0
+msgid "Some invoices could not be printed in the QR format"
+msgstr "Some 发票 could not be printed in the QR format"
+
+#. module: l10n_ch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ch/models/res_bank.py:0
+msgid "Swiss QR bill"
+msgstr "Swiss QR 账单"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ch.model_report_l10n_ch_qr_report_main
+msgid "Swiss QR-bill report"
+msgstr "Swiss QR-bill 报表"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ch.selection__account_journal__invoice_reference_model__ch
+msgid "Switzerland (12 34560 00103 88500 1000 19188)"
+msgstr "Switzerland (12 34560 00103 88500 1000 19188)（技术名称）"
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report,name:l10n_ch.tax_report
+msgid "Tax Report"
+msgstr "税务报表"
+
+#. module: l10n_ch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ch/models/res_bank.py:0
+msgid "The Swiss QR code could not be generated for the following reason(s):"
+msgstr "The Swiss 二维码 could not be 已生成 for the following 原因(s):"
+
+#. module: l10n_ch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ch/models/res_bank.py:0
+msgid "The account type isn't QR-IBAN or IBAN."
+msgstr "The 账户 类型 isn't QR-IBAN or IBAN."
+
+#. module: l10n_ch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ch/models/res_bank.py:0
+msgid "The currency isn't EUR nor CHF."
+msgstr "The 币种 isn't EUR nor CHF."
+
+#. module: l10n_ch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ch/models/res_bank.py:0
+msgid "The debtor partner's address isn't located in Switzerland."
+msgstr "The debtor partner's 地址 isn't located in Switzerland."
+
+#. module: l10n_ch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ch/models/res_bank.py:0
+msgid ""
+"The partner must have a complete postal address (street, zip, city and "
+"country)."
+msgstr "The 业务伙伴 must have a complete postal 地址 (street, zip, 城市 and 国家/地区)."
+
+#. module: l10n_ch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ch/models/res_bank.py:0
+msgid ""
+"The partner set on the bank account meant to receive the payment (%s) must "
+"have a complete postal address (street, zip, city and country)."
+msgstr ""
+"The 业务伙伴 set on the 银行账户 meant to receive the 付款 (%s) must have a complete "
+"postal 地址 (street, zip, 城市 and 国家/地区)."
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ch.l10n_ch_qr_invoice_wizard_form
+msgid ""
+"To be able to print all invoices in the QR format, you might need to : <br/>\n"
+"                    - check the account is a valid QR-IBAN<br/>\n"
+"                    - or check your company and the partners are located in Switzerland.<br/>\n"
+"                    Press Check Invalid Invoices to see a list of the invoices that were printed without a QR."
+msgstr ""
+"To be able to 打印 all 发票 in the QR format, you might need to : <br/> - 检查 the"
+" 账户 is a 有效 QR-IBAN<br/> - or 检查 your 公司 and the 业务伙伴 are located in "
+"Switzerland.<br/> Press 检查 无效 发票 to see a 列表 of the 发票 that were printed "
+"without a QR."
+
+#. module: l10n_ch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ch/models/res_bank.py:0
+msgid ""
+"When using a QR-IBAN as the destination account of a QR-code, the payment "
+"reference must be a QR-reference."
+msgstr ""
+"When using a QR-IBAN as the destination 账户 of a QR-code, the 付款参考 must be a "
+"QR-reference."
+
+#. module: l10n_ch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ch.field_account_journal__invoice_reference_model
+msgid ""
+"You can choose different models for each type of reference. The default one "
+"is the Odoo reference."
+msgstr "可以为各参考事情类型选择不同的模型。默认为绿色供应链公共服务平台参考号。"

@@ -1,0 +1,167 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_qa
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_qa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_qa.model_account_chart_template
+msgid "Account Chart Template"
+msgstr "科目表模版"
+
+#. module: l10n_qa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:res.company,invoice_terms_html:l10n_qa.demo_company_qa
+msgid ""
+"All our contractual relations will be governed exclusively by Qatar law."
+msgstr ""
+"All our contractual relations will be governed exclusively by Qatar "
+"law.（技术名称）"
+
+#. module: l10n_qa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:res.company,invoice_terms_html:l10n_qa.demo_company_qa
+msgid ""
+"Below text serves as a suggestion and doesn’t engage Odoo S.A. "
+"responsibility."
+msgstr "以下文字仅供参考，GlobalCloud GPC不承担责任。"
+
+#. module: l10n_qa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:res.company,invoice_terms_html:l10n_qa.demo_company_qa
+msgid ""
+"Certain countries apply withholding at source on the amount of invoices, in "
+"accordance with their internal legislation. Any withholding at source will "
+"be paid by the client to the tax authorities. Under no circumstances can QA "
+"Company become involved in costs related to a country's legislation. The "
+"amount of the invoice will therefore be due to QA Company in its entirety "
+"and does not include any costs relating to the legislation of the country in"
+" which the client is located."
+msgstr ""
+"Certain countries apply withholding at source on the 金额 of 发票, in accordance"
+" with their internal legislation. Any withholding at source will be paid by "
+"the client to the 税 authorities. Under 否 circumstances can QA 公司 become "
+"involved in costs 相关 to a country's legislation. The 金额 of the 发票 will "
+"therefore be due to QA 公司 in its entirety and does not include any costs "
+"relating to the legislation of the 国家/地区 in which the client is located."
+
+#. module: l10n_qa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_qa.field_account_chart_template__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_qa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_qa.field_account_chart_template__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_qa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:res.company,invoice_terms_html:l10n_qa.demo_company_qa
+msgid ""
+"If a payment is still outstanding more than sixty (60) days after the due "
+"payment date, QA Company reserves the right to call on the services of a "
+"debt recovery company. All legal expenses will be payable by the client."
+msgstr ""
+"If a 付款 is still outstanding more than sixty (60) days after the due 付款 日期, "
+"QA 公司 reserves the right to call on the services of a debt recovery 公司. All "
+"legal expenses will be payable by the client."
+
+#. module: l10n_qa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:res.company,invoice_terms_html:l10n_qa.demo_company_qa
+msgid ""
+"In order for it to be admissible, QA Company must be notified of any claim "
+"by means of a letter sent by recorded delivery to its registered office "
+"within 8 days of the delivery of the goods or the provision of the services."
+msgstr ""
+"In 订单 for it to be admissible, QA 公司 must be notified of any claim by means "
+"of a letter 已发送 by recorded 交货 to its registered office within 8 days of the"
+" 交货 of the goods or the provision of the services."
+
+#. module: l10n_qa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:res.company,invoice_terms_html:l10n_qa.demo_company_qa
+msgid ""
+"Our invoices are payable within 21 working days, unless another payment "
+"timeframe is indicated on either the invoice or the order. In the event of "
+"non-payment by the due date, QA Company reserves the right to request a "
+"fixed interest payment amounting to 10% of the sum remaining due. QA Company"
+" will be authorized to suspend any provision of services without prior "
+"warning in the event of late payment."
+msgstr ""
+"Our 发票 are payable within 21 working days, unless another 付款 timeframe is "
+"indicated on either the 发票 or the 订单. In the 活动 of non-payment by the 到期日, "
+"QA 公司 reserves the right to 请求 a fixed interest 付款 amounting to 10% of the "
+"sum remaining due. QA 公司 will be authorized to suspend any provision of "
+"services without prior 警告 in the 活动 of late 付款."
+
+#. module: l10n_qa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:res.company,invoice_terms_html:l10n_qa.demo_company_qa
+msgid ""
+"QA Company undertakes to do its best to supply performant services in due "
+"time in accordance with the agreed timeframes. However, none of its "
+"obligations can be considered as being an obligation to achieve results. QA "
+"Company cannot under any circumstances, be required by the client to appear "
+"as a third party in the context of any claim for damages filed against the "
+"client by an end consumer."
+msgstr ""
+"QA 公司 undertakes to do its best to supply performant services in due time in"
+" accordance with the agreed timeframes. However, none of its obligations can"
+" be considered as being an obligation to achieve results. QA 公司 cannot under"
+" any circumstances, be 必填 by the client to appear as a third party in the "
+"context of any claim for damages filed against the client by an end "
+"consumer."
+
+#. module: l10n_qa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:res.company,invoice_terms_html:l10n_qa.demo_company_qa
+msgid "STANDARD TERMS AND CONDITIONS OF SALE"
+msgstr "标准销售期限和条件"
+
+#. module: l10n_qa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:res.company,sign_terms:l10n_qa.demo_company_qa
+#: model_terms:res.company,sign_terms_html:l10n_qa.demo_company_qa
+msgid "Terms &amp; Conditions"
+msgstr "条款 &amp; 条件"
+
+#. module: l10n_qa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:res.company,invoice_terms_html:l10n_qa.demo_company_qa
+msgid ""
+"The client explicitly waives its own standard terms and conditions, even if "
+"these were drawn up after these standard terms and conditions of sale. In "
+"order to be valid, any derogation must be expressly agreed to in advance in "
+"writing."
+msgstr "客户明确放弃自己的标准期限和条件，即使这些期限和条件是在这些标准销售期限和条件之后制定的。为了有效，任何减损必须事先以书面形式明确同意。"
+
+#. module: l10n_qa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:res.company,invoice_terms_html:l10n_qa.demo_company_qa
+msgid "You should update this document to reflect your T&amp;C."
+msgstr "您应该更新此文档以反映您的T &amp; C。"
+
+#. module: l10n_qa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:res.company,sign_terms:l10n_qa.demo_company_qa
+#: model_terms:res.company,sign_terms_html:l10n_qa.demo_company_qa
+msgid "Your conditions..."
+msgstr "您的条件..."

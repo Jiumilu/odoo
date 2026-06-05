@@ -1,0 +1,1161 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_es_edi_verifactu
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/account_move.py:0
+msgid ""
+"%(existing_warning)sA Veri*Factu document is waiting to be sent as soon as "
+"possible."
+msgstr ""
+"%(existing_warning)sA Veri*Factu 单据 is waiting to be 已发送 as soon as "
+"possible."
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_es_edi_verifactu.field_account_bank_statement_line__l10n_es_edi_verifactu_state
+#: model:ir.model.fields,help:l10n_es_edi_verifactu.field_account_move__l10n_es_edi_verifactu_state
+msgid ""
+"- Rejected: Successfully sent to the AEAT, but it was rejected during validation\n"
+"                - Registered with Errors: Registered at the AEAT, but the AEAT has some issues with the sent document\n"
+"                - Accepted: Registered by the AEAT without errors\n"
+"                - Cancelled: Registered by the AEAT as cancelled"
+msgstr ""
+"- Rejected: Successfully 已发送 to the AEAT, but it was rejected during "
+"validation - Registered with 错误: Registered at the AEAT, but the AEAT has "
+"some issues with the 已发送 单据 - 已接受: Registered by the AEAT without 错误 - 已取消: "
+"Registered by the AEAT as 已取消"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_es_edi_verifactu.field_l10n_es_edi_verifactu_document__state
+msgid ""
+"- Rejected: Successfully sent to the AEAT, but it was rejected during validation\n"
+"                - Registered with Errors: Registered at the AEAT, but the AEAT has some issues with the sent record\n"
+"                - Accepted: Registered by the AEAT without errors"
+msgstr ""
+"- Rejected: Successfully 已发送 to the AEAT, but it was rejected during "
+"validation - Registered with 错误: Registered at the AEAT, but the AEAT has "
+"some issues with the 已发送 record - 已接受: Registered by the AEAT without 错误"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/account_move.py:0
+msgid "17_igic"
+msgstr "17_igic（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/account_move.py:0
+msgid "17_iva"
+msgstr "17_iva（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/account_move.py:0
+msgid "18_iva"
+msgstr "18_iva（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/account_move.py:0
+msgid "19_iva"
+msgstr "19_iva（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/account_move.py:0
+msgid "20_iva"
+msgstr "20_iva（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_verifactu.report_invoice_document
+msgid "<strong class=\"text-center\">QR tributario:</strong>"
+msgstr "<strong class=\"text-center\">QR tributario:</strong>（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_verifactu.report_invoice_document
+msgid "<strong class=\"text-center\">VERI*FACTU</strong>"
+msgstr "<strong class=\"text-center\">VERI*FACTU</strong>（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+msgid "A non-simplified invoice needs a partner."
+msgstr "A non-simplified 发票 needs a 业务伙伴."
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+msgid ""
+"A refund with Refund Reason %(refund_reason)s is not simplified (it needs a "
+"partner)."
+msgstr ""
+"A 退款 with 退款 原因 %(refund_reason)s is not simplified (it needs a 业务伙伴)."
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+msgid "A tax with value '%(tax_type)s' as %(field)s is not supported."
+msgstr "A 税 with 值 '%(tax_type)s' as %(field)s is not supported."
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_verifactu.selection__account_move__l10n_es_edi_verifactu_state__accepted
+#: model:ir.model.fields.selection,name:l10n_es_edi_verifactu.selection__l10n_es_edi_verifactu_document__state__accepted
+msgid "Accepted"
+msgstr "已接收"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_es_edi_verifactu.model_account_chart_template
+msgid "Account Chart Template"
+msgstr "科目表模版"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_es_edi_verifactu.model_account_move_reversal
+msgid "Account Move Reversal"
+msgstr "会计分录撤销"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_es_edi_verifactu.model_account_move_send
+msgid "Account Move Send"
+msgstr "科目分录发送"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_account_tax__l10n_es_applicability
+msgid "Applicability (Spain)"
+msgstr "Applicability (Spain)（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_verifactu.res_config_settings_view_form
+msgid "Automatically generate and send Veri*Factu records to the AEAT."
+msgstr "Automatically generate and 发送 Veri*Factu records to the AEAT."
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_account_bank_statement_line__l10n_es_edi_verifactu_available_clave_regimens
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_account_move__l10n_es_edi_verifactu_available_clave_regimens
+msgid "Available Veri*Factu Regime Key"
+msgstr "可用 Veri*Factu Regime Key"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_verifactu.selection__l10n_es_edi_verifactu_document__document_type__cancellation
+msgid "Cancellation"
+msgstr "Cancellation（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_verifactu.selection__account_move__l10n_es_edi_verifactu_state__cancelled
+msgid "Cancelled"
+msgstr "已取消"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_es_edi_verifactu.model_certificate_certificate
+msgid "Certificate"
+msgstr "证书"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_certificate_certificate__scope
+msgid "Certificate scope"
+msgstr "证书范围"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.ui.menu,name:l10n_es_edi_verifactu.menu_l10n_es_edi_verifactu_certificates
+msgid "Certificates"
+msgstr "证书"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.act_window,name:l10n_es_edi_verifactu.l10n_es_edi_verifactu_certificate_action
+msgid "Certificates for Veri*Factu"
+msgstr "Certificates for Veri*Factu（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_l10n_es_edi_verifactu_document__chain_index
+msgid "Chain Index"
+msgstr "Chain Index（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/account_move_send.py:0
+msgid "Check Invoice(s)"
+msgstr "检查发票"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_es_edi_verifactu.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_l10n_es_edi_verifactu_document__company_id
+msgid "Company"
+msgstr "公司"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_es_edi_verifactu.model_res_config_settings
+msgid "Config Settings"
+msgstr "配置设定"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_es_edi_verifactu.model_res_partner
+msgid "Contact"
+msgstr "联系人"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,website_form_label:l10n_es_edi_verifactu.model_res_partner
+msgid "Create a Customer"
+msgstr "创建客户"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.actions.act_window,help:l10n_es_edi_verifactu.l10n_es_edi_verifactu_certificate_action
+msgid "Create the first certificate"
+msgstr "创建 the first 证书"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_l10n_es_edi_verifactu_document__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_l10n_es_edi_verifactu_document__create_date
+msgid "Created on"
+msgstr "创建日期"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_account_chart_template__display_name
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_account_move_reversal__display_name
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_account_move_send__display_name
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_account_tax__display_name
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_certificate_certificate__display_name
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_l10n_es_edi_verifactu_document__display_name
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_res_company__display_name
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_res_partner__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_l10n_es_edi_verifactu_document__document_type
+msgid "Document Type"
+msgstr "文件类型"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_es_edi_verifactu.model_account_tax
+msgid "ETA tax codes mixin"
+msgstr "ETA 税 codes mixin"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_res_company__l10n_es_edi_verifactu_required
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_res_config_settings__l10n_es_edi_verifactu_required
+msgid "Enable Veri*Factu"
+msgstr "启用 Veri*Factu"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+#: code:addons/l10n_es_edi_verifactu/tests/common.py:0
+msgid "Error"
+msgstr "错误"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+msgid "Error while chaining the document: %s"
+msgstr "错误 while chaining the 单据: %s"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+msgid ""
+"Error while sending the batch document:\n"
+"%s"
+msgstr "错误 while sending the 批次 单据: %s"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_l10n_es_edi_verifactu_document__errors
+msgid "Errors"
+msgstr "错误"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/account_move.py:0
+msgid "Export"
+msgstr "导出"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/account_move.py:0
+msgid "General regime operation"
+msgstr "General regime operation（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/account_move_send.py:0
+msgid "Go to the journal entry"
+msgstr "Go to the 日记账 分录"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_account_chart_template__id
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_account_move_reversal__id
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_account_move_send__id
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_account_tax__id
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_certificate_certificate__id
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_l10n_es_edi_verifactu_document__id
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_res_company__id
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_res_config_settings__id
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_res_partner__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_verifactu.selection__account_tax__l10n_es_applicability__03
+msgid "IGIC"
+msgstr "IGIC（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_verifactu.selection__account_tax__l10n_es_applicability__02
+msgid "IPSI"
+msgstr "IPSI（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_es_edi_verifactu.field_l10n_es_edi_verifactu_document__chain_index
+msgid ""
+"Index in the chain of Veri*Factu Documents. It is only set if the generation"
+" was succesful."
+msgstr ""
+"Index in the chain of Veri*Factu 单据. It is only set if the generation was "
+"succesful."
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_l10n_es_edi_verifactu_document__json_attachment_base64
+msgid "JSON"
+msgstr "JSON（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_l10n_es_edi_verifactu_document__json_attachment_id
+msgid "JSON Attachment"
+msgstr "JSON 附件"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_l10n_es_edi_verifactu_document__json_attachment_filename
+msgid "JSON Filename"
+msgstr "JSON Filename（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_es_edi_verifactu.model_account_move
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_l10n_es_edi_verifactu_document__move_id
+msgid "Journal Entry"
+msgstr "日记账分录"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_l10n_es_edi_verifactu_document__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_l10n_es_edi_verifactu_document__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/account_move.py:0
+msgid "Leasing of business premises"
+msgstr "Leasing of business premises（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_es_edi_verifactu.field_res_company__l10n_es_edi_verifactu_special_vat_regime
+#: model:ir.model.fields,help:l10n_es_edi_verifactu.field_res_config_settings__l10n_es_edi_verifactu_special_vat_regime
+msgid "Leave empty for the normal regimen."
+msgstr "休假 empty for the normal regimen."
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_verifactu.res_config_settings_view_form
+msgid "Manage certificates"
+msgstr "Manage certificates（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+msgid "Missing Veri*Factu Regime Key (ClaveRegimen)."
+msgstr "Missing Veri*Factu Regime Key (ClaveRegimen).（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+msgid "Missing Veri*Factu Tax Applicability (Impuesto)."
+msgstr "Missing Veri*Factu 税 Applicability (Impuesto)."
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+msgid ""
+"Networking error while sending the document:\n"
+"%s"
+msgstr "Networking 错误 while sending the 单据: %s"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+msgid ""
+"Networking error:\n"
+"%s"
+msgstr "Networking 错误: %s"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+msgid "Networking error: %s"
+msgstr "Networking 错误: %s"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+msgid "No Sujeto VAT taxes must have 0 amount."
+msgstr "否 Sujeto VAT 税 must have 0 金额."
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+msgid "Only a single recargo tax may be used per \"main\" tax."
+msgstr "Only a single recargo 税 may be used per \"main\" 税."
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/account_move.py:0
+msgid ""
+"Operation under one of the regimes provided for in Chapter XI of Title IX "
+"(OSS and IOSS)."
+msgstr ""
+"Operation under one of the regimes provided for in Chapter XI of Title IX "
+"(OSS and IOSS).（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/account_move.py:0
+msgid ""
+"Operations of activities included in the Special Regime for Agriculture, "
+"Livestock and Fishing (REAGYP)"
+msgstr ""
+"Operations of 活动 included in the Special Regime for Agriculture, Livestock "
+"and Fishing (REAGYP)"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/account_tax.py:0
+msgid "Other"
+msgstr "其他"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_verifactu.selection__account_move__l10n_es_edi_verifactu_refund_reason__r1
+#: model:ir.model.fields.selection,name:l10n_es_edi_verifactu.selection__account_move_reversal__l10n_es_edi_verifactu_refund_reason__r1
+msgid "R1: Art 80.1 and 80.2 and error of law"
+msgstr "R1: Art 80.1 and 80.2 and 错误 of law"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_verifactu.selection__account_move__l10n_es_edi_verifactu_refund_reason__r2
+#: model:ir.model.fields.selection,name:l10n_es_edi_verifactu.selection__account_move_reversal__l10n_es_edi_verifactu_refund_reason__r2
+msgid "R2: Art. 80.3"
+msgstr "R2: Art. 80.3（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_verifactu.selection__account_move__l10n_es_edi_verifactu_refund_reason__r3
+#: model:ir.model.fields.selection,name:l10n_es_edi_verifactu.selection__account_move_reversal__l10n_es_edi_verifactu_refund_reason__r3
+msgid "R3: Art. 80.4"
+msgstr "R3: Art. 80.4（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_verifactu.selection__account_move__l10n_es_edi_verifactu_refund_reason__r4
+#: model:ir.model.fields.selection,name:l10n_es_edi_verifactu.selection__account_move_reversal__l10n_es_edi_verifactu_refund_reason__r4
+msgid "R4: Rest"
+msgstr "R4: Rest（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_verifactu.selection__account_move__l10n_es_edi_verifactu_refund_reason__r5
+#: model:ir.model.fields.selection,name:l10n_es_edi_verifactu.selection__account_move_reversal__l10n_es_edi_verifactu_refund_reason__r5
+msgid "R5: Corrective invoices concerning simplified invoices"
+msgstr "R5: Corrective 发票 concerning simplified 发票"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_verifactu.selection__res_company__l10n_es_edi_verifactu_special_vat_regime__reagyp
+msgid "REAGYP (Special Regime for Agriculture, Livestock and Fisheries)"
+msgstr ""
+"REAGYP (Special Regime for Agriculture, Livestock and Fisheries)（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_verifactu.selection__res_company__l10n_es_edi_verifactu_special_vat_regime__recargo
+msgid "Recargo de Equivalencia"
+msgstr "Recargo de Equivalencia（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/account_move.py:0
+msgid "Recargo de equivalencia"
+msgstr "Recargo de equivalencia（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_verifactu.selection__account_move__l10n_es_edi_verifactu_state__registered_with_errors
+#: model:ir.model.fields.selection,name:l10n_es_edi_verifactu.selection__l10n_es_edi_verifactu_document__state__registered_with_errors
+msgid "Registered with Errors"
+msgstr "Registered with 错误"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_verifactu.selection__account_move__l10n_es_edi_verifactu_state__rejected
+#: model:ir.model.fields.selection,name:l10n_es_edi_verifactu.selection__l10n_es_edi_verifactu_document__state__rejected
+msgid "Rejected"
+msgstr "拒绝"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_verifactu.view_move_form_inherit_l10n_es_edi_verifactu
+msgid "Request Veri*Factu Cancellation"
+msgstr "请求 Veri*Factu Cancellation"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_l10n_es_edi_verifactu_document__response_csv
+msgid "Response CSV"
+msgstr "Response CSV（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/account_move_send.py:0
+msgid "See the 'Veri*Factu' tab for more information."
+msgstr "See the 'Veri*Factu' tab for more 信息."
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_account_bank_statement_line__l10n_es_edi_verifactu_show_cancel_button
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_account_move__l10n_es_edi_verifactu_show_cancel_button
+msgid "Show Veri*Factu Cancel Button"
+msgstr "Show Veri*Factu 取消 Button"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/account_move.py:0
+#: model:ir.model.fields.selection,name:l10n_es_edi_verifactu.selection__res_company__l10n_es_edi_verifactu_special_vat_regime__simplified
+msgid "Simplified Regime"
+msgstr "Simplified Regime（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+msgid ""
+"Some of the documents can not be sent. They were sent already or could not "
+"be generated correctly."
+msgstr ""
+"Some of the 单据 can not be 已发送. They were 已发送 already or could not be 已生成 "
+"correctly."
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_verifactu.res_config_settings_view_form
+msgid "Special VAT Regime"
+msgstr "Special VAT Regime（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/account_move.py:0
+msgid "Special retailer regime"
+msgstr "Special retailer regime（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_l10n_es_edi_verifactu_document__state
+msgid "Status"
+msgstr "状态"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_verifactu.selection__l10n_es_edi_verifactu_document__document_type__submission
+msgid "Submission"
+msgstr "Submission（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_account_bank_statement_line__l10n_es_edi_verifactu_substitution_move_ids
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_account_move__l10n_es_edi_verifactu_substitution_move_ids
+msgid "Substituted by"
+msgstr "Substituted by（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_account_bank_statement_line__l10n_es_edi_verifactu_substituted_entry_id
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_account_move__l10n_es_edi_verifactu_substituted_entry_id
+msgid "Substitution of"
+msgstr "Substitution of（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_es_edi_verifactu.field_account_bank_statement_line__l10n_es_edi_verifactu_available_clave_regimens
+#: model:ir.model.fields,help:l10n_es_edi_verifactu.field_account_move__l10n_es_edi_verifactu_available_clave_regimens
+msgid ""
+"Technical field to enable a dynamic selection of the field \"Veri*Factu "
+"Regime Key\""
+msgstr ""
+"Technical field to 启用 a dynamic selection of the field \"Veri*Factu Regime "
+"Key\""
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_verifactu.res_config_settings_view_form
+msgid "Test Environment"
+msgstr "Test Environment（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_es_edi_verifactu.field_l10n_es_edi_verifactu_document__response_csv
+msgid ""
+"The CSV of the response from the tax agency. There may not be one in case "
+"all documents of the batch were rejected."
+msgstr ""
+"The CSV of the response 从 the 税 agency. There may not be one in case all 单据 "
+"of the 批次 were rejected."
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_es_edi_verifactu.field_res_company__l10n_es_edi_verifactu_next_batch_time
+msgid "The Datetime at which the next submission to the AEAT can be made."
+msgstr ""
+"The Datetime at which the next submission to the AEAT can be made.（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+msgid ""
+"The NIF '%(company_NIF)s' of the company is not exactly 9 characters long."
+msgstr "The NIF '%(company_NIF)s' of the 公司 is not exactly 9 characters long."
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+msgid "The SSL certificate could not be validated."
+msgstr "The SSL 证书 could not be validated."
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/account_move.py:0
+msgid ""
+"The Veri*Factu Regime Key is not compatible with the Veri*Factu Tax "
+"Applicability."
+msgstr ""
+"The Veri*Factu Regime Key is not compatible with the Veri*Factu 税 "
+"Applicability."
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+#: code:addons/l10n_es_edi_verifactu/tests/common.py:0
+msgid ""
+"The Veri*Factu document contains the following errors according to the AEAT"
+msgstr "The Veri*Factu 单据 contains the following 错误 according to the AEAT"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+#: code:addons/l10n_es_edi_verifactu/tests/common.py:0
+msgid "The Veri*Factu document could not be created"
+msgstr "The Veri*Factu 单据 could not be created"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/account_move_send.py:0
+msgid "The Veri*Factu document could not be created for all invoices."
+msgstr "The Veri*Factu 单据 could not be created for all 发票."
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+msgid "The batch document could not be created"
+msgstr "The 批次 单据 could not be created"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+msgid "The cancelled record is not Veri*Factu registered (inside Odoo)."
+msgstr "The 已取消 record is not Veri*Factu registered (inside 绿色供应链公共服务平台)."
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_verifactu.res_config_settings_view_form
+msgid "The data is sent to test servers and is not considered official."
+msgstr "The data is 已发送 to test servers and is not considered official."
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_verifactu.res_config_settings_view_form
+msgid "The data is sent to the tax agency."
+msgstr "The data is 已发送 to the 税 agency."
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+msgid ""
+"The document could not be sent; the access was denied due to a problem with "
+"the certificate."
+msgstr ""
+"The 单据 could not be 已发送; the 访问 was denied due to a problem with the 证书."
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/account_move_send.py:0
+msgid ""
+"The following entries wil be skipped. They are already registered with the "
+"AEAT: %s."
+msgstr ""
+"The following entries wil be skipped. They are already registered with the "
+"AEAT: %s.（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/account_move_send.py:0
+msgid ""
+"The following entries wil be skipped. They are already waiting to send "
+"Veri*Factu records to the AEAT: %s."
+msgstr ""
+"The following entries wil be skipped. They are already waiting to 发送 "
+"Veri*Factu records to the AEAT: %s."
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+msgid "The invoice date is missing."
+msgstr "The 发票日期 is missing."
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/account_move.py:0
+msgid "The journal entry has to be posted."
+msgstr "The 日记账 分录 has to be 已过账."
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+msgid ""
+"The name of the record is not between 1 and 60 characters long: %(name)s."
+msgstr ""
+"The 名称 of the record is not between 1 and 60 characters long: %(name)s."
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+msgid "The record is Veri*Factu registered already."
+msgstr "The record is Veri*Factu registered already.（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+msgid "The refund reason is not specified."
+msgstr "The 退款 原因 is not specified."
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+msgid ""
+"The response of the server had the wrong format (HTML instead of XML). It is"
+" most likely a problem with the certificate."
+msgstr ""
+"The response of the server had the wrong format (HTML instead of XML). It is"
+" most likely a problem with the 证书."
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+msgid "There are no taxes set on the invoice"
+msgstr "There are 否 税 set on the 发票"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/account_move_send.py:0
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+msgid "There is no Veri*Factu document for the refunded record."
+msgstr "There is 否 Veri*Factu 单据 for the refunded record."
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/account_move_send.py:0
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+msgid ""
+"There is no Veri*Factu document for the reversal of the substituted record."
+msgstr "There is 否 Veri*Factu 单据 for the reversal of the substituted record."
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/account_move_send.py:0
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+msgid "There is no Veri*Factu document for the substituted record."
+msgstr "There is 否 Veri*Factu 单据 for the substituted record."
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+msgid "There is no certificate configured for Veri*Factu on the company."
+msgstr "There is 否 证书 configured for Veri*Factu on the 公司."
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+msgid ""
+"Timeout while waiting for the response from the server:\n"
+"%s"
+msgstr "Timeout while waiting for the response 从 the server: %s"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+msgid "Unsupported `operation` '%s'"
+msgstr "Unsupported `operation` '%s'（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_verifactu.selection__account_tax__l10n_es_applicability__01
+msgid "VAT"
+msgstr "增值税"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+msgid "Validation error: %s"
+msgstr "Validation 错误: %s"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/account_move_send.py:0
+#: model:ir.model.fields.selection,name:l10n_es_edi_verifactu.selection__certificate_certificate__scope__verifactu
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_verifactu.certificate_certificate_view_search
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_verifactu.res_config_settings_view_form
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_verifactu.view_move_form_inherit_l10n_es_edi_verifactu
+msgid "Veri*Factu"
+msgstr "Veri*Factu（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.ui.menu,name:l10n_es_edi_verifactu.menu_l10n_es_edi_verifactu_root
+msgid "Veri*Factu (Spain)"
+msgstr "Veri*Factu (Spain)（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_res_company__l10n_es_edi_verifactu_certificate_ids
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_res_config_settings__l10n_es_edi_verifactu_certificate_ids
+msgid "Veri*Factu Certificates"
+msgstr "Veri*Factu Certificates（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_es_edi_verifactu.model_l10n_es_edi_verifactu_document
+msgid "Veri*Factu Document"
+msgstr "Veri*Factu 单据"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+msgid "Veri*Factu Document %s"
+msgstr "Veri*Factu 单据 %s"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_res_company__l10n_es_edi_verifactu_chain_sequence_id
+msgid "Veri*Factu Document Chain Sequence"
+msgstr "Veri*Factu 单据 Chain 序列"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/res_company.py:0
+msgid "Veri*Factu Document Sequence for company %(name)s (%(id)s)"
+msgstr "Veri*Factu 单据 序列 for 公司 %(name)s (%(id)s)"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_account_bank_statement_line__l10n_es_edi_verifactu_document_ids
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_account_move__l10n_es_edi_verifactu_document_ids
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_verifactu.view_move_form_inherit_l10n_es_edi_verifactu
+msgid "Veri*Factu Documents"
+msgstr "Veri*Factu 单据"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_res_company__l10n_es_edi_verifactu_next_batch_time
+msgid "Veri*Factu Next Batch Time"
+msgstr "Veri*Factu Next 批次 Time"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_account_bank_statement_line__l10n_es_edi_verifactu_qr_code
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_account_move__l10n_es_edi_verifactu_qr_code
+msgid "Veri*Factu QR Code"
+msgstr "Veri*Factu 二维码"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_account_bank_statement_line__l10n_es_edi_verifactu_refund_reason
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_account_move__l10n_es_edi_verifactu_refund_reason
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_account_move_reversal__l10n_es_edi_verifactu_refund_reason
+msgid "Veri*Factu Refund Reason"
+msgstr "Veri*Factu 退款 原因"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_account_bank_statement_line__l10n_es_edi_verifactu_clave_regimen
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_account_move__l10n_es_edi_verifactu_clave_regimen
+msgid "Veri*Factu Regime Key"
+msgstr "Veri*Factu Regime Key（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_account_bank_statement_line__l10n_es_edi_verifactu_required
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_account_move__l10n_es_edi_verifactu_required
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_account_move_reversal__l10n_es_edi_verifactu_required
+msgid "Veri*Factu Required"
+msgstr "Veri*Factu 必填"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_verifactu.view_account_invoice_filter
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_verifactu.view_account_move_filter
+msgid "Veri*Factu State"
+msgstr "Veri*Factu 状态"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_account_bank_statement_line__l10n_es_edi_verifactu_state
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_account_move__l10n_es_edi_verifactu_state
+msgid "Veri*Factu Status"
+msgstr "Veri*Factu 状态"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_res_company__l10n_es_edi_verifactu_test_environment
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_res_config_settings__l10n_es_edi_verifactu_test_environment
+msgid "Veri*Factu Test Environment"
+msgstr "Veri*Factu Test Environment（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_res_company__l10n_es_edi_verifactu_special_vat_regime
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_res_config_settings__l10n_es_edi_verifactu_special_vat_regime
+msgid "Veri*Factu VAT Regime"
+msgstr "Veri*Factu VAT Regime（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_account_bank_statement_line__l10n_es_edi_verifactu_warning
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_account_move__l10n_es_edi_verifactu_warning
+msgid "Veri*Factu Warning"
+msgstr "Veri*Factu 警告"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_account_bank_statement_line__l10n_es_edi_verifactu_warning_level
+#: model:ir.model.fields,field_description:l10n_es_edi_verifactu.field_account_move__l10n_es_edi_verifactu_warning_level
+msgid "Veri*Factu Warning Level"
+msgstr "Veri*Factu 警告 Level"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_verifactu.certificate_certificate_view_search
+msgid "Veri*Factu certificates"
+msgstr "Veri*Factu certificates（技术名称）"
+
+#. module: l10n_es_edi_verifactu
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.server,name:l10n_es_edi_verifactu.cron_verifactu_batch_ir_actions_server
+msgid "Veri*Factu: Submit / Cancel Records"
+msgstr "Veri*Factu: 提交 / 取消 Records"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/account_move_send.py:0
+msgid "View Invoice(s)"
+msgstr "查看发票"
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+msgid "We are waiting to send a Veri*Factu record to the AEAT already."
+msgstr "We are waiting to 发送 a Veri*Factu record to the AEAT already."
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+#: code:addons/l10n_es_edi_verifactu/tests/test_document.py:0
+msgid ""
+"We could not find any information about the record in the linked batch "
+"document."
+msgstr "We could not find any 信息 about the record in the linked 批次 单据."
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+msgid "We only allow a single \"main\" tax per line."
+msgstr "We only allow a single \"main\" 税 per 行."
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+msgid ""
+"We only allow a single Veri*Factu Tax Applicability (Impuesto) per document:"
+" %(applicabilities)s."
+msgstr ""
+"We only allow a single Veri*Factu 税 Applicability (Impuesto) per 单据: "
+"%(applicabilities)s."
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/account_move.py:0
+msgid ""
+"You are modifying a journal entry for which a Veri*Factu document has been "
+"sent to the AEAT already."
+msgstr ""
+"You are modifying a 日记账 分录 for which a Veri*Factu 单据 has been 已发送 to the "
+"AEAT already."
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/account_move.py:0
+msgid ""
+"You are modifying a journal entry for which a Veri*Factu document is waiting"
+" to be sent."
+msgstr ""
+"You are modifying a 日记账 分录 for which a Veri*Factu 单据 is waiting to be 已发送."
+
+#. module: l10n_es_edi_verifactu
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_verifactu/models/verifactu_document.py:0
+msgid ""
+"You cannot delete Veri*Factu Documents that are part of the chain of all "
+"Veri*Factu Documents."
+msgstr ""
+"You cannot 删除 Veri*Factu 单据 that are part of the chain of all Veri*Factu 单据."

@@ -1,0 +1,139 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_be
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_be
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_be.model_account_chart_template
+msgid "Account Chart Template"
+msgstr "科目表模版"
+
+#. module: l10n_be
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_be/models/template_be_asso.py:0
+msgid "Associations and Foundations"
+msgstr "Associations and Foundations（技术名称）"
+
+#. module: l10n_be
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_be/models/template_be.py:0
+msgid "Base"
+msgstr "基础"
+
+#. module: l10n_be
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.ui.menu,name:l10n_be.account_reports_be_statements_menu
+msgid "Belgium"
+msgstr "比利时"
+
+#. module: l10n_be
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_be.selection__account_journal__invoice_reference_model__be
+msgid "Belgium (+++000/2024/00182+++)"
+msgstr "Belgium (+++000/2024/00182+++)（技术名称）"
+
+#. module: l10n_be
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_be.field_account_journal__invoice_reference_model
+msgid "Communication Standard"
+msgstr "通信标准"
+
+#. module: l10n_be
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_be/models/template_be_comp.py:0
+msgid "Companies"
+msgstr "公司"
+
+#. module: l10n_be
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_be.model_res_partner
+msgid "Contact"
+msgstr "联系人"
+
+#. module: l10n_be
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,website_form_label:l10n_be.model_res_partner
+msgid "Create a Customer"
+msgstr "创建客户"
+
+#. module: l10n_be
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_be.field_account_chart_template__display_name
+#: model:ir.model.fields,field_description:l10n_be.field_account_journal__display_name
+#: model:ir.model.fields,field_description:l10n_be.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_be.field_account_tax__display_name
+#: model:ir.model.fields,field_description:l10n_be.field_res_partner__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_be
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_be.model_account_tax
+msgid "ETA tax codes mixin"
+msgstr "ETA 税 codes mixin"
+
+#. module: l10n_be
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_be.field_account_chart_template__id
+#: model:ir.model.fields,field_description:l10n_be.field_account_journal__id
+#: model:ir.model.fields,field_description:l10n_be.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_be.field_account_tax__id
+#: model:ir.model.fields,field_description:l10n_be.field_res_partner__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_be
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_be.selection__account_tax__tax_scope__invest
+msgid "Investment"
+msgstr "Investment（技术名称）"
+
+#. module: l10n_be
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_be.model_account_journal
+msgid "Journal"
+msgstr "日记账"
+
+#. module: l10n_be
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_be.model_account_move
+msgid "Journal Entry"
+msgstr "日记账分录"
+
+#. module: l10n_be
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_be.selection__account_tax__tax_scope__merch
+msgid "Merchandise"
+msgstr "Merchandise（技术名称）"
+
+#. module: l10n_be
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_be.field_account_tax__tax_scope
+msgid "Tax Scope"
+msgstr "税范围"
+
+#. module: l10n_be
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_be.field_account_journal__invoice_reference_model
+msgid ""
+"You can choose different models for each type of reference. The default one "
+"is the Odoo reference."
+msgstr "可以为各参考事情类型选择不同的模型。默认为绿色供应链公共服务平台参考号。"

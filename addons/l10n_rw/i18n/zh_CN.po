@@ -1,0 +1,305 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_rw
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_rw
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_rw.tax_report_exempted_sales
+msgid "10- Exempted Sales"
+msgstr "10- Exempted 销售"
+
+#. module: l10n_rw
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_rw.tax_report_zero_rated_sales
+msgid "15- Zero Rated Sales"
+msgstr "15- Zero Rated 销售"
+
+#. module: l10n_rw
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_rw.tax_report_export
+msgid "20- Exports"
+msgstr "20- Exports（技术名称）"
+
+#. module: l10n_rw
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_rw.tax_report_total_not_taxable
+msgid "25- Total Not Taxable (Line 10 + 15 + 20)"
+msgstr "25- 合计 Not Taxable (行 10 + 15 + 20)"
+
+#. module: l10n_rw
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_rw.tax_report_taxable_sales_subject_vat
+msgid "30- Taxable Sales Subject to VAT ( Line 5 - Line 25)"
+msgstr "30- Taxable 销售 Subject to VAT ( 行 5 - 行 25)"
+
+#. module: l10n_rw
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_rw.tax_report_vat_taxable_sales
+msgid "35- VAT on Taxable Sales (18% of Line 30)"
+msgstr "35- VAT on Taxable 销售 (18% of 行 30)"
+
+#. module: l10n_rw
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_rw.tax_report_reverse_charge
+msgid "40- VAT Reverse Charge"
+msgstr "40- VAT Reverse Charge（技术名称）"
+
+#. module: l10n_rw
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_rw.tax_report_vat_payable
+msgid "45- VAT Payable (Line 35 + Line 40)"
+msgstr "45- VAT Payable (行 35 + 行 40)"
+
+#. module: l10n_rw
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_rw.tax_report_value_supplies_during_month
+msgid "5- Value of Supplies During the month (VAT Exclusive)"
+msgstr "5- 值 of Supplies During the month (VAT Exclusive)"
+
+#. module: l10n_rw
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_rw.tax_report_vat_paid_on_imports
+msgid "50- VAT paid on imports"
+msgstr "50- VAT paid on imports（技术名称）"
+
+#. module: l10n_rw
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_rw.tax_report_vat_paid_on_local_purchase
+msgid "55- VAT paid on Local Purchase"
+msgstr "55- VAT paid on Local 采购"
+
+#. module: l10n_rw
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_rw.tax_report_vat_paid_on_input
+msgid "60- VAT paid on Input (Line 50 + Line 55)"
+msgstr "60- VAT paid on Input (行 50 + 行 55)"
+
+#. module: l10n_rw
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_rw.tax_report_vat_reverse_charge_deductible
+msgid "65- VAT Reverse Charge deductible"
+msgstr "65- VAT Reverse Charge deductible（技术名称）"
+
+#. module: l10n_rw
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_rw.tax_report_vat_refund
+msgid "70- VAT Payable/Credit Refundable [(Line 45 - (Line 60 + Line 65)]"
+msgstr "70- VAT Payable/贷方 Refundable [(行 45 - (行 60 + 行 65)]"
+
+#. module: l10n_rw
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_rw.tax_report_carry_over
+msgid "75- Credit carried over from previous month(s) (Not already claimed)"
+msgstr "75- 贷方 carried over 从 previous month(s) (Not already claimed)"
+
+#. module: l10n_rw
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_rw.tax_report_withholding_retained
+msgid "80- VAT Withholding retained by MINECOFIN (not refunded)"
+msgstr "80- VAT Withholding retained by MINECOFIN (not refunded)（技术名称）"
+
+#. module: l10n_rw
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_rw.tax_report_vat_due_credit
+msgid "85- VAT Due / Credit Refundable (Line 70 - Line 75)"
+msgstr "85- VAT Due / 贷方 Refundable (行 70 - 行 75)"
+
+#. module: l10n_rw
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_rw.tax_report_vat_refund_claim
+msgid "90- VAT Refund Claim"
+msgstr "90- VAT 退款 Claim"
+
+#. module: l10n_rw
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_rw.tax_report_vat_due
+msgid "95- VAT Due"
+msgstr "95- VAT Due（技术名称）"
+
+#. module: l10n_rw
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_rw.model_account_chart_template
+msgid "Account Chart Template"
+msgstr "科目表模版"
+
+#. module: l10n_rw
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:res.company,invoice_terms_html:l10n_rw.demo_company_rw
+msgid ""
+"All our contractual relations will be governed exclusively by Rwanda law."
+msgstr ""
+"All our contractual relations will be governed exclusively by Rwanda "
+"law.（技术名称）"
+
+#. module: l10n_rw
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:res.company,invoice_terms_html:l10n_rw.demo_company_rw
+msgid ""
+"Below text serves as a suggestion and doesn’t engage Odoo S.A. "
+"responsibility."
+msgstr "以下文字仅供参考，GlobalCloud GPC不承担责任。"
+
+#. module: l10n_rw
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:res.company,invoice_terms_html:l10n_rw.demo_company_rw
+msgid ""
+"Certain countries apply withholding at source on the amount of invoices, in "
+"accordance with their internal legislation. Any withholding at source will "
+"be paid by the client to the tax authorities. Under no circumstances can RW "
+"Company become involved in costs related to a country's legislation. The "
+"amount of the invoice will therefore be due to RW Company in its entirety "
+"and does not include any costs relating to the legislation of the country in"
+" which the client is located."
+msgstr ""
+"Certain countries apply withholding at source on the 金额 of 发票, in accordance"
+" with their internal legislation. Any withholding at source will be paid by "
+"the client to the 税 authorities. Under 否 circumstances can RW 公司 become "
+"involved in costs 相关 to a country's legislation. The 金额 of the 发票 will "
+"therefore be due to RW 公司 in its entirety and does not include any costs "
+"relating to the legislation of the 国家/地区 in which the client is located."
+
+#. module: l10n_rw
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_rw.field_account_chart_template__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_rw
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_rw.field_account_chart_template__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_rw
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:res.company,invoice_terms_html:l10n_rw.demo_company_rw
+msgid ""
+"If a payment is still outstanding more than sixty (60) days after the due "
+"payment date, RW Company reserves the right to call on the services of a "
+"debt recovery company. All legal expenses will be payable by the client."
+msgstr ""
+"If a 付款 is still outstanding more than sixty (60) days after the due 付款 日期, "
+"RW 公司 reserves the right to call on the services of a debt recovery 公司. All "
+"legal expenses will be payable by the client."
+
+#. module: l10n_rw
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:res.company,invoice_terms_html:l10n_rw.demo_company_rw
+msgid ""
+"In order for it to be admissible, RW Company must be notified of any claim "
+"by means of a letter sent by recorded delivery to its registered office "
+"within 8 days of the delivery of the goods or the provision of the services."
+msgstr ""
+"In 订单 for it to be admissible, RW 公司 must be notified of any claim by means "
+"of a letter 已发送 by recorded 交货 to its registered office within 8 days of the"
+" 交货 of the goods or the provision of the services."
+
+#. module: l10n_rw
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:res.company,invoice_terms_html:l10n_rw.demo_company_rw
+msgid ""
+"Our invoices are payable within 21 working days, unless another payment "
+"timeframe is indicated on either the invoice or the order. In the event of "
+"non-payment by the due date, RW Company reserves the right to request a "
+"fixed interest payment amounting to 10% of the sum remaining due. RW Company"
+" will be authorized to suspend any provision of services without prior "
+"warning in the event of late payment."
+msgstr ""
+"Our 发票 are payable within 21 working days, unless another 付款 timeframe is "
+"indicated on either the 发票 or the 订单. In the 活动 of non-payment by the 到期日, "
+"RW 公司 reserves the right to 请求 a fixed interest 付款 amounting to 10% of the "
+"sum remaining due. RW 公司 will be authorized to suspend any provision of "
+"services without prior 警告 in the 活动 of late 付款."
+
+#. module: l10n_rw
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:res.company,invoice_terms_html:l10n_rw.demo_company_rw
+msgid ""
+"RW Company undertakes to do its best to supply performant services in due "
+"time in accordance with the agreed timeframes. However, none of its "
+"obligations can be considered as being an obligation to achieve results. RW "
+"Company cannot under any circumstances, be required by the client to appear "
+"as a third party in the context of any claim for damages filed against the "
+"client by an end consumer."
+msgstr ""
+"RW 公司 undertakes to do its best to supply performant services in due time in"
+" accordance with the agreed timeframes. However, none of its obligations can"
+" be considered as being an obligation to achieve results. RW 公司 cannot under"
+" any circumstances, be 必填 by the client to appear as a third party in the "
+"context of any claim for damages filed against the client by an end "
+"consumer."
+
+#. module: l10n_rw
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.ui.menu,name:l10n_rw.account_reports_rw_statements_menu
+msgid "Rwanda"
+msgstr "卢旺达"
+
+#. module: l10n_rw
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:res.company,invoice_terms_html:l10n_rw.demo_company_rw
+msgid "STANDARD TERMS AND CONDITIONS OF SALE"
+msgstr "标准销售期限和条件"
+
+#. module: l10n_rw
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report,name:l10n_rw.tax_report
+msgid "Tax Report"
+msgstr "税务报表"
+
+#. module: l10n_rw
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:res.company,sign_terms:l10n_rw.demo_company_rw
+#: model_terms:res.company,sign_terms_html:l10n_rw.demo_company_rw
+msgid "Terms &amp; Conditions"
+msgstr "条款 &amp; 条件"
+
+#. module: l10n_rw
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:res.company,invoice_terms_html:l10n_rw.demo_company_rw
+msgid ""
+"The client explicitly waives its own standard terms and conditions, even if "
+"these were drawn up after these standard terms and conditions of sale. In "
+"order to be valid, any derogation must be expressly agreed to in advance in "
+"writing."
+msgstr "客户明确放弃自己的标准期限和条件，即使这些期限和条件是在这些标准销售期限和条件之后制定的。为了有效，任何减损必须事先以书面形式明确同意。"
+
+#. module: l10n_rw
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:res.company,invoice_terms_html:l10n_rw.demo_company_rw
+msgid "You should update this document to reflect your T&amp;C."
+msgstr "您应该更新此文档以反映您的T &amp; C。"
+
+#. module: l10n_rw
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:res.company,sign_terms:l10n_rw.demo_company_rw
+#: model_terms:res.company,sign_terms_html:l10n_rw.demo_company_rw
+msgid "Your conditions..."
+msgstr "您的条件..."
+
+#. module: l10n_rw
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.column,name:l10n_rw.tax_report_base
+msgid "base"
+msgstr "base（技术名称）"
+
+#. module: l10n_rw
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.column,name:l10n_rw.tax_report_tax
+msgid "tax"
+msgstr "税"

@@ -1,0 +1,76 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_nl
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_nl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_nl.model_account_chart_template
+msgid "Account Chart Template"
+msgstr "科目表模版"
+
+#. module: l10n_nl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_nl.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: l10n_nl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_nl.field_account_chart_template__display_name
+#: model:ir.model.fields,field_description:l10n_nl.field_account_journal__display_name
+#: model:ir.model.fields,field_description:l10n_nl.field_res_company__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_nl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_nl.res_config_settings_view_form
+msgid "Dutch Localization"
+msgstr "Dutch Localization（技术名称）"
+
+#. module: l10n_nl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_nl.field_account_chart_template__id
+#: model:ir.model.fields,field_description:l10n_nl.field_account_journal__id
+#: model:ir.model.fields,field_description:l10n_nl.field_res_company__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_nl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_nl.model_account_journal
+msgid "Journal"
+msgstr "日记账"
+
+#. module: l10n_nl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_nl.field_res_company__l10n_nl_rounding_difference_loss_account_id
+msgid "L10N Nl Rounding Difference Loss Account"
+msgstr "L10N Nl Rounding Difference Loss 账户"
+
+#. module: l10n_nl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_nl.field_res_company__l10n_nl_rounding_difference_profit_account_id
+msgid "L10N Nl Rounding Difference Profit Account"
+msgstr "L10N Nl Rounding Difference Profit 账户"
+
+#. module: l10n_nl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:res.country.group,name:l10n_nl.mainland_nl
+msgid "Netherlands VAT"
+msgstr "荷兰 VAT"

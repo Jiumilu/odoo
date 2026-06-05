@@ -1,0 +1,711 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * test_translation_import
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/data/files/test_spreadsheet_dashboard.json:0
+#: code:addons/test_translation_import/data/files/test_spreadsheet_v16_dashboard.json:0
+msgid "Bar chart title"
+msgstr "Bar chart title（技术名称）"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/data/files/test_spreadsheet_v16_dashboard.json:0
+msgid "Chart horizontal axis title"
+msgstr "Chart horizontal axis title（技术名称）"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/data/files/test_spreadsheet_v16_dashboard.json:0
+msgid "Chart vertical axis title"
+msgstr "Chart vertical axis title（技术名称）"
+
+#. module: test_translation_import
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/models/models.py:0
+msgid "Code Lazy, English"
+msgstr "代码 Lazy, English"
+
+#. module: test_translation_import
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/models/models.py:0
+msgid "Code, %(num)s, %(symbol)s, English"
+msgstr "代码, %(num)s, %(symbol)s, English"
+
+#. module: test_translation_import
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/models/models.py:0
+msgid "Code, %s, English"
+msgstr "代码, %s, English"
+
+#. module: test_translation_import
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/models/models.py:0
+msgid "Code, English"
+msgstr "代码, English"
+
+#. module: test_translation_import
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:test_translation_import.field_test_translation_import_model1__create_uid
+#: model:ir.model.fields,field_description:test_translation_import.field_test_translation_import_model2__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: test_translation_import
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:test_translation_import.field_test_translation_import_model1__create_date
+#: model:ir.model.fields,field_description:test_translation_import.field_test_translation_import_model2__create_date
+msgid "Created on"
+msgstr "创建日期"
+
+#. module: test_translation_import
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:test_translation_import.field_test_translation_import_model1__display_name
+#: model:ir.model.fields,field_description:test_translation_import.field_test_translation_import_model2__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: test_translation_import
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:test.translation.import.model1,xml:test_translation_import.test_translation_import_model1_record1
+msgid "Fork"
+msgstr "Fork（技术名称）"
+
+#. module: test_translation_import
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:test_translation_import.field_test_translation_import_model1__name
+#: model:ir.model.fields,help:test_translation_import.field_test_translation_import_model2__name
+msgid "Help, English"
+msgstr "帮助, English"
+
+#. module: test_translation_import
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:test_translation_import.field_test_translation_import_model1__id
+#: model:ir.model.fields,field_description:test_translation_import.field_test_translation_import_model2__id
+msgid "ID"
+msgstr "ID"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/static/src/js/js_codefile.js:0
+msgid "JS Export 01 %s"
+msgstr "JS 导出 01 %s"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/static/src/js/js_codefile.js:0
+msgid "JS Export 02 %(named)s"
+msgstr "JS 导出 02 %(named)s"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/static/src/js/js_codefile.js:0
+msgid "JS Export 03 %s"
+msgstr "JS 导出 03 %s"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/static/src/js/js_codefile.js:0
+msgid "JS Export 04 (Nested)"
+msgstr "JS 导出 04 (Nested)"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/static/src/js/js_codefile.js:0
+msgid "JS Export 05 %(named)s"
+msgstr "JS 导出 05 %(named)s"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/static/src/js/js_codefile.js:0
+msgid "JS Export 06 (Nested Named)"
+msgstr "JS 导出 06 (Nested Named)"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/static/src/js/js_codefile.js:0
+msgid "JS Export 07 %s"
+msgstr "JS 导出 07 %s"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/static/src/js/js_codefile.js:0
+msgid "JS Export 08 (Double Nested)"
+msgstr "JS 导出 08 (Double Nested)"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/static/src/js/js_codefile.js:0
+msgid "JS Export 09 %(named)s"
+msgstr "JS 导出 09 %(named)s"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/static/src/js/js_codefile.js:0
+msgid "JS Export 10 (Double Nested Named)"
+msgstr "JS 导出 10 (Double Nested Named)"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/static/src/js/js_codefile.js:0
+msgid "JS Export 11 %s"
+msgstr "JS 导出 11 %s"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/static/src/js/js_codefile.js:0
+msgid "JS Export 12 (Double Nested)"
+msgstr "JS 导出 12 (Double Nested)"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/static/src/js/js_codefile.js:0
+msgid "JS Export 13 %(named)s"
+msgstr "JS 导出 13 %(named)s"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/static/src/js/js_codefile.js:0
+msgid "JS Export 14 (Double Nested Named)"
+msgstr "JS 导出 14 (Double Nested Named)"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/static/src/js/js_codefile.js:0
+msgid "JS Export 15 %s"
+msgstr "JS 导出 15 %s"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/static/src/js/js_codefile.js:0
+msgid "JS Export 16 (Double Nested)"
+msgstr "JS 导出 16 (Double Nested)"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/static/src/js/js_codefile.js:0
+msgid "JS Export 17 %(named)s"
+msgstr "JS 导出 17 %(named)s"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/static/src/js/js_codefile.js:0
+msgid "JS Export 18 (Double Nested Named)"
+msgstr "JS 导出 18 (Double Nested Named)"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/static/src/js/js_codefile.js:0
+msgid "JS Export 19 (Base Nested)"
+msgstr "JS 导出 19 (Base Nested)"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/static/src/js/js_codefile.js:0
+msgid "JS Export 20 (Base Nested)"
+msgstr "JS 导出 20 (Base Nested)"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/static/src/js/js_codefile.js:0
+msgid "JS Export 21 (Base Nested)"
+msgstr "JS 导出 21 (Base Nested)"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/static/src/js/js_codefile.js:0
+msgid "JS Export 22 %s"
+msgstr "JS 导出 22 %s"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/static/src/js/js_codefile.js:0
+msgid "JS Export 23"
+msgstr "JS 导出 23"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/static/src/js/js_codefile.js:0
+msgid "JS Export 24 %s"
+msgstr "JS 导出 24 %s"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/static/src/js/js_codefile.js:0
+msgid "JS Export 25"
+msgstr "JS 导出 25"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/static/src/js/js_codefile.js:0
+msgid "JS Export 26"
+msgstr "JS 导出 26"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/static/src/js/js_codefile.js:0
+msgid "JS Export 27"
+msgstr "JS 导出 27"
+
+#. module: test_translation_import
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:test.translation.import.model1,xml:test_translation_import.test_translation_import_model1_record1
+msgid "Knife"
+msgstr "Knife（技术名称）"
+
+#. module: test_translation_import
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:test_translation_import.field_test_translation_import_model1__write_uid
+#: model:ir.model.fields,field_description:test_translation_import.field_test_translation_import_model2__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: test_translation_import
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:test_translation_import.field_test_translation_import_model1__write_date
+#: model:ir.model.fields,field_description:test_translation_import.field_test_translation_import_model2__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: test_translation_import
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:test_translation_import.field_test_translation_import_model2__model1_id
+msgid "Model1"
+msgstr "Model1（技术名称）"
+
+#. module: test_translation_import
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:test_translation_import.field_test_translation_import_model1__name
+#: model:ir.model.fields,field_description:test_translation_import.field_test_translation_import_model2__name
+msgid "Name"
+msgstr "名称"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/data/files/test_spreadsheet_v16_dashboard.json:0
+msgid "Odoo Chart horizontal axis title"
+msgstr "绿色供应链公共服务平台 Chart horizontal axis title"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/data/files/test_spreadsheet_v16_dashboard.json:0
+msgid "Odoo Chart vertical axis title"
+msgstr "绿色供应链公共服务平台 Chart vertical axis title"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/data/files/test_spreadsheet_dashboard.json:0
+#: code:addons/test_translation_import/data/files/test_spreadsheet_v16_dashboard.json:0
+msgid "Opportunities"
+msgstr "商机"
+
+#. module: test_translation_import
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/models/models.py:0
+msgid "PY Export 01 %s"
+msgstr "PY 导出 01 %s"
+
+#. module: test_translation_import
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/models/models.py:0
+msgid "PY Export 02 %(named)s"
+msgstr "PY 导出 02 %(named)s"
+
+#. module: test_translation_import
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/models/models.py:0
+msgid "PY Export 03 %s"
+msgstr "PY 导出 03 %s"
+
+#. module: test_translation_import
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/models/models.py:0
+msgid "PY Export 04 (Nested)"
+msgstr "PY 导出 04 (Nested)"
+
+#. module: test_translation_import
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/models/models.py:0
+msgid "PY Export 05 %(named)s"
+msgstr "PY 导出 05 %(named)s"
+
+#. module: test_translation_import
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/models/models.py:0
+msgid "PY Export 06 (Nested Named)"
+msgstr "PY 导出 06 (Nested Named)"
+
+#. module: test_translation_import
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/models/models.py:0
+msgid "PY Export 07 %s"
+msgstr "PY 导出 07 %s"
+
+#. module: test_translation_import
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/models/models.py:0
+msgid "PY Export 08 (Double Nested)"
+msgstr "PY 导出 08 (Double Nested)"
+
+#. module: test_translation_import
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/models/models.py:0
+msgid "PY Export 09 %(named)s"
+msgstr "PY 导出 09 %(named)s"
+
+#. module: test_translation_import
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/models/models.py:0
+msgid "PY Export 10 (Double Nested Named)"
+msgstr "PY 导出 10 (Double Nested Named)"
+
+#. module: test_translation_import
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/models/models.py:0
+msgid "PY Export 11 %s"
+msgstr "PY 导出 11 %s"
+
+#. module: test_translation_import
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/models/models.py:0
+msgid "PY Export 12 (Double Nested)"
+msgstr "PY 导出 12 (Double Nested)"
+
+#. module: test_translation_import
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/models/models.py:0
+msgid "PY Export 13 %(named)s"
+msgstr "PY 导出 13 %(named)s"
+
+#. module: test_translation_import
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/models/models.py:0
+msgid "PY Export 14 (Double Nested Named)"
+msgstr "PY 导出 14 (Double Nested Named)"
+
+#. module: test_translation_import
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/models/models.py:0
+msgid "PY Export 15 %s"
+msgstr "PY 导出 15 %s"
+
+#. module: test_translation_import
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/models/models.py:0
+msgid "PY Export 16 (Double Nested)"
+msgstr "PY 导出 16 (Double Nested)"
+
+#. module: test_translation_import
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/models/models.py:0
+msgid "PY Export 17 %(named)s"
+msgstr "PY 导出 17 %(named)s"
+
+#. module: test_translation_import
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/models/models.py:0
+msgid "PY Export 18 (Double Nested Named)"
+msgstr "PY 导出 18 (Double Nested Named)"
+
+#. module: test_translation_import
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/models/models.py:0
+msgid "PY Export 19 (Base Nested)"
+msgstr "PY 导出 19 (Base Nested)"
+
+#. module: test_translation_import
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/models/models.py:0
+msgid "PY Export 20 (Base Nested)"
+msgstr "PY 导出 20 (Base Nested)"
+
+#. module: test_translation_import
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/models/models.py:0
+msgid "PY Export 21 (Base Nested)"
+msgstr "PY 导出 21 (Base Nested)"
+
+#. module: test_translation_import
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/models/models.py:0
+msgid "PY Export 22 %s"
+msgstr "PY 导出 22 %s"
+
+#. module: test_translation_import
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/models/models.py:0
+msgid "PY Export 23"
+msgstr "PY 导出 23"
+
+#. module: test_translation_import
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/models/models.py:0
+msgid "PY Export 24 %s"
+msgstr "PY 导出 24 %s"
+
+#. module: test_translation_import
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/models/models.py:0
+msgid "PY Export 25"
+msgstr "PY 导出 25"
+
+#. module: test_translation_import
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/models/models.py:0
+msgid "PY Export 26 %s"
+msgstr "PY 导出 26 %s"
+
+#. module: test_translation_import
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/models/models.py:0
+msgid "PY Export 27 %s"
+msgstr "PY 导出 27 %s"
+
+#. module: test_translation_import
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/models/models.py:0
+msgid "PY Export 28"
+msgstr "PY 导出 28"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/data/files/test_spreadsheet_dashboard.json:0
+msgid "Scorecard chart"
+msgstr "Scorecard chart（技术名称）"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/data/files/test_spreadsheet_dashboard.json:0
+msgid "Scorecard description"
+msgstr "Scorecard 说明"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/data/files/test_spreadsheet_v16_dashboard.json:0
+msgid "Scorecard title"
+msgstr "Scorecard title（技术名称）"
+
+#. module: test_translation_import
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:test_translation_import.selection__test_translation_import_model1__selection__bar
+msgid "Selection Bar"
+msgstr "Selection Bar（技术名称）"
+
+#. module: test_translation_import
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:test_translation_import.selection__test_translation_import_model1__selection__foo
+msgid "Selection Foo"
+msgstr "Selection Foo（技术名称）"
+
+#. module: test_translation_import
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:test.translation.import.model1,xml:test_translation_import.test_translation_import_model1_record1
+msgid "Spoon"
+msgstr "Spoon（技术名称）"
+
+#. module: test_translation_import
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:test.translation.import.model1,name:test_translation_import.test_translation_import_model1_record1
+msgid "Tableware"
+msgstr "Tableware（技术名称）"
+
+#. module: test_translation_import
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:test.translation.import.model1,name:test_translation_import.test_translation_import_model1_record3
+msgid "Test Translation CSV from PO"
+msgstr "Test Translation CSV 从 PO"
+
+#. module: test_translation_import
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.act_window,name:test_translation_import.action_test_translation_import_model1
+#: model:ir.ui.menu,name:test_translation_import.menu_test_translation_import_model1
+msgid "Test translation import model1"
+msgstr "Test translation 导入 model1"
+
+#. module: test_translation_import
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.ui.menu,name:test_translation_import.menu_test_translation_import
+msgid "Test translation model1"
+msgstr "Test translation model1（技术名称）"
+
+#. module: test_translation_import
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:test_translation_import.model_test_translation_import_model1
+msgid "Translation Test 1"
+msgstr "Translation Test 1（技术名称）"
+
+#. module: test_translation_import
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:test_translation_import.model_test_translation_import_model2
+msgid "Translation Test 2"
+msgstr "Translation Test 2（技术名称）"
+
+#. module: test_translation_import
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:test_translation_import.field_test_translation_import_model1__xml
+#: model:ir.model.fields,field_description:test_translation_import.field_test_translation_import_model2__xml
+msgid "XML"
+msgstr "XML（技术名称）"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/data/files/test_spreadsheet_dashboard.json:0
+msgid "aa (\\\"inside\\\") bb"
+msgstr "aa (\\\"inside\\\") bb（技术名称）"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/static/src/xml/js_templates.xml:0
+msgid "do export"
+msgstr "do 导出"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/data/files/test_spreadsheet_dashboard.json:0
+msgid "exported 1"
+msgstr "exported 1（技术名称）"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/data/files/test_spreadsheet_dashboard.json:0
+msgid "exported 2"
+msgstr "exported 2（技术名称）"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/data/files/test_spreadsheet_dashboard.json:0
+msgid "exported 3"
+msgstr "exported 3（技术名称）"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/data/files/test_spreadsheet_dashboard.json:0
+msgid "hello \\\"world\\\""
+msgstr "hello \\\"world\\\"（技术名称）"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/data/files/test_spreadsheet_dashboard.json:0
+msgid "link label"
+msgstr "link label（技术名称）"
+
+#. module: test_translation_import
+#. odoo-javascript
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/models/models.py:0
+#: code:addons/test_translation_import/static/src/xml/js_templates.xml:0
+msgid "slot"
+msgstr "狭槽"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/static/src/xml/js_templates.xml:0
+msgid "slot 2"
+msgstr "slot 2（技术名称）"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/static/src/xml/js_templates.xml:0
+msgid "text node"
+msgstr "text node（技术名称）"
+
+#. module: test_translation_import
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/test_translation_import/data/files/test_spreadsheet_dashboard.json:0
+msgid "with spaces"
+msgstr "with spaces（技术名称）"

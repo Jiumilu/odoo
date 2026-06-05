@@ -1,0 +1,134 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_bg_ledger
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_bg_ledger
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_bg_ledger.selection__account_move__l10n_bg_exemption_reason__01
+msgid "01 - A delivery under Part 1 of Appendix 2 of LVAT"
+msgstr "01 - A 交货 under Part 1 of Appendix 2 of LVAT"
+
+#. module: l10n_bg_ledger
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_bg_ledger.selection__account_move__l10n_bg_exemption_reason__02
+msgid "02 - A delivery under Part 2 of Appendix 2 of LVAT"
+msgstr "02 - A 交货 under Part 2 of Appendix 2 of LVAT"
+
+#. module: l10n_bg_ledger
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_bg_ledger.selection__account_move__l10n_bg_exemption_reason__03
+msgid "03 - Import under Appendix 3 of VAT act"
+msgstr "03 - 导入 under Appendix 3 of VAT act"
+
+#. module: l10n_bg_ledger
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_bg_ledger.l10n_bg_move_view_form
+msgid "Bulgaria VAT Document"
+msgstr "Bulgaria VAT 单据"
+
+#. module: l10n_bg_ledger
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_bg_ledger.l10n_bg_journal_view_form
+msgid "Bulgaria VAT Document Types"
+msgstr "Bulgaria VAT 单据类型"
+
+#. module: l10n_bg_ledger
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_bg_ledger.field_account_journal__l10n_bg_credit_notes
+msgid "Credit Notes"
+msgstr "退款"
+
+#. module: l10n_bg_ledger
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_bg_ledger.field_account_journal__l10n_bg_customer_invoice
+msgid "Customer Invoices"
+msgstr "客户发票"
+
+#. module: l10n_bg_ledger
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_bg_ledger.field_account_journal__l10n_bg_debit_notes
+msgid "Debit Notes"
+msgstr "借记单"
+
+#. module: l10n_bg_ledger
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_bg_ledger.field_account_journal__display_name
+#: model:ir.model.fields,field_description:l10n_bg_ledger.field_account_move__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_bg_ledger
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_bg_ledger.l10n_bg_move_view_form
+#: model_terms:ir.ui.view,arch_db:l10n_bg_ledger.l10n_bg_move_view_tree
+msgid "Document Number"
+msgstr "单据 编号"
+
+#. module: l10n_bg_ledger
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_bg_ledger.field_account_bank_statement_line__l10n_bg_document_number
+#: model:ir.model.fields,field_description:l10n_bg_ledger.field_account_move__l10n_bg_document_number
+msgid "Document Number (BG)"
+msgstr "单据 编号 (BG)"
+
+#. module: l10n_bg_ledger
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_bg_ledger.l10n_bg_move_view_filter
+#: model_terms:ir.ui.view,arch_db:l10n_bg_ledger.l10n_bg_move_view_form
+#: model_terms:ir.ui.view,arch_db:l10n_bg_ledger.l10n_bg_move_view_tree
+msgid "Document Type"
+msgstr "文件类型"
+
+#. module: l10n_bg_ledger
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_bg_ledger.field_account_bank_statement_line__l10n_bg_document_type
+#: model:ir.model.fields,field_description:l10n_bg_ledger.field_account_move__l10n_bg_document_type
+msgid "Document Type (BG)"
+msgstr "单据类型 (BG)"
+
+#. module: l10n_bg_ledger
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_bg_ledger.l10n_bg_move_view_form
+msgid "Exemption reason"
+msgstr "Exemption 原因"
+
+#. module: l10n_bg_ledger
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_bg_ledger.field_account_bank_statement_line__l10n_bg_exemption_reason
+#: model:ir.model.fields,field_description:l10n_bg_ledger.field_account_move__l10n_bg_exemption_reason
+msgid "Exemption reason (BG)"
+msgstr "Exemption 原因 (BG)"
+
+#. module: l10n_bg_ledger
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_bg_ledger.field_account_journal__id
+#: model:ir.model.fields,field_description:l10n_bg_ledger.field_account_move__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_bg_ledger
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_bg_ledger.model_account_journal
+msgid "Journal"
+msgstr "日记账"
+
+#. module: l10n_bg_ledger
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_bg_ledger.model_account_move
+msgid "Journal Entry"
+msgstr "日记账分录"

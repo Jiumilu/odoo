@@ -1,0 +1,420 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_jo_edi_pos
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_jo_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_jo_edi_pos.res_config_settings_view_form
+msgid ""
+"<br/>\n"
+"                        <span class=\"text-muted\">Sets Orders Dates to 1 January 2020 in the XMLs which enables testing the submission of orders to the ISTD</span>"
+msgstr ""
+"<br/> <span class=\"text-muted\">Sets 订单 Dates to 1 January 2020 in the XMLs"
+" which enables testing the submission of 订单 to the ISTD</span>"
+
+#. module: l10n_jo_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_jo_edi_pos.view_pos_pos_form
+msgid ""
+"<i class=\"fa fa-warning\" role=\"img\" title=\"JoFotara Error\"/>\n"
+"                        <span class=\"mx-1\">E-invoicing (Jordan)</span>"
+msgstr ""
+"<i class=\"fa fa-warning\" role=\"img\" title=\"JoFotara Error\"/> <span "
+"class=\"mx-1\">E-开票 (Jordan)</span>"
+
+#. module: l10n_jo_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_jo_edi_pos.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: l10n_jo_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_jo_edi_pos.model_res_config_settings
+msgid "Config Settings"
+msgstr "配置设定"
+
+#. module: l10n_jo_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_jo_edi_pos.field_pos_payment_method__country_code
+msgid "Country Code"
+msgstr "国家/地区代码"
+
+#. module: l10n_jo_edi_pos
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_jo_edi_pos/models/pos_order.py:0
+msgid ""
+"Customer is required on either Receivable or more than 10,000 JOD Cash "
+"Orders."
+msgstr "客户 is 必填 on either Receivable or more than 10,000 JOD Cash 订单."
+
+#. module: l10n_jo_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_jo_edi_pos.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_jo_edi_pos.field_pos_edi_xml_ubl_21_jo__display_name
+#: model:ir.model.fields,field_description:l10n_jo_edi_pos.field_pos_order__display_name
+#: model:ir.model.fields,field_description:l10n_jo_edi_pos.field_pos_payment_method__display_name
+#: model:ir.model.fields,field_description:l10n_jo_edi_pos.field_res_company__display_name
+#: model:ir.model.fields,field_description:l10n_jo_edi_pos.field_res_config_settings__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_jo_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_jo_edi_pos.view_pos_pos_form
+msgid "Download XML"
+msgstr "Download XML（技术名称）"
+
+#. module: l10n_jo_edi_pos
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_jo_edi_pos/models/pos_order.py:0
+msgid ""
+"Downpayments, global discounts, and negative lines are not supported at the "
+"moment. To revert this order, please go to Orders > Select the Order > "
+"Refund or create a Return from the backend by going to Orders > Select the "
+"Order > Return"
+msgstr ""
+"Downpayments, global discounts, and negative 行 are not supported at the "
+"moment. To revert this 订单, please go to 订单 > Select the 订单 > 退款 or 创建 a 退货 从"
+" the backend by going to 订单 > Select the 订单 > 退货"
+
+#. module: l10n_jo_edi_pos
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_jo_edi_pos/models/pos_order.py:0
+msgid "E-invoice (JoFotara) submitted successfully."
+msgstr "电子发票 (JoFotara) submitted successfully."
+
+#. module: l10n_jo_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_jo_edi_pos.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_jo_edi_pos.field_pos_edi_xml_ubl_21_jo__id
+#: model:ir.model.fields,field_description:l10n_jo_edi_pos.field_pos_order__id
+#: model:ir.model.fields,field_description:l10n_jo_edi_pos.field_pos_payment_method__id
+#: model:ir.model.fields,field_description:l10n_jo_edi_pos.field_res_company__id
+#: model:ir.model.fields,field_description:l10n_jo_edi_pos.field_res_config_settings__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_jo_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_jo_edi_pos.field_pos_payment_method__l10n_jo_edi_pos_is_cash
+msgid ""
+"If checked, this payment method will reported as a cash payment method to "
+"JoFotara."
+msgstr "If checked, this 付款方式 will reported as a cash 付款方式 to JoFotara."
+
+#. module: l10n_jo_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_jo_edi_pos.view_pos_pos_form
+msgid "JoFotara (Jordan)"
+msgstr "JoFotara (Jordan)（技术名称）"
+
+#. module: l10n_jo_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_jo_edi_pos.field_pos_payment_method__l10n_jo_edi_pos_is_cash
+msgid "JoFotara Cash"
+msgstr "JoFotara Cash（技术名称）"
+
+#. module: l10n_jo_edi_pos
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_jo_edi_pos/static/src/overrides/models/receipt_screen.js:0
+#: model:ir.model.fields,field_description:l10n_jo_edi_pos.field_pos_order__l10n_jo_edi_pos_error
+msgid "JoFotara Error"
+msgstr "JoFotara 错误"
+
+#. module: l10n_jo_edi_pos
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_jo_edi_pos/static/src/overrides/components/order_receipt.xml:0
+msgid "JoFotara QR code"
+msgstr "JoFotara 二维码"
+
+#. module: l10n_jo_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_jo_edi_pos.view_pos_order_filter
+msgid "JoFotara Receipt State"
+msgstr "JoFotara Receipt 状态"
+
+#. module: l10n_jo_edi_pos
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_jo_edi_pos/static/src/overrides/screens/ticket_screen.js:0
+msgid "JoFotara Return Reason"
+msgstr "JoFotara 退货 原因"
+
+#. module: l10n_jo_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_jo_edi_pos.field_pos_order__l10n_jo_edi_pos_state
+msgid "JoFotara State"
+msgstr "JoFotara 状态"
+
+#. module: l10n_jo_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_jo_edi_pos.field_pos_order__l10n_jo_edi_pos_xml_attachment_id
+msgid "Jordan E-Invoice XML"
+msgstr "Jordan 电子发票 XML"
+
+#. module: l10n_jo_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_jo_edi_pos.field_pos_order__l10n_jo_edi_pos_computed_xml
+msgid "Jordan E-Invoice computed XML File"
+msgstr "Jordan 电子发票 computed XML 文件"
+
+#. module: l10n_jo_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_jo_edi_pos.res_config_settings_view_form
+msgid "Jordan Electronic Receipts (JoFotara)"
+msgstr "Jordan Electronic Receipts (JoFotara)（技术名称）"
+
+#. module: l10n_jo_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_jo_edi_pos.field_pos_order__l10n_jo_edi_pos_xml_attachment_id
+msgid "Jordan: e-invoice XML."
+msgstr "Jordan: 电子发票 XML."
+
+#. module: l10n_jo_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_jo_edi_pos.field_pos_order__l10n_jo_edi_pos_computed_xml
+msgid ""
+"Jordan: technical field computing e-invoice XML data, useful at submission "
+"failure scenarios."
+msgstr ""
+"Jordan: technical field computing 电子发票 XML data, useful at submission "
+"failure scenarios."
+
+#. module: l10n_jo_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_jo_edi_pos.model_account_move
+msgid "Journal Entry"
+msgstr "日记账分录"
+
+#. module: l10n_jo_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_jo_edi_pos.field_pos_order__l10n_jo_edi_pos_enabled
+#: model:ir.model.fields,field_description:l10n_jo_edi_pos.field_res_company__l10n_jo_edi_pos_enabled
+#: model:ir.model.fields,field_description:l10n_jo_edi_pos.field_res_config_settings__l10n_jo_edi_pos_enabled
+msgid "L10N Jo Edi Pos Enabled"
+msgstr "L10N Jo EDI POS 已启用"
+
+#. module: l10n_jo_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_jo_edi_pos.field_res_company__l10n_jo_edi_pos_testing_mode
+#: model:ir.model.fields,field_description:l10n_jo_edi_pos.field_res_config_settings__l10n_jo_edi_pos_testing_mode
+msgid "L10N Jo Edi Pos Testing Mode"
+msgstr "L10N Jo EDI POS Testing Mode（技术名称）"
+
+#. module: l10n_jo_edi_pos
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_jo_edi_pos/models/pos_order.py:0
+msgid ""
+"No taxes are allowed on order lines for taxpayers unregistered in the sales "
+"tax"
+msgstr "否 税 are allowed on 订单 行 for taxpayers unregistered in the 销售 税"
+
+#. module: l10n_jo_edi_pos
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_jo_edi_pos/static/src/overrides/models/invoice_button.js:0
+msgid "Odoo Warning"
+msgstr "绿色供应链公共服务平台警告"
+
+#. module: l10n_jo_edi_pos
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_jo_edi_pos/models/pos_order.py:0
+msgid ""
+"One general tax per order line is expected for taxpayers registered in the "
+"sales tax"
+msgstr ""
+"One general 税 per 订单 行 is expected for taxpayers registered in the 销售 税"
+
+#. module: l10n_jo_edi_pos
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_jo_edi_pos/models/pos_order.py:0
+msgid ""
+"One special and one general tax per order line are expected for taxpayers "
+"registered in the special tax"
+msgstr ""
+"One special and one general 税 per 订单 行 are expected for taxpayers registered"
+" in the special 税"
+
+#. module: l10n_jo_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_jo_edi_pos.field_pos_order__l10n_jo_edi_pos_uuid
+msgid "Order UUID"
+msgstr "订单 UUID"
+
+#. module: l10n_jo_edi_pos
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_jo_edi_pos/models/pos_order.py:0
+msgid ""
+"Please select the payment methods that are consistent with the value set in "
+"'JoFotara Cash'. If set, the payment method is Cash. If empty, then it is "
+"Receivable."
+msgstr ""
+"Please select the 付款方式s that are consistent with the 值 set in 'JoFotara "
+"Cash'. If set, the 付款方式 is Cash. If empty, then it is Receivable."
+
+#. module: l10n_jo_edi_pos
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_jo_edi_pos/static/src/overrides/models/invoice_button.js:0
+msgid ""
+"Please synchronize this order with JoFotara first by clicking on Details > "
+"JoFotara (Jordan)"
+msgstr ""
+"Please synchronize this 订单 with JoFotara first by clicking on Details > "
+"JoFotara (Jordan)"
+
+#. module: l10n_jo_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_jo_edi_pos.model_pos_order
+msgid "Point of Sale Orders"
+msgstr "POS 订单"
+
+#. module: l10n_jo_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_jo_edi_pos.model_pos_payment_method
+msgid "Point of Sale Payment Methods"
+msgstr "POS支付方式"
+
+#. module: l10n_jo_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_jo_edi_pos.field_pos_order__l10n_jo_edi_pos_qr
+msgid "QR"
+msgstr "QR（技术名称）"
+
+#. module: l10n_jo_edi_pos
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_jo_edi_pos/static/src/overrides/components/order_receipt.xml:0
+msgid "RECEIPT WITHOUT FISCAL VALUE"
+msgstr "RECEIPT WITHOUT 财务 值"
+
+#. module: l10n_jo_edi_pos
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_jo_edi_pos/models/pos_order.py:0
+msgid "Refund order must have a return reason"
+msgstr "退款 订单 must have a 退货 原因"
+
+#. module: l10n_jo_edi_pos
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_jo_edi_pos/models/pos_order.py:0
+msgid ""
+"Refunded order was not sent to JoFotara. Please submit the original order to"
+" JoFotara first and try again."
+msgstr ""
+"Refunded 订单 was not 已发送 to JoFotara. Please 提交 the original 订单 to JoFotara "
+"first and try again."
+
+#. module: l10n_jo_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_jo_edi_pos.field_pos_order__l10n_jo_edi_pos_return_reason
+msgid "Return Reason"
+msgstr "退货 原因"
+
+#. module: l10n_jo_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_jo_edi_pos.field_pos_order__l10n_jo_edi_pos_return_reason
+msgid "Return Reason reported to JoFotara"
+msgstr "退货 原因 reported to JoFotara"
+
+#. module: l10n_jo_edi_pos
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_jo_edi_pos/static/src/overrides/screens/ticket_screen.js:0
+#: model:ir.model.fields.selection,name:l10n_jo_edi_pos.selection__pos_order__l10n_jo_edi_pos_state__sent
+msgid "Sent"
+msgstr "已发送"
+
+#. module: l10n_jo_edi_pos
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_jo_edi_pos/static/src/overrides/screens/ticket_screen.js:0
+#: model:ir.model.fields.selection,name:l10n_jo_edi_pos.selection__pos_order__l10n_jo_edi_pos_state__demo
+msgid "Sent (Demo)"
+msgstr "已发送 (Demo)"
+
+#. module: l10n_jo_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_jo_edi_pos.res_config_settings_view_form
+msgid ""
+"Submit your orders to JoFotara to generate Income and Sales Department "
+"(ISTD) compliant receipts."
+msgstr ""
+"提交 your 订单 to JoFotara to generate Income and 销售 Department (ISTD) compliant"
+" receipts."
+
+#. module: l10n_jo_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_jo_edi_pos.res_config_settings_view_form
+msgid "Testing Mode"
+msgstr "Testing Mode（技术名称）"
+
+#. module: l10n_jo_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_jo_edi_pos.field_pos_payment_method__country_code
+msgid ""
+"The ISO country code in two chars. \n"
+"You can use this field for quick search."
+msgstr ""
+"两个字符的 ISO 国家代码。\n"
+"您可以使用该字段来快速查询。"
+
+#. module: l10n_jo_edi_pos
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_jo_edi_pos/models/pos_order.py:0
+msgid "The following errors have to be fixed in order to create an XML:\n"
+msgstr "The following 错误 have to be fixed in 订单 to 创建 an XML:\n"
+
+#. module: l10n_jo_edi_pos
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_jo_edi_pos/static/src/overrides/models/receipt_screen.js:0
+msgid ""
+"The receipt is stuck due to an Error.\\nTo send it, go to Orders > Select "
+"the Order > Details > JoFotara or Backend > Orders > Select the Order > "
+"JoFotara.\\n\\nError message:\\n"
+msgstr ""
+"The receipt is stuck due to an 错误.\\nTo 发送 it, go to 订单 > Select the 订单 > "
+"Details > JoFotara or Backend > 订单 > Select the 订单 > JoFotara.\\n\\nError "
+"消息:\\n"
+
+#. module: l10n_jo_edi_pos
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_jo_edi_pos/static/src/overrides/screens/ticket_screen.js:0
+#: model:ir.model.fields.selection,name:l10n_jo_edi_pos.selection__pos_order__l10n_jo_edi_pos_state__to_send
+msgid "To Send"
+msgstr "发送"
+
+#. module: l10n_jo_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_jo_edi_pos.model_pos_edi_xml_ubl_21_jo
+msgid "UBL 2.1 (JoFotara) for PoS Orders"
+msgstr "UBL 2.1 (JoFotara) for POS 订单"

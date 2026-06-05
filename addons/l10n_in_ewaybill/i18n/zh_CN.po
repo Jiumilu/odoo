@@ -1,0 +1,3911 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_in_ewaybill
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid " invalid ship to from gstin "
+msgstr "无效 收货方 从 gstin"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/ewaybill_type.py:0
+msgid "%(name)s (Sub-Type: %(type)s)"
+msgstr "%(name)s (Sub-Type: %(type)s)（技术名称）"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/l10n_in_ewaybill.py:0
+msgid "%s has been generated."
+msgstr "%s has been 已生成."
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "&amp;"
+msgstr "&amp;（技术名称）"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.report,print_report_name:l10n_in_ewaybill.action_report_ewaybill
+msgid "'Ewaybill - %s' % (object.document_number)"
+msgstr "'Ewaybill - %s' % (object.document_number)（技术名称）"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "(Vehicle Type is"
+msgstr "(Vehicle 类型 is"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/l10n_in_ewaybill.py:0
+msgid "- Country is required"
+msgstr "- 国家/地区 is 必填"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/l10n_in_ewaybill.py:0
+msgid "- State is required"
+msgstr "- 状态 is 必填"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/l10n_in_ewaybill.py:0
+msgid "- TIN number not set in state %s"
+msgstr "- TIN 编号 not set in 状态 %s"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/l10n_in_ewaybill.py:0
+#: code:addons/l10n_in_ewaybill/tests/test_ewaybill_json.py:0
+msgid "- Transporter %s does not have a valid GST Number"
+msgstr "- Transporter %s does not have a 有效 GST 编号"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/l10n_in_ewaybill.py:0
+msgid "- Vehicle type can not be regular when the transportation mode is ship"
+msgstr "- Vehicle 类型 can not be regular when the transportation mode is 发货"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/l10n_in_ewaybill.py:0
+msgid "- Zip code required and should be 6 digits"
+msgstr "- Zip 代码 必填 and should be 6 digits"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid ""
+"<br/>\n"
+"                                            <br/>\n"
+"                                            Dispatch From <br/><br/>"
+msgstr "<br/> <br/> Dispatch 从 <br/><br/>"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid ""
+"<br/>\n"
+"                                            <br/>\n"
+"                                            Ship To <br/><br/>"
+msgstr "<br/> <br/> 收货方 <br/><br/>"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.invoice_form_inherit_l10n_in_ewaybill
+msgid "<span class=\"o_stat_text\">e-Waybill</span>"
+msgstr "<span class=\"o_stat_text\">e-Waybill</span>（技术名称）"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.l10n_in_ewaybill_form_view
+msgid "<span>km</span>"
+msgstr "<span>km</span>（技术名称）"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.l10n_in_ewaybill_report_invoice_document_inherit
+msgid "<strong>E-waybill:</strong>"
+msgstr "<strong>E-waybill:</strong>（技术名称）"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/res_config_settings.py:0
+msgid "API credentials validated successfully"
+msgstr "API credentials validated successfully（技术名称）"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__access_warning
+msgid "Access warning"
+msgstr "访问警告信息"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_in_ewaybill.model_account_chart_template
+msgid "Account Chart Template"
+msgstr "科目表模版"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__account_move_id
+msgid "Account Move"
+msgstr "会计凭证"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__message_needaction
+msgid "Action Needed"
+msgstr "所需操作"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill_type__active
+msgid "Active"
+msgstr "有效"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__activity_ids
+msgid "Activities"
+msgstr "活动"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "活动异常标示"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__activity_state
+msgid "Activity State"
+msgstr "活动状态"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "活动类型图标"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Actual Value cannot be less than or equal to zero"
+msgstr "Actual 值 cannot be less than or equal to zero"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.l10n_in_ewaybill_form_view
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "Address Details"
+msgstr "地址 Details"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Address Line1 is mandatory"
+msgstr "地址 Line1 is 必填"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Address Line2 is mandatory"
+msgstr "地址 Line2 is 必填"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Address Line3 is mandatory"
+msgstr "地址 Line3 is 必填"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_in_ewaybill.selection__l10n_in_ewaybill__mode__3
+msgid "Air"
+msgstr "Air（技术名称）"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.l10n_in_ewaybill_form_view
+msgid "Airway Bill"
+msgstr "Airway 账单"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.l10n_in_ewaybill_form_view
+msgid "Airway Bill Date"
+msgstr "Airway 账单 日期"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill_type__allowed_supply_type
+msgid "Allowed for supply type"
+msgstr "Allowed for supply 类型"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/l10n_in_ewaybill.py:0
+msgid "An E-waybill cannot be generated for a %s move."
+msgstr "An E-waybill cannot be 已生成 for a %s move."
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "Approx Distance"
+msgstr "Approx Distance（技术名称）"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "Approx Distance:"
+msgstr "Approx Distance:（技术名称）"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.l10n_in_ewaybill_form_view
+msgid "Are you sure you want to re-send the e-Waybill?"
+msgstr "Are you sure you want to re-send the e-Waybill?（技术名称）"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_in_ewaybill.model_ir_attachment
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__attachment_id
+msgid "Attachment"
+msgstr "附件"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__message_attachment_count
+msgid "Attachment Count"
+msgstr "附件数量"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__attachment_file
+msgid "Attachment File"
+msgstr "附件 文件"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Authentication failed. Pls. inform the helpdesk"
+msgstr "Authentication 失败. Pls. inform the helpdesk"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "Barcode"
+msgstr "条形码"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__partner_bill_from_id
+msgid "Bill From"
+msgstr "账单 从"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "Bill From - Dispatch From"
+msgstr "账单 从 - Dispatch 从"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__partner_bill_to_id
+msgid "Bill To"
+msgstr "账单 To"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "Bill To - Ship To"
+msgstr "账单 To - 收货方"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.l10n_in_ewaybill_form_view
+msgid "Bill of lading Date"
+msgstr "账单 of lading 日期"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.l10n_in_ewaybill_form_view
+msgid "Bill of lading No"
+msgstr "账单 of lading 否"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"Bill-from and dispatch-from gstin should not be same for this transaction "
+"type"
+msgstr "Bill-from and dispatch-from gstin should not be same for this 交易 类型"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Bill-to and ship-to gstin should not be same for this transaction type"
+msgstr "Bill-to and ship-to gstin should not be same for this 交易 类型"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Blank Supplier Address"
+msgstr "Blank 供应商 地址"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__blocking_level
+msgid "Blocking Level"
+msgstr "阻止等级"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Both Transaction and Vehicle Number Blank"
+msgstr "Both 交易 and Vehicle 编号 Blank"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_in_ewaybill.selection__l10n_in_ewaybill__mode__1
+msgid "By Road"
+msgstr "By Road（技术名称）"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "CESS Amount"
+msgstr "CESS 金额"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "CESS Non.Advol Amt"
+msgstr "CESS Non.Advol Amt（技术名称）"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "CGST Amount"
+msgstr "CGST 金额"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "CGST nad SGST TaxRate should be same"
+msgstr "CGST nad SGST TaxRate should be same（技术名称）"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "CGST value should not be negative"
+msgstr "CGST 值 should not be negative"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "CGST/SGST value is not applicable for Inter State Transaction"
+msgstr "CGST/SGST 值 is not applicable for Inter 状态 交易"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/l10n_in_ewaybill.py:0
+#: model:ir.model,name:l10n_in_ewaybill.model_l10n_in_ewaybill_cancel
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.view_ewaybill_cancel_form
+msgid "Cancel Ewaybill"
+msgstr "取消 Ewaybill"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill_cancel__cancel_reason
+msgid "Cancel Reason"
+msgstr "取消 原因"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill_cancel__cancel_remarks
+msgid "Cancel Remarks"
+msgstr "取消 Remarks"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.l10n_in_ewaybill_form_view
+msgid "Cancel details"
+msgstr "取消 details"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.l10n_in_ewaybill_form_view
+msgid "Cancel e-Waybill"
+msgstr "取消 e-Waybill"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__cancel_reason
+msgid "Cancel reason"
+msgstr "取消 原因"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__cancel_remarks
+msgid "Cancel remarks"
+msgstr "取消 remarks"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_in_ewaybill.selection__l10n_in_ewaybill__state__cancel
+msgid "Cancelled"
+msgstr "已取消"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Cess non advol should not be negative"
+msgstr "Cess non advol should not be negative（技术名称）"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Cess value should not be negative"
+msgstr "Cess 值 should not be negative"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "Combination of 2 and 3"
+msgstr "Combination of 2 and 3（技术名称）"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_in_ewaybill.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__company_id
+msgid "Company"
+msgstr "公司"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "Company Logo"
+msgstr "公司 Logo"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_in_ewaybill.model_res_config_settings
+msgid "Config Settings"
+msgstr "配置设定"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"Consignee GSTIN is cancelled and document date is later than the  De-"
+"Registration date"
+msgstr "Consignee GSTIN is 已取消 and 单据 日期 is later than the De-Registration 日期"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Consignee name is required"
+msgstr "Consignee 名称 is 必填"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Consignee place is required"
+msgstr "Consignee place is 必填"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"Consolidate Ewaybill cannot be generated as this Ewaybill Part A is "
+"generated in NIC2"
+msgstr ""
+"Consolidate Ewaybill cannot be 已生成 as this Ewaybill Part A is 已生成 in NIC2"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "ConsolidatedEWB cannot be generated for EwayBill For Gold "
+msgstr "ConsolidatedEWB cannot be 已生成 for EwayBill For Gold"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__content
+msgid "Content"
+msgstr "内容"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Could not cancel eway bill, please contact helpdesk"
+msgstr "Could not 取消 eway 账单, please 联系人 helpdesk"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Could not generate consolidated eway bill"
+msgstr "Could not generate consolidated eway 账单"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Could not generate eway bill, pls contact helpdesk"
+msgstr "Could not generate eway 账单, pls 联系人 helpdesk"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Could not insert RFID data, pl. contact helpdisk"
+msgstr "Could not insert RFID data, pl. 联系人 helpdisk"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Could not retrieve Error code"
+msgstr "Could not retrieve 错误 代码"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Could not retrieve GSTIN details for the given GSTIN number"
+msgstr "Could not retrieve GSTIN details for the given GSTIN 编号"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Could not retrieve HSN details for the given HSN number"
+msgstr "Could not retrieve HSN details for the given HSN 编号"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Could not retrieve States List"
+msgstr "Could not retrieve States 列表"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Could not retrieve UQC list"
+msgstr "Could not retrieve UQC 列表"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Could not retrieve data"
+msgstr "Could not retrieve data（技术名称）"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Could not retrieve data for officer login"
+msgstr "Could not retrieve data for officer login（技术名称）"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Could not retrieve data from hsn"
+msgstr "Could not retrieve data 从 hsn"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Could not retrieve eway bill details, pl. contact helpdesk"
+msgstr "Could not retrieve eway 账单 details, pl. 联系人 helpdesk"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Could not retrieve transporter data by gstin "
+msgstr "Could not retrieve transporter data by gstin（技术名称）"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Could not retrieve transporter details from gstin"
+msgstr "Could not retrieve transporter details 从 gstin"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Could not retrieve user details by userid "
+msgstr "Could not retrieve 用户 details by userid"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Could not update transporter"
+msgstr "Could not update transporter（技术名称）"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Could not update vehicle details, pl contact helpdesk"
+msgstr "Could not update vehicle details, pl 联系人 helpdesk"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.invoice_form_inherit_l10n_in_ewaybill
+msgid "Create e-Waybill"
+msgstr "创建 e-Waybill"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__create_uid
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill_cancel__create_uid
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill_type__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__create_date
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill_cancel__create_date
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill_type__create_date
+msgid "Created on"
+msgstr "创建日期"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__company_currency_id
+msgid "Currency"
+msgstr "币别"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_in_ewaybill.field_l10n_in_ewaybill__access_url
+msgid "Customer Portal URL"
+msgstr "客户门户网站网址"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_in_ewaybill.selection__l10n_in_ewaybill__cancel_reason__2
+#: model:ir.model.fields.selection,name:l10n_in_ewaybill.selection__l10n_in_ewaybill_cancel__cancel_reason__2
+msgid "Data Entry Mistake"
+msgstr "Data 分录 Mistake"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Date range is exceeding allowed date range "
+msgstr "日期 range is exceeding allowed 日期 range"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Decryption of data failed"
+msgstr "Decryption of data 失败"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.view_ewaybill_cancel_form
+msgid "Discard"
+msgstr "取消"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__partner_ship_from_id
+msgid "Dispatch From"
+msgstr "Dispatch 从"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"Dispatch From GSTIN cannot be sent as the transaction type selected is "
+"Regular"
+msgstr "Dispatch 从 GSTIN cannot be 已发送 as the 交易 类型 selected is Regular"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_account_chart_template__display_name
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_ir_attachment__display_name
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__display_name
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill_cancel__display_name
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill_type__display_name
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_res_company__display_name
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_res_config_settings__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__distance
+msgid "Distance"
+msgstr "间距"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__document_number
+msgid "Document"
+msgstr "文档"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__document_date
+msgid "Document Date"
+msgstr "单据 日期"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.l10n_in_ewaybill_form_view
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "Document Details"
+msgstr "单据 Details"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "Document Details:"
+msgstr "单据 Details:"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "Document No.:"
+msgstr "单据 否.:"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__type_id
+msgid "Document Type"
+msgstr "文件类型"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/l10n_in_ewaybill.py:0
+msgid "Document number should be set and not more than 16 characters"
+msgstr "单据 编号 should be set and not more than 16 characters"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Document type - Tax Invoice is not allowed for composite tax payer"
+msgstr "单据类型 - 税 发票 is not allowed for composite 税 payer"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Document type does not match with transaction & Sub trans type"
+msgstr "单据类型 does not match with 交易 & Sub trans 类型"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.l10n_in_ewaybill_form_view
+msgid "Download Content JSON"
+msgstr "Download Content JSON（技术名称）"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_in_ewaybill.selection__l10n_in_ewaybill__cancel_reason__1
+#: model:ir.model.fields.selection,name:l10n_in_ewaybill.selection__l10n_in_ewaybill_cancel__cancel_reason__1
+msgid "Duplicate"
+msgstr "复制"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Duplicate request at the same time"
+msgstr "复制 请求 at the same time"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "E Way Bill cannot be extended as allowed limit is 360 days"
+msgstr "E Way 账单 cannot be extended as allowed limit is 360 days"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"E Way Bill should be generated as part of IRN generation or with reference "
+"to IRN in E Invoice System, Since Supplier is enabled for E Invoice."
+msgstr ""
+"E Way 账单 should be 已生成 as part of IRN generation or with 参考 to IRN in E 发票 "
+"System, Since 供应商 is 已启用 for E 发票."
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "E-WAY BILL Details"
+msgstr "E-WAY 账单 Details"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_account_bank_statement_line__l10n_in_ewaybill_ids
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_account_move__l10n_in_ewaybill_ids
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_res_company__l10n_in_ewaybill_feature
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_res_config_settings__l10n_in_ewaybill_feature
+msgid "E-Waybill"
+msgstr "E-Waybill（技术名称）"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_in_ewaybill.model_l10n_in_ewaybill_type
+msgid "E-Waybill Document Type"
+msgstr "E-Waybill 单据类型"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_account_bank_statement_line__l10n_in_ewaybill_feature_enabled
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_account_move__l10n_in_ewaybill_feature_enabled
+msgid "E-Waybill Feature Enabled"
+msgstr "E-Waybill Feature 已启用"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_res_company__l10n_in_ewaybill_password
+msgid "E-Waybill Password"
+msgstr "E-Waybill Password（技术名称）"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_res_company__l10n_in_ewaybill_username
+msgid "E-Waybill Username"
+msgstr "E-Waybill Username（技术名称）"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_res_company__l10n_in_ewaybill_auth_validity
+msgid "E-Waybill Valid Until"
+msgstr "E-Waybill 有效 Until"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "E-way bill is not enabled for intra state movement for you state"
+msgstr "E-way 账单 is not 已启用 for intra 状态 movement for you 状态"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"E-way bill(s) are already generated for the same document number, you cannot"
+" generate again on same document number"
+msgstr ""
+"E-way 账单(s) are already 已生成 for the same 单据 编号, you cannot generate again on"
+" same 单据 编号"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/l10n_in_ewaybill.py:0
+msgid "E-waybill has been successfully %s."
+msgstr "E-waybill has been successfully %s.（技术名称）"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"Either Eway Bill Number Or Consolidated Eway Bill Number is required for "
+"Verification"
+msgstr "Either Eway 账单 编号 Or Consolidated Eway 账单 编号 is 必填 for Verification"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/l10n_in_ewaybill.py:0
+msgid "Ensure that at least one line item includes a product."
+msgstr "Ensure that at least one 行 item includes a 产品."
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "Entered By"
+msgstr "Entered By（技术名称）"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "Entered Date"
+msgstr "Entered 日期"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/tools/ewaybill_api.py:0
+#: model:ir.model.fields.selection,name:l10n_in_ewaybill.selection__l10n_in_ewaybill__blocking_level__error
+msgid "Error"
+msgstr "错误"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__error_message
+msgid "Error Message"
+msgstr "错误信息"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Error While Extending..Please Contact Helpdesk. "
+msgstr "错误 While Extending..Please 联系人 Helpdesk."
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Error in Closing EWB  Verification Data"
+msgstr "错误 in Closing EWB Verification Data"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Error in Multi Vehicle Movement Initiation"
+msgstr "错误 in Multi Vehicle Movement Initiation"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Error in fetching Part A data by IR Number"
+msgstr "错误 in fetching Part A data by IR 编号"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Error in fetching WatchList Data"
+msgstr "错误 in fetching WatchList Data"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Error in fetching ewaybill list by vehicle number"
+msgstr "错误 in fetching ewaybill 列表 by vehicle 编号"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Error in fetching in verification data for officer"
+msgstr "错误 in fetching in verification data for officer"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Error in fetching search result for taxpayer/transporter"
+msgstr "错误 in fetching 搜索 result for taxpayer/transporter"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Error in getting EWB Not Available List by closed date range"
+msgstr "错误 in getting EWB Not 可用 列表 by closed 日期 range"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Error in getting EWB Not Available List by entered date range"
+msgstr "错误 in getting EWB Not 可用 列表 by entered 日期 range"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Error in getting EWB03 details by acknowledgement date range"
+msgstr "错误 in getting EWB03 details by 确认回执 日期 range"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Error in getting officer dashboard"
+msgstr "错误 in getting officer dashboard"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Error in inserting in verification data"
+msgstr "错误 in inserting in verification data"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Error in inserting multi vehicle details"
+msgstr "错误 in inserting multi vehicle details"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Error in inserting verification details"
+msgstr "错误 in inserting verification details"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Error in multi vehicle details"
+msgstr "错误 in multi vehicle details"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Error in saving Part-A verification Report"
+msgstr "错误 in saving Part-A verification 报表"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Error in saving Part-B verification Report"
+msgstr "错误 in saving Part-B verification 报表"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Error in validating ewaybill for vehicle updation"
+msgstr "错误 in validating ewaybill for vehicle updation"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Error in verifying consolidated eway bill"
+msgstr "错误 in verifying consolidated eway 账单"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Error in verifying eway bill"
+msgstr "错误 in verifying eway 账单"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Eway Bill Can not be Extended. Not in Active State"
+msgstr "Eway 账单 Can not be Extended. Not in 启用 状态"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Eway Bill Category wise details will be available after 4 days only"
+msgstr "Eway 账单 类别 wise details will be 可用 after 4 days only"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Eway Bill Item List is Empty"
+msgstr "Eway 账单 Item 列表 is Empty"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Eway Bill Number should be numeric only"
+msgstr "Eway 账单 编号 should be numeric only"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Eway Bill can not be extended.. Already Cancelled"
+msgstr "Eway 账单 can not be extended.. Already 已取消"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Eway Bill is already expired hence update transporter is not allowed."
+msgstr "Eway 账单 is already expired hence update transporter is not allowed."
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Eway bill does not contains any items"
+msgstr "Eway 账单 does not contains any items"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Eway bill is already verified, you cannot cancel it"
+msgstr "Eway 账单 is already verified, you cannot 取消 it"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/l10n_in_ewaybill.py:0
+#: model:ir.actions.report,name:l10n_in_ewaybill.action_report_ewaybill
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill_cancel__l10n_in_ewaybill_id
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.l10n_in_ewaybill_form_view
+msgid "Ewaybill"
+msgstr "Ewaybill（技术名称）"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/account_move.py:0
+msgid "Ewaybill already created for this move."
+msgstr "Ewaybill already created for this move.（技术名称）"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"Ewaybill cannot be generated for the document date which is prior to "
+"01/07/2017"
+msgstr "Ewaybill cannot be 已生成 for the 单据 日期 which is prior to 01/07/2017"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Exception in fetching dashboard data"
+msgstr "Exception in fetching dashboard data（技术名称）"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Exception in getting Officer Role"
+msgstr "Exception in getting Officer Role（技术名称）"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"Exception in regenration of consolidated eWayBill!!Please Contact helpdesk"
+msgstr ""
+"Exception in regenration of consolidated eWayBill!!Please 联系人 helpdesk"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__message_follower_ids
+msgid "Followers"
+msgstr "关注者"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "关注者（合作伙伴）"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_in_ewaybill.field_l10n_in_ewaybill__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Font Awesome图标，例如：fa-tasks"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "For Category EWB03 procdt is mandatory"
+msgstr "For 类别 EWB03 procdt is 必填"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "For Category Part-A or Part-B ewbdt is mandatory"
+msgstr "For 类别 Part-A or Part-B ewbdt is 必填"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "For Goods Detained,Vehicle Released feild is mandatory"
+msgstr "For Goods Detained,Vehicle Released feild is 必填"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "For Rail/Ship/Air transDocDate is mandatory"
+msgstr "For Rail/发货/Air transDocDate is 必填"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "For Vehicle Released vehicle release date and time is mandatory"
+msgstr "For Vehicle Released vehicle release 日期 and time is 必填"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "For file details file number is required"
+msgstr "For 文件 details 文件 编号 is 必填"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"For inward CKD/SKD/Lots supply type, Bill From state should be as Other "
+"Country, since the  Bill From GSTIN given is of SEZ unit"
+msgstr ""
+"For inward CKD/SKD/Lots supply 类型, 账单 从 状态 should be as 其他 国家/地区, since the "
+"账单 从 GSTIN given is of SEZ 单位"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "For other than Road Transport, TransDoc number is required"
+msgstr "For 其他 than Road Transport, TransDoc 编号 is 必填"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"For outward CKD/SKD/Lots supply type, Bill To state should be as Other "
+"Country, since the  Bill To GSTIN given is of SEZ unit"
+msgstr ""
+"For outward CKD/SKD/Lots supply 类型, 账单 To 状态 should be as 其他 国家/地区, since "
+"the 账单 To GSTIN given is of SEZ 单位"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"For regular transaction, Bill from state code and Dispatch from state code "
+"should be same"
+msgstr "For regular 交易, 账单 从 状态 代码 and Dispatch 从 状态 代码 should be same"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"For regular transaction, Bill to state code and Ship to state code should be"
+" same"
+msgstr "For regular 交易, 账单 to 状态 代码 and 收货方 状态 代码 should be same"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "From"
+msgstr "从"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "GSTIN is not registerd to this GSP"
+msgstr "GSTIN is not registerd to this GSP（技术名称）"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"GSTIN passed in request header is not matching with the user gstin mentioned"
+" in payload JSON"
+msgstr ""
+"GSTIN passed in 请求 header is not matching with the 用户 gstin mentioned in "
+"payload JSON"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"GSTIN/Transin passed in request header should match with the transported Id "
+"mentioned in payload JSON"
+msgstr ""
+"GSTIN/Transin passed in 请求 header should match with the transported ID "
+"mentioned in payload JSON"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"GSTIN/Transin passed in request header should not be the same as "
+"supplier(fromGSTIN) or recepient(toGSTIN)"
+msgstr ""
+"GSTIN/Transin passed in 请求 header should not be the same as 供应商(fromGSTIN) "
+"or recepient(toGSTIN)"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "GSTIN:"
+msgstr "GSTIN:（技术名称）"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.l10n_in_ewaybill_form_view
+msgid "Generate e-Waybill"
+msgstr "Generate e-Waybill（技术名称）"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_in_ewaybill.selection__l10n_in_ewaybill__state__generated
+msgid "Generated"
+msgstr "已生成"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "Generated By:"
+msgstr "已生成 By:"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "Generated Date:"
+msgstr "已生成 日期:"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "Goods Details"
+msgstr "Goods Details（技术名称）"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Goods Detained Field required."
+msgstr "Goods Detained Field 必填."
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Group number cannot be empty or zero"
+msgstr "分组 编号 cannot be empty or zero"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "HSN Code"
+msgstr "HSN 代码"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"HSN code of at least one item should be of goods to generate e-Way Bill"
+msgstr "HSN 代码 of at least one item should be of goods to generate e-Way 账单"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__has_message
+msgid "Has Message"
+msgstr "有消息"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_account_chart_template__id
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_ir_attachment__id
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__id
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill_cancel__id
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill_type__id
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_res_company__id
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_res_config_settings__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "IGST Amount"
+msgstr "IGST 金额"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "IGST value is not applicable for Intra State Transaction"
+msgstr "IGST 值 is not applicable for Intra 状态 交易"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "IGST value should not be negative"
+msgstr "IGST 值 should not be negative"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "IMEI does not belong to the user"
+msgstr "IMEI does not belong to the 用户"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__activity_exception_icon
+msgid "Icon"
+msgstr "图标"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_in_ewaybill.field_l10n_in_ewaybill__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "指示异常活动的图标。"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_in_ewaybill.field_l10n_in_ewaybill__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "如果勾选此项，则需要查看新消息。"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_in_ewaybill.field_l10n_in_ewaybill__message_has_error
+#: model:ir.model.fields,help:l10n_in_ewaybill.field_l10n_in_ewaybill__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "如果勾选此项， 某些消息将出现发送错误。"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_in_ewaybill.selection__l10n_in_ewaybill_type__allowed_supply_type__in
+msgid "Incoming"
+msgstr "进货"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_in_ewaybill.selection__l10n_in_ewaybill_type__allowed_supply_type__both
+msgid "Incoming and Outgoing"
+msgstr "传入 and 传出"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/res_config_settings.py:0
+msgid ""
+"Incorrect username or password, or the GST number on company does not match."
+msgstr "Incorrect username or password, or the GST 编号 on 公司 does not match."
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_account_bank_statement_line__l10n_in_ewaybill_name
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_account_move__l10n_in_ewaybill_name
+msgid "Indian Ewaybill Number"
+msgstr "Indian Ewaybill 编号"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_res_config_settings__l10n_in_ewaybill_password
+msgid "Indian Ewaybill password"
+msgstr "Indian Ewaybill password（技术名称）"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_res_config_settings__l10n_in_ewaybill_username
+msgid "Indian Ewaybill username"
+msgstr "Indian Ewaybill username（技术名称）"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Inter-State ewaybill is not allowed for gold"
+msgstr "Inter-State ewaybill is not allowed for gold（技术名称）"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invaild Invoice Number"
+msgstr "Invaild 发票 编号"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid Approximate Distance"
+msgstr "无效 Approximate Distance"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid CESS Rate"
+msgstr "无效 CESS Rate"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid CGST Tax Rate"
+msgstr "无效 CGST 税 Rate"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid Cess Non Advol value"
+msgstr "无效 Cess Non Advol 值"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid Client -Id"
+msgstr "无效 Client -ID"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid Client-ID/Client-Secret"
+msgstr "无效 Client-ID/Client-Secret"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid Close Reason"
+msgstr "无效 关闭 原因"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid Consignee Address"
+msgstr "无效 Consignee 地址"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid Consignee GSTIN"
+msgstr "无效 Consignee GSTIN"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid Consignee PIN Code"
+msgstr "无效 Consignee PIN 代码"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid Consignee State Code"
+msgstr "无效 Consignee 状态 代码"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid Consignee ship to State Code for the given pincode"
+msgstr "无效 Consignee 收货方 状态 代码 for the given pincode"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid Document type"
+msgstr "无效 单据类型"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid EWB03 Ack No"
+msgstr "无效 EWB03 Ack 否"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid File Number"
+msgstr "无效 文件 编号"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid GSTIN"
+msgstr "无效 GSTIN"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid HSN Code"
+msgstr "无效 HSN 代码"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid IGST Tax Rate"
+msgstr "无效 IGST 税 Rate"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid Invoice Date"
+msgstr "无效 发票日期"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid Latitude"
+msgstr "无效 Latitude"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid Longitude"
+msgstr "无效 Longitude"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid Month Parameter"
+msgstr "无效 Month Parameter"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid PAN number"
+msgstr "无效 PAN 编号"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid Password"
+msgstr "无效 Password"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid SGST Tax Rate"
+msgstr "无效 SGST 税 Rate"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid Sub-supply Type"
+msgstr "无效 Sub-supply 类型"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid Supplier GSTIN"
+msgstr "无效 供应商 GSTIN"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid Supplier ship from State Code for the given pincode"
+msgstr "无效 供应商 发货 从 状态 代码 for the given pincode"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid Supply Type"
+msgstr "无效 Supply 类型"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid Tax Rate for Inter State Transaction"
+msgstr "无效 税 Rate for Inter 状态 交易"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid Tax Rate for Intra State Transaction"
+msgstr "无效 税 Rate for Intra 状态 交易"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid Token"
+msgstr "无效 Token"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid Trans mode"
+msgstr "无效 Trans mode"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid Transaction Date"
+msgstr "无效 交易 日期"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid Transaction Document Number"
+msgstr "无效 交易 单据 编号"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid Transporter Id"
+msgstr "无效 Transporter ID"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid UQC Code"
+msgstr "无效 UQC 代码"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid Uniq No"
+msgstr "无效 Uniq 否"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid Username"
+msgstr "无效 Username"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid Vehicle Direction"
+msgstr "无效 Vehicle Direction"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid Vehicle Number Format"
+msgstr "无效 Vehicle 编号 Format"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid Vehicle Release Date Format"
+msgstr "无效 Vehicle Release 日期 Format"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid Vehicle Type"
+msgstr "无效 Vehicle 类型"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid Verification Date Format"
+msgstr "无效 Verification 日期 Format"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid Verification Time Format"
+msgstr "无效 Verification Time Format"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid Year Parameter"
+msgstr "无效 Year Parameter"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid action"
+msgstr "无效动作"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid auth token"
+msgstr "无效 auth token"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid category"
+msgstr "无效 类别"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid client -Id/client-secret"
+msgstr "无效 client -ID/client-secret"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid consignment status for the given transmode"
+msgstr "无效 consignment 状态 for the given transmode"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid date format"
+msgstr "无效 日期 format"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid eway bill number"
+msgstr "无效 eway 账单 编号"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid from state"
+msgstr "无效 从 状态"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid json"
+msgstr "无效 JSON"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid location code"
+msgstr "无效 库位 代码"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid login credentials."
+msgstr "无效 login credentials."
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid mobile number"
+msgstr "无效手机号 编号"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid new transDoc number"
+msgstr "无效 新建 transDoc 编号"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid new vehicle number format"
+msgstr "无效 新建 vehicle 编号 format"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid old transDoc number"
+msgstr "无效 old transDoc 编号"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid old vehicle number format"
+msgstr "无效 old vehicle 编号 format"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid operating-system-type parameter value"
+msgstr "无效 operating-system-type parameter 值"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid or Blank Actual Vehicle Number Format"
+msgstr "无效 or Blank Actual Vehicle 编号 Format"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid or Blank Consignee Ship-to State Code"
+msgstr "无效 or Blank Consignee Ship-to 状态 代码"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid or Blank IR Number"
+msgstr "无效 or Blank IR 编号"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid or Blank Officer StateCode"
+msgstr "无效 or Blank Officer StateCode"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid or Blank Supplier PIN Code"
+msgstr "无效 or Blank 供应商 PIN 代码"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid or Blank Supplier Ship-to State Code"
+msgstr "无效 or Blank 供应商 Ship-to 状态 代码"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid or Blank Supplier state Code"
+msgstr "无效 or Blank 供应商 状态 代码"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid pincode"
+msgstr "无效 pincode"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid place to"
+msgstr "无效 place to"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid reason"
+msgstr "无效 原因"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid remarks"
+msgstr "无效 remarks"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid rfid date"
+msgstr "无效 rfid 日期"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid rfid number"
+msgstr "无效 rfid 编号"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid state code"
+msgstr "无效 状态 代码"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid state code for the given pincode"
+msgstr "无效 状态 代码 for the given pincode"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid state to"
+msgstr "无效 状态 to"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid transaction type"
+msgstr "无效 交易 类型"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid transit type"
+msgstr "无效 transit 类型"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid transporter mode"
+msgstr "无效 transporter mode"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid vehicle format"
+msgstr "无效 vehicle format"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid verification type"
+msgstr "无效 verification 类型"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Invalid wt on bridge"
+msgstr "无效 wt on bridge"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_in_ewaybill.selection__l10n_in_ewaybill__supply_type__i
+msgid "Inward"
+msgstr "Inward（技术名称）"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__is_bill_from_editable
+msgid "Is Bill From Editable"
+msgstr "Is 账单 从 可编辑"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__is_bill_to_editable
+msgid "Is Bill To Editable"
+msgstr "Is 账单 To 可编辑"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__message_is_follower
+msgid "Is Follower"
+msgstr "是关注者"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__is_ship_from_editable
+msgid "Is Ship From Editable"
+msgstr "Is 发货 从 可编辑"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__is_ship_to_editable
+msgid "Is Ship To Editable"
+msgstr "Is 收货方 可编辑"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_in_ewaybill.model_account_move
+msgid "Journal Entry"
+msgstr "日记账分录"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "Km"
+msgstr "Km（技术名称）"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_account_bank_statement_line__l10n_in_ewaybill_expiry_date
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_account_move__l10n_in_ewaybill_expiry_date
+msgid "L10N In Ewaybill Expiry Date"
+msgstr "L10N In Ewaybill Expiry 日期"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__write_uid
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill_cancel__write_uid
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill_type__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__write_date
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill_cancel__write_date
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill_type__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__message_has_error
+msgid "Message Delivery error"
+msgstr "消息发送错误"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__message_ids
+msgid "Messages"
+msgstr "消息"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Minimum six character required for Tradename/legalname search"
+msgstr "Minimum six character 必填 for Tradename/legalname 搜索"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "Mode"
+msgstr "模式"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "Mode:"
+msgstr "Mode:（技术名称）"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"Multi Vehicle Initiation data is not there for specified ewayBill and group "
+"No"
+msgstr ""
+"Multi Vehicle Initiation data is not there for specified ewayBill and 分组 否"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"Multi Vehicle movement is already Initiated,hence PART B updation not "
+"allowed"
+msgstr ""
+"Multi Vehicle movement is already Initiated,hence PART B updation not "
+"allowed（技术名称）"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"Multi Vehicle movement is already Initiated,hence generation of consolidated"
+" eway bill is not allowed"
+msgstr ""
+"Multi Vehicle movement is already Initiated,hence generation of consolidated"
+" eway 账单 is not allowed"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "MultiVehicleMovement cannot be initiated for EWay Bill For Gold"
+msgstr "MultiVehicleMovement cannot be initiated for EWay 账单 For Gold"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"MultiVehicleMovement cannot be initiated.Eway Bill is not in Active State"
+msgstr "MultiVehicleMovement cannot be initiated.Eway 账单 is not in 启用 状态"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "我的活动截止时间"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "下一活动日历事件"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "下一活动截止日期"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__activity_summary
+msgid "Next Activity Summary"
+msgstr "下一活动摘要"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__activity_type_id
+msgid "Next Activity Type"
+msgstr "下一活动类型"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "No Record Found for Entered consolidated eWay bill."
+msgstr "否 Record Found for Entered consolidated eWay 账单."
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "No Record available to Close"
+msgstr "否 Record 可用 to 关闭"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "No eway bill of specified tripsheet, neither  ACTIVE nor not Valid."
+msgstr "否 eway 账单 of specified tripsheet, neither 启用 nor not 有效."
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "No record found"
+msgstr "未找到记录"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"No record found for multi vehicle update with specified ewbNo groupNo and "
+"old vehicleNo/transDocNo with status as ACT"
+msgstr ""
+"否 record found for multi vehicle update with specified ewbNo groupNo and old"
+" vehicleNo/transDocNo with 状态 as ACT"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "No verification data found for officer "
+msgstr "否 verification data found for officer"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__message_needaction_counter
+msgid "Number of Actions"
+msgstr "操作数量"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__message_has_error_counter
+msgid "Number of errors"
+msgstr "错误数量"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_in_ewaybill.field_l10n_in_ewaybill__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "需要采取行动的消息数量"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_in_ewaybill.field_l10n_in_ewaybill__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "发送错误的消息的数量"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/l10n_in_ewaybill.py:0
+msgid "Only Cancelled E-waybill can be resent."
+msgstr "Only 已取消 E-waybill can be resent."
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Only trans mode road is allowed for Eway Bill For Gold"
+msgstr "Only trans mode road is allowed for Eway 账单 For Gold"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Only transmode road is allowed for extending ewaybill for gold"
+msgstr "Only transmode road is allowed for extending ewaybill for gold（技术名称）"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_in_ewaybill.selection__l10n_in_ewaybill__cancel_reason__3
+#: model:ir.model.fields.selection,name:l10n_in_ewaybill.selection__l10n_in_ewaybill_cancel__cancel_reason__3
+msgid "Order Cancelled"
+msgstr "订单 已取消"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "Other Amt"
+msgstr "其他 Amt"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Other items are not allowed with eway bill for gold"
+msgstr "其他 items are not allowed with eway 账单 for gold"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_in_ewaybill.selection__l10n_in_ewaybill__cancel_reason__4
+#: model:ir.model.fields.selection,name:l10n_in_ewaybill.selection__l10n_in_ewaybill_cancel__cancel_reason__4
+msgid "Others"
+msgstr "其它"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_in_ewaybill.selection__l10n_in_ewaybill_type__allowed_supply_type__out
+msgid "Outgoing"
+msgstr "出货"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_in_ewaybill.selection__l10n_in_ewaybill__supply_type__o
+msgid "Outward"
+msgstr "Outward（技术名称）"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_in_ewaybill.selection__l10n_in_ewaybill__vehicle_type__o
+msgid "Over Dimensional Cargo"
+msgstr "Over Dimensional Cargo（技术名称）"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Part B cannot be updated as this Ewaybill Part A is generated in NIC1"
+msgstr "Part B cannot be 已更新 as this Ewaybill Part A is 已生成 in NIC1"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Part B cannot be updated as this Ewaybill Part A is generated in NIC2"
+msgstr "Part B cannot be 已更新 as this Ewaybill Part A is 已生成 in NIC2"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Part B is already updated,hence updation is not allowed"
+msgstr "Part B is already 已更新,hence updation is not allowed"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Part-A for this ewaybill is already generated by you."
+msgstr "Part-A for this ewaybill is already 已生成 by you."
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"Part-B is not generated for this e-way bill, hence rejection is not allowed."
+msgstr "Part-B is not 已生成 for this e-way 账单, hence rejection is not allowed."
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.res_config_settings_view_form_inherit_l10n_in_edi_ewaybill
+msgid "Password"
+msgstr "密码"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/l10n_in_ewaybill.py:0
+#: model:ir.model.fields.selection,name:l10n_in_ewaybill.selection__l10n_in_ewaybill__state__pending
+msgid "Pending"
+msgstr "待定"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Pin to pin distance is not available for the given pin codes"
+msgstr "Pin to pin distance is not 可用 for the given pin codes"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Place from is required"
+msgstr "Place 从 is 必填"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/l10n_in_ewaybill.py:0
+msgid "Please generate the E-Waybill to print it."
+msgstr "Please generate the E-Waybill to 打印 it."
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__access_url
+msgid "Portal Access URL"
+msgstr "门户网站访问网址"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.l10n_in_ewaybill_form_view
+msgid "Print"
+msgstr "打印"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "Product Description"
+msgstr "产品说明"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "QR Code"
+msgstr "二维码"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "Quantity"
+msgstr "数量"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.l10n_in_ewaybill_form_view
+msgid "RR Date"
+msgstr "RR 日期"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.l10n_in_ewaybill_form_view
+msgid "RR No"
+msgstr "RR 否"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_in_ewaybill.selection__l10n_in_ewaybill__mode__2
+msgid "Rail"
+msgstr "Rail（技术名称）"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__rating_ids
+msgid "Ratings"
+msgstr "点评"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Reason Code, Remarks is mandatory."
+msgstr "原因 代码, Remarks is 必填."
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_in_ewaybill.selection__l10n_in_ewaybill__vehicle_type__r
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "Regular"
+msgstr "常规"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Remaining Distance Can not be greater than Actual Distance."
+msgstr "Remaining Distance Can not be greater than Actual Distance.（技术名称）"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Remaining Distance Required"
+msgstr "Remaining Distance 必填"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Remarks is mandatory"
+msgstr "Remarks is 必填"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.l10n_in_ewaybill_form_view
+msgid "Reset to Pending"
+msgstr "Reset to Pending（技术名称）"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__activity_user_id
+msgid "Responsible User"
+msgstr "责任用户"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/l10n_in_ewaybill.py:0
+msgid "Retrying E-Waybill generation on the government portal."
+msgstr "Retrying E-Waybill generation on the government portal.（技术名称）"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/l10n_in_ewaybill.py:0
+msgid "Retrying to request cancellation of E-waybill on government portal."
+msgstr "Retrying to 请求 cancellation of E-waybill on government portal."
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "SGST Amount"
+msgstr "SGST 金额"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "SGST value should not be negative"
+msgstr "SGST 值 should not be negative"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "短信发送错误"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__access_token
+msgid "Security Token"
+msgstr "安全令牌"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/l10n_in_ewaybill.py:0
+msgid "Set GST Treatment for in %s"
+msgstr "Set GST Treatment for in %s（技术名称）"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__partner_ship_to_id
+msgid "Ship To"
+msgstr "收货方"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_in_ewaybill.selection__l10n_in_ewaybill__mode__4
+msgid "Ship or Ship Cum Road/Rail"
+msgstr "发货 or 发货 Cum Road/Rail"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"Ship to GSTIN cannot be sent as the transaction type selected is Regular"
+msgstr "收货方 GSTIN cannot be 已发送 as the 交易 类型 selected is Regular"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Since the consignor is Composite Taxpayer, Tax rates should be zero"
+msgstr "Since the consignor is Composite Taxpayer, 税 rates should be zero"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"Since the consignor is Composite Taxpayer, inter state transactions are not "
+"allowed"
+msgstr ""
+"Since the consignor is Composite Taxpayer, inter 状态 transactions are not "
+"allowed"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/l10n_in_ewaybill.py:0
+msgid ""
+"Somehow this E-waybill has been %s in the government portal before. You can "
+"verify by checking the details into the government "
+"(https://ewaybillgst.gov.in/Others/EBPrintnew.aspx)"
+msgstr ""
+"Somehow this E-waybill has been %s in the government portal before. You can "
+"verify by checking the details into the government "
+"(https://ewaybillgst.gov.in/其他/EBPrintnew.aspx)"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__state
+msgid "Status"
+msgstr "状态"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_in_ewaybill.field_l10n_in_ewaybill__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"基于活动的状态\n"
+"逾期：超出到期日期\n"
+"今天：活动日期是今天\n"
+"计划：未来活动。"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Status is not ACTIVE"
+msgstr "状态 is not 启用"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"Sub Supply Type is mentioned as Others, the description for that is "
+"mandatory"
+msgstr "Sub Supply 类型 is mentioned as 其他, the 说明 for that is 必填"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Sub-transaction type does not belongs to transaction type"
+msgstr "Sub-transaction 类型 does not belongs to 交易 类型"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill_type__sub_type
+msgid "Sub-type"
+msgstr "Sub-type（技术名称）"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__sub_type_code
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill_type__sub_type_code
+msgid "Sub-type Code"
+msgstr "Sub-type 代码"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Supplier name is required"
+msgstr "供应商 名称 is 必填"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Supplier place is required"
+msgstr "供应商 place is 必填"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__supply_type
+msgid "Supply Type"
+msgstr "Supply 类型"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "Tax Rate (C+S+I+Cess+Cess Non Advol)"
+msgstr "税 Rate (C+S+I+Cess+Cess Non Advol)"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Tax rates for Inter state transaction is blank"
+msgstr "税 rates for Inter 状态 交易 is blank"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Tax rates for Intra state transaction is blank"
+msgstr "税 rates for Intra 状态 交易 is blank"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "Taxable Amount Rs."
+msgstr "Taxable 金额 Rs."
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"The Consignee GSTIN is blocked from e-waybill generation as Return is not "
+"filed for past 2 months"
+msgstr ""
+"The Consignee GSTIN is 已阻止 从 e-waybill generation as 退货 is not filed for "
+"past 2 months"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "The Consignee pin code should be 999999 for Sub Supply Type- Export"
+msgstr "The Consignee pin 代码 should be 999999 for Sub Supply 类型- 导出"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"The Consignor GSTIN is blocked from e-waybill generation as Return is not "
+"filed for past 2 months"
+msgstr ""
+"The Consignor GSTIN is 已阻止 从 e-waybill generation as 退货 is not filed for "
+"past 2 months"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "The Supplier pin code should be 999999 for Sub Supply Type- Import"
+msgstr "The 供应商 pin 代码 should be 999999 for Sub Supply 类型- 导入"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"The Supplier ship-from state code should be Other Country for Sub Supply "
+"Type- Import"
+msgstr "The 供应商 ship-from 状态 代码 should be 其他 国家/地区 for Sub Supply 类型- 导入"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"The Supplier ship-to state code should be Other Country for Sub Supply Type-"
+" Export"
+msgstr "The 供应商 ship-to 状态 代码 should be 其他 国家/地区 for Sub Supply 类型- 导出"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"The Transporter GSTIN is blocked from Transporter Updation as Return is not "
+"filed for past 2 months"
+msgstr ""
+"The Transporter GSTIN is 已阻止 从 Transporter Updation as 退货 is not filed for "
+"past 2 months"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"The Transporter GSTIN is blocked from e-waybill generation as Return is not "
+"filed for past 2 months"
+msgstr ""
+"The Transporter GSTIN is 已阻止 从 e-waybill generation as 退货 is not filed for "
+"past 2 months"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"The User GSTIN is blocked from Transporter Updation as Return is not filed "
+"for past 2 months"
+msgstr ""
+"The 用户 GSTIN is 已阻止 从 Transporter Updation as 退货 is not filed for past 2 "
+"months"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"The distance between the given pincodes are not available in the system. "
+"Please provide distance."
+msgstr ""
+"The distance between the given pincodes are not 可用 in the system. Please "
+"provide distance."
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "The distance between the pincodes given is too high"
+msgstr "The distance between the pincodes given is too high（技术名称）"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"The supplier or conginee belong to SEZ, Inter state tax rates are applicable"
+" here"
+msgstr ""
+"The 供应商 or conginee belong to SEZ, Inter 状态 税 rates are applicable here"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"There is No PART-B/Vehicle Entry.. So Please Update Vehicle Information.."
+msgstr "There is 否 PART-B/Vehicle 分录.. So Please Update Vehicle 信息.."
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "This Eway Bill does not belongs to your state"
+msgstr "This Eway 账单 does not belongs to your 状态"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "This Ewaybill cannot be cancelled as it is generated from NIC1"
+msgstr "This Ewaybill cannot be 已取消 as it is 已生成 从 NIC1"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "This Ewaybill cannot be cancelled as it is generated from NIC2"
+msgstr "This Ewaybill cannot be 已取消 as it is 已生成 从 NIC2"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"This GSTIN has generated a common Enrolment Number. Hence you are not "
+"allowed to generate Eway bill"
+msgstr ""
+"This GSTIN has 已生成 a common Enrolment 编号. Hence you are not allowed to "
+"generate Eway 账单"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"This GSTIN has generated a common Enrolment Number. Hence you cannot mention"
+" it as a tranporter"
+msgstr ""
+"This GSTIN has 已生成 a common Enrolment 编号. Hence you cannot mention it as a "
+"tranporter"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/l10n_in_ewaybill.py:0
+msgid "This document is being sent by another process already."
+msgstr "This 单据 is being 已发送 by another process already."
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "This e-Way Bill does not have Oxygen items"
+msgstr "This e-Way 账单 does not have Oxygen items"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "This e-way bill is cancelled"
+msgstr "This e-way 账单 is 已取消"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "This e-way bill is generated by you and hence you cannot reject it"
+msgstr "This e-way 账单 is 已生成 by you and hence you cannot reject it"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "This eway bill is either not generated by you or cancelled"
+msgstr "This eway 账单 is either not 已生成 by you or 已取消"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "This option is not enabled in Eway Bill2"
+msgstr "This option is not 已启用 in Eway Bill2"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "To"
+msgstr "到"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Token Expired"
+msgstr "Token Expired（技术名称）"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Tolal Invoice value is mandatory"
+msgstr "Tolal 发票 值 is 必填"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "Total Inv. Amt"
+msgstr "合计 Inv. Amt"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "Total Taxable Amount"
+msgstr "合计 Taxable 金额"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Total amount/Taxable amout is mandatory"
+msgstr "合计 金额/Taxable amout is 必填"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"Total invoice value cannot be less than the sum of total assessible value "
+"and tax values"
+msgstr "合计 发票 值 cannot be less than the sum of 合计 assessible 值 and 税 values"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Total invoice value should not be negative"
+msgstr "合计 发票 值 should not be negative"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Total value should not be negative"
+msgstr "合计 值 should not be negative"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "TransDocDate is not required for ewaybill for gold"
+msgstr "TransDocDate is not 必填 for ewaybill for gold"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "TransDocNo is not required for ewaybill for gold"
+msgstr "TransDocNo is not 必填 for ewaybill for gold"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "Transaction Type:"
+msgstr "交易 类型:"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Transaction type is mandatory"
+msgstr "交易 类型 is 必填"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Transit Address is not required as the goods are in movement"
+msgstr "Transit 地址 is not 必填 as the goods are in movement"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Transit Type is not required as the goods are in movement"
+msgstr "Transit 类型 is not 必填 as the goods are in movement"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Transmode is mandatory for ewaybill for gold"
+msgstr "Transmode is 必填 for ewaybill for gold"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Transport can not be updated for EwayBill For Gold"
+msgstr "Transport can not be 已更新 for EwayBill For Gold"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Transport details cannot be updated here as it is generated from NIC1"
+msgstr "Transport details cannot be 已更新 here as it is 已生成 从 NIC1"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Transport details cannot be updated here as it is generated from NIC2"
+msgstr "Transport details cannot be 已更新 here as it is 已生成 从 NIC2"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"Transport mode is mandatory as Vehicle Number/Transport Document Number is "
+"given"
+msgstr "Transport mode is 必填 as Vehicle 编号/Transport 单据 编号 is given"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Transport mode is mandatory since transport document number is present"
+msgstr "Transport mode is 必填 since transport 单据 编号 is present"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Transport mode is mandatory since vehicle number is present"
+msgstr "Transport mode is 必填 since vehicle 编号 is present"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "Transportation Details"
+msgstr "Transportation Details（技术名称）"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.l10n_in_ewaybill_form_view
+msgid "Transportation Details (Part B)"
+msgstr "Transportation Details (Part B)（技术名称）"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__mode
+msgid "Transportation Mode"
+msgstr "Transportation Mode（技术名称）"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__transporter_id
+msgid "Transporter"
+msgstr "Transporter（技术名称）"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.l10n_in_ewaybill_form_view
+msgid "Transporter Details"
+msgstr "Transporter Details（技术名称）"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__transportation_doc_date
+msgid "Transporter Doc Date"
+msgstr "Transporter Doc 日期"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__transportation_doc_no
+msgid "Transporter Doc No"
+msgstr "Transporter Doc 否"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "Transporter Doc and Date:"
+msgstr "Transporter Doc and 日期:"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "Transporter ID and Name:"
+msgstr "Transporter ID and 名称:"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Transporter Id is mandatory for generation of Part A slip"
+msgstr "Transporter ID is 必填 for generation of Part A slip"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Transporter document date cannot be earlier than the invoice date"
+msgstr "Transporter 单据 日期 cannot be earlier than the 发票日期"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Transporter id is not required for ewaybill for gold"
+msgstr "Transporter ID is not 必填 for ewaybill for gold"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Transporter name is not required for ewaybill for gold"
+msgstr "Transporter 名称 is not 必填 for ewaybill for gold"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Tripsheet is already cancelled, Hence Regeration is not possible"
+msgstr "Tripsheet is already 已取消, Hence Regeration is not possible"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Try after 5 minutes"
+msgstr "Try after 5 minutes（技术名称）"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill_type__name
+msgid "Type"
+msgstr "类型"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill_type__code
+msgid "Type Code"
+msgstr "类型 代码"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_in_ewaybill.field_l10n_in_ewaybill__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "记录中异常活动的类型。"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "Type:"
+msgstr "类型："
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/tools/ewaybill_api.py:0
+msgid ""
+"Unable to connect to the E-WayBill service.The web service may be temporary "
+"down. Please try again in a moment."
+msgstr ""
+"Unable to connect to the E-WayBill 服务.The web 服务 may be temporary down. "
+"Please try again in a moment."
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/tools/ewaybill_api.py:0
+msgid ""
+"Unable to send E-waybill.Create an API user in NIC portal, and set it using "
+"the top menu: Configuration > Settings."
+msgstr ""
+"Unable to 发送 E-waybill.创建 an API 用户 in NIC portal, and set it using the top "
+"menu: 配置 > 设置."
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"Unit Code is not matching with any of the Unit Code from eway bill ItemList"
+msgstr "单位 代码 is not matching with any of the 单位 代码 从 eway 账单 ItemList"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Unit Code is not matching with unit code of first initiaton"
+msgstr "单位 代码 is not matching with 单位 代码 of first initiaton"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.l10n_in_ewaybill_report_invoice_document_inherit
+msgid "Until:"
+msgstr "直至："
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "User GSTIN should match to GSTIN(from) for outward transactions"
+msgstr "用户 GSTIN should match to GSTIN(从) for outward transactions"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "User GSTIN should match to GSTIN(to) for inward transactions"
+msgstr "用户 GSTIN should match to GSTIN(to) for inward transactions"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "User Gstin cannot be blank"
+msgstr "用户 Gstin cannot be blank"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "User Gstin does not match with Transporter Id"
+msgstr "用户 Gstin does not match with Transporter ID"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "User Id is mandatory"
+msgstr "用户 ID is 必填"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "User id cannot be blank"
+msgstr "用户 ID cannot be blank"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.res_config_settings_view_form_inherit_l10n_in_edi_ewaybill
+msgid "Username"
+msgstr "用户名"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "Valid Upto:"
+msgstr "有效 Upto:"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Validation of eway bill number failed, while rejecting ewaybill"
+msgstr "Validation of eway 账单 编号 失败, while rejecting ewaybill"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Validity period lapsed, you cannot cancel this eway bill"
+msgstr "Validity period lapsed, you cannot 取消 this eway 账单"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Validity period lapsed, you cannot reject the e-way bill"
+msgstr "Validity period lapsed, you cannot reject the e-way 账单"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Validity period lapsed, you cannot update vehicle details"
+msgstr "Validity period lapsed, you cannot update vehicle details（技术名称）"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Validity period lapsed.Cannot generate consolidated Eway Bill"
+msgstr "Validity period lapsed.Cannot generate consolidated Eway 账单"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "Vehicle / Trans <br/>Doc No &amp; Dt."
+msgstr "Vehicle / Trans <br/>Doc 否 &amp; Dt."
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "Vehicle Details"
+msgstr "Vehicle Details（技术名称）"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Vehicle No is not required for ewaybill for gold"
+msgstr "Vehicle 否 is not 必填 for ewaybill for gold"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__vehicle_no
+msgid "Vehicle Number"
+msgstr "Vehicle 编号"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__vehicle_type
+msgid "Vehicle Type"
+msgstr "车辆类型"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Vehicle Type is not required for ewaybill for gold"
+msgstr "Vehicle 类型 is not 必填 for ewaybill for gold"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Vehicle can not be updated for EwayBill For Gold"
+msgstr "Vehicle can not be 已更新 for EwayBill For Gold"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Vehicle number is required"
+msgstr "Vehicle 编号 is 必填"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Vehicle type can not be regular when transportation mode is ship"
+msgstr "Vehicle 类型 can not be regular when transportation mode is 发货"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "Vehicle type should not be ODC when transmode is other than road"
+msgstr "Vehicle 类型 should not be ODC when transmode is 其他 than road"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.res_config_settings_view_form_inherit_l10n_in_edi_ewaybill
+msgid "Verify Username and Password"
+msgstr "Verify Username and Password（技术名称）"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_in_ewaybill.selection__l10n_in_ewaybill__blocking_level__warning
+msgid "Warning"
+msgstr "警告"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/tools/ewaybill_api.py:0
+msgid ""
+"We don't know the error message for this error code. Please contact support."
+msgstr "We don't know the 错误 消息 for this 错误 代码. Please 联系人 support."
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__website_message_ids
+msgid "Website Messages"
+msgstr "网站消息"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_in_ewaybill.field_l10n_in_ewaybill__website_message_ids
+msgid "Website communication history"
+msgstr "网站沟通记录"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"You Cannot Extend as EWB can be Extended only 8 hour before or after w.r.t "
+"Validity of EWB..!!"
+msgstr ""
+"You Cannot Extend as EWB can be Extended only 8 hour before or after w.r.t "
+"Validity of EWB..!!（技术名称）"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"You are blocked for accesing this API as the allowed number of requests has "
+"been exceeded for this duration"
+msgstr ""
+"You are 已阻止 for accesing this API as the allowed 编号 of requests has been "
+"exceeded for this duration"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "You are not assigned to do MultiVehicle Movement"
+msgstr "You are not assigned to do MultiVehicle Movement（技术名称）"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "You are not assigned to extend e-waybill"
+msgstr "You are not assigned to extend e-waybill（技术名称）"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "You are not assigned to generate consolidated ewaybill"
+msgstr "You are not assigned to generate consolidated ewaybill（技术名称）"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "You are not assigned to update part B"
+msgstr "You are not assigned to update part B（技术名称）"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"You are not assigned to update the tranporter details of this eway bill"
+msgstr "You are not assigned to update the tranporter details of this eway 账单"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"You are not current transporter or Generator of the ewayBill, with no "
+"transporter details."
+msgstr ""
+"You are not current transporter or Generator of the ewayBill, with 否 "
+"transporter details."
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "You can cancel the ewaybill within 24 hours from Part B entry"
+msgstr "You can 取消 the ewaybill within 24 hours 从 Part B 分录"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "You can reject the e-way bill only within 72 hours from generated time"
+msgstr "You can reject the e-way 账单 only within 72 hours 从 已生成 time"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/ir_attachment.py:0
+msgid "You can't unlink an attachment that you received from the government"
+msgstr "You can't unlink an 附件 that you 已接收 从 the government"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/l10n_in_ewaybill.py:0
+msgid ""
+"You cannot delete a generated E-waybill. Instead, you should cancel it."
+msgstr "You cannot 删除 a 已生成 E-waybill. Instead, you should 取消 it."
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"You cannot do multivehicle movement, as the current tranporter is already "
+"entered Part B details of the ewaybill"
+msgstr ""
+"You cannot do multivehicle movement, as the current tranporter is already "
+"entered Part B details of the ewaybill（技术名称）"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"You cannot extend ewaybill, as the current tranporter is already entered "
+"Part B details of the ewaybill"
+msgstr ""
+"You cannot extend ewaybill, as the current tranporter is already entered "
+"Part B details of the ewaybill（技术名称）"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"You cannot generate E Way Bill with document date earlier than 180 days"
+msgstr "You cannot generate E Way 账单 with 单据 日期 earlier than 180 days"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"You cannot generate consolidated eway bill , as the current tranporter is "
+"already entered Part B details of the eway bill"
+msgstr ""
+"You cannot generate consolidated eway 账单 , as the current tranporter is "
+"already entered Part B details of the eway 账单"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"You cannot reject this e-way bill as you are not the other party to do so"
+msgstr "You cannot reject this e-way 账单 as you are not the 其他 party to do so"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"You cannot update part B, as the current tranporter is already entered Part "
+"B details of the eway bill"
+msgstr ""
+"You cannot update part B, as the current tranporter is already entered Part "
+"B details of the eway 账单"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"You cannot update transporter details, as the current tranporter is already "
+"entered Part B details of the eway bill"
+msgstr ""
+"You cannot update transporter details, as the current tranporter is already "
+"entered Part B details of the eway 账单"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/l10n_in_ewaybill.py:0
+msgid ""
+"You need at least one product having 'Product Type' as stockable or "
+"consumable."
+msgstr "You need at least one 产品 having '产品 类型' as stockable or consumable."
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"You will not get the ewaybills generated today, howerver you cann access the"
+" ewaybills of yester days"
+msgstr ""
+"You will not get the ewaybills 已生成 today, howerver you cann 访问 the ewaybills"
+" of yester days"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/tools/ewaybill_api.py:0
+msgid "cancelled"
+msgstr "已取消"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "dispatch from gstin is mandatary "
+msgstr "dispatch 从 gstin is mandatary"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "e-Way Bill"
+msgstr "e-Way 账单"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.act_window,name:l10n_in_ewaybill.l10n_in_ewaybill_form_action
+#: model:ir.model,name:l10n_in_ewaybill.model_l10n_in_ewaybill
+msgid "e-Waybill"
+msgstr "e-Waybill（技术名称）"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__ewaybill_date
+msgid "e-Waybill Date"
+msgstr "e-Waybill 日期"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__name
+msgid "e-Waybill Number"
+msgstr "e-Waybill 编号"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__ewaybill_expiry_date
+msgid "e-Waybill Valid Upto"
+msgstr "e-Waybill 有效 Upto"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "eway Bill No:"
+msgstr "eway 账单 否:"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/tools/ewaybill_api.py:0
+msgid "generated"
+msgstr "已生成"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "invalid dispatch from gstin "
+msgstr "无效 dispatch 从 gstin"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "invalid document type for the given supply type "
+msgstr "无效 单据类型 for the given supply 类型"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "invalid ewbNoAvailable parameter value"
+msgstr "无效 ewbNoAvailable parameter 值"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "invalid goods detained parameter value"
+msgstr "无效 goods detained parameter 值"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "invalid invoice available value"
+msgstr "无效 发票 可用 值"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "invalid vehicle released value"
+msgstr "无效 vehicle released 值"
+
+#. module: l10n_in_ewaybill
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "km"
+msgstr "千米"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "operating-system-type is mandatory in header"
+msgstr "operating-system-type is 必填 in header"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "ship to from gstin is mandatary"
+msgstr "收货方 从 gstin is mandatary"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "total quantity can not be less than or equal to zero"
+msgstr "合计 数量 can not be less than or equal to zero"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid ""
+"total quantity is exceeding from multi vehicle movement initiation quantity"
+msgstr "合计 数量 is exceeding 从 multi vehicle movement initiation 数量"

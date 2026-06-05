@@ -1,0 +1,263 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_id
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_id
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_id.model_account_chart_template
+msgid "Account Chart Template"
+msgstr "科目表模版"
+
+#. module: l10n_id
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_id.field_l10n_id_qris_transaction__bank_id
+msgid "Bank"
+msgstr "银行"
+
+#. module: l10n_id
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_id.model_res_partner_bank
+msgid "Bank Accounts"
+msgstr "银行账号"
+
+#. module: l10n_id
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_id.field_l10n_id_qris_transaction__bank_id
+msgid "Bank used to generate the current QRIS transaction"
+msgstr "银行 used to generate the current QRIS 交易"
+
+#. module: l10n_id
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_id/models/template_id.py:0
+msgid "Cash"
+msgstr "现金"
+
+#. module: l10n_id
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.server,name:l10n_id.action_fetch_qris_status
+msgid "Check QRIS Payment Status"
+msgstr "检查 QRIS 付款状态"
+
+#. module: l10n_id
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_id/models/res_bank.py:0
+msgid ""
+"Communication with QRIS failed. QRIS returned with the following error: %s"
+msgstr "Communication with QRIS 失败. QRIS returned with the following 错误: %s"
+
+#. module: l10n_id
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_id/models/res_bank.py:0
+msgid "Could not establish a connection to the QRIS API."
+msgstr "Could not establish a 连接 to the QRIS API."
+
+#. module: l10n_id
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_id.field_l10n_id_qris_transaction__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: l10n_id
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_id.field_l10n_id_qris_transaction__create_date
+msgid "Created on"
+msgstr "创建日期"
+
+#. module: l10n_id
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_id.field_account_chart_template__display_name
+#: model:ir.model.fields,field_description:l10n_id.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_id.field_l10n_id_qris_transaction__display_name
+#: model:ir.model.fields,field_description:l10n_id.field_res_partner_bank__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_id
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_id.field_account_chart_template__id
+#: model:ir.model.fields,field_description:l10n_id.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_id.field_l10n_id_qris_transaction__id
+#: model:ir.model.fields,field_description:l10n_id.field_res_partner_bank__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_id
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_id.model_account_move
+msgid "Journal Entry"
+msgstr "日记账分录"
+
+#. module: l10n_id
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_id.field_account_bank_statement_line__l10n_id_qris_transaction_ids
+#: model:ir.model.fields,field_description:l10n_id.field_account_move__l10n_id_qris_transaction_ids
+msgid "L10N Id Qris Transaction"
+msgstr "L10N ID Qris 交易"
+
+#. module: l10n_id
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_id.field_l10n_id_qris_transaction__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: l10n_id
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_id.field_l10n_id_qris_transaction__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: l10n_id
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_id.field_l10n_id_qris_transaction__model
+msgid "Model"
+msgstr "模型"
+
+#. module: l10n_id
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_id.field_l10n_id_qris_transaction__model_id
+msgid "Model ID"
+msgstr "模型 ID"
+
+#. module: l10n_id
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_id.field_l10n_id_qris_transaction__paid
+msgid "Paid"
+msgstr "已支"
+
+#. module: l10n_id
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_id.field_l10n_id_qris_transaction__paid
+msgid "Payment Status of QRIS"
+msgstr "付款状态 of QRIS"
+
+#. module: l10n_id
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_id/models/res_bank.py:0
+msgid "QRIS"
+msgstr "QRIS"
+
+#. module: l10n_id
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_id.field_account_setup_bank_manual_config__l10n_id_qris_api_key
+#: model:ir.model.fields,field_description:l10n_id.field_res_partner_bank__l10n_id_qris_api_key
+msgid "QRIS API Key"
+msgstr "QRIS API Key（技术名称）"
+
+#. module: l10n_id
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.server,name:l10n_id.qris_fetch_cron_ir_actions_server
+msgid "QRIS Fetch Status"
+msgstr "QRIS Fetch 状态"
+
+#. module: l10n_id
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_id.field_account_setup_bank_manual_config__l10n_id_qris_mid
+#: model:ir.model.fields,field_description:l10n_id.field_res_partner_bank__l10n_id_qris_mid
+msgid "QRIS Merchant ID"
+msgstr "QRIS Merchant ID（技术名称）"
+
+#. module: l10n_id
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_id/models/qris_transaction.py:0
+msgid "QRIS capability is not extended to model %s yet!"
+msgstr "QRIS capability is not extended to 模型 %s yet!"
+
+#. module: l10n_id
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_id.field_l10n_id_qris_transaction__qris_amount
+msgid "Qris Amount"
+msgstr "Qris 金额"
+
+#. module: l10n_id
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_id.field_l10n_id_qris_transaction__qris_content
+msgid "Qris Content"
+msgstr "Qris Content（技术名称）"
+
+#. module: l10n_id
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_id.field_l10n_id_qris_transaction__qris_creation_datetime
+msgid "Qris Creation Datetime"
+msgstr "Qris Creation Datetime（技术名称）"
+
+#. module: l10n_id
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_id.field_l10n_id_qris_transaction__qris_invoice_id
+msgid "Qris Invoice"
+msgstr "Qris 发票"
+
+#. module: l10n_id
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_id.model_l10n_id_qris_transaction
+msgid "Record of QRIS transactions"
+msgstr "Record of QRIS transactions（技术名称）"
+
+#. module: l10n_id
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_id/models/res_bank.py:0
+msgid "The amount must be set to generate a QR code."
+msgstr "The 金额 must be set to generate a 二维码."
+
+#. module: l10n_id
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_id/models/account_move.py:0
+msgid ""
+"This invoice was paid by %(customer)s using QRIS with the payment method "
+"%(method)s."
+msgstr "This 发票 was paid by %(customer)s using QRIS with the 付款方式 %(method)s."
+
+#. module: l10n_id
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_id/models/account_move.py:0
+msgid "This invoice was paid using QRIS."
+msgstr "This 发票 was paid using QRIS."
+
+#. module: l10n_id
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_id/models/res_bank.py:0
+msgid ""
+"To use QRIS QR code, Please setup the QRIS API Key and Merchant ID on the "
+"bank's configuration"
+msgstr ""
+"To use QRIS 二维码, Please setup the QRIS API Key and Merchant ID on the bank's"
+" 配置"
+
+#. module: l10n_id
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_id/models/res_bank.py:0
+msgid ""
+"You cannot generate a QRIS QR code with a bank account that is not in "
+"Indonesia."
+msgstr "You cannot generate a QRIS 二维码 with a 银行账户 that is not in Indonesia."
+
+#. module: l10n_id
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_id/models/res_bank.py:0
+msgid "You cannot generate a QRIS QR code with a currency other than IDR"
+msgstr "You cannot generate a QRIS 二维码 with a 币种 其他 than IDR"

@@ -1,0 +1,150 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_si
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_si
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_si.tax_report_pr_17a
+msgid "17a. 22%"
+msgstr "17a. 22%（技术名称）"
+
+#. module: l10n_si
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_si.tax_report_pr_17b
+msgid "17b. 9,5%"
+msgstr "17b. 9,5%（技术名称）"
+
+#. module: l10n_si
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_si.tax_report_pr_19a
+msgid "19a. 5%"
+msgstr "19a. 5%（技术名称）"
+
+#. module: l10n_si
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_si.model_account_chart_template
+msgid "Account Chart Template"
+msgstr "科目表模版"
+
+#. module: l10n_si
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_si.si_partner_address_form
+msgid "City"
+msgstr "城市"
+
+#. module: l10n_si
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_si.field_account_journal__invoice_reference_model
+msgid "Communication Standard"
+msgstr "通信标准"
+
+#. module: l10n_si
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_si.si_partner_address_form
+msgid "Country"
+msgstr "国家/地区"
+
+#. module: l10n_si
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_si.field_account_chart_template__display_name
+#: model:ir.model.fields,field_description:l10n_si.field_account_journal__display_name
+#: model:ir.model.fields,field_description:l10n_si.field_account_move__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_si
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_si.field_account_chart_template__id
+#: model:ir.model.fields,field_description:l10n_si.field_account_journal__id
+#: model:ir.model.fields,field_description:l10n_si.field_account_move__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_si
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_si.model_account_journal
+msgid "Journal"
+msgstr "日记账"
+
+#. module: l10n_si
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_si.model_account_move
+msgid "Journal Entry"
+msgstr "日记账分录"
+
+#. module: l10n_si
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_si.selection__account_journal__invoice_reference_model__si
+msgid "Slovenian 01 (SI01 25-1235-8403)"
+msgstr "Slovenian 01 (SI01 25-1235-8403)（技术名称）"
+
+#. module: l10n_si
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_si.si_partner_address_form
+msgid "Street"
+msgstr "街道"
+
+#. module: l10n_si
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_si.si_partner_address_form
+msgid "Street2"
+msgstr "详细地址"
+
+#. module: l10n_si
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_si.field_account_journal__invoice_reference_model
+msgid ""
+"You can choose different models for each type of reference. The default one "
+"is the Odoo reference."
+msgstr "可以为各参考事情类型选择不同的模型。默认为绿色供应链公共服务平台参考号。"
+
+#. module: l10n_si
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_si.si_partner_address_form
+msgid "Zip"
+msgstr "邮编"
+
+#. module: l10n_si
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_si.account_account_tag_l10n_si_rp_A3
+msgid "rp_a3"
+msgstr "rp_a3（技术名称）"
+
+#. module: l10n_si
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_si.account_account_tag_l10n_si_rp_A4
+msgid "rp_a4"
+msgstr "rp_a4（技术名称）"
+
+#. module: l10n_si
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_si.account_account_tag_l10n_si_rp_A5
+msgid "rp_a5"
+msgstr "rp_a5（技术名称）"
+
+#. module: l10n_si
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_si.account_account_tag_l10n_si_rp_A6
+msgid "rp_a6"
+msgstr "rp_a6（技术名称）"
+
+#. module: l10n_si
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_si.account_account_tag_l10n_si_rp_A7
+msgid "rp_a7"
+msgstr "rp_a7（技术名称）"

@@ -1,0 +1,394 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_ke
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ke.tax_report_line_general_rate_sales
+msgid "1. Taxable Sales (General Rate 16%)"
+msgstr "1. Taxable 销售 (General Rate 16%)"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ke.tax_report_line_exempt_purchases
+msgid "10. Purchases (Exempt)"
+msgstr "10. Purchases (Exempt)（技术名称）"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ke.tax_report_line_total_purchases
+msgid "11. Total Purchases"
+msgstr "11. 合计 Purchases"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ke.tax_report_line_input_vat
+msgid "12. Total Input VAT"
+msgstr "12. 合计 Input VAT"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ke.tax_report_line_vat_claimable_on_imported_services
+msgid "13. VAT Claimable on Services Imported into Kenya"
+msgstr "13. VAT Claimable on Services Imported into Kenya（技术名称）"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ke.tax_report_line_input_vat_attributable_to_exempt_supplies
+msgid "14. Input VAT attributable to Only Exempt Supplies"
+msgstr "14. Input VAT attributable to Only Exempt Supplies（技术名称）"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ke.tax_report_line_input_vat_attributable_to_taxable_and_exempt_supplies
+msgid "15. Input VAT attributable to Taxable and Exempt Supplies"
+msgstr "15. Input VAT attributable to Taxable and Exempt Supplies（技术名称）"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ke.tax_report_line_non_deductible_input_vat
+msgid "16. Non-Deductible Input VAT"
+msgstr "16. Non-Deductible Input VAT（技术名称）"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ke.tax_report_line_deductible_input_vat
+msgid "17. Deductible Input VAT"
+msgstr "17. Deductible Input VAT（技术名称）"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ke.tax_report_line_vat_payable_or_credit_due_for_period
+msgid "18. VAT Payable/Credit Due for the period"
+msgstr "18. VAT Payable/贷方 Due for the period"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ke.tax_report_line_credit_brought_forward_from_previous_month
+msgid "19. Credit Brought Forward from previous month"
+msgstr "19. 贷方 Brought Forward 从 previous month"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ke.tax_report_line_other_rate_sales
+msgid "2. Taxable Sales (Other Rate 8%)"
+msgstr "2. Taxable 销售 (其他 Rate 8%)"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ke.tax_report_line_total_withholding_vat_credit
+msgid "20. Total Withholding VAT Credit"
+msgstr "20. 合计 Withholding VAT 贷方"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ke.tax_report_line_refund_claim_lodged
+msgid "21. Refund Claim Lodged"
+msgstr "21. 退款 Claim Lodged"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ke.tax_report_line_total_vat_payable
+msgid "22. Total VAT Payable"
+msgstr "22. 合计 VAT Payable"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ke.tax_report_line_total_vat_paid
+msgid "23. Total VAT Paid"
+msgstr "23. 合计 VAT Paid"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ke.tax_report_line_total_credit_adjustment_inventory_approval_order
+msgid "24. Total Credit Adjustment/Inventory Approval Order"
+msgstr "24. 合计 贷方 Adjustment/Inventory Approval 订单"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ke.tax_report_line_total_debit_adjustment_voucher
+msgid "25. Total Debit Adjustment Voucher"
+msgstr "25. 合计 借方 Adjustment Voucher"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ke.tax_report_line_net_vat_payable_or_credit_carried_forward
+msgid "26. Net VAT Payable/Credit Carried Forward"
+msgstr "26. Net VAT Payable/贷方 Carried Forward"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ke.tax_report_line_zero_rated_sales
+msgid "3. Sales (Zero Rated 0%)"
+msgstr "3. 销售 (Zero Rated 0%)"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ke.tax_report_line_exempt_sales
+msgid "4. Sales (Exempt)"
+msgstr "4. 销售 (Exempt)"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ke.tax_report_line_total_sales
+msgid "5. Total Sales"
+msgstr "5. 合计 销售"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ke.tax_report_line_output_vat
+msgid "6. Total Output VAT"
+msgstr "6. 合计 Output VAT"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ke.tax_report_line_general_rate_purchases
+msgid "7. Taxable Purchases (General Rate 16%)"
+msgstr "7. 应税采购s (General Rate 16%)"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ke.tax_report_line_other_rate_purchases
+msgid "8. Taxable Purchases (Other Rate 8%)"
+msgstr "8. 应税采购s (其他 Rate 8%)"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ke.tax_report_line_zero_rated_purchases
+msgid "9. Purchases (Zero Rated 0%)"
+msgstr "9. Purchases (Zero Rated 0%)（技术名称）"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ke.model_account_chart_template
+msgid "Account Chart Template"
+msgstr "科目表模版"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.column,name:l10n_ke.wh_tax_report_base_column
+msgid "Balance"
+msgstr "余额"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.column,name:l10n_ke.tax_report_base_column
+msgid "Base"
+msgstr "基础"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ke.view_l10n_ke_item_code_search
+msgid "By Tax Rate"
+msgstr "By 税 Rate"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ke.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ke.field_l10n_ke_item_code__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ke.field_l10n_ke_item_code__create_date
+msgid "Created on"
+msgstr "创建日期"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ke.field_account_bank_statement_line__l10n_ke_wh_certificate_number
+#: model:ir.model.fields,help:l10n_ke.field_account_move__l10n_ke_wh_certificate_number
+msgid "Customer withholding certificate number"
+msgstr "客户 withholding 证书 编号"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ke.field_account_bank_statement_line__l10n_ke_wh_certificate_date
+#: model:ir.model.fields,field_description:l10n_ke.field_account_move__l10n_ke_wh_certificate_date
+msgid "Date of Certificate"
+msgstr "日期 of 证书"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ke.field_l10n_ke_item_code__description
+msgid "Description"
+msgstr "描述"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ke.field_account_chart_template__display_name
+#: model:ir.model.fields,field_description:l10n_ke.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_ke.field_account_tax__display_name
+#: model:ir.model.fields,field_description:l10n_ke.field_l10n_ke_item_code__display_name
+#: model:ir.model.fields,field_description:l10n_ke.field_res_company__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ke.model_account_tax
+msgid "ETA tax codes mixin"
+msgstr "ETA 税 codes mixin"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ke.selection__l10n_ke_item_code__tax_rate__e
+#: model_terms:ir.ui.view,arch_db:l10n_ke.view_l10n_ke_item_code_search
+msgid "Exempted"
+msgstr "Exempted（技术名称）"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ke.field_account_chart_template__id
+#: model:ir.model.fields,field_description:l10n_ke.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_ke.field_account_tax__id
+#: model:ir.model.fields,field_description:l10n_ke.field_l10n_ke_item_code__id
+#: model:ir.model.fields,field_description:l10n_ke.field_res_company__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ke.field_res_company__l10n_ke_oscu_is_active
+msgid "Is OSCU active?"
+msgstr "Is OSCU 启用?"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ke.model_account_move
+msgid "Journal Entry"
+msgstr "日记账分录"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ke.field_account_tax__l10n_ke_item_code_id
+#: model:ir.model.fields,field_description:l10n_ke.field_l10n_ke_item_code__code
+#: model_terms:ir.ui.view,arch_db:l10n_ke.l10n_ke_inherit_view_tax_form
+#: model_terms:ir.ui.view,arch_db:l10n_ke.view_l10n_ke_item_code_tree
+msgid "KRA Item Code"
+msgstr "KRA Item 代码"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ke.field_account_tax__l10n_ke_item_code_id
+msgid ""
+"KRA code that describes a tax rate or exemption on specific products or "
+"services."
+msgstr ""
+"KRA 代码 that describes a 税 rate or exemption on specific 产品 or services."
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ke.model_l10n_ke_item_code
+msgid "KRA defined codes that justify a given tax rate / exemption"
+msgstr "KRA defined codes that justify a given 税 rate / exemption"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ke.field_l10n_ke_item_code__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ke.field_l10n_ke_item_code__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ke.field_l10n_ke_item_code__tax_rate
+msgid "Tax Rate"
+msgstr "税 Rate"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report,name:l10n_ke.tax_report_ke
+msgid "Tax Report"
+msgstr "税务报表"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ke.selection__l10n_ke_item_code__tax_rate__b
+#: model_terms:ir.ui.view,arch_db:l10n_ke.view_l10n_ke_item_code_search
+msgid "Taxable at 8%"
+msgstr "Taxable at 8%（技术名称）"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ke.wh_tax_report_ke_to_be_paid_next_month
+msgid "To be paid before the 20th of the next month"
+msgstr "To be paid before the 20th of the next month（技术名称）"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ke.wh_tax_report_ke_to_be_paid_selected_month
+msgid "To be paid before the 20th of the selected month"
+msgstr "To be paid before the 20th of the selected month（技术名称）"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ke.wh_tax_report_ke_total_wh_vat_next_month
+#: model:account.report.line,name:l10n_ke.wh_tax_report_ke_total_wh_vat_selected_month
+msgid "Total WH VAT"
+msgstr "合计 WH VAT"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ke.wh_tax_report_ke_total_purchases_next_month
+#: model:account.report.line,name:l10n_ke.wh_tax_report_ke_total_purchases_selected_month
+msgid "Total purchases subject to WH VAT"
+msgstr "合计 purchases subject to WH VAT"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.column,name:l10n_ke.tax_report_tax_column
+msgid "VAT"
+msgstr "增值税"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report,name:l10n_ke.wh_tax_report_ke
+msgid "WH Report"
+msgstr "WH 报表"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ke.field_res_company__l10n_ke_oscu_is_active
+msgid "Whether this company is set up for OSCU flows."
+msgstr "Whether this 公司 is set up for OSCU flows."
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ke.field_account_bank_statement_line__l10n_ke_wh_certificate_number
+#: model:ir.model.fields,field_description:l10n_ke.field_account_move__l10n_ke_wh_certificate_number
+msgid "Withholding Certificate Number"
+msgstr "Withholding 证书 编号"
+
+#. module: l10n_ke
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ke.selection__l10n_ke_item_code__tax_rate__c
+#: model_terms:ir.ui.view,arch_db:l10n_ke.view_l10n_ke_item_code_search
+msgid "Zero Rated"
+msgstr "Zero Rated（技术名称）"

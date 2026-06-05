@@ -1,0 +1,619 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_ec
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ec.model_account_chart_template
+msgid "Account Chart Template"
+msgstr "科目表模版"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_sri_payment__active
+msgid "Active"
+msgstr "有效"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ec.field_l10n_latam_document_type__internal_type
+msgid ""
+"Analog to odoo account.move.move_type but with more options allowing to "
+"identify the kind of document we are working with. (not only related to "
+"account.move, could be for documents of other models like stock.picking)"
+msgstr ""
+"Analog to 绿色供应链公共服务平台 账户.move.move_type but with more options allowing to "
+"identify the kind of 单据 we are working with. (not only 相关 to 账户.move, could "
+"be for 单据 of 其他 models like 库存.picking)"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ec.tax_report_line_103_3030
+msgid "Base imponible(3030)"
+msgstr "Base imponible(3030)（技术名称）"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ec.tax_report_line_103_3120
+msgid "Base imponible(3120)"
+msgstr "Base imponible(3120)（技术名称）"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ec.tax_report_line_103_3121
+msgid "Base imponible(3121)"
+msgstr "Base imponible(3121)（技术名称）"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ec.tax_report_line_103_3140
+msgid "Base imponible(3140)"
+msgstr "Base imponible(3140)（技术名称）"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ec.field_l10n_latam_document_type__l10n_ec_check_format
+msgid "Check Number Format EC"
+msgstr "检查 编号 Format EC"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_sri_payment__code
+msgid "Code"
+msgstr "代码"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ec.field_account_tax__l10n_ec_code_ats
+msgid "Code ATS"
+msgstr "代码 ATS"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ec.field_account_tax__l10n_ec_code_applied
+msgid "Code applied"
+msgstr "代码 applied"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ec.field_account_tax__l10n_ec_code_base
+msgid "Code base"
+msgstr "代码 base"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ec.tax_report_line_parent_line_report_183
+msgid ""
+"Comisiones pagadas a sociedades, nacionales o extranjeras residentes en el "
+"Ecuador y establecimientos permanentes domiciliados en el país"
+msgstr ""
+"Comisiones pagadas a sociedades, nacionales o extranjeras residentes en el "
+"Ecuador y establecimientos permanentes domiciliados en el país（技术名称）"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ec.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ec.tax_report_line_parent_line_report_178
+msgid ""
+"Compras al Comercializador: de Bienes de Origen Bioacuático, Forestal y los "
+"Descritos el Art.27.1 de LRTI"
+msgstr ""
+"Compras al Comercializador: de Bienes de Origen Bioacuático, Forestal y los "
+"Descritos el Art.27.1 de LRTI（技术名称）"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ec.tax_report_line_parent_line_report_177
+msgid ""
+"Compras al productor: de bienes de origen agrícola, avícola, pecuario, "
+"apícola, cunícola, bioacuático, forestal y carnes en estado natural y los "
+"descritos en el art.27.1 de LRTI."
+msgstr ""
+"Compras al productor: de bienes de origen agrícola, avícola, pecuario, "
+"apícola, cunícola, bioacuático, forestal y carnes en estado natural y los "
+"descritos en el art.27.1 de LRTI.（技术名称）"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ec.model_res_partner
+msgid "Contact"
+msgstr "联系人"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,website_form_label:l10n_ec.model_res_partner
+msgid "Create a Customer"
+msgstr "创建客户"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_sri_payment__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_sri_payment__create_date
+msgid "Created on"
+msgstr "创建日期"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_ec.sri.payment,name:l10n_ec.P19
+msgid "Credit Card"
+msgstr "信用卡"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_ec.sri.payment,name:l10n_ec.P16
+msgid "Debit Card"
+msgstr "借方 Card"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ec.field_account_chart_template__display_name
+#: model:ir.model.fields,field_description:l10n_ec.field_account_journal__display_name
+#: model:ir.model.fields,field_description:l10n_ec.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_ec.field_account_tax__display_name
+#: model:ir.model.fields,field_description:l10n_ec.field_account_tax_group__display_name
+#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_sri_payment__display_name
+#: model:ir.model.fields,field_description:l10n_ec.field_l10n_latam_document_type__display_name
+#: model:ir.model.fields,field_description:l10n_ec.field_res_company__display_name
+#: model:ir.model.fields,field_description:l10n_ec.field_res_partner__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ec.model_account_tax
+msgid "ETA tax codes mixin"
+msgstr "ETA 税 codes mixin"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ec.field_account_journal__l10n_ec_emission_address_id
+msgid "Ecuador: Address for electronic invoicing."
+msgstr "Ecuador: 地址 for electronic 开票."
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ec.field_account_journal__l10n_ec_entity
+msgid "Ecuador: Emission entity number that is given by the SRI."
+msgstr "Ecuador: Emission entity 编号 that is given by the SRI."
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ec.field_account_journal__l10n_ec_emission
+msgid "Ecuador: Emission point number that is given by the SRI."
+msgstr "Ecuador: Emission point 编号 that is given by the SRI."
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ec.field_account_tax__l10n_ec_code_ats
+msgid ""
+"Ecuador: Indicates if the purchase invoice supports tax credit or cost or "
+"expenses, conforming table 5 of ATS."
+msgstr ""
+"Ecuador: Indicates if the 采购 发票 supports 税 贷方 or 成本 or expenses, conforming "
+"table 5 of ATS."
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ec.field_account_bank_statement_line__l10n_ec_sri_payment_id
+#: model:ir.model.fields,help:l10n_ec.field_account_move__l10n_ec_sri_payment_id
+msgid "Ecuador: Payment Methods Defined by the SRI."
+msgstr "Ecuador: 付款方式s Defined by the SRI."
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ec.field_account_tax__l10n_ec_code_base
+msgid ""
+"Ecuador: Tax declaration code of the base amount prior to the calculation of"
+" the tax."
+msgstr ""
+"Ecuador: 税 declaration 代码 of the base 金额 prior to the calculation of the 税."
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ec.field_account_tax__l10n_ec_code_applied
+msgid ""
+"Ecuador: Tax declaration code of the resulting amount after the calculation "
+"of the tax."
+msgstr ""
+"Ecuador: 税 declaration 代码 of the resulting 金额 after the calculation of the "
+"税."
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ec.view_document_type_conf_form
+msgid "Ecuadorian Configuration"
+msgstr "Ecuadorian 配置"
+
+#. module: l10n_ec
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ec/models/l10n_latam_document_type.py:0
+msgid "Ecuadorian Document %s must be like 001-001-123456789"
+msgstr "Ecuadorian 单据 %s must be like 001-001-123456789"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.ui.menu,name:l10n_ec.sri_menu
+msgid "Ecuadorian SRI"
+msgstr "Ecuadorian SRI（技术名称）"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ec.field_account_tax_group__l10n_ec_type
+msgid "Ecuadorian taxes subtype"
+msgstr "Ecuadorian 税 subtype"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_ec.sri.payment,name:l10n_ec.P17
+msgid "Electronic Cash"
+msgstr "Electronic Cash（技术名称）"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ec.field_account_journal__l10n_ec_entity
+msgid "Emission Entity"
+msgstr "Emission Entity（技术名称）"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ec.field_account_journal__l10n_ec_emission
+msgid "Emission Point"
+msgstr "Emission Point（技术名称）"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ec.field_account_journal__l10n_ec_emission_address_id
+msgid "Emission address"
+msgstr "Emission 地址"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_ec.sri.payment,name:l10n_ec.P21
+msgid "Endorsement of Securities"
+msgstr "Endorsement of Securities（技术名称）"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ec.field_res_partner__l10n_ec_vat_validation
+#: model:ir.model.fields,help:l10n_ec.field_res_users__l10n_ec_vat_validation
+msgid "Error message when validating the Ecuadorian VAT"
+msgstr "错误 消息 when validating the Ecuadorian VAT"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ec.selection__account_tax_group__l10n_ec_type__outflows_tax
+msgid "Exchange Outflows"
+msgstr "Exchange Outflows（技术名称）"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ec.field_account_chart_template__id
+#: model:ir.model.fields,field_description:l10n_ec.field_account_journal__id
+#: model:ir.model.fields,field_description:l10n_ec.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_ec.field_account_tax__id
+#: model:ir.model.fields,field_description:l10n_ec.field_account_tax_group__id
+#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_sri_payment__id
+#: model:ir.model.fields,field_description:l10n_ec.field_l10n_latam_document_type__id
+#: model:ir.model.fields,field_description:l10n_ec.field_res_company__id
+#: model:ir.model.fields,field_description:l10n_ec.field_res_partner__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_ec
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ec/models/res_partner.py:0
+msgid "If your identification type is %s, it must be 10 digits"
+msgstr "If your identification 类型 is %s, it must be 10 digits"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ec.field_l10n_latam_document_type__internal_type
+msgid "Internal Type"
+msgstr "内部类型"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ec.model_account_journal
+msgid "Journal"
+msgstr "日记账"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ec.model_account_move
+msgid "Journal Entry"
+msgstr "日记账分录"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_sri_payment__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_sri_payment__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ec.model_l10n_latam_document_type
+msgid "Latam Document Type"
+msgstr "Latam 单据类型"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_sri_payment__name
+msgid "Name"
+msgstr "名称"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_ec.sri.payment,name:l10n_ec.P1
+msgid "No use of the financial system"
+msgstr "否 use of the financial system"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_ec.sri.payment,name:l10n_ec.P15
+msgid "Offset of Debts"
+msgstr "Offset of Debts（技术名称）"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ec.selection__account_tax_group__l10n_ec_type__other
+msgid "Others"
+msgstr "其它"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_ec.sri.payment,name:l10n_ec.P20
+msgid "Others with use of the financial system"
+msgstr "其他 with use of the financial system"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ec.view_payment_method_form
+#: model_terms:ir.ui.view,arch_db:l10n_ec.view_payment_method_tree
+msgid "Payment Method"
+msgstr "付款方式"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ec.field_account_bank_statement_line__l10n_ec_sri_payment_id
+#: model:ir.model.fields,field_description:l10n_ec.field_account_move__l10n_ec_sri_payment_id
+msgid "Payment Method (SRI)"
+msgstr "付款方式 (SRI)"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.act_window,name:l10n_ec.action_account_l10n_ec_sri_payment_tree
+#: model:ir.ui.menu,name:l10n_ec.menu_action_account_l10n_ec_sri_payment
+msgid "Payment Methods SRI"
+msgstr "付款方式s SRI"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ec.selection__account_tax_group__l10n_ec_type__irbpnr
+msgid "Plastic Bottles (IRBPNR)"
+msgstr "Plastic Bottles (IRBPNR)（技术名称）"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_ec.sri.payment,name:l10n_ec.P18
+msgid "Prepaid Card"
+msgstr "Prepaid Card（技术名称）"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ec.selection__account_tax_group__l10n_ec_type__withhold_income_purchase
+msgid "Profit Withhold on Purchases"
+msgstr "Profit Withhold on Purchases（技术名称）"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ec.selection__account_tax_group__l10n_ec_type__withhold_income_sale
+msgid "Profit Withhold on Sales"
+msgstr "Profit Withhold on 销售"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ec.selection__l10n_latam_document_type__internal_type__purchase_liquidation
+msgid "Purchase Liquidation"
+msgstr "采购 Liquidation"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ec.field_account_journal__l10n_ec_require_emission
+msgid "Require Emission"
+msgstr "Require Emission（技术名称）"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ec.model_l10n_ec_sri_payment
+msgid "SRI Payment Method"
+msgstr "SRI 付款方式"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_sri_payment__sequence
+msgid "Sequence"
+msgstr "序列"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ec.tax_report_line_parent_line_report_156
+msgid "Servicios profesionales prestados por sociedades residentes"
+msgstr "Servicios profesionales prestados por sociedades residentes（技术名称）"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ec.selection__account_tax_group__l10n_ec_type__ice
+msgid "Special Consumptions Tax (ICE)"
+msgstr "Special Consumptions 税 (ICE)"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ec.model_account_tax_group
+msgid "Tax Group"
+msgstr "税项组"
+
+#. module: l10n_ec
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ec/models/res_partner.py:0
+msgid ""
+"The VAT %s seems to be invalid as the tenth digit doesn't comply with the "
+"validation algorithm (SRI has stated that this validation is not required "
+"anymore for some VAT numbers)"
+msgstr ""
+"The VAT %s seems to be 无效 as the tenth digit doesn't comply with the "
+"validation algorithm (SRI has stated that this validation is not 必填 anymore "
+"for some VAT numbers)"
+
+#. module: l10n_ec
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ec/models/res_partner.py:0
+msgid ""
+"The VAT %s seems to be invalid as the tenth digit doesn't comply with the "
+"validation algorithm (could be an old VAT number)"
+msgstr ""
+"The VAT %s seems to be 无效 as the tenth digit doesn't comply with the "
+"validation algorithm (could be an old VAT 编号)"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ec.field_account_journal__l10n_ec_require_emission
+msgid "True if an entity and emission point must be set on the journal"
+msgstr "True if an entity and emission point must be set on the 日记账"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ec.field_account_tax_group__l10n_ec_type
+msgid "Type Ecuadorian Tax"
+msgstr "类型 Ecuadorian 税"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ec.selection__account_tax_group__l10n_ec_type__zero_vat
+msgid "VAT 0%"
+msgstr "VAT 0%（技术名称）"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ec.selection__account_tax_group__l10n_ec_type__vat12
+msgid "VAT 12%"
+msgstr "VAT 12%（技术名称）"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ec.selection__account_tax_group__l10n_ec_type__vat13
+msgid "VAT 13%"
+msgstr "VAT 13%（技术名称）"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ec.selection__account_tax_group__l10n_ec_type__vat14
+msgid "VAT 14%"
+msgstr "VAT 14%（技术名称）"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ec.selection__account_tax_group__l10n_ec_type__vat15
+msgid "VAT 15%"
+msgstr "VAT 15%（技术名称）"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ec.selection__account_tax_group__l10n_ec_type__vat05
+msgid "VAT 5%"
+msgstr "VAT 5%（技术名称）"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ec.selection__account_tax_group__l10n_ec_type__vat08
+msgid "VAT 8%"
+msgstr "VAT 8%（技术名称）"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ec.field_res_partner__l10n_ec_vat_validation
+#: model:ir.model.fields,field_description:l10n_ec.field_res_users__l10n_ec_vat_validation
+msgid "VAT Error message validation"
+msgstr "VAT 错误 消息 validation"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ec.selection__account_tax_group__l10n_ec_type__exempt_vat
+msgid "VAT Exempt"
+msgstr "VAT Exempt（技术名称）"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ec.selection__account_tax_group__l10n_ec_type__not_charged_vat
+msgid "VAT Not Charged"
+msgstr "VAT Not Charged（技术名称）"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ec.selection__account_tax_group__l10n_ec_type__withhold_vat_purchase
+msgid "VAT Withhold on Purchases"
+msgstr "VAT Withhold on Purchases（技术名称）"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ec.selection__account_tax_group__l10n_ec_type__withhold_vat_sale
+msgid "VAT Withhold on Sales"
+msgstr "VAT Withhold on 销售"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ec.tax_report_line_103_3530
+msgid "Valor retenido(3530)"
+msgstr "Valor retenido(3530)（技术名称）"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ec.tax_report_line_103_3621
+msgid "Valor retenido(3621)"
+msgstr "Valor retenido(3621)（技术名称）"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ec.tax_report_line_103_3640
+msgid "Valor retenido(3640)"
+msgstr "Valor retenido(3640)（技术名称）"
+
+#. module: l10n_ec
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ec.selection__l10n_latam_document_type__internal_type__withhold
+msgid "Withhold"
+msgstr "Withhold（技术名称）"

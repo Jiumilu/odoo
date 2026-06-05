@@ -1,0 +1,185 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_th
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_th
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_th.model_account_chart_template
+msgid "Account Chart Template"
+msgstr "科目表模版"
+
+#. module: l10n_th
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_th.model_res_partner_bank
+msgid "Bank Accounts"
+msgstr "银行账号"
+
+#. module: l10n_th
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_th/models/res_partner.py:0
+msgid "Branch %(code)s"
+msgstr "Branch %(code)s（技术名称）"
+
+#. module: l10n_th
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_th/models/res_bank.py:0
+msgid "Can't generate a PayNow QR code with a currency other than THB."
+msgstr "Can't generate a PayNow 二维码 with a 币种 其他 than THB."
+
+#. module: l10n_th
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.report,name:l10n_th.action_report_commercial_invoice
+msgid "Commercial Invoice"
+msgstr "Commercial 发票"
+
+#. module: l10n_th
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_th.model_res_partner
+msgid "Contact"
+msgstr "联系人"
+
+#. module: l10n_th
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,website_form_label:l10n_th.model_res_partner
+msgid "Create a Customer"
+msgstr "创建客户"
+
+#. module: l10n_th
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_th.field_account_chart_template__display_name
+#: model:ir.model.fields,field_description:l10n_th.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_th.field_ir_actions_report__display_name
+#: model:ir.model.fields,field_description:l10n_th.field_res_partner__display_name
+#: model:ir.model.fields,field_description:l10n_th.field_res_partner_bank__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_th
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_th.selection__res_partner_bank__proxy_type__ewallet_id
+msgid "Ewallet ID"
+msgstr "Ewallet ID（技术名称）"
+
+#. module: l10n_th
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_th/models/res_partner.py:0
+msgid "Headquarter"
+msgstr "Headquarter（技术名称）"
+
+#. module: l10n_th
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_th.field_account_chart_template__id
+#: model:ir.model.fields,field_description:l10n_th.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_th.field_ir_actions_report__id
+#: model:ir.model.fields,field_description:l10n_th.field_res_partner__id
+#: model:ir.model.fields,field_description:l10n_th.field_res_partner_bank__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_th
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_th.model_account_move
+msgid "Journal Entry"
+msgstr "日记账分录"
+
+#. module: l10n_th
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_th.field_res_partner__l10n_th_branch_name
+#: model:ir.model.fields,field_description:l10n_th.field_res_users__l10n_th_branch_name
+msgid "L10N Th Branch Name"
+msgstr "L10N Th Branch 名称"
+
+#. module: l10n_th
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_th.selection__res_partner_bank__proxy_type__merchant_tax_id
+msgid "Merchant Tax ID"
+msgstr "Merchant 税 ID"
+
+#. module: l10n_th
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_th.selection__res_partner_bank__proxy_type__mobile
+msgid "Mobile Number"
+msgstr "手机 编号"
+
+#. module: l10n_th
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_th/models/ir_actions_report.py:0
+msgid "Only invoices could be printed."
+msgstr "只能打印发票。"
+
+#. module: l10n_th
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_th.field_account_setup_bank_manual_config__proxy_type
+#: model:ir.model.fields,field_description:l10n_th.field_res_partner_bank__proxy_type
+msgid "Proxy Type"
+msgstr "代理类型"
+
+#. module: l10n_th
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_th.model_ir_actions_report
+msgid "Report Action"
+msgstr "报表动作"
+
+#. module: l10n_th
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_th.report_invoice_document
+msgid "Tax Invoice"
+msgstr "税 发票"
+
+#. module: l10n_th
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_th/models/res_bank.py:0
+msgid ""
+"The Merchant Tax ID must be in the format 1234567890123 for account number "
+"%s."
+msgstr "The Merchant 税 ID must be in the format 1234567890123 for 账户 编号 %s."
+
+#. module: l10n_th
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_th/models/res_bank.py:0
+msgid ""
+"The Mobile Number must be in the format 0812345678 for account number %s."
+msgstr "The 手机 编号 must be in the format 0812345678 for 账户 编号 %s."
+
+#. module: l10n_th
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_th/models/res_bank.py:0
+msgid ""
+"The PayNow Type must be either Ewallet ID, Merchant Tax ID or Mobile Number "
+"to generate a Thailand Bank QR code"
+msgstr ""
+"The PayNow 类型 must be either Ewallet ID, Merchant 税 ID or 手机 编号 to generate "
+"a Thailand 银行 二维码"
+
+#. module: l10n_th
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_th/models/res_bank.py:0
+msgid ""
+"The QR Code Type must be either Ewallet ID, Merchant Tax ID or Mobile Number"
+" to generate a Thailand Bank QR code for account number %s."
+msgstr ""
+"The 二维码 类型 must be either Ewallet ID, Merchant 税 ID or 手机 编号 to generate a "
+"Thailand 银行 二维码 for 账户 编号 %s."

@@ -1,0 +1,1233 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_br
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_br
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_br/models/res_partner_bank.py:0
+msgid "%s is not a valid CPF or CNPJ (don't include periods or dashes)."
+msgstr "%s is not a 有效 CPF or CNPJ (don't include periods or dashes)."
+
+#. module: l10n_br
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_br/models/res_partner_bank.py:0
+msgid "%s is not a valid email."
+msgstr "%s is not a 有效 电子邮件."
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_br.address_form_fields
+msgid "<option value=\"\">City...</option>"
+msgstr "<option value=\"\">City...</option>（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_br.br_partner_address_form
+msgid "<span> - </span>"
+msgstr "<span> - </span>"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_br.model_account_chart_template
+msgid "Account Chart Template"
+msgstr "科目表模版"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_br.model_account_move_reversal
+msgid "Account Move Reversal"
+msgstr "会计分录撤销"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.document.type,name:l10n_br.dt_10
+msgid "Aircraft Knowledge"
+msgstr "Aircraft Knowledge（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_br.model_res_partner_bank
+msgid "Bank Accounts"
+msgstr "银行账号"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.document.type,name:l10n_br.dt_26
+msgid "Bill of Lading Multimodal Transport"
+msgstr "账单 of Lading Multimodal Transport"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.ui.menu,name:l10n_br.brazilian_accounting_menu
+msgid "Brazil"
+msgstr "巴西"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_br.field_account_journal__l10n_br_invoice_serial
+msgid ""
+"Brazil: Series number associated with this Journal. If more than one Series "
+"needs to be used, duplicate this Journal and assign the new Series to the "
+"duplicated Journal."
+msgstr ""
+"Brazil: Series 编号 associated with this 日记账. If more than one Series needs to"
+" be used, 复制 this 日记账 and assign the 新建 Series to the duplicated 日记账."
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_br.field_res_city__l10n_br_zip_ranges
+msgid ""
+"Brazil: technical field that maps a city to one or more zip code ranges for "
+"the frontend."
+msgstr ""
+"Brazil: technical field that maps a 城市 to one or more zip 代码 ranges for the "
+"frontend."
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_br.field_res_city__l10n_br_zip_range_ids
+msgid ""
+"Brazil: technical field that maps a city to one or more zip code ranges."
+msgstr "Brazil: technical field that maps a 城市 to one or more zip 代码 ranges."
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_br.model_l10n_br_zip_range
+msgid "Brazilian city zip range"
+msgstr "Brazilian 城市 zip range"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_cbs
+msgid "CBS"
+msgstr "CBS（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_cbs_1
+msgid "CBS base"
+msgstr "CBS base（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_cbs_2
+msgid "CBS tax"
+msgstr "CBS 税"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_cbsd
+msgid "CBSD"
+msgstr "CBSD（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_cbsd_1
+msgid "CBSD base"
+msgstr "CBSD base（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_cbsd_2
+msgid "CBSD tax"
+msgstr "CBSD 税"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_cbsgc
+msgid "CBSGC"
+msgstr "CBSGC（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_cbsgc_1
+msgid "CBSGC base"
+msgstr "CBSGC base（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_cbsgc_2
+msgid "CBSGC tax"
+msgstr "CBSGC 税"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_cbspc
+msgid "CBSPC"
+msgstr "CBSPC（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_cbspc_1
+msgid "CBSPC base"
+msgstr "CBSPC base（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_cbspc_2
+msgid "CBSPC tax"
+msgstr "CBSPC 税"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_cbspcsp
+msgid "CBSPCSP"
+msgstr "CBSPCSP（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_cbspcsp_1
+msgid "CBSPCSP base"
+msgstr "CBSPCSP base（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_cbspcsp_2
+msgid "CBSPCSP tax"
+msgstr "CBSPCSP 税"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_cbspw
+msgid "CBSPW"
+msgstr "CBSPW（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_cbspw_1
+msgid "CBSPW base"
+msgstr "CBSPW base（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_cbspw_2
+msgid "CBSPW tax"
+msgstr "CBSPW 税"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_cbsr
+msgid "CBSR"
+msgstr "CBSR（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_cbsr_1
+msgid "CBSR base"
+msgstr "CBSR base（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_cbsr_2
+msgid "CBSR tax"
+msgstr "CBSR 税"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_cbssw
+msgid "CBSSW"
+msgstr "CBSSW（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_cbssw_1
+msgid "CBSSW base"
+msgstr "CBSSW base（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_cbssw_2
+msgid "CBSSW tax"
+msgstr "CBSSW 税"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_cbstc
+msgid "CBSTC"
+msgstr "CBSTC（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_cbstc_1
+msgid "CBSTC base"
+msgstr "CBSTC base（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_cbstc_2
+msgid "CBSTC tax"
+msgstr "CBSTC 税"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_br.selection__res_partner_bank__proxy_type__br_cpf_cnpj
+msgid "CPF/CNPJ (BR)"
+msgstr "CPF/CNPJ (BR)（技术名称）"
+
+#. module: l10n_br
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_br/models/res_partner_bank.py:0
+msgid "Can't generate a Pix QR code with a currency other than BRL."
+msgstr "Can't generate a Pix 二维码 with a 币种 其他 than BRL."
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_br.model_res_city
+#: model:ir.model.fields,field_description:l10n_br.field_l10n_br_zip_range__city_id
+#: model_terms:ir.ui.view,arch_db:l10n_br.br_partner_address_form
+msgid "City"
+msgstr "城市"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_br.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_br.address_form_fields
+#: model_terms:ir.ui.view,arch_db:l10n_br.br_partner_address_form
+msgid "Complement"
+msgstr "Complement（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_br.model_res_partner
+msgid "Contact"
+msgstr "联系人"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_br.br_partner_address_form
+msgid "Country"
+msgstr "国家/地区"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,website_form_label:l10n_br.model_res_partner
+msgid "Create a Customer"
+msgstr "创建客户"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_br.field_l10n_br_zip_range__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_br.field_l10n_br_zip_range__create_date
+msgid "Created on"
+msgstr "创建日期"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.document.type,name:l10n_br.dt_18
+msgid "Daily Movement Summary"
+msgstr "Daily Movement Summary（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_br.field_account_tax__tax_discount
+msgid "Discount this Tax in Price"
+msgstr "折扣 this 税 in 价格"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_br.field_account_chart_template__display_name
+#: model:ir.model.fields,field_description:l10n_br.field_account_fiscal_position__display_name
+#: model:ir.model.fields,field_description:l10n_br.field_account_journal__display_name
+#: model:ir.model.fields,field_description:l10n_br.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_br.field_account_move_reversal__display_name
+#: model:ir.model.fields,field_description:l10n_br.field_account_tax__display_name
+#: model:ir.model.fields,field_description:l10n_br.field_l10n_br_zip_range__display_name
+#: model:ir.model.fields,field_description:l10n_br.field_res_city__display_name
+#: model:ir.model.fields,field_description:l10n_br.field_res_company__display_name
+#: model:ir.model.fields,field_description:l10n_br.field_res_partner__display_name
+#: model:ir.model.fields,field_description:l10n_br.field_res_partner_bank__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_br.view_partner_bank_form_inherit_account
+msgid "Documentation"
+msgstr "文档"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_br.model_account_tax
+msgid "ETA tax codes mixin"
+msgstr "ETA 税 codes mixin"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.document.type,name:l10n_br.dt_57
+msgid "Electronic Bill of Lading (CT-e)"
+msgstr "Electronic 账单 of Lading (CT-e)"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.document.type,name:l10n_br.dt_55
+msgid "Electronic Invoice (NF-e)"
+msgstr "电子发票 (NF-e)"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.document.type,name:l10n_br.dt_65
+msgid "Electronic Invoice to the Final Consumer (NFC-e)"
+msgstr "电子发票 to the Final Consumer (NFC-e)"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.document.type,name:l10n_br.dt_58
+msgid "Electronic Manifesto of Tax Documents (MDF-e)"
+msgstr "Electronic Manifesto of 税 单据 (MDF-e)"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.document.type,name:l10n_br.dt_SE
+msgid "Electronic Service Invoice - NFS-e"
+msgstr "Electronic 服务 发票 - NFS-e"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.document.type,name:l10n_br.dt_60
+msgid "Electronic Tax Coupon (CF-e-ECF)"
+msgstr "Electronic 税 Coupon (CF-e-ECF)"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.document.type,name:l10n_br.dt_59
+msgid "Electronic Tax Coupon (CF-e-SAT)"
+msgstr "Electronic 税 Coupon (CF-e-SAT)"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_br.selection__res_partner_bank__proxy_type__email
+msgid "Email Address"
+msgstr "Email地址"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_br.model_account_fiscal_position
+msgid "Fiscal Position"
+msgstr "财政状况"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_br.field_l10n_br_zip_range__start
+msgid "From"
+msgstr "从"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_br.field_res_city__l10n_br_zip_ranges
+msgid "Frontend Zip Ranges"
+msgstr "Frontend Zip Ranges（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.document.type,name:l10n_br.dt_08
+msgid "Ground Bill of Lading"
+msgstr "Ground 账单 of Lading"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibs
+msgid "IBS"
+msgstr "IBS（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibs_1
+msgid "IBS base"
+msgstr "IBS base（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibs_2
+msgid "IBS tax"
+msgstr "IBS 税"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibsd
+msgid "IBSD"
+msgstr "IBSD（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibsd_1
+msgid "IBSD base"
+msgstr "IBSD base（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibsd_2
+msgid "IBSD tax"
+msgstr "IBSD 税"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibsm
+msgid "IBSM"
+msgstr "IBSM（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibsm_1
+msgid "IBSM base"
+msgstr "IBSM base（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibsm_2
+msgid "IBSM tax"
+msgstr "IBSM 税"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibsmd
+msgid "IBSMD"
+msgstr "IBSMD（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibsmd_1
+msgid "IBSMD base"
+msgstr "IBSMD base（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibsmd_2
+msgid "IBSMD tax"
+msgstr "IBSMD 税"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibsmgc
+msgid "IBSMGC"
+msgstr "IBSMGC（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibsmgc_1
+msgid "IBSMGC base"
+msgstr "IBSMGC base（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibsmgc_2
+msgid "IBSMGC tax"
+msgstr "IBSMGC 税"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibsmr
+msgid "IBSMR"
+msgstr "IBSMR（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibsmr_1
+msgid "IBSMR base"
+msgstr "IBSMR base（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibsmr_2
+msgid "IBSMR tax"
+msgstr "IBSMR 税"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibsmrt
+msgid "IBSMRT"
+msgstr "IBSMRT（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibsmrt_1
+msgid "IBSMRT base"
+msgstr "IBSMRT base（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibsmrt_2
+msgid "IBSMRT tax"
+msgstr "IBSMRT 税"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibspc
+msgid "IBSPC"
+msgstr "IBSPC（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibspc_1
+msgid "IBSPC base"
+msgstr "IBSPC base（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibspc_2
+msgid "IBSPC tax"
+msgstr "IBSPC 税"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibspcsc
+msgid "IBSPCSC"
+msgstr "IBSPCSC（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibspcsc_1
+msgid "IBSPCSC base"
+msgstr "IBSPCSC base（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibspcsc_2
+msgid "IBSPCSC tax"
+msgstr "IBSPCSC 税"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibspw
+msgid "IBSPW"
+msgstr "IBSPW（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibspw_1
+msgid "IBSPW base"
+msgstr "IBSPW base（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibspw_2
+msgid "IBSPW tax"
+msgstr "IBSPW 税"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibssw
+msgid "IBSSW"
+msgstr "IBSSW（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibssw_1
+msgid "IBSSW base"
+msgstr "IBSSW base（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibssw_2
+msgid "IBSSW tax"
+msgstr "IBSSW 税"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibstc
+msgid "IBSTC"
+msgstr "IBSTC（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibstc_1
+msgid "IBSTC base"
+msgstr "IBSTC base（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibstc_2
+msgid "IBSTC tax"
+msgstr "IBSTC 税"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibsuf
+msgid "IBSUF"
+msgstr "IBSUF（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibsuf_1
+msgid "IBSUF base"
+msgstr "IBSUF base（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibsuf_2
+msgid "IBSUF tax"
+msgstr "IBSUF 税"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibsufd
+msgid "IBSUFD"
+msgstr "IBSUFD（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibsufd_1
+msgid "IBSUFD base"
+msgstr "IBSUFD base（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibsufd_2
+msgid "IBSUFD tax"
+msgstr "IBSUFD 税"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibsufgc
+msgid "IBSUFGC"
+msgstr "IBSUFGC（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibsufgc_1
+msgid "IBSUFGC base"
+msgstr "IBSUFGC base（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibsufgc_2
+msgid "IBSUFGC tax"
+msgstr "IBSUFGC 税"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibsufr
+msgid "IBSUFR"
+msgstr "IBSUFR（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibsufr_1
+msgid "IBSUFR base"
+msgstr "IBSUFR base（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibsufr_2
+msgid "IBSUFR tax"
+msgstr "IBSUFR 税"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibsufrt
+msgid "IBSUFRT"
+msgstr "IBSUFRT（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibsufrt_1
+msgid "IBSUFRT base"
+msgstr "IBSUFRT base（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibsufrt_2
+msgid "IBSUFRT tax"
+msgstr "IBSUFRT 税"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibszfmpc
+msgid "IBSZFMPC"
+msgstr "IBSZFMPC（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibszfmpc_1
+msgid "IBSZFMPC base"
+msgstr "IBSZFMPC base（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_ibszfmpc_2
+msgid "IBSZFMPC tax"
+msgstr "IBSZFMPC 税"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_br.field_account_chart_template__id
+#: model:ir.model.fields,field_description:l10n_br.field_account_fiscal_position__id
+#: model:ir.model.fields,field_description:l10n_br.field_account_journal__id
+#: model:ir.model.fields,field_description:l10n_br.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_br.field_account_move_reversal__id
+#: model:ir.model.fields,field_description:l10n_br.field_account_tax__id
+#: model:ir.model.fields,field_description:l10n_br.field_l10n_br_zip_range__id
+#: model:ir.model.fields,field_description:l10n_br.field_res_city__id
+#: model:ir.model.fields,field_description:l10n_br.field_res_company__id
+#: model:ir.model.fields,field_description:l10n_br.field_res_partner__id
+#: model:ir.model.fields,field_description:l10n_br.field_res_partner_bank__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_br.field_res_company__l10n_br_ie_code
+#: model:ir.model.fields,field_description:l10n_br.field_res_partner__l10n_br_ie_code
+#: model:ir.model.fields,field_description:l10n_br.field_res_users__l10n_br_ie_code
+msgid "IE"
+msgstr "IE（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_br.field_res_company__l10n_br_im_code
+#: model:ir.model.fields,field_description:l10n_br.field_res_partner__l10n_br_im_code
+#: model:ir.model.fields,field_description:l10n_br.field_res_users__l10n_br_im_code
+msgid "IM"
+msgstr "IM（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_is
+msgid "IS"
+msgstr "IS（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_is_1
+msgid "IS base"
+msgstr "IS base（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_is_2
+msgid "IS tax"
+msgstr "IS 税"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_isst
+msgid "ISST"
+msgstr "ISST（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_isst_1
+msgid "ISST base"
+msgstr "ISST base（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_br.tax_report_isst_2
+msgid "ISST tax"
+msgstr "ISST 税"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.document.type,name:l10n_br.dt_02
+msgid "In-Consumer Sales Invoice"
+msgstr "In-Consumer 销售 发票"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_br.selection__account_fiscal_position__l10n_br_fp_type__internal
+msgid "Internal"
+msgstr "内部"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_br.field_account_fiscal_position__l10n_br_fp_type
+msgid "Interstate Fiscal Position Type"
+msgstr "Interstate 财务规则 类型"
+
+#. module: l10n_br
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_br/models/l10n_br_zip_range.py:0
+msgid ""
+"Invalid zip range format: %(start)s %(end)s. It should follow this format: "
+"01000-001"
+msgstr ""
+"无效 zip range format: %(start)s %(end)s. It should 关注 this format: 01000-001"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.document.type,name:l10n_br.dt_28
+msgid "Invoice / Gas Supply Channel Account"
+msgstr "发票 / Gas Supply Channel 账户"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.document.type,name:l10n_br.dt_29
+msgid "Invoice / Water Supply Account"
+msgstr "发票 / Water Supply 账户"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.document.type,name:l10n_br.dt_01
+msgid "Invoice 1 / 1A"
+msgstr "发票 1 / 1A"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.document.type,name:l10n_br.dt_27
+msgid "Invoice for Rail Transport De-Cargo"
+msgstr "发票 for Rail Transport De-Cargo"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.document.type,name:l10n_br.dt_22
+msgid "Invoice for Telecommunication Service"
+msgstr "发票 for Telecommunication 服务"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.document.type,name:l10n_br.dt_07
+msgid "Invoice for Transport Service"
+msgstr "发票 for Transport 服务"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.document.type,name:l10n_br.dt_21
+msgid "Invoice for de-Communication Service"
+msgstr "发票 for de-Communication 服务"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.document.type,name:l10n_br.dt_04
+msgid "Invoice from Producer"
+msgstr "发票 从 Producer"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_br.model_account_journal
+msgid "Journal"
+msgstr "日记账"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_br.model_account_move
+msgid "Journal Entry"
+msgstr "日记账分录"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_br.field_l10n_br_zip_range__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_br.field_l10n_br_zip_range__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.document.type,name:l10n_br.dt_8B
+msgid "Loose Ground Bill of Lading"
+msgstr "Loose Ground 账单 of Lading"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_br.field_account_tax__amount_mva
+msgid "MVA Percent"
+msgstr "MVA Percent（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.document.type,name:l10n_br.dt_09
+msgid "Maritime Bill of Lading"
+msgstr "Maritime 账单 of Lading"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_br.field_account_tax__tax_discount
+msgid "Mark it for (ICMS, PIS e etc.)."
+msgstr "Mark it for (ICMS, PIS e etc.).（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_br.selection__res_partner_bank__proxy_type__mobile
+msgid "Mobile Number"
+msgstr "手机 编号"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_br.field_res_company__l10n_br_im_code
+#: model:ir.model.fields,help:l10n_br.field_res_partner__l10n_br_im_code
+#: model:ir.model.fields,help:l10n_br.field_res_users__l10n_br_im_code
+msgid "Municipal Tax Identification Number"
+msgstr "Municipal 税 Identification 编号"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_br.field_res_company__l10n_br_nire_code
+msgid "NIRE"
+msgstr "NIRE（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_br.address_form_fields
+#: model_terms:ir.ui.view,arch_db:l10n_br.br_partner_address_form
+msgid "Neighborhood"
+msgstr "Neighborhood（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.document.type,name:l10n_br.dt_06
+msgid "Nota Fiscal / Electricity Bill"
+msgstr "Nota 财务 / Electricity 账单"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_br.selection__account_fiscal_position__l10n_br_fp_type__interstate
+msgid "Other interstate"
+msgstr "其他 interstate"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_br.field_account_setup_bank_manual_config__proxy_type
+#: model:ir.model.fields,field_description:l10n_br.field_res_partner_bank__proxy_type
+msgid "Proxy Type"
+msgstr "代理类型"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.document.type,name:l10n_br.dt_11
+msgid "Railway Bill of Lading"
+msgstr "Railway 账单 of Lading"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.document.type,name:l10n_br.dt_16
+msgid "Railway Ticket"
+msgstr "Railway Ticket（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_br.selection__res_partner_bank__proxy_type__br_random
+msgid "Random Key (BR)"
+msgstr "Random Key (BR)（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_br.field_account_tax__base_reduction
+msgid "Redution"
+msgstr "Redution（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.document.type,name:l10n_br.dt_13
+msgid "Road Ticket"
+msgstr "Road Ticket（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_br.field_res_partner__l10n_br_isuf_code
+#: model:ir.model.fields,field_description:l10n_br.field_res_users__l10n_br_isuf_code
+msgid "SUFRAMA code"
+msgstr "SUFRAMA 代码"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_br.field_res_partner__l10n_br_isuf_code
+#: model:ir.model.fields,help:l10n_br.field_res_users__l10n_br_isuf_code
+msgid "SUFRAMA registration number."
+msgstr "SUFRAMA registration 编号."
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_br.field_account_journal__l10n_br_invoice_serial
+msgid "Series"
+msgstr "系列"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.document.type,name:l10n_br.dt_1B
+msgid "Single invoice"
+msgstr "Single 发票"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_br.selection__account_fiscal_position__l10n_br_fp_type__ss_nnm
+msgid "South/Southeast selling to North/Northeast/Midwest"
+msgstr "South/Southeast selling to North/Northeast/Midwest（技术名称）"
+
+#. module: l10n_br
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_br/models/l10n_br_zip_range.py:0
+msgid "Start should be less than end: %(start)s %(end)s"
+msgstr "Start should be less than end: %(start)s %(end)s（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_br.br_partner_address_form
+msgid "State"
+msgstr "省/州"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_br.field_res_company__l10n_br_nire_code
+msgid "State Commercial Identification Number. Should contain 11 digits."
+msgstr "状态 Commercial Identification 编号. Should contain 11 digits."
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_br.field_res_company__l10n_br_ie_code
+#: model:ir.model.fields,help:l10n_br.field_res_partner__l10n_br_ie_code
+#: model:ir.model.fields,help:l10n_br.field_res_users__l10n_br_ie_code
+msgid "State Tax Identification Number. Should contain 9-14 digits."
+msgstr "状态 税 Identification 编号. Should contain 9-14 digits."
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_br.address_form_fields
+#: model_terms:ir.ui.view,arch_db:l10n_br.br_partner_address_form
+msgid "Street"
+msgstr "街道"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_br.br_partner_address_form
+msgid "Street #"
+msgstr "Street #（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_br.address_form_fields
+msgid "Street Number"
+msgstr "Street 编号"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_br.br_partner_address_form
+msgid "Street..."
+msgstr "街道..."
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.document.type,name:l10n_br.dt_2D
+msgid "Tax Coupon"
+msgstr "税 Coupon"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.document.type,name:l10n_br.dt_2E
+msgid "Tax Coupon-Ticket"
+msgstr "税 Coupon-Ticket"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.constraint,message:l10n_br.constraint_l10n_br_zip_range_uniq_start
+msgid "The \"from\" zip must be unique"
+msgstr "The \"从\" zip must be unique"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.constraint,message:l10n_br.constraint_l10n_br_zip_range_uniq_end
+msgid "The \"to\" zip must be unique."
+msgstr "The \"to\" zip must be unique.（技术名称）"
+
+#. module: l10n_br
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_br/models/res_partner_bank.py:0
+msgid ""
+"The mobile number %s is invalid. It must start with +55, contain a 2 digit "
+"territory or state code followed by a 9 digit number."
+msgstr ""
+"The 手机 编号 %s is 无效. It must start with +55, contain a 2 digit territory or "
+"状态 代码 followed by a 9 digit 编号."
+
+#. module: l10n_br
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_br/models/res_partner_bank.py:0
+msgid ""
+"The proxy type must be Email Address, Mobile Number, CPF/CNPJ (BR) or Random"
+" Key (BR) for Pix code generation."
+msgstr ""
+"The proxy 类型 must be 电子邮件 地址, 手机 编号, CPF/CNPJ (BR) or Random Key (BR) for "
+"Pix 代码 generation."
+
+#. module: l10n_br
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_br/models/res_partner_bank.py:0
+msgid ""
+"The random key %s is invalid, the format looks like this: "
+"71d6c6e1-64ea-4a11-9560-a10870c40ca2"
+msgstr ""
+"The random key %s is 无效, the format looks like this: "
+"71d6c6e1-64ea-4a11-9560-a10870c40ca2"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_br.field_l10n_br_zip_range__end
+msgid "To"
+msgstr "到"
+
+#. module: l10n_br
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_br/models/res_partner_bank.py:0
+msgid ""
+"To generate a Pix code the proxy type for %s must be Email Address, Mobile "
+"Number, CPF/CNPJ (BR) or Random Key (BR)."
+msgstr ""
+"To generate a Pix 代码 the proxy 类型 for %s must be 电子邮件 地址, 手机 编号, CPF/CNPJ "
+"(BR) or Random Key (BR)."
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_br.field_account_tax__amount_mva
+#: model:ir.model.fields,help:l10n_br.field_account_tax__base_reduction
+msgid "Um percentual decimal em % entre 0-1."
+msgstr "Um percentual decimal em % entre 0-1.（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.document.type,name:l10n_br.dt_14
+msgid "Waterway Ticket"
+msgstr "Waterway Ticket（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_br.br_partner_address_form
+msgid "ZIP"
+msgstr "邮政编码"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_br.field_res_city__l10n_br_zip_range_ids
+msgid "Zip Ranges"
+msgstr "Zip Ranges（技术名称）"
+
+#. module: l10n_br
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.document.type,name:l10n_br.dt_15
+msgid "e-Baggage Ticket"
+msgstr "e-Baggage Ticket（技术名称）"

@@ -1,0 +1,249 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_uy
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_uy
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_uy/models/l10n_latam_document_type.py:0
+msgid ""
+"%(document_number)s is not a valid value for %(document_type)s.\n"
+"The document number must be entered with a maximum of 2 letters for the first part and 7 numbers for the second. The following are examples of valid document numbers:\n"
+"- XX0000001\n"
+" - YY0000123\n"
+" - A0000001"
+msgstr ""
+"%(document_number)s is not a 有效 值 for %(document_type)s. The 单据 编号 must be "
+"entered with a maximum of 2 letters for the first part and 7 numbers for the"
+" second. The following are examples of 有效 单据 numbers: - XX0000001 - "
+"YY0000123 - A0000001"
+
+#. module: l10n_uy
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_uy/models/res_partner.py:0
+msgid "3:402.010-2 or 93:402.010-1 (CI or NIE)"
+msgstr "3:402.010-2 or 93:402.010-1 (CI or NIE)（技术名称）"
+
+#. module: l10n_uy
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_uy.model_account_chart_template
+msgid "Account Chart Template"
+msgstr "科目表模版"
+
+#. module: l10n_uy
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.column,name:l10n_uy.tax_report_balance
+msgid "Balance"
+msgstr "余额"
+
+#. module: l10n_uy
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_uy.account_tax_report_base_impb_cmprs_reduced
+msgid "Base Purchases Reduced VAT"
+msgstr "Base Purchases Reduced VAT（技术名称）"
+
+#. module: l10n_uy
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_uy.account_tax_report_base_impb_vnts_reduced
+msgid "Base Sales Reduced VAT"
+msgstr "Base 销售 Reduced VAT"
+
+#. module: l10n_uy
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_uy/models/res_partner.py:0
+msgid "CI/NIE"
+msgstr "CI/NIE（技术名称）"
+
+#. module: l10n_uy
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_uy.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: l10n_uy
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_uy.model_res_partner
+msgid "Contact"
+msgstr "联系人"
+
+#. module: l10n_uy
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,website_form_label:l10n_uy.model_res_partner
+msgid "Create a Customer"
+msgstr "创建客户"
+
+#. module: l10n_uy
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_uy.field_l10n_latam_identification_type__l10n_uy_dgi_code
+msgid "DGI Code"
+msgstr "DGI 代码"
+
+#. module: l10n_uy
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_uy.field_account_chart_template__display_name
+#: model:ir.model.fields,field_description:l10n_uy.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_uy.field_account_tax__display_name
+#: model:ir.model.fields,field_description:l10n_uy.field_l10n_latam_document_type__display_name
+#: model:ir.model.fields,field_description:l10n_uy.field_l10n_latam_identification_type__display_name
+#: model:ir.model.fields,field_description:l10n_uy.field_res_company__display_name
+#: model:ir.model.fields,field_description:l10n_uy.field_res_partner__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_uy
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_uy.model_account_tax
+msgid "ETA tax codes mixin"
+msgstr "ETA 税 codes mixin"
+
+#. module: l10n_uy
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.identification.type,description:l10n_uy.it_nife
+msgid "Foreign tax identification number"
+msgstr "Foreign 税 identification 编号"
+
+#. module: l10n_uy
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.identification.type,description:l10n_uy.it_nie
+msgid "Foreigner Identity Number"
+msgstr "Foreigner Identity 编号"
+
+#. module: l10n_uy
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_uy.field_account_chart_template__id
+#: model:ir.model.fields,field_description:l10n_uy.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_uy.field_account_tax__id
+#: model:ir.model.fields,field_description:l10n_uy.field_l10n_latam_document_type__id
+#: model:ir.model.fields,field_description:l10n_uy.field_l10n_latam_identification_type__id
+#: model:ir.model.fields,field_description:l10n_uy.field_res_company__id
+#: model:ir.model.fields,field_description:l10n_uy.field_res_partner__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_uy
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_uy.model_l10n_latam_identification_type
+msgid "Identification Types"
+msgstr "Identification Types（技术名称）"
+
+#. module: l10n_uy
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_uy.model_account_move
+msgid "Journal Entry"
+msgstr "日记账分录"
+
+#. module: l10n_uy
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_uy.model_l10n_latam_document_type
+msgid "Latam Document Type"
+msgstr "Latam 单据类型"
+
+#. module: l10n_uy
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.identification.type,name:l10n_uy.it_nie
+msgid "NIE"
+msgstr "NIE（技术名称）"
+
+#. module: l10n_uy
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.identification.type,name:l10n_uy.it_nife
+msgid "NIFE"
+msgstr "NIFE（技术名称）"
+
+#. module: l10n_uy
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_uy/models/template_uy.py:0
+msgid "Purchases"
+msgstr "采购"
+
+#. module: l10n_uy
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_uy.account_tax_report_cmprs_iva_reduced
+msgid "Purchases Reduced VAT"
+msgstr "Purchases Reduced VAT（技术名称）"
+
+#. module: l10n_uy
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_uy/models/template_uy.py:0
+msgid "Sales"
+msgstr "销售"
+
+#. module: l10n_uy
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_uy.account_tax_report_vnts_iva_reduced
+msgid "Sales Reduced VAT"
+msgstr "销售 Reduced VAT"
+
+#. module: l10n_uy
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_uy.field_account_tax__l10n_uy_tax_category
+msgid "Tax Category"
+msgstr "税 类别"
+
+#. module: l10n_uy
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_uy/models/res_partner.py:0
+msgid ""
+"The %(vat_label)s number [%(wrong_vat)s] does not seem to be valid.\n"
+"Note: the expected format is %(expected_format)s"
+msgstr ""
+"The %(vat_label)s 编号 [%(wrong_vat)s] does not seem to be 有效. Note: the "
+"expected format is %(expected_format)s"
+
+#. module: l10n_uy
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_uy/models/res_partner.py:0
+msgid ""
+"The %(vat_label)s number [%(wrong_vat)s] for %(partner_label)s does not seem to be valid.\n"
+"Note: the expected format is %(expected_format)s"
+msgstr ""
+"The %(vat_label)s 编号 [%(wrong_vat)s] for %(partner_label)s does not seem to "
+"be 有效. Note: the expected format is %(expected_format)s"
+
+#. module: l10n_uy
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_uy.field_account_tax__l10n_uy_tax_category
+msgid ""
+"UY: Use to group the transactions in the Financial Reports required by DGI"
+msgstr "UY: Use to 分组 the transactions in the Financial 报表 必填 by DGI"
+
+#. module: l10n_uy
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_uy/models/template_uy.py:0
+msgid "Uruguayan Generic Chart of Accounts"
+msgstr "Uruguayan Generic Chart of 账户"
+
+#. module: l10n_uy
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_uy.selection__account_tax__l10n_uy_tax_category__vat
+msgid "VAT"
+msgstr "增值税"
+
+#. module: l10n_uy
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_uy/models/res_partner.py:0
+msgid "partner [%s]"
+msgstr "业务伙伴[%s]"

@@ -1,0 +1,172 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_de
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_de
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_de.field_account_tax__l10n_de_datev_code
+msgid "4 digits code use by Datev"
+msgstr "4 digits 代码 use by Datev"
+
+#. module: l10n_de
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_de.view_account_secure_entries_wizard
+msgid ""
+"<i>By securing entries, you make them unchangeable.</i>\n"
+"                        <br/>\n"
+"                        <i>This is required by law to ensure complete and traceable bookkeeping in accordance with GoBD.</i>"
+msgstr ""
+"<i>By securing entries, you make them unchangeable.</i> <br/> <i>This is 必填 "
+"by law to ensure complete and traceable bookkeeping in accordance with "
+"GoBD.</i>"
+
+#. module: l10n_de
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_de.model_account_account
+msgid "Account"
+msgstr "科目"
+
+#. module: l10n_de
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_de.model_account_chart_template
+msgid "Account Chart Template"
+msgstr "科目表模版"
+
+#. module: l10n_de
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_de.field_res_company__l10n_de_widnr
+msgid "Business identification number."
+msgstr "Business identification 编号."
+
+#. module: l10n_de
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_de.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: l10n_de
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_de.field_account_account__display_name
+#: model:ir.model.fields,field_description:l10n_de.field_account_chart_template__display_name
+#: model:ir.model.fields,field_description:l10n_de.field_account_journal__display_name
+#: model:ir.model.fields,field_description:l10n_de.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_de.field_account_tax__display_name
+#: model:ir.model.fields,field_description:l10n_de.field_ir_actions_report__display_name
+#: model:ir.model.fields,field_description:l10n_de.field_product_template__display_name
+#: model:ir.model.fields,field_description:l10n_de.field_res_company__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_de
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_de.model_account_tax
+msgid "ETA tax codes mixin"
+msgstr "ETA 税 codes mixin"
+
+#. module: l10n_de
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_de.field_account_account__id
+#: model:ir.model.fields,field_description:l10n_de.field_account_chart_template__id
+#: model:ir.model.fields,field_description:l10n_de.field_account_journal__id
+#: model:ir.model.fields,field_description:l10n_de.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_de.field_account_tax__id
+#: model:ir.model.fields,field_description:l10n_de.field_ir_actions_report__id
+#: model:ir.model.fields,field_description:l10n_de.field_product_template__id
+#: model:ir.model.fields,field_description:l10n_de.field_res_company__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_de
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_de.model_account_journal
+msgid "Journal"
+msgstr "日记账"
+
+#. module: l10n_de
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_de.model_account_move
+msgid "Journal Entry"
+msgstr "日记账分录"
+
+#. module: l10n_de
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_de.field_account_tax__l10n_de_datev_code
+msgid "L10N De Datev Code"
+msgstr "L10N De Datev 代码"
+
+#. module: l10n_de
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_de.model_product_template
+msgid "Product"
+msgstr "产品"
+
+#. module: l10n_de
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_de.model_ir_actions_report
+msgid "Report Action"
+msgstr "报表动作"
+
+#. module: l10n_de
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_de.field_res_company__l10n_de_stnr
+msgid "St.-Nr."
+msgstr "St.-Nr.（技术名称）"
+
+#. module: l10n_de
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_de.field_res_company__l10n_de_stnr
+msgid ""
+"Tax number. Scheme: ??FF0BBBUUUUP, e.g.: 2893081508152 "
+"https://de.wikipedia.org/wiki/Steuernummer"
+msgstr ""
+"税 编号. Scheme: ??FF0BBBUUUUP, e.g.: 2893081508152 "
+"https://de.wikipedia.org/wiki/Steuernummer"
+
+#. module: l10n_de
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_de.field_res_company__l10n_de_widnr
+msgid "W-IdNr."
+msgstr "W-IdNr.（技术名称）"
+
+#. module: l10n_de
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_de/models/account_account.py:0
+msgid "You can not change the code of an account."
+msgstr "You can not change the 代码 of an 账户."
+
+#. module: l10n_de
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_de/models/res_company.py:0
+msgid "You cannot change the fiscal country."
+msgstr "You cannot change the 财务国家/地区."
+
+#. module: l10n_de
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_de/models/res_company.py:0
+msgid "Your company's SteuerNummer is not compatible with your state"
+msgstr "Your company's SteuerNummer is not compatible with your 状态"
+
+#. module: l10n_de
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_de/models/res_company.py:0
+msgid "Your company's SteuerNummer is not valid"
+msgstr "Your company's SteuerNummer is not 有效"

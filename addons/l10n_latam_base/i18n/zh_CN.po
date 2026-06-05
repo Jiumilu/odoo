@@ -1,0 +1,224 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_latam_base
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_latam_base
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_latam_base.address_form_fields
+msgid "<option value=\"\">Identification Type...</option>"
+msgstr "<option value=\"\">Identification 类型...</option>"
+
+#. module: l10n_latam_base
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_latam_base.view_partner_latam_form
+msgid ""
+"<span class=\"oe_read_only\" invisible=\"is_vat and 'LATAMID' not in "
+"fiscal_country_group_codes\"> - </span>"
+msgstr ""
+"<span class=\"oe_read_only\" invisible=\"is_vat and 'LATAMID' not in "
+"fiscal_country_group_codes\"> - </span>（技术名称）"
+
+#. module: l10n_latam_base
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_latam_base.field_l10n_latam_identification_type__active
+#: model_terms:ir.ui.view,arch_db:l10n_latam_base.view_l10n_latam_identification_type_search
+msgid "Active"
+msgstr "有效"
+
+#. module: l10n_latam_base
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_latam_base.view_l10n_latam_identification_type_search
+msgid "Archived"
+msgstr "归档"
+
+#. module: l10n_latam_base
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_latam_base.address_form_fields
+msgid ""
+"Changing Identification type is not allowed once document(s) have been"
+"                         issued for your account. Please contact us directly"
+" for this operation."
+msgstr ""
+"Changing Identification 类型 is not allowed once 单据(s) have been issued for "
+"your 账户. Please 联系人 us directly for this operation."
+
+#. module: l10n_latam_base
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_latam_base.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: l10n_latam_base
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_latam_base.model_res_partner
+msgid "Contact"
+msgstr "联系人"
+
+#. module: l10n_latam_base
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_latam_base.field_l10n_latam_identification_type__country_id
+msgid "Country"
+msgstr "国家/地区"
+
+#. module: l10n_latam_base
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,website_form_label:l10n_latam_base.model_res_partner
+msgid "Create a Customer"
+msgstr "创建客户"
+
+#. module: l10n_latam_base
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_latam_base.field_l10n_latam_identification_type__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: l10n_latam_base
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_latam_base.field_l10n_latam_identification_type__create_date
+msgid "Created on"
+msgstr "创建日期"
+
+#. module: l10n_latam_base
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_latam_base.field_l10n_latam_identification_type__description
+msgid "Description"
+msgstr "描述"
+
+#. module: l10n_latam_base
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_latam_base.field_l10n_latam_identification_type__display_name
+#: model:ir.model.fields,field_description:l10n_latam_base.field_res_company__display_name
+#: model:ir.model.fields,field_description:l10n_latam_base.field_res_partner__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_latam_base
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_latam_base.field_l10n_latam_identification_type__id
+#: model:ir.model.fields,field_description:l10n_latam_base.field_res_company__id
+#: model:ir.model.fields,field_description:l10n_latam_base.field_res_partner__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_latam_base
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_latam_base/controllers/portal.py:0
+#: model:ir.model.fields,field_description:l10n_latam_base.field_res_partner__vat
+#: model:ir.model.fields,field_description:l10n_latam_base.field_res_users__vat
+#: model_terms:ir.ui.view,arch_db:l10n_latam_base.view_partner_latam_form
+msgid "Identification Number"
+msgstr "Identification 编号"
+
+#. module: l10n_latam_base
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_latam_base.field_res_partner__vat
+#: model:ir.model.fields,help:l10n_latam_base.field_res_users__vat
+msgid "Identification Number for selected type"
+msgstr "Identification 编号 for selected 类型"
+
+#. module: l10n_latam_base
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.act_window,name:l10n_latam_base.action_l10n_latam_identification_type
+#: model:ir.model.fields,field_description:l10n_latam_base.field_res_partner__l10n_latam_identification_type_id
+#: model:ir.model.fields,field_description:l10n_latam_base.field_res_users__l10n_latam_identification_type_id
+#: model:ir.ui.menu,name:l10n_latam_base.menu_l10n_latam_identification_type
+#: model_terms:ir.ui.view,arch_db:l10n_latam_base.address_form_fields
+msgid "Identification Type"
+msgstr "Identification 类型"
+
+#. module: l10n_latam_base
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_latam_base.model_l10n_latam_identification_type
+msgid "Identification Types"
+msgstr "Identification Types（技术名称）"
+
+#. module: l10n_latam_base
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_latam_base.field_l10n_latam_identification_type__is_vat
+#: model:ir.model.fields,field_description:l10n_latam_base.field_res_partner__is_vat
+#: model:ir.model.fields,field_description:l10n_latam_base.field_res_users__is_vat
+msgid "Is Vat"
+msgstr "Is VAT（技术名称）"
+
+#. module: l10n_latam_base
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_latam_base.field_l10n_latam_identification_type__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: l10n_latam_base
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_latam_base.field_l10n_latam_identification_type__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: l10n_latam_base
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:res.country.group,name:l10n_latam_base.latam
+msgid "Latin America Identification"
+msgstr "Latin America Identification（技术名称）"
+
+#. module: l10n_latam_base
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_latam_base.field_l10n_latam_identification_type__name
+msgid "Name"
+msgstr "名称"
+
+#. module: l10n_latam_base
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_latam_base.view_partner_latam_form
+msgid "Number"
+msgstr "数量"
+
+#. module: l10n_latam_base
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_latam_base.field_l10n_latam_identification_type__sequence
+msgid "Sequence"
+msgstr "序列"
+
+#. module: l10n_latam_base
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_latam_base.view_l10n_latam_identification_type_search
+msgid "Show active identification types"
+msgstr "Show 启用 identification types"
+
+#. module: l10n_latam_base
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_latam_base.view_l10n_latam_identification_type_search
+msgid "Show archived identification types"
+msgstr "Show archived identification types（技术名称）"
+
+#. module: l10n_latam_base
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_latam_base.view_partner_latam_form
+msgid "Tax ID"
+msgstr "税号ID"
+
+#. module: l10n_latam_base
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_latam_base.field_res_partner__l10n_latam_identification_type_id
+#: model:ir.model.fields,help:l10n_latam_base.field_res_users__l10n_latam_identification_type_id
+msgid "The type of identification"
+msgstr "The 类型 of identification"
+
+#. module: l10n_latam_base
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_latam_base.view_partner_latam_form
+msgid "Type"
+msgstr "类型"

@@ -1,0 +1,499 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_sa
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_sa.tax_report_withholding_tax_line_rent
+msgid " 1. Rent (5%)"
+msgstr "1. Rent (5%)（技术名称）"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_sa.tax_report_withholding_tax_line_at_af_mf
+msgid " 2. Air tickets, Air freight and Maritime freight (5%)"
+msgstr "2. Air tickets, Air freight and Maritime freight (5%)（技术名称）"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_sa.tax_report_line_standard_rated_sale
+msgid "1. Standard rated sales"
+msgstr "1. Standard rated 销售"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_sa.tax_report_line_zero_rated_purchase
+msgid "10. Zero rated purchases"
+msgstr "10. Zero rated purchases（技术名称）"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_sa.tax_report_line_exempt_purchase
+msgid "11. Exempt purchases"
+msgstr "11. Exempt purchases（技术名称）"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_sa.tax_report_line_total_purchase
+msgid "12. Total Purchases"
+msgstr "12. 合计 Purchases"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_sa.tax_report_line_total_vat_due_for_current_period
+msgid "13. Total VAT due for current period"
+msgstr "13. 合计 VAT due for current period"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_sa.tax_report_line_corrections_from_previous_period
+msgid "14. Corrections from previous period (between +- SAR 5000)"
+msgstr "14. Corrections 从 previous period (between +- SAR 5000)"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_sa.tax_report_line_vat_credit_carried_forward_from_previous_period
+msgid "15. VAT credit carried forward from previous period"
+msgstr "15. VAT 贷方 carried forward 从 previous period"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_sa.tax_report_line_net_vat_due
+msgid "16. Net VAT due (or claim)"
+msgstr "16. Net VAT due (or claim)（技术名称）"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_sa.tax_report_line_ph_pe_fh
+msgid ""
+"2. Private Healthcare / Private Education / First house sales to citizens"
+msgstr ""
+"2. Private Healthcare / Private Education / First house 销售 to citizens"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_sa.tax_report_withholding_tax_line_technical_and_consulting_services
+msgid ""
+"3. Technical and consulting services and international telecommunication "
+"services (5%)"
+msgstr ""
+"3. Technical and consulting services and international telecommunication "
+"services (5%)（技术名称）"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_sa.tax_report_line_zero_rated_domestic_sale
+msgid "3. Zero rated domestic sales"
+msgstr "3. Zero rated domestic 销售"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_sa.tax_report_withholding_tax_line_dividends
+msgid "4. Dividends (5%)"
+msgstr "4. Dividends (5%)（技术名称）"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_sa.tax_report_line_exports
+msgid "4. Exports"
+msgstr "4. Exports（技术名称）"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_sa.tax_report_line_exempt_sale
+msgid "5. Exempt sales"
+msgstr "5. Exempt 销售"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_sa.tax_report_withholding_tax_line_interest
+msgid "5. Interest on loan, insurance and reinsurance premium (5%)"
+msgstr "5. Interest on loan, insurance and reinsurance premium (5%)（技术名称）"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_sa.tax_report_withholding_tax_line_royalties
+msgid "6. Royalty (15%)"
+msgstr "6. Royalty (15%)（技术名称）"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_sa.tax_report_line_total_sale
+msgid "6. Total Sales"
+msgstr "6. 合计 销售"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_sa.tax_report_withholding_tax_line_other_payments
+msgid "7. Any other payments (15%)"
+msgstr "7. Any 其他 付款 (15%)"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_sa.tax_report_line_standard_rated_domestic_purchase
+msgid "7. Standard rated domestic purchases"
+msgstr "7. Standard rated domestic purchases（技术名称）"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_sa.tax_report_line_imports_subject_to_vat_paid_at_customs
+msgid "8. Imports subject to VAT paid at customs"
+msgstr "8. Imports subject to VAT paid at customs（技术名称）"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_sa.tax_report_withholding_tax_line_management_fees
+msgid "8. Management fees (20%)"
+msgstr "8. Management fees (20%)（技术名称）"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_sa.tax_report_line_imports_subject_to_vat_reverse_charge
+msgid ""
+"9. Imports subject to VAT accounted for through reverse charge mechanism"
+msgstr ""
+"9. Imports subject to VAT accounted for through reverse charge "
+"mechanism（技术名称）"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_sa.tax_report_withholding_tax_line_total
+msgid "9. Total"
+msgstr "9. 合计"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa.l10n_sa_report_invoice_document
+msgid "<span name=\"th_vat_amount_span\">VAT Amount</span>"
+msgstr "<span name=\"th_vat_amount_span\">VAT Amount</span>（技术名称）"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa.l10n_sa_report_invoice_document
+msgid "<span name=\"th_vat_excl_span\">Subtotal<br/>(Exclusive of VAT)</span>"
+msgstr ""
+"<span name=\"th_vat_excl_span\">Subtotal<br/>(Exclusive of VAT)</span>（技术名称）"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa.l10n_sa_report_invoice_document
+msgid "<span name=\"th_vat_incl_span\">Subtotal<br/>(Inclusive of VAT)</span>"
+msgstr ""
+"<span name=\"th_vat_incl_span\">Subtotal<br/>(Inclusive of VAT)</span>（技术名称）"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa.l10n_sa_report_invoice_document
+msgid "<span>Reason:</span><br/>"
+msgstr "<span>Reason:</span><br/>（技术名称）"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa.l10n_sa_report_invoice_document
+msgid "<strong>Supply Date</strong>"
+msgstr "<strong>Supply Date</strong>（技术名称）"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa.l10n_sa_report_invoice_document
+msgid "<strong>تاريخ الفاتورة</strong>"
+msgstr "<strong>تاريخ الفاتورة</strong>（技术名称）"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_sa.model_account_chart_template
+msgid "Account Chart Template"
+msgstr "科目表模版"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_sa.model_account_move_reversal
+msgid "Account Move Reversal"
+msgstr "会计分录撤销"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_sa.model_account_debit_note
+msgid "Add Debit Note wizard"
+msgstr "添加借记单向导"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_sa.selection__account_debit_note__l10n_sa_reason__br-ksa-17-reason-3
+#: model:ir.model.fields.selection,name:l10n_sa.selection__account_move__l10n_sa_reason__br-ksa-17-reason-3
+#: model:ir.model.fields.selection,name:l10n_sa.selection__account_move_reversal__l10n_sa_reason__br-ksa-17-reason-3
+msgid ""
+"Amendment of the supply value which is pre-agreed upon between the supplier "
+"and consumer"
+msgstr ""
+"Amendment of the supply 值 which is pre-agreed upon between the 供应商 and "
+"consumer"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.column,name:l10n_sa.tax_report_vat_filing_amount
+msgid "Amount"
+msgstr "金额"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_sa.model_ir_attachment
+msgid "Attachment"
+msgstr "附件"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.column,name:l10n_sa.tax_report_withholding_tax_base
+msgid "Base"
+msgstr "基础"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_sa.selection__account_debit_note__l10n_sa_reason__br-ksa-17-reason-1
+#: model:ir.model.fields.selection,name:l10n_sa.selection__account_move__l10n_sa_reason__br-ksa-17-reason-1
+#: model:ir.model.fields.selection,name:l10n_sa.selection__account_move_reversal__l10n_sa_reason__br-ksa-17-reason-1
+msgid ""
+"Cancellation or suspension of the supplies after its occurrence either "
+"wholly or partially"
+msgstr ""
+"Cancellation or suspension of the supplies after its occurrence either "
+"wholly or partially（技术名称）"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_sa.field_account_bank_statement_line__l10n_sa_confirmation_datetime
+#: model:ir.model.fields,help:l10n_sa.field_account_move__l10n_sa_confirmation_datetime
+msgid ""
+"Date on which the invoice is generated as final document (after securing all"
+" internal approvals)."
+msgstr ""
+"日期 on which the 发票 is 已生成 as final 单据 (after securing all internal "
+"approvals)."
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa.l10n_sa_report_invoice_document
+msgid "Debit Note"
+msgstr "借方凭证"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sa.field_account_chart_template__display_name
+#: model:ir.model.fields,field_description:l10n_sa.field_account_debit_note__display_name
+#: model:ir.model.fields,field_description:l10n_sa.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_sa.field_account_move_reversal__display_name
+#: model:ir.model.fields,field_description:l10n_sa.field_ir_attachment__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sa.field_account_chart_template__id
+#: model:ir.model.fields,field_description:l10n_sa.field_account_debit_note__id
+#: model:ir.model.fields,field_description:l10n_sa.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_sa.field_account_move_reversal__id
+#: model:ir.model.fields,field_description:l10n_sa.field_ir_attachment__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_sa.selection__account_debit_note__l10n_sa_reason__br-ksa-17-reason-5
+#: model:ir.model.fields.selection,name:l10n_sa.selection__account_move__l10n_sa_reason__br-ksa-17-reason-5
+#: model:ir.model.fields.selection,name:l10n_sa.selection__account_move_reversal__l10n_sa_reason__br-ksa-17-reason-5
+msgid "In case of change in Seller's or Buyer's information"
+msgstr "In case of change in Seller's or Buyer's 信息"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_sa.selection__account_debit_note__l10n_sa_reason__br-ksa-17-reason-2
+#: model:ir.model.fields.selection,name:l10n_sa.selection__account_move__l10n_sa_reason__br-ksa-17-reason-2
+#: model:ir.model.fields.selection,name:l10n_sa.selection__account_move_reversal__l10n_sa_reason__br-ksa-17-reason-2
+msgid ""
+"In case of essential change or amendment in the supply, which leads to the "
+"change of the VAT due"
+msgstr ""
+"In case of essential change or amendment in the supply, which leads to the "
+"change of the VAT due（技术名称）"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_sa.selection__account_debit_note__l10n_sa_reason__br-ksa-17-reason-4
+#: model:ir.model.fields.selection,name:l10n_sa.selection__account_move__l10n_sa_reason__br-ksa-17-reason-4
+#: model:ir.model.fields.selection,name:l10n_sa.selection__account_move_reversal__l10n_sa_reason__br-ksa-17-reason-4
+msgid "In case of goods or services refund"
+msgstr "In case of goods or services 退款"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa.l10n_sa_document_tax_totals
+#: model_terms:ir.ui.view,arch_db:l10n_sa.l10n_sa_document_tax_totals_company_currency_template
+msgid "Invoice Gross Total (Inclusive of VAT)"
+msgstr "发票 Gross 合计 (Inclusive of VAT)"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa.l10n_sa_document_tax_totals
+#: model_terms:ir.ui.view,arch_db:l10n_sa.l10n_sa_document_tax_totals_company_currency_template
+msgid "Invoice Taxable Amount"
+msgstr "发票 Taxable 金额"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_sa.model_account_move
+msgid "Journal Entry"
+msgstr "日记账分录"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sa.field_account_bank_statement_line__l10n_sa_show_reason
+#: model:ir.model.fields,field_description:l10n_sa.field_account_move__l10n_sa_show_reason
+msgid "L10N Sa Show Reason"
+msgstr "L10N Sa Show 原因"
+
+#. module: l10n_sa
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa/models/account_move.py:0
+msgid ""
+"Please set the Invoice Date to be either less than or equal to today as per "
+"the Asia/Riyadh time zone, since ZATCA does not allow future-dated "
+"invoicing."
+msgstr ""
+"Please set the 发票日期 to be either less than or equal to today as per the "
+"Asia/Riyadh time zone, since ZATCA does not allow future-dated 开票."
+
+#. module: l10n_sa
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa/models/account_move.py:0
+msgid "Simplified Tax Invoice"
+msgstr "Simplified 税 发票"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa.l10n_sa_report_invoice_document
+msgid "THIS IS NOT A LEGAL DOCUMENT"
+msgstr "THIS IS NOT A LEGAL 单据"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.column,name:l10n_sa.tax_report_withholding_tax_tax
+msgid "Tax"
+msgstr "税项"
+
+#. module: l10n_sa
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa/models/account_move.py:0
+msgid "Tax Invoice"
+msgstr "税 发票"
+
+#. module: l10n_sa
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa/models/ir_attachment.py:0
+msgid "The Invoice PDF(s) cannot be deleted according to ZATCA rules: %s"
+msgstr "The 发票 PDF(s) cannot be 已删除 according to ZATCA rules: %s"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.column,name:l10n_sa.tax_report_vat_filing_vat_amount
+msgid "VAT Amount"
+msgstr "VAT 金额"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report,name:l10n_sa.tax_report_vat_filing
+msgid "VAT Return"
+msgstr "VAT 退货"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_sa.tax_report_line_vat_on_purchase
+msgid "VAT on Purchases:"
+msgstr "VAT on Purchases:（技术名称）"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_sa.tax_report_line_vat_on_sale
+msgid "VAT on Sales:"
+msgstr "VAT on 销售:"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report,name:l10n_sa.tax_report_withholding_tax
+msgid "Withholding Return"
+msgstr "Withholding 退货"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sa.field_account_bank_statement_line__l10n_sa_confirmation_datetime
+#: model:ir.model.fields,field_description:l10n_sa.field_account_move__l10n_sa_confirmation_datetime
+msgid "ZATCA Issue Date"
+msgstr "ZATCA Issue 日期"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sa.field_account_bank_statement_line__l10n_sa_reason
+#: model:ir.model.fields,field_description:l10n_sa.field_account_debit_note__l10n_sa_reason
+#: model:ir.model.fields,field_description:l10n_sa.field_account_move__l10n_sa_reason
+#: model:ir.model.fields,field_description:l10n_sa.field_account_move_reversal__l10n_sa_reason
+#: model_terms:ir.ui.view,arch_db:l10n_sa.view_account_debit_note_inherit_l10n_sa
+#: model_terms:ir.ui.view,arch_db:l10n_sa.view_account_move_reversal_inherit_l10n_sa
+msgid "ZATCA Reason"
+msgstr "ZATCA 原因"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sa.field_account_bank_statement_line__l10n_sa_qr_code_str
+#: model:ir.model.fields,field_description:l10n_sa.field_account_move__l10n_sa_qr_code_str
+msgid "Zatka QR Code"
+msgstr "Zatka 二维码"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_sa.tax_report_withholding_tax_line_at_af_mf_g
+#: model:account.report.line,name:l10n_sa.tax_report_withholding_tax_line_dividends_g
+#: model:account.report.line,name:l10n_sa.tax_report_withholding_tax_line_interest_g
+#: model:account.report.line,name:l10n_sa.tax_report_withholding_tax_line_management_fees_g
+#: model:account.report.line,name:l10n_sa.tax_report_withholding_tax_line_other_payments_g
+#: model:account.report.line,name:l10n_sa.tax_report_withholding_tax_line_rent_g
+#: model:account.report.line,name:l10n_sa.tax_report_withholding_tax_line_royalties_g
+#: model:account.report.line,name:l10n_sa.tax_report_withholding_tax_line_technical_and_consulting_services_g
+msgid "a. Gross"
+msgstr "a. Gross（技术名称）"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_sa.tax_report_withholding_tax_line_at_af_mf_d
+#: model:account.report.line,name:l10n_sa.tax_report_withholding_tax_line_dividends_d
+#: model:account.report.line,name:l10n_sa.tax_report_withholding_tax_line_interest_d
+#: model:account.report.line,name:l10n_sa.tax_report_withholding_tax_line_management_fees_d
+#: model:account.report.line,name:l10n_sa.tax_report_withholding_tax_line_other_payments_d
+#: model:account.report.line,name:l10n_sa.tax_report_withholding_tax_line_rent_d
+#: model:account.report.line,name:l10n_sa.tax_report_withholding_tax_line_royalties_d
+#: model:account.report.line,name:l10n_sa.tax_report_withholding_tax_line_technical_and_consulting_services_d
+msgid "b. Deducted"
+msgstr "b. Deducted（技术名称）"
+
+#. module: l10n_sa
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa.l10n_sa_report_invoice_document
+msgid "إشعار المدين"
+msgstr "إشعار المدين"

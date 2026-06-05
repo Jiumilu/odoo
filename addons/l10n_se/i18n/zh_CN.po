@@ -1,0 +1,736 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_se
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_se.model_account_chart_template
+msgid "Account Chart Template"
+msgstr "科目表模版"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_23
+msgid "Account payables"
+msgstr "账户 payables"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_30
+msgid "Accrued expenses and prepaid incomes"
+msgstr "Accrued expenses and prepaid incomes（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_22
+msgid "Advances from customers"
+msgstr "Advances 从 客户"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.column,name:l10n_se.tax_report_balance
+msgid "Balance"
+msgstr "余额"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_12
+msgid "Balanced gain/loss"
+msgstr "Balanced gain/loss（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_se.tax_report_title_sales
+msgid "Block A – Momspliktig försäljning eller uttag exklusive moms"
+msgstr "Block A – Momspliktig försäljning eller uttag exklusive moms（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_se.tax_report_title_output_vat_sales
+msgid "Block B – Utgående moms på försäljning eller uttag i fält 05–08"
+msgstr "Block B – Utgående moms på försäljning eller uttag i fält 05–08（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_se.tax_report_title_purchases
+msgid "Block C – Momspliktiga inköp vid omvänd skattskyldighet"
+msgstr "Block C – Momspliktiga inköp vid omvänd skattskyldighet（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_se.tax_report_title_output_vat_purchases
+msgid "Block D – Utgående moms på inköp i fält 20–24"
+msgstr "Block D – Utgående moms på inköp i fält 20–24（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_se.tax_report_title_exempt_sales
+msgid "Block E – Försäljning m.m. som är undantagen från moms"
+msgstr "Block E – Försäljning m.m. som är undantagen från moms（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_se.tax_report_title_input_vat
+msgid "Block F – Ingående moms"
+msgstr "Block F – Ingående moms（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_se.tax_report_title_vat_debt_credit
+msgid "Block G – Moms att betala eller få tillbaka"
+msgstr "Block G – Moms att betala eller få tillbaka（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_se.tax_report_title_imports
+msgid "Block H - moms vid import"
+msgstr "Block H - moms vid 导入"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_se.tax_report_title_output_vat_imports
+msgid "Block I - Utgående moms på import i fält 50"
+msgstr "Block I - Utgående moms på 导入 i fält 50"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_20
+msgid "Bond loans"
+msgstr "Bond loans（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_7
+msgid "Cash and bank accounts"
+msgstr "Cash and 银行账户s"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_15
+msgid "Changes in the equity funds"
+msgstr "Changes in the equity funds（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_16
+msgid "Changes in the fair value reserves"
+msgstr "Changes in the fair 值 reserves"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_se.field_res_partner__l10n_se_check_vendor_ocr
+#: model:ir.model.fields,field_description:l10n_se.field_res_users__l10n_se_check_vendor_ocr
+msgid "Check Vendor OCR"
+msgstr "检查 供应商 OCR"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_se.se_partner_address_form
+msgid "City"
+msgstr "城市"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_se.field_account_journal__invoice_reference_model
+msgid "Communication Standard"
+msgstr "通信标准"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_se.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_se.model_res_partner
+msgid "Contact"
+msgstr "联系人"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_se.se_partner_address_form
+msgid "Country"
+msgstr "国家/地区"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,website_form_label:l10n_se.model_res_partner
+msgid "Create a Customer"
+msgstr "创建客户"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_37
+msgid "Dedicated funds"
+msgstr "Dedicated funds（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_se.field_res_partner__l10n_se_default_vendor_payment_ref
+#: model:ir.model.fields,field_description:l10n_se.field_res_users__l10n_se_default_vendor_payment_ref
+msgid "Default Vendor Payment Ref"
+msgstr "默认 供应商 付款 Ref"
+
+#. module: l10n_se
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_se/models/res_partner.py:0
+msgid "Default vendor OCR number isn't a valid OCR number."
+msgstr "默认 供应商 OCR 编号 isn't a 有效 OCR 编号."
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_14
+msgid "Deposits or withdrawals during the year"
+msgstr "Deposits or withdrawals during the year（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_se.field_account_chart_template__display_name
+#: model:ir.model.fields,field_description:l10n_se.field_account_journal__display_name
+#: model:ir.model.fields,field_description:l10n_se.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_se.field_res_company__display_name
+#: model:ir.model.fields,field_description:l10n_se.field_res_partner__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_13
+msgid "Equity at the start of the financial year"
+msgstr "Equity at the start of the financial year（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_25
+msgid "Exchange liabilities"
+msgstr "Exchange liabilities（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_3
+msgid "Financial assets"
+msgstr "Financial assets（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_33
+msgid "Financial items"
+msgstr "Financial items（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_se.tax_report_line_05
+msgid ""
+"Fält 05 – Momspliktig försäljning som inte ingår i fält 06, 07 eller 08"
+msgstr ""
+"Fält 05 – Momspliktig försäljning som inte ingår i fält 06, 07 eller "
+"08（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_se.tax_report_line_06
+msgid "Fält 06 – Momspliktiga uttag"
+msgstr "Fält 06 – Momspliktiga uttag（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_se.tax_report_line_07
+msgid "Fält 07 – Beskattningsunderlag vid vinstmarginalbeskattning"
+msgstr "Fält 07 – Beskattningsunderlag vid vinstmarginalbeskattning（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_se.tax_report_line_08
+msgid "Fält 08 – Hyresinkomster vid frivillig skattskyldighet"
+msgstr "Fält 08 – Hyresinkomster vid frivillig skattskyldighet（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_se.tax_report_line_10
+msgid "Fält 10 – Utgående moms 25 %"
+msgstr "Fält 10 – Utgående moms 25 %（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_se.tax_report_line_11
+msgid "Fält 11 – Utgående moms 12 %"
+msgstr "Fält 11 – Utgående moms 12 %（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_se.tax_report_line_12
+msgid "Fält 12 – Utgående moms 6 %"
+msgstr "Fält 12 – Utgående moms 6 %（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_se.tax_report_line_20
+msgid "Fält 20 – Inköp av varor från annat EU-land"
+msgstr "Fält 20 – Inköp av varor från annat EU-land（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_se.tax_report_line_21
+msgid "Fält 21 – Inköp av tjänster från ett annat EU-land, enligt huvudregeln"
+msgstr ""
+"Fält 21 – Inköp av tjänster från ett annat EU-land, enligt huvudregeln（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_se.tax_report_line_22
+msgid "Fält 22 – Inköp av tjänster från länder utanför EU"
+msgstr "Fält 22 – Inköp av tjänster från länder utanför EU（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_se.tax_report_line_23
+msgid "Fält 23 – Inköp av varor i Sverige"
+msgstr "Fält 23 – Inköp av varor i Sverige（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_se.tax_report_line_24
+msgid "Fält 24 – Övriga inköp av tjänster"
+msgstr "Fält 24 – Övriga inköp av tjänster（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_se.tax_report_line_30
+msgid "Fält 30 – Utgående moms 25 %"
+msgstr "Fält 30 – Utgående moms 25 %（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_se.tax_report_line_31
+msgid "Fält 31 – Utgående moms 12 %"
+msgstr "Fält 31 – Utgående moms 12 %（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_se.tax_report_line_32
+msgid "Fält 32 – Utgående moms 6 %"
+msgstr "Fält 32 – Utgående moms 6 %（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_se.tax_report_line_35
+msgid "Fält 35 – Försäljning av varor till ett annat EU-land"
+msgstr "Fält 35 – Försäljning av varor till ett annat EU-land（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_se.tax_report_line_36
+msgid "Fält 36 – Försäljning av varor utanför EU"
+msgstr "Fält 36 – Försäljning av varor utanför EU（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_se.tax_report_line_37
+msgid "Fält 37 – Mellanmans inköp av varor vid trepartshandel"
+msgstr "Fält 37 – Mellanmans inköp av varor vid trepartshandel（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_se.tax_report_line_38
+msgid "Fält 38 – Mellanmans försäljning av varor vid trepartshandel"
+msgstr "Fält 38 – Mellanmans försäljning av varor vid trepartshandel（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_se.tax_report_line_39
+msgid ""
+"Fält 39 – Försäljning av tjänster till en beskattningsbar person "
+"(näringsidkare) i ett annat EU-land, enligt huvudregeln "
+msgstr ""
+"Fält 39 – Försäljning av tjänster till en beskattningsbar person "
+"(näringsidkare) i ett annat EU-land, enligt huvudregeln（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_se.tax_report_line_40
+msgid "Fält 40 – Övrig försäljning av tjänster omsatta utanför Sverige"
+msgstr "Fält 40 – Övrig försäljning av tjänster omsatta utanför Sverige（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_se.tax_report_line_41
+msgid "Fält 41 – Försäljning när köparen är skattskyldig i Sverige"
+msgstr "Fält 41 – Försäljning när köparen är skattskyldig i Sverige（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_se.tax_report_line_42
+msgid "Fält 42 – Övrig försäljning m.m."
+msgstr "Fält 42 – Övrig försäljning m.m.（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_se.tax_report_line_48
+msgid "Fält 48 – Ingående moms att dra av"
+msgstr "Fält 48 – Ingående moms att dra av（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_se.tax_report_line_49
+msgid "Fält 49 – Moms att betala eller få tillbaka"
+msgstr "Fält 49 – Moms att betala eller få tillbaka（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_se.tax_report_line_50
+msgid "Fält 50 - Beskattningsunderlag vid import"
+msgstr "Fält 50 - Beskattningsunderlag vid 导入"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_se.tax_report_line_60
+msgid "Fält 60 – Utgående moms 25 %"
+msgstr "Fält 60 – Utgående moms 25 %（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_se.tax_report_line_61
+msgid "Fält 61 – Utgående moms 12 %"
+msgstr "Fält 61 – Utgående moms 12 %（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_se.tax_report_line_62
+msgid "Fält 62 – Utgående moms 6 %"
+msgstr "Fält 62 – Utgående moms 6 %（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_se.field_account_chart_template__id
+#: model:ir.model.fields,field_description:l10n_se.field_account_journal__id
+#: model:ir.model.fields,field_description:l10n_se.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_se.field_res_company__id
+#: model:ir.model.fields,field_description:l10n_se.field_res_partner__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_se.field_res_partner__l10n_se_default_vendor_payment_ref
+#: model:ir.model.fields,help:l10n_se.field_res_users__l10n_se_default_vendor_payment_ref
+msgid ""
+"If set, the vendor uses the same Default Payment Reference or OCR Number on "
+"all their Vendor Bills."
+msgstr "If set, the 供应商 uses the same 默认 付款参考 or OCR 编号 on all their 供应商账单s."
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_1
+msgid "Intangible non-current assets"
+msgstr "Intangible non-current assets（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_4
+msgid "Inventory"
+msgstr "库存"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_se.model_account_journal
+msgid "Journal"
+msgstr "日记账"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_se.model_account_move
+msgid "Journal Entry"
+msgstr "日记账分录"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_26
+msgid "Liabilities to associated companies and jointly controlled companies"
+msgstr ""
+"Liabilities to associated companies and jointly controlled companies（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_21
+msgid "Liabilities to credit institutions"
+msgstr "Liabilities to 贷方 institutions"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_24
+msgid "Liabilities to group companies"
+msgstr "Liabilities to 分组 companies"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_27
+msgid "Liabilities to other companies in which there is an ownership interest"
+msgstr "Liabilities to 其他 companies in which there is an ownership interest"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_11
+msgid "Misc. equity funds"
+msgstr "Misc. equity funds（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_se.se_partner_address_form
+msgid "Neighborhood"
+msgstr "Neighborhood（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_se.field_account_journal__l10n_se_invoice_ocr_length
+msgid "OCR Number Length"
+msgstr "OCR 编号 Length"
+
+#. module: l10n_se
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_se/models/account_move.py:0
+msgid ""
+"OCR Reference Number length is greater than allowed. Allowed length in "
+"invoice journal setting is %s."
+msgstr ""
+"OCR 参考 编号 length is greater than allowed. Allowed length in 发票 日记账 setting "
+"is %s."
+
+#. module: l10n_se
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_se/models/account_journal.py:0
+msgid ""
+"OCR Reference Number length need to be greater than 5. Please correct "
+"settings under invoice journal settings."
+msgstr ""
+"OCR 参考 编号 length need to be greater than 5. Please correct 设置 under 发票 日记账 "
+"设置."
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_32
+msgid "Operating costs"
+msgstr "Operating costs（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_31
+msgid "Operating income, stock changes, etc."
+msgstr "Operating income, 库存 changes, etc."
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_se.field_res_company__org_number
+msgid "Org Number"
+msgstr "Org 编号"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_39
+msgid "Other equity"
+msgstr "其他 equity"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_29
+msgid "Other liabilities"
+msgstr "其他 liabilities"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_40
+msgid "Paid-in and issued contributions"
+msgstr "Paid-in and issued contributions（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_se.res_partner_ocr_form
+msgid "Payment Options Sweden"
+msgstr "付款 Options Sweden"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_19
+msgid "Provisions"
+msgstr "Provisions（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_5
+msgid "Receivables"
+msgstr "Receivables（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_10
+msgid "Reevaluation funds"
+msgstr "Reevaluation funds（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_38
+msgid "Reserve funds"
+msgstr "Reserve funds（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_36
+msgid "Results"
+msgstr "Results（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_8
+msgid "Share capital"
+msgstr "Share capital（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_9
+msgid "Share premium funds"
+msgstr "Share premium funds（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_6
+msgid "Short-term investment"
+msgstr "Short-term investment（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report,name:l10n_se.tax_report
+msgid "Skatterapport"
+msgstr "Skatterapport（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_se.se_partner_address_form
+msgid "State..."
+msgstr "状态..."
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_se.se_partner_address_form
+msgid "Street"
+msgstr "街道"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_0
+msgid "Subscribed but unpaid capital"
+msgstr "Subscribed but unpaid capital（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_se.selection__account_journal__invoice_reference_model__se_ocr2
+msgid "Sweden OCR Level 1 & 2 (1255)"
+msgstr "Sweden OCR Level 1 & 2 (1255)（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_se.selection__account_journal__invoice_reference_model__se_ocr3
+msgid "Sweden OCR Level 3 (12658)"
+msgstr "Sweden OCR Level 3 (12658)（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_se.selection__account_journal__invoice_reference_model__se_ocr4
+msgid "Sweden OCR Level 4 (001271)"
+msgstr "Sweden OCR Level 4 (001271)（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_2
+msgid "Tangible non-current assets"
+msgstr "Tangible non-current assets（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_28
+msgid "Tax liabilities"
+msgstr "税 liabilities"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_35
+msgid "Taxes on results"
+msgstr "税 on results"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_se.field_res_partner__l10n_se_check_vendor_ocr
+#: model:ir.model.fields,help:l10n_se.field_res_users__l10n_se_check_vendor_ocr
+msgid "This Vendor uses OCR Number on their Vendor Bills."
+msgstr "This 供应商 uses OCR 编号 on their 供应商账单s."
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_se.field_account_journal__l10n_se_invoice_ocr_length
+msgid "Total length of OCR Reference Number including checksum."
+msgstr "合计 length of OCR 参考 编号 including checksum."
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_18
+msgid "Untaxed reserves"
+msgstr "Untaxed reserves（技术名称）"
+
+#. module: l10n_se
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_se/models/account_move.py:0
+msgid ""
+"Vendor require OCR Number as payment reference. Payment reference isn't a "
+"valid OCR Number."
+msgstr "供应商 require OCR 编号 as 付款参考. 付款参考 isn't a 有效 OCR 编号."
+
+#. module: l10n_se
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_se/models/res_partner.py:0
+msgid "Warning"
+msgstr "警告"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_34
+msgid "Year-end appropriations"
+msgstr "Year-end appropriations（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_se.account_tag_17
+msgid "Year-end results"
+msgstr "Year-end results（技术名称）"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_se.field_account_journal__invoice_reference_model
+msgid ""
+"You can choose different models for each type of reference. The default one "
+"is the Odoo reference."
+msgstr "可以为各参考事情类型选择不同的模型。默认为绿色供应链公共服务平台参考号。"
+
+#. module: l10n_se
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_se.se_partner_address_form
+msgid "ZIP"
+msgstr "邮政编码"

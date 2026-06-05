@@ -1,0 +1,1522 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_sa_edi
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/res_config_settings.py:0
+msgid ""
+"\n"
+"Building Number: %(building_number)s, Plot Identification: %(plot_identification)s\n"
+"Neighborhood: %(neighborhood)s"
+msgstr ""
+"\n"
+"Building 编号: %(building_number)s, Plot Identification: %(plot_identification)s Neighborhood: %(neighborhood)s"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_edi_format.py:0
+msgid "- %(missing_info)s"
+msgstr "- %(missing_info)s（技术名称）"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_edi_format.py:0
+msgid "- Invoice cannot be posted as the Supplier and Buyer are the same."
+msgstr "- 发票 cannot be 已过账 as the 供应商 and Buyer are the same."
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_edi_format.py:0
+msgid "- Invoice lines need at least one tax. Please input it and try again."
+msgstr "- 发票明细行 need at least one 税. Please input it and try again."
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_edi_format.py:0
+msgid ""
+"- No Private Key was generated for company %s. A Private Key is mandatory in"
+" order to generate Certificate Signing Requests (CSR)."
+msgstr ""
+"- 否 Private Key was 已生成 for 公司 %s. A Private Key is 必填 in 订单 to generate 证书 "
+"Signing Requests (CSR)."
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_edi_format.py:0
+msgid ""
+"- Please make sure the 'Customer Reference' contains the sequential number "
+"of the original invoice(s) that the Credit/Debit Note is related to."
+msgstr ""
+"- Please make sure the '客户参考' contains the sequential 编号 of the original "
+"发票(s) that the 贷方/借方 Note is 相关 to."
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_edi_format.py:0
+msgid ""
+"- Please make sure the 'ZATCA Reason' for the issuance of the Credit/Debit "
+"Note is specified."
+msgstr ""
+"- Please make sure the 'ZATCA 原因' for the issuance of the 贷方/借方 Note is "
+"specified."
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_edi_format.py:0
+msgid ""
+"- Please set the Invoice Date to be either less than or equal to today as "
+"per the Asia/Riyadh time zone, since ZATCA does not allow future-dated "
+"invoicing."
+msgstr ""
+"- Please set the 发票日期 to be either less than or equal to today as per the "
+"Asia/Riyadh time zone, since ZATCA does not allow future-dated 开票."
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_edi_format.py:0
+msgid ""
+"- Please set the following fields on the %(company_name)s: "
+"%(missing_fields)s"
+msgstr ""
+"- Please set the following fields on the %(company_name)s: "
+"%(missing_fields)s（技术名称）"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_edi_format.py:0
+msgid ""
+"- The Journal (%s) is not onboarded yet. Please onboard it and try again."
+msgstr "- The 日记账 (%s) is not onboarded yet. Please onboard it and try again."
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_edi_format.py:0
+msgid ""
+"- The company VAT identification must contain 15 digits, with the first and "
+"last digits being '3' as per the BR-KSA-39 and BR-KSA-40 of ZATCA KSA "
+"business rule."
+msgstr ""
+"- The 公司 VAT identification must contain 15 digits, with the first and last "
+"digits being '3' as per the BR-KSA-39 and BR-KSA-40 of ZATCA KSA business "
+"规则."
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.res_config_settings_view_form
+msgid "1. There are three modes available:"
+msgstr "1. There are three modes 可用:"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.res_config_settings_view_form
+msgid ""
+"2. After selecting the mode, please go to <span "
+"class=\"o_form_label\">Journals &gt; Sales Type &gt; ZATCA Tab &gt; "
+"Onboard.</span>"
+msgstr ""
+"2. After selecting the mode, please go to <span "
+"class=\"o_form_label\">Journals &gt; 销售 类型 &gt; ZATCA Tab &gt; "
+"Onboard.</span>"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.res_config_settings_view_form
+msgid ""
+"3. Once the Journal is onboarded, you can begin using the selected mode."
+msgstr "3. Once the 日记账 is onboarded, you can begin using the selected mode."
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_sa_edi.selection__res_partner__l10n_sa_edi_additional_identification_scheme__700
+msgid "700 Number"
+msgstr "700 编号"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/certificate.py:0
+msgid ""
+"<br/><br/>Once the journal is onboarded, please update the company name to "
+"match the one listed on the VAT Registration Certificate."
+msgstr ""
+"<br/><br/>Once the 日记账 is onboarded, please update the 公司 名称 to match the "
+"one listed on the VAT Registration 证书."
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.res_config_settings_view_form
+msgid "<i class=\"fa fa-warning me-2\"/> Warning"
+msgstr "<i class=\"fa fa-warning me-2\"/> 警告"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.res_config_settings_view_form
+msgid "<span class=\"o_form_label\">Production</span> - Live environment"
+msgstr "<span class=\"o_form_label\">Production</span> - Live environment（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.res_config_settings_view_form
+msgid ""
+"<span class=\"o_form_label\">Sandbox</span> - Common pre-configured testing "
+"environment"
+msgstr ""
+"<span class=\"o_form_label\">Sandbox</span> - Common pre-configured testing "
+"environment（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.res_config_settings_view_form
+msgid ""
+"<span class=\"o_form_label\">Simulation</span> - Unique testing environment"
+msgstr ""
+"<span class=\"o_form_label\">Simulation</span> - Unique testing "
+"environment（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.res_config_settings_view_form
+msgid "API Mode"
+msgstr "API Mode（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_sa_edi.model_account_chart_template
+msgid "Account Chart Template"
+msgstr "科目表模版"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_sa_edi.model_account_move_send
+msgid "Account Move Send"
+msgstr "科目分录发送"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_sa_edi.field_res_company__l10n_sa_edi_additional_identification_number
+#: model:ir.model.fields,help:l10n_sa_edi.field_res_partner__l10n_sa_edi_additional_identification_number
+#: model:ir.model.fields,help:l10n_sa_edi.field_res_users__l10n_sa_edi_additional_identification_number
+msgid "Additional Identification Number for the Seller/Buyer"
+msgstr "Additional Identification 编号 for the Seller/Buyer"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_sa_edi.field_res_company__l10n_sa_edi_additional_identification_scheme
+#: model:ir.model.fields,help:l10n_sa_edi.field_res_partner__l10n_sa_edi_additional_identification_scheme
+#: model:ir.model.fields,help:l10n_sa_edi.field_res_users__l10n_sa_edi_additional_identification_scheme
+msgid "Additional Identification Scheme for the Seller/Buyer"
+msgstr "Additional Identification Scheme for the Seller/Buyer（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_sa_edi.model_ir_attachment
+msgid "Attachment"
+msgstr "附件"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.view_account_form_inherit
+msgid "Blocking Invoice"
+msgstr "Blocking 发票"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_res_partner__l10n_sa_edi_building_number
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_res_users__l10n_sa_edi_building_number
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.sa_partner_address_form
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.view_company_form
+msgid "Building Number"
+msgstr "Building 编号"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_account_journal__l10n_sa_compliance_csid_json
+msgid "CCSID JSON"
+msgstr "CCSID JSON（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_account_journal__l10n_sa_compliance_csid_certificate_id
+msgid "CCSID certificate"
+msgstr "CCSID 证书"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.l10n_sa_edi_otp_wizard_view_form
+msgid "Cancel"
+msgstr "取消"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_sa_edi.model_certificate_certificate
+msgid "Certificate"
+msgstr "证书"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/certificate.py:0
+msgid "Certificate Template Name"
+msgstr "证书 模板 名称"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_move.py:0
+msgid "Chain Head"
+msgstr "Chain Head（技术名称）"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_edi_format.py:0
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.sa_partner_address_form
+msgid "City"
+msgstr "城市"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_journal.py:0
+msgid "Clearance and reporting seem to have been mixed up. "
+msgstr "Clearance and reporting seem to have been mixed up.（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_sa_edi.selection__res_partner__l10n_sa_edi_additional_identification_scheme__crn
+msgid "Commercial Registration Number"
+msgstr "Commercial Registration 编号"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/certificate.py:0
+msgid "Common Name"
+msgstr "Common 名称"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_sa_edi.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/certificate.py:0
+msgid "Company Name"
+msgstr "公司名称"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/certificate.py:0
+msgid "Company VAT"
+msgstr "公司 VAT"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_sa_edi.field_account_journal__l10n_sa_compliance_csid_json
+msgid ""
+"Compliance CSID data received from the Compliance CSID API in dumped json "
+"format"
+msgstr ""
+"Compliance CSID data 已接收 从 the Compliance CSID API in dumped JSON format"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_account_journal__l10n_sa_compliance_checks_passed
+msgid "Compliance Checks Done"
+msgstr "Compliance Checks 完成"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_sa_edi.model_res_config_settings
+msgid "Config Settings"
+msgstr "配置设定"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.l10n_sa_edi_otp_wizard_view_form
+msgid "Confirm"
+msgstr "确认"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_sa_edi.model_res_partner
+msgid "Contact"
+msgstr "联系人"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_edi_format.py:0
+msgid "Could not generate Invoice UBL content: %s"
+msgstr "Could not 生成发票 UBL content: %s"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_journal.py:0
+msgid "Could not obtain Production CSID: %s"
+msgstr "Could not obtain 生产 CSID: %s"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.sa_partner_address_form
+msgid "Country"
+msgstr "国家/地区"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/certificate.py:0
+msgid "Country Name"
+msgstr "国家/地区名称"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,website_form_label:l10n_sa_edi.model_res_partner
+msgid "Create a Customer"
+msgstr "创建客户"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_l10n_sa_edi_otp_wizard__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_l10n_sa_edi_otp_wizard__create_date
+msgid "Created on"
+msgstr "创建日期"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_sa_edi.field_account_tax__l10n_sa_is_retention
+msgid "Determines whether or not a tax counts as a Withholding Tax"
+msgstr "Determines whether or not a 税 counts as a Withholding 税"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_account_chart_template__display_name
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_account_edi_format__display_name
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_account_edi_xml_ubl_21_zatca__display_name
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_account_journal__display_name
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_account_move_line__display_name
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_account_move_send__display_name
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_account_tax__display_name
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_certificate_certificate__display_name
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_ir_attachment__display_name
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_l10n_sa_edi_otp_wizard__display_name
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_res_company__display_name
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_res_partner__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.view_company_form
+msgid "District"
+msgstr "District（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.sa_partner_address_form
+msgid "District..."
+msgstr "District...（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.view_account_journal_form
+msgid "Do you really want to re-onboard this Journal with ZATCA?"
+msgstr "Do you really want to re-onboard this 日记账 with ZATCA?"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_account_bank_statement_line__l10n_sa_uuid
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_account_move__l10n_sa_uuid
+msgid "Document UUID (SA)"
+msgstr "单据 UUID (SA)"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_sa_edi.model_account_edi_format
+msgid "EDI format"
+msgstr "EDI格式"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_sa_edi.model_account_tax
+msgid "ETA tax codes mixin"
+msgstr "ETA 税 codes mixin"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.act_window,name:l10n_sa_edi.l10n_sa_edi_otp_wizard_act_window
+msgid "Enter the OTP"
+msgstr "Enter the OTP（技术名称）"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_move.py:0
+msgid "Error: Invoice rejected by ZATCA"
+msgstr "错误: 发票 rejected by ZATCA"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.view_account_journal_form
+msgid "Error: Journal is not onboarded"
+msgstr "错误: 日记账 is not onboarded"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_edi_format.py:0
+msgid "Error: This invoice is blocked due to %s. Please check it."
+msgstr "错误: This 发票 is 已阻止 due to %s. Please 检查 it."
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_account_tax__l10n_sa_exemption_reason_code
+msgid "Exemption Reason Code"
+msgstr "Exemption 原因 代码"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_account_journal__l10n_sa_production_csid_validity
+msgid "Expiration date"
+msgstr "到期日期"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_sa_edi.selection__res_partner__l10n_sa_edi_additional_identification_scheme__gcc
+msgid "GCC ID"
+msgstr "GCC ID（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_sa_edi.field_account_journal__l10n_sa_latest_submission_hash
+msgid ""
+"Hash of the latest submitted invoice to be used as the Previous Invoice Hash"
+" (KSA-13)"
+msgstr ""
+"Hash of the latest submitted 发票 to be used as the Previous 发票 Hash (KSA-13)"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_account_chart_template__id
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_account_edi_format__id
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_account_edi_xml_ubl_21_zatca__id
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_account_journal__id
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_account_move_line__id
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_account_move_send__id
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_account_tax__id
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_certificate_certificate__id
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_ir_attachment__id
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_l10n_sa_edi_otp_wizard__id
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_res_company__id
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_res_config_settings__id
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_res_partner__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.view_company_form
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.view_partner_form
+msgid "Identification Number"
+msgstr "Identification 编号"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_res_company__l10n_sa_edi_additional_identification_number
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_res_partner__l10n_sa_edi_additional_identification_number
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_res_users__l10n_sa_edi_additional_identification_number
+msgid "Identification Number (SA)"
+msgstr "Identification 编号 (SA)"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_res_company__l10n_sa_edi_additional_identification_scheme
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_res_partner__l10n_sa_edi_additional_identification_scheme
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_res_users__l10n_sa_edi_additional_identification_scheme
+msgid "Identification Scheme"
+msgstr "Identification Scheme（技术名称）"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/certificate.py:0
+msgid "Invoice Type"
+msgstr "发票 类型"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_edi_format.py:0
+msgid ""
+"Invoice could not be cleared:\n"
+"%s"
+msgstr "发票 could not be cleared: %s"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_edi_format.py:0
+msgid ""
+"Invoice could not be reported:\n"
+"%s"
+msgstr "发票 could not be reported: %s"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_sa_edi.field_account_bank_statement_line__l10n_sa_chain_index
+#: model:ir.model.fields,help:l10n_sa_edi.field_account_move__l10n_sa_chain_index
+msgid ""
+"Invoice index in chain, set if and only if an in-chain XML was submitted and"
+" did not error"
+msgstr ""
+"发票 index in chain, set if and only if an in-chain XML was submitted and did "
+"not 错误"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_journal.py:0
+msgid "Invoice submission to ZATCA returned errors"
+msgstr "发票 submission to ZATCA returned 错误"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_sa_edi.selection__res_partner__l10n_sa_edi_additional_identification_scheme__iqa
+msgid "Iqama Number"
+msgstr "Iqama 编号"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_res_company__l10n_sa_edi_is_production
+msgid "Is Production"
+msgstr "Is 生产"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_account_tax__l10n_sa_is_retention
+msgid "Is Retention"
+msgstr "Is Retention（技术名称）"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_journal.py:0
+msgid "JSON response from ZATCA could not be decoded"
+msgstr "JSON response 从 ZATCA could not be decoded"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_sa_edi.model_account_journal
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_l10n_sa_edi_otp_wizard__journal_id
+msgid "Journal"
+msgstr "日记账"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_sa_edi.model_account_move
+msgid "Journal Entry"
+msgstr "日记账分录"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_sa_edi.model_account_move_line
+msgid "Journal Item"
+msgstr "日记账项目"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/certificate.py:0
+msgid "Journal Serial Number"
+msgstr "日记账 Serial 编号"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_journal.py:0
+msgid "Journal could not be onboarded"
+msgstr "日记账 could not be onboarded"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_journal.py:0
+msgid "Journal onboarded with ZATCA successfully"
+msgstr "日记账 onboarded with ZATCA successfully"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_journal.py:0
+msgid "Journal re-onboarded with ZATCA successfully"
+msgstr "日记账 re-onboarded with ZATCA successfully"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_res_company__l10n_sa_api_mode
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_res_config_settings__l10n_sa_api_mode
+msgid "L10N Sa Api Mode"
+msgstr "L10N Sa API Mode（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_account_journal__l10n_sa_csr
+msgid "L10N Sa Csr"
+msgstr "L10N Sa Csr（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_res_company__l10n_sa_edi_building_number
+msgid "L10N Sa Edi Building Number"
+msgstr "L10N Sa EDI Building 编号"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_res_company__l10n_sa_edi_plot_identification
+msgid "L10N Sa Edi Plot Identification"
+msgstr "L10N Sa EDI Plot Identification（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_l10n_sa_edi_otp_wizard__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_l10n_sa_edi_otp_wizard__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_account_journal__l10n_sa_latest_submission_hash
+msgid "Latest Submission Hash"
+msgstr "Latest Submission Hash（技术名称）"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/certificate.py:0
+msgid "Locality Name"
+msgstr "Locality 名称"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_sa_edi.selection__res_partner__l10n_sa_edi_additional_identification_scheme__mls
+msgid "MLSD License"
+msgstr "MLSD License（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_sa_edi.selection__res_partner__l10n_sa_edi_additional_identification_scheme__mom
+msgid "Momra License"
+msgstr "Momra License（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_sa_edi.selection__res_partner__l10n_sa_edi_additional_identification_scheme__nat
+msgid "National ID"
+msgstr "National ID（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_l10n_sa_edi_otp_wizard__l10n_sa_otp
+msgid "OTP"
+msgstr "OTP（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_sa_edi.field_l10n_sa_edi_otp_wizard__l10n_sa_otp
+msgid ""
+"OTP required to get a CCSID. Can only be acquired through the Fatoora "
+"portal."
+msgstr ""
+"OTP 必填 to get a CCSID. Can only be acquired through the Fatoora portal."
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.view_account_journal_form
+msgid "Onboard"
+msgstr "Onboard（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.view_account_journal_form
+msgid "Onboard this Journal"
+msgstr "Onboard this 日记账"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_account_journal__l10n_sa_csr_errors
+msgid "Onboarding Errors"
+msgstr "Onboarding 错误"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.res_config_settings_view_form
+msgid ""
+"Once the mode is set to <strong>Production</strong> and an Invoice has been submitted to ZATCA,\n"
+"                            then the API mode cannot be changed. Any invoice submitted in the Production mode will be officially\n"
+"                            recorded with ZATCA and considered in the calculation of the VAT Liability."
+msgstr ""
+"Once the mode is set to <strong>Production</strong> and an 发票 has been "
+"submitted to ZATCA, then the API mode cannot be changed. Any 发票 submitted in"
+" the 生产 mode will be officially recorded with ZATCA and considered in the "
+"calculation of the VAT Liability."
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/ir_attachment.py:0
+msgid ""
+"Oops! The invoice PDF(s) are linked to a validated EDI document and cannot "
+"be deleted according to ZATCA rules: %s"
+msgstr ""
+"Oops! The 发票 PDF(s) are linked to a validated EDI 单据 and cannot be 已删除 "
+"according to ZATCA rules: %s"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_journal.py:0
+msgid ""
+"Oops! The journal is stuck. Please submit the pending invoices to ZATCA and "
+"try again."
+msgstr ""
+"Oops! The 日记账 is stuck. Please 提交 the pending 发票 to ZATCA and try again."
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/certificate.py:0
+msgid "Other"
+msgstr "其他"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_sa_edi.selection__res_partner__l10n_sa_edi_additional_identification_scheme__oth
+msgid "Other ID"
+msgstr "其他 ID"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_account_journal__l10n_sa_production_csid_certificate_id
+msgid "PCSID Certificate"
+msgstr "PCSID 证书"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_account_journal__l10n_sa_production_csid_json
+msgid "PCSID JSON"
+msgstr "PCSID JSON（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_l10n_sa_edi_otp_wizard__l10n_sa_renewal
+msgid "PCSID Renewal"
+msgstr "PCSID Renewal（技术名称）"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/certificate.py:0
+msgid "Parent Company Name"
+msgstr "Parent 公司 名称"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/certificate.py:0
+msgid "Parent Company VAT"
+msgstr "Parent 公司 VAT"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/certificate.py:0
+msgid "Partner Industry Name"
+msgstr "业务伙伴 Industry 名称"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_sa_edi.selection__res_partner__l10n_sa_edi_additional_identification_scheme__pas
+msgid "Passport ID"
+msgstr "Passport ID（技术名称）"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_journal.py:0
+msgid "Please change the (%s)'s country to Saudi Arabia and try again."
+msgstr "Please change the (%s)'s 国家/地区 to Saudi Arabia and try again."
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_journal.py:0
+msgid "Please check the details below and onboard the journal again: %s"
+msgstr "Please 检查 the details below and onboard the 日记账 again: %s"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_move.py:0
+msgid "Please check the details below and retry after addressing them:"
+msgstr "Please 检查 the details below and retry after addressing them:"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_move.py:0
+msgid "Please check the details below:"
+msgstr "Please 检查 the details below:"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.l10n_sa_edi_otp_wizard_view_form
+msgid "Please input the OTP generated from the Fatoora Portal."
+msgstr "Please input the OTP 已生成 从 the Fatoora Portal."
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/certificate.py:0
+msgid ""
+"Please make sure the following fields are shorter than %(max_length)d "
+"characters: %(error_fields_msg)s"
+msgstr ""
+"Please make sure the following fields are shorter than %(max_length)d "
+"characters: %(error_fields_msg)s（技术名称）"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/wizard/l10n_sa_edi_otp_wizard.py:0
+msgid "Please provide an OTP to complete the onboarding process"
+msgstr "Please provide an OTP to complete the onboarding process（技术名称）"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_edi_format.py:0
+msgid ""
+"Please set the Identification Scheme as National ID and Identification "
+"Number as the respective number on the Customer as the Tax Exemption Reason "
+"is set either as VATEX-SA-HEA or VATEX-SA-EDU"
+msgstr ""
+"Please set the Identification Scheme as National ID and Identification 编号 as"
+" the respective 编号 on the 客户 as the 税 Exemption 原因 is set either as VATEX-"
+"SA-HEA or VATEX-SA-EDU"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_edi_format.py:0
+msgid ""
+"Please set the VAT Number as the Identification Scheme is Tax Identification"
+" Number"
+msgstr ""
+"Please set the VAT 编号 as the Identification Scheme is 税 Identification 编号"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_journal.py:0
+msgid "Please set the following on %(company_name)s: %(fields)s"
+msgstr "Please set the following on %(company_name)s: %(fields)s（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_res_partner__l10n_sa_edi_plot_identification
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_res_users__l10n_sa_edi_plot_identification
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.sa_partner_address_form
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.view_company_form
+msgid "Plot Identification"
+msgstr "Plot Identification（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_sa_edi.selection__res_company__l10n_sa_api_mode__prod
+msgid "Production"
+msgstr "生产"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_sa_edi.field_account_journal__l10n_sa_production_csid_json
+msgid ""
+"Production CSID data received from the Production CSID API in dumped json "
+"format"
+msgstr "生产 CSID data 已接收 从 the 生产 CSID API in dumped JSON format"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.view_account_journal_form
+msgid "Re-Onboard"
+msgstr "Re-Onboard（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.view_account_journal_form
+msgid "Re-onboarding Confirmation"
+msgstr "Re-onboarding Confirmation（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.view_account_journal_form
+msgid "Renew"
+msgstr "续订"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_sa_edi.model_l10n_sa_edi_otp_wizard
+msgid "Request ZATCA OTP"
+msgstr "请求 ZATCA OTP"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_sa_edi.selection__res_partner__l10n_sa_edi_additional_identification_scheme__sag
+msgid "Sagia License"
+msgstr "Sagia License（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_sa_edi.selection__res_company__l10n_sa_api_mode__sandbox
+msgid "Sandbox"
+msgstr "Sandbox（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.res_config_settings_view_form
+msgid "Saudi Arabia Electronic Invoicing"
+msgstr "Saudi Arabia Electronic 开票"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_journal.py:0
+msgid "Server returned an unexpected error: %(error)s"
+msgstr "Server returned an unexpected 错误: %(error)s"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.res_config_settings_view_form
+msgid "Set whether the system should use the Production API"
+msgstr "Set whether the system should use the 生产 API"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_move.py:0
+msgid "Simplified Tax Invoice"
+msgstr "Simplified 税 发票"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_sa_edi.selection__res_company__l10n_sa_api_mode__preprod
+msgid "Simulation (Pre-Production)"
+msgstr "Simulation (Pre-Production)（技术名称）"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_journal.py:0
+msgid "Something went wrong. Please onboard the journal again."
+msgstr "Something went wrong. Please onboard the 日记账 again."
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_edi_format.py:0
+msgid ""
+"Something went wrong. Please retry, and if that does not work, then onboard "
+"the journal again."
+msgstr ""
+"Something went wrong. Please retry, and if that does not work, then onboard "
+"the 日记账 again."
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_sa_edi.field_account_journal__l10n_sa_compliance_checks_passed
+msgid "Specifies if the Compliance Checks have been completed successfully"
+msgstr ""
+"Specifies if the Compliance Checks have been completed successfully（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_sa_edi.field_res_company__l10n_sa_api_mode
+#: model:ir.model.fields,help:l10n_sa_edi.field_res_config_settings__l10n_sa_api_mode
+msgid "Specifies which API the system should use"
+msgstr "Specifies which API the system should use（技术名称）"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_edi_format.py:0
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.sa_partner_address_form
+msgid "State"
+msgstr "省/州"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/certificate.py:0
+msgid "State/Province Name"
+msgstr "状态/Province 名称"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/certificate.py:0
+msgid "Street"
+msgstr "街道"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.view_company_form
+msgid "Street 2..."
+msgstr "详细地址..."
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.sa_partner_address_form
+msgid "Street..."
+msgstr "街道..."
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_move.py:0
+msgid "Success: Invoice accepted by ZATCA"
+msgstr "Success: 发票 已接受 by ZATCA"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.view_account_journal_form
+msgid "Success: Journal is onboarded and valid until"
+msgstr "Success: 日记账 is onboarded and 有效 until"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_sa_edi.field_account_tax__l10n_sa_exemption_reason_code
+msgid "Tax Exemption Reason Code (ZATCA)"
+msgstr "税 Exemption 原因 代码 (ZATCA)"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_sa_edi.selection__res_partner__l10n_sa_edi_additional_identification_scheme__tin
+msgid "Tax Identification Number"
+msgstr "税 Identification 编号"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_sa_edi.field_account_bank_statement_line__l10n_sa_edi_chain_head_id
+#: model:ir.model.fields,help:l10n_sa_edi.field_account_move__l10n_sa_edi_chain_head_id
+msgid ""
+"Technical field to know if the chain has been stopped by a previous invoice"
+msgstr ""
+"Technical field to know if the chain has been stopped by a previous 发票"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_sa_edi.field_account_journal__l10n_sa_csr
+msgid ""
+"The Certificate Signing Request that is submitted to the Compliance API"
+msgstr "The 证书 Signing 请求 that is submitted to the Compliance API"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_move.py:0
+msgid ""
+"The Invoice(s) are linked to a validated EDI document and cannot be modified"
+" according to ZATCA rules"
+msgstr ""
+"The 发票(s) are linked to a validated EDI 单据 and cannot be modified according "
+"to ZATCA rules"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_journal.py:0
+msgid "The Journal is not valid anymore. Please Renew it."
+msgstr "The 日记账 is not 有效 anymore. Please Renew it."
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_journal.py:0
+msgid "The Journal is valid until (%s) and can only be renewed upon expiry."
+msgstr "The 日记账 is 有效 until (%s) and can only be renewed upon expiry."
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_journal.py:0
+msgid "The OTP is invalid. Please try again."
+msgstr "The OTP is 无效. Please try again."
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_sa_edi.field_account_journal__l10n_sa_production_csid_validity
+msgid "The date on which the certificate expires"
+msgstr "证书到期日"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_sa_edi.field_res_company__l10n_sa_private_key_id
+msgid "The private key used to generate the CSR and obtain certificates"
+msgstr ""
+"The private key used to generate the CSR and obtain certificates（技术名称）"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_tax.py:0
+msgid ""
+"The tax is unable to be set as Retention as the Amount is greater than or "
+"equal to 0."
+msgstr ""
+"The 税 is unable to be set as Retention as the 金额 is greater than or equal to"
+" 0."
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_move_send.py:0
+msgid "To ZATCA"
+msgstr "To ZATCA（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_sa_edi.model_account_edi_xml_ubl_21_zatca
+msgid "UBL 2.1 (ZATCA)"
+msgstr "UBL 2.1 (ZATCA)（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_sa_edi.field_account_bank_statement_line__l10n_sa_uuid
+#: model:ir.model.fields,help:l10n_sa_edi.field_account_move__l10n_sa_uuid
+msgid "Universally unique identifier of the Invoice"
+msgstr "Universally unique identifier of the 发票"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_journal.py:0
+msgid "Unknown response returned from ZATCA. Please check the logs."
+msgstr "Unknown response returned 从 ZATCA. Please 检查 the logs."
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_account_bank_statement_line__l10n_sa_invoice_signature
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_account_move__l10n_sa_invoice_signature
+msgid "Unsigned XML Signature"
+msgstr "Unsigned XML Signature（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.l10n_sa_edi_otp_wizard_view_form
+msgid "Use an OTP to request for a CSID"
+msgstr "Use an OTP to 请求 for a CSID"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_sa_edi.field_l10n_sa_edi_otp_wizard__l10n_sa_renewal
+msgid ""
+"Used to decide whether we should call the PCSID renewal API or the CCSID API"
+msgstr ""
+"Used to decide whether we should call the PCSID renewal API or the CCSID "
+"API（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_sa_edi.selection__account_tax__l10n_sa_exemption_reason_code__vatex-sa-29
+msgid ""
+"VATEX-SA-29 Financial services mentioned in Article 29 of the VAT "
+"Regulations."
+msgstr ""
+"VATEX-SA-29 Financial services mentioned in Article 29 of the VAT "
+"Regulations.（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_sa_edi.selection__account_tax__l10n_sa_exemption_reason_code__vatex-sa-29-7
+msgid ""
+"VATEX-SA-29-7 Life insurance services mentioned in Article 29 of the VAT "
+"Regulations."
+msgstr ""
+"VATEX-SA-29-7 Life insurance services mentioned in Article 29 of the VAT "
+"Regulations.（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_sa_edi.selection__account_tax__l10n_sa_exemption_reason_code__vatex-sa-30
+msgid ""
+"VATEX-SA-30 Real estate transactions mentioned in Article 30 of the VAT "
+"Regulations."
+msgstr ""
+"VATEX-SA-30 Real estate transactions mentioned in Article 30 of the VAT "
+"Regulations.（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_sa_edi.selection__account_tax__l10n_sa_exemption_reason_code__vatex-sa-32
+msgid "VATEX-SA-32 Export of goods."
+msgstr "VATEX-SA-32 导出 of goods."
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_sa_edi.selection__account_tax__l10n_sa_exemption_reason_code__vatex-sa-33
+msgid "VATEX-SA-33 Export of Services."
+msgstr "VATEX-SA-33 导出 of Services."
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_sa_edi.selection__account_tax__l10n_sa_exemption_reason_code__vatex-sa-34-1
+msgid "VATEX-SA-34-1 The international transport of Goods."
+msgstr "VATEX-SA-34-1 The international transport of Goods.（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_sa_edi.selection__account_tax__l10n_sa_exemption_reason_code__vatex-sa-34-2
+msgid "VATEX-SA-34-2 The international transport of Passengers."
+msgstr "VATEX-SA-34-2 The international transport of Passengers.（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_sa_edi.selection__account_tax__l10n_sa_exemption_reason_code__vatex-sa-34-3
+msgid ""
+"VATEX-SA-34-3 Services directly connected and incidental to a Supply of "
+"international passenger transport."
+msgstr ""
+"VATEX-SA-34-3 Services directly connected and incidental to a Supply of "
+"international passenger transport.（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_sa_edi.selection__account_tax__l10n_sa_exemption_reason_code__vatex-sa-34-4
+msgid "VATEX-SA-34-4 Supply of a qualifying means of transport."
+msgstr "VATEX-SA-34-4 Supply of a qualifying means of transport.（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_sa_edi.selection__account_tax__l10n_sa_exemption_reason_code__vatex-sa-34-5
+msgid ""
+"VATEX-SA-34-5 Any services relating to Goods or passenger transportation, as"
+" defined in article twenty five of these Regulations."
+msgstr ""
+"VATEX-SA-34-5 Any services relating to Goods or passenger transportation, as"
+" defined in article twenty five of these Regulations.（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_sa_edi.selection__account_tax__l10n_sa_exemption_reason_code__vatex-sa-35
+msgid "VATEX-SA-35 Medicines and medical equipment."
+msgstr "VATEX-SA-35 Medicines and medical equipment.（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_sa_edi.selection__account_tax__l10n_sa_exemption_reason_code__vatex-sa-36
+msgid "VATEX-SA-36 Qualifying metals."
+msgstr "VATEX-SA-36 Qualifying metals.（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_sa_edi.selection__account_tax__l10n_sa_exemption_reason_code__vatex-sa-edu
+msgid "VATEX-SA-EDU Private education to citizen."
+msgstr "VATEX-SA-EDU Private education to citizen.（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_sa_edi.selection__account_tax__l10n_sa_exemption_reason_code__vatex-sa-hea
+msgid "VATEX-SA-HEA Private healthcare to citizen."
+msgstr "VATEX-SA-HEA Private healthcare to citizen.（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_sa_edi.selection__account_tax__l10n_sa_exemption_reason_code__vatex-sa-oos
+msgid "VATEX-SA-OOS Not subject to VAT."
+msgstr "VATEX-SA-OOS Not subject to VAT.（技术名称）"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_move.py:0
+msgid "Warning: Invoice accepted by ZATCA with warnings"
+msgstr "警告: 发票 已接受 by ZATCA with warnings"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_move.py:0
+msgid "Warning: Invoice was already successfully reported to ZATCA"
+msgstr "警告: 发票 was already successfully reported to ZATCA"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_move.py:0
+msgid "Warning: Unable to Retrieve a Response from ZATCA"
+msgstr "警告: Unable to Retrieve a Response 从 ZATCA"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/account_journal.py:0
+msgid "Warnings:"
+msgstr "Warnings:（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.view_account_journal_form
+msgid "Yes"
+msgstr "是"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/ir_attachment.py:0
+msgid ""
+"You can't unlink an attachment being an EDI document refused by the "
+"government."
+msgstr "You can't unlink an 附件 being an EDI 单据 refused by the government."
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.view_account_journal_form
+msgid "ZATCA"
+msgstr "ZATCA（技术名称）"
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/res_company.py:0
+msgid ""
+"ZATCA API Mode cannot be changed after an invoice has been successfully "
+"submitted under the Production Mode."
+msgstr ""
+"ZATCA API Mode cannot be changed after an 发票 has been successfully submitted"
+" under the 生产 Mode."
+
+#. module: l10n_sa_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_sa_edi/models/res_company.py:0
+msgid "ZATCA API Mode changed to %s"
+msgstr "ZATCA API Mode changed to %s（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.res_config_settings_view_form
+msgid "ZATCA API Modes"
+msgstr "ZATCA API Modes（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_res_company__l10n_sa_private_key_id
+msgid "ZATCA Private key"
+msgstr "ZATCA Private key（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_account_journal__l10n_sa_chain_sequence_id
+msgid "ZATCA account.move chain sequence"
+msgstr "ZATCA 账户.move chain 序列"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_account_bank_statement_line__l10n_sa_chain_index
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_account_move__l10n_sa_chain_index
+msgid "ZATCA chain index"
+msgstr "ZATCA chain index（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_account_bank_statement_line__l10n_sa_edi_chain_head_id
+#: model:ir.model.fields,field_description:l10n_sa_edi.field_account_move__l10n_sa_edi_chain_head_id
+msgid "ZATCA chain stopping move"
+msgstr "ZATCA chain stopping move（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.sa_partner_address_form
+msgid "ZIP"
+msgstr "邮政编码"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.export_sa_zatca_ubl_extensions
+msgid "not(//ancestor-or-self::cac:AdditionalDocumentReference[cbc:ID='QR'])"
+msgstr ""
+"not(//ancestor-or-self::cac:AdditionalDocumentReference[cbc:ID='QR'])（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.export_sa_zatca_ubl_extensions
+msgid "not(//ancestor-or-self::cac:Signature)"
+msgstr "not(//ancestor-or-self::cac:Signature)（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.export_sa_zatca_ubl_extensions
+msgid "not(//ancestor-or-self::ext:UBLExtensions)"
+msgstr "not(//ancestor-or-self::ext:UBLExtensions)（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.export_sa_zatca_ubl_extensions
+msgid "urn:oasis:names:specification:ubl:dsig:enveloped:xades"
+msgstr "urn:oasis:names:specification:ubl:dsig:enveloped:xades（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.export_sa_zatca_ubl_extensions
+msgid "urn:oasis:names:specification:ubl:signature:1"
+msgstr "urn:oasis:names:specification:ubl:signature:1（技术名称）"
+
+#. module: l10n_sa_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sa_edi.export_sa_zatca_ubl_extensions
+msgid "urn:oasis:names:specification:ubl:signature:Invoice"
+msgstr "urn:oasis:names:specification:ubl:signature:发票"

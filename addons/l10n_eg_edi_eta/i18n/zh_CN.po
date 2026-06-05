@@ -1,0 +1,4080 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_eg_edi_eta
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_eg_edi_eta.egyptian_invoice
+msgid "<strong class=\"text-center\">ETA QR Code</strong>"
+msgstr "<strong class=\"text-center\">ETA 二维码</strong>"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_l10n_eg_edi_thumb_drive__access_token
+msgid "Access Token"
+msgstr "访问令牌"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_6920
+msgid "Accounting, auditing, bookkeeping and tax advice activities"
+msgstr "Accounting, auditing, bookkeeping and 税 advice 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0162
+msgid "Activities in support of animal production"
+msgstr "活动 in support of animal 生产"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_8550
+msgid "Activities in support of education"
+msgstr "活动 in support of education"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_8291
+msgid "Activities of collection agencies and lending offices"
+msgstr "活动 of collection agencies and lending offices"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_6420
+msgid "Activities of holding companies"
+msgstr "活动 of holding companies"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_6622
+msgid "Activities of insurance and brokerage agents"
+msgstr "活动 of insurance and brokerage agents"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_9900
+msgid "Activities of non-regional organizations and bodies"
+msgstr "活动 of non-regional organizations and bodies"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_9499
+msgid "Activities of other membership organizations not classified elsewhere"
+msgstr "活动 of 其他 membership organizations not classified elsewhere"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_9492
+msgid "Activities of political organizations"
+msgstr "活动 of political organizations"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_6391
+msgid "Activities of press agencies"
+msgstr "活动 of press agencies"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_9810
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_9820
+msgid ""
+"Activities of producing unearthed products and services for home appliances "
+"for personal use"
+msgstr ""
+"活动 of producing unearthed 产品 and services for home appliances for personal "
+"use"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_9412
+msgid "Activities of professional membership organizations"
+msgstr "活动 of professional membership organizations"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_7810
+msgid "Activities of recruitment and appointment agencies"
+msgstr "活动 of recruitment and appointment agencies"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_9491
+msgid "Activities of religious organizations"
+msgstr "活动 of religious organizations"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_7820
+msgid "Activities of temporary employment agencies"
+msgstr "活动 of temporary employment agencies"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_7912
+msgid "Activities of tour guides"
+msgstr "活动 of tour guides"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_8620
+msgid "Activities related to medicine and dentistry"
+msgstr "活动 相关 to medicine and dentistry"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_C62
+msgid "Activity unit ( AU )"
+msgstr "活动 单位 ( AU )"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_eg_edi_eta.field_account_journal__l10n_eg_branch_id
+msgid ""
+"Address of the subdivision of the company.  You can just put the company "
+"partner if this is used for the main branch."
+msgstr ""
+"地址 of the subdivision of the 公司. You can just put the 公司 业务伙伴 if this is "
+"used for the main branch."
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_7310
+msgid "Advertising"
+msgstr "Advertising（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2821
+msgid "Agricultural and forestry equipment industry"
+msgstr "Agricultural and forestry equipment industry（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_3030
+msgid "Air and spacecraft industry"
+msgstr "Air and spacecraft industry（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_5120
+msgid "Air freight transport"
+msgstr "Air freight transport（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_5110
+msgid "Air transport of passengers"
+msgstr "Air transport of passengers（技术名称）"
+
+#. module: l10n_eg_edi_eta
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_eg_edi_eta/models/account_edi_format.py:0
+msgid "An error occured in created the ETA invoice, please retry signing"
+msgstr "An 错误 occured in created the ETA 发票, please retry signing"
+
+#. module: l10n_eg_edi_eta
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_eg_edi_eta/static/src/client_action/sign_invoice.js:0
+msgid "An unexpected error has occurred"
+msgstr "An unexpected 错误 has occurred"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_7110
+msgid ""
+"Architectural and engineering activities and related technical consulting"
+msgstr "Architectural and engineering 活动 and 相关 technical consulting"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2520
+msgid "Arms and ammunition industry"
+msgstr "Arms and ammunition industry（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0230
+msgid "Assembling non-wood forest products"
+msgstr "Assembling non-wood forest 产品"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_6619
+msgid "Auxiliary activities for financial services"
+msgstr "Auxiliary 活动 for financial services"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_BG
+msgid "Bag ( Bag )"
+msgstr "Bag ( Bag )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_BBL
+msgid "Barrel (oil 42 gal.)"
+msgstr "Barrel (oil 42 gal.)（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2011
+msgid "Basic chemicals"
+msgstr "Basic chemicals（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_9200
+msgid "Betting activities and gambling"
+msgstr "Betting 活动 and gambling"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_9103
+msgid "Botanical and zoological gardens and natural wildlife activities"
+msgstr "Botanical and zoological gardens and natural wildlife 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_BO
+msgid "Bottle ( Bt. )"
+msgstr "Bottle ( Bt. )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_BOX
+msgid "Box"
+msgstr "箱"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_account_journal__l10n_eg_branch_id
+msgid "Branch"
+msgstr "Branch（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0145
+msgid "Breeding of Pig"
+msgstr "Breeding of Pig（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0143
+msgid "Breeding of camels"
+msgstr "Breeding of camels（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0141
+msgid "Breeding of cattle and buffalo"
+msgstr "Breeding of cattle and buffalo（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0142
+msgid "Breeding of horses and mare"
+msgstr "Breeding of horses and mare（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0149
+msgid "Breeding other animals"
+msgstr "Breeding 其他 animals"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0144
+msgid "Breeding sheep and goats"
+msgstr "Breeding sheep and goats（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_6010
+msgid "Broadcasting over radio stations"
+msgstr "Broadcasting over radio stations（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_res_partner__l10n_eg_building_no
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_res_users__l10n_eg_building_no
+msgid "Building No."
+msgstr "Building 否."
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_eg_edi_eta.eg_partner_address_form
+msgid "Building Number..."
+msgstr "Building 编号..."
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_8129
+msgid "Building cleaning activities and other industrial facilities"
+msgstr "Building cleaning 活动 and 其他 industrial facilities"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4100
+msgid "Building constructions"
+msgstr "Building constructions（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_3011
+msgid "Building ship hulls and rafts"
+msgstr "Building 发货 hulls and rafts"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_5520
+msgid "Campgrounds, parking lots, and locomotives"
+msgstr "Campgrounds, parking lots, and locomotives（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_CA
+msgid "Canister ( Can )"
+msgstr "Canister ( Can )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_5224
+msgid "Cargo handling"
+msgstr "Cargo handling（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1393
+msgid "Carpet and blanket industry"
+msgstr "Carpet and blanket industry（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_CT
+msgid "Carton ( Car )"
+msgstr "Carton ( Car )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_CS
+msgid "Case ( Case )"
+msgstr "Case ( Case )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2394
+msgid "Cement, lime and plaster industry"
+msgstr "Cement, lime and plaster industry（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_CTL
+msgid "Centiliter ( Cl )"
+msgstr "Centiliter ( Cl )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_CMT
+msgid "Centimeter ( cm )"
+msgstr "Centimeter ( cm )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_6411
+msgid "Central banks"
+msgstr "Central banks（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_eg_edi_eta.res_config_settings_view_form
+msgid ""
+"Check to start sending invoices to your e-invoicing production environment"
+msgstr "检查 to start sending 发票 to your e-invoicing 生产 environment"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0891
+msgid "Chemical minerals and fertilizer extraction"
+msgstr "Chemical minerals and fertilizer extraction（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1820
+msgid "Clone recorded media"
+msgstr "Clone recorded media（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_l10n_eg_edi_activity_type__code
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_l10n_eg_edi_uom_code__code
+msgid "Code"
+msgstr "代码"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1910
+msgid "Coke oven products industry"
+msgstr "Coke oven 产品 industry"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_3812
+msgid "Collection of hazardous waste"
+msgstr "Collection of hazardous waste（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_3811
+msgid "Collection of non-hazardous waste"
+msgstr "Collection of non-hazardous waste（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_9512
+msgid "Communication equipment repair"
+msgstr "Communication equipment repair（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2630
+msgid "Communications equipment industry"
+msgstr "Communications equipment industry（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_eg_edi_eta.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_l10n_eg_edi_thumb_drive__company_id
+msgid "Company"
+msgstr "公司"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4330
+msgid "Completion and finishing of buildings"
+msgstr "Completion and finishing of buildings（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_8430
+msgid "Compulsory social insurance activities"
+msgstr "Compulsory social insurance 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_5820
+msgid "Computer Software Publishing"
+msgstr "Computer Software Publishing（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_6202
+msgid ""
+"Computer consultancy experience and facilities management activities related"
+" to computer fields"
+msgstr ""
+"Computer consultancy experience and facilities management 活动 相关 to computer "
+"fields"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_6201
+msgid "Computer program preparation activities"
+msgstr "Computer program preparation 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_9511
+msgid "Computer repair and accessories"
+msgstr "Computer repair and accessories（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_eg_edi_eta.model_res_config_settings
+msgid "Config Settings"
+msgstr "配置设定"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4290
+msgid "Construction for other civil engineering projects"
+msgstr "Construction for 其他 civil engineering projects"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4220
+msgid "Construction for projects of public benefit"
+msgstr "Construction for projects of public benefit（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_eg_edi_eta.model_res_partner
+msgid "Contact"
+msgstr "联系人"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_eg_edi_eta.eg_partner_address_form
+msgid "Country"
+msgstr "国家/地区"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,website_form_label:l10n_eg_edi_eta.model_res_partner
+msgid "Create a Customer"
+msgstr "创建客户"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_l10n_eg_edi_activity_type__create_uid
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_l10n_eg_edi_thumb_drive__create_uid
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_l10n_eg_edi_uom_code__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_l10n_eg_edi_activity_type__create_date
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_l10n_eg_edi_thumb_drive__create_date
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_l10n_eg_edi_uom_code__create_date
+msgid "Created on"
+msgstr "创建日期"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_9000
+msgid "Creative and recreational art activities"
+msgstr "Creative and recreational art 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_6430
+msgid ""
+"Credit activities, provision of credits, and similar financial entities"
+msgstr "贷方 活动, provision of credits, and similar financial entities"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0130
+msgid "Crop breeding"
+msgstr "Crop breeding（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_CMQ
+msgid "Cubic centimeter ( cm3 )"
+msgstr "Cubic centimeter ( cm3 )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_FTQ
+msgid "Cubic foot ( ft3 )"
+msgstr "Cubic foot ( ft3 )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_MTQ
+msgid "Cubic meter ( m3 )"
+msgstr "Cubic meter ( m3 )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_MMQ
+msgid "Cubic millimeter ( mm3 )"
+msgstr "Cubic millimeter ( mm3 )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_YDQ
+msgid "Cubic yard ( yd3 )"
+msgstr "Cubic yard ( yd3 )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0123
+msgid "Cultivation of citrus fruits"
+msgstr "Cultivation of citrus fruits（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0124
+msgid "Cultivation of fruit with Date kernel and from palm trees"
+msgstr "Cultivation of fruit with 日期 kernel and 从 palm trees"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0111
+msgid ""
+"Cultivation of grains and crops (except for rice), legumes and oilseeds"
+msgstr ""
+"Cultivation of grains and crops (except for rice), legumes and "
+"oilseeds（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0119
+msgid "Cultivation of other non-perennial crops"
+msgstr "Cultivation of 其他 non-perennial crops"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0129
+msgid "Cultivation of other perennial crops"
+msgstr "Cultivation of 其他 perennial crops"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0112
+msgid "Cultivation of rice"
+msgstr "Cultivation of rice（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0128
+msgid ""
+"Cultivation of spice crops, aromatics, medicine and pharmaceutical drugs"
+msgstr ""
+"Cultivation of spice crops, aromatics, medicine and pharmaceutical "
+"drugs（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0114
+msgid "Cultivation of sugar cane"
+msgstr "Cultivation of sugar cane（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0127
+msgid "Cultivation of the crops from which drinks are extracted"
+msgstr "Cultivation of the crops 从 which drinks are extracted"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_8542
+msgid "Cultural education"
+msgstr "Cultural education（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_eg_edi_eta.model_res_currency_rate
+msgid "Currency Rate"
+msgstr "汇率"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2396
+msgid "Cutting, forming and completing the stone processing"
+msgstr "Cutting, forming and completing the stone processing（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1050
+msgid "Dairy products manufacturing"
+msgstr "Dairy 产品 manufacturing"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_6311
+msgid "Data processing, hosting and related activities"
+msgstr "Data processing, hosting and 相关 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_DAY
+msgid "Days ( d )"
+msgstr "Days ( d )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_DMT
+msgid "Decimeter ( dm )"
+msgstr "Decimeter ( dm )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_8422
+msgid "Defense activities"
+msgstr "Defense 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_account_edi_format__display_name
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_account_journal__display_name
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_l10n_eg_edi_activity_type__display_name
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_l10n_eg_edi_thumb_drive__display_name
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_l10n_eg_edi_uom_code__display_name
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_product_product__display_name
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_product_template__display_name
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_res_company__display_name
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_res_currency_rate__display_name
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_res_partner__display_name
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_uom_uom__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_eg_edi_eta
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_eg_edi_eta/models/account_edi_format.py:0
+msgid "Document Cancelled"
+msgstr "单据 已取消"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_account_bank_statement_line__l10n_eg_uuid
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_account_move__l10n_eg_uuid
+msgid "Document UUID"
+msgstr "单据 UUID"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_eg_edi_eta.model_account_edi_format
+msgid "EDI format"
+msgstr "EDI格式"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.ui.menu,name:l10n_eg_edi_eta.account_eta_menu
+msgid "ETA"
+msgstr "ETA（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_eg_edi_eta.res_config_settings_view_form
+msgid "ETA API Integration"
+msgstr "ETA API Integration（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_account_journal__l10n_eg_activity_type_id
+msgid "ETA Activity Code"
+msgstr "ETA 活动 代码"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_account_journal__l10n_eg_branch_identifier
+msgid "ETA Branch ID"
+msgstr "ETA Branch ID（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_l10n_eg_edi_thumb_drive__certificate
+msgid "ETA Certificate"
+msgstr "ETA 证书"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_res_company__l10n_eg_client_identifier
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_res_config_settings__l10n_eg_client_identifier
+msgid "ETA Client ID"
+msgstr "ETA Client ID（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_product_product__l10n_eg_eta_code
+msgid "ETA Code"
+msgstr "ETA 代码"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_eg_edi_eta.view_move_form_inherit
+msgid "ETA E-Invoice"
+msgstr "ETA 电子发票"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_eg_edi_eta.res_config_settings_view_form
+msgid "ETA E-Invoicing Settings"
+msgstr "ETA E-Invoicing 设置"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_eg_edi_eta.product_normal_form_view_inherit_l10n_eg_eta_edi
+#: model_terms:ir.ui.view,arch_db:l10n_eg_edi_eta.product_template_only_form_view_inherit_l10n_eg_eta_edi
+msgid ""
+"ETA Field for GS1/EGS product codes. Please use the barcode field to store "
+"GS1/EGS ETA code if possible"
+msgstr ""
+"ETA Field for GS1/EGS 产品 codes. Please use the 条码 field to store GS1/EGS ETA"
+" 代码 if possible"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_product_template__l10n_eg_eta_code
+msgid "ETA Item code"
+msgstr "ETA Item 代码"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_account_bank_statement_line__l10n_eg_eta_json_doc_file
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_account_move__l10n_eg_eta_json_doc_file
+msgid "ETA JSON Document"
+msgstr "ETA JSON 单据"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_account_bank_statement_line__l10n_eg_long_id
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_account_move__l10n_eg_long_id
+msgid "ETA Long ID"
+msgstr "ETA Long ID（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_account_bank_statement_line__l10n_eg_qr_code
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_account_move__l10n_eg_qr_code
+msgid "ETA QR Code"
+msgstr "ETA 二维码"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_res_company__l10n_eg_client_secret
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_res_config_settings__l10n_eg_client_secret
+msgid "ETA Secret"
+msgstr "ETA Secret（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_l10n_eg_edi_thumb_drive__pin
+msgid "ETA USB Pin"
+msgstr "ETA USB Pin（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_uom_uom__l10n_eg_unit_code_id
+msgid "ETA Unit Code"
+msgstr "ETA 单位 代码"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_eg_edi_eta.model_l10n_eg_edi_activity_type
+msgid "ETA code for activity type"
+msgstr "ETA 代码 for 活动 类型"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_eg_edi_eta.model_l10n_eg_edi_uom_code
+msgid "ETA code for the unit of measures"
+msgstr "ETA 代码 for the 单位 of measures"
+
+#. module: l10n_eg_edi_eta
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_eg_edi_eta/models/account_move.py:0
+msgid "ETA invoice has been received"
+msgstr "ETA 发票 has been 已接收"
+
+#. module: l10n_eg_edi_eta
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_eg_edi_eta/models/account_move.py:0
+msgid "ETA_INVOICE_DOC_%s"
+msgstr "ETA_INVOICE_DOC_%s（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0411
+msgid "Earn a job"
+msgstr "Earn a job（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_eg_edi_eta.view_account_journal_form_inherit_l10n_eg_edi
+msgid "Egyptian ETA settings"
+msgstr "Egyptian ETA 设置"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_eg_edi_eta.product_normal_form_view_inherit_l10n_eg_eta_edi
+#: model_terms:ir.ui.view,arch_db:l10n_eg_edi_eta.product_template_only_form_view_inherit_l10n_eg_eta_edi
+msgid "Egyptian Electronic Invoicing"
+msgstr "Egyptian Electronic 开票"
+
+#. module: l10n_eg_edi_eta
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_eg_edi_eta/models/account_move.py:0
+msgid "Egyptian Tax authority JSON invoice generated for %s."
+msgstr "Egyptian 税 authority JSON 发票 已生成 for %s."
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_3510
+msgid "Electric generators, transformers and power distributors"
+msgstr "Electric generators, transformers and power distributors（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4321
+msgid "Electrical installations"
+msgstr "Electrical installations（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2740
+msgid "Electrical lighting devices industry"
+msgstr "Electrical lighting devices industry（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2610
+msgid "Electronic components and panels industry"
+msgstr "Electronic components and panels industry（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2640
+msgid "Electronic devices industry"
+msgstr "Electronic devices industry（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_3314
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_9521
+msgid "Electronic devices repair"
+msgstr "Electronic devices repair（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_6312
+msgid "Electronic portals"
+msgstr "Electronic portals（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_5223
+msgid "Emergency service activities related to air transport"
+msgstr "Emergency 服务 活动 相关 to air transport"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_5222
+msgid "Emergency service activities related to maritime transport"
+msgstr "Emergency 服务 活动 相关 to maritime transport"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_eg_edi_eta.res_config_settings_view_form
+msgid "Enter your API credentials to enable ETA E-Invoicing."
+msgstr "Enter your API credentials to 启用 ETA E-Invoicing."
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0451
+msgid "Errand stamp"
+msgstr "Errand stamp（技术名称）"
+
+#. module: l10n_eg_edi_eta
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_eg_edi_eta/static/src/client_action/sign_invoice.js:0
+msgid "Error trying to connect to Odoo. Check your internet connection"
+msgstr "错误 trying to connect to 绿色供应链公共服务平台. 检查 your internet 连接"
+
+#. module: l10n_eg_edi_eta
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_eg_edi_eta/static/src/client_action/sign_invoice.js:0
+msgid "Error trying to connect to the middleware. Is the middleware running?"
+msgstr "错误 trying to connect to the middleware. Is the middleware running?"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_5621
+msgid "Event catering"
+msgstr "活动 catering"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_7220
+msgid ""
+"Experimental research and development in the field of social and human "
+"sciences"
+msgstr ""
+"Experimental research and development in the field of social and human "
+"sciences（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0620
+msgid "Extract natural gas"
+msgstr "Extract natural gas（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0610
+msgid "Extract the crude oil"
+msgstr "Extract the crude oil（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_FAR
+msgid "Farad ( F )"
+msgstr "Farad ( F )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_5914
+msgid "Film screening activities"
+msgstr "Film screening 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_5911
+msgid "Film, video and television program production activities"
+msgstr "Film, video and television program 生产 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_6630
+msgid "Financial credit management activities"
+msgstr "Financial 贷方 management 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_6491
+msgid "Financial leasing"
+msgstr "Financial leasing（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_6611
+msgid "Financial markets management"
+msgstr "Financial markets management（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0311
+msgid "Fishing"
+msgstr "Fishing（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_FOT
+msgid "Foot ( Foot )"
+msgstr "Foot ( Foot )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_8421
+msgid "Foreign affairs"
+msgstr "Foreign affairs（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0210
+msgid "Forest care and forest-related activities"
+msgstr "Forest care and forest-related 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0240
+msgid "Forest support services"
+msgstr "Forest support services（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2591
+msgid ""
+"Forming metals by hammering, pressing, casting, rolling, and treatment of "
+"metal powders"
+msgstr ""
+"Forming metals by hammering, pressing, casting, rolling, and treatment of "
+"metal powders（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0472
+msgid "Free Zones revenue"
+msgstr "Free Zones revenue（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0471
+msgid "Free market revenue"
+msgstr "Free market revenue（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_9603
+msgid "Funeral and related activities"
+msgstr "Funeral and 相关 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1420
+msgid "Fur accessories industry"
+msgstr "Fur accessories industry（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_3100
+msgid "Furniture Industry"
+msgstr "Furniture Industry（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_GPT
+msgid "Gallon per thousand"
+msgstr "Gallon per thousand（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_8130
+msgid "Gardening services and maintenance activities"
+msgstr "Gardening services and maintenance 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2814
+msgid "Gears, carriers and driving devices industry"
+msgstr "Gears, carriers and driving devices industry（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_8121
+msgid "General cleaning of buildings"
+msgstr "General cleaning of buildings（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_8521
+msgid "General secondary education"
+msgstr "General secondary education（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_eg_edi_eta.view_move_form_inherit
+msgid "Get ETA Invoice PDF"
+msgstr "Get ETA 发票 PDF"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_eg_edi_eta.view_l10n_eg_edi_thumb_drive_tree
+msgid "Get certificate"
+msgstr "Get 证书"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2310
+msgid "Glass and its products industry"
+msgstr "Glass and its 产品 industry"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_GRM
+msgid "Gram ( g )"
+msgstr "Gram ( g )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_A93
+msgid "Gram/Cubic meter ( g/m3 )"
+msgstr "Gram/Cubic meter ( g/m3 )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_A94
+msgid "Gram/cubic centimeter ( g/cm3 )"
+msgstr "Gram/cubic centimeter ( g/cm3 )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_GL
+msgid "Gram/liter ( g/l )"
+msgstr "Gram/liter ( g/l )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_GM
+msgid "Gram/square meter ( g/m2 )"
+msgstr "Gram/square meter ( g/m2 )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0116
+msgid "Growing fiber crops"
+msgstr "Growing fiber crops（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0126
+msgid "Growing oil fruits"
+msgstr "Growing oil fruits（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0122
+msgid "Growing tropical and subtropical fruits"
+msgstr "Growing tropical and subtropical fruits（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0113
+msgid "Growing vegetables, melons, roots and tubers"
+msgstr "Growing vegetables, melons, roots and tubers（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_9602
+msgid "Hair styling and other cosmetics"
+msgstr "Hair styling and 其他 cosmetics"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0510
+msgid "Hard coal mining"
+msgstr "Hard coal mining（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_HLT
+msgid "Hectoliter ( hl )"
+msgstr "Hectoliter ( hl )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_8530
+msgid "Higher Education"
+msgstr "Higher Education（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2750
+msgid "Home appliances industry"
+msgstr "Home appliances industry（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_9700
+msgid "Home employment activities"
+msgstr "Home employment 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_8610
+msgid "Hospital activities"
+msgstr "Hospital 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_HUR
+msgid "Hours ( hrs )"
+msgstr "Hours ( hrs )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0170
+msgid "Hunting, erection, and related service activities"
+msgstr "Hunting, erection, and 相关 服务 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_HHP
+msgid "Hydraulic Horse Power"
+msgstr "Hydraulic Horse Power（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_account_edi_format__id
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_account_journal__id
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_l10n_eg_edi_activity_type__id
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_l10n_eg_edi_thumb_drive__id
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_l10n_eg_edi_uom_code__id
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_product_product__id
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_product_template__id
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_res_company__id
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_res_config_settings__id
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_res_currency_rate__id
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_res_partner__id
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_uom_uom__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_res_company__l10n_eg_production_env
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_res_config_settings__l10n_eg_production_env
+msgid "In Production Environment"
+msgstr "In 生产 Environment"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_INH
+msgid "Inch ( “” )"
+msgstr "Inch ( “” )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0414
+msgid "Income and salaries from the private sector"
+msgstr "Income and salaries 从 the private sector"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0413
+msgid "Income and salaries from the public business sector"
+msgstr "Income and salaries 从 the public business sector"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0415
+msgid "Income and salary from non-subject entities"
+msgstr "Income and salary 从 non-subject entities"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0463
+msgid "Income earned from abroad"
+msgstr "Income earned 从 abroad"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0412
+msgid "Income from government agencies salaries"
+msgstr "Income 从 government agencies salaries"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0441
+msgid "Income of agricultural lands"
+msgstr "Income of agricultural lands（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0444
+msgid "Income of real estate activities"
+msgstr "Income of real estate 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2731
+msgid "Industrial fiber cable industry"
+msgstr "Industrial fiber cable industry（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2030
+msgid "Industrial fiber industry"
+msgstr "Industrial fiber industry（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_3091
+msgid "Industry"
+msgstr "行业"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2512
+msgid "Industry of tanks and metal containers"
+msgstr "Industry of tanks and metal containers（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_8220
+msgid "Information center services"
+msgstr "信息 center services"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4911
+msgid "Inland passenger transportation"
+msgstr "Inland passenger transportation（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_5021
+msgid "Inland passenger water transport"
+msgstr "Inland passenger water transport（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_5022
+msgid "Inland water transport of goods"
+msgstr "Inland water transport of goods（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0416
+msgid "Inspection and sting"
+msgstr "Inspection and sting（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_3320
+msgid "Installation of industrial equipment and devices"
+msgstr "Installation of industrial equipment and devices（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_IVL
+msgid "Interval"
+msgstr "间隔"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_8030
+msgid "Investigation activities"
+msgstr "Investigation 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_res_company__l10n_eg_invoicing_threshold
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_res_config_settings__l10n_eg_invoicing_threshold
+msgid "Invoicing Threshold"
+msgstr "开票阈值"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2431
+msgid "Iron and steel casting"
+msgstr "Iron and steel casting（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0710
+msgid "Iron ore mining"
+msgstr "Iron ore mining（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_JOB
+msgid "JOB"
+msgstr "JOB（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_8211
+msgid "Joint office support services activities"
+msgstr "Joint office support services 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_eg_edi_eta.model_account_journal
+msgid "Journal"
+msgstr "日记账"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_eg_edi_eta.model_account_move
+msgid "Journal Entry"
+msgstr "日记账分录"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_5210
+msgid "Keep and store"
+msgstr "Keep and store（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_KGM
+msgid "Kilogram ( KG )"
+msgstr "Kilogram ( KG )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_KSM
+msgid "Kilogram/Square meter ( kg/m2 )"
+msgstr "Kilogram/Square meter ( kg/m2 )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_KMQ
+msgid "Kilogram/cubic meter ( kg/m3 )"
+msgstr "Kilogram/cubic meter ( kg/m3 )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_KHZ
+msgid "Kilohertz ( kHz )"
+msgstr "Kilohertz ( kHz )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_KMT
+msgid "Kilometer ( km )"
+msgstr "Kilometer ( km )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_KMH
+msgid "Kilometer/hour ( km/h )"
+msgstr "Kilometer/hour ( km/h )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_KVT
+msgid "Kilovolt ( kV )"
+msgstr "Kilovolt ( kV )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_KWT
+msgid "Kilowatt ( KW )"
+msgstr "Kilowatt ( KW )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_account_bank_statement_line__l10n_eg_is_signed
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_account_move__l10n_eg_is_signed
+msgid "L10N Eg Is Signed"
+msgstr "L10N Eg Is Signed（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4923
+msgid "Land transportation of goods by bus"
+msgstr "Land transportation of goods by bus（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_l10n_eg_edi_activity_type__write_uid
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_l10n_eg_edi_thumb_drive__write_uid
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_l10n_eg_edi_uom_code__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_l10n_eg_edi_activity_type__write_date
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_l10n_eg_edi_thumb_drive__write_date
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_l10n_eg_edi_uom_code__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_6910
+msgid "Legal activities"
+msgstr "Legal 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_LVL
+msgid "Level"
+msgstr "层级"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_9101
+msgid "Library and archive activities"
+msgstr "Library and 归档 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_5630
+msgid "Light beverage service activities"
+msgstr "Light beverage 服务 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0520
+msgid "Lignite mining"
+msgstr "Lignite mining（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2812
+msgid "Liquid power devices industry"
+msgstr "Liquid power devices industry（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_LTR
+msgid "Liter ( l )"
+msgstr "Liter ( l )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1512
+msgid ""
+"Luggage, handbags and similar industries, along with saddles and horse sets"
+msgstr ""
+"Luggage, handbags and similar industries, along with saddles and horse "
+"sets（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_3312
+msgid "Machinery repair"
+msgstr "Machinery repair（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_5310
+msgid "Mail activities"
+msgstr "Mail 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4520
+msgid "Maintenance and repair of motor vehicles"
+msgstr "Maintenance and repair of motor vehicles（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_3240
+msgid "Make games and play"
+msgstr "Make games and play（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_MAN
+msgid "Man"
+msgstr "Man（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_7020
+msgid "Management consultancy activities"
+msgstr "Management consultancy 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1020
+msgid "Manufacture and preservation of fish, crustaceans and mollusks"
+msgstr "Manufacture and preservation of fish, crustaceans and mollusks（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2392
+msgid "Manufacture of Shale products for Building"
+msgstr "Manufacture of Shale 产品 for Building"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2930
+msgid "Manufacture of accessories and spare parts for motor vehicles"
+msgstr "Manufacture of accessories and spare parts for motor vehicles（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1622
+msgid ""
+"Manufacture of carpentry accessories intended for buildings and "
+"installations"
+msgstr ""
+"Manufacture of carpentry accessories intended for buildings and "
+"installations（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1073
+msgid "Manufacture of cocoa, chocolate and sugar confectionery"
+msgstr "Manufacture of cocoa, chocolate and sugar confectionery（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2395
+msgid "Manufacture of concrete products, cement and plaster"
+msgstr "Manufacture of concrete 产品, cement and plaster"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1702
+msgid ""
+"Manufacture of corrugated paper and paperboard and boxes made of paper and "
+"paperboard"
+msgstr ""
+"Manufacture of corrugated paper and paperboard and boxes made of paper and "
+"paperboard（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2593
+msgid "Manufacture of cutting tools, hand tools and general metal tools"
+msgstr ""
+"Manufacture of cutting tools, hand tools and general metal tools（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2720
+msgid "Manufacture of dry and stored batteries"
+msgstr "Manufacture of dry and stored batteries（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2822
+msgid "Manufacture of equipment and machinery for forming metals"
+msgstr "Manufacture of equipment and machinery for forming metals（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2012
+msgid "Manufacture of fertilizers and nitrogen compounds"
+msgstr "Manufacture of fertilizers and nitrogen compounds（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2825
+msgid "Manufacture of food, beverage and tobacco industries equipment"
+msgstr "Manufacture of food, beverage and tobacco industries equipment（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2815
+msgid "Manufacture of furnaces, furnaces and their incinerators"
+msgstr "Manufacture of furnaces, furnaces and their incinerators（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2391
+msgid "Manufacture of fusion products"
+msgstr "Manufacture of fusion 产品"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1410
+msgid "Manufacture of garment with the exception of fur"
+msgstr "Manufacture of garment with the exception of fur（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2811
+msgid ""
+"Manufacture of generators and engines, with the exception of aircraft, "
+"vehicles and motorcycles"
+msgstr ""
+"Manufacture of generators and engines, with the exception of aircraft, "
+"vehicles and motorcycles（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1061
+msgid "Manufacture of grain mill products"
+msgstr "Manufacture of grain mill 产品"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_3212
+msgid "Manufacture of imitation jewelry and related items"
+msgstr "Manufacture of imitation jewelry and 相关 items"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_3211
+msgid "Manufacture of jewelry and related items"
+msgstr "Manufacture of jewelry and 相关 items"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1391
+msgid "Manufacture of knitted and crocheted fabrics"
+msgstr "Manufacture of knitted and crocheted fabrics（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2818
+msgid "Manufacture of manual power steering equipment"
+msgstr "Manufacture of manual power steering equipment（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_3040
+msgid "Manufacture of military military vehicles"
+msgstr "Manufacture of military military vehicles（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2920
+msgid ""
+"Manufacture of motor vehicle bodies and the manufacture of trailers and "
+"semi-trailers"
+msgstr ""
+"Manufacture of motor vehicle bodies and the manufacture of trailers and "
+"semi-trailers（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2910
+msgid "Manufacture of motor vehicles"
+msgstr "Manufacture of motor vehicles（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2710
+msgid ""
+"Manufacture of motors, generators, electrical transformers, devices and "
+"control panels for electricity distribution"
+msgstr ""
+"Manufacture of motors, generators, electrical transformers, devices and "
+"control panels for electricity distribution（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2399
+msgid "Manufacture of non-metallic minerals products not classified elsewhere"
+msgstr "Manufacture of non-metallic minerals 产品 not classified elsewhere"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2817
+msgid ""
+"Manufacture of office equipment and equipment (excluding electronic "
+"computers and their accessories)"
+msgstr ""
+"Manufacture of office equipment and equipment (excluding electronic "
+"computers and their accessories)（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_3092
+msgid "Manufacture of ordinary bicycles and infirm vehicles"
+msgstr "Manufacture of ordinary bicycles and infirm vehicles（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2393
+msgid "Manufacture of other Porcelain and ceramic products"
+msgstr "Manufacture of 其他 Porcelain and ceramic 产品"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1709
+msgid "Manufacture of other articles of paper and paperboard"
+msgstr "Manufacture of 其他 articles of paper and paperboard"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2029
+msgid "Manufacture of other chemical products not classified elsewhere"
+msgstr "Manufacture of 其他 chemical 产品 not classified elsewhere"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2599
+msgid ""
+"Manufacture of other fabricated metal products not classified elsewhere"
+msgstr "Manufacture of 其他 fabricated metal 产品 not classified elsewhere"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1079
+msgid "Manufacture of other products not classified elsewhere"
+msgstr "Manufacture of 其他 产品 not classified elsewhere"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2219
+msgid "Manufacture of other rubber products"
+msgstr "Manufacture of 其他 rubber 产品"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2829
+msgid "Manufacture of other special-purpose equipment"
+msgstr "Manufacture of 其他 special-purpose equipment"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2022
+msgid ""
+"Manufacture of paints, varnishes, and similar coatings, printing inks and "
+"molds"
+msgstr ""
+"Manufacture of paints, varnishes, and similar coatings, printing inks and "
+"molds（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2100
+msgid "Manufacture of pharmaceutical, chemical, and plant products"
+msgstr "Manufacture of pharmaceutical, chemical, and plant 产品"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_3012
+msgid "Manufacture of pleasure boats and sport boats"
+msgstr "Manufacture of pleasure boats and sport boats（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2420
+msgid "Manufacture of precious and non-ferrous basic metals"
+msgstr "Manufacture of precious and non-ferrous basic metals（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2813
+msgid "Manufacture of pumps, compressors, tapes and other valves"
+msgstr "Manufacture of pumps, compressors, tapes and 其他 valves"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2826
+msgid "Manufacture of ready-made clothes, accessories, and leather production"
+msgstr "Manufacture of ready-made clothes, accessories, and leather 生产"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1392
+msgid "Manufacture of ready-made textile accessories, except garment wear"
+msgstr ""
+"Manufacture of ready-made textile accessories, except garment wear（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1394
+msgid "Manufacture of ropes, thick and double ropes and nets"
+msgstr "Manufacture of ropes, thick and double ropes and nets（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2211
+msgid ""
+"Manufacture of rubber tires and tubes, renewing and rebuilding the outer "
+"surfaces of rubber tires"
+msgstr ""
+"Manufacture of rubber tires and tubes, renewing and rebuilding the outer "
+"surfaces of rubber tires（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2023
+msgid ""
+"Manufacture of soap, disinfectants, cleaning and polishing preparations, "
+"perfumes and cosmetics"
+msgstr ""
+"Manufacture of soap, disinfectants, cleaning and polishing preparations, "
+"perfumes and cosmetics（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1062
+msgid "Manufacture of starch and starch products"
+msgstr "Manufacture of starch and starch 产品"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_3520
+msgid ""
+"Manufacture of sulfur gas and distribution of gaseous fuels by means of main"
+" pipes"
+msgstr ""
+"Manufacture of sulfur gas and distribution of gaseous fuels by means of main"
+" pipes（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1200
+msgid "Manufacture of tobacco products"
+msgstr "Manufacture of tobacco 产品"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1040
+msgid "Manufacture of vegetable and animal oils and fats"
+msgstr "Manufacture of vegetable and animal oils and fats（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1629
+msgid ""
+"Manufacture of wood, wood products and cork, except furniture, and "
+"manufacture of articles produced from straw and sheets"
+msgstr ""
+"Manufacture of wood, wood 产品 and cork, except furniture, and manufacture of "
+"articles produced 从 straw and sheets"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1030
+msgid "Manufacturing and preserving fruits and vegetables"
+msgstr "Manufacturing and preserving fruits and vegetables（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1071
+msgid "Manufacturing bakery products"
+msgstr "Manufacturing bakery 产品"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2651
+msgid "Manufacturing measuring, testing, navigation and control devices"
+msgstr ""
+"Manufacturing measuring, testing, navigation and control devices（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_3250
+msgid "Manufacturing of dental and medical equipment and tools"
+msgstr "Manufacturing of dental and medical equipment and tools（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1074
+msgid "Manufacturing pasta, strips, couscous and similar starchy products"
+msgstr "Manufacturing pasta, strips, couscous and similar starchy 产品"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1104
+msgid "Manufacturing soft drinks and producing mineral water"
+msgstr "Manufacturing soft drinks and producing mineral water（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_5012
+msgid "Marine and coastal cargo transportation"
+msgstr "Marine and coastal cargo transportation（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0321
+msgid "Marine farms"
+msgstr "Marine farms（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_7320
+msgid "Market studies and public opinion polls"
+msgstr "Market studies and public opinion polls（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_3830
+msgid "Material handling"
+msgstr "Material handling（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1075
+msgid "Meals and ready-made food industry"
+msgstr "Meals and ready-made food industry（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1010
+msgid "Meat processing and preservation"
+msgstr "Meat processing and preservation（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2823
+msgid "Metal equipment industry"
+msgstr "Metal equipment industry（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2592
+msgid "Metal processing and coating"
+msgstr "Metal processing and coating（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_M
+msgid "Meter ( m )"
+msgstr "Meter ( m )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_X03
+msgid "Meter/Hour ( m/h )"
+msgstr "Meter/Hour ( m/h )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_G42
+msgid "Microsiemens per centimeter ( microS/cm )"
+msgstr "Microsiemens per centimeter ( microS/cm )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_SMI
+msgid "Mile ( mile )"
+msgstr "Mile ( mile )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_MGM
+msgid "Milligram ( mg )"
+msgstr "Milligram ( mg )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_H63
+msgid "Milligram/Square centimeter ( mg/cm2 )"
+msgstr "Milligram/Square centimeter ( mg/cm2 )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_MMT
+msgid "Millimeter ( mm )"
+msgstr "Millimeter ( mm )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2824
+msgid "Mining and quarrying and building equipment industry"
+msgstr "Mining and quarrying and building equipment industry（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0729
+msgid "Mining other non-ferrous metals"
+msgstr "Mining 其他 non-ferrous metals"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_MIN
+msgid "Minute ( min )"
+msgstr "Minute ( min )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_eg_edi_eta/static/src/client_action/sign_invoice.js:0
+msgid ""
+"Missing Dependency - If you are using Windows, make sure eps2003csp11.dll is"
+" correctly installed. You can download it here: "
+"https://www.egypttrust.com/en/downloads/other-drivers. If you are using "
+"Linux or macOS, please install OpenSC"
+msgstr ""
+"Missing Dependency - If you are using Windows, make sure eps2003csp11.dll is"
+" correctly installed. You can download it here: "
+"https://www.egypttrust.com/en/downloads/other-drivers. If you are using "
+"Linux or macOS, please install OpenSC（技术名称）"
+
+#. module: l10n_eg_edi_eta
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_eg_edi_eta/static/src/client_action/sign_invoice.js:0
+msgid ""
+"Missing library - Please make sure that PyKCS11 is correctly installed on "
+"the local proxy server"
+msgstr ""
+"Missing library - Please make sure that PyKCS11 is correctly installed on "
+"the local proxy server（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0150
+msgid "Mixed education"
+msgstr "Mixed education（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_MON
+msgid "Months ( Months )"
+msgstr "Months ( Months )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_5913
+msgid "Motion picture, video and television program distribution activities"
+msgstr "Motion picture, video and television program distribution 活动"
+
+#. module: l10n_eg_edi_eta
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_eg_edi_eta/static/src/client_action/sign_invoice.js:0
+msgid ""
+"Multiple drive detected - Only one secure thumb drive can be inserted at the"
+" same time"
+msgstr ""
+"Multiple drive detected - Only one secure thumb drive can be inserted at the"
+" same time（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_9102
+msgid "Museum activities and restoration of historic sites and buildings"
+msgstr "Museum 活动 and restoration of historic sites and buildings"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_3220
+msgid "Musical instrument industry"
+msgstr "Musical instrument industry（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_l10n_eg_edi_activity_type__name
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_l10n_eg_edi_uom_code__name
+msgid "Name"
+msgstr "名称"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_C45
+msgid "Nanometer ( nm )"
+msgstr "Nanometer ( nm )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_eg_edi_eta/static/src/client_action/sign_invoice.js:0
+msgid "No drive found - Make sure the thumb drive is correctly inserted"
+msgstr "否 drive found - Make sure the thumb drive is correctly inserted"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2432
+msgid "Non-ferrous metal casting"
+msgstr "Non-ferrous metal casting（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_6512
+msgid "Non-life insurance"
+msgstr "Non-life insurance（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4690
+msgid "Non-specialized wholesale trade"
+msgstr "Non-specialized wholesale trade（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_IE
+msgid "Number of Persons ( PRS )"
+msgstr "编号 of Persons ( PRS )"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_8720
+msgid ""
+"Nursing care facilities for special needs clinics, mental illnesses and "
+"physical abuse"
+msgstr ""
+"Nursing care facilities for special needs clinics, mental illnesses and "
+"physical abuse（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_8710
+msgid "Nursing facilities for sanatoriums"
+msgstr "Nursing facilities for sanatoriums（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2680
+msgid "Optical and magnetic conveyor industry"
+msgstr "Optical and magnetic conveyor industry（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2670
+msgid "Optical equipment and imaging equipment industry"
+msgstr "Optical equipment and imaging equipment industry（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_8413
+msgid "Organize and contribute to effective business operations"
+msgstr "Organize and contribute to effective business operations（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_8412
+msgid ""
+"Organizing activities to provide health care, education, educational "
+"services and other social services, with the exception of social security"
+msgstr ""
+"Organizing 活动 to provide health care, education, educational services and 其他"
+" social services, with the exception of social security"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_8230
+msgid "Organizing trade conferences and exhibitions"
+msgstr "Organizing trade conferences and exhibitions（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_6629
+msgid "Other activities auxiliary to insurance and provision for pensions"
+msgstr "其他 活动 auxiliary to insurance and provision for pensions"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_6399
+msgid ""
+"Other activities for information services that are not classified in other "
+"locations"
+msgstr "其他 活动 for 信息 services that are not classified in 其他 库位"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_5229
+msgid "Other activities in support of the transfer"
+msgstr "其他 活动 in support of the 调拨"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_8690
+msgid "Other activities related to human health"
+msgstr "其他 活动 相关 to human health"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_6209
+msgid ""
+"Other activities related to information technology and computer services"
+msgstr "其他 活动 相关 to 信息 technology and computer services"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0464
+msgid "Other categories / miscellaneous other income"
+msgstr "其他 categories / miscellaneous 其他 income"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_5629
+msgid "Other catering services activities"
+msgstr "其他 catering services 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2732
+msgid "Other electrical and electronic wires and cables"
+msgstr "其他 electrical and electronic wires and cables"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2790
+msgid "Other electrical appliances industry"
+msgstr "其他 electrical appliances industry"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2819
+msgid "Other equipment industry of various purposes"
+msgstr "其他 equipment industry of various purposes"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_6419
+msgid "Other financial intermediaries"
+msgstr "其他 financial intermediaries"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_6499
+msgid ""
+"Other financial services activities, with the exception of insurance and "
+"credit provision activities for pensions not classified in other locations"
+msgstr ""
+"其他 financial services 活动, with the exception of insurance and 贷方 provision "
+"活动 for pensions not classified in 其他 库位"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_6492
+msgid "Other forms of loans granted"
+msgstr "其他 forms of loans granted"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_3290
+msgid "Other industries not classified elsewhere"
+msgstr "其他 industries not classified elsewhere"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_9329
+msgid "Other leisure and entertainment activities not classified elsewhere"
+msgstr "其他 leisure and entertainment 活动 not classified elsewhere"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0899
+msgid "Other mining and quarrying activities are not elsewhere classified"
+msgstr "其他 mining and quarrying 活动 are not elsewhere classified"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_9609
+msgid "Other personal services activities not classified elsewhere"
+msgstr "其他 personal services 活动 not classified elsewhere"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_5819
+msgid "Other publishing activities"
+msgstr "其他 publishing 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4719
+msgid "Other retail types in non-specialized stores"
+msgstr "其他 retail types in non-specialized stores"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_8890
+msgid "Other social business activities that take place without residence"
+msgstr "其他 social business 活动 that take place without residence"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_8790
+msgid "Other spa care facilities"
+msgstr "其他 spa care facilities"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4390
+msgid "Other specialized construction activities"
+msgstr "其他 specialized construction 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_7490
+msgid ""
+"Other specialized, scientific and artistic activities not classified "
+"elsewhere"
+msgstr "其他 specialized, scientific and artistic 活动 not classified elsewhere"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_9319
+msgid "Other sports activities"
+msgstr "其他 sports 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4329
+msgid "Other structural installations"
+msgstr "其他 structural installations"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_8299
+msgid ""
+"Other support services activities that are not classified in other locations"
+msgstr "其他 support services 活动 that are not classified in 其他 库位"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_6190
+msgid "Other telecommunications activities"
+msgstr "其他 telecommunications 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1399
+msgid "Other textile industry not elsewhere classified"
+msgstr "其他 textile industry not elsewhere classified"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_3099
+msgid "Other transportation equipment industry not classified elsewhere"
+msgstr "其他 transportation equipment industry not classified elsewhere"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_8549
+msgid "Other types of education not classified elsewhere"
+msgstr "其他 types of education not classified elsewhere"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4922
+msgid "Other types of passenger transport by land"
+msgstr "其他 types of passenger transport by land"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_5590
+msgid "Other types of placement"
+msgstr "其他 types of placement"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_7990
+msgid "Other types of reservations and related activities"
+msgstr "其他 types of reservations and 相关 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4799
+msgid ""
+"Other types of retail sales that do not take place in stores, kiosks or "
+"markets"
+msgstr ""
+"其他 types of retail 销售 that do not take place in stores, kiosks or markets"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_ONZ
+msgid "Ounce ( oz )"
+msgstr "Ounce ( oz )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_eg_edi_eta/models/account_edi_format.py:0
+msgid "PDF Document is not available"
+msgstr "PDF 单据 is not 可用"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_PK
+msgid "Pack ( PAK )"
+msgstr "Pack ( PAK )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_8292
+msgid "Packaging activities"
+msgstr "Packaging 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_PF
+msgid "Pallet ( PAL )"
+msgstr "Pallet ( PAL )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1701
+msgid "Paper and carvatard pulp industry"
+msgstr "Paper and carvatard pulp industry（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_5320
+msgid "Parcel delivery activities"
+msgstr "Parcel 交货 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_PAL
+msgid "Pascal ( Pa )"
+msgstr "Pascal ( Pa )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0892
+msgid "Peat extraction"
+msgstr "Peat extraction（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2021
+msgid "Pesticide industry and other agricultural chemical products"
+msgstr "Pesticide industry and 其他 agricultural chemical 产品"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_8219
+msgid ""
+"Photocopying, document processing and other specialized office support "
+"services activities"
+msgstr ""
+"Photocopying, 单据 processing and 其他 specialized office support services 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_7420
+msgid "Photographic activities"
+msgstr "Photographic 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4930
+msgid "Pipeline transportation"
+msgstr "Pipeline transportation（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0125
+msgid "Plant fruit trees and shrubs and other nuts"
+msgstr "Plant fruit trees and shrubs and 其他 nuts"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2220
+msgid "Plastics industry"
+msgstr "Plastics industry（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2013
+msgid "Plastics industry in its primary forms and synthetic rubber"
+msgstr "Plastics industry in its primary forms and synthetic rubber（技术名称）"
+
+#. module: l10n_eg_edi_eta
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_eg_edi_eta/models/account_edi_format.py:0
+msgid "Please add all the required fields in the branch details"
+msgstr "Please 添加 all the 必填 fields in the branch details"
+
+#. module: l10n_eg_edi_eta
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_eg_edi_eta/models/account_edi_format.py:0
+msgid "Please add all the required fields in the customer details"
+msgstr "Please 添加 all the 必填 fields in the 客户 details"
+
+#. module: l10n_eg_edi_eta
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_eg_edi_eta/models/account_edi_format.py:0
+msgid "Please configure the API domain from the system parameters"
+msgstr "Please 配置 the API domain 从 the system parameters"
+
+#. module: l10n_eg_edi_eta
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_eg_edi_eta/models/account_edi_format.py:0
+msgid "Please configure the token domain from the system parameters"
+msgstr "Please 配置 the token domain 从 the system parameters"
+
+#. module: l10n_eg_edi_eta
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_eg_edi_eta/models/eta_thumb_drive.py:0
+msgid "Please define the host of sign tool."
+msgstr "Please define the host of sign tool.（技术名称）"
+
+#. module: l10n_eg_edi_eta
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_eg_edi_eta/models/res_currency_rate.py:0
+msgid ""
+"Please make sure that the EGP per unit is within 5 decimal accuracy.\n"
+"Higher decimal accuracy might lead to inconsistency with the ETA invoicing portal!"
+msgstr ""
+"Please make sure that the EGP per 单位 is within 5 decimal accuracy. Higher "
+"decimal accuracy might lead to inconsistency with the ETA 开票 portal!"
+
+#. module: l10n_eg_edi_eta
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_eg_edi_eta/models/account_edi_format.py:0
+msgid "Please make sure the EGS/GS1 Barcode is set correctly on all products"
+msgstr "Please make sure the EGS/GS1 条码 is set correctly on all 产品"
+
+#. module: l10n_eg_edi_eta
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_eg_edi_eta/models/account_edi_format.py:0
+msgid "Please make sure the invoice is signed"
+msgstr "Please make sure the 发票 is signed"
+
+#. module: l10n_eg_edi_eta
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_eg_edi_eta/models/account_edi_format.py:0
+msgid "Please make sure the invoice lines UoM codes are all set up correctly"
+msgstr "Please make sure the 发票明细行 UoM codes are all set up correctly"
+
+#. module: l10n_eg_edi_eta
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_eg_edi_eta/models/account_edi_format.py:0
+msgid ""
+"Please make sure the invoice lines taxes all have the correct ETA tax code"
+msgstr "Please make sure the 发票明细行 税 all have the correct ETA 税 代码"
+
+#. module: l10n_eg_edi_eta
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_eg_edi_eta/models/account_move.py:0
+msgid "Please only sign invoices from one company at a time"
+msgstr "Please only sign 发票 从 one 公司 at a time"
+
+#. module: l10n_eg_edi_eta
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_eg_edi_eta/models/account_edi_format.py:0
+msgid "Please set the all the ETA information on the invoice's journal"
+msgstr "Please set the all the ETA 信息 on the invoice's 日记账"
+
+#. module: l10n_eg_edi_eta
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_eg_edi_eta/models/account_move.py:0
+msgid "Please setup a personal drive for company %s"
+msgstr "Please setup a personal drive for 公司 %s"
+
+#. module: l10n_eg_edi_eta
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_eg_edi_eta/models/account_move.py:0
+msgid "Please setup the certificate on the thumb drive menu"
+msgstr "Please setup the 证书 on the thumb drive menu"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4322
+msgid "Plumbing, heating and air-conditioning installations"
+msgstr "Plumbing, heating and air-conditioning installations（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0163
+msgid "Post-harvest activities"
+msgstr "Post-harvest 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0146
+msgid "Poultry farming"
+msgstr "Poultry farming（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1080
+msgid "Prepared animal food industry"
+msgstr "Prepared animal food industry（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0164
+msgid "Preparing grains for reproduction"
+msgstr "Preparing grains for reproduction（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4312
+msgid "Preparing sites"
+msgstr "Preparing sites（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_8510
+msgid "Primary and pre-primary education"
+msgstr "Primary and pre-primary education（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1812
+msgid "Printing service activities"
+msgstr "Printing 服务 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_8010
+msgid "Private security activities"
+msgstr "Private security 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1311
+msgid "Processing and spinning of textile fibers"
+msgstr "Processing and spinning of textile fibers（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_eg_edi_eta.model_product_template
+msgid "Product"
+msgstr "产品"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_eg_edi_eta.model_uom_uom
+msgid "Product Unit of Measure"
+msgstr "产品计量单位"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_eg_edi_eta.model_product_product
+msgid "Product Variant"
+msgstr "产品变体"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_5920
+msgid "Production and publishing of sound and music recordings"
+msgstr "生产 and publishing of sound and music recordings"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_6530
+msgid "Providing credits for pensions"
+msgstr "Providing credits for pensions（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_7830
+msgid "Providing other human resources"
+msgstr "Providing 其他 human resources"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_9311
+msgid "Providing sports facilities"
+msgstr "Providing sports facilities（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_8411
+msgid "Public administration activities"
+msgstr "Public administration 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_5812
+msgid "Publish the directory and address lists"
+msgstr "Publish the directory and 地址 lists"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_5811
+msgid "Publishing books"
+msgstr "Publishing books（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_5813
+msgid "Publishing newspapers, magazines and periodicals"
+msgstr "Publishing newspapers, magazines and periodicals（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0810
+msgid "Quarrying to extract stones, sand and shale"
+msgstr "Quarrying to extract stones, sand and shale（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2660
+msgid "Radiation, medical and therapeutic electronic devices industry"
+msgstr "Radiation, medical and therapeutic electronic devices industry（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_3020
+msgid "Railroad locomotives and rolling stock industry"
+msgstr "Railroad locomotives and rolling 库存 industry"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_6820
+msgid "Real estate activities on the basis of a contract or a fee"
+msgstr "Real estate 活动 on the basis of a contract or a fee"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_6810
+msgid "Real estate activities with own or leased property"
+msgstr "Real estate 活动 with own or leased property"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_9321
+msgid "Recreational activities and performances in parks"
+msgstr "Recreational 活动 and performances in parks"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_3900
+msgid "Recycling activities and services and the disposal of other waste"
+msgstr "Recycling 活动 and services and the disposal of 其他 waste"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1920
+msgid "Refined petroleum products"
+msgstr "Refined petroleum 产品"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4311
+msgid "Remove the installations"
+msgstr "移除 the installations"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_7740
+msgid ""
+"Rent forms of intellectual property and similar products, except for "
+"copyright works"
+msgstr ""
+"Rent forms of intellectual property and similar 产品, except for copyright "
+"works"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_7722
+msgid "Rental of video tapes and CDs"
+msgstr "Rental of video tapes and CDs（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_7730
+msgid "Renting and leasing of other physical devices and equipment"
+msgstr "Renting and leasing of 其他 physical devices and equipment"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_7729
+msgid "Renting and renting other personal and household products"
+msgstr "Renting and renting 其他 personal and household 产品"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_7721
+msgid "Renting and renting sports and leisure products and tools"
+msgstr "Renting and renting sports and leisure 产品 and tools"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_7710
+msgid "Renting motor vehicles"
+msgstr "Renting motor vehicles（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_3313
+msgid "Repair of electronic and optical devices"
+msgstr "Repair of electronic and optical devices（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_9524
+msgid "Repair of furniture and household items"
+msgstr "Repair of furniture and household items（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_3311
+msgid "Repair of manufactured metal products"
+msgstr "Repair of manufactured metal 产品"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_9529
+msgid "Repair of other household and personal products"
+msgstr "Repair of 其他 household and personal 产品"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_9522
+msgid "Repair of tools, household appliances, and garden care equipment"
+msgstr ""
+"Repair of tools, household appliances, and garden care equipment（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_3315
+msgid "Repair of transport devices, except for motor vehicles"
+msgstr "Repair of transport devices, except for motor vehicles（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_3319
+msgid "Repair other devices"
+msgstr "Repair 其他 devices"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_7210
+msgid ""
+"Research and experimental development in the field of natural and "
+"engineering sciences"
+msgstr ""
+"Research and experimental development in the field of natural and "
+"engineering sciences（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_5610
+msgid "Restaurant service and food delivery activities by mobile means"
+msgstr "Restaurant 服务 and food 交货 活动 by 手机 means"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4751
+msgid "Retail sale in clothing stores"
+msgstr "Retail 销售 in clothing stores"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4711
+msgid "Retail sale in non-specialized stores of food, beverages or tobacco"
+msgstr "Retail 销售 in non-specialized stores of food, beverages or tobacco"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4721
+msgid "Retail sale in specialized food stores"
+msgstr "Retail 销售 in specialized food stores"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4764
+msgid "Retail sale in specialized games and toys stores"
+msgstr "Retail 销售 in specialized games and toys stores"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4722
+msgid "Retail sale in specialized stores for drinks"
+msgstr "Retail 销售 in specialized stores for drinks"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4761
+msgid "Retail sale in specialized stores of books, newspapers, and stationery"
+msgstr "Retail 销售 in specialized stores of books, newspapers, and stationery"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4753
+msgid ""
+"Retail sale in specialized stores of carpets, blankets, wall and floor "
+"coverings"
+msgstr ""
+"Retail 销售 in specialized stores of carpets, blankets, wall and floor "
+"coverings"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4752
+msgid "Retail sale in specialized stores of hardware, paint and glass"
+msgstr "Retail 销售 in specialized stores of hardware, paint and glass"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4759
+msgid ""
+"Retail sale in specialized stores of household electrical appliances, "
+"furniture, lighting equipment and other household appliances"
+msgstr ""
+"Retail 销售 in specialized stores of household electrical appliances, "
+"furniture, lighting equipment and 其他 household appliances"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4762
+msgid "Retail sale in specialized stores of music and video recordings"
+msgstr "Retail 销售 in specialized stores of music and video recordings"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4773
+msgid "Retail sale in specialized stores of other new products"
+msgstr "Retail 销售 in specialized stores of 其他 新建 产品"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4772
+msgid ""
+"Retail sale in specialized stores of pharmaceutical, medical and "
+"pharmaceutical products, ornamental and cosmetic products"
+msgstr ""
+"Retail 销售 in specialized stores of pharmaceutical, medical and "
+"pharmaceutical 产品, ornamental and cosmetic 产品"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4771
+msgid ""
+"Retail sale in specialized stores of shoes, clothing and leather products"
+msgstr "Retail 销售 in specialized stores of shoes, clothing and leather 产品"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4763
+msgid "Retail sale in specialized stores of sports equipment"
+msgstr "Retail 销售 in specialized stores of sports equipment"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4723
+msgid "Retail sale in specialized stores of tobacco products"
+msgstr "Retail 销售 in specialized stores of tobacco 产品"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4742
+msgid "Retail sale in stores specialized in audio-visual equipment"
+msgstr "Retail 销售 in stores specialized in audio-visual equipment"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4741
+msgid ""
+"Retail sale in stores specialized in computer hardware, accessories, "
+"computer software, and communications equipment"
+msgstr ""
+"Retail 销售 in stores specialized in computer hardware, accessories, computer "
+"software, and communications equipment"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4730
+msgid "Retail sale of specialized vehicles for fuel"
+msgstr "Retail 销售 of specialized vehicles for fuel"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4774
+msgid "Retail sale of used products"
+msgstr "Retail 销售 of used 产品"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4782
+msgid "Retail sale through kiosks and markets of clothes, fabrics and shoes"
+msgstr "Retail 销售 through kiosks and markets of clothes, fabrics and shoes"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4781
+msgid ""
+"Retail sale through kiosks and markets of food, soft drinks and tobacco "
+"products"
+msgstr ""
+"Retail 销售 through kiosks and markets of food, soft drinks and tobacco 产品"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4791
+msgid "Retail sale via mail requests or through the Internet"
+msgstr "Retail 销售 via mail requests or through the Internet"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4789
+msgid "Retail sale via stalls of other products"
+msgstr "Retail 销售 via stalls of 其他 产品"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0442
+msgid "Revenue from constructed real estate"
+msgstr "Revenue 从 constructed real estate"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0461
+msgid "Revenue from non-funders"
+msgstr "Revenue 从 non-funders"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0462
+msgid "Revenue of transferred capital"
+msgstr "Revenue of transferred capital（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_6621
+msgid "Risk and damage assessment"
+msgstr "Risk and damage assessment（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0322
+msgid "River farms"
+msgstr "River farms（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0312
+msgid "River fishing"
+msgstr "River fishing（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4210
+msgid "Road and railway constructions"
+msgstr "Road and railway constructions（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_SK
+msgid "Sack"
+msgstr "Sack（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4530
+msgid "Sale of motor vehicle parts and accessories"
+msgstr "销售 of motor vehicle parts and accessories"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4510
+msgid "Sale of motor vehicles"
+msgstr "销售 of motor vehicles"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4540
+msgid ""
+"Sale, maintenance and repair of motorcycles, parts and accessories thereof"
+msgstr ""
+"销售, maintenance and repair of motorcycles, parts and accessories thereof"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0893
+msgid "Salt extraction"
+msgstr "Salt extraction（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_6130
+msgid "Satellite communication activities"
+msgstr "Satellite communication 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1610
+msgid "Sawing wood and abrasion"
+msgstr "Sawing wood and abrasion（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_6612
+msgid "Security and commodity contracts brokerage"
+msgstr "Security and commodity contracts brokerage（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_8423
+msgid "Security and public order activities"
+msgstr "Security and public 订单 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_8020
+msgid "Security systems services activities"
+msgstr "Security systems services 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0910
+msgid "Service activities in support of oil and natural gas extraction"
+msgstr "服务 活动 in support of oil and natural gas extraction"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0990
+msgid "Service activities in support of other mining and quarrying activities"
+msgstr "服务 活动 in support of 其他 mining and quarrying 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_5221
+msgid "Service activities related to road transport"
+msgstr "服务 活动 相关 to road transport"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_eg_edi_eta.res_config_settings_view_form
+msgid ""
+"Set the threshold amount for invoices that won't require the VAT ID of "
+"individuals when invoicing"
+msgstr ""
+"Set the threshold 金额 for 发票 that won't require the VAT ID of individuals "
+"when 开票"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_3700
+msgid "Sewer"
+msgstr "Sewer（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1621
+msgid "Sheets made of wood veneer and wood-based panels"
+msgstr "Sheets made of wood veneer and wood-based panels（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4912
+msgid "Shipping by rail"
+msgstr "配送 by rail"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_9523
+msgid "Shoe and leather products repair"
+msgstr "Shoe and leather 产品 repair"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1520
+msgid "Shoe manufacturing"
+msgstr "Shoe manufacturing（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_5510
+msgid "Short-term placement activities (rental - housing"
+msgstr "Short-term placement 活动 (rental - housing"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_SH
+msgid "Shrink ( Shrink )"
+msgstr "Shrink ( Shrink )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_D10
+msgid "Siemens per meter ( S/m )"
+msgstr "Siemens per meter ( S/m )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_eg_edi_eta.view_move_form_inherit
+msgid "Sign Invoice"
+msgstr "Sign 发票"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.server,name:l10n_eg_edi_eta.action_sign_invoices
+msgid "Sign invoices"
+msgstr "Sign 发票"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_account_bank_statement_line__l10n_eg_signing_time
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_account_move__l10n_eg_signing_time
+msgid "Signing Time"
+msgstr "Signing Time（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_8810
+msgid ""
+"Social work activities for the infirm and disabled that take place without "
+"accommodation"
+msgstr ""
+"Social work 活动 for the infirm and disabled that take place without "
+"accommodation"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_8730
+msgid "Spa facilities for the elderly and disabled"
+msgstr "Spa facilities for the elderly and disabled（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_7410
+msgid "Specialized design activities"
+msgstr "Specialized design 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1101
+msgid "Spirits distilled, refined and mixed"
+msgstr "Spirits distilled, refined and mixed（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_8541
+msgid "Sports and rehabilitation education"
+msgstr "Sports and rehabilitation education（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_9312
+msgid "Sports club activities"
+msgstr "Sports club 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_3230
+msgid "Sports products industry"
+msgstr "Sports 产品 industry"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_CMK
+msgid "Square centimeter ( cm2 )"
+msgstr "Square centimeter ( cm2 )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_FTK
+msgid "Square foot ( ft2 )"
+msgstr "Square foot ( ft2 )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_INK
+msgid "Square inch ( Inch2 )"
+msgstr "Square inch ( Inch2 )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_KMK
+msgid "Square kilometer ( km2 )"
+msgstr "Square kilometer ( km2 )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_MTK
+msgid "Square meter ( m2 )"
+msgstr "Square meter ( m2 )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_MMK
+msgid "Square millimeter ( mm2 )"
+msgstr "Square millimeter ( mm2 )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_eg_edi_eta.eg_partner_address_form
+msgid "State..."
+msgstr "状态..."
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_3530
+msgid "Steam supply and air conditioning"
+msgstr "Steam supply and air conditioning（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_eg_edi_eta.eg_partner_address_form
+msgid "Street"
+msgstr "街道"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2511
+msgid "Structural metal products industry"
+msgstr "Structural metal 产品 industry"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_account_bank_statement_line__l10n_eg_submission_number
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_account_move__l10n_eg_submission_number
+msgid "Submission ID"
+msgstr "Submission ID（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_5912
+msgid ""
+"Subsequent activities for the production of movies, videos and television "
+"programs"
+msgstr "Subsequent 活动 for the 生产 of movies, videos and television programs"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1072
+msgid "Sugar industry"
+msgstr "Sugar industry（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0161
+msgid "Support activities for crop production"
+msgstr "Support 活动 for crop 生产"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_8110
+msgid "Support activities for joint facilities"
+msgstr "Support 活动 for joint facilities"
+
+#. module: l10n_eg_edi_eta
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_eg_edi_eta/static/src/client_action/sign_invoice.js:0
+msgid "System not supported"
+msgstr "System not supported（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1511
+msgid "Tanning and processing of leather, fillings and dyeing of fur"
+msgstr "Tanning and processing of leather, fillings and dyeing of fur（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_8522
+msgid "Technical and vocational secondary education"
+msgstr "Technical and vocational secondary education（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_7120
+msgid "Technical tests and analyzes"
+msgstr "Technical tests and analyzes（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_6020
+msgid "Television program preparation and broadcast activities"
+msgstr "Television program preparation and broadcast 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1312
+msgid "Textile weave"
+msgstr "Textile weave（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_9411
+msgid ""
+"The activities of commercial enterprises, employers and professional "
+"membership organizations"
+msgstr ""
+"The 活动 of commercial enterprises, employers and professional membership "
+"organizations"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_eg_edi_eta.res_config_settings_view_form
+msgid "The client ID retrieved from the ETA e-invoicing portal"
+msgstr "The client ID retrieved 从 the ETA e-invoicing portal"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2816
+msgid "The elevators and equipment needed for it"
+msgstr "The elevators and equipment needed for it（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2410
+msgid "The industry of basic iron and steel"
+msgstr "The industry of basic iron and steel（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_7010
+msgid "The main office activities"
+msgstr "The main office 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1103
+msgid ""
+"The manufacture of alcoholic drinks derived from the molten and the "
+"manufacture of molten"
+msgstr ""
+"The manufacture of alcoholic drinks derived 从 the molten and the manufacture"
+" of molten"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1430
+msgid "The manufacture of clothing, knitted and crocheted"
+msgstr "The manufacture of clothing, knitted and crocheted（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2620
+msgid "The manufacture of electronic computers and related devices"
+msgstr "The manufacture of electronic computers and 相关 devices"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_eg_edi_eta.res_config_settings_view_form
+msgid "The secret key provided by the ETA. You can input client secret 1 or 2"
+msgstr ""
+"The secret key provided by the ETA. You can input client secret 1 or 2（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1313
+msgid "The textile industry"
+msgstr "The textile industry（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_eg_edi_eta.field_product_template__l10n_eg_eta_code
+msgid ""
+"This can be an EGS or GS1 product code, which is needed for the e-invoice.  "
+"The best practice however is to use that code also as barcode and in that "
+"case, you should put it in the Barcode field instead and leave this field "
+"empty."
+msgstr ""
+"This can be an EGS or GS1 产品 代码, which is needed for the 电子发票. The best "
+"practice however is to use that 代码 also as 条码 and in that case, you should "
+"put it in the 条码 field instead and 休假 this field empty."
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_eg_edi_eta.field_product_product__l10n_eg_eta_code
+msgid ""
+"This can be an EGS or GS1 product code, which is needed for the e-invoice.  "
+"The best practice however is to use that code also as barcode and in that "
+"case, you should put it in the Barcode field instead and leave this field "
+"empty. "
+msgstr ""
+"This can be an EGS or GS1 产品 代码, which is needed for the 电子发票. The best "
+"practice however is to use that 代码 also as 条码 and in that case, you should "
+"put it in the 条码 field instead and 休假 this field empty."
+
+#. module: l10n_eg_edi_eta
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_eg_edi_eta/models/account_edi_format.py:0
+msgid ""
+"This invoice has been marked as invalid by the ETA. Please check the ETA "
+"website for more information"
+msgstr ""
+"This 发票 has been marked as 无效 by the ETA. Please 检查 the ETA website for more"
+" 信息"
+
+#. module: l10n_eg_edi_eta
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_eg_edi_eta/models/account_edi_format.py:0
+msgid ""
+"This invoice has been sent to the ETA, but we are still awaiting validation"
+msgstr "This 发票 has been 已发送 to the ETA, but we are still awaiting validation"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_eg_edi_eta.field_account_journal__l10n_eg_activity_type_id
+msgid ""
+"This is the activity type of the branch according to Egyptian Tax Authority"
+msgstr "This is the 活动 类型 of the branch according to Egyptian 税 Authority"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_eg_edi_eta.field_uom_uom__l10n_eg_unit_code_id
+msgid "This is the type of unit according to egyptian tax authority"
+msgstr "This is the 类型 of 单位 according to egyptian 税 authority"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_eg_edi_eta.field_account_journal__l10n_eg_branch_identifier
+msgid ""
+"This number can be found on the taxpayer profile on the eInvoicing portal. "
+msgstr ""
+"This 编号 can be found on the taxpayer profile on the eInvoicing portal."
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_eg_edi_eta.field_res_company__l10n_eg_invoicing_threshold
+#: model:ir.model.fields,help:l10n_eg_edi_eta.field_res_config_settings__l10n_eg_invoicing_threshold
+msgid ""
+"Threshold at which you are required to give the VAT number of the customer. "
+msgstr "Threshold at which you are 必填 to give the VAT 编号 of the 客户."
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.act_window,name:l10n_eg_edi_eta.action_eta_thumb_drive_tree
+#: model:ir.ui.menu,name:l10n_eg_edi_eta.menu_action_eta_thumb_drive_tree
+msgid "Thumb Drive"
+msgstr "Thumb Drive（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_eg_edi_eta.model_l10n_eg_edi_thumb_drive
+msgid "Thumb drive used to sign invoices in Egypt"
+msgstr "Thumb drive used to sign 发票 in Egypt"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0115
+msgid "Tobacco cultivation"
+msgstr "Tobacco cultivation（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_TON
+msgid "Ton (metric)"
+msgstr "Ton (metric)（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_ST
+msgid "Ton (short,2000 lb)"
+msgstr "Ton (short,2000 lb)（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_D41
+msgid "Ton/Cubic meter ( t/m3 )"
+msgstr "Ton/Cubic meter ( t/m3 )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_TNE
+msgid "Tonne ( t )"
+msgstr "Tonne ( t )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_7911
+msgid "Tourism agency services"
+msgstr "Tourism agency services（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_9420
+msgid "Trade union activities"
+msgstr "Trade union 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_5011
+msgid "Transportation of marine and coastal passengers"
+msgstr "Transportation of marine and coastal passengers（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4921
+msgid "Transporting land passengers outside and inside cities"
+msgstr "Transporting land passengers outside and inside cities（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_3822
+msgid "Treatment and disposal of hazardous waste"
+msgstr "Treatment and disposal of hazardous waste（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_3821
+msgid "Treatment and disposal of non-hazardous waste"
+msgstr "Treatment and disposal of non-hazardous waste（技术名称）"
+
+#. module: l10n_eg_edi_eta
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_eg_edi_eta/static/src/client_action/sign_invoice.js:0
+msgid "Unauthorized"
+msgstr "Unauthorized（技术名称）"
+
+#. module: l10n_eg_edi_eta
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_eg_edi_eta/static/src/client_action/sign_invoice.js:0
+msgid "Unexpected error: “%s”"
+msgstr "Unexpected 错误: “%s”"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0721
+msgid "Uranium and raw thorium mining"
+msgstr "Uranium and raw thorium mining（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_l10n_eg_edi_thumb_drive__user_id
+msgid "User"
+msgstr "用户"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_7500
+msgid "Veterinary activities"
+msgstr "Veterinary 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_VLT
+msgid "Volt ( V )"
+msgstr "Volt ( V )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_eg_edi_eta/models/res_currency_rate.py:0
+msgid "Warning for %s"
+msgstr "%s 的预警"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_9601
+msgid "Wash and clean textile and fur products"
+msgstr "Wash and clean textile and fur 产品"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2652
+msgid "Watch and alarm clock industry"
+msgstr "Watch and alarm clock industry（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_3600
+msgid "Water collection, treatment and supply"
+msgstr "Water collection, treatment and supply（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2513
+msgid "Water vapor generators except for central heating boilers in hot water"
+msgstr ""
+"Water vapor generators except for central heating boilers in hot water（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_WTT
+msgid "Watt ( W )"
+msgstr "Watt ( W )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_WEE
+msgid "Weeks ( Weeks )"
+msgstr "Weeks ( Weeks )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4653
+msgid "Wholesale trade for agricultural equipment, machinery and supplies"
+msgstr ""
+"Wholesale trade for agricultural equipment, machinery and supplies（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4649
+msgid "Wholesale trade for other household appliances"
+msgstr "Wholesale trade for 其他 household appliances"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4669
+msgid ""
+"Wholesale trade for waste, waste and other products not classified elsewhere"
+msgstr "Wholesale trade for waste, waste and 其他 产品 not classified elsewhere"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4620
+msgid "Wholesale trade in agricultural raw materials and live animals"
+msgstr "Wholesale trade in agricultural raw materials and live animals（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4662
+msgid "Wholesale trade in precious metals and minerals"
+msgstr "Wholesale trade in precious metals and minerals（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4641
+msgid "Wholesale trade of clothes, fabrics and shoes"
+msgstr "Wholesale trade of clothes, fabrics and shoes（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4651
+msgid ""
+"Wholesale trade of computer hardware, accessories and computer software"
+msgstr ""
+"Wholesale trade of computer hardware, accessories and computer "
+"software（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4661
+msgid "Wholesale trade of dry, liquid and gaseous fuels and related products"
+msgstr "Wholesale trade of dry, liquid and gaseous fuels and 相关 产品"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4652
+msgid ""
+"Wholesale trade of electronic devices, communications devices and "
+"accessories"
+msgstr ""
+"Wholesale trade of electronic devices, communications devices and "
+"accessories（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4659
+msgid "Wholesale trade of equipment and other devices"
+msgstr "Wholesale trade of equipment and 其他 devices"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4630
+msgid "Wholesale trade of food, beverages and tobacco"
+msgstr "Wholesale trade of food, beverages and tobacco（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4610
+msgid "Wholesale trade on the basis of a contract or a fee"
+msgstr "Wholesale trade on the basis of a contract or a fee（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4663
+msgid ""
+"Wholesale trade, supplies and equipment for building materials, hardware, "
+"plumbing and heating appliances"
+msgstr ""
+"Wholesale trade, supplies and equipment for building materials, hardware, "
+"plumbing and heating appliances（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1102
+msgid "Winemaking"
+msgstr "Winemaking（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2733
+msgid "Wire devices industry"
+msgstr "Wire devices industry（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_6110
+msgid "Wired telecommunications activities"
+msgstr "Wired telecommunications 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_6120
+msgid "Wireless communication activities"
+msgstr "Wireless communication 活动"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0220
+msgid "Wood cutting"
+msgstr "Wood cutting（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1623
+msgid "Wooden boxes industry"
+msgstr "Wooden boxes industry（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_YRD
+msgid "Yards ( yd )"
+msgstr "Yards ( yd )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_ANN
+msgid "Years ( yr )"
+msgstr "Years ( yr )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.constraint,message:l10n_eg_edi_eta.constraint_l10n_eg_edi_thumb_drive_user_drive_uniq
+msgid "You can only have one thumb drive per user per company!"
+msgstr "You 只能有一个 thumb drive per 用户 per 公司!"
+
+#. module: l10n_eg_edi_eta
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_eg_edi_eta/models/account_edi_format.py:0
+msgid ""
+"You cannot issue an invoice to a partner with the same VAT number as the "
+"branch."
+msgstr "You cannot issue an 发票 to a 业务伙伴 with the same VAT 编号 as the branch."
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_eg_edi_eta.eg_partner_address_form
+msgid "ZIP"
+msgstr "邮政编码"
+
+#. module: l10n_eg_edi_eta
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_eg_edi_eta/models/account_edi_format.py:0
+msgid "an Unknown error has occured"
+msgstr "an Unknown 错误 has occured"
+
+#. module: l10n_eg_edi_eta
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_eg_edi_eta/models/account_edi_format.py:0
+msgid "an Unknown error has occurred"
+msgstr "an Unknown 错误 has occurred"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_BAR
+msgid "bar ( bar )"
+msgstr "bar ( bar )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_EA
+msgid "each (ST) ( ST )"
+msgstr "each (ST) ( ST )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_GLL
+msgid "gallon ( gal )"
+msgstr "gallon ( gal )（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_6511
+msgid "life insurance"
+msgstr "life insurance（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_LB
+msgid "pounds"
+msgstr "pounds（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1811
+msgid "printing"
+msgstr "printing（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_PMP
+msgid "pump"
+msgstr "泵"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_6520
+msgid "re Insurance"
+msgstr "re Insurance（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_RUN
+msgid "run"
+msgstr "run（技术名称）"
+
+#. module: l10n_eg_edi_eta
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0121
+msgid "the cultivation of grapevines."
+msgstr "the cultivation of grapevines.（技术名称）"

@@ -645,7 +645,7 @@ class CSVExport(ExportFormat, http.Controller):
             _logger.exception("Exception during request handling.")
             payload = json.dumps({
                 'code': 0,
-                'message': "Odoo Server Error",
+                'message': "GlobalCloud GPC Server Error",
                 'data': http.serialize_exception(exc)
             })
             raise InternalServerError(payload) from exc
@@ -693,7 +693,7 @@ class ExcelExport(ExportFormat, http.Controller):
             _logger.exception("Exception during request handling.")
             payload = json.dumps({
                 'code': 0,
-                'message': "Odoo Server Error",
+                'message': "GlobalCloud GPC Server Error",
                 'data': http.serialize_exception(exc)
             })
             raise InternalServerError(payload) from exc

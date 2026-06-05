@@ -1,0 +1,661 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_ph
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_15
+msgid "15 Net VAT Payable(Excess Input Tax)"
+msgstr "15 Net VAT Payable(Excess Input 税)"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_16
+msgid "16 Creditable VAT Withheld"
+msgstr "16 Creditable VAT Withheld（技术名称）"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_17
+msgid "17 Advance VAT Payments"
+msgstr "17 Advance VAT 付款"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_18
+msgid "18 VAT paid in return previously filed, if this is an amended return"
+msgstr "18 VAT paid in 退货 previously filed, if this is an amended 退货"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_19
+msgid "19 Other Credits/Payment"
+msgstr "19 其他 Credits/付款"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_20
+msgid "20 Total Tax Credits/Payment"
+msgstr "20 合计 税 Credits/付款"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_21
+msgid "21 Tax Still Payable/(Excess Credits)"
+msgstr "21 税 Still Payable/(Excess Credits)"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_22
+msgid "22 Surcharge"
+msgstr "22 Surcharge（技术名称）"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_23
+msgid "23 Interest"
+msgstr "23 Interest（技术名称）"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_24
+msgid "24 Compromise"
+msgstr "24 Compromise（技术名称）"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_25
+msgid "25 Total Penalties"
+msgstr "25 合计 Penalties"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report,name:l10n_ph.vat
+msgid "2550Q"
+msgstr "2550Q（技术名称）"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_26
+msgid "26 TOTAL AMOUNT PAYABLE/(Excess Credits)"
+msgstr "26 合计 金额 PAYABLE/(Excess Credits)"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_31
+msgid "31 VATable Sales"
+msgstr "31 VATable 销售"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_32
+msgid "32 Zero-Rated Sales"
+msgstr "32 Zero-Rated 销售"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_33
+msgid "33 Exempt Sales"
+msgstr "33 Exempt 销售"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_34
+msgid "34 Total Sales & Output Tax Due"
+msgstr "34 合计 销售 & Output 税 Due"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_35
+msgid "35 Less: Output VAT on Uncollected Receivables"
+msgstr "35 Less: Output VAT on Uncollected Receivables（技术名称）"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_36
+msgid ""
+"36 Add: Output VAT on Recovered Uncollected Receivables Previously Deducted "
+msgstr ""
+"36 添加: Output VAT on Recovered Uncollected Receivables Previously Deducted"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_37
+msgid "37 Total Adjusted Output Tax Due"
+msgstr "37 合计 Adjusted Output 税 Due"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_38
+msgid "38 Input Tax Carried Over from Previous Quarter"
+msgstr "38 Input 税 Carried Over 从 Previous Quarter"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_39
+msgid ""
+"39 Input Tax Deferred on Capital Goods Exceeding P1 Million from Previous "
+"Quarter (From Part V - Schedule 1 Col E)"
+msgstr ""
+"39 Input 税 Deferred on Capital Goods Exceeding P1 Million 从 Previous Quarter"
+" (从 Part V - 计划 1 Col E)"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_40
+msgid "40 Transitional Input Tax"
+msgstr "40 Transitional Input 税"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_41
+msgid "41 Presumptive Input Tax"
+msgstr "41 Presumptive Input 税"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_42
+msgid "42 Others"
+msgstr "42 其他"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_43
+msgid "43 Total"
+msgstr "43 合计"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_44
+msgid "44 Domestic Purchases"
+msgstr "44 Domestic Purchases（技术名称）"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_45
+msgid "45 Services Rendered by Non-residents"
+msgstr "45 Services Rendered by Non-residents（技术名称）"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_46
+msgid "46 Importations"
+msgstr "46 Importations（技术名称）"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_47
+msgid "47 Others"
+msgstr "47 其他"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_48
+msgid "48 Domestic Purchases with No Input Tax"
+msgstr "48 Domestic Purchases with 否 Input 税"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_49
+msgid "49 VAT-Exempt Importations"
+msgstr "49 VAT-Exempt Importations（技术名称）"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_50
+msgid "50 Total Current Purchase/Input Tax"
+msgstr "50 合计 Current 采购/Input 税"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_51
+msgid "51 Total Available Input Tax"
+msgstr "51 合计 可用 Input 税"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_52
+msgid ""
+"52 Input Tax on Purchases/Importation of Capital Goods exceeding P1 Million "
+"deferred for the succeeding period"
+msgstr ""
+"52 Input 税 on Purchases/Importation of Capital Goods exceeding P1 Million "
+"deferred for the succeeding period"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_53
+msgid "53 Input Tax Attributable to VAT Exempt Sales"
+msgstr "53 Input 税 Attributable to VAT Exempt 销售"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_54
+msgid "54 VAT refund/TCC claimed"
+msgstr "54 VAT 退款/TCC claimed"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_55
+msgid "55 Input VAT on Unpaid Payables"
+msgstr "55 Input VAT on Unpaid Payables（技术名称）"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_56
+msgid "56 Others"
+msgstr "56 其他"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_57
+msgid "57 Total Deductions from Input Tax"
+msgstr "57 合计 Deductions 从 Input 税"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_58
+msgid "58 Add: Input VAT on Settled Unpaid Payables Previously Deducted"
+msgstr "58 添加: Input VAT on Settled Unpaid Payables Previously Deducted"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_59
+msgid "59 Adjusted Deductions from Input Tax"
+msgstr "59 Adjusted Deductions 从 Input 税"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_60
+msgid "60 Total Allowable Input Tax"
+msgstr "60 合计 Allowable Input 税"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_61
+msgid "61 Net VAT Payable/(Excess Input Tax)"
+msgstr "61 Net VAT Payable/(Excess Input 税)"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ph.report_disbursement_voucher_document
+msgid "<span>Account</span>"
+msgstr "<span>科目</span>"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ph.report_disbursement_voucher_document
+msgid "<span>Credit</span>"
+msgstr "<span>贷方</span>"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ph.report_disbursement_voucher_document
+msgid "<span>Debit</span>"
+msgstr "<span>借方</span>"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ph.model_account_chart_template
+msgid "Account Chart Template"
+msgstr "科目表模版"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_apen
+msgid "Add: Penalties"
+msgstr "添加: Penalties"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.column,name:l10n_ph.l10n_ph_2550Q_balance
+msgid "Amount"
+msgstr "金额"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ph.report_disbursement_voucher_document_footer
+msgid "Approved By:"
+msgstr "已批准 By:"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.act_window,name:l10n_ph.view_l10n_ph_2307_wizard_act_window
+msgid "BIR 2307 Report"
+msgstr "BIR 2307 报表"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ph.l10n_ph_2307_wizard_view_form
+msgid "Bill Date"
+msgstr "账单日期"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ph.field_res_partner__branch_code
+#: model:ir.model.fields,field_description:l10n_ph.field_res_users__branch_code
+msgid "Branch Code"
+msgstr "Branch 代码"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ph.l10n_ph_2307_wizard_view_form
+msgid "Cancel"
+msgstr "取消"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ph.report_disbursement_voucher_document
+msgid "Check Number:"
+msgstr "检查 编号:"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ph.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ph.field_res_company__branch_code
+msgid "Company Branch Code"
+msgstr "公司 Branch 代码"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ph.model_res_partner
+msgid "Contact"
+msgstr "联系人"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,website_form_label:l10n_ph.model_res_partner
+msgid "Create a Customer"
+msgstr "创建客户"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ph.field_l10n_ph_2307_wizard__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ph.field_l10n_ph_2307_wizard__create_date
+msgid "Created on"
+msgstr "创建日期"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ph.report_disbursement_voucher_document
+msgid "Disbursement Voucher:"
+msgstr "Disbursement Voucher:（技术名称）"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ph.field_account_chart_template__display_name
+#: model:ir.model.fields,field_description:l10n_ph.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_ph.field_account_payment__display_name
+#: model:ir.model.fields,field_description:l10n_ph.field_account_tax__display_name
+#: model:ir.model.fields,field_description:l10n_ph.field_l10n_ph_2307_wizard__display_name
+#: model:ir.model.fields,field_description:l10n_ph.field_res_company__display_name
+#: model:ir.model.fields,field_description:l10n_ph.field_res_partner__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.server,name:l10n_ph.action_account_move_bir_2307
+#: model:ir.actions.server,name:l10n_ph.action_account_payment_bir_2307
+msgid "Download BIR 2307 XLS"
+msgstr "Download BIR 2307 XLS（技术名称）"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ph.model_account_tax
+msgid "ETA tax codes mixin"
+msgstr "ETA 税 codes mixin"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ph.model_l10n_ph_2307_wizard
+msgid "Exports 2307 data to a XLS file."
+msgstr "Exports 2307 data to a XLS 文件."
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ph.field_res_partner__first_name
+#: model:ir.model.fields,field_description:l10n_ph.field_res_users__first_name
+msgid "First Name"
+msgstr "名字"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ph.l10n_ph_2307_wizard_view_form
+msgid "Generate"
+msgstr "生成"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ph.l10n_ph_2307_wizard_view_form
+msgid "Generate BIR 2307 Report"
+msgstr "Generate BIR 2307 报表"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ph.field_l10n_ph_2307_wizard__xls_file
+msgid "Generated file"
+msgstr "已生成 文件"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ph.field_account_chart_template__id
+#: model:ir.model.fields,field_description:l10n_ph.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_ph.field_account_payment__id
+#: model:ir.model.fields,field_description:l10n_ph.field_account_tax__id
+#: model:ir.model.fields,field_description:l10n_ph.field_l10n_ph_2307_wizard__id
+#: model:ir.model.fields,field_description:l10n_ph.field_res_company__id
+#: model:ir.model.fields,field_description:l10n_ph.field_res_partner__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ph.field_l10n_ph_2307_wizard__moves_to_export
+msgid "Joural To Include"
+msgstr "Joural To Include（技术名称）"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ph.model_account_move
+msgid "Journal Entry"
+msgstr "日记账分录"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ph.field_res_partner__last_name
+#: model:ir.model.fields,field_description:l10n_ph.field_res_users__last_name
+msgid "Last Name"
+msgstr "姓氏"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ph.field_l10n_ph_2307_wizard__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ph.field_l10n_ph_2307_wizard__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_ltcit
+msgid "Less: Adjustment/Deductions from Input Tax"
+msgstr "Less: Adjustment/Deductions 从 Input 税"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_ait
+msgid "Less: Allowable Input Tax"
+msgstr "Less: Allowable Input 税"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_ltc
+msgid "Less: Tax Credits/Payments"
+msgstr "Less: 税 Credits/付款"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ph.field_res_partner__middle_name
+#: model:ir.model.fields,field_description:l10n_ph.field_res_users__middle_name
+msgid "Middle Name"
+msgstr "Middle 名称"
+
+#. module: l10n_ph
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ph/models/account_payment.py:0
+msgid "Only Outbound Payment is available."
+msgstr "Only Outbound 付款 is 可用."
+
+#. module: l10n_ph
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ph/models/account_move.py:0
+msgid "Only Vendor Bills are available."
+msgstr "Only 供应商账单s are 可用."
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_ttp
+msgid "Part II - Total Tax Payable"
+msgstr "Part II - 合计 税 Payable"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_ph.l10n_ph_2550Q_2550q_dovc
+msgid "Part IV - Details of VAT Computation"
+msgstr "Part IV - Details of VAT Computation（技术名称）"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ph.report_disbursement_voucher_document
+msgid "Payment Receipt"
+msgstr "付款收据"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ph.model_account_payment
+msgid "Payments"
+msgstr "付款"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ph.view_tax_form
+msgid "Philippines"
+msgstr "菲律宾"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.report,name:l10n_ph.action_report_disbursement_voucher_ph
+msgid "Philippines : Disbursement Voucher"
+msgstr "Philippines : Disbursement Voucher（技术名称）"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ph.field_account_tax__l10n_ph_atc
+msgid "Philippines ATC"
+msgstr "Philippines ATC（技术名称）"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ph.report_disbursement_voucher_document_footer
+msgid "Prepared By:"
+msgstr "Prepared By:（技术名称）"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ph.field_res_company__l10n_ph_rdo
+#: model:ir.model.fields,field_description:l10n_ph.field_res_partner__l10n_ph_rdo
+#: model:ir.model.fields,field_description:l10n_ph.field_res_users__l10n_ph_rdo
+msgid "RDO"
+msgstr "RDO（技术名称）"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ph.report_disbursement_voucher_document_footer
+msgid "Received By:"
+msgstr "已接收 By:"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ph.report_disbursement_voucher_document_footer
+msgid "Received Date:"
+msgstr "已接收 日期:"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ph.field_res_company__l10n_ph_rdo
+#: model:ir.model.fields,help:l10n_ph.field_res_partner__l10n_ph_rdo
+#: model:ir.model.fields,help:l10n_ph.field_res_users__l10n_ph_rdo
+msgid "Revenue District Office"
+msgstr "Revenue District Office（技术名称）"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ph.l10n_ph_2307_wizard_view_form
+msgid "Tax"
+msgstr "税项"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.column,name:l10n_ph.l10n_ph_2550Q_tax_base
+msgid "Tax Base"
+msgstr "税 Base"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ph.field_l10n_ph_2307_wizard__xls_file
+msgid ""
+"Technical field used to temporarily hold the generated XLS file before its "
+"downloaded."
+msgstr ""
+"Technical field used to temporarily hold the 已生成 XLS 文件 before its "
+"downloaded."
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ph.l10n_ph_2307_wizard_view_form
+msgid "This will export a XLS file for BIR 2307."
+msgstr "This will 导出 a XLS 文件 for BIR 2307."
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ph.l10n_ph_2307_wizard_view_form
+msgid "Total"
+msgstr "总计"
+
+#. module: l10n_ph
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ph.l10n_ph_2307_wizard_view_form
+msgid "Vendor"
+msgstr "供应商"

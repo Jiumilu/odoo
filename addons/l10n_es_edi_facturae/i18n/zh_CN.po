@@ -1,0 +1,1272 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_es_edi_facturae
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__27
+msgid "6-Packs"
+msgstr "6-Packs（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_payment_means__05
+msgid "Accepted bill of exchange"
+msgstr "已接受 账单 of exchange"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_es_edi_facturae.model_account_chart_template
+msgid "Account Chart Template"
+msgstr "科目表模版"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_es_edi_facturae.model_account_move_reversal
+msgid "Account Move Reversal"
+msgstr "会计分录撤销"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_es_edi_facturae.model_account_move_send
+msgid "Account Move Send"
+msgstr "科目分录发送"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_es_edi_facturae.model_account_move_send_wizard
+msgid "Account Move Send Wizard"
+msgstr "账户移动发送向导"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_res_partner__type
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_res_users__type
+msgid "Address Type"
+msgstr "地址类型"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_es_edi_facturae.model_l10n_es_edi_facturae_ac_role_type
+msgid "Administrative Center Role Type"
+msgstr "Administrative Center Role 类型"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_edi_facturae_reason_code__13
+msgid "Applicable Date/Period"
+msgstr "Applicable 日期/Period"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_edi_facturae_reason_code__12
+msgid "Applicable Tax Amount"
+msgstr "Applicable 税 金额"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_edi_facturae_reason_code__11
+msgid "Applicable Tax Rate"
+msgstr "Applicable 税 Rate"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__10
+msgid "Bags"
+msgstr "包"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_payment_means__17
+msgid "Banker’s draft"
+msgstr "Banker’s 草稿"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__08
+msgid "Barrels"
+msgstr "Barrels（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_payment_means__08
+msgid "Bill of exchange"
+msgstr "账单 of exchange"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__17
+msgid "Bins"
+msgstr "箱子"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__12
+msgid "Bottles, non-protected, cylindrical"
+msgstr "Bottles, non-protected, cylindrical（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__06
+msgid "Boxes"
+msgstr "盒子"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__24
+msgid "Bunches"
+msgstr "Bunches（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_edi_facturae_reason_code__81
+msgid "Calculation of tax inputs"
+msgstr "Calculation of 税 inputs"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_edi_facturae_reason_code__80
+msgid "Calculation of tax outputs"
+msgstr "Calculation of 税 outputs"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__13
+msgid "Canisters"
+msgstr "Canisters（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__23
+msgid "Cans, rectangular"
+msgstr "Cans, rectangular（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__11
+msgid "Carboys, non-protected"
+msgstr "Carboys, non-protected（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__19
+msgid "Cases"
+msgstr "Cases（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_payment_means__18
+msgid "Cash on delivery"
+msgstr "Cash on 交货"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__15
+msgid "Centiliters"
+msgstr "Centiliters（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__16
+msgid "Centimeters"
+msgstr "Centimeters（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_es_edi_facturae.model_certificate_certificate
+msgid "Certificate"
+msgstr "证书"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_certificate_certificate__scope
+msgid "Certificate scope"
+msgstr "证书范围"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.ui.menu,name:l10n_es_edi_facturae.menu_l10n_es_edi_facturae_root_certificates
+msgid "Certificates"
+msgstr "证书"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.act_window,name:l10n_es_edi_facturae.l10n_es_edi_facturae_certificate_action
+msgid "Certificates for Facturae EDI invoices on Spain"
+msgstr "Certificates for Facturae EDI 发票 on Spain"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_payment_means__16
+msgid "Certified cheque"
+msgstr "Certified cheque（技术名称）"
+
+#. module: l10n_es_edi_facturae
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_facturae/models/res_company.py:0
+msgid "Check Company Data"
+msgstr "检查 公司 Data"
+
+#. module: l10n_es_edi_facturae
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_facturae/models/res_partner.py:0
+msgid "Check Partner(s)"
+msgstr "检查合作伙伴"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_payment_means__11
+msgid "Cheque"
+msgstr "Cheque（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_l10n_es_edi_facturae_ac_role_type__code
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_res_partner__l10n_es_edi_facturae_ac_center_code
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_res_users__l10n_es_edi_facturae_ac_center_code
+msgid "Code"
+msgstr "代码"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_es_edi_facturae.field_res_partner__l10n_es_edi_facturae_ac_logical_operational_point
+#: model:ir.model.fields,help:l10n_es_edi_facturae.field_res_users__l10n_es_edi_facturae_ac_logical_operational_point
+msgid ""
+"Code identifying the company. Barcode of 13 standard positions. Codes are "
+"registered in Spain by AECOC. The code is made up of the country code (2 "
+"positions) Spain is '84' + Company code (5 positions) + the remaining "
+"positions. The last one is the product + check digit."
+msgstr ""
+"代码 identifying the 公司. 条码 of 13 standard positions. Codes are registered in "
+"Spain by AECOC. The 代码 is made up of the 国家/地区 代码 (2 positions) Spain is "
+"'84' + 公司 代码 (5 positions) + the remaining positions. The last one is the 产品"
+" + 检查 digit."
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_es_edi_facturae.field_res_partner__l10n_es_edi_facturae_ac_center_code
+#: model:ir.model.fields,help:l10n_es_edi_facturae.field_res_users__l10n_es_edi_facturae_ac_center_code
+msgid "Code of the issuing department."
+msgstr "代码 of the issuing department."
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_es_edi_facturae.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: l10n_es_edi_facturae
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_facturae/models/res_company.py:0
+msgid "Company must have a valid Factura-e certificate configured."
+msgstr "公司 must have a 有效 Factura-e 证书 configured."
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_es_edi_facturae.model_res_partner
+msgid "Contact"
+msgstr "联系人"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_payment_means__07
+msgid "Contract award"
+msgstr "Contract award（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__29
+msgid "Corporation Tax"
+msgstr "Corporation 税"
+
+#. module: l10n_es_edi_facturae
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_facturae/models/account_move.py:0
+msgid ""
+"Could not retrieve currency: %s. Did you enable the multicurrency option and"
+" activate the currency?"
+msgstr "无法检索币别：%s。是否启用了多币别选项并激活了币别？"
+
+#. module: l10n_es_edi_facturae
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_facturae/models/account_move.py:0
+msgid "Could not retrieve the tax: %(tax_rate)s %% for line '%(line)s'."
+msgstr "Could not retrieve the 税: %(tax_rate)s %% for 行 '%(line)s'."
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,website_form_label:l10n_es_edi_facturae.model_res_partner
+msgid "Create a Customer"
+msgstr "创建客户"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.actions.act_window,help:l10n_es_edi_facturae.l10n_es_edi_facturae_certificate_action
+msgid "Create the first certificate"
+msgstr "创建 the first 证书"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_l10n_es_edi_facturae_ac_role_type__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_l10n_es_edi_facturae_ac_role_type__create_date
+msgid "Created on"
+msgstr "创建日期"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_payment_means__04
+msgid "Credit transfer"
+msgstr "贷方 调拨"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__33
+msgid "Cubic meter"
+msgstr "Cubic meter（技术名称）"
+
+#. module: l10n_es_edi_facturae
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_facturae/models/account_move.py:0
+msgid ""
+"Customer/Vendor could not be found and could not be created due to missing "
+"data in the XML."
+msgstr ""
+"客户/供应商 could not be found and could not be created due to missing data in "
+"the XML."
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__20
+msgid "Demijohns, non-protected"
+msgstr "Demijohns, non-protected（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_payment_means__02
+msgid "Direct debit"
+msgstr "Direct 借方"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_chart_template__display_name
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_move_reversal__display_name
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_move_send__display_name
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_move_send_wizard__display_name
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_tax__display_name
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_certificate_certificate__display_name
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_l10n_es_edi_facturae_ac_role_type__display_name
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_res_company__display_name
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_res_partner__display_name
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_uom_uom__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_payment_means__06
+msgid "Documentary credit"
+msgstr "Documentary 贷方"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__18
+msgid "Dozens"
+msgstr "打"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_es_edi_facturae.model_account_tax
+msgid "ETA tax codes mixin"
+msgstr "ETA 税 codes mixin"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__31
+msgid "Envelopes"
+msgstr "Envelopes（技术名称）"
+
+#. module: l10n_es_edi_facturae
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_facturae/models/account_move_send.py:0
+msgid "Errors occurred while creating the EDI document (format: %s):"
+msgstr "创建 EDI 文档时出现错误（格式：%s）："
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__26
+msgid "Excise duty applied to manufactured tobacco in Canaries"
+msgstr "Excise duty applied to manufactured tobacco in Canaries（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__res_partner__type__facturae_ac
+msgid "FACe Center"
+msgstr "FACe Center（技术名称）"
+
+#. module: l10n_es_edi_facturae
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_facturae/models/account_move_send.py:0
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_facturae.view_move_form
+msgid "Factura-e"
+msgstr "Factura-e（技术名称）"
+
+#. module: l10n_es_edi_facturae
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_facturae/models/account_move.py:0
+msgid "Factura-e XML"
+msgstr "Factura-e XML（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__certificate_certificate__scope__facturae
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_facturae.certificate_certificate_view_search
+msgid "Facturae"
+msgstr "Facturae（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_bank_statement_line__l10n_es_edi_facturae_xml_id
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_move__l10n_es_edi_facturae_xml_id
+msgid "Facturae Attachment"
+msgstr "Facturae 附件"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_res_company__l10n_es_edi_facturae_residence_type
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_res_partner__l10n_es_edi_facturae_residence_type
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_res_users__l10n_es_edi_facturae_residence_type
+msgid "Facturae EDI Residency Type Code"
+msgstr "Facturae EDI Residency 类型 代码"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_res_company__l10n_es_edi_facturae_certificate_ids
+msgid "Facturae EDI signing certificate"
+msgstr "Facturae EDI signing 证书"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_bank_statement_line__l10n_es_edi_facturae_xml_file
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_move__l10n_es_edi_facturae_xml_file
+msgid "Facturae File"
+msgstr "Facturae 文件"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_facturae.certificate_certificate_view_search
+msgid "Facturae certificates"
+msgstr "Facturae certificates（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__21
+msgid "Grams"
+msgstr "Grams（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__02
+msgid "Hours"
+msgstr "小时"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__12
+msgid "ICIO: Tax on construction, installation and works"
+msgstr "ICIO: 税 on construction, installation and works"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_chart_template__id
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_move_reversal__id
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_move_send__id
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_move_send_wizard__id
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_tax__id
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_certificate_certificate__id
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_l10n_es_edi_facturae_ac_role_type__id
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_res_company__id
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_res_partner__id
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_uom_uom__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__25
+msgid "IDEC: Tax on bank deposits"
+msgstr "IDEC: 税 on 银行 deposits"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__07
+msgid "IE: Excise duties and consumption taxes"
+msgstr "IE: Excise duties and consumption 税"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__10
+msgid "IECDPCAC: Excise duties on oil derivates in Canaries"
+msgstr "IECDPCAC: Excise duties on oil derivates in Canaries（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__27
+msgid "IGFEI: Tax on Fluorinated Greenhouse Gases"
+msgstr "IGFEI: 税 on Fluorinated Greenhouse Gases"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__03
+msgid "IGIC: Canaries General Indirect Tax"
+msgstr "IGIC: Canaries General Indirect 税"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__09
+msgid "IGTECM: Sales tax in Ceuta and Melilla"
+msgstr "IGTECM: 销售 税 in Ceuta and Melilla"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__11
+msgid ""
+"IIIMAB: Tax on premises that affect the environment in the Balearic Islands"
+msgstr ""
+"IIIMAB: 税 on premises that affect the environment in the Balearic Islands"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__15
+msgid "IMGSN: Local sumptuary tax in Navarre"
+msgstr "IMGSN: Local sumptuary 税 in Navarre"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__16
+msgid "IMPN: Local tax on advertising in Navarre"
+msgstr "IMPN: Local 税 on advertising in Navarre"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__14
+msgid "IMSN: Local tax on building plots in Navarre"
+msgstr "IMSN: Local 税 on building plots in Navarre"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__13
+msgid "IMVDN: Local tax on unoccupied homes in Navarre"
+msgstr "IMVDN: Local 税 on unoccupied homes in Navarre"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__20
+msgid "IPS: Insurance premiums Tax"
+msgstr "IPS: Insurance premiums 税"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__28
+msgid "IRNR: Non-resident Income Tax"
+msgstr "IRNR: Non-resident Income 税"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__04
+msgid "IRPF: Personal Income Tax"
+msgstr "IRPF: Personal Income 税"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__06
+msgid "ITPAJD: Tax on wealth transfers and stamp duty"
+msgstr "ITPAJD: 税 on wealth transfers and stamp duty"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__22
+msgid "IVPEE: Tax on the value of electricity generation"
+msgstr "IVPEE: 税 on the 值 of electricity generation"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_es_edi_facturae.field_res_partner__l10n_es_edi_facturae_ac_physical_gln
+#: model:ir.model.fields,help:l10n_es_edi_facturae.field_res_users__l10n_es_edi_facturae_ac_physical_gln
+msgid ""
+"Identification of the connection point to the VAN EDI (Global Location "
+"Number). Barcode of 13 standard positions. Codes are registered in Spain by "
+"AECOC. The code is made up of the country code (2 positions) Spain is '84' +"
+" Company code (5 positions) + the remaining positions. The last one is the "
+"product + check digit."
+msgstr ""
+"Identification of the 连接 point to the VAN EDI (Global 库位 编号). 条码 of 13 "
+"standard positions. Codes are registered in Spain by AECOC. The 代码 is made "
+"up of the 国家/地区 代码 (2 positions) Spain is '84' + 公司 代码 (5 positions) + the "
+"remaining positions. The last one is the 产品 + 检查 digit."
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_payment_means__01
+msgid "In cash"
+msgstr "In cash（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_edi_facturae_reason_code__14
+msgid "Invoice Class"
+msgstr "发票 Class"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_bank_statement_line__l10n_es_invoicing_period_end_date
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_move__l10n_es_invoicing_period_end_date
+msgid "Invoice Period End Date"
+msgstr "发票 Period End 日期"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_bank_statement_line__l10n_es_invoicing_period_start_date
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_move__l10n_es_invoicing_period_start_date
+msgid "Invoice Period Start Date"
+msgstr "发票 Period Start 日期"
+
+#. module: l10n_es_edi_facturae
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_facturae/models/account_move.py:0
+msgid "Invoice imported from Factura-E XML file."
+msgstr "发票 imported 从 Factura-E XML 文件."
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_edi_facturae_reason_code__01
+msgid "Invoice number"
+msgstr "发票 编号"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_edi_facturae_reason_code__02
+msgid "Invoice serial number"
+msgstr "发票 serial 编号"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_edi_facturae_reason_code__03
+msgid "Issue date"
+msgstr "Issue 日期"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_edi_facturae_reason_code__06
+msgid "Issuer's Tax Identification Number"
+msgstr "Issuer's 税 Identification 编号"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_edi_facturae_reason_code__08
+msgid "Issuer's address"
+msgstr "Issuer's 地址"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_es_edi_facturae.field_res_partner__l10n_es_edi_facturae_ac_role_type_ids
+#: model:ir.model.fields,help:l10n_es_edi_facturae.field_res_users__l10n_es_edi_facturae_ac_role_type_ids
+msgid ""
+"It indicates the role played by the Operational Point defined as a Workplace/Department.\n"
+"These functions are:\n"
+"- Receiver: Workplace associated to the recipient's tax identification number where the invoice will be received.\n"
+"- Payer: Workplace associated to the recipient's tax identification number responsible for paying the invoice.\n"
+"- Buyer: Workplace associated to the recipient's tax identification number who issued the purchase order.\n"
+"- Collector: Workplace associated to  the issuer's tax identification number responsible for handling the collection.\n"
+"- Fiscal: Workplace associated to the recipient's tax identification number, where an Operational Point mailbox is shared by different client companies with different tax identification numbers and it is necessary to differentiate between where the message is received (shared letterbox) and the workplace where it must be stored (recipient company)."
+msgstr ""
+"It indicates the role played by the Operational Point defined as a "
+"Workplace/Department. These functions are: - Receiver: Workplace associated "
+"to the recipient's 税 identification 编号 where the 发票 will be 已接收. - Payer: "
+"Workplace associated to the recipient's 税 identification 编号 responsible for "
+"paying the 发票. - Buyer: Workplace associated to the recipient's 税 "
+"identification 编号 who issued the 采购订单. - Collector: Workplace associated to "
+"the issuer's 税 identification 编号 responsible for handling the collection. - "
+"财务: Workplace associated to the recipient's 税 identification 编号, where an "
+"Operational Point mailbox is shared by different client companies with "
+"different 税 identification numbers and it is necessary to differentiate "
+"between where the 消息 is 已接收 (shared letterbox) and the workplace where it "
+"must be stored (recipient 公司)."
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_edi_facturae_reason_code__10
+msgid "Item line"
+msgstr "Item 行"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__09
+msgid "Jerricans, cylindrical"
+msgstr "Jerricans, cylindrical（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_es_edi_facturae.model_account_move
+msgid "Journal Entry"
+msgstr "日记账分录"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__03
+msgid "Kilograms"
+msgstr "Kilograms（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__22
+msgid "Kilometers"
+msgstr "Kilometers（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__36
+msgid "Kilowatt-hour"
+msgstr "Kilowatt-hour（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_l10n_es_edi_facturae_ac_role_type__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_l10n_es_edi_facturae_ac_role_type__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_edi_facturae_reason_code__15
+msgid "Legal literals"
+msgstr "Legal literals（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__04
+msgid "Liters"
+msgstr "Liters（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_res_partner__l10n_es_edi_facturae_ac_logical_operational_point
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_res_users__l10n_es_edi_facturae_ac_logical_operational_point
+msgid "Logical Operational Point"
+msgstr "Logical Operational Point（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__25
+msgid "Meters"
+msgstr "Meters（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__26
+msgid "Millimeters"
+msgstr "Millimeters（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_l10n_es_edi_facturae_ac_role_type__name
+msgid "Name"
+msgstr "名称"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_edi_facturae_reason_code__04
+msgid "Name and surnames/Corporate name - Issuer (Sender)"
+msgstr "名称 and surnames/Corporate 名称 - Issuer (Sender)"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_edi_facturae_reason_code__05
+msgid "Name and surnames/Corporate name - Receiver"
+msgstr "名称 and surnames/Corporate 名称 - Receiver"
+
+#. module: l10n_es_edi_facturae
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_facturae/models/account_move.py:0
+msgid "No valid certificate found"
+msgstr "否 有效 证书 found"
+
+#. module: l10n_es_edi_facturae
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_facturae/models/account_move.py:0
+msgid ""
+"No valid certificate found for this company, Facturae EDI file will not be "
+"signed.\n"
+msgstr "否 有效 证书 found for this 公司, Facturae EDI 文件 will not be signed.\n"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_payment_means__10
+msgid "Non transferable promissory note"
+msgstr "Non transferable promissory note（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_facturae.template_xades_signature
+msgid "Ohixl6upD6av8N7pEvDABhEL6hM="
+msgstr "Ohixl6upD6av8N7pEvDABhEL6hM=（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_payment_means__12
+msgid "Open account reimbursement"
+msgstr "Open 账户 reimbursement"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__05
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__05
+msgid "Other"
+msgstr "其他"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__28
+msgid "Packages"
+msgstr "包裹"
+
+#. module: l10n_es_edi_facturae
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_facturae/models/res_partner.py:0
+msgid "Partner must be a company or have a VAT number"
+msgstr "业务伙伴 must be a 公司 or have a VAT 编号"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_bank_statement_line__l10n_es_payment_means
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_move__l10n_es_payment_means
+msgid "Payment Means"
+msgstr "付款 Means"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_payment_means__19
+msgid "Payment by card"
+msgstr "付款 by card"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_payment_means__15
+msgid "Payment by postgiro"
+msgstr "付款 by postgiro"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_res_partner__l10n_es_edi_facturae_ac_physical_gln
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_res_users__l10n_es_edi_facturae_ac_physical_gln
+msgid "Physical GLN"
+msgstr "Physical GLN（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__29
+msgid "Portions"
+msgstr "Portions（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_es_edi_facturae.model_uom_uom
+msgid "Product Unit of Measure"
+msgstr "产品计量单位"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__08
+msgid "RA: Customs duties"
+msgstr "RA: Customs duties（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__18
+msgid "REIGIC: Special IGIC: for travel agencies"
+msgstr "REIGIC: Special IGIC: for travel agencies（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__19
+msgid "REIPSI: Special IPSI for travel agencies"
+msgstr "REIPSI: Special IPSI for travel agencies（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__17
+msgid "REIVA: Special VAT for travel agencies"
+msgstr "REIVA: Special VAT for travel agencies（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_facturae.view_account_move_reversal_inherit_l10n_es_edi_facturae
+msgid "Reason"
+msgstr "原因"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_payment_means__03
+msgid "Receipt"
+msgstr "收货"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_edi_facturae_reason_code__07
+msgid "Receiver's Tax Identification Number"
+msgstr "Receiver's 税 Identification 编号"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_edi_facturae_reason_code__09
+msgid "Receiver's address"
+msgstr "Receiver's 地址"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_facturae.corrective_type
+msgid "Rectificación íntegra"
+msgstr "Rectificación íntegra（技术名称）"
+
+#. module: l10n_es_edi_facturae
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_facturae/wizard/account_move_reversal.py:0
+msgid "Reversal of: %(move_name)s - %(reason)s"
+msgstr "Reversal of: %(move_name)s - %(reason)s（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_res_partner__l10n_es_edi_facturae_ac_role_type_ids
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_res_users__l10n_es_edi_facturae_ac_role_type_ids
+msgid "Roles"
+msgstr "角色"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__30
+msgid "Rolls"
+msgstr "Rolls（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__21
+msgid "SWUA: Surcharge for Winding Up Activity"
+msgstr "SWUA: Surcharge for Winding Up 活动"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__34
+msgid "Second"
+msgstr "秒"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_payment_means__14
+msgid "Set-off by reciprocal credits"
+msgstr "Set-off by reciprocal credits（技术名称）"
+
+#. module: l10n_es_edi_facturae
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_facturae/models/res_company.py:0
+msgid "Settings"
+msgstr "设置"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__res_partner__invoice_edi_format__es_facturae
+msgid "Spain (FacturaE)"
+msgstr "Spain (FacturaE)（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.ui.menu,name:l10n_es_edi_facturae.menu_l10n_es_edi_facturae_root
+msgid "Spain Facturae EDI"
+msgstr "Spain Facturae EDI（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_uom_uom__l10n_es_edi_facturae_uom_code
+msgid "Spanish EDI Units"
+msgstr "Spanish EDI Units（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_bank_statement_line__l10n_es_edi_facturae_reason_code
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_move__l10n_es_edi_facturae_reason_code
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_move_reversal__l10n_es_edi_facturae_reason_code
+msgid "Spanish Facturae EDI Reason Code"
+msgstr "Spanish Facturae EDI 原因 代码"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_tax__l10n_es_edi_facturae_tax_type
+msgid "Spanish Facturae EDI Tax Type"
+msgstr "Spanish Facturae EDI 税 类型"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_facturae.product_uom_form_view_inherit_l10n_es_edi_facturae
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_facturae.product_uom_tree_view_inherit_l10n_es_edi_facturae
+msgid "Spanish Facturae EDI type"
+msgstr "Spanish Facturae EDI 类型"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_facturae.view_tax_tree_inherit_l10n_es_edi_facturae
+msgid "Spanish Tax Type"
+msgstr "Spanish 税 类型"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_payment_means__13
+msgid "Special payment"
+msgstr "Special 付款"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__23
+msgid ""
+"Tax on the production of spent nuclear fuel and radioactive waste from the "
+"generation of nuclear electric power"
+msgstr ""
+"税 on the 生产 of spent nuclear fuel and radioactive waste 从 the generation of "
+"nuclear electric power"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__24
+msgid ""
+"Tax on the storage of spent nuclear energy and radioactive waste in "
+"centralised facilities"
+msgstr ""
+"税 on the storage of spent nuclear energy and radioactive waste in "
+"centralised facilities"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_edi_facturae_reason_code__16
+msgid "Taxable Base"
+msgstr "Taxable Base（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_edi_facturae_reason_code__83
+msgid "Taxable Base modified due to discounts and rebates"
+msgstr "Taxable Base modified due to discounts and rebates（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_edi_facturae_reason_code__84
+msgid ""
+"Taxable Base modified due to firm court ruling or administrative decision"
+msgstr ""
+"Taxable Base modified due to firm court ruling or administrative "
+"decision（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_edi_facturae_reason_code__82
+msgid ""
+"Taxable Base modified due to return of packages and packaging materials"
+msgstr "Taxable Base modified due to 退货 of packages and packaging materials"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_edi_facturae_reason_code__85
+msgid ""
+"Taxable Base modified due to unpaid outputs where there is a judgement "
+"opening insolvency proceedings"
+msgstr ""
+"Taxable Base modified due to unpaid outputs where there is a judgement "
+"opening insolvency proceedings（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__02
+msgid "Taxes on production, services and imports in Ceuta and Melilla"
+msgstr "税 on 生产, services and imports in Ceuta and Melilla"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__14
+msgid "Tetra Briks"
+msgstr "Tetra Briks（技术名称）"
+
+#. module: l10n_es_edi_facturae
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_facturae/models/res_partner.py:0
+msgid "The Logical Operational Point entered is not valid."
+msgstr "The Logical Operational Point entered is not 有效."
+
+#. module: l10n_es_edi_facturae
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_facturae/models/res_partner.py:0
+msgid "The Physical GLN entered is not valid."
+msgstr "The Physical GLN entered is not 有效."
+
+#. module: l10n_es_edi_facturae
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_facturae/models/account_move.py:0
+msgid "The company needs a set tax identification number or VAT number"
+msgstr "The 公司 needs a set 税 identification 编号 or VAT 编号"
+
+#. module: l10n_es_edi_facturae
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_facturae/models/res_company.py:0
+msgid "The company's currency must be set to Euro (€)."
+msgstr "The company's 币种 must be set to Euro (€)."
+
+#. module: l10n_es_edi_facturae
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_facturae/models/account_move.py:0
+msgid ""
+"The credit note/refund appears to have been issued manually. For the purpose"
+" of generating a Facturae document, it's necessary that the credit "
+"note/refund is created directly from the associated invoice/bill."
+msgstr ""
+"The 贷项通知单/退款 appears to have been issued manually. For the purpose of "
+"generating a Facturae 单据, it's necessary that the 贷项通知单/退款 is created "
+"directly 从 the associated 发票/账单."
+
+#. module: l10n_es_edi_facturae
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_facturae/models/account_move.py:0
+msgid "The partner needs a set country"
+msgstr "The 业务伙伴 needs a set 国家/地区"
+
+#. module: l10n_es_edi_facturae
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_facturae/models/account_move.py:0
+msgid "The partner needs a set tax identification number or VAT number"
+msgstr "The 业务伙伴 needs a set 税 identification 编号 or VAT 编号"
+
+#. module: l10n_es_edi_facturae
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_facturae/models/account_move.py:0
+msgid "The product '%s' could not be found."
+msgstr "The 产品 '%s' could not be found."
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_payment_means__09
+msgid "Transferable promissory note"
+msgstr "Transferable promissory note（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__07
+msgid "Trays, one layer no cover, plastic"
+msgstr "Trays, one layer 否 cover, plastic"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__32
+msgid "Tubs"
+msgstr "Tubs（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__01
+msgid "Units"
+msgstr "单位"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__01
+msgid "Value-Added Tax"
+msgstr "Value-Added 税"
+
+#. module: l10n_es_edi_facturae
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_facturae/models/res_company.py:0
+msgid "View Certificate(s)"
+msgstr "查看 证书(s)"
+
+#. module: l10n_es_edi_facturae
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_facturae/models/res_company.py:0
+msgid "View Company(s)"
+msgstr "查看 公司(s)"
+
+#. module: l10n_es_edi_facturae
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_facturae/models/res_partner.py:0
+msgid "View Partner(s)"
+msgstr "查看合作伙伴"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__35
+msgid "Watt"
+msgstr "Watt（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_res_partner__invoice_edi_format
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_res_users__invoice_edi_format
+msgid "eInvoice format"
+msgstr "电子发票格式"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_facturae.template_xades_signature
+msgid "text/xml"
+msgstr "text/XML（技术名称）"
+
+#. module: l10n_es_edi_facturae
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_facturae.template_xades_signature
+msgid "urn:oid:1.2.840.10003.5.109.10"
+msgstr "urn:oid:1.2.840.10003.5.109.10（技术名称）"

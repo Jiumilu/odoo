@@ -11,8 +11,7 @@ msgstr ""
 "POT-Creation-Date: 2026-01-25 18:35+0000\n"
 "PO-Revision-Date: 2025-11-08 19:11+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
-"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
-"projects/odoo-19/marketing_card/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/projects/odoo-19/marketing_card/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,12 +36,8 @@ msgstr ""
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_kanban
-msgid ""
-"<i class=\"fa fa-fw fa-share\" aria-label=\"Shares\" role=\"img\" "
-"title=\"Shares\"/>"
-msgstr ""
-"<i class=\"fa fa-fw fa-share\" aria-label=\"分享\" role=\"img\" title=\"分享"
-"\"/>"
+msgid "<i class=\"fa fa-fw fa-share\" aria-label=\"Shares\" role=\"img\" title=\"Shares\"/>"
+msgstr "<i class=\"fa fa-fw fa-share\" aria-label=\"分享\" role=\"img\" title=\"分享\"/>"
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_preview
@@ -142,6 +137,8 @@ msgid ""
 "An error occured while rendering a card for %(record_name)s. Try again or "
 "check the server logs for more details."
 msgstr ""
+"An 错误 occured while rendering a card for %(record_name)s. Try again or 检查 "
+"the server logs for more details."
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
@@ -234,7 +231,7 @@ msgstr "卡片布局"
 #. odoo-python
 #: code:addons/marketing_card/models/card_campaign.py:0
 msgid "Card Preview"
-msgstr ""
+msgstr "Card Preview（技术名称）"
 
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_mailing_mailing__card_requires_sync_count
@@ -280,7 +277,7 @@ msgstr "颜色"
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.mailing_mailing_view_form_inherit_marketing_card
 msgid "Confirm Cards Update"
-msgstr ""
+msgstr "确认 Cards Update"
 
 #. module: marketing_card
 #: model_terms:ir.actions.act_window,help:marketing_card.cards_card_action
@@ -419,7 +416,7 @@ msgstr "标题路径"
 #. odoo-python
 #: code:addons/marketing_card/models/card_campaign.py:0
 msgid "Hello everyone"
-msgstr ""
+msgstr "Hello everyone（技术名称）"
 
 #. module: marketing_card
 #. odoo-python
@@ -431,7 +428,7 @@ msgstr "帮助我们分享新闻"
 #. odoo-python
 #: code:addons/marketing_card/models/card_campaign.py:0
 msgid "Here's the link to advertise your participation."
-msgstr ""
+msgstr "Here's the link to advertise your participation.（技术名称）"
 
 #. module: marketing_card
 #: model:ir.model.fields,field_description:marketing_card.field_card_campaign__id
@@ -566,7 +563,7 @@ msgstr "推广邮件计数"
 #. odoo-python
 #: code:addons/marketing_card/models/card_campaign.py:0
 msgid "Many thanks"
-msgstr ""
+msgstr "Many thanks（技术名称）"
 
 #. module: marketing_card
 #: model:ir.model,name:marketing_card.model_card_card
@@ -704,7 +701,7 @@ msgstr "发送错误的消息的数量"
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_preview
 msgid "Odoo"
-msgstr "Odoo"
+msgstr "绿色供应链公共服务平台"
 
 #. module: marketing_card
 #: model:ir.model.fields,help:marketing_card.field_card_campaign__lang
@@ -714,6 +711,8 @@ msgid ""
 "usually be a placeholder expression that provides the appropriate language, "
 "e.g. {{ object.partner_id.lang }}."
 msgstr ""
+"发送邮件时选择的可选翻译语言（ISO 代码）。如果未设置，将使用主要业务伙伴的语言。通常应为提供适当语言的占位符表达式，如 {{ "
+"object.partner_id.lang }}。"
 
 #. module: marketing_card
 #: model:card.template,name:marketing_card.card_template_organic
@@ -1067,7 +1066,7 @@ msgstr "您的网站主页"
 #. odoo-python
 #: code:addons/marketing_card/models/card_campaign.py:0
 msgid "Your help with this promotion would be greatly appreciated!"
-msgstr ""
+msgstr "Your 帮助 with this promotion would be greatly appreciated!"
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.template_2
@@ -1105,12 +1104,12 @@ msgstr "例如：财务总监"
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
 msgid "e.g. Join Odoo Experience 2024"
-msgstr "例如：参加2024年Odoo体验活动"
+msgstr "例如：参加2024年绿色供应链公共服务平台体验活动"
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
 msgid "e.g. Odoo Experience Talks"
-msgstr "例如：Odoo 体验展演讲"
+msgstr "例如：绿色供应链公共服务平台 体验展演讲"
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
@@ -1130,9 +1129,9 @@ msgstr "例如：为什么人们应该在他们的社交圈中分享？"
 
 #~ msgid ""
 #~ "Optional translation language (ISO code) to select when sending out an "
-#~ "email. If not set, the english version will be used. This should usually "
-#~ "be a placeholder expression that provides the appropriate language, e.g. "
-#~ "{{ object.partner_id.lang }}."
+#~ "email. If not set, the english version will be used. This should usually be "
+#~ "a placeholder expression that provides the appropriate language, e.g. {{ "
+#~ "object.partner_id.lang }}."
 #~ msgstr ""
-#~ "发送邮件时可选择的翻译代码（ISO 代码）。如果未设置，将使用英文版本。一般使"
-#~ "用占位符确定适当语言，例如：{{ object.partner_id.lang }}"
+#~ "发送邮件时可选择的翻译代码（ISO 代码）。如果未设置，将使用英文版本。一般使用占位符确定适当语言，例如：{{ "
+#~ "object.partner_id.lang }}"

@@ -24,8 +24,7 @@ msgstr ""
 "POT-Creation-Date: 2026-05-01 17:35+0000\n"
 "PO-Revision-Date: 2025-12-02 14:48+0000\n"
 "Last-Translator: \"Chloe Wang (chwa)\" <chwa@odoo.com>\n"
-"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
-"projects/odoo-19/mass_mailing/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/projects/odoo-19/mass_mailing/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -54,30 +53,24 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_reviews_wall
 msgid ""
 "\"Engaging with this team was effortless from start to end. Their "
-"proficiency and meticulous approach greatly enhanced our project. I couldn't "
-"be happier with the final product!\""
-msgstr ""
-"“与这个团队的合作自始至终都很轻松。他们的专业能力和一丝不苟的工作态度极大地提"
-"升了我们的项目。我对最终产品感到非常满意！”"
+"proficiency and meticulous approach greatly enhanced our project. I couldn't"
+" be happier with the final product!\""
+msgstr "“与这个团队的合作自始至终都很轻松。他们的专业能力和一丝不苟的工作态度极大地提升了我们的项目。我对最终产品感到非常满意！”"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_reviews_wall
 msgid ""
-"\"Exceptional service and great communication throughout the entire process. "
-"They went above and beyond to ensure our project was a complete success.\""
-msgstr ""
-"“在整个过程中，他们提供了卓越的服务和良好的沟通。他们付出了超乎寻常的努力，确"
-"保我们的项目取得圆满成功。”"
+"\"Exceptional service and great communication throughout the entire process."
+" They went above and beyond to ensure our project was a complete success.\""
+msgstr "“在整个过程中，他们提供了卓越的服务和良好的沟通。他们付出了超乎寻常的努力，确保我们的项目取得圆满成功。”"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_reviews_wall
 msgid ""
 "\"From the first meeting, it was clear we were in good hands. They took our "
-"vision and turned it into something even better than we had imagined. Highly "
-"recommend!\""
-msgstr ""
-"“从第一次会议开始，我们就很清楚自己找对了人。他们采纳了我们的愿景，并将其变成"
-"了比我们想象中更好的东西。强烈推荐！”"
+"vision and turned it into something even better than we had imagined. Highly"
+" recommend!\""
+msgstr "“从第一次会议开始，我们就很清楚自己找对了人。他们采纳了我们的愿景，并将其变成了比我们想象中更好的东西。强烈推荐！”"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_customer_quote
@@ -85,6 +78,8 @@ msgid ""
 "\"This company transformed our business. Their solutions are innovative and "
 "reliable\""
 msgstr ""
+"\"This 公司 transformed our business. Their solutions are innovative and "
+"reliable\""
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_reviews_wall
@@ -92,9 +87,7 @@ msgid ""
 "\"Working with this team was smooth and efficient at every stage. Their "
 "skills and commitment to quality had a major impact on our project. I am "
 "thrilled with the final results!\""
-msgstr ""
-"“在每个阶段，与这个团队的合作都既顺畅又高效。他们的技能和对质量的承诺对我们的"
-"项目产生了重大影响。我对最终的结果感到非常激动！”"
+msgstr "“在每个阶段，与这个团队的合作都既顺畅又高效。他们的技能和对质量的承诺对我们的项目产生了重大影响。我对最终的结果感到非常激动！”"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__mailing_filter_count
@@ -165,12 +158,12 @@ msgstr "（预定%s）"
 #. odoo-javascript
 #: code:addons/mass_mailing/static/src/builder/options/image_tool_option.xml:0
 msgid "1X"
-msgstr ""
+msgstr "1X（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_describing_benefits
 msgid "24/7 Support"
-msgstr ""
+msgstr "24/7 支持"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_res_config_settings__mass_mailing_reports
@@ -187,25 +180,25 @@ msgstr "24小时内的%(mailing_type)s\"%(mailing_name)s\"的统计资料"
 #. odoo-javascript
 #: code:addons/mass_mailing/static/src/builder/options/image_tool_option.xml:0
 msgid "2X"
-msgstr ""
+msgstr "2X（技术名称）"
 
 #. module: mass_mailing
 #. odoo-javascript
 #: code:addons/mass_mailing/static/src/builder/options/image_tool_option.xml:0
 msgid "2X Size"
-msgstr ""
+msgstr "2X Size（技术名称）"
 
 #. module: mass_mailing
 #. odoo-javascript
 #: code:addons/mass_mailing/static/src/builder/options/image_tool_option.xml:0
 msgid "3X"
-msgstr ""
+msgstr "3X（技术名称）"
 
 #. module: mass_mailing
 #. odoo-javascript
 #: code:addons/mass_mailing/static/src/builder/options/image_tool_option.xml:0
 msgid "3X Size"
-msgstr ""
+msgstr "3X Size（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_reviews_wall
@@ -216,45 +209,45 @@ msgstr "4 颗星，满分为 5 颗星"
 #. odoo-javascript
 #: code:addons/mass_mailing/static/src/builder/options/image_tool_option.xml:0
 msgid "4X"
-msgstr ""
+msgstr "4X（技术名称）"
 
 #. module: mass_mailing
 #. odoo-javascript
 #: code:addons/mass_mailing/static/src/builder/options/image_tool_option.xml:0
 msgid "4X Size"
-msgstr ""
+msgstr "4X Size（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_link_list
 msgid "5 Color Mistakes That Are Ruining Your Home's Vibe"
-msgstr ""
+msgstr "5 Color Mistakes That Are Ruining Your Home's Vibe（技术名称）"
 
 #. module: mass_mailing
 #. odoo-javascript
 #: code:addons/mass_mailing/static/src/builder/options/image_tool_option.xml:0
 msgid "5X"
-msgstr ""
+msgstr "5X（技术名称）"
 
 #. module: mass_mailing
 #. odoo-javascript
 #: code:addons/mass_mailing/static/src/builder/options/image_tool_option.xml:0
 msgid "5X Size"
-msgstr ""
+msgstr "5X Size（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_link_list
 msgid "7 Design Secrets of the World's Most Beautiful Homes"
-msgstr ""
+msgstr "7 Design Secrets of the World's Most Beautiful Homes（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_contact
 msgid "8.00am - 12.00pm"
-msgstr ""
+msgstr "8.00am - 12.00pm（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_contact
 msgid "8.00am - 6.00pm"
-msgstr ""
+msgstr "8.00am - 6.00pm（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_image_text
@@ -262,28 +255,27 @@ msgid ""
 "<a href=\"https://www.example.com\" class=\"btn btn-secondary "
 "o_translate_inline\">Learn more</a>"
 msgstr ""
+"<a href=\"https://www.example.com\" class=\"btn btn-secondary "
+"o_translate_inline\">Learn more</a>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_list_view_kanban
 msgid ""
 "<br/>\n"
 "                                    <span class=\"text-muted\">\n"
-"                                        <i class=\"fa fa-envelope-o\"/> "
-"Contacts\n"
+"                                        <i class=\"fa fa-envelope-o\"/> Contacts\n"
 "                                    </span>"
 msgstr ""
 "<br/>\n"
 "                                    <span class=\"text-muted\">\n"
-"                                        <i class=\"fa fa-envelope-o\"/> 联系"
-"人\n"
+"                                        <i class=\"fa fa-envelope-o\"/> 联系人\n"
 "                                    </span>"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_list_view_kanban
 msgid ""
 "<br/>\n"
-"                                    <span class=\"text-muted\">Blacklist</"
-"span>"
+"                                    <span class=\"text-muted\">Blacklist</span>"
 msgstr ""
 "<br/>\n"
 "                                    <span class=\"text-muted\">黑名单</span>"
@@ -301,8 +293,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_list_view_kanban
 msgid ""
 "<br/>\n"
-"                                    <span class=\"text-muted\">Mailings</"
-"span>"
+"                                    <span class=\"text-muted\">Mailings</span>"
 msgstr ""
 "<br/>\n"
 "                                    <span class=\"text-muted\">邮寄</span>"
@@ -319,39 +310,36 @@ msgstr ""
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.theme_default_template
 msgid ""
-"<br/>We want to take this opportunity to welcome you to our ever-growing "
-"community!\n"
-"                <br/>Your platform is ready for work, it will help you "
-"reduce the costs of digital signatures, attract new customers and increase "
-"sales."
+"<br/>We want to take this opportunity to welcome you to our ever-growing community!\n"
+"                <br/>Your platform is ready for work, it will help you reduce the costs of digital signatures, attract new customers and increase sales."
 msgstr ""
-"<br/>我们想借此机会欢迎您加入我们不断发展的社区！                <br/>您的平"
-"台已准备好工作，它将帮助您降低数字签名的成本，吸引新客户并增加销售额。"
+"<br/>我们想借此机会欢迎您加入我们不断发展的社区！                "
+"<br/>您的平台已准备好工作，它将帮助您降低数字签名的成本，吸引新客户并增加销售额。"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_signature
 msgid "<em>Customer Service</em>"
-msgstr ""
+msgstr "<em>Customer Service</em>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_company_team
 msgid "<font class=\"h5-fs\">Aline Turner</font>"
-msgstr ""
+msgstr "<font class=\"h5-fs\">Aline Turner</font>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_company_team
 msgid "<font class=\"h5-fs\">Iris Joe</font>"
-msgstr ""
+msgstr "<font class=\"h5-fs\">Iris Joe</font>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_company_team
 msgid "<font class=\"h5-fs\">Mich Stark</font>"
-msgstr ""
+msgstr "<font class=\"h5-fs\">Mich Stark</font>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_company_team
 msgid "<font class=\"h5-fs\">Tony Fred</font>"
-msgstr ""
+msgstr "<font class=\"h5-fs\">Tony Fred</font>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_event
@@ -365,24 +353,25 @@ msgstr "<font class=\"text-o-color-1\">26 九月 2022 - 1：30 下午</font>"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_highlight
-msgid ""
-"<font class=\"text-white\">Put the focus on what you have to say!</font>"
+msgid "<font class=\"text-white\">Put the focus on what you have to say!</font>"
 msgstr ""
+"<font class=\"text-white\">Put the focus on what you have to "
+"say!</font>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_content_card_5
 msgid "<font class=\"text-white\">Reaching new heights together</font>"
-msgstr ""
+msgstr "<font class=\"text-white\">Reaching 新建 heights together</font>"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_highlight
 msgid "<font class=\"text-white\">Text Highlight</font>"
-msgstr ""
+msgstr "<font class=\"text-white\">Text Highlight</font>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_content_card_5
 msgid "<font class=\"text-white\">Where ideas come to life</font>"
-msgstr ""
+msgstr "<font class=\"text-white\">Where ideas come to life</font>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_cover
@@ -391,6 +380,9 @@ msgid ""
 "product, services or a specific feature.<br/> To be successful your content "
 "needs to be useful to your readers.</font>"
 msgstr ""
+"<font class=\"text-white\">Write one or two paragraphs describing your 产品, "
+"services or a specific feature.<br/> To be successful your content needs to "
+"be useful to your readers.</font>"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_author
@@ -399,6 +391,9 @@ msgid ""
 "website into a high-converting asset</strong>, <em>hit reply and let's work "
 "together.</em></font>"
 msgstr ""
+"<font style=\"color: white\"><strong>If you're ready to transform your "
+"website into a high-converting asset</strong>, <em>hit reply and let's work "
+"together.</em></font>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_masonry_block_alternation_image_text_template
@@ -409,7 +404,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_masonry_block_reversed_template
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_masonry_block_texts_image_texts_template
 msgid "<font style=\"color: white\">A great title</font>"
-msgstr ""
+msgstr "<font style=\"color: white\">A great title</font>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_masonry_block_alternation_image_text_template
@@ -420,12 +415,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_masonry_block_reversed_template
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_masonry_block_texts_image_texts_template
 msgid "<font style=\"color: white\">And a great subtitle</font>"
-msgstr ""
+msgstr "<font style=\"color: white\">And a great subtitle</font>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_blog_post_card
 msgid "<font style=\"color: white\">Head of Design</font>"
-msgstr ""
+msgstr "<font style=\"color: white\">Head of Design</font>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_author
@@ -435,44 +430,54 @@ msgid ""
 "<strong>For over 13 years</strong>, I've focused on creating elegant, user-"
 "centric designs that are both scalable and easy to maintain.</font>"
 msgstr ""
+"<font style=\"color: white\">Hi there, I'm <strong>John Doe</strong>, a "
+"design expert specializing in responsive web and 手机 app interfaces. "
+"<strong>For over 13 years</strong>, I've focused on creating elegant, user-"
+"centric designs that are both scalable and easy to maintain.</font>"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_blog_post_card
 msgid "<font style=\"color: white\">Julian Thorne</font>"
-msgstr ""
+msgstr "<font style=\"color: white\">Julian Thorne</font>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_call_to_action
 msgid ""
-"<font style=\"color: white;\"><strong>50,000+ companies</strong> run Odoo.</"
-"font>"
+"<font style=\"color: white;\"><strong>50,000+ companies</strong> run "
+"Odoo.</font>"
 msgstr ""
+"<font style=\"color: white;\"><strong>50,000+ companies</strong> run "
+"绿色供应链公共服务平台.</font>"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_numbers
 msgid "<font style=\"color: white;\">Beautiful snippets</font>"
-msgstr ""
+msgstr "<font style=\"color: white;\">Beautiful snippets</font>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_call_to_action
 msgid ""
-"<font style=\"color: white;\">Join us and make your company a better place.</"
-"font>"
+"<font style=\"color: white;\">Join us and make your company a better "
+"place.</font>"
 msgstr ""
+"<font style=\"color: white;\">Join us and make your 公司 a better "
+"place.</font>"
+
+#. module: mass_mailing
+#: model_terms:ir.ui.view,arch_db:mass_mailing.s_color_blocks_2
+msgid "<font style=\"color:white;\"><span class=\"h3-fs\">A color block</span></font>"
+msgstr ""
+"<font style=\"color:white;\"><span class=\"h3-fs\">A color "
+"block</span></font>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_color_blocks_2
 msgid ""
-"<font style=\"color:white;\"><span class=\"h3-fs\">A color block</span></"
-"font>"
+"<font style=\"color:white;\"><span class=\"h3-fs\">Another color "
+"block</span></font>"
 msgstr ""
-
-#. module: mass_mailing
-#: model_terms:ir.ui.view,arch_db:mass_mailing.s_color_blocks_2
-msgid ""
-"<font style=\"color:white;\"><span class=\"h3-fs\">Another color block</"
-"span></font>"
-msgstr ""
+"<font style=\"color:white;\"><span class=\"h3-fs\">Another color "
+"block</span></font>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_color_blocks_2
@@ -482,17 +487,22 @@ msgid ""
 "color for the background. You can even resize and duplicate the blocks to "
 "create your own layout. Add images or icons to customize the blocks.</font>"
 msgstr ""
+"<font style=\"color:white;\">Color blocks are a simple and effective way to "
+"<strong>present and highlight your content</strong>. Choose an image or a "
+"color for the background. You can even resize and 复制 the blocks to 创建 your "
+"own layout. 添加 images or icons to customize the blocks.</font>"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_color_blocks_2
 msgid "<font style=\"color:white;\">More Details</font>"
-msgstr ""
+msgstr "<font style=\"color:white;\">More Details</font>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_picture
-msgid ""
-"<font style=\"font-size: 12px;\">Where innovation meets performance</font>"
+msgid "<font style=\"font-size: 12px;\">Where innovation meets performance</font>"
 msgstr ""
+"<font style=\"font-size: 12px;\">Where innovation meets "
+"performance</font>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
@@ -501,11 +511,8 @@ msgstr "<i class=\"fa fa-bar-chart\"/> 比较版本"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_kanban
-msgid ""
-"<i class=\"fa fa-bullseye me-2\" role=\"img\" aria-label=\"Lead/"
-"Opportunity\"/>"
-msgstr ""
-"<i class=\"fa fa-bullseye me-2\" role=\"img\" aria-label=\"潜在客户/商机\"/>"
+msgid "<i class=\"fa fa-bullseye me-2\" role=\"img\" aria-label=\"Lead/Opportunity\"/>"
+msgstr "<i class=\"fa fa-bullseye me-2\" role=\"img\" aria-label=\"潜在客户/商机\"/>"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
@@ -532,8 +539,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing.ab_testing_description
 msgid ""
 "<i class=\"fa fa-exclamation-triangle text-danger\" aria-hidden=\"true\"/>\n"
-"                        The sum of all percentages for this A/B campaign "
-"totals"
+"                        The sum of all percentages for this A/B campaign totals"
 msgstr ""
 "<i class=\"fa fa-exclamation-triangle text-danger\" aria-hidden=\"true\"/>\n"
 "                        此 A/B 营销活动的各项百分比总和"
@@ -555,45 +561,41 @@ msgstr "<i class=\"oi oi-arrow-right\"></i> 配置退出原因"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
 msgid ""
-"<small class=\"oe_edit_only text-muted mb-2\" style=\"font-size:74%\" "
-"invisible=\"reply_to_mode == 'update' or mailing_model_name in "
-"['mailing.contact', 'res.partner', 'mailing.list']\">\n"
-"                                                    To track replies, this "
-"address must belong to this database.\n"
+"<small class=\"oe_edit_only text-muted mb-2\" style=\"font-size:74%\" invisible=\"reply_to_mode == 'update' or mailing_model_name in ['mailing.contact', 'res.partner', 'mailing.list']\">\n"
+"                                                    To track replies, this address must belong to this database.\n"
 "                                                </small>"
 msgstr ""
-"<small class=\"oe_edit_only text-muted mb-2\" style=\"font-size:74%\" "
-"invisible=\"reply_to_mode == 'update' or mailing_model_name in "
-"['mailing.contact', 'res.partner', 'mailing.list']\">\n"
-"                                                    要跟踪回复，该地址必须属"
-"于该数据库。\n"
+"<small class=\"oe_edit_only text-muted mb-2\" style=\"font-size:74%\" invisible=\"reply_to_mode == 'update' or mailing_model_name in ['mailing.contact', 'res.partner', 'mailing.list']\">\n"
+"                                                    要跟踪回复，该地址必须属于该数据库。\n"
 "                                                </small>"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_describing_benefits
 msgid "<span class=\"display-3-fs\">Discover our main three benefits</span>"
 msgstr ""
+"<span class=\"display-3-fs\">Discover our main three benefits</span>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_describing_benefits
 msgid "<span class=\"display-4-fs\">1</span>"
-msgstr ""
+msgstr "<span class=\"display-4-fs\">1</span>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_describing_benefits
 msgid "<span class=\"display-4-fs\">2</span>"
-msgstr ""
+msgstr "<span class=\"display-4-fs\">2</span>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_describing_benefits
 msgid "<span class=\"display-4-fs\">3</span>"
-msgstr ""
+msgstr "<span class=\"display-4-fs\">3</span>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_describing_benefits
-msgid ""
-"<span class=\"fa fa-asterisk me-2\" contenteditable=\"false\"/>What We Offer"
+msgid "<span class=\"fa fa-asterisk me-2\" contenteditable=\"false\"/>What We Offer"
 msgstr ""
+"<span class=\"fa fa-asterisk me-2\" contenteditable=\"false\"/>What We "
+"Offer（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mailing_list_advertisement
@@ -601,13 +603,17 @@ msgid ""
 "<span class=\"fa fa-check text-o-color-1\" role=\"img\"/>  Curated Industry "
 "Insights"
 msgstr ""
+"<span class=\"fa fa-check text-o-color-1\" role=\"img\"/> Curated Industry "
+"Insights（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mailing_list_advertisement
 msgid ""
-"<span class=\"fa fa-check text-o-color-1\" role=\"img\"/>  Expert Tips &amp; "
-"How-Tos"
+"<span class=\"fa fa-check text-o-color-1\" role=\"img\"/>  Expert Tips &amp;"
+" How-Tos"
 msgstr ""
+"<span class=\"fa fa-check text-o-color-1\" role=\"img\"/> Expert Tips &amp; "
+"How-Tos（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mailing_list_advertisement
@@ -615,18 +621,18 @@ msgid ""
 "<span class=\"fa fa-check text-o-color-1\" role=\"img\"/>  Guides &amp; "
 "Resources"
 msgstr ""
+"<span class=\"fa fa-check text-o-color-1\" role=\"img\"/> Guides &amp; "
+"Resources（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_comparisons
-msgid ""
-"<span class=\"fa fa-check text-success\" role=\"img\"/>  Access all modules"
-msgstr ""
+msgid "<span class=\"fa fa-check text-success\" role=\"img\"/>  Access all modules"
+msgstr "<span class=\"fa fa-check text-success\" role=\"img\"/> 访问 all modules"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_comparisons
-msgid ""
-"<span class=\"fa fa-check text-success\" role=\"img\"/>  Account management"
-msgstr ""
+msgid "<span class=\"fa fa-check text-success\" role=\"img\"/>  Account management"
+msgstr "<span class=\"fa fa-check text-success\" role=\"img\"/> 账户 management"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_comparisons
@@ -634,18 +640,20 @@ msgid ""
 "<span class=\"fa fa-check text-success\" role=\"img\"/>  Complete CRM for "
 "any team"
 msgstr ""
+"<span class=\"fa fa-check text-success\" role=\"img\"/> Complete CRM for any"
+" team（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_comparisons
 msgid "<span class=\"fa fa-check text-success\" role=\"img\"/>  Email support"
-msgstr ""
+msgstr "<span class=\"fa fa-check text-success\" role=\"img\"/> 电子邮件 support"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_comparisons
-msgid ""
-"<span class=\"fa fa-check text-success\" role=\"img\"/>  Limited "
-"customization"
+msgid "<span class=\"fa fa-check text-success\" role=\"img\"/>  Limited customization"
 msgstr ""
+"<span class=\"fa fa-check text-success\" role=\"img\"/> Limited "
+"customization（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_comparisons
@@ -653,11 +661,13 @@ msgid ""
 "<span class=\"fa fa-check text-success\" role=\"img\"/>  Sales &amp; "
 "marketing for 2"
 msgstr ""
+"<span class=\"fa fa-check text-success\" role=\"img\"/> 销售 &amp; marketing "
+"for 2"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_badge
 msgid "<span class=\"fa fa-fw fa-folder\"/>Category"
-msgstr ""
+msgstr "<span class=\"fa fa-fw fa-folder\"/>Category（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_cta_badge
@@ -665,6 +675,8 @@ msgid ""
 "<span class=\"fa fa-fw fa-info-circle\" role=\"img\"/>  What do you want to "
 "promote&amp;nbsp;?"
 msgstr ""
+"<span class=\"fa fa-fw fa-info-circle\" role=\"img\"/> What do you want to "
+"promote&amp;nbsp;?（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_centered_cta_badge
@@ -672,13 +684,17 @@ msgid ""
 "<span class=\"fa fa-fw fa-shopping-cart\" contenteditable=\"false\"/>  Huge "
 "holiday sale savings. Don't miss out."
 msgstr ""
+"<span class=\"fa fa-fw fa-shopping-cart\" contenteditable=\"false\"/> Huge "
+"holiday 销售 savings. Don't miss out."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_special_offer_cta
 msgid ""
-"<span class=\"fa fa-fw fa-tag\" contenteditable=\"false\"/>  <strong>Special "
-"Offers</strong>. Complimentary care packs included with every sofa."
+"<span class=\"fa fa-fw fa-tag\" contenteditable=\"false\"/>  <strong>Special"
+" Offers</strong>. Complimentary care packs included with every sofa."
 msgstr ""
+"<span class=\"fa fa-fw fa-tag\" contenteditable=\"false\"/> <strong>Special "
+"Offers</strong>. Complimentary care packs included with every sofa.（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_kanban
@@ -692,12 +708,10 @@ msgstr ""
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_kanban
 msgid ""
-"<span class=\"fa fa-hourglass-o me-2 small my-auto\" aria-label=\"Scheduled "
-"date\"/>\n"
+"<span class=\"fa fa-hourglass-o me-2 small my-auto\" aria-label=\"Scheduled date\"/>\n"
 "                                        <span>Next Batch</span>"
 msgstr ""
-"<span class=\"fa fa-hourglass-o me-2 small my-auto\" aria-label=\"Scheduled "
-"date\"/>\n"
+"<span class=\"fa fa-hourglass-o me-2 small my-auto\" aria-label=\"Scheduled date\"/>\n"
 "                                        <span>下一批</span>"
 
 #. module: mass_mailing
@@ -705,20 +719,17 @@ msgstr ""
 msgid ""
 "<span class=\"fa fa-paper-plane me-2 small my-auto\" aria-label=\"Sent "
 "date\"/>"
-msgstr ""
-"<span class=\"fa fa-paper-plane me-2 small my-auto\" aria-label=\"发送日期\"/"
-">"
+msgstr "<span class=\"fa fa-paper-plane me-2 small my-auto\" aria-label=\"发送日期\"/>"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_comparisons
-msgid ""
-"<span class=\"fa fa-times text-danger\" role=\"img\"/>  No customization"
-msgstr ""
+msgid "<span class=\"fa fa-times text-danger\" role=\"img\"/>  No customization"
+msgstr "<span class=\"fa fa-times text-danger\" role=\"img\"/> 否 customization"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_comparisons
 msgid "<span class=\"fa fa-times text-danger\" role=\"img\"/>  No support"
-msgstr ""
+msgstr "<span class=\"fa fa-times text-danger\" role=\"img\"/> 否 support"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_header_logo_and_button
@@ -727,6 +738,8 @@ msgid ""
 "<span class=\"fa fa-user me-2\" contenteditable=\"false\"/>My Account<span "
 "class=\"fa fa-chevron-right ms-2\" contenteditable=\"false\"/>"
 msgstr ""
+"<span class=\"fa fa-user me-2\" contenteditable=\"false\"/>My Account<span "
+"class=\"fa fa-chevron-right ms-2\" contenteditable=\"false\"/>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_comparisons
@@ -734,6 +747,8 @@ msgid ""
 "<span class=\"h2-fs\"><strong>$ 15.00</strong></span>\n"
 "                                    <span class=\"o_small-fs\">/ month</span>"
 msgstr ""
+"<span class=\"h2-fs\"><strong>$ 15.00</strong></span> <span class=\"o_small-"
+"fs\">/ month</span>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_comparisons
@@ -741,62 +756,65 @@ msgid ""
 "<span class=\"h2-fs\"><strong>$ 25.00</strong></span>\n"
 "                                    <span class=\"o_small-fs\">/ month</span>"
 msgstr ""
+"<span class=\"h2-fs\"><strong>$ 25.00</strong></span> <span class=\"o_small-"
+"fs\">/ month</span>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_product_list
 msgid "<span class=\"h3-fs\">Our finest selection</span>"
-msgstr ""
+msgstr "<span class=\"h3-fs\">Our finest selection</span>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_company_team_shapes
 msgid "<span class=\"h5-fs\">Aline Turner</span>"
-msgstr ""
+msgstr "<span class=\"h5-fs\">Aline Turner</span>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_product_list
 msgid "<span class=\"h5-fs\">Balanced</span>"
-msgstr ""
+msgstr "<span class=\"h5-fs\">Balanced</span>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_product_list
 msgid "<span class=\"h5-fs\">Elegant</span>"
-msgstr ""
+msgstr "<span class=\"h5-fs\">Elegant</span>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_company_team_shapes
 msgid "<span class=\"h5-fs\">Iris Joe</span>"
-msgstr ""
+msgstr "<span class=\"h5-fs\">Iris Joe</span>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_company_team_shapes
 msgid "<span class=\"h5-fs\">Mich Stark</span>"
-msgstr ""
+msgstr "<span class=\"h5-fs\">Mich Stark</span>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_company_team_shapes
 msgid "<span class=\"h5-fs\">Pete Bluestork</span>"
-msgstr ""
+msgstr "<span class=\"h5-fs\">Pete Bluestork</span>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_product_list
 msgid "<span class=\"h5-fs\">Simple</span>"
-msgstr ""
+msgstr "<span class=\"h5-fs\">Simple</span>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_company_team_shapes
 msgid "<span class=\"h5-fs\">Sophia Langston</span>"
-msgstr ""
+msgstr "<span class=\"h5-fs\">Sophia Langston</span>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_company_team_shapes
 msgid "<span class=\"h5-fs\">Tony Fred</span>"
-msgstr ""
+msgstr "<span class=\"h5-fs\">Tony Fred</span>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_comparisons
-msgid ""
-"<span class=\"o_small-fs\">Instant setup, satisfied or reimbursed.</span>"
+msgid "<span class=\"o_small-fs\">Instant setup, satisfied or reimbursed.</span>"
 msgstr ""
+"<span class=\"o_small-fs\">Instant setup, satisfied or "
+"reimbursed.</span>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_trace_view_form
@@ -805,8 +823,7 @@ msgstr "<span class=\"o_stat_text\">开放收件人</span>"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_contact_view_form_split_name
-msgid ""
-"<span class=\"opacity-50\" invisible=\"name\">e.g. \"John Smith\"</span>"
+msgid "<span class=\"opacity-50\" invisible=\"name\">e.g. \"John Smith\"</span>"
 msgstr "<span class=\"opacity-50\" invisible=\"name\">例：John Smith</span>"
 
 #. module: mass_mailing
@@ -817,8 +834,8 @@ msgstr "<span invisible=\"not mailing_on_mailing_list\">邮寄联系方式</span
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
 msgid ""
-"<span name=\"canceled_text\">emails have been cancelled and will not be sent."
-"</span>"
+"<span name=\"canceled_text\">emails have been cancelled and will not be "
+"sent.</span>"
 msgstr "<span name=\"canceled_text\">邮件已被取消，将不再发送。</span>"
 
 #. module: mass_mailing
@@ -831,13 +848,11 @@ msgstr "<span name=\"failed_text\">邮件未能发送。</span>"
 msgid ""
 "<span name=\"mailing_schedule_type_now_text\">This mailing will be sent as "
 "soon as possible.</span>"
-msgstr ""
-"<span name=\"mailing_schedule_type_now_text\">该邮件将尽快寄出。</span>"
+msgstr "<span name=\"mailing_schedule_type_now_text\">该邮件将尽快寄出。</span>"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
-msgid ""
-"<span name=\"next_departure_text\">This mailing is scheduled for </span>"
+msgid "<span name=\"next_departure_text\">This mailing is scheduled for </span>"
 msgstr "<span name=\"next_departure_text\">该邮件已安排</span>"
 
 #. module: mass_mailing
@@ -848,15 +863,15 @@ msgstr "<span name=\"process_text\">电子邮件正在处理中。</span>"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
 msgid ""
-"<span name=\"refresh_text\">This mailing will be sent as soon as possible.</"
-"span>"
+"<span name=\"refresh_text\">This mailing will be sent as soon as "
+"possible.</span>"
 msgstr "<span name=\"refresh_text\">该邮件将尽快寄出。</span>"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
 msgid ""
-"<span name=\"scheduled_text\">emails are in queue and will be sent soon.</"
-"span>"
+"<span name=\"scheduled_text\">emails are in queue and will be sent "
+"soon.</span>"
 msgstr "<span name=\"scheduled_text\">邮件在队列中将会很快发送。</span>"
 
 #. module: mass_mailing
@@ -872,12 +887,12 @@ msgstr "<span style=\"color: #878d97;\">关闭邮件报告</span>"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_event
 msgid "<span style=\"font-size: 18px\">Event Two</span>"
-msgstr ""
+msgstr "<span style=\"font-size: 18px\">Event Two</span>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_event
 msgid "<span style=\"font-size: 18px;\">Event One</span>"
-msgstr ""
+msgstr "<span style=\"font-size: 18px;\">Event One</span>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_cover
@@ -885,11 +900,14 @@ msgid ""
 "<span style=\"font-size: 62px;\"><strong><font class=\"text-white\">Your "
 "journey starts here</font></strong></span>"
 msgstr ""
+"<span style=\"font-size: 62px;\"><strong><font class=\"text-white\">Your "
+"journey starts here</font></strong></span>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_coupon_code
 msgid "<span><font style=\"font-weight: bolder;\">GET $20 OFF</font></span>"
 msgstr ""
+"<span><font style=\"font-weight: bolder;\">GET $20 OFF</font></span>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.ab_testing_description
@@ -899,119 +917,117 @@ msgstr "<span>剩余收件人数目无法供此邮件使用</span>"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
 msgid ""
-"<strong class=\"d-block\" invisible=\"mailing_type == 'mail' or not "
-"ab_testing_enabled or state != 'done' or sent != 0 or failed != 0 or "
-"canceled != 0\">\n"
-"                                <span name=\"ab_test_text\">There wasn't "
-"enough recipients given to this mailing. </span>\n"
+"<strong class=\"d-block\" invisible=\"mailing_type == 'mail' or not ab_testing_enabled or state != 'done' or sent != 0 or failed != 0 or canceled != 0\">\n"
+"                                <span name=\"ab_test_text\">There wasn't enough recipients given to this mailing. </span>\n"
 "                            </strong>"
 msgstr ""
-"<strong class=\"d-block\" invisible=\"mailing_type == 'mail' or not "
-"ab_testing_enabled or state != 'done' or sent != 0 or failed != 0 or "
-"canceled != 0\">\n"
-"                                <span name=\"ab_test_text\">这封邮件的收件人"
-"不够多。 </span>\n"
+"<strong class=\"d-block\" invisible=\"mailing_type == 'mail' or not ab_testing_enabled or state != 'done' or sent != 0 or failed != 0 or canceled != 0\">\n"
+"                                <span name=\"ab_test_text\">这封邮件的收件人不够多。 </span>\n"
 "                            </strong>"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_schedule
 msgid "<strong>18h30:</strong>"
-msgstr ""
+msgstr "<strong>18h30:</strong>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_schedule
 msgid "<strong>19h00:</strong>"
-msgstr ""
+msgstr "<strong>19h00:</strong>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_schedule
 msgid "<strong>19h30: </strong>"
-msgstr ""
+msgstr "<strong>19h30: </strong>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_schedule
 msgid "<strong>8h:</strong>"
-msgstr ""
+msgstr "<strong>8h:</strong>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_content_card_5
 msgid "<strong><font class=\"text-white\">Innovation Hub</font></strong>"
-msgstr ""
+msgstr "<strong><font class=\"text-white\">Innovation Hub</font></strong>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_content_card_5
 msgid "<strong><font class=\"text-white\">Key Milestone</font></strong>"
-msgstr ""
+msgstr "<strong><font class=\"text-white\">Key Milestone</font></strong>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_numbers
-msgid ""
-"<strong><font style=\"font-size: 48px; color: white;\">45</font></strong>"
+msgid "<strong><font style=\"font-size: 48px; color: white;\">45</font></strong>"
 msgstr ""
+"<strong><font style=\"font-size: 48px; color: "
+"white;\">45</font></strong>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_numbers
 msgid "<strong><font style=\"font-size: 48px;\">12</font></strong>"
-msgstr ""
+msgstr "<strong><font style=\"font-size: 48px;\">12</font></strong>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_numbers
 msgid "<strong><font style=\"font-size: 48px;\">8</font></strong>"
-msgstr ""
+msgstr "<strong><font style=\"font-size: 48px;\">8</font></strong>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_content_card_4
 msgid "<strong>A Breath of Fresh Air</strong>"
-msgstr ""
+msgstr "<strong>A Breath of Fresh Air</strong>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_content_card_6
 msgid "<strong>About our product line</strong>"
-msgstr ""
+msgstr "<strong>About our 产品 line</strong>"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_attributes_horizontal
 msgid "<strong>Easy returns</strong>"
-msgstr ""
+msgstr "<strong>Easy returns</strong>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_reviews_wall
 msgid ""
 "<strong>Emil Foster</strong><br/>\n"
-"                                    <span class=\"text-muted\">Creative "
-"Director</span>"
+"                                    <span class=\"text-muted\">Creative Director</span>"
 msgstr ""
+"<strong>Emil Foster</strong><br/> <span class=\"text-muted\">Creative "
+"Director</span>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_attributes_horizontal
 msgid "<strong>Free shipping</strong>"
-msgstr ""
+msgstr "<strong>Free shipping</strong>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_reviews_wall
 msgid ""
 "<strong>James Carter</strong><br/>\n"
-"                                    <span class=\"text-muted\">Chief "
-"Technical Officer</span>"
+"                                    <span class=\"text-muted\">Chief Technical Officer</span>"
 msgstr ""
+"<strong>James Carter</strong><br/> <span class=\"text-muted\">Chief "
+"Technical Officer</span>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_customer_quote
 msgid "<strong>Jane DOE</strong><br/>CEO of MyCompany"
-msgstr ""
+msgstr "<strong>Jane DOE</strong><br/>CEO of MyCompany（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_reviews_wall
 msgid ""
 "<strong>Jody Roberts</strong><br/>\n"
-"                                    <span class=\"text-muted\">Chief "
-"Financial Officer</span>"
+"                                    <span class=\"text-muted\">Chief Financial Officer</span>"
 msgstr ""
+"<strong>Jody Roberts</strong><br/> <span class=\"text-muted\">Chief "
+"Financial Officer</span>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_content_card_4
 msgid "<strong>John DOE</strong><br/>"
-msgstr ""
+msgstr "<strong>John DOE</strong><br/>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_blockquote
@@ -1019,16 +1035,18 @@ msgid ""
 "<strong>John DOE</strong><br/><span class=\"h6-fs\"><font "
 "class=\"text-600\">CEO of MyCompany</font></span>"
 msgstr ""
+"<strong>John DOE</strong><br/><span class=\"h6-fs\"><font "
+"class=\"text-600\">CEO of MyCompany</font></span>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_schedule
 msgid "<strong>Networking: Walking Dinner &amp; Drinks</strong>"
-msgstr ""
+msgstr "<strong>Networking: Walking Dinner &amp; Drinks</strong>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_reviews_wall
 msgid "<strong>Rating</strong>"
-msgstr ""
+msgstr "<strong>Rating</strong>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_product_description
@@ -1039,60 +1057,66 @@ msgid ""
 "through unique work choices. This explains the <em>soul</em> behind the "
 "product, inspiring a deeper connection beyond simple features."
 msgstr ""
+"<strong>Replace this block with the authentic, singular story of your "
+"产品.</strong> Focus on the unique spark that gave it personality. <strong>Be "
+"short, be specific, and let your brand's voice shine</strong> through unique"
+" work choices. This explains the <em>soul</em> behind the 产品, inspiring a "
+"deeper 连接 beyond simple features."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_attributes_horizontal
 msgid "<strong>Secure payment</strong>"
-msgstr ""
+msgstr "<strong>Secure payment</strong>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mailing_list_advertisement
 msgid "<strong>Stay Ahead with weekly insights &amp; updates</strong>"
-msgstr ""
+msgstr "<strong>Stay Ahead with weekly insights &amp; updates</strong>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_content_card_7
 msgid "<strong>Stay in the Loop !<br/>Get the latest updates</strong>"
-msgstr ""
+msgstr "<strong>Stay in the Loop !<br/>Get the latest updates</strong>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_picture
 msgid "<strong>Step Up Your Game</strong>"
-msgstr ""
+msgstr "<strong>Step Up Your Game</strong>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_reviews_wall
 msgid ""
 "<strong>Sullivan Mitchell</strong><br/>\n"
-"                                    <span class=\"text-muted\">Marketing "
-"Director</span>"
+"                                    <span class=\"text-muted\">Marketing Director</span>"
 msgstr ""
+"<strong>Sullivan Mitchell</strong><br/> <span class=\"text-muted\">Marketing"
+" Director</span>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_schedule
 msgid "<strong>Table Ronde</strong>"
-msgstr ""
+msgstr "<strong>Table Ronde</strong>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_content_card_2
 msgid "<strong>The Innovation Behind Our Product</strong>"
-msgstr ""
+msgstr "<strong>The Innovation Behind Our Product</strong>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_content_card_3
 msgid "<strong>Timeless Design</strong>"
-msgstr ""
+msgstr "<strong>Timeless Design</strong>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_content_card_1
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_title_with_side_text
 msgid "<strong>Unveil Our Exclusive Collections</strong>"
-msgstr ""
+msgstr "<strong>Unveil Our Exclusive Collections</strong>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_schedule
 msgid "<strong>Welcome</strong>"
-msgstr ""
+msgstr "<strong>Welcome</strong>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_card
@@ -1102,21 +1126,25 @@ msgid ""
 "streamline your workflow, eliminate bottlenecks, and help you scale faster "
 "than ever before."
 msgstr ""
+"<strong>Why settle for a generic solution?</strong><br/>We don't just offer "
+"tools; we provide a competitive advantage. Our platform is engineered to "
+"streamline your workflow, eliminate bottlenecks, and 帮助 you scale faster "
+"than ever before."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_schedule
 msgid "<strong>[speaker] &amp; [speaker]'s conference</strong>"
-msgstr ""
+msgstr "<strong>[speaker] &amp; [speaker]'s conference</strong>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_contact
 msgid "<u>Friday</u>"
-msgstr ""
+msgstr "<u>Friday</u>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_contact
 msgid "<u>Monday</u>"
-msgstr ""
+msgstr "<u>Monday</u>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
@@ -1126,32 +1154,32 @@ msgstr "<u>刷新<i class=\"fa fa-refresh ms-1\"/></u>"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_contact
 msgid "<u>Saturday</u>"
-msgstr ""
+msgstr "<u>Saturday</u>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_contact
 msgid "<u>Sunday</u>"
-msgstr ""
+msgstr "<u>Sunday</u>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_contact
 msgid "<u>Thursday</u>"
-msgstr ""
+msgstr "<u>Thursday</u>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_contact
 msgid "<u>Tuesday</u>"
-msgstr ""
+msgstr "<u>Tuesday</u>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_contact
 msgid "<u>Wednesday</u>"
-msgstr ""
+msgstr "<u>Wednesday</u>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_content_card_4
 msgid "A Breath of Fresh Air"
-msgstr ""
+msgstr "A Breath of Fresh Air（技术名称）"
 
 #. module: mass_mailing
 #. odoo-python
@@ -1164,9 +1192,7 @@ msgstr "启用 A/B 测试时应设置活动"
 msgid ""
 "A delicious mix of four toppings: mushrooms, artichokes, ham, and olives, "
 "all on a bed of mozzarella and tomato sauce."
-msgstr ""
-"四种配料的美味组合：蘑菇、朝鲜蓟、火腿和橄榄，全部放在马苏里拉奶酪和番茄酱"
-"上。"
+msgstr "四种配料的美味组合：蘑菇、朝鲜蓟、火腿和橄榄，全部放在马苏里拉奶酪和番茄酱上。"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_features_showcase
@@ -1183,11 +1209,13 @@ msgid ""
 "A features section highlights your product's key attributes, engaging "
 "visitors and boosting conversions."
 msgstr ""
+"A features section highlights your product's key attributes, engaging "
+"visitors and boosting conversions.（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_product_description
 msgid "A great product"
-msgstr ""
+msgstr "A great 产品"
 
 #. module: mass_mailing
 #. odoo-javascript
@@ -1207,7 +1235,7 @@ msgstr "一个伟大的标题"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_blog_post_card
 msgid "A love letter to the space you call your own."
-msgstr ""
+msgstr "A love letter to the space you call your own.（技术名称）"
 
 #. module: mass_mailing
 #: model:ir.model.constraint,message:mass_mailing.constraint_mailing_subscription_unique_contact_list
@@ -1330,10 +1358,9 @@ msgstr "活动类型图标"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_three_columns
 msgid ""
 "Adapt these three columns to fit your design need. To duplicate, delete or "
-"move columns, select the column and use the top icons to perform your action."
-msgstr ""
-"调整这三个列以适应您的设计需求。要复制、删除或移动列，请选择列并使用顶部图标"
-"执动作作。"
+"move columns, select the column and use the top icons to perform your "
+"action."
+msgstr "调整这三个列以适应您的设计需求。要复制、删除或移动列，请选择列并使用顶部图标执动作作。"
 
 #. module: mass_mailing
 #. odoo-javascript
@@ -1346,13 +1373,13 @@ msgstr "添加"
 #. odoo-javascript
 #: code:addons/mass_mailing/static/src/builder/plugins/schedule_option_plugin.js:0
 msgid "Add Activity"
-msgstr ""
+msgstr "添加 活动"
 
 #. module: mass_mailing
 #. odoo-javascript
 #: code:addons/mass_mailing/static/src/builder/options/snippet_visibility_option.xml:0
 msgid "Add Conditions"
-msgstr ""
+msgstr "添加 Conditions"
 
 #. module: mass_mailing
 #: model:ir.model,name:mass_mailing.model_mailing_contact_to_list
@@ -1417,9 +1444,7 @@ msgid ""
 "Aline is one of the iconic people in life who can say they love what they "
 "do. She mentors 100+ in-house developers and looks after the community of "
 "thousands of developers."
-msgstr ""
-"艾琳是生活中的标志性人物之一，他们可以说自己热爱自己的工作。她指导了 100 多名"
-"内部开发人员，并负责管理由数千名开发人员组成的社区。"
+msgstr "艾琳是生活中的标志性人物之一，他们可以说自己热爱自己的工作。她指导了 100 多名内部开发人员，并负责管理由数千名开发人员组成的社区。"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_features_grid
@@ -1456,9 +1481,7 @@ msgid ""
 "is hidden on the unsubscription page. The 'come Back' button will always be "
 "visible in any case to allow leads and partners to re-subscribe."
 msgstr ""
-"许收件人通过退订页面管理自己在黑名单中的状态。如果此选项处于活跃状态，则“拉黑"
-"我”按钮在退订页面隐藏。在任何情况下，“拉出黑名单”按钮始终可见，允许潜在客户、"
-"合作伙伴重新订阅。"
+"许收件人通过退订页面管理自己在黑名单中的状态。如果此选项处于活跃状态，则“拉黑我”按钮在退订页面隐藏。在任何情况下，“拉出黑名单”按钮始终可见，允许潜在客户、合作伙伴重新订阅。"
 
 #. module: mass_mailing
 #. odoo-javascript
@@ -1526,7 +1549,7 @@ msgstr "添加一句口号"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_section_mobile
 msgid "App Store"
-msgstr ""
+msgstr "应用商店"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.unsubscribe_form
@@ -1598,12 +1621,12 @@ msgstr "作者"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_card
 msgid "Automate your daily tasks."
-msgstr ""
+msgstr "Automate your daily tasks.（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_section_mobile
 msgid "Available for iOS and Android."
-msgstr ""
+msgstr "可用 for iOS and Android."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_tree
@@ -1638,7 +1661,7 @@ msgstr "平均回复数"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_membership_advertisement
 msgid "Award-winning collection"
-msgstr ""
+msgstr "Award-winning collection（技术名称）"
 
 #. module: mass_mailing
 #. odoo-javascript
@@ -1662,13 +1685,13 @@ msgstr "基于邮件列表"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_content_card_7
 msgid "Be the first to find out all the latest new, products and trends."
-msgstr ""
+msgstr "第一时间了解所有最新产品和趋势。"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_membership_advertisement
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_cta_card
 msgid "Become a Member"
-msgstr ""
+msgstr "Become a Member（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_comparisons
@@ -1678,14 +1701,14 @@ msgstr "初级版"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_describing_benefits
 msgid ""
-"Benefit from tax-free shopping, simplifying your purchase and enhancing your "
-"savings without any extra costs."
-msgstr ""
+"Benefit from tax-free shopping, simplifying your purchase and enhancing your"
+" savings without any extra costs."
+msgstr "享受免税购物的好处，简化您的购买流程并没有任何额外费用。"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Benefits"
-msgstr ""
+msgstr "Benefits（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_schedule
@@ -1695,7 +1718,7 @@ msgstr "公司数字化的最佳实践"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_signature
 msgid "Best,"
-msgstr ""
+msgstr "Best,（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
@@ -1744,8 +1767,8 @@ msgstr "来自门户的拉出阻止名单请求"
 #. odoo-python
 #: code:addons/mass_mailing/controllers/main.py:0
 msgid ""
-"Blocklist removal request from portal of mailing %(mailing_link)s (document %"
-"(record_link)s)"
+"Blocklist removal request from portal of mailing %(mailing_link)s (document "
+"%(record_link)s)"
 msgstr "来自邮件门户的拉出阻止名单请求%(mailing_link)s（文件%(record_link)s）"
 
 #. module: mass_mailing
@@ -1758,8 +1781,8 @@ msgstr "来自门户的拉出阻止名单请求"
 #. odoo-python
 #: code:addons/mass_mailing/controllers/main.py:0
 msgid ""
-"Blocklist request from portal of mailing %(mailing_link)s (document %"
-"(record_link)s)"
+"Blocklist request from portal of mailing %(mailing_link)s (document "
+"%(record_link)s)"
 msgstr "来自邮件门户的拉出阻止名单请求%(mailing_link)s（文件%(record_link)s）"
 
 #. module: mass_mailing
@@ -1776,8 +1799,7 @@ msgstr "从邮件%(mailing_link)s的退订链接请求屏蔽列表（直接使�
 msgid ""
 "Blocklist request from unsubscribe link of mailing %(mailing_link)s "
 "(document %(record_link)s)"
-msgstr ""
-"来自取消邮件订阅链接的阻止名单请求%(mailing_link)s（文件%(record_link)s）"
+msgstr "来自取消邮件订阅链接的阻止名单请求%(mailing_link)s（文件%(record_link)s）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
@@ -1845,9 +1867,7 @@ msgstr "反弹率(%)"
 msgid ""
 "Bounce happens when a mailing cannot be delivered (fake address, server "
 "issues, ...). Check each record to see what went wrong."
-msgstr ""
-"当邮件无法送达时，就会发生退回邮件（假地址、服务器问题等）。检查每条记录以查"
-"看出了什么问题。"
+msgstr "当邮件无法送达时，就会发生退回邮件（假地址、服务器问题等）。检查每条记录以查看出了什么问题。"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__bounced
@@ -1874,12 +1894,12 @@ msgstr "被退回的比率"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_card
 msgid "Browse our documentation"
-msgstr ""
+msgstr "Browse our documentation（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_product_showcase
 msgid "Built to Last: The Beauty of Choosing Quality Materials"
-msgstr ""
+msgstr "Built to Last: The Beauty of Choosing Quality Materials（技术名称）"
 
 #. module: mass_mailing
 #. odoo-python
@@ -1908,12 +1928,12 @@ msgstr "按钮标签"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_left_cta
 msgid "Buy Now"
-msgstr ""
+msgstr "立即购买"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_blog_title
 msgid "By John Doe"
-msgstr ""
+msgstr "By John Doe（技术名称）"
 
 #. module: mass_mailing
 #. odoo-javascript
@@ -1934,22 +1954,22 @@ msgstr "日历日期"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Call To Action"
-msgstr ""
+msgstr "Call To 操作"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Call To Action Card"
-msgstr ""
+msgstr "Call To 操作 Card"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Call To Action Text (center)"
-msgstr ""
+msgstr "Call To 操作 Text (center)"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Call To Action Text (left)"
-msgstr ""
+msgstr "Call To 操作 Text (left)"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_trace__campaign_id
@@ -2013,8 +2033,7 @@ msgstr "搬运-返回-分离的电子邮件地址列表。"
 msgid ""
 "Catchy preview sentence that encourages recipients to open this email.\n"
 "In most inboxes, this is displayed next to the subject.\n"
-"Keep it empty if you prefer the first characters of your email content to "
-"appear instead."
+"Keep it empty if you prefer the first characters of your email content to appear instead."
 msgstr ""
 "吸引人的预览句，鼓励收件人打开这封邮件。\n"
 "在大多数收件箱中，它显示在主题的旁边。\n"
@@ -2034,7 +2053,7 @@ msgstr "居中"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Centered CTA"
-msgstr ""
+msgstr "Centered CTA（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
@@ -2103,10 +2122,9 @@ msgstr "选择您的邮件订阅"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_pricelist_boxed
 msgid ""
-"Classic pizza with fresh mozzarella, San Marzano tomatoes, and basil leaves, "
-"drizzled with extra virgin olive oil."
-msgstr ""
-"经典匹萨，配以新鲜马苏里拉芝士、圣马扎诺番茄和罗勒叶，淋上特级初榨橄榄油。"
+"Classic pizza with fresh mozzarella, San Marzano tomatoes, and basil leaves,"
+" drizzled with extra virgin olive oil."
+msgstr "经典匹萨，配以新鲜马苏里拉芝士、圣马扎诺番茄和罗勒叶，淋上特级初榨橄榄油。"
 
 #. module: mass_mailing
 #. odoo-javascript
@@ -2147,13 +2165,13 @@ msgstr "客户感言"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_contact
 msgid "Closed"
-msgstr ""
+msgstr "已关闭"
 
 #. module: mass_mailing
 #. odoo-javascript
 #: code:addons/mass_mailing/static/src/builder/mass_mailing_builder.xml:0
 msgid "Code View"
-msgstr ""
+msgstr "代码 查看"
 
 #. module: mass_mailing
 #. odoo-javascript
@@ -2254,7 +2272,7 @@ msgstr "连接失败(发件服务器问题)"
 msgid ""
 "Consistent performance and uptime ensure efficient, reliable service with "
 "minimal interruptions and quick response times."
-msgstr ""
+msgstr "一致的性能和正常运行时间可确保高效、可靠的服务，同时最大限度地减少中断和快速响应时间。"
 
 #. module: mass_mailing
 #: model:ir.model,name:mass_mailing.model_res_partner
@@ -2287,7 +2305,7 @@ msgstr "联系人命名方式"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_header_logo_and_stacked_menu
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_header_name_and_inline_menu
 msgid "Contact Us"
-msgstr ""
+msgstr "联系我们"
 
 #. module: mass_mailing
 #: model:ir.model.fields,help:mass_mailing.field_mailing_contact_import__contact_list
@@ -2309,19 +2327,17 @@ msgstr "联系人"
 #. odoo-python
 #: code:addons/mass_mailing/wizard/mailing_contact_import.py:0
 msgid ""
-"Contacts successfully imported. Number of contacts imported: %"
-"(imported_count)s"
+"Contacts successfully imported. Number of contacts imported: "
+"%(imported_count)s"
 msgstr "联系人已成功导入。导入的联系人数量：%(imported_count)s"
 
 #. module: mass_mailing
 #. odoo-python
 #: code:addons/mass_mailing/wizard/mailing_contact_import.py:0
 msgid ""
-"Contacts successfully imported. Number of contacts imported: %"
-"(imported_count)s. Number of duplicates ignored: %(duplicate_count)s"
-msgstr ""
-"联系人已成功导入。导入的联系人数量：%(imported_count)s。忽略的重复项数：%"
-"(duplicate_count)s"
+"Contacts successfully imported. Number of contacts imported: "
+"%(imported_count)s. Number of duplicates ignored: %(duplicate_count)s"
+msgstr "联系人已成功导入。导入的联系人数量：%(imported_count)s。忽略的重复项数：%(duplicate_count)s"
 
 #. module: mass_mailing
 #. odoo-javascript
@@ -2332,19 +2348,21 @@ msgstr "内容背景"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Content Card"
-msgstr ""
+msgstr "Content Card（技术名称）"
 
 #. module: mass_mailing
 #. odoo-javascript
 #: code:addons/mass_mailing/static/src/builder/options/company_team_options.xml:0
 msgid "Content Width"
-msgstr ""
+msgstr "内容宽度"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_media_list
 msgid ""
 "Continue reading <span class=\"fa fa-long-arrow-right align-middle ms-1\"/>"
 msgstr ""
+"Continue reading <span class=\"fa fa-long-arrow-right align-middle "
+"ms-1\"/>（技术名称）"
 
 #. module: mass_mailing
 #. odoo-python
@@ -2453,12 +2471,12 @@ msgstr "自定义"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Customer Quote"
-msgstr ""
+msgstr "客户 Quote"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Customer testimonials"
-msgstr ""
+msgstr "客户 testimonials"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_reviews_wall
@@ -2538,9 +2556,7 @@ msgstr "删除模块"
 msgid ""
 "Delete the above image or replace it with a picture that illustrates your "
 "message. Click on the picture to change its <em>rounded corner</em> style."
-msgstr ""
-"删除上面的图像或将其替换为说明您的信息的图像。点击图像更改其 <em>圆角</em> 样"
-"式。"
+msgstr "删除上面的图像或将其替换为说明您的信息的图像。点击图像更改其 <em>圆角</em> 样式。"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__delivered
@@ -2578,6 +2594,8 @@ msgstr "设计添加到%s模板中！"
 msgid ""
 "Design for the Soul: Why Your Home Should Be a Reflection of Your Best Self"
 msgstr ""
+"Design for the Soul: Why Your Home Should Be a Reflection of Your Best "
+"Self（技术名称）"
 
 #. module: mass_mailing
 #. odoo-python
@@ -2588,7 +2606,7 @@ msgstr "从%s模板中删除了设计！"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_cta_card
 msgid "Designed for You"
-msgstr ""
+msgstr "Designed for You（技术名称）"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_list_merge__dest_list_id
@@ -2598,7 +2616,7 @@ msgstr "目标邮件列表"
 #. module: mass_mailing
 #: model:ir.model.fields.selection,name:mass_mailing.selection__mailing_trace__failure_type__mail_spam
 msgid "Detected As Spam"
-msgstr ""
+msgstr "被检测为垃圾邮件"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_pricelist_boxed
@@ -2614,12 +2632,12 @@ msgstr "丢弃"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_image_text
 msgid "Discover New <strong>Opportunities</strong>"
-msgstr ""
+msgstr "发现新的<strong>商机</strong>"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_features_showcase
 msgid "Discover all features"
-msgstr ""
+msgstr "Discover all features（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_showcase
@@ -2628,9 +2646,10 @@ msgstr "了解所有功能"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_media_list
-msgid ""
-"Discover more <span class=\"fa fa-long-arrow-right align-middle ms-1\"/>"
+msgid "Discover more <span class=\"fa fa-long-arrow-right align-middle ms-1\"/>"
 msgstr ""
+"Discover more <span class=\"fa fa-long-arrow-right align-middle "
+"ms-1\"/>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_content_card_4
@@ -2639,6 +2658,9 @@ msgid ""
 "just decor; it's about creating a space so vibrant and curated that "
 "<strong>you'll beam with pride</strong> every time you step inside."
 msgstr ""
+"Discover the thrill of a home that truly reflects your soul. It's more than "
+"just decor; it's about creating a space so vibrant and curated that "
+"<strong>you'll beam with pride</strong> every time you step inside.（技术名称）"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_ir_http__display_name
@@ -2710,6 +2732,8 @@ msgid ""
 "Don't settle for the ordinary. Our artisans obsess over every detail to "
 "create the perfection your home demands. Own a masterpiece today."
 msgstr ""
+"Don't settle for the ordinary. Our artisans obsess over every detail to 创建 "
+"the perfection your home demands. Own a masterpiece today."
 
 #. module: mass_mailing
 #. odoo-javascript
@@ -2768,6 +2792,8 @@ msgid ""
 "Each piece is more than just furniture; it's a recognized masterpiece of "
 "craftsmanship and style."
 msgstr ""
+"Each piece is more than just furniture; it's a recognized masterpiece of "
+"craftsmanship and style.（技术名称）"
 
 #. module: mass_mailing
 #. odoo-javascript
@@ -2779,7 +2805,7 @@ msgstr "边缘间距"
 #. odoo-javascript
 #: code:addons/mass_mailing/static/src/builder/options/snippet_visibility_option.xml:0
 msgid "Edit Conditions"
-msgstr ""
+msgstr "编辑 Conditions"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_features_grid
@@ -2789,7 +2815,7 @@ msgstr "编辑样式"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_content_card_4
 msgid "Elegance That Inspires"
-msgstr ""
+msgstr "Elegance That Inspires（技术名称）"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_contact__email
@@ -2873,7 +2899,7 @@ msgstr "吸引访客"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_image
 msgid "Enhance Your <strong>Experience</strong>"
-msgstr ""
+msgstr "增强<strong>体验</strong>"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_content_card_6
@@ -2881,6 +2907,8 @@ msgid ""
 "Enhance your experience with our user-focused designs, ensuring you get the "
 "best value."
 msgstr ""
+"Enhance your experience with our user-focused designs, ensuring you get the "
+"best 值."
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_trace_report__error
@@ -2926,9 +2954,12 @@ msgstr "预计"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_content_card_3
 msgid ""
 "Experience the perfect harmony of form and function. Each piece is "
-"meticulously designed with <strong>premium materials</strong>, ensuring that "
-"your interior reflects a sophisticated yet inviting atmosphere."
+"meticulously designed with <strong>premium materials</strong>, ensuring that"
+" your interior reflects a sophisticated yet inviting atmosphere."
 msgstr ""
+"Experience the perfect harmony of 表单 and function. Each piece is "
+"meticulously designed with <strong>premium materials</strong>, ensuring that"
+" your interior reflects a sophisticated yet inviting atmosphere."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_picture
@@ -2936,9 +2967,7 @@ msgid ""
 "Experience unparalleled comfort, cutting-edge design, and performance-"
 "enhancing<br/>technology with this latest innovation, crafted to elevate "
 "every athlete's journey."
-msgstr ""
-"这款最新的创新产品拥有无与伦比的舒适度、尖端的设计和性能提升<br/>技术，旨在提"
-"升每一位运动员的运动表现。"
+msgstr "这款最新的创新产品拥有无与伦比的舒适度、尖端的设计和性能提升<br/>技术，旨在提升每一位运动员的运动表现。"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_alert
@@ -2971,7 +3000,7 @@ msgstr "失败类型"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_describing_benefits
 msgid "Fair pricing"
-msgstr ""
+msgstr "合理定价"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__favorite
@@ -3017,12 +3046,12 @@ msgstr "功能二"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Features Column"
-msgstr ""
+msgstr "Features Column（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Features Showcase"
-msgstr ""
+msgstr "Features Showcase（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_features_showcase
@@ -3098,12 +3127,9 @@ msgstr "页脚"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_company_team
 msgid ""
-"Founder and chief visionary, Tony is the driving force behind the company. "
-"He loves\n"
-"                                to keep his hands full by participating in "
-"the development of the software,\n"
-"                                marketing, and customer experience "
-"strategies."
+"Founder and chief visionary, Tony is the driving force behind the company. He loves\n"
+"                                to keep his hands full by participating in the development of the software,\n"
+"                                marketing, and customer experience strategies."
 msgstr ""
 "创始人兼首席远见者托尼是公司背后的推动力。他喜欢\n"
 "通过参与软件、营销和客户体验策略的开发\n"
@@ -3123,7 +3149,7 @@ msgstr "全屏"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_card
 msgid "Gain real-time insights."
-msgstr ""
+msgstr "Gain real-time insights.（技术名称）"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_trace__is_test_trace
@@ -3133,7 +3159,7 @@ msgstr "产生作测试"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_section_mobile
 msgid "Google Play Store"
-msgstr ""
+msgstr "Google Play Store（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_features_grid
@@ -3144,11 +3170,17 @@ msgstr "巨大价值"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_product_showcase
 msgid ""
 "Great design is about more than just filling a room; it is about creating a "
-"lifestyle that feels both luxurious and meaningful. Our pieces are carefully "
-"made to bring soul to your space, blending modern ideas with the warmth of "
+"lifestyle that feels both luxurious and meaningful. Our pieces are carefully"
+" made to bring soul to your space, blending modern ideas with the warmth of "
 "traditional craftsmanship. Every detail is a deliberate choice, intended to "
 "turn your house into a personal gallery where you can truly relax in style."
 msgstr ""
+"Great design is about more than just filling a room; it is about creating a "
+"lifestyle that feels both luxurious and meaningful. Our pieces are carefully"
+" made to bring soul to your space, blending modern ideas with the warmth of "
+"traditional craftsmanship. Every detail is a deliberate choice, intended to "
+"turn your house into a personal gallery where you can truly relax in "
+"style.（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_block
@@ -3159,6 +3191,11 @@ msgid ""
 "one will be interested. Write for one person. If it's genuine for the one, "
 "it's genuine for the rest."
 msgstr ""
+"Great stories are <strong>for everyone</strong> even when only written "
+"<strong>for just one person</strong>. If you try to write with a wide, "
+"general audience in mind, your story will sound fake and lack emotion. 否 one"
+" will be interested. Write for one person. If it's genuine for the one, it's"
+" genuine for the rest."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_block
@@ -3166,16 +3203,21 @@ msgid ""
 "Great stories have a <strong>personality</strong>. Consider telling a great "
 "story that provides personality. Writing a story with personality for "
 "potential clients will assist with making a relationship connection. This "
-"shows up in small quirks like word choices or phrases. Write from your point "
-"of view, not from someone else's experience."
+"shows up in small quirks like word choices or phrases. Write from your point"
+" of view, not from someone else's experience."
 msgstr ""
+"Great stories have a <strong>personality</strong>. Consider telling a great "
+"story that provides personality. Writing a story with personality for "
+"potential clients will assist with making a relationship 连接. This shows up "
+"in small quirks like word choices or phrases. Write 从 your point of 查看, not "
+"从 someone else's experience."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_features_column
 msgid ""
 "Growth capability is a system's ability to scale and adapt, meeting "
 "increasing demands and evolving needs for long-term success."
-msgstr ""
+msgstr "增长能力是一个系统的扩展和适应能力，能够满足日益增长的需求和不断变化的需要，从而取得长期成功。"
 
 #. module: mass_mailing
 #: model:ir.model,name:mass_mailing.model_ir_http
@@ -3251,7 +3293,7 @@ msgstr "水平属性"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_need_help
 msgid "How is your data secured?"
-msgstr ""
+msgstr "How is your data secured?（技术名称）"
 
 #. module: mass_mailing
 #: model:mailing.subscription.optout,name:mass_mailing.mailing_subscription_optout_data_1
@@ -3306,11 +3348,9 @@ msgstr "ID"
 #: model:ir.model.fields,help:mass_mailing.field_mailing_trace__mail_mail_id_int
 msgid ""
 "ID of the related mail_mail. This field is an integer field because the "
-"related mail_mail can be deleted separately from its statistics. However the "
-"ID is needed for several action and controllers."
-msgstr ""
-"相关邮件的ID。此字段为整数字段，因为可单独将相关邮件从其统计数据中删除。但"
-"是，某些操作和控制器均需要使用 ID。"
+"related mail_mail can be deleted separately from its statistics. However the"
+" ID is needed for several action and controllers."
+msgstr "相关邮件的ID。此字段为整数字段，因为可单独将相关邮件从其统计数据中删除。但是，某些操作和控制器均需要使用 ID。"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__activity_exception_icon
@@ -3339,12 +3379,11 @@ msgstr "如果勾选此项，则需要查看新消息。"
 #. module: mass_mailing
 #: model:ir.model.fields,help:mass_mailing.field_mailing_mailing__ab_testing_enabled
 msgid ""
-"If checked, recipients will be mailed only once for the whole campaign. This "
-"lets you send different mailings to randomly selected recipients and test "
+"If checked, recipients will be mailed only once for the whole campaign. This"
+" lets you send different mailings to randomly selected recipients and test "
 "the effectiveness of the mailings, without causing duplicate messages."
 msgstr ""
-"选中后，在整个营销活动期间，将只向收件人发送一次邮件。这将允许您向随机选择的"
-"收件人发送不同邮件，并测试邮件的有效性，而不会导致出现重复的消息。"
+"选中后，在整个营销活动期间，将只向收件人发送一次邮件。这将允许您向随机选择的收件人发送不同邮件，并测试邮件的有效性，而不会导致出现重复的消息。"
 
 #. module: mass_mailing
 #: model:ir.model.fields,help:mass_mailing.field_mailing_contact__message_has_error
@@ -3359,8 +3398,7 @@ msgstr "如果勾选此项， 某些消息将出现发送错误。"
 msgid ""
 "If set, a mass mailing will be created so that you can track its results in "
 "the Email Marketing app."
-msgstr ""
-"如果设置，将创建群发邮件，以便您可以在电子邮件营销应用程序中跟踪其结果。"
+msgstr "如果设置，将创建群发邮件，以便您可以在电子邮件营销应用程序中跟踪其结果。"
 
 #. module: mass_mailing
 #: model:ir.model.fields,help:mass_mailing.field_mailing_contact__is_blacklisted
@@ -3441,16 +3479,21 @@ msgstr "排队"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_product_showcase
 msgid ""
 "In a fast-paced world, your home should be your ultimate escape—a private "
-"place that brings you a sense of calm and clarity. Our collection focuses on "
-"clean lines and comfortable shapes, providing a sophisticated backdrop for "
+"place that brings you a sense of calm and clarity. Our collection focuses on"
+" clean lines and comfortable shapes, providing a sophisticated backdrop for "
 "your most important moments. We believe your surroundings should be a "
 "testament to your taste, offering the perfect l ease you need to unwind."
 msgstr ""
+"In a fast-paced world, your home should be your ultimate escape—a private "
+"place that brings you a sense of calm and clarity. Our collection focuses on"
+" clean 行 and comfortable shapes, providing a sophisticated backdrop for your"
+" most important moments. We believe your surroundings should be a testament "
+"to your taste, offering the perfect l ease you need to unwind."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_need_help
 msgid "In this section, you can address common questions efficiently."
-msgstr ""
+msgstr "在本节中，您可以高效地解答常见问题。"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
@@ -3465,12 +3508,12 @@ msgstr "Instagram"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_card
 msgid "Integrate with your favorite apps."
-msgstr ""
+msgstr "Integrate with your favorite apps.（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_schedule
 msgid "Interactive Odoo demo"
-msgstr "Odoo 互动功能演示"
+msgstr "绿色供应链公共服务平台 互动功能演示"
 
 #. module: mass_mailing
 #: model:ir.model.fields.selection,name:mass_mailing.selection__mailing_trace__failure_type__mail_email_invalid
@@ -3485,7 +3528,7 @@ msgstr "来自地址无效"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_center_cta
 msgid "Invest in the Future"
-msgstr ""
+msgstr "Invest in the Future（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_company_team
@@ -3493,9 +3536,7 @@ msgid ""
 "Iris, with her international experience, helps us easily understand the "
 "numbers and improves them. She is determined to drive success and delivers "
 "her professional acumen to bring the company to the next level."
-msgstr ""
-"Iris 凭借她的国际经验，帮助我们轻松理解这些数字并加以改进。她决心推动成功，并"
-"以她的专业敏锐度将公司提升到一个新的水平。"
+msgstr "Iris 凭借她的国际经验，帮助我们轻松理解这些数字并加以改进。她决心推动成功，并以她的专业敏锐度将公司提升到一个新的水平。"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__is_ab_test_sent
@@ -3526,12 +3567,12 @@ msgstr "是活动赢家"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_need_help
 msgid "Is the website user-friendly?"
-msgstr ""
+msgstr "Is the website user-friendly?（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_header_logo_col
 msgid "Issue<br/><strong>#42</strong>"
-msgstr ""
+msgstr "Issue<br/><strong>#42</strong>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_features_showcase
@@ -3552,6 +3593,8 @@ msgid ""
 "Join our inner circle to enjoy exclusive privileges and turn every curated "
 "choice into a journey of refined inspiration."
 msgstr ""
+"Join our inner circle to enjoy exclusive privileges and turn every curated "
+"choice into a journey of refined inspiration.（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mailing_list_advertisement
@@ -3559,6 +3602,8 @@ msgid ""
 "Join our mailing list to receive carefully curated resources, tips, and "
 "updates straight to your inbox."
 msgstr ""
+"Join our mailing 列表 to receive carefully curated resources, tips, and "
+"updates straight to your inbox."
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__kpi_mail_required
@@ -3640,7 +3685,7 @@ msgstr "多层意大利面、浓郁肉酱、白汁和融化的马苏里拉奶酪
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_membership_advertisement
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_card
 msgid "Learn More"
-msgstr ""
+msgstr "了解更多"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_image
@@ -3662,7 +3707,7 @@ msgstr "标志靠左"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_contact
 msgid "Let's get in touch"
-msgstr ""
+msgstr "Let's get in touch（技术名称）"
 
 #. module: mass_mailing
 #. odoo-javascript
@@ -3703,8 +3748,7 @@ msgstr "链接追踪器数目"
 msgid ""
 "Link Trackers will measure how many times each link is clicked as well as "
 "the proportion of %s who clicked at least once in your mailing."
-msgstr ""
-"链接跟踪器将测量每个链接被点击的次数，以及在您的邮件中至少点击一次%s的比例。"
+msgstr "链接跟踪器将测量每个链接被点击的次数，以及在您的邮件中至少点击一次%s的比例。"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.social_links
@@ -3720,7 +3764,7 @@ msgstr "链接"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Links List"
-msgstr ""
+msgstr "Links 列表"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_trace__links_click_ids
@@ -3735,17 +3779,17 @@ msgstr "列表"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Logo + Button"
-msgstr ""
+msgstr "Logo + Button（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Logo + Inline Menu"
-msgstr ""
+msgstr "Logo + Inline Menu（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Logo + Stacked Menu"
-msgstr ""
+msgstr "Logo + Stacked Menu（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_event
@@ -3948,8 +3992,7 @@ msgstr "邮件报告已关闭"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_report_deactivated
 msgid ""
 "Mailing Reports have been turned off for all users. <br/>\n"
-"                                If needed, they can be turned back on from "
-"the"
+"                                If needed, they can be turned back on from the"
 msgstr "已关闭所有用户的邮件报告。 <br/>如果需要，可以从"
 
 #. module: mass_mailing
@@ -4151,7 +4194,7 @@ msgstr "认识我们的团队"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Membership"
-msgstr ""
+msgstr "Membership（技术名称）"
 
 #. module: mass_mailing
 #. odoo-javascript
@@ -4162,7 +4205,7 @@ msgstr "会员资格已更新"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Menu"
-msgstr ""
+msgstr "菜单"
 
 #. module: mass_mailing
 #: model:ir.actions.act_window,name:mass_mailing.mailing_list_merge_action
@@ -4212,22 +4255,18 @@ msgstr "消息"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_company_team
 msgid ""
 "Mich loves taking on challenges. With his multi-year experience as "
-"Commercial Director in the software industry, Mich has helped the company to "
-"get where it is today. Mich is among the best minds."
-msgstr ""
-"Mich 喜欢接受挑战。凭借在软件行业担任商务总监的多年经验，Mich 帮助公司取得了"
-"今天的成就。米奇是最聪明的人之一。"
+"Commercial Director in the software industry, Mich has helped the company to"
+" get where it is today. Mich is among the best minds."
+msgstr "Mich 喜欢接受挑战。凭借在软件行业担任商务总监的多年经验，Mich 帮助公司取得了今天的成就。米奇是最聪明的人之一。"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.theme_default_template
 msgid ""
 "Michael Fletcher<br/>\n"
-"                   <span style=\"font-size: 12px; font-weight: bolder;"
-"\">Customer Service</span>"
+"                   <span style=\"font-size: 12px; font-weight: bolder;\">Customer Service</span>"
 msgstr ""
 "Michael Fletcher<br/>\n"
-"                  <span style=\"font-size: 12px; font-weight: bolder;\">客户"
-"服务</span>"
+"                  <span style=\"font-size: 12px; font-weight: bolder;\">客户服务</span>"
 
 #. module: mass_mailing
 #: model:ir.model.fields.selection,name:mass_mailing.selection__mailing_trace__failure_type__mail_email_missing
@@ -4287,17 +4326,17 @@ msgstr "名称"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Name + Button"
-msgstr ""
+msgstr "名称 + Button"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Name + Inline Menu"
-msgstr ""
+msgstr "名称 + Inline Menu"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Name + Social"
-msgstr ""
+msgstr "名称 + Social"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_contact_view_search
@@ -4308,12 +4347,12 @@ msgstr "姓名/EMail"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_need_help
 msgid "Need help?"
-msgstr ""
+msgstr "需要帮助？"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_blog_post_card
 msgid "New Blog post"
-msgstr ""
+msgstr "新建 Blog post"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_list_merge__new_list_name
@@ -4443,7 +4482,7 @@ msgstr "该A/B测试活动的邮件还没有发送!先发送一个，稍后再�
 msgid ""
 "No need to import mailing lists, you can send mailings to contacts saved in "
 "other Odoo apps."
-msgstr "不需要导入邮件列表，您可以向保存在其他Odoo应用程序的联系人发送邮件。"
+msgstr "不需要导入邮件列表，您可以向保存在其他绿色供应链公共服务平台应用程序的联系人发送邮件。"
 
 #. module: mass_mailing
 #: model_terms:ir.actions.act_window,help:mass_mailing.mailing_filter_action
@@ -4561,7 +4600,7 @@ msgstr "打开了（%i）。"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_section_mobile
 msgid "Odoo Mobile"
-msgstr ""
+msgstr "绿色供应链公共服务平台移动端"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.ab_testing_description
@@ -4623,11 +4662,9 @@ msgstr "退出"
 #. module: mass_mailing
 #: model:ir.model.fields,help:mass_mailing.field_mailing_contact__opt_out
 msgid ""
-"Opt out flag for a specific mailing list. This field should not be used in a "
-"view without a unique and active mailing list context."
-msgstr ""
-"选择退出特定邮件列表的标志。不应在没有唯一且活动邮件列表上下文的视图中使用此"
-"字段。"
+"Opt out flag for a specific mailing list. This field should not be used in a"
+" view without a unique and active mailing list context."
+msgstr "选择退出特定邮件列表的标志。不应在没有唯一且活动邮件列表上下文的视图中使用此字段。"
 
 #. module: mass_mailing
 #: model:ir.actions.act_window,name:mass_mailing.mailing_subscription_action_report_optout
@@ -4663,6 +4700,8 @@ msgid ""
 "usually be a placeholder expression that provides the appropriate language, "
 "e.g. {{ object.partner_id.lang }}."
 msgstr ""
+"发送邮件时选择的可选翻译语言（ISO 代码）。如果未设置，将使用主要业务伙伴的语言。通常应为提供适当语言的占位符表达式，如 {{ "
+"object.partner_id.lang }}。"
 
 #. module: mass_mailing
 #: model:ir.actions.act_window,name:mass_mailing.mailing_subscription_optout_action
@@ -4699,13 +4738,15 @@ msgid ""
 "Our product line offers a range of innovative solutions designed to meet "
 "your needs. Each product is crafted for quality and reliability."
 msgstr ""
+"Our 产品 行 offers a range of innovative solutions designed to meet your needs."
+" Each 产品 is crafted for quality and reliability."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_describing_benefits
 msgid ""
 "Our support team is available 24/7 to assist with any inquiries or issues, "
 "ensuring you get help whenever you need it."
-msgstr ""
+msgstr "我们的支持团队 24/7 全天候为您提供帮助，解决任何疑问或问题，确保您在需要时获得帮助。"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_company_team_shapes
@@ -4717,7 +4758,7 @@ msgstr "我们优秀的团队"
 msgid ""
 "Our website is designed for easy navigation, allowing you to find the "
 "information you need quickly and efficiently."
-msgstr ""
+msgstr "我们网站的设计便于浏览，使您能够快速高效地找到所需的信息。"
 
 #. module: mass_mailing
 #: model:ir.model.fields.selection,name:mass_mailing.selection__mailing_trace__trace_status__outgoing
@@ -4802,7 +4843,7 @@ msgstr "将被邮寄的联系人的百分比。收件人将被随机选择。"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_features_column
 msgid "Performance"
-msgstr ""
+msgstr "绩效"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.res_config_settings_view_form
@@ -4847,7 +4888,7 @@ msgstr "请提供筛选的名称"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_link_list
 msgid "Popular Links"
-msgstr ""
+msgstr "Popular Links（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_media_list
@@ -4864,7 +4905,7 @@ msgstr "希望得到回信的地址"
 msgid ""
 "Prevent sending messages to blacklisted contacts. Disable only when "
 "absolutely necessary."
-msgstr ""
+msgstr "阻止向黑名单联系人发送消息。仅在绝对必要时禁用。"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__preview
@@ -4885,7 +4926,7 @@ msgstr "盒装价格表"
 #. odoo-javascript
 #: code:addons/mass_mailing/static/src/builder/tabs/design_tab.xml:0
 msgid "Primary Button"
-msgstr ""
+msgstr "Primary Button（技术名称）"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__process
@@ -4902,12 +4943,12 @@ msgstr "处理中"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Product Description"
-msgstr ""
+msgstr "产品说明"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Product Showcase"
-msgstr ""
+msgstr "产品 Showcase"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_comparisons
@@ -4928,7 +4969,7 @@ msgstr "属性"
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_contact__properties_base_definition_id
 msgid "Properties Base Definition"
-msgstr ""
+msgstr "属性基础定义"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_rating
@@ -4977,7 +5018,7 @@ msgstr "阅读更多"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_blog_post_card
 msgid "Read Now"
-msgstr ""
+msgstr "Read Now（技术名称）"
 
 #. module: mass_mailing
 #. odoo-javascript
@@ -4988,7 +5029,7 @@ msgstr "准备起飞！"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
 msgid "Ready to unleash emails?"
-msgstr ""
+msgstr "Ready to unleash emails?（技术名称）"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_subscription__opt_out_reason_id
@@ -5062,11 +5103,15 @@ msgstr "收件人实物模型"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_content_card_4
 msgid ""
-"Redefine your daily rituals with interiors that inspire. From the moment you "
-"walk through the door, our pieces evoke a sense of <strong>pure delight</"
-"strong>, turning every corner of your home into a sanctuary of happiness and "
-"ease."
+"Redefine your daily rituals with interiors that inspire. From the moment you"
+" walk through the door, our pieces evoke a sense of <strong>pure "
+"delight</strong>, turning every corner of your home into a sanctuary of "
+"happiness and ease."
 msgstr ""
+"Redefine your daily rituals with interiors that inspire. 从 the moment you "
+"walk through the door, our pieces evoke a sense of <strong>pure "
+"delight</strong>, turning every corner of your home into a sanctuary of "
+"happiness and ease."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
@@ -5081,7 +5126,7 @@ msgstr "现在注册"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_features_column
 msgid "Reliability"
-msgstr ""
+msgstr "可靠性"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
@@ -5174,7 +5219,7 @@ msgstr "调整大小为四分之一"
 #. odoo-javascript
 #: code:addons/mass_mailing/static/src/builder/tabs/design_tab.xml:0
 msgid "Resize Three Quarters"
-msgstr ""
+msgstr "Resize Three Quarters（技术名称）"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__user_id
@@ -5241,7 +5286,7 @@ msgstr "在这里，您可以品尝到新鲜的本地菜肴，并感受到现代
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_features_column
 msgid "Scalability"
-msgstr ""
+msgstr "扩展性"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__schedule_type
@@ -5299,27 +5344,27 @@ msgstr "第二功能列表"
 #. odoo-javascript
 #: code:addons/mass_mailing/static/src/builder/tabs/design_tab.xml:0
 msgid "Secondary Button"
-msgstr ""
+msgstr "Secondary Button（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Section Mobile"
-msgstr ""
+msgstr "Section 手机"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_card
 msgid "See how"
-msgstr ""
+msgstr "See how（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_special_offer_cta
 msgid "See more"
-msgstr ""
+msgstr "See more（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_cta_badge
 msgid "See more <span class=\"fa fa-long-arrow-right\" role=\"img\"/>"
-msgstr ""
+msgstr "See more <span class=\"fa fa-long-arrow-right\" role=\"img\"/>（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_filter_view_form
@@ -5494,7 +5539,7 @@ msgstr "分隔符"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Separator Title"
-msgstr ""
+msgstr "Separator Title（技术名称）"
 
 #. module: mass_mailing
 #. odoo-javascript
@@ -5530,13 +5575,13 @@ msgstr "商店"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_centered_cta_badge
 msgid "Shop Now"
-msgstr ""
+msgstr "Shop Now（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_content_card_3
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_center_cta
 msgid "Shop now"
-msgstr ""
+msgstr "Shop now（技术名称）"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_list__is_public
@@ -5570,17 +5615,17 @@ msgstr "尺寸"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Social + Footer"
-msgstr ""
+msgstr "Social + Footer（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Social + Footer + Separator"
-msgstr ""
+msgstr "Social + Footer + Separator（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Social + Logo"
-msgstr ""
+msgstr "Social + Logo（技术名称）"
 
 #. module: mass_mailing
 #. odoo-javascript
@@ -5606,14 +5651,12 @@ msgid ""
 "Speakers from all over the world will join our experts to give inspiring "
 "talks on various topics. Stay on top of the latest business management "
 "trends &amp; technologies"
-msgstr ""
-"‎来自全世界的演讲者将加入我们的专家，就各种主题进行鼓舞人心的演讲。随时了解最"
-"新的业务管理趋势技术‎"
+msgstr "‎来自全世界的演讲者将加入我们的专家，就各种主题进行鼓舞人心的演讲。随时了解最新的业务管理趋势技术‎"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Special Offer CTA"
-msgstr ""
+msgstr "Special Offer CTA（技术名称）"
 
 #. module: mass_mailing
 #: model:ir.model.fields.selection,name:mass_mailing.selection__mailing_mailing__reply_to_mode__new
@@ -5625,13 +5668,13 @@ msgstr "指定的邮件地址"
 msgid ""
 "Speed and efficiency ensure tasks are completed quickly and resources are "
 "used optimally, enhancing productivity and satisfaction."
-msgstr ""
+msgstr "速度和效率可确保任务快速完成，资源得到最佳利用，从而提高生产率和满意度。"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_pricelist_boxed
 msgid ""
-"Spicy pepperoni paired with fiery chili flakes, mozzarella, and tomato sauce "
-"for a flavorful kick."
+"Spicy pepperoni paired with fiery chili flakes, mozzarella, and tomato sauce"
+" for a flavorful kick."
 msgstr "香辣意大利香肠搭配火辣辣椒片、马苏里拉芝士和番茄酱，风味十足。"
 
 #. module: mass_mailing
@@ -5660,12 +5703,12 @@ msgstr "请开始您的表演 <b>飞</b>."
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_image_text
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_image
 msgid "Start with the customer - find out what they want and give it to them."
-msgstr ""
+msgstr "Start with the 客户 - find out what they want and give it to them."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_product_description
 msgid "Starting from $29.99"
-msgstr ""
+msgstr "Starting 从 $29.99"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_trace_report_view_search
@@ -5714,7 +5757,7 @@ msgstr "主旨"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_content_card_7
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mailing_list_advertisement
 msgid "Subscribe"
-msgstr ""
+msgstr "订阅"
 
 #. module: mass_mailing
 #: model:ir.model,website_form_label:mass_mailing.model_mailing_contact
@@ -5775,7 +5818,7 @@ msgstr "选择将来的计划日期"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_describing_benefits
 msgid "Tax free"
-msgstr ""
+msgstr "免税"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
@@ -5785,7 +5828,7 @@ msgstr "团队"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Team shapes"
-msgstr ""
+msgstr "Team shapes（技术名称）"
 
 #. module: mass_mailing
 #: model:ir.model.fields,help:mass_mailing.field_mailing_mailing__mail_server_available
@@ -5856,7 +5899,7 @@ msgstr "文本 - 图片"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Text Card"
-msgstr ""
+msgstr "Text Card（技术名称）"
 
 #. module: mass_mailing
 #. odoo-javascript
@@ -5889,26 +5932,27 @@ msgstr "A/B测试百分比需要在0和100%之间。"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_product_showcase
 msgid "The Art of the Escape: Creating a Quiet Sanctuary in a Busy World"
 msgstr ""
+"The Art of the Escape: Creating a Quiet Sanctuary in a Busy World（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_link_list
 msgid "The Essential Guide to Timeless Furniture Investing"
-msgstr ""
+msgstr "The Essential Guide to Timeless Furniture Investing（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_link_list
 msgid "The Interior Trend You Can't Afford to Miss"
-msgstr ""
+msgstr "The Interior Trend You Can't Afford to Miss（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_blog_post_card
 msgid "The Joy of Coming Home"
-msgstr ""
+msgstr "The Joy of Coming Home（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_left_cta
 msgid "The Mastery of Making"
-msgstr ""
+msgstr "The Mastery of Making（技术名称）"
 
 #. module: mass_mailing
 #: model:ir.model.fields,help:mass_mailing.field_mailing_subscription__opt_out
@@ -5966,6 +6010,9 @@ msgid ""
 "effortless click when a sleek silhouette meets a soft, lived-in texture, "
 "turning a house into a haven that truly moves you..."
 msgstr ""
+"There is a certain magic in a room that just feels right. It's that "
+"effortless click when a sleek silhouette meets a soft, lived-in texture, "
+"turning a house into a haven that truly moves you...（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.ab_testing_description
@@ -5999,7 +6046,7 @@ msgstr "此电子邮件被拒绝太多次，已自动添加至阻止名单。"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_subscription_view_form
 msgid "This email is blacklisted for mass mailings"
-msgstr ""
+msgstr "This 电子邮件 is blacklisted for mass mailings"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_contact_view_form
@@ -6009,11 +6056,9 @@ msgstr "此电子邮件已列入群发邮件黑名单。单击以取消黑名单
 #. module: mass_mailing
 #: model:ir.model.fields,help:mass_mailing.field_mailing_contact__email_normalized
 msgid ""
-"This field is used to search on email address as the primary email field can "
-"contain more than strictly an email address."
-msgstr ""
-"这个字段用来在邮件地址上搜索，因为初始的邮件字段会包含严格来说至少两个邮件地"
-"址。"
+"This field is used to search on email address as the primary email field can"
+" contain more than strictly an email address."
+msgstr "这个字段用来在邮件地址上搜索，因为初始的邮件字段会包含严格来说至少两个邮件地址。"
 
 #. module: mass_mailing
 #: model:ir.model.fields,help:mass_mailing.field_res_config_settings__group_mass_mailing_campaign
@@ -6048,22 +6093,21 @@ msgstr "标题"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Title + Side Text"
-msgstr ""
+msgstr "Title + Side Text（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_three_columns
 msgid ""
 "To add a fourth column, reduce the size of these three columns using the "
-"right icon of each block. Then, duplicate one of the columns to create a new "
-"one as a copy."
-msgstr ""
-"要添加第四列，请使用每个模块的右图标减小这三列的大小。然后，复制其中一列以创"
-"建新列作为副本。"
+"right icon of each block. Then, duplicate one of the columns to create a new"
+" one as a copy."
+msgstr "要添加第四列，请使用每个模块的右图标减小这三列的大小。然后，复制其中一列以创建新列作为副本。"
 
 #. module: mass_mailing
 #. odoo-python
 #: code:addons/mass_mailing/models/mailing.py:0
-msgid "To send the winner mailing the campaign should not have been completed."
+msgid ""
+"To send the winner mailing the campaign should not have been completed."
 msgstr "要发送获胜者的邮件，该活动不应该已经完成。"
 
 #. module: mass_mailing
@@ -6131,6 +6175,11 @@ msgid ""
 "care that they will remain as beautiful and relevant years from now as they "
 "are today."
 msgstr ""
+"True elegance is something you can feel, rooted in high-quality materials "
+"that only get better with time. By using the finest woods and textiles, we "
+"创建 furniture that doesn't just sit in a room—it grows with it. These pieces "
+"are designed to be your home's future heirlooms, crafted with such care that"
+" they will remain as beautiful and relevant years 从 now as they are today."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_center_cta
@@ -6138,6 +6187,8 @@ msgid ""
 "True luxury is measured in decades.<br/>We blend heritage craft with the "
 "finest materials.<br/>Discover pieces that age beautifully."
 msgstr ""
+"True luxury is measured in decades.<br/>We blend heritage craft with the "
+"finest materials.<br/>Discover pieces that age beautifully.（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_cta_card
@@ -6145,6 +6196,8 @@ msgid ""
 "True luxury is more rewarding as a member.<br/>Join our inner circle for "
 "exclusive benefits and early access.<br/>Elevate your home today."
 msgstr ""
+"True luxury is more rewarding as a member.<br/>Join our inner circle for "
+"exclusive benefits and early 访问.<br/>Elevate your home today."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.ab_testing_description
@@ -6197,7 +6250,7 @@ msgstr "未知错误"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_card
 msgid "Unlock your full potential"
-msgstr ""
+msgstr "Unlock your full potential（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.page_mailing_confirm_unsubscribe
@@ -6223,7 +6276,7 @@ msgstr "上传一个文件"
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__use_exclusion_list
 msgid "Use Exclusion List"
-msgstr ""
+msgstr "使用排除列表"
 
 #. module: mass_mailing
 #: model:ir.model.fields,help:mass_mailing.field_mailing_mailing__mail_server_id
@@ -6233,9 +6286,7 @@ msgid ""
 "Use a specific mail server in priority. Otherwise Odoo relies on the first "
 "outgoing mail server available (based on their sequencing) as it does for "
 "normal mails."
-msgstr ""
-"优先使用指定的邮件服务器。否则，Odoo依赖于可用的第一个发信邮件服务器（基于它"
-"们的顺序），就像普通邮件一样。"
+msgstr "优先使用指定的邮件服务器。否则，绿色供应链公共服务平台依赖于可用的第一个发信邮件服务器（基于它们的顺序），就像普通邮件一样。"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.ab_testing_description
@@ -6258,8 +6309,7 @@ msgstr "使用此组件可以创建要引起注意的特色元素列表。"
 #: model_terms:ir.actions.act_window,help:mass_mailing.mailing_trace_report_action_mail
 msgid ""
 "Use this menu to keep track of the results of your mailings.<br>\n"
-"                    From here, you'll be able to overview the rate of "
-"replies, clicks, bounces..."
+"                    From here, you'll be able to overview the rate of replies, clicks, bounces..."
 msgstr ""
 "使用此菜单，追踪邮件发送结果。<br>\n"
 "                    在这里，您可以查看回复率、点击率、退回率等数据。"
@@ -6267,11 +6317,12 @@ msgstr ""
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_media_list
 msgid ""
-"Use this snippet to build various types of components that feature a left- "
-"or right-aligned image alongside textual content. Duplicate the element to "
-"create a list that fits your needs.\n"
+"Use this snippet to build various types of components that feature a left- or right-aligned image alongside textual content. Duplicate the element to create a list that fits your needs.\n"
 "                            <br/>"
 msgstr ""
+"Use this snippet to build various types of components that feature a left- "
+"or right-aligned image alongside textual content. 复制 the element to 创建 a 列表 "
+"that fits your needs. <br/>"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_numbers
@@ -6337,28 +6388,28 @@ msgstr "我们相处得很好。"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_need_help
 msgid ""
-"We deliver personalized solutions, ensuring that every customer receives top-"
-"tier service tailored to their needs."
-msgstr ""
+"We deliver personalized solutions, ensuring that every customer receives "
+"top-tier service tailored to their needs."
+msgstr "我们提供个性化的解决方案，确保每一位客户都能获得量身定制的顶级服务。"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_need_help
 msgid ""
 "We provide 24/7 support through various channels, including live chat, "
 "email, and phone, to assist with any queries."
-msgstr ""
+msgstr "我们通过各种渠道（包括在线聊天、电子邮件和电话）提供 24/7 全天候支持，帮助您解决任何疑问。"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_describing_benefits
 msgid ""
 "We provide transparent pricing that offers great value, ensuring you always "
 "get the best deal without hidden costs."
-msgstr ""
+msgstr "我们的定价透明、物超所值，确保您始终能获得最优惠的价格，而不会产生隐藏费用。"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Website"
-msgstr ""
+msgstr "网站"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_contact__website_message_ids
@@ -6385,12 +6436,12 @@ msgstr "客户对我们的评价。"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_need_help
 msgid "What sets us apart?"
-msgstr ""
+msgstr "What sets us apart?（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_need_help
 msgid "What support do we offer?"
-msgstr ""
+msgstr "What support do we offer?（技术名称）"
 
 #. module: mass_mailing
 #: model:ir.actions.act_window,name:mass_mailing.mailing_mailing_schedule_date_action
@@ -6413,20 +6464,17 @@ msgstr "这种模式是否支持营销邮件功能（特别是电子邮件和短
 #: model_terms:ir.actions.act_window,help:mass_mailing.mailing_filter_action
 msgid ""
 "While designing the mailing, you can define the rules to filter recipients.\n"
-"                To save the same criteria for future use, you can add it to "
-"the favorite list\n"
-"                by clicking on <i class=\"fa fa-floppy-o text-warning\"></i> "
-"icon next to \"Recipients\"."
+"                To save the same criteria for future use, you can add it to the favorite list\n"
+"                by clicking on <i class=\"fa fa-floppy-o text-warning\"></i> icon next to \"Recipients\"."
 msgstr ""
 "在设计邮件时，您可以定义收件人筛选规则。\n"
 "                要保存相同标准，以未来使用，可以\n"
-"                点击“收件人”旁边的<i class=\"fa fa-floppy-o text-warning\"></"
-"i>图标，将标准添加至收藏列表。"
+"                点击“收件人”旁边的<i class=\"fa fa-floppy-o text-warning\"></i>图标，将标准添加至收藏列表。"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_link_list
 msgid "Why Your Living Room Feels Unfinished (And How to Fix It)"
-msgstr ""
+msgstr "Why Your Living Room Feels Unfinished (And How to Fix It)（技术名称）"
 
 #. module: mass_mailing
 #. odoo-javascript
@@ -6456,6 +6504,8 @@ msgid ""
 "Write one or two paragraphs describing your product or services. To be "
 "successful, your content needs to be useful to your readers."
 msgstr ""
+"Write one or two paragraphs describing your 产品 or services. To be "
+"successful, your content needs to be useful to your readers."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_contact_import_view_form
@@ -6471,13 +6521,13 @@ msgstr ""
 #: code:addons/mass_mailing/static/src/builder/tabs/design_tab.xml:0
 #: model_terms:ir.ui.view,arch_db:mass_mailing.social_links
 msgid "X"
-msgstr ""
+msgstr "X（技术名称）"
 
 #. module: mass_mailing
 #. odoo-javascript
 #: code:addons/mass_mailing/static/src/builder/tabs/design_tab.xml:0
 msgid "Y"
-msgstr ""
+msgstr "Y（技术名称）"
 
 #. module: mass_mailing
 #. odoo-python
@@ -6488,7 +6538,8 @@ msgstr "您不再是我们邮件列表中的一员。"
 #. module: mass_mailing
 #. odoo-python
 #: code:addons/mass_mailing/controllers/main.py:0
-msgid "You are no longer part of our services and will not be contacted again."
+msgid ""
+"You are no longer part of our services and will not be contacted again."
 msgstr "您不再是我们服务的一部分，我们不会再与您联系。"
 
 #. module: mass_mailing
@@ -6529,8 +6580,7 @@ msgstr "您仍然可以访问阻止选项，但它可能无效。"
 #. odoo-python
 #: code:addons/mass_mailing/models/utm_medium.py:0
 msgid ""
-"You cannot delete these UTM Mediums as they are linked to the following "
-"mailings in Mass Mailing:\n"
+"You cannot delete these UTM Mediums as they are linked to the following mailings in Mass Mailing:\n"
 "%(mailing_names)s"
 msgstr ""
 "您无法删除这些UTM媒体，因为它们链接到群发邮件中的以下邮件：\n"
@@ -6540,8 +6590,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/mass_mailing/models/utm_source.py:0
 msgid ""
-"You cannot delete these UTM Sources as they are linked to the following "
-"mailings in Mass Mailing:\n"
+"You cannot delete these UTM Sources as they are linked to the following mailings in Mass Mailing:\n"
 "%(mailing_names)s"
 msgstr ""
 "您无法删除这些UTM来源，因为它们链接到群发邮件中的以下邮件：\n"
@@ -6555,8 +6604,7 @@ msgid ""
 "                send emails<br> to any contact saved in other Odoo apps."
 msgstr ""
 "您不需要导入您的邮件列表，您可以轻松地\n"
-"               <br>向保存在其他Odoo应用程序中的任何联系人</br>发送电子邮件"
-"<br>。</br>"
+"               <br>向保存在其他绿色供应链公共服务平台应用程序中的任何联系人</br>发送电子邮件<br>。</br>"
 
 #. module: mass_mailing
 #. odoo-python
@@ -6606,18 +6654,20 @@ msgstr "您将不会从您已加入的邮件列表中收到任何消息："
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_footer_social_and_logo
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_footer_social_left
 msgid ""
-"You're seeing this because you've shopped with us or joined our mailing list."
+"You're seeing this because you've shopped with us or joined our mailing "
+"list."
 msgstr ""
+"You're seeing this because you've shopped with us or joined our mailing 列表."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_subtitle
 msgid "Your Subtitle"
-msgstr ""
+msgstr "Your Subtitle（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_blog_title
 msgid "Your Super Article Title"
-msgstr ""
+msgstr "Your Super Article Title（技术名称）"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_hr_title
@@ -6630,7 +6680,7 @@ msgstr "你的标题"
 msgid ""
 "Your data is protected by advanced encryption and security protocols, "
 "keeping your personal information safe."
-msgstr ""
+msgstr "您的数据受到高级加密和安全协议的保护，确保您的个人信息安全。"
 
 #. module: mass_mailing
 #. odoo-javascript
@@ -6735,21 +6785,18 @@ msgstr "在我们的区块链列表中"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.ab_testing_description
 msgid ""
-"is the winner of the A/B testing campaign and has been sent to all remaining "
-"recipients."
+"is the winner of the A/B testing campaign and has been sent to all remaining"
+" recipients."
 msgstr "是A/B测试活动的赢家，并已发送至所有剩余的收件人。"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.ab_testing_description
 msgid ""
 "of all potential recipients.<br/>\n"
-"                        <b class=\"text-danger\">Some of the mailings will "
-"not be sent</b>, as only 1 email will be sent for each unique recipient in "
-"this campaign."
+"                        <b class=\"text-danger\">Some of the mailings will not be sent</b>, as only 1 email will be sent for each unique recipient in this campaign."
 msgstr ""
 "在所有潜在收件人之中。<br/>\n"
-"                        <b class=\"text-danger\">部分邮件将不会发送</b>，因为"
-"只会向此活动的每名独立收件人，发送 1 封电子邮件。"
+"                        <b class=\"text-danger\">部分邮件将不会发送</b>，因为只会向此活动的每名独立收件人，发送 1 封电子邮件。"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
@@ -6821,10 +6868,9 @@ msgstr "✽  披萨"
 #~ msgstr "$16.00"
 
 #~ msgid ""
-#~ "\" Write a quote here from one of your customers. Quotes are a great way "
-#~ "to build confidence in your products or services. \""
-#~ msgstr ""
-#~ "“在此写下您的一位客户的报价。报价是建立对您的产品或服务的信心的好方法。”"
+#~ "\" Write a quote here from one of your customers. Quotes are a great way to "
+#~ "build confidence in your products or services. \""
+#~ msgstr "“在此写下您的一位客户的报价。报价是建立对您的产品或服务的信心的好方法。”"
 
 #~ msgid "10 Books To Read in 2022"
 #~ msgstr "2022 年十本必读书籍"
@@ -6837,12 +6883,12 @@ msgstr "✽  披萨"
 
 #~ msgid ""
 #~ "<i class=\"fa fa-ban text-danger\" role=\"img\" title=\"This email is "
-#~ "blacklisted for mass mailings\" aria-label=\"Blacklisted\" "
-#~ "invisible=\"not is_blacklisted\" groups=\"base.group_user\"/>"
+#~ "blacklisted for mass mailings\" aria-label=\"Blacklisted\" invisible=\"not "
+#~ "is_blacklisted\" groups=\"base.group_user\"/>"
 #~ msgstr ""
 #~ "<i class=\"fa fa-ban text-danger\" role=\"img\" title=\"This email is "
-#~ "blacklisted for mass mailings\" aria-label=\"Blacklisted\" "
-#~ "invisible=\"not is_blacklisted\" groups=\"base.group_user\"/>"
+#~ "blacklisted for mass mailings\" aria-label=\"Blacklisted\" invisible=\"not "
+#~ "is_blacklisted\" groups=\"base.group_user\"/>"
 
 #~ msgid "All Rights Reserved"
 #~ msgstr "版权所有"
@@ -6887,12 +6933,10 @@ msgstr "✽  披萨"
 #~ msgstr "提升你的游戏水平"
 
 #~ msgid ""
-#~ "Use this snippet to build various types of components that feature a "
-#~ "left- or right-aligned image alongside textual content. Duplicate the "
-#~ "element to create a list that fits your needs."
-#~ msgstr ""
-#~ "使用此代码段构建各种类型的组件，这些组件具有左对齐或右对齐的图像以及文本内"
-#~ "容。复制元素以创建适合您需要的列表。"
+#~ "Use this snippet to build various types of components that feature a left- "
+#~ "or right-aligned image alongside textual content. Duplicate the element to "
+#~ "create a list that fits your needs."
+#~ msgstr "使用此代码段构建各种类型的组件，这些组件具有左对齐或右对齐的图像以及文本内容。复制元素以创建适合您需要的列表。"
 
 #~ msgid "Why You Need Two Types of Content Strategists"
 #~ msgstr "为什么您需要两种类型的内容策略师"
@@ -6900,8 +6944,7 @@ msgstr "✽  披萨"
 #~ msgid "Auto"
 #~ msgstr "自动"
 
-#~ msgid ""
-#~ "Continue reading <i class=\"fa fa-long-arrow-right align-middle ms-1\"/>"
+#~ msgid "Continue reading <i class=\"fa fa-long-arrow-right align-middle ms-1\"/>"
 #~ msgstr "继续阅读<i class=\"fa fa-long-arrow-right align-middle ms-1\"/>"
 
 #~ msgid "Features"
@@ -6941,24 +6984,21 @@ msgstr "✽  披萨"
 #~ msgstr "<b>John DOE</b> • MyCompany 首席执行官"
 
 #~ msgid ""
-#~ "<font class=\"text-o-color-2\"><span style=\"font-weight:bolder;\">-20%</"
-#~ "span></font>"
+#~ "<font class=\"text-o-color-2\"><span style=\"font-"
+#~ "weight:bolder;\">-20%</span></font>"
 #~ msgstr ""
-#~ "<font class=\"text-o-color-2\"><span style=\"font-weight:bolder;\">-20%</"
-#~ "span></font>"
+#~ "<font class=\"text-o-color-2\"><span style=\"font-"
+#~ "weight:bolder;\">-20%</span></font>"
 
 #~ msgid ""
-#~ "<font style=\"color: rgb(12 84 96);\">Don't write about products or "
-#~ "services here, write about solutions.</font>"
-#~ msgstr ""
-#~ "<font style=\"color: rgb(12 84 96);\">不要在这里写产品或服务，写解决方案。"
-#~ "</font>"
+#~ "<font style=\"color: rgb(12 84 96);\">Don't write about products or services"
+#~ " here, write about solutions.</font>"
+#~ msgstr "<font style=\"color: rgb(12 84 96);\">不要在这里写产品或服务，写解决方案。</font>"
 
 #~ msgid ""
 #~ "<font style=\"font-size: 12px;\">Add a caption to enhance the meaning of "
 #~ "this image.</font>"
-#~ msgstr ""
-#~ "<font style=\"font-size: 12px;\">添加标题以增强此图像的含义。</font>"
+#~ msgstr "<font style=\"font-size: 12px;\">添加标题以增强此图像的含义。</font>"
 
 #~ msgid "<font style=\"font-size: 18px\">Event Two</font>"
 #~ msgstr "<font style=\"font-size: 18px\">活动二</font>"
@@ -6969,10 +7009,8 @@ msgstr "✽  披萨"
 #~ msgid "<font style=\"font-size: 48px;\">A Punchy Headline</font>"
 #~ msgstr "<font style=\"font-size: 48px;\">有力的标题</font>"
 
-#~ msgid ""
-#~ "<font style=\"font-size: 62px; font-weight: bold;\">Catchy Headline</font>"
-#~ msgstr ""
-#~ "<font style=\"font-size: 62px; font-weight: bold;\">吸引人的标题</font>"
+#~ msgid "<font style=\"font-size: 62px; font-weight: bold;\">Catchy Headline</font>"
+#~ msgstr "<font style=\"font-size: 62px; font-weight: bold;\">吸引人的标题</font>"
 
 #~ msgid ""
 #~ "<i class=\"fa fa-ban text-danger\" role=\"img\" title=\"This email is "
@@ -6986,25 +7024,15 @@ msgstr "✽  披萨"
 #~ "groups=\"base.group_user\"/>"
 
 #~ msgid ""
-#~ "<i class=\"fa fa-envelope\"/> <span name=\"ab_test_manual\" "
-#~ "attrs=\"{'invisible': [('ab_testing_winner_selection', '!=', 'manual')]}"
-#~ "\">\n"
-#~ "                                                    Send this version to "
-#~ "remaining recipients\n"
-#~ "                                                </span> <span "
-#~ "name=\"ab_test_auto\" attrs=\"{'invisible': "
-#~ "[('ab_testing_winner_selection', '=', 'manual')]}\">\n"
+#~ "<i class=\"fa fa-envelope\"/> <span name=\"ab_test_manual\" attrs=\"{'invisible': [('ab_testing_winner_selection', '!=', 'manual')]}\">\n"
+#~ "                                                    Send this version to remaining recipients\n"
+#~ "                                                </span> <span name=\"ab_test_auto\" attrs=\"{'invisible': [('ab_testing_winner_selection', '=', 'manual')]}\">\n"
 #~ "                                                    Send Winner Now\n"
 #~ "                                                </span>"
 #~ msgstr ""
-#~ "<i class=\"fa fa-envelope\"/> <span name=\"ab_test_manual\" "
-#~ "attrs=\"{'invisible': [('ab_testing_winner_selection', '!=', 'manual')]}"
-#~ "\">\n"
-#~ "                                                    将此版本发送给其余收件"
-#~ "人\n"
-#~ "                                                </span> <span "
-#~ "name=\"ab_test_auto\" attrs=\"{'invisible': "
-#~ "[('ab_testing_winner_selection', '=', 'manual')]}\">\n"
+#~ "<i class=\"fa fa-envelope\"/> <span name=\"ab_test_manual\" attrs=\"{'invisible': [('ab_testing_winner_selection', '!=', 'manual')]}\">\n"
+#~ "                                                    将此版本发送给其余收件人\n"
+#~ "                                                </span> <span name=\"ab_test_auto\" attrs=\"{'invisible': [('ab_testing_winner_selection', '=', 'manual')]}\">\n"
 #~ "                                                    现在发送获胜者\n"
 #~ "                                                </span>"
 
@@ -7027,45 +7055,32 @@ msgstr "✽  披萨"
 #~ msgstr "<i class=\"fa fa-fw fa-thumbs-up\"/> 大拇指"
 
 #~ msgid ""
-#~ "<i>Write a quote here from one of your customers. Quotes are a great way "
-#~ "to build confidence in your products or services.</i>"
-#~ msgstr ""
-#~ "<i>在这里写下您的一个客户的报价。引语是建立对您的产品或服务的信心的一个好"
-#~ "方法。</i>"
+#~ "<i>Write a quote here from one of your customers. Quotes are a great way to "
+#~ "build confidence in your products or services.</i>"
+#~ msgstr "<i>在这里写下您的一个客户的报价。引语是建立对您的产品或服务的信心的一个好方法。</i>"
 
 #~ msgid ""
-#~ "<small class=\"oe_edit_only text-muted mb-2\" style=\"font-size:74%\" "
-#~ "attrs=\"{'invisible': ['|', ('reply_to_mode', '=', 'update'), "
-#~ "('mailing_model_name', 'in', ['mailing.contact', 'res.partner', "
-#~ "'mailing.list'])],}\">\n"
-#~ "                                                    To track replies, "
-#~ "this address must belong to this database.\n"
+#~ "<small class=\"oe_edit_only text-muted mb-2\" style=\"font-size:74%\" attrs=\"{'invisible': ['|', ('reply_to_mode', '=', 'update'), ('mailing_model_name', 'in', ['mailing.contact', 'res.partner', 'mailing.list'])],}\">\n"
+#~ "                                                    To track replies, this address must belong to this database.\n"
 #~ "                                                </small>"
 #~ msgstr ""
-#~ "<small class=\"oe_edit_only text-muted mb-2\" style=\"font-size:74%\" "
-#~ "attrs=\"{'invisible': ['|', ('reply_to_mode', '=', 'update'), "
-#~ "('mailing_model_name', 'in', ['mailing.contact', 'res.partner', "
-#~ "'mailing.list'])],}\">\n"
-#~ "                                                    为了跟踪回复，这个地址"
-#~ "必须属于这个数据库。\n"
+#~ "<small class=\"oe_edit_only text-muted mb-2\" style=\"font-size:74%\" attrs=\"{'invisible': ['|', ('reply_to_mode', '=', 'update'), ('mailing_model_name', 'in', ['mailing.contact', 'res.partner', 'mailing.list'])],}\">\n"
+#~ "                                                    为了跟踪回复，这个地址必须属于这个数据库。\n"
 #~ "                                                </small>"
 
 #~ msgid ""
-#~ "<span class=\"fa fa-calendar-check-o me-2 small my-auto\" aria-"
-#~ "label=\"Sent date\"/>"
+#~ "<span class=\"fa fa-calendar-check-o me-2 small my-auto\" aria-label=\"Sent "
+#~ "date\"/>"
 #~ msgstr ""
-#~ "<span class=\"fa fa-calendar-check-o me-2 small my-auto\" aria-"
-#~ "label=\"Sent date\"/>"
+#~ "<span class=\"fa fa-calendar-check-o me-2 small my-auto\" aria-label=\"Sent "
+#~ "date\"/>"
 
 #~ msgid ""
-#~ "<span class=\"fa fa-hourglass-o me-2 small my-auto\" aria-"
-#~ "label=\"Scheduled date\"/>\n"
-#~ "                                            <span class=\"align-self-"
-#~ "baseline\">Next Batch</span>"
+#~ "<span class=\"fa fa-hourglass-o me-2 small my-auto\" aria-label=\"Scheduled date\"/>\n"
+#~ "                                            <span class=\"align-self-baseline\">Next Batch</span>"
 #~ msgstr ""
 #~ "<span j=\"0/\">\n"
-#~ "                                            <span class=\"align-self-"
-#~ "baseline\">下一批</span></span>"
+#~ "                                            <span class=\"align-self-baseline\">下一批</span></span>"
 
 #~ msgid "<span class=\"mx-2\">/</span>"
 #~ msgstr "<span class=\"mx-2\">/</span>"
@@ -7097,14 +7112,13 @@ msgstr "✽  披萨"
 #~ msgstr "<span style=\"color: #8f8f8f;\">关闭邮件报告</span>"
 
 #~ msgid ""
-#~ "<span style=\"color: rgb(12 84 96); font-size: 16px; font-weight: bolder;"
-#~ "\">Explain the benefits you offer</span>"
+#~ "<span style=\"color: rgb(12 84 96); font-size: 16px; font-weight: "
+#~ "bolder;\">Explain the benefits you offer</span>"
 #~ msgstr ""
-#~ "<span style=\"color: rgb(12 84 96); font-size: 16px; font-weight: bolder;"
-#~ "\">解释您提供的好处</span>"
+#~ "<span style=\"color: rgb(12 84 96); font-size: 16px; font-weight: "
+#~ "bolder;\">解释您提供的好处</span>"
 
-#~ msgid ""
-#~ "<span style=\"font-size: 11px\">user / month (billed annually)</span>"
+#~ msgid "<span style=\"font-size: 11px\">user / month (billed annually)</span>"
 #~ msgstr "<span style=\"font-size: 11px\">用户/月（按年计费）</span>"
 
 #~ msgid "<span style=\"font-size: 48px;\">12</span>"
@@ -7116,8 +7130,7 @@ msgstr "✽  披萨"
 #~ msgid "<span style=\"font-size: 48px;\">8</span>"
 #~ msgstr "<span style=\"font-size: 48px;\">8</span>"
 
-#~ msgid ""
-#~ "<span style=\"font-weight: bolder;\">50,000+ companies</span> run Odoo."
+#~ msgid "<span style=\"font-weight: bolder;\">50,000+ companies</span> run Odoo."
 #~ msgstr "<span style=\"font-weight: bolder;\">50，000+公司</span> 运营Odoo。"
 
 #~ msgid "<span style=\"font-weight: bolder;\">DEFAULT</span>"
@@ -7197,8 +7210,7 @@ msgstr "✽  披萨"
 #~ msgid "An error occurred. Please try again later or contact us."
 #~ msgstr "发生了一个错误。请稍后再试或联系我们。"
 
-#~ msgid ""
-#~ "An error occurred. Your changes have not been saved, try again later."
+#~ msgid "An error occurred. Your changes have not been saved, try again later."
 #~ msgstr "发生错误。 您的更改尚未保存，请稍后重试。"
 
 #~ msgid "Another color block"
@@ -7247,14 +7259,13 @@ msgstr "✽  披萨"
 #~ msgstr "衣服"
 
 #~ msgid ""
-#~ "Color blocks are a simple and effective way to <b>present and highlight "
-#~ "your content</b>. Choose an image or a color for the background. You can "
-#~ "even resize and duplicate the blocks to create your own layout. Add "
-#~ "images or icons to customize the blocks."
+#~ "Color blocks are a simple and effective way to <b>present and highlight your"
+#~ " content</b>. Choose an image or a color for the background. You can even "
+#~ "resize and duplicate the blocks to create your own layout. Add images or "
+#~ "icons to customize the blocks."
 #~ msgstr ""
-#~ "色块是一种简单而有效的方式来<b>呈现和突出您的内容</b>. 通过选择图像或者颜"
-#~ "色可以改变背景. 您甚至通过调整模块的大小和复制模块来创建自己的布局。 添加"
-#~ "图像或者图标可以自定义模块."
+#~ "色块是一种简单而有效的方式来<b>呈现和突出您的内容</b>. 通过选择图像或者颜色可以改变背景. 您甚至通过调整模块的大小和复制模块来创建自己的布局。"
+#~ " 添加图像或者图标可以自定义模块."
 
 #~ msgid "Delivered to"
 #~ msgstr "送货至"
@@ -7287,13 +7298,10 @@ msgstr "✽  披萨"
 #~ msgstr "调整内容"
 
 #~ msgid ""
-#~ "Founder and chief visionary, Tony is the driving force behind the "
-#~ "company. He lovesto keep his hands full by participating in the "
-#~ "development of the software, marketing, and customer experience "
-#~ "strategies."
-#~ msgstr ""
-#~ "作为创始人和首席远见卓识者，托尼是公司背后的推动力。他喜欢通过参与软件、营"
-#~ "销和客户体验策略的开发来保持自己的双手。"
+#~ "Founder and chief visionary, Tony is the driving force behind the company. "
+#~ "He lovesto keep his hands full by participating in the development of the "
+#~ "software, marketing, and customer experience strategies."
+#~ msgstr "作为创始人和首席远见卓识者，托尼是公司背后的推动力。他喜欢通过参与软件、营销和客户体验策略的开发来保持自己的双手。"
 
 #~ msgid "Full"
 #~ msgstr "全"
@@ -7302,12 +7310,9 @@ msgstr "✽  披萨"
 #~ msgstr "家具"
 
 #~ msgid ""
-#~ "Get your inside sales (CRM) fully integrated with online sales "
-#~ "(eCommerce), in-store sales (Point of Sale) and marketplaces like eBay "
-#~ "and Amazon."
-#~ msgstr ""
-#~ "将内部销售 (CRM) 与线上销售（电子商务）、店内销售（销售点）和市场（如 "
-#~ "eBay 和 Amazon）完全集成。"
+#~ "Get your inside sales (CRM) fully integrated with online sales (eCommerce), "
+#~ "in-store sales (Point of Sale) and marketplaces like eBay and Amazon."
+#~ msgstr "将内部销售 (CRM) 与线上销售（电子商务）、店内销售（销售点）和市场（如 eBay 和 Amazon）完全集成。"
 
 #~ msgid "Group By"
 #~ msgstr "分组"
@@ -7337,10 +7342,8 @@ msgstr "✽  披萨"
 #~ msgstr "营销内容"
 
 #~ msgid ""
-#~ "Mass Mailing Statistics allows you to check different mailing related "
-#~ "information\n"
-#~ "    like number of bounced mails, opened mails, replied mails. You can "
-#~ "sort out\n"
+#~ "Mass Mailing Statistics allows you to check different mailing related information\n"
+#~ "    like number of bounced mails, opened mails, replied mails. You can sort out\n"
 #~ "    your analysis by different groups to get accurate grained analysis."
 #~ msgstr ""
 #~ "邮件群发统计允许您检查不同的邮件相关信息\n"
@@ -7385,12 +7388,12 @@ msgstr "✽  披萨"
 
 #~ msgid ""
 #~ "Optional translation language (ISO code) to select when sending out an "
-#~ "email. If not set, the english version will be used. This should usually "
-#~ "be a placeholder expression that provides the appropriate language, e.g. "
-#~ "{{ object.partner_id.lang }}."
+#~ "email. If not set, the english version will be used. This should usually be "
+#~ "a placeholder expression that provides the appropriate language, e.g. {{ "
+#~ "object.partner_id.lang }}."
 #~ msgstr ""
-#~ "在发送邮件时可选择的语言代码(ISO 代码)。如果没有设置，会使用英文版本。一般"
-#~ "用占位符来确定合适的语言，例如: {{ object.partner_id.lang }}."
+#~ "在发送邮件时可选择的语言代码(ISO 代码)。如果没有设置，会使用英文版本。一般用占位符来确定合适的语言，例如: {{ "
+#~ "object.partner_id.lang }}."
 
 #~ msgid "Padding ⭤"
 #~ msgstr "内边距"
@@ -7420,8 +7423,8 @@ msgstr "✽  披萨"
 #~ msgstr "得分"
 
 #~ msgid ""
-#~ "Searching Mailing Enabled models supports only direct search using '='' "
-#~ "or '!='."
+#~ "Searching Mailing Enabled models supports only direct search using '='' or "
+#~ "'!='."
 #~ msgstr "搜索已启用邮件的模型只支持使用'=''或'！='直接搜索。"
 
 #~ msgid "Second Feature"
@@ -7460,10 +7463,8 @@ msgstr "✽  披萨"
 #~ msgstr "收件人可以在订阅管理页面中访问邮件列表，以允许他们更新其首选项。"
 
 #~ msgid ""
-#~ "The open source model of Odoo has allowed us to leverage thousands of "
-#~ "developers and\n"
-#~ "                    business experts to build hundreds of apps in just a "
-#~ "few years."
+#~ "The open source model of Odoo has allowed us to leverage thousands of developers and\n"
+#~ "                    business experts to build hundreds of apps in just a few years."
 #~ msgstr ""
 #~ "Odoo 的开源模式已允许我们利用数以千计的开发人员和\n"
 #~ " 商务专家，在短短数年内打造数百款应用。"
@@ -7472,9 +7473,7 @@ msgstr "✽  披萨"
 #~ "The open source model of Odoo has allowed us to leverage thousands of "
 #~ "developers and business experts to build hundreds of apps in just a few "
 #~ "years."
-#~ msgstr ""
-#~ "Odoo 的开源模式已允许我们利用数以千计的开发人员和商务专家，在短短数年内打"
-#~ "造数百款应用。"
+#~ msgstr "Odoo 的开源模式已允许我们利用数以千计的开发人员和商务专家，在短短数年内打造数百款应用。"
 
 #~ msgid "The recipient <strong>subscribed to %s</strong> mailing list(s)"
 #~ msgstr "收件人<strong>订阅%s</strong>邮件列表"
@@ -7521,45 +7520,40 @@ msgstr "✽  披萨"
 
 #~ msgid ""
 #~ "We are continuing to grow and we miss seeing you be a part of it! We've "
-#~ "increased store hours and have lot's of new brands available. To welcome "
-#~ "you back please accept this 20% discount on you next purchase by clicking "
-#~ "the button."
+#~ "increased store hours and have lot's of new brands available. To welcome you"
+#~ " back please accept this 20% discount on you next purchase by clicking the "
+#~ "button."
 #~ msgstr ""
-#~ "我们在不断成长，迫切地想看到您成为 Odoo 的一员！我们已延长商店营业时间，并"
-#~ "提供大量新品牌。为了欢迎您的归来，单击此按钮即可在下次购买时享受 20% 的折"
-#~ "扣。"
+#~ "我们在不断成长，迫切地想看到您成为 Odoo 的一员！我们已延长商店营业时间，并提供大量新品牌。为了欢迎您的归来，单击此按钮即可在下次购买时享受 20%"
+#~ " 的折扣。"
 
 #~ msgid ""
-#~ "We would appreciate if you provide feedback about why you updated<br/"
-#~ ">your subscriptions"
+#~ "We would appreciate if you provide feedback about why you updated<br/>your "
+#~ "subscriptions"
 #~ msgstr "如果您提供关于更新<br/>订阅的反馈意见，我们将不胜感激"
 
 #~ msgid ""
 #~ "With strong technical foundations, Odoo's framework is unique.\n"
-#~ "                    It provides top notch usability that scales across "
-#~ "all apps."
+#~ "                    It provides top notch usability that scales across all apps."
 #~ msgstr ""
 #~ "借助强大的技术基础，Odoo 独一无二的框架应运而生。\n"
 #~ " 它能够在全部应用范围内提供最顶级的可用性。"
 
 #~ msgid ""
-#~ "With strong technical foundations, Odoo's framework is unique. It "
-#~ "provides <span style=\"font-weight: bolder;\">top notch usability that "
-#~ "scales across all apps</span>."
+#~ "With strong technical foundations, Odoo's framework is unique. It provides "
+#~ "<span style=\"font-weight: bolder;\">top notch usability that scales across "
+#~ "all apps</span>."
 #~ msgstr ""
-#~ "凭借强大的技术基础，Odoo的框架是独一无二的。它提供了 <span style=\"font-"
-#~ "weight: bolder;\">可在所有应用程序之间扩展的一流可用性</span>。"
+#~ "凭借强大的技术基础，Odoo的框架是独一无二的。它提供了 <span style=\"font-weight: "
+#~ "bolder;\">可在所有应用程序之间扩展的一流可用性</span>。"
 
 #~ msgid ""
-#~ "Write one or two paragraphs describing your product, services or a "
-#~ "specific feature.<br/> To be successful your content needs to be useful "
-#~ "to your readers."
-#~ msgstr ""
-#~ "写一两段描述您的产品、服务或具体功能。<br/>要获得成功，您的内容需要对您的"
-#~ "读者有用。"
+#~ "Write one or two paragraphs describing your product, services or a specific "
+#~ "feature.<br/> To be successful your content needs to be useful to your "
+#~ "readers."
+#~ msgstr "写一两段描述您的产品、服务或具体功能。<br/>要获得成功，您的内容需要对您的读者有用。"
 
-#~ msgid ""
-#~ "Write what the customer would like to know, not what you want to show."
+#~ msgid "Write what the customer would like to know, not what you want to show."
 #~ msgstr "写下客户想知道的内容, <br/>而不是您想要展示的内容。"
 
 #~ msgid "You are not authorized to do this!"
@@ -7572,24 +7566,21 @@ msgstr "✽  披萨"
 #~ msgstr "您已<strong>成功取消订阅</strong>。"
 
 #~ msgid ""
-#~ "You have been successfully <strong>added to our blacklist</strong>. You "
-#~ "will not be contacted anymore by our services."
-#~ msgstr ""
-#~ "您已经成功<strong>加入了我们的黑名单</strong>。您将不能再联系我们的服务。"
+#~ "You have been successfully <strong>added to our blacklist</strong>. You will"
+#~ " not be contacted anymore by our services."
+#~ msgstr "您已经成功<strong>加入了我们的黑名单</strong>。您将不能再联系我们的服务。"
 
 #~ msgid ""
-#~ "You have been successfully <strong>removed from our blacklist</strong>. "
-#~ "You are now able to be contacted by our services."
-#~ msgstr ""
-#~ "您已经成功<strong>从我们的黑名单中移除</strong>。您现在可以联系我们的服"
-#~ "务。"
+#~ "You have been successfully <strong>removed from our blacklist</strong>. You "
+#~ "are now able to be contacted by our services."
+#~ msgstr "您已经成功<strong>从我们的黑名单中移除</strong>。您现在可以联系我们的服务。"
 
 #~ msgid "You have been successfully <strong>unsubscribed</strong>!"
 #~ msgstr "您已成功<strong> 取消订阅</strong>!"
 
 #~ msgid ""
-#~ "You should give either list_ids, either subscription_list_ids to create "
-#~ "new contacts."
+#~ "You should give either list_ids, either subscription_list_ids to create new "
+#~ "contacts."
 #~ msgstr "您应该提供list_ids、任一subscription_list_ids来创建新联系人。"
 
 #~ msgid ""

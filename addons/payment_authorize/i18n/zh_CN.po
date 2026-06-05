@@ -16,8 +16,7 @@ msgstr ""
 "POT-Creation-Date: 2026-03-13 18:39+0000\n"
 "PO-Revision-Date: 2025-09-16 15:27+0000\n"
 "Last-Translator: \"Tiffany Chang (tic)\" <tic@odoo.com>\n"
-"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
-"projects/odoo-19/payment_authorize/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/projects/odoo-19/payment_authorize/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,21 +27,16 @@ msgstr ""
 #. module: payment_authorize
 #: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
 msgid ""
-"<select id=\"o_authorize_account_type\" required=\"\" class=\"form-"
-"select\">\n"
-"                        <option value=\"checking\">Personal Checking</"
-"option>\n"
+"<select id=\"o_authorize_account_type\" required=\"\" class=\"form-select\">\n"
+"                        <option value=\"checking\">Personal Checking</option>\n"
 "                        <option value=\"savings\">Personal Savings</option>\n"
-"                        <option value=\"businessChecking\">Business "
-"Checking</option>\n"
+"                        <option value=\"businessChecking\">Business Checking</option>\n"
 "                    </select>"
 msgstr ""
-"<select id=\"o_authorize_account_type\" required=\"\" class=\"form-"
-"select\">\n"
+"<select id=\"o_authorize_account_type\" required=\"\" class=\"form-select\">\n"
 "                        <option value=\"checking\">个人支票</option>\n"
 "                        <option value=\"savings\">个人储蓄</option>\n"
-"                        <option value=\"businessChecking\">商业支票</"
-"option>\n"
+"                        <option value=\"businessChecking\">商业支票</option>\n"
 "                    </select>"
 
 #. module: payment_authorize
@@ -126,9 +120,7 @@ msgstr ""
 msgid ""
 "Could not retrieve the transaction details. (error code: %(error_code)s; "
 "error_details: %(error_message)s)"
-msgstr ""
-"无法检索交易详情。（错误代码：%(error_code)s；error_details：%"
-"(error_message)s）"
+msgstr "无法检索交易详情。（错误代码：%(error_code)s；error_details：%(error_message)s）"
 
 #. module: payment_authorize
 #: model:ir.model.fields,field_description:payment_authorize.field_payment_provider__display_name
@@ -209,9 +201,8 @@ msgstr "付款处理失败"
 #. module: payment_authorize
 #. odoo-python
 #: code:addons/payment_authorize/models/payment_transaction.py:0
-msgid ""
-"Received data with status code \"%(status)s\" and error code \"%(error)s\"."
-msgstr ""
+msgid "Received data with status code \"%(status)s\" and error code \"%(error)s\"."
+msgstr "已接收 data with 状态 代码 \"%(status)s\" and 错误 代码 \"%(error)s\"."
 
 #. module: payment_authorize
 #. odoo-python
@@ -234,7 +225,7 @@ msgstr "仅用于识别 Authorize.Net 账户的 ID"
 msgid ""
 "The public client key. To generate directly from Odoo or from Authorize.Net "
 "backend."
-msgstr "公共客户密钥。直接从Odoo或从Authorize.Net后端生成。"
+msgstr "公共客户密钥。直接从绿色供应链公共服务平台或从Authorize.Net后端生成。"
 
 #. module: payment_authorize
 #: model:ir.model.fields,help:payment_authorize.field_payment_provider__code
@@ -266,7 +257,7 @@ msgstr "当提供商被禁用时，无法执行此操作。"
 #. odoo-python
 #: code:addons/payment_authorize/controllers/main.py:0
 msgid "Transaction not found."
-msgstr ""
+msgstr "交易 not found."
 
 #. module: payment_authorize
 #: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form

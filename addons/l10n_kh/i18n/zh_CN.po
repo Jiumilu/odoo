@@ -1,0 +1,599 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_kh
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_wt003_kh_wt003_wht_2_1
+msgid "01 Payment of interest"
+msgstr "01 付款 of interest"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_wt003_kh_wt003_wht_1_1
+msgid ""
+"01 Performance of Service and Royalty for intangibles, interests in minerals"
+msgstr ""
+"01 Performance of 服务 and Royalty for intangibles, interests in minerals"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_wt003_kh_wt003_wht_1_2
+msgid "02 Payment of interest to non-bank or saving institution taxpayers"
+msgstr "02 付款 of interest to non-bank or saving institution taxpayers"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_wt003_kh_wt003_wht_2_2
+msgid ""
+"02 Payment of royalty, rental/leasing, and income related to the use of "
+"property"
+msgstr ""
+"02 付款 of royalty, rental/leasing, and income 相关 to the use of property"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_wt003_kh_wt003_wht_1_3
+msgid ""
+"03 Payment of interest to taxpayers who have fixed term deposit accounts"
+msgstr "03 付款 of interest to taxpayers who have fixed term deposit 账户"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_wt003_kh_wt003_wht_2_3
+msgid "03 Payment of management fee and technical services"
+msgstr "03 付款 of management fee and technical services"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_wt003_kh_wt003_wht_2_4
+msgid "04 Payment of dividend"
+msgstr "04 付款 of dividend"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_wt003_kh_wt003_wht_1_4
+msgid "04 Payment of interest to taxpayers who have non-fixed term saving"
+msgstr "04 付款 of interest to taxpayers who have non-fixed term saving"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_wt003_kh_wt003_wht_1_5
+msgid ""
+"05 Payment of rental/lease of movable and immovable property - Legal Person"
+msgstr ""
+"05 付款 of rental/lease of movable and immovable property - Legal Person"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_wt003_kh_wt003_wht_2_5
+msgid "05 Service"
+msgstr "05 服务"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_wt003_kh_wt003_wht_1_6
+msgid ""
+"06 Payment of rental/lease of movable and immovable property - Physical "
+"Person"
+msgstr ""
+"06 付款 of rental/lease of movable and immovable property - Physical Person"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_2_1_1
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_3_1_1
+msgid "1. Local Purchase include VAT 10% "
+msgstr "1. Local 采购 include VAT 10%"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_1
+msgid "1. Prepayment of Tax on Income"
+msgstr "1. Prepayment of 税 on Income"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_2_2_1
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_3_2_1
+msgid "1. Sales Include VAT 10%"
+msgstr "1. 销售 Include VAT 10%"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_2_1
+msgid "1. Value Added Tax"
+msgstr "1. 值 Added 税"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_2_2_2
+msgid "2. Export 0%"
+msgstr "2. 导出 0%"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_2_1_2
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_3_1_2
+msgid "2. Import 10%"
+msgstr "2. 导入 10%"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_2
+msgid "2. Value Added Tax"
+msgstr "2. 值 Added 税"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_2_2
+msgid "2. Value Added Tax (State Charge)"
+msgstr "2. 值 Added 税 (状态 Charge)"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_2_3
+msgid "3. Prepayment of Tax on Income"
+msgstr "3. Prepayment of 税 on Income"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_2_1_3
+msgid "3. Purchase Exclusive of VAT"
+msgstr "3. 采购 Exclusive of VAT"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_2_2_3
+msgid "3. Sales Exclude of VAT"
+msgstr "3. 销售 Exclude of VAT"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_3
+msgid "3. Value Added Tax (State charge)"
+msgstr "3. 值 Added 税 (状态 charge)"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_2_1_4
+msgid "4. Non Creditable Purchase"
+msgstr "4. Non Creditable 采购"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_2_4
+msgid "4. Public Lighting Tax"
+msgstr "4. Public Lighting 税"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_2_5
+msgid "5. Specific Tax on Certain Marchandises and Services"
+msgstr "5. Specific 税 on Certain Marchandises and Services"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_2_6
+msgid "6. Accomodation Tax"
+msgstr "6. Accomodation 税"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_2_7
+msgid "7. Other Taxes"
+msgstr "7. 其他 税"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_kh.model_account_chart_template
+msgid "Account Chart Template"
+msgstr "科目表模版"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:res.company,invoice_terms_html:l10n_kh.demo_company_kh
+msgid ""
+"All our contractual relations will be governed exclusively by Cambodia law."
+msgstr ""
+"All our contractual relations will be governed exclusively by Cambodia "
+"law.（技术名称）"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_kh.selection__res_partner_bank__proxy_type__bakong_id_merchant
+msgid "Bakong Account ID (Corporate Merchant)"
+msgstr "Bakong 账户 ID (Corporate Merchant)"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_kh.selection__res_partner_bank__proxy_type__bakong_id_solo
+msgid "Bakong Account ID (Solo Merchant)"
+msgstr "Bakong 账户 ID (Solo Merchant)"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.column,name:l10n_kh.l10n_kh_t7001_balance
+#: model:account.report.column,name:l10n_kh.l10n_kh_wt003_balance
+msgid "Balance"
+msgstr "余额"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_kh.model_res_partner_bank
+msgid "Bank Accounts"
+msgstr "银行账号"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:res.company,invoice_terms_html:l10n_kh.demo_company_kh
+msgid ""
+"Below text serves as a suggestion and doesn’t engage Odoo S.A. "
+"responsibility."
+msgstr "以下文字仅供参考，GlobalCloud GPC不承担责任。"
+
+#. module: l10n_kh
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_kh/models/res_bank.py:0
+msgid "Can't generate a KHQR code with a currency other than KHR or USD."
+msgstr "Can't generate a KH二维码 with a 币种 其他 than KHR or USD."
+
+#. module: l10n_kh
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_kh/models/template_kh.py:0
+msgid "Cash"
+msgstr "现金"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:res.company,invoice_terms_html:l10n_kh.demo_company_kh
+msgid ""
+"Certain countries apply withholding at source on the amount of invoices, in "
+"accordance with their internal legislation. Any withholding at source will "
+"be paid by the client to the tax authorities. Under no circumstances can KH "
+"Company become involved in costs related to a country's legislation. The "
+"amount of the invoice will therefore be due to KH Company in its entirety "
+"and does not include any costs relating to the legislation of the country in"
+" which the client is located."
+msgstr ""
+"Certain countries apply withholding at source on the 金额 of 发票, in accordance"
+" with their internal legislation. Any withholding at source will be paid by "
+"the client to the 税 authorities. Under 否 circumstances can KH 公司 become "
+"involved in costs 相关 to a country's legislation. The 金额 of the 发票 will "
+"therefore be due to KH 公司 in its entirety and does not include any costs "
+"relating to the legislation of the 国家/地区 in which the client is located."
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_2_2a
+msgid "Credit Carried Forward"
+msgstr "贷方 Carried Forward"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_1_4
+msgid "Credit Forward"
+msgstr "贷方 Forward"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_2_tb
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_3_tb
+msgid "Credit forward"
+msgstr "贷方 forward"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_1_2
+msgid "Credit last month"
+msgstr "贷方 last month"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_1_1
+msgid "Current month of Prepayment of tax on income"
+msgstr "Current month of Prepayment of 税 on income"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_kh.field_account_chart_template__display_name
+#: model:ir.model.fields,field_description:l10n_kh.field_res_partner_bank__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report,name:l10n_kh.l10n_kh_t7001
+msgid "Form T7001"
+msgstr "表单 T7001"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report,name:l10n_kh.l10n_kh_wt003
+msgid "Form WT003"
+msgstr "表单 WT003"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_kh.field_account_chart_template__id
+#: model:ir.model.fields,field_description:l10n_kh.field_res_partner_bank__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_2
+msgid "II. Total Amount of Taxes"
+msgstr "II. 合计 金额 of 税"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3
+msgid "III Total Transaction"
+msgstr "III 合计 交易"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:res.company,invoice_terms_html:l10n_kh.demo_company_kh
+msgid ""
+"If a payment is still outstanding more than sixty (60) days after the due "
+"payment date, KH Company reserves the right to call on the services of a "
+"debt recovery company. All legal expenses will be payable by the client."
+msgstr ""
+"If a 付款 is still outstanding more than sixty (60) days after the due 付款 日期, "
+"KH 公司 reserves the right to call on the services of a debt recovery 公司. All "
+"legal expenses will be payable by the client."
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:res.company,invoice_terms_html:l10n_kh.demo_company_kh
+msgid ""
+"In order for it to be admissible, KH Company must be notified of any claim "
+"by means of a letter sent by recorded delivery to its registered office "
+"within 8 days of the delivery of the goods or the provision of the services."
+msgstr ""
+"In 订单 for it to be admissible, KH 公司 must be notified of any claim by means "
+"of a letter 已发送 by recorded 交货 to its registered office within 8 days of the"
+" 交货 of the goods or the provision of the services."
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:res.company,invoice_terms_html:l10n_kh.demo_company_kh
+msgid ""
+"KH Company undertakes to do its best to supply performant services in due "
+"time in accordance with the agreed timeframes. However, none of its "
+"obligations can be considered as being an obligation to achieve results. KH "
+"Company cannot under any circumstances, be required by the client to appear "
+"as a third party in the context of any claim for damages filed against the "
+"client by an end consumer."
+msgstr ""
+"KH 公司 undertakes to do its best to supply performant services in due time in"
+" accordance with the agreed timeframes. However, none of its obligations can"
+" be considered as being an obligation to achieve results. KH 公司 cannot under"
+" any circumstances, be 必填 by the client to appear as a third party in the "
+"context of any claim for damages filed against the client by an end "
+"consumer."
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_kh.field_account_setup_bank_manual_config__l10n_kh_merchant_id
+#: model:ir.model.fields,field_description:l10n_kh.field_res_partner_bank__l10n_kh_merchant_id
+msgid "Merchant ID"
+msgstr "商家 ID"
+
+#. module: l10n_kh
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_kh/models/res_bank.py:0
+msgid "Merchant ID is missing."
+msgstr "Merchant ID is missing.（技术名称）"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_2_1
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_3_1
+msgid "Monthly Purchases of Goods and Services"
+msgstr "Monthly Purchases of Goods and Services（技术名称）"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_2_2
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_3_2
+msgid "Monthly Sales of Goods and Services"
+msgstr "Monthly 销售 of Goods and Services"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_2_1_3b
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_2_1_4b
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_2_2_1b
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_2_2_3b
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_3_2_1b
+msgid "Non-Taxable Person"
+msgstr "Non-Taxable Person（技术名称）"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:res.company,invoice_terms_html:l10n_kh.demo_company_kh
+msgid ""
+"Our invoices are payable within 21 working days, unless another payment "
+"timeframe is indicated on either the invoice or the order. In the event of "
+"non-payment by the due date, KH Company reserves the right to request a "
+"fixed interest payment amounting to 10% of the sum remaining due. KH Company"
+" will be authorized to suspend any provision of services without prior "
+"warning in the event of late payment."
+msgstr ""
+"Our 发票 are payable within 21 working days, unless another 付款 timeframe is "
+"indicated on either the 发票 or the 订单. In the 活动 of non-payment by the 到期日, "
+"KH 公司 reserves the right to 请求 a fixed interest 付款 amounting to 10% of the "
+"sum remaining due. KH 公司 will be authorized to suspend any provision of "
+"services without prior 警告 in the 活动 of late 付款."
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_2_2_2a
+msgid "Overseas Customer"
+msgstr "Overseas 客户"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_2_1_2a
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_3_1_2a
+msgid "Overseas Suppliers"
+msgstr "Overseas 供应商"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_1_3
+msgid "PPI to be paid"
+msgstr "PPI to be paid（技术名称）"
+
+#. module: l10n_kh
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_kh/models/res_bank.py:0
+msgid "Please enter a valid Bakong Account ID."
+msgstr "Please enter a 有效 Bakong 账户 ID."
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_kh.field_account_setup_bank_manual_config__proxy_type
+#: model:ir.model.fields,field_description:l10n_kh.field_res_partner_bank__proxy_type
+msgid "Proxy Type"
+msgstr "代理类型"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:res.company,invoice_terms_html:l10n_kh.demo_company_kh
+msgid "STANDARD TERMS AND CONDITIONS OF SALE"
+msgstr "标准销售期限和条件"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.column,name:l10n_kh.l10n_kh_t7001_tax
+#: model:account.report.column,name:l10n_kh.l10n_kh_wt003_tax
+msgid "Tax Amount"
+msgstr "税 金额"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_2_1_1a
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_2_1_3a
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_2_1_4a
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_2_2_1a
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_2_2_3a
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_3_1_1a
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_3_2_1a
+msgid "Taxable Person"
+msgstr "Taxable Person（技术名称）"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:res.company,sign_terms:l10n_kh.demo_company_kh
+#: model_terms:res.company,sign_terms_html:l10n_kh.demo_company_kh
+msgid "Terms &amp; Conditions"
+msgstr "条款 &amp; 条件"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:res.company,invoice_terms_html:l10n_kh.demo_company_kh
+msgid ""
+"The client explicitly waives its own standard terms and conditions, even if "
+"these were drawn up after these standard terms and conditions of sale. In "
+"order to be valid, any derogation must be expressly agreed to in advance in "
+"writing."
+msgstr "客户明确放弃自己的标准期限和条件，即使这些期限和条件是在这些标准销售期限和条件之后制定的。为了有效，任何减损必须事先以书面形式明确同意。"
+
+#. module: l10n_kh
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_kh/models/res_bank.py:0
+msgid "The proxy type must be Bakong Account ID"
+msgstr "The proxy 类型 must be Bakong 账户 ID"
+
+#. module: l10n_kh
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_kh/models/res_bank.py:0
+msgid "The proxy type of KHQR must be a Bakong Account ID"
+msgstr "The proxy 类型 of KHQR must be a Bakong 账户 ID"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_2_1_t
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_3_1_t
+msgid "Total amount of input taxes"
+msgstr "合计 金额 of input 税"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_2_2_t
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_3_2_t
+msgid "Total amount of output taxes"
+msgstr "合计 金额 of output 税"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_2_2b
+msgid "VAT State Charge"
+msgstr "VAT 状态 Charge"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_3_ta
+msgid "VAT state charge"
+msgstr "VAT 状态 charge"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_t7001_kh_t7001_3_2_ta
+msgid "VAT to be paid"
+msgstr "VAT to be paid（技术名称）"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_wt003_kh_wt003_wht
+msgid "Withholding Tax"
+msgstr "Withholding 税"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_wt003_kh_wt003_wht_2
+msgid "Withholding tax on non-resident"
+msgstr "Withholding 税 on non-resident"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_kh.l10n_kh_wt003_kh_wt003_wht_1
+msgid "Withholding tax on resident"
+msgstr "Withholding 税 on resident"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:res.company,invoice_terms_html:l10n_kh.demo_company_kh
+msgid "You should update this document to reflect your T&amp;C."
+msgstr "您应该更新此文档以反映您的T &amp; C。"
+
+#. module: l10n_kh
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:res.company,sign_terms:l10n_kh.demo_company_kh
+#: model_terms:res.company,sign_terms_html:l10n_kh.demo_company_kh
+msgid "Your conditions..."
+msgstr "您的条件..."

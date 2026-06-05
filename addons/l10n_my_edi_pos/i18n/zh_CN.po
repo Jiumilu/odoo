@@ -1,0 +1,188 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_my_edi_pos
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_my_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_my_edi_pos.view_pos_pos_form
+msgid "<span>Consolidated<br/>Invoice</span>"
+msgstr "<span>Consolidated<br/>Invoice</span>（技术名称）"
+
+#. module: l10n_my_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_my_edi_pos.model_myinvois_consolidate_invoice_wizard
+msgid "Consolidate Invoice Wizard"
+msgstr "Consolidate 发票 向导"
+
+#. module: l10n_my_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_my_edi_pos.myinvois_document_pos_list_view
+msgid "Consolidate Orders"
+msgstr "Consolidate 订单"
+
+#. module: l10n_my_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_my_edi_pos.field_pos_order__consolidated_invoice_ids
+#: model:ir.ui.menu,name:l10n_my_edi_pos.menu_consolidated_invoices
+msgid "Consolidated Invoice"
+msgstr "Consolidated 发票"
+
+#. module: l10n_my_edi_pos
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_my_edi_pos/models/myinvois_document_pos.py:0
+#: model:ir.actions.act_window,name:l10n_my_edi_pos.action_consolidated_invoices
+msgid "Consolidated Invoices"
+msgstr "Consolidated 发票"
+
+#. module: l10n_my_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_my_edi_pos.field_myinvois_consolidate_invoice_wizard__consolidation_type
+msgid "Consolidation Type"
+msgstr "Consolidation 类型"
+
+#. module: l10n_my_edi_pos
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_my_edi_pos/models/myinvois_document_pos.py:0
+msgid "Create Consolidated Invoice"
+msgstr "创建 Consolidated 发票"
+
+#. module: l10n_my_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_my_edi_pos.field_myinvois_document__pos_order_date_range
+msgid "Date Range"
+msgstr "日期范围"
+
+#. module: l10n_my_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_my_edi_pos.field_account_edi_xml_ubl_myinvois_my__display_name
+#: model:ir.model.fields,field_description:l10n_my_edi_pos.field_myinvois_consolidate_invoice_wizard__display_name
+#: model:ir.model.fields,field_description:l10n_my_edi_pos.field_myinvois_document__display_name
+#: model:ir.model.fields,field_description:l10n_my_edi_pos.field_pos_order__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_my_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_my_edi_pos.field_account_edi_xml_ubl_myinvois_my__id
+#: model:ir.model.fields,field_description:l10n_my_edi_pos.field_myinvois_consolidate_invoice_wizard__id
+#: model:ir.model.fields,field_description:l10n_my_edi_pos.field_myinvois_document__id
+#: model:ir.model.fields,field_description:l10n_my_edi_pos.field_pos_order__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_my_edi_pos
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_my_edi_pos/wizard/myinvois_consolidate_invoice_wizard.py:0
+msgid "Invalid Operation. No order to consolidate."
+msgstr "无效 Operation. 否 订单 to consolidate."
+
+#. module: l10n_my_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_my_edi_pos.field_myinvois_document__linked_order_count
+msgid "Linked Order Count"
+msgstr "Linked 订单 Count"
+
+#. module: l10n_my_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_my_edi_pos.model_account_edi_xml_ubl_myinvois_my
+msgid "Malaysian implementation of ubl for the MyInvois portal"
+msgstr "Malaysian implementation of ubl for the MyInvois portal（技术名称）"
+
+#. module: l10n_my_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_my_edi_pos.model_myinvois_document
+msgid "MyInvois Document"
+msgstr "MyInvois 单据"
+
+#. module: l10n_my_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_my_edi_pos.field_myinvois_document__pos_config_id
+msgid "PoS Config"
+msgstr "POS 配置"
+
+#. module: l10n_my_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_my_edi_pos.selection__myinvois_consolidate_invoice_wizard__consolidation_type__pos
+msgid "PoS Order"
+msgstr "POS订单"
+
+#. module: l10n_my_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_my_edi_pos.myinvois_document_pos_form_view
+msgid "PoS Orders"
+msgstr "POS 订单"
+
+#. module: l10n_my_edi_pos
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_my_edi_pos/models/myinvois_document_pos.py:0
+#: model:ir.model,name:l10n_my_edi_pos.model_pos_order
+msgid "Point of Sale Orders"
+msgstr "POS 订单"
+
+#. module: l10n_my_edi_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_my_edi_pos.field_myinvois_document__pos_order_ids
+msgid "Pos Order"
+msgstr "Pos 订单"
+
+#. module: l10n_my_edi_pos
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_my_edi_pos/models/pos_order.py:0
+msgid ""
+"This order has been included in a consolidated invoice and cannot be "
+"invoiced separately."
+msgstr ""
+"This 订单 has been included in a consolidated 发票 and cannot be invoiced "
+"separately."
+
+#. module: l10n_my_edi_pos
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_my_edi_pos/models/pos_order.py:0
+msgid ""
+"You cannot invoice a refund for an order that has not been submitted to "
+"MyInvois yet."
+msgstr ""
+"You cannot 发票 a 退款 for an 订单 that has not been submitted to MyInvois yet."
+
+#. module: l10n_my_edi_pos
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_my_edi_pos/models/pos_order.py:0
+msgid ""
+"You must invoice a refund for an order that has been submitted to MyInvois."
+msgstr "You must 发票 a 退款 for an 订单 that has been submitted to MyInvois."
+
+#. module: l10n_my_edi_pos
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_my_edi_pos/models/pos_order.py:0
+msgid "You must set a TIN number on the commercial partner."
+msgstr "You must set a TIN 编号 on the commercial 业务伙伴."
+
+#. module: l10n_my_edi_pos
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_my_edi_pos/models/pos_order.py:0
+msgid "You must set the identification information on the commercial partner."
+msgstr "You must set the identification 信息 on the commercial 业务伙伴."

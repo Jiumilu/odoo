@@ -1,0 +1,384 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_pe
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_pe.address_form_fields
+msgid "<option value=\"\">City...</option>"
+msgstr "<option value=\"\">City...</option>（技术名称）"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_pe.address_form_fields
+msgid "<option value=\"\">District...</option>"
+msgstr "<option value=\"\">District...</option>（技术名称）"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_pe.model_account_chart_template
+msgid "Account Chart Template"
+msgstr "科目表模版"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_pe.selection__account_tax__l10n_pe_edi_isc_type__02
+msgid "Application of the Fixed Amount"
+msgstr "应用 of the Fixed 金额"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_pe.model_res_bank
+msgid "Bank"
+msgstr "银行"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_pe.field_res_bank__l10n_pe_edi_code
+msgid "Bank code assigned by the SUNAT to identify banking institutions."
+msgstr "银行 代码 assigned by the SUNAT to identify banking institutions."
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_pe.model_res_city
+#: model:ir.model.fields,field_description:l10n_pe.field_l10n_pe_res_city_district__city_id
+#: model_terms:ir.ui.view,arch_db:l10n_pe.address_form_fields
+#: model_terms:ir.ui.view,arch_db:l10n_pe.pe_partner_address_form
+msgid "City"
+msgstr "城市"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pe.field_account_tax__l10n_pe_edi_tax_code
+#: model:ir.model.fields,field_description:l10n_pe.field_l10n_pe_res_city_district__code
+#: model:ir.model.fields,field_description:l10n_pe.field_res_city__l10n_pe_code
+msgid "Code"
+msgstr "代码"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pe.field_res_bank__l10n_pe_edi_code
+msgid "Code (PE)"
+msgstr "代码 (PE)"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_pe.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_pe.model_res_partner
+msgid "Contact"
+msgstr "联系人"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_pe.pe_partner_address_form
+msgid "Country"
+msgstr "国家/地区"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,website_form_label:l10n_pe.model_res_partner
+msgid "Create a Customer"
+msgstr "创建客户"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pe.field_l10n_pe_res_city_district__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pe.field_l10n_pe_res_city_district__create_date
+msgid "Created on"
+msgstr "创建日期"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pe.field_account_chart_template__display_name
+#: model:ir.model.fields,field_description:l10n_pe.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_pe.field_account_tax__display_name
+#: model:ir.model.fields,field_description:l10n_pe.field_l10n_latam_identification_type__display_name
+#: model:ir.model.fields,field_description:l10n_pe.field_l10n_pe_res_city_district__display_name
+#: model:ir.model.fields,field_description:l10n_pe.field_res_bank__display_name
+#: model:ir.model.fields,field_description:l10n_pe.field_res_city__display_name
+#: model:ir.model.fields,field_description:l10n_pe.field_res_company__display_name
+#: model:ir.model.fields,field_description:l10n_pe.field_res_partner__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_pe.model_l10n_pe_res_city_district
+#: model:ir.model.fields,field_description:l10n_pe.field_res_partner__l10n_pe_district
+#: model:ir.model.fields,field_description:l10n_pe.field_res_users__l10n_pe_district
+#: model_terms:ir.ui.view,arch_db:l10n_pe.address_form_fields
+msgid "District"
+msgstr "District（技术名称）"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pe.field_res_partner__l10n_pe_district_name
+#: model:ir.model.fields,field_description:l10n_pe.field_res_users__l10n_pe_district_name
+msgid "District name"
+msgstr "District 名称"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_pe.pe_partner_address_form
+msgid "District..."
+msgstr "District...（技术名称）"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_pe.field_res_partner__l10n_pe_district
+#: model:ir.model.fields,help:l10n_pe.field_res_users__l10n_pe_district
+msgid "Districts are part of a province or city."
+msgstr "Districts are part of a province or 城市."
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_pe.model_account_tax
+msgid "ETA tax codes mixin"
+msgstr "ETA 税 codes mixin"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_pe.selection__account_tax__l10n_pe_edi_tax_code__9997
+msgid "EXO - Exonerated"
+msgstr "EXO - Exonerated（技术名称）"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_pe.selection__account_tax__l10n_pe_edi_tax_code__9995
+msgid "EXP - Exportation"
+msgstr "EXP - Exportation（技术名称）"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_pe.selection__account_tax__l10n_pe_edi_unece_category__e
+msgid "Exempt from tax"
+msgstr "免税"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_pe.selection__account_tax__l10n_pe_edi_unece_category__g
+msgid "Free export item, tax not charged"
+msgstr "Free 导出 item, 税 not charged"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_pe.selection__account_tax__l10n_pe_edi_tax_code__9996
+msgid "GRA - Free"
+msgstr "GRA - Free（技术名称）"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_pe.selection__account_tax__l10n_pe_edi_tax_code__7152
+msgid "ICBPER - Plastic bag tax"
+msgstr "ICBPER - Plastic bag 税"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pe.field_account_chart_template__id
+#: model:ir.model.fields,field_description:l10n_pe.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_pe.field_account_tax__id
+#: model:ir.model.fields,field_description:l10n_pe.field_l10n_latam_identification_type__id
+#: model:ir.model.fields,field_description:l10n_pe.field_l10n_pe_res_city_district__id
+#: model:ir.model.fields,field_description:l10n_pe.field_res_bank__id
+#: model:ir.model.fields,field_description:l10n_pe.field_res_city__id
+#: model:ir.model.fields,field_description:l10n_pe.field_res_company__id
+#: model:ir.model.fields,field_description:l10n_pe.field_res_partner__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_pe.selection__account_tax__l10n_pe_edi_tax_code__1000
+msgid "IGV - General Sales Tax"
+msgstr "IGV - General 销售 税"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_pe.selection__account_tax__l10n_pe_edi_tax_code__9998
+msgid "INA - Unaffected"
+msgstr "INA - Unaffected（技术名称）"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_pe.selection__account_tax__l10n_pe_edi_tax_code__2000
+msgid "ISC - Selective Excise Tax"
+msgstr "ISC - Selective Excise 税"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pe.field_account_tax__l10n_pe_edi_isc_type
+msgid "ISC Type"
+msgstr "ISC 类型"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_pe.selection__account_tax__l10n_pe_edi_tax_code__1016
+msgid "IVAP - Tax on Sale Paddy Rice"
+msgstr "IVAP - 税 on 销售 Paddy Rice"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_pe.model_l10n_latam_identification_type
+msgid "Identification Types"
+msgstr "Identification Types（技术名称）"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_pe.model_account_move
+msgid "Journal Entry"
+msgstr "日记账分录"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pe.field_l10n_latam_identification_type__l10n_pe_vat_code
+msgid "L10N Pe Vat Code"
+msgstr "L10N Pe VAT 代码"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pe.field_l10n_pe_res_city_district__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pe.field_l10n_pe_res_city_district__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pe.field_l10n_pe_res_city_district__name
+msgid "Name"
+msgstr "名称"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_pe.selection__account_tax__l10n_pe_edi_tax_code__9999
+msgid "OTHERS - Other taxes"
+msgstr "其他 - 其他 税"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_pe.field_account_tax__l10n_pe_edi_unece_category
+msgid ""
+"Peru: Follow the UN/ECE 5305 standard from the United Nations Economic "
+"Commission for Europe for more information "
+"http://www.unece.org/trade/untdid/d08a/tred/tred5305.html"
+msgstr ""
+"Peru: 关注 the UN/ECE 5305 standard 从 the United Nations Economic Commission "
+"for Europe for more 信息 "
+"http://www.unece.org/trade/untdid/d08a/tred/tred5305.HTML"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_pe.field_account_tax__l10n_pe_edi_tax_code
+msgid "Peru: SUNAT tax code"
+msgstr "Peru: SUNAT 税 代码"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_pe.selection__account_tax__l10n_pe_edi_isc_type__03
+msgid "Retail Price System"
+msgstr "Retail 价格 System"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_pe.selection__account_tax__l10n_pe_edi_unece_category__o
+msgid "Services outside scope of tax"
+msgstr "Services outside scope of 税"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_pe.selection__account_tax__l10n_pe_edi_unece_category__s
+msgid "Standard rate"
+msgstr "Standard rate（技术名称）"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_pe.pe_partner_address_form
+msgid "State"
+msgstr "省/州"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_pe.pe_partner_address_form
+msgid "Street 2..."
+msgstr "详细地址..."
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_pe.pe_partner_address_form
+msgid "Street..."
+msgstr "街道..."
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_pe.selection__account_tax__l10n_pe_edi_isc_type__01
+msgid "System to value"
+msgstr "System to 值"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_pe.field_res_city__l10n_pe_code
+msgid "This code will help with the identification of each city in Peru."
+msgstr "This 代码 will 帮助 with the identification of each 城市 in Peru."
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_pe.field_l10n_pe_res_city_district__code
+msgid "This code will help with the identification of each district in Peru."
+msgstr "This 代码 will 帮助 with the identification of each district in Peru."
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pe.field_account_tax__l10n_pe_edi_unece_category
+msgid "UNECE Code"
+msgstr "UNECE 代码"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_pe.field_account_tax__l10n_pe_edi_isc_type
+msgid ""
+"Used in Selective Consumption Tax to indicate the type of calculation for "
+"the ISC."
+msgstr ""
+"Used in Selective Consumption 税 to indicate the 类型 of calculation for the "
+"ISC."
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_pe.pe_partner_address_form
+msgid "ZIP"
+msgstr "邮政编码"
+
+#. module: l10n_pe
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_pe.selection__account_tax__l10n_pe_edi_unece_category__z
+msgid "Zero rated goods"
+msgstr "Zero rated goods（技术名称）"

@@ -1,0 +1,666 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_account_withholding_tax
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_account_withholding_tax
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_account_withholding_tax/models/product_template.py:0
+msgid "%(amount)s Excl. Taxes"
+msgstr "%(amount)s 不含税"
+
+#. module: l10n_account_withholding_tax
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_account_withholding_tax/models/product_template.py:0
+msgid "%(amount)s Incl. Taxes"
+msgstr "%(amount)s 含税"
+
+#. module: l10n_account_withholding_tax
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_account_withholding_tax/models/product_template.py:0
+msgid "%(amount)s Tax Withheld"
+msgstr "%(amount)s 税 Withheld"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_account_withholding_tax.report_payment_receipt_document
+msgid "<span>Amount</span>"
+msgstr "<span>金额</span>"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_account_withholding_tax.report_payment_receipt_document
+msgid "<span>Base</span>"
+msgstr "<span>Base</span>（技术名称）"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_account_withholding_tax.report_payment_receipt_document
+msgid "<span>Tax</span>"
+msgstr "<span>Tax</span>（技术名称）"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_account_withholding_tax.report_payment_receipt_document
+msgid "<span>Withholding number</span>"
+msgstr "<span>Withholding number</span>（技术名称）"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__account_id
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__account_id
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_withholding_line__account_id
+msgid "Account"
+msgstr "科目"
+
+#. module: l10n_account_withholding_tax
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_account_withholding_tax/wizards/account_payment_register_withholding_line.py:0
+msgid "All withholding lines in self must have the same payment register."
+msgstr "All withholding 行 in self must have the same 付款 登记."
+
+#. module: l10n_account_withholding_tax
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_account_withholding_tax/models/account_payment_withholding_line.py:0
+msgid "All withholding lines in self must have the same payment."
+msgstr "All withholding 行 in self must have the same 付款."
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__analytic_distribution
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__analytic_distribution
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_withholding_line__analytic_distribution
+msgid "Analytic Distribution"
+msgstr "分析分摊"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__analytic_precision
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__analytic_precision
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_withholding_line__analytic_precision
+msgid "Analytic Precision"
+msgstr "分析精度"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__comodel_currency_id
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__comodel_currency_id
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_withholding_line__comodel_currency_id
+msgid "Comodel Currency"
+msgstr "Comodel 币种"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__comodel_date
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__comodel_date
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_withholding_line__comodel_date
+msgid "Comodel Date"
+msgstr "Comodel 日期"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__comodel_payment_type
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__comodel_payment_type
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_withholding_line__comodel_payment_type
+msgid "Comodel Payment Type"
+msgstr "Comodel 付款 类型"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__comodel_percentage_paid_factor
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__comodel_percentage_paid_factor
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_withholding_line__comodel_percentage_paid_factor
+msgid "Comodel Percentage Paid Factor"
+msgstr "Comodel Percentage Paid Factor（技术名称）"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_account_withholding_tax.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__company_id
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__company_id
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_withholding_line__company_id
+msgid "Company"
+msgstr "公司"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_account_withholding_tax.model_res_config_settings
+msgid "Config Settings"
+msgstr "配置设定"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__create_uid
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__create_date
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__create_date
+msgid "Created on"
+msgstr "创建日期"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__comodel_company_currency_id
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__comodel_company_currency_id
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_withholding_line__comodel_company_currency_id
+msgid "Currency"
+msgstr "币别"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register__withholding_default_account_id
+msgid "Default Account"
+msgstr "默认科目"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment__display_name
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register__display_name
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__display_name
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__display_name
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_tax__display_name
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_withholding_line__display_name
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_product_template__display_name
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_res_company__display_name
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_res_config_settings__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment__display_withholding
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register__display_withholding
+msgid "Display Withholding"
+msgstr "显示 Withholding"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__distribution_analytic_account_ids
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__distribution_analytic_account_ids
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_withholding_line__distribution_analytic_account_ids
+msgid "Distribution Analytic Account"
+msgstr "分析分布账户"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_account_withholding_tax.model_account_tax
+msgid "ETA tax codes mixin"
+msgstr "ETA 税 codes mixin"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_account_withholding_tax.selection__account_payment_register_withholding_line__placeholder_type__given_by_name
+#: model:ir.model.fields.selection,name:l10n_account_withholding_tax.selection__account_payment_register_withholding_line__previous_placeholder_type__given_by_name
+#: model:ir.model.fields.selection,name:l10n_account_withholding_tax.selection__account_payment_withholding_line__placeholder_type__given_by_name
+#: model:ir.model.fields.selection,name:l10n_account_withholding_tax.selection__account_payment_withholding_line__previous_placeholder_type__given_by_name
+#: model:ir.model.fields.selection,name:l10n_account_withholding_tax.selection__account_withholding_line__placeholder_type__given_by_name
+#: model:ir.model.fields.selection,name:l10n_account_withholding_tax.selection__account_withholding_line__previous_placeholder_type__given_by_name
+msgid "Given By the Name"
+msgstr "Given By the 名称"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_account_withholding_tax.selection__account_payment_register_withholding_line__placeholder_type__given_by_sequence
+#: model:ir.model.fields.selection,name:l10n_account_withholding_tax.selection__account_payment_register_withholding_line__previous_placeholder_type__given_by_sequence
+#: model:ir.model.fields.selection,name:l10n_account_withholding_tax.selection__account_payment_withholding_line__placeholder_type__given_by_sequence
+#: model:ir.model.fields.selection,name:l10n_account_withholding_tax.selection__account_payment_withholding_line__previous_placeholder_type__given_by_sequence
+#: model:ir.model.fields.selection,name:l10n_account_withholding_tax.selection__account_withholding_line__placeholder_type__given_by_sequence
+#: model:ir.model.fields.selection,name:l10n_account_withholding_tax.selection__account_withholding_line__previous_placeholder_type__given_by_sequence
+msgid "Given By the Sequence"
+msgstr "Given By the 序列"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment__id
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register__id
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__id
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__id
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_tax__id
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_withholding_line__id
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_product_template__id
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_res_company__id
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_res_config_settings__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_account_withholding_tax.field_account_tax__is_withholding_tax_on_payment
+msgid ""
+"If enabled, this tax will not affect your accounts until the registration of"
+" payments."
+msgstr "If 已启用, this 税 will not affect your 账户 until the registration of 付款."
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__write_uid
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__write_date
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register__withholding_net_amount
+msgid "Net Amount"
+msgstr "Net 金额"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_account_withholding_tax.field_account_payment_register__withholding_net_amount
+msgid "Net amount after deducting the withholding lines"
+msgstr "Net 金额 after deducting the withholding 行"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_account_withholding_tax.selection__account_payment_register_withholding_line__placeholder_type__not_defined
+#: model:ir.model.fields.selection,name:l10n_account_withholding_tax.selection__account_payment_register_withholding_line__previous_placeholder_type__not_defined
+#: model:ir.model.fields.selection,name:l10n_account_withholding_tax.selection__account_payment_withholding_line__placeholder_type__not_defined
+#: model:ir.model.fields.selection,name:l10n_account_withholding_tax.selection__account_payment_withholding_line__previous_placeholder_type__not_defined
+#: model:ir.model.fields.selection,name:l10n_account_withholding_tax.selection__account_withholding_line__placeholder_type__not_defined
+#: model:ir.model.fields.selection,name:l10n_account_withholding_tax.selection__account_withholding_line__previous_placeholder_type__not_defined
+msgid "Not defined"
+msgstr "Not defined（技术名称）"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__original_base_amount
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__original_base_amount
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_withholding_line__original_base_amount
+msgid "Original Base Amount"
+msgstr "Original Base 金额"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__original_tax_amount
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__original_tax_amount
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_withholding_line__original_tax_amount
+msgid "Original Tax Amount"
+msgstr "Original 税 金额"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment__outstanding_account_id
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register__withholding_outstanding_account_id
+msgid "Outstanding Account"
+msgstr "未结科目"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_account_withholding_tax.model_account_payment_register
+msgid "Pay"
+msgstr "支付"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__payment_id
+msgid "Payment"
+msgstr "付款"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment__withholding_payment_account_id
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register__withholding_payment_account_id
+msgid "Payment Account"
+msgstr "付款科目"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__payment_register_id
+msgid "Payment Register"
+msgstr "付款 登记"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_account_withholding_tax.model_account_payment_register_withholding_line
+msgid "Payment register withholding line"
+msgstr "付款 登记 withholding 行"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_account_withholding_tax.model_account_payment_withholding_line
+msgid "Payment withholding line"
+msgstr "付款 withholding 行"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_account_withholding_tax.model_account_payment
+msgid "Payments"
+msgstr "付款"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__placeholder_type
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__placeholder_type
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_withholding_line__placeholder_type
+msgid "Placeholder Type"
+msgstr "Placeholder 类型"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__placeholder_value
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__placeholder_value
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_withholding_line__placeholder_value
+msgid "Placeholder Value"
+msgstr "Placeholder 值"
+
+#. module: l10n_account_withholding_tax
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_account_withholding_tax/models/account_withholding_line.py:0
+msgid "Please enter the withholding number for the tax %(tax_name)s"
+msgstr "Please enter the withholding 编号 for the 税 %(tax_name)s"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_account_withholding_tax.field_account_payment_register_withholding_line__placeholder_value
+#: model:ir.model.fields,help:l10n_account_withholding_tax.field_account_payment_withholding_line__placeholder_value
+#: model:ir.model.fields,help:l10n_account_withholding_tax.field_account_withholding_line__placeholder_value
+msgid "Populated by the comodel during edition of the line."
+msgstr "Populated by the comodel during edition of the 行."
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__previous_placeholder_type
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__previous_placeholder_type
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_withholding_line__previous_placeholder_type
+msgid "Previous Placeholder Type"
+msgstr "Previous Placeholder 类型"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_account_withholding_tax.model_product_template
+msgid "Product"
+msgstr "产品"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_account_withholding_tax.selection__account_payment_register_withholding_line__comodel_payment_type__inbound
+#: model:ir.model.fields.selection,name:l10n_account_withholding_tax.selection__account_payment_withholding_line__comodel_payment_type__inbound
+#: model:ir.model.fields.selection,name:l10n_account_withholding_tax.selection__account_withholding_line__comodel_payment_type__inbound
+msgid "Receive Money"
+msgstr "收到款项"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_account_withholding_tax.selection__account_payment_register_withholding_line__comodel_payment_type__outbound
+#: model:ir.model.fields.selection,name:l10n_account_withholding_tax.selection__account_payment_withholding_line__comodel_payment_type__outbound
+#: model:ir.model.fields.selection,name:l10n_account_withholding_tax.selection__account_withholding_line__comodel_payment_type__outbound
+msgid "Send Money"
+msgstr "转出资金"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__name
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__name
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_withholding_line__name
+#: model_terms:ir.ui.view,arch_db:l10n_account_withholding_tax.view_account_payment_form
+msgid "Sequence Number"
+msgstr "序列号"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__source_base_amount
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__source_base_amount
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_withholding_line__source_base_amount
+msgid "Source Base Amount"
+msgstr "Source Base 金额"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__source_base_amount_currency
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__source_base_amount_currency
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_withholding_line__source_base_amount_currency
+msgid "Source Base Amount Currency"
+msgstr "Source Base 金额 币种"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__source_currency_id
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__source_currency_id
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_withholding_line__source_currency_id
+msgid "Source Currency"
+msgstr "源币别"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__source_tax_id
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__source_tax_id
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_withholding_line__source_tax_id
+msgid "Source Tax"
+msgstr "Source 税"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__source_tax_amount
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__source_tax_amount
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_withholding_line__source_tax_amount
+msgid "Source Tax Amount"
+msgstr "Source 税 金额"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__source_tax_amount_currency
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__source_tax_amount_currency
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_withholding_line__source_tax_amount_currency
+msgid "Source Tax Amount Currency"
+msgstr "Source 税 金额 币种"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__tax_id
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__tax_id
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_withholding_line__tax_id
+#: model_terms:ir.ui.view,arch_db:l10n_account_withholding_tax.view_account_payment_form
+msgid "Tax"
+msgstr "税项"
+
+#. module: l10n_account_withholding_tax
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_account_withholding_tax/models/account_withholding_line.py:0
+msgid "The account \"%(account_name)s\" is not valid to use on withholding lines."
+msgstr "The 账户 \"%(account_name)s\" is not 有效 to use on withholding 行."
+
+#. module: l10n_account_withholding_tax
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_account_withholding_tax/models/account_withholding_line.py:0
+msgid "The base amount of a withholding tax line must be above 0."
+msgstr "The base 金额 of a withholding 税 行 must be above 0."
+
+#. module: l10n_account_withholding_tax
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_account_withholding_tax/wizards/account_payment_register.py:0
+msgid "The withholding net amount cannot be negative."
+msgstr "The withholding net 金额 cannot be negative."
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_account_withholding_tax.field_res_company__withholding_tax_base_account_id
+#: model:ir.model.fields,help:l10n_account_withholding_tax.field_res_config_settings__withholding_tax_base_account_id
+msgid "This account will be set on withholding tax base lines."
+msgstr "This 账户 will be set on withholding 税 base 行."
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_account_withholding_tax.field_account_payment_register_withholding_line__withholding_sequence_id
+#: model:ir.model.fields,help:l10n_account_withholding_tax.field_account_payment_withholding_line__withholding_sequence_id
+#: model:ir.model.fields,help:l10n_account_withholding_tax.field_account_tax__withholding_sequence_id
+#: model:ir.model.fields,help:l10n_account_withholding_tax.field_account_withholding_line__withholding_sequence_id
+msgid ""
+"This sequence will be used to generate default numbers on payment "
+"withholding lines."
+msgstr "This 序列 will be used to generate 默认 numbers on 付款 withholding 行."
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_account_withholding_tax.view_account_payment_form
+#: model_terms:ir.ui.view,arch_db:l10n_account_withholding_tax.view_account_payment_register_form
+msgid "Total Withheld Amount"
+msgstr "合计 Withheld 金额"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__type_tax_use
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__type_tax_use
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_withholding_line__type_tax_use
+msgid "Type Tax Use"
+msgstr "类型 税 Use"
+
+#. module: l10n_account_withholding_tax
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_account_withholding_tax/models/account_withholding_line.py:0
+msgid "WH Base Counterpart: %(names)s"
+msgstr "WH Base Counterpart: %(names)s（技术名称）"
+
+#. module: l10n_account_withholding_tax
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_account_withholding_tax/models/account_withholding_line.py:0
+msgid "WH Base: %(names)s"
+msgstr "WH Base: %(names)s（技术名称）"
+
+#. module: l10n_account_withholding_tax
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_account_withholding_tax/models/account_withholding_line.py:0
+msgid "WH Tax: %(name)s"
+msgstr "WH 税: %(name)s"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_account_withholding_tax.view_account_payment_form
+msgid "Withheld Amount"
+msgstr "Withheld 金额"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_tax__is_withholding_tax_on_payment
+msgid "Withhold On Payment"
+msgstr "Withhold On 付款"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment__should_withhold_tax
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register__should_withhold_tax
+msgid "Withhold Tax Amounts"
+msgstr "Withhold 税 Amounts"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_account_withholding_tax.field_account_payment__should_withhold_tax
+msgid "Withhold tax amounts from the payment amount."
+msgstr "Withhold 税 amounts 从 the 付款 金额."
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_account_withholding_tax.view_account_payment_form
+#: model_terms:ir.ui.view,arch_db:l10n_account_withholding_tax.view_account_payment_register_form
+msgid "Withholding"
+msgstr "Withholding（技术名称）"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment__withholding_hide_tax_base_account
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register__withholding_hide_tax_base_account
+msgid "Withholding Hide Tax Base Account"
+msgstr "Withholding Hide 税 Base 账户"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment__withholding_line_ids
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register__withholding_line_ids
+msgid "Withholding Lines"
+msgstr "Withholding 行"
+
+#. module: l10n_account_withholding_tax
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_account_withholding_tax/models/account_tax.py:0
+msgid ""
+"Withholding On Payment taxes cannot use the 'Group of Taxes' or the "
+"'Percentage Tax Included' computations."
+msgstr ""
+"Withholding On 付款 税 cannot use the '分组 of 税' or the 'Percentage 税 Included' "
+"computations."
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__withholding_sequence_id
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__withholding_sequence_id
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_tax__withholding_sequence_id
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_withholding_line__withholding_sequence_id
+msgid "Withholding Sequence"
+msgstr "Withholding 序列"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_res_company__withholding_tax_base_account_id
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_res_config_settings__withholding_tax_base_account_id
+msgid "Withholding Tax Base"
+msgstr "Withholding 税 Base"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__amount
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__amount
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_withholding_line__amount
+msgid "Withholding amount"
+msgstr "Withholding 金额"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__base_amount
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__base_amount
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_withholding_line__base_amount
+msgid "Withholding base"
+msgstr "Withholding base（技术名称）"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_account_withholding_tax.res_config_settings_form
+msgid "Withholding:"
+msgstr "Withholding:（技术名称）"
+
+#. module: l10n_account_withholding_tax
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_account_withholding_tax.model_account_withholding_line
+msgid "withholding line"
+msgstr "withholding 行"

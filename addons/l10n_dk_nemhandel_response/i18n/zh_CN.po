@@ -1,0 +1,396 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_dk_nemhandel_response
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_dk_nemhandel_response
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel_response.nemhandel_rejection_wizard_view_form
+msgid ""
+"<span>The following note will be sent with your rejection response. Enter "
+"any issue you have with this bill/invoice.</span>"
+msgstr ""
+"<span>The following note will be 已发送 with your rejection response. Enter any"
+" issue you have with this 账单/发票.</span>"
+
+#. module: l10n_dk_nemhandel_response
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel_response/models/account_edi_proxy_user.py:0
+msgid ""
+"A Nemhandel response was sent to the Nemhandel Access Point declaring you "
+"accepted this document."
+msgstr ""
+"A Nemhandel response was 已发送 to the Nemhandel 访问 Point declaring you 已接受 "
+"this 单据."
+
+#. module: l10n_dk_nemhandel_response
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel_response/models/account_edi_proxy_user.py:0
+msgid ""
+"A Nemhandel response was sent to the Nemhandel Access Point declaring you "
+"rejected this document."
+msgstr ""
+"A Nemhandel response was 已发送 to the Nemhandel 访问 Point declaring you "
+"rejected this 单据."
+
+#. module: l10n_dk_nemhandel_response
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_dk_nemhandel_response.model_account_edi_proxy_client_user
+msgid "Account EDI proxy user"
+msgstr "科目EDI代理用户"
+
+#. module: l10n_dk_nemhandel_response
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_nemhandel_rejection_wizard__note
+msgid "Additional note"
+msgstr "Additional note（技术名称）"
+
+#. module: l10n_dk_nemhandel_response
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel_response/models/account_edi_proxy_user.py:0
+msgid ""
+"An error occurred with the Nemhandel proxy while responding to this "
+"invoice's expeditor.%(br)sResponse: %(status)s - %(error)s"
+msgstr ""
+"An 错误 occurred with the Nemhandel proxy while responding to this invoice's "
+"expeditor.%(br)sResponse: %(status)s - %(error)s"
+
+#. module: l10n_dk_nemhandel_response
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel_response/models/account_edi_proxy_user.py:0
+msgid ""
+"An error occurred with the Nemhandel server while responding to this "
+"invoice's expeditor.%(br)sStatus: %(status)s - %(error)s"
+msgstr ""
+"An 错误 occurred with the Nemhandel server while responding to this invoice's "
+"expeditor.%(br)sStatus: %(status)s - %(error)s"
+
+#. module: l10n_dk_nemhandel_response
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel_response/models/account_edi_proxy_user.py:0
+msgid ""
+"An issue arose with your Nemhandel document on the partner's side with the "
+"following information: %(note)s%(br)sPlease contact the support if this "
+"issue persists."
+msgstr ""
+"An issue arose with your Nemhandel 单据 on the partner's side with the "
+"following 信息: %(note)s%(br)sPlease 联系人 the support if this issue persists."
+
+#. module: l10n_dk_nemhandel_response
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel_response/models/account_edi_proxy_user.py:0
+msgid ""
+"An issue arose with your Nemhandel document on the partner's "
+"side.%(br)sPlease contact the support if this issue persists."
+msgstr ""
+"An issue arose with your Nemhandel 单据 on the partner's side.%(br)sPlease 联系人"
+" the support if this issue persists."
+
+#. module: l10n_dk_nemhandel_response
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_dk_nemhandel_response.selection__nemhandel_response__response_code__businessaccept
+msgid "Approval"
+msgstr "审批"
+
+#. module: l10n_dk_nemhandel_response
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_dk_nemhandel_response.selection__account_move__nemhandel_move_state__businessaccept
+msgid "Approved"
+msgstr "已批准"
+
+#. module: l10n_dk_nemhandel_response
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_dk_nemhandel_response.model_nemhandel_response
+msgid "Business Level Responses for Nemhandel"
+msgstr "Business Level Responses for Nemhandel（技术名称）"
+
+#. module: l10n_dk_nemhandel_response
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_nemhandel_response__company_id
+msgid "Company"
+msgstr "公司"
+
+#. module: l10n_dk_nemhandel_response
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_dk_nemhandel_response.model_res_partner
+msgid "Contact"
+msgstr "联系人"
+
+#. module: l10n_dk_nemhandel_response
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,website_form_label:l10n_dk_nemhandel_response.model_res_partner
+msgid "Create a Customer"
+msgstr "创建客户"
+
+#. module: l10n_dk_nemhandel_response
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_nemhandel_rejection_wizard__create_uid
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_nemhandel_response__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: l10n_dk_nemhandel_response
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_nemhandel_rejection_wizard__create_date
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_nemhandel_response__create_date
+msgid "Created on"
+msgstr "创建日期"
+
+#. module: l10n_dk_nemhandel_response
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_account_edi_proxy_client_user__display_name
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_nemhandel_rejection_wizard__display_name
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_nemhandel_response__display_name
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_res_partner__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_dk_nemhandel_response
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel_response.res_partner_form_l10n_dk_nemhandel_response
+msgid "Does not support Invoice Responses"
+msgstr "Does not support 发票 Responses"
+
+#. module: l10n_dk_nemhandel_response
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_dk_nemhandel_response.selection__nemhandel_response__nemhandel_state__done
+msgid "Done"
+msgstr "完成"
+
+#. module: l10n_dk_nemhandel_response
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel_response.nemhandel_rejection_wizard_view_form
+msgid "Enter an optional note here..."
+msgstr "Enter an optional note here...（技术名称）"
+
+#. module: l10n_dk_nemhandel_response
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_dk_nemhandel_response.selection__nemhandel_response__nemhandel_state__error
+msgid "Error"
+msgstr "错误"
+
+#. module: l10n_dk_nemhandel_response
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_account_edi_proxy_client_user__id
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_nemhandel_rejection_wizard__id
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_nemhandel_response__id
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_res_partner__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_dk_nemhandel_response
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_dk_nemhandel_response.model_account_move
+msgid "Journal Entry"
+msgstr "日记账分录"
+
+#. module: l10n_dk_nemhandel_response
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_nemhandel_rejection_wizard__write_uid
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_nemhandel_response__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: l10n_dk_nemhandel_response
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_nemhandel_rejection_wizard__write_date
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_nemhandel_response__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: l10n_dk_nemhandel_response
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_nemhandel_rejection_wizard__move_ids
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_nemhandel_response__move_id
+msgid "Move"
+msgstr "移动"
+
+#. module: l10n_dk_nemhandel_response
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel_response/models/account_edi_proxy_user.py:0
+msgid "N/A"
+msgstr "无"
+
+#. module: l10n_dk_nemhandel_response
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_account_bank_statement_line__nemhandel_can_send_response
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_account_move__nemhandel_can_send_response
+msgid "Nemhandel Can Send Response"
+msgstr "Nemhandel Can 发送 Response"
+
+#. module: l10n_dk_nemhandel_response
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_dk_nemhandel_response.model_nemhandel_rejection_wizard
+msgid "Nemhandel Rejection wizard"
+msgstr "Nemhandel Rejection 向导"
+
+#. module: l10n_dk_nemhandel_response
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_account_bank_statement_line__nemhandel_response_ids
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_account_move__nemhandel_response_ids
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel_response.nemhandel_response_view_form
+msgid "Nemhandel Response"
+msgstr "Nemhandel Response（技术名称）"
+
+#. module: l10n_dk_nemhandel_response
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_res_partner__nemhandel_response_support
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_res_users__nemhandel_response_support
+msgid "Nemhandel Response Service"
+msgstr "Nemhandel Response 服务"
+
+#. module: l10n_dk_nemhandel_response
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel_response/models/account_move.py:0
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel_response.nemhandel_response_view_list
+msgid "Nemhandel Responses"
+msgstr "Nemhandel Responses（技术名称）"
+
+#. module: l10n_dk_nemhandel_response
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_nemhandel_response__nemhandel_message_uuid
+msgid "Nemhandel UUID"
+msgstr "Nemhandel UUID（技术名称）"
+
+#. module: l10n_dk_nemhandel_response
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel_response/models/account_edi_proxy_user.py:0
+msgid "Nemhandel business response error: %s"
+msgstr "Nemhandel business response 错误: %s"
+
+#. module: l10n_dk_nemhandel_response
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel_response.nemhandel_response_view_move_form
+msgid "Nemhandel info"
+msgstr "Nemhandel info（技术名称）"
+
+#. module: l10n_dk_nemhandel_response
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_account_bank_statement_line__nemhandel_move_state
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_account_move__nemhandel_move_state
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_nemhandel_response__nemhandel_state
+msgid "Nemhandel status"
+msgstr "Nemhandel 状态"
+
+#. module: l10n_dk_nemhandel_response
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_dk_nemhandel_response.selection__nemhandel_response__nemhandel_state__not_serviced
+msgid "Not Serviced"
+msgstr "Not Serviced（技术名称）"
+
+#. module: l10n_dk_nemhandel_response
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_dk_nemhandel_response.selection__nemhandel_response__nemhandel_state__processing
+msgid "Pending Reception"
+msgstr "待接待"
+
+#. module: l10n_dk_nemhandel_response
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel_response/models/account_move.py:0
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel_response.nemhandel_rejection_wizard_view_form
+msgid "Reject Nemhandel Document"
+msgstr "Reject Nemhandel 单据"
+
+#. module: l10n_dk_nemhandel_response
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_dk_nemhandel_response.selection__account_move__nemhandel_move_state__businessreject
+msgid "Rejected"
+msgstr "拒绝"
+
+#. module: l10n_dk_nemhandel_response
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_dk_nemhandel_response.selection__nemhandel_response__response_code__businessreject
+msgid "Rejection"
+msgstr "Rejection（技术名称）"
+
+#. module: l10n_dk_nemhandel_response
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_nemhandel_response__response_code
+msgid "Response Code"
+msgstr "Response 代码"
+
+#. module: l10n_dk_nemhandel_response
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel_response.nemhandel_rejection_wizard_view_form
+msgid "Send Rejection"
+msgstr "发送 Rejection"
+
+#. module: l10n_dk_nemhandel_response
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_res_partner__nemhandel_supported_documents
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_res_users__nemhandel_supported_documents
+msgid "Supported Nemhandel Documents"
+msgstr "Supported Nemhandel 单据"
+
+#. module: l10n_dk_nemhandel_response
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_dk_nemhandel_response.res_partner_form_l10n_dk_nemhandel_response
+msgid "Supports Invoice Responses"
+msgstr "Supports 发票 Responses"
+
+#. module: l10n_dk_nemhandel_response
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel_response/models/account_edi_proxy_user.py:0
+msgid ""
+"The Nemhandel receiver of this document has accepted it with the following "
+"information: %s"
+msgstr ""
+"The Nemhandel receiver of this 单据 has 已接受 it with the following 信息: %s"
+
+#. module: l10n_dk_nemhandel_response
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel_response/models/account_edi_proxy_user.py:0
+msgid "The Nemhandel receiver of this document has accepted it."
+msgstr "The Nemhandel receiver of this 单据 has 已接受 it."
+
+#. module: l10n_dk_nemhandel_response
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel_response/models/account_edi_proxy_user.py:0
+msgid ""
+"The Nemhandel receiver of this document has rejected it with the following "
+"information: %s"
+msgstr ""
+"The Nemhandel receiver of this 单据 has rejected it with the following 信息: %s"
+
+#. module: l10n_dk_nemhandel_response
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel_response/models/account_edi_proxy_user.py:0
+msgid "The Nemhandel receiver of this document has rejected it."
+msgstr "The Nemhandel receiver of this 单据 has rejected it."
+
+#. module: l10n_dk_nemhandel_response
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_dk_nemhandel_response/models/account_move.py:0
+msgid "id"
+msgstr "id"

@@ -1,0 +1,1679 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_hu_edi
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_hu_edi.field_res_company__l10n_hu_edi_server_mode
+#: model:ir.model.fields,help:l10n_hu_edi.field_res_config_settings__l10n_hu_edi_server_mode
+msgid ""
+"\n"
+"            - Production: Sends invoices to the NAV's production system.\n"
+"            - Test: Sends invoices to the NAV's test system.\n"
+"            - Demo: Mocks the NAV system (does not require credentials).\n"
+"        "
+msgstr ""
+"\n"
+"- 生产: Sends 发票 to the NAV's 生产 system. - Test: Sends 发票 to the NAV's test system. - Demo: Mocks the NAV system (does not require credentials)."
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_hu_edi.field_account_bank_statement_line__l10n_hu_invoice_chain_index
+#: model:ir.model.fields,help:l10n_hu_edi.field_account_move__l10n_hu_invoice_chain_index
+msgid ""
+"\n"
+"            Index in the chain of modification invoices:\n"
+"                -1 for a base invoice;\n"
+"                1, 2, 3, ... for modification invoices;\n"
+"                0 for rejected/cancelled invoices or if it has not yet been set.\n"
+"            "
+msgstr ""
+"\n"
+"Index in the chain of modification 发票: -1 for a base 发票; 1, 2, 3, ... for modification 发票; 0 for rejected/已取消 发票 or if it has not yet been set."
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_hu_edi.product_template_form_view_l10n_hu_edi
+msgid "<span class=\"oe_inline o_form_label mx-3\"> : </span>"
+msgstr "<span class=\"oe_inline o_form_label mx-3\"> : </span>（技术名称）"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_hu_edi.report_invoice_document
+msgid "<strong class=\"d-block mt-3\">Shipping Address</strong>"
+msgstr "<strong class=\"d-block mt-3\">送货地址</strong>"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_hu_edi.report_invoice_document
+msgid "<strong>Customer:</strong>"
+msgstr "<strong>客户：</strong>"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_hu_edi.report_invoice_document
+msgid "<strong>Payment Mode</strong>"
+msgstr "<strong>Payment Mode</strong>（技术名称）"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_hu_edi.report_invoice_document
+msgid "<strong>Supplier:</strong>"
+msgstr "<strong>Supplier:</strong>（技术名称）"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_hu_edi.document_tax_totals
+msgid "<strong>Total VAT amount in HUF</strong>"
+msgstr "<strong>Total VAT 金额 in HUF</strong>"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__account_tax__l10n_hu_tax_type__aam
+msgid "AAM - Personal tax exemption"
+msgstr "AAM - Personal 税 exemption"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_tax.py:0
+msgid "AAM Tax exempt"
+msgstr "AAM 税 exempt"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__product_template__l10n_hu_product_code_type__ahk
+msgid "AHK - e-TKO Excise Duty Code"
+msgstr "AHK - e-TKO Excise Duty 代码"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__account_tax__l10n_hu_tax_type__antiques
+msgid "ANTIQUES - Profit-margin based regime for antique sales"
+msgstr "ANTIQUES - Profit-margin based regime for antique 销售"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__account_tax__l10n_hu_tax_type__artwork
+msgid "ARTWORK - Profit-margin based regime for artwork sales"
+msgstr "ARTWORK - Profit-margin based regime for artwork 销售"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__account_tax__l10n_hu_tax_type__atk
+msgid "ATK - Outside the scope of VAT"
+msgstr "ATK - Outside the scope of VAT（技术名称）"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_tax.py:0
+msgid "ATK Outside the scope of VAT - VAT tv.2-3.§"
+msgstr "ATK Outside the scope of VAT - VAT tv.2-3.§（技术名称）"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_hu_edi.model_account_chart_template
+msgid "Account Chart Template"
+msgstr "科目表模版"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_hu_edi.model_account_move_reversal
+msgid "Account Move Reversal"
+msgstr "会计分录撤销"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_hu_edi.model_account_move_send
+msgid "Account Move Send"
+msgstr "科目分录发送"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_hu_edi.model_account_debit_note
+msgid "Add Debit Note wizard"
+msgstr "添加借记单向导"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid ""
+"All advance invoices must be paid and sent to NAV before the final invoice "
+"is issued."
+msgstr ""
+"All advance 发票 must be paid and 已发送 to NAV before the final 发票 is issued."
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_l10n_hu_edi_cancellation__code
+msgid "Annulment Code"
+msgstr "Annulment 代码"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_l10n_hu_edi_cancellation__reason
+msgid "Annulment Reason"
+msgstr "Annulment 原因"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_hu_edi.res_config_settings_form_inherit_l10n_hu_edi
+msgid "Authentication with NAV 3.0 successful."
+msgstr "Authentication with NAV 3.0 successful.（技术名称）"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_hu_edi.report_invoice_document
+msgid "Bank Account:"
+msgstr "银行账户:"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__l10n_hu_edi_tax_audit_export__selection_mode__date
+msgid "By date"
+msgstr "日期"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__l10n_hu_edi_tax_audit_export__selection_mode__name
+msgid "By serial number"
+msgstr "By serial 编号"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__product_template__l10n_hu_product_code_type__csk
+msgid "CSK - Packaging Catalogue Code"
+msgstr "CSK - Packaging Catalogue 代码"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid "Cancellation request failed."
+msgstr "Cancellation 请求 失败."
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__account_move__l10n_hu_edi_state__cancel_pending
+msgid "Cancellation request pending"
+msgstr "Cancellation 请求 pending"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__account_move__l10n_hu_edi_state__cancel_sent
+msgid "Cancellation request sent"
+msgstr "Cancellation 请求 已发送"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid "Cancellation request submitted, waiting for response."
+msgstr "Cancellation 请求 submitted, waiting for response."
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid ""
+"Cancellation request timed out. Please wait at least 6 minutes, then update "
+"the status."
+msgstr ""
+"Cancellation 请求 timed out. Please wait at least 6 minutes, then update the "
+"状态."
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__account_move__l10n_hu_edi_state__cancelled
+msgid "Cancelled"
+msgstr "已取消"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid ""
+"Cannot reset to draft or cancel invoice %s because an electronic document "
+"was already sent to NAV!"
+msgstr ""
+"Cannot reset to 草稿 or 取消 发票 %s because an electronic 单据 was already 已发送 to "
+"NAV!"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__uom_uom__l10n_hu_edi_code__carton
+msgid "Carton"
+msgstr "Carton（技术名称）"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__account_move__l10n_hu_payment_mode__cash
+msgid "Cash"
+msgstr "现金"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__res_company__l10n_hu_tax_regime__ca
+msgid "Cash Accounting"
+msgstr "Cash Accounting（技术名称）"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_hu_edi.field_uom_uom__l10n_hu_edi_code
+msgid "Choose the corresponding code, or leave blank if none correspond."
+msgstr "Choose the corresponding 代码, or 休假 blank if none correspond."
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_hu_edi.l10n_hu_edi_cancellation_form
+#: model_terms:ir.ui.view,arch_db:l10n_hu_edi.l10n_hu_edi_tax_audit_export_form
+msgid "Close"
+msgstr "关闭"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_hu_edi.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_hu_edi.model_res_config_settings
+msgid "Config Settings"
+msgstr "配置设定"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__account_move__l10n_hu_edi_state__confirmed
+msgid "Confirmed"
+msgstr "已确认"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__account_move__l10n_hu_edi_state__confirmed_warning
+msgid "Confirmed with warnings"
+msgstr "Confirmed with warnings（技术名称）"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/l10n_hu_edi_connection.py:0
+msgid "Connection to NAV servers timed out."
+msgstr "连接 to NAV servers timed out."
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_hu_edi.model_res_partner
+msgid "Contact"
+msgstr "联系人"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid ""
+"Could not acquire lock on invoices - is another user performing operations "
+"on them?"
+msgstr ""
+"Could not acquire lock on 发票 - is another 用户 performing operations on them?"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid "Could not authenticate with NAV. Check your credentials and try again."
+msgstr "Could not authenticate with NAV. 检查 your credentials and try again."
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid ""
+"Could not match NAV transaction_code %(code)s, index %(index)s to an invoice"
+" in Odoo"
+msgstr ""
+"Could not match NAV transaction_code %(code)s, index %(index)s to an 发票 in "
+"绿色供应链公共服务平台"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/l10n_hu_edi_connection.py:0
+msgid "Could not parse time of previous transaction"
+msgstr "Could not parse time of previous 交易"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,website_form_label:l10n_hu_edi.model_res_partner
+msgid "Create a Customer"
+msgstr "创建客户"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_l10n_hu_edi_cancellation__create_uid
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_l10n_hu_edi_tax_audit_export__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_l10n_hu_edi_cancellation__create_date
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_l10n_hu_edi_tax_audit_export__create_date
+msgid "Created on"
+msgstr "创建日期"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__account_move__l10n_hu_payment_mode__card
+msgid "Credit/debit card"
+msgstr "贷方/借方 card"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__uom_uom__l10n_hu_edi_code__cubic_meter
+msgid "Cubic meter"
+msgstr "Cubic meter（技术名称）"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__account_tax__l10n_hu_tax_type__domestic_reverse
+msgid "DOMESTIC_REVERSE - Domestic reverse-charge regime"
+msgstr "DOMESTIC_REVERSE - Domestic reverse-charge regime（技术名称）"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_l10n_hu_edi_tax_audit_export__date_from
+msgid "Date From"
+msgstr "日期 从"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_l10n_hu_edi_tax_audit_export__date_to
+msgid "Date To"
+msgstr "日期 To"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__uom_uom__l10n_hu_edi_code__day
+msgid "Day"
+msgstr "天"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__res_company__l10n_hu_edi_server_mode__demo
+msgid "Demo"
+msgstr "演示"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_account_chart_template__display_name
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_account_debit_note__display_name
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_account_move_reversal__display_name
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_account_move_send__display_name
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_account_tax__display_name
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_l10n_hu_edi_cancellation__display_name
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_l10n_hu_edi_tax_audit_export__display_name
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_product_template__display_name
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_res_company__display_name
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_res_partner__display_name
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_uom_uom__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__account_tax__l10n_hu_tax_type__eam
+msgid ""
+"EAM - tax-exempt, extra-Community sales of goods (export of goods to a non-"
+"EU country)"
+msgstr ""
+"EAM - tax-exempt, extra-Community 销售 of goods (导出 of goods to a non-EU "
+"国家/地区)"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_tax.py:0
+msgid "EAM Product export to 3rd country - VAT tv.98-109.§"
+msgstr "EAM 产品 导出 to 3rd 国家/地区 - VAT tv.98-109.§"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__product_template__l10n_hu_product_code_type__ej
+msgid "EJ - Building Registry Number"
+msgstr "EJ - Building Registry 编号"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__l10n_hu_edi_cancellation__code__erratic_data
+msgid "ERRATIC_DATA - Erroneous data"
+msgstr "ERRATIC_DATA - Erroneous data（技术名称）"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__l10n_hu_edi_cancellation__code__erratic_invoice_issue_date
+msgid "ERRATIC_INVOICE_ISSUE_DATE - Erroneous issue date"
+msgstr "ERRATIC_INVOICE_ISSUE_DATE - Erroneous issue 日期"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__l10n_hu_edi_cancellation__code__erratic_invoice_number
+msgid "ERRATIC_INVOICE_NUMBER - Erroneous invoice number"
+msgstr "ERRATIC_INVOICE_NUMBER - Erroneous 发票 编号"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_hu_edi.model_account_tax
+msgid "ETA tax codes mixin"
+msgstr "ETA 税 codes mixin"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_hu_edi.report_invoice_document
+msgid "EU Tax ID:"
+msgstr "EU 税 ID:"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__account_tax__l10n_hu_tax_type__eue
+msgid "EUE - Non-reverse charge transaction performed in another Member State"
+msgstr "EUE - Non-reverse charge 交易 performed in another Member 状态"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_tax.py:0
+msgid "EUE Sales made in a 2nd EU country"
+msgstr "EUE 销售 made in a 2nd EU 国家/地区"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__account_tax__l10n_hu_tax_type__eufad37
+msgid ""
+"EUFAD37 - Based on section 37 of the VAT Act, a reverse charge transaction "
+"carried out in another Member State"
+msgstr ""
+"EUFAD37 - Based on section 37 of the VAT Act, a reverse charge 交易 carried "
+"out in another Member 状态"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_tax.py:0
+msgid "EUFAD37 § 37 (1) Reverse VAT in another EU country"
+msgstr "EUFAD37 § 37 (1) Reverse VAT in another EU 国家/地区"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__account_tax__l10n_hu_tax_type__eufade
+msgid ""
+"EUFADE - Reverse charge transaction carried out in another Member State, not"
+" subject to Section 37 of the VAT Act"
+msgstr ""
+"EUFADE - Reverse charge 交易 carried out in another Member 状态, not subject to "
+"Section 37 of the VAT Act"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_tax.py:0
+msgid ""
+"EUFADE Reverse charge of VAT in another EU country not VAT tv. § 37 (1)"
+msgstr "EUFADE Reverse charge of VAT in another EU 国家/地区 not VAT tv. § 37 (1)"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_hu_edi.res_config_settings_form_inherit_l10n_hu_edi
+msgid "Enter your e-invoicing credentials given by the Hungarian Authority."
+msgstr ""
+"Enter your e-invoicing credentials given by the Hungarian Authority.（技术名称）"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/l10n_hu_edi_connection.py:0
+msgid "Error during decryption of ExchangeToken."
+msgstr "错误 during decryption of ExchangeToken."
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/res_company.py:0
+msgid "Error listing transactions while attempting transaction recovery."
+msgstr "错误 listing transactions while attempting 交易 recovery."
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/res_company.py:0
+msgid "Error querying transaction while attempting transaction recovery."
+msgstr "错误 querying 交易 while attempting 交易 recovery."
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_hu_edi.l10n_hu_edi_tax_audit_export_form
+msgid "Export"
+msgstr "导出"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_l10n_hu_edi_tax_audit_export__filename
+msgid "File name"
+msgstr "文件 名称"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_l10n_hu_edi_tax_audit_export__export_file
+msgid "Generated File"
+msgstr "已生成 文件"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_hu_edi.report_invoice_document
+msgid "Group Member Tax ID:"
+msgstr "分组 Member 税 ID:"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_res_company__l10n_hu_group_vat
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_res_partner__l10n_hu_group_vat
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_res_users__l10n_hu_group_vat
+#: model_terms:ir.ui.view,arch_db:l10n_hu_edi.report_invoice_document
+msgid "Group Tax ID"
+msgstr "分组 税 ID"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__account_tax__l10n_hu_tax_type__ho
+msgid "HO - Transaction in a third country"
+msgstr "HO - 交易 in a third 国家/地区"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_tax.py:0
+msgid "HO Service to 3rd country"
+msgstr "HO 服务 to 3rd 国家/地区"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_hu_edi.view_move_form_inherit_l10n_hu_edi
+msgid "Hide this message"
+msgstr "Hide this 消息"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__uom_uom__l10n_hu_edi_code__hour
+msgid "Hour"
+msgstr "小时"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_hu_edi.res_config_settings_form_inherit_l10n_hu_edi
+msgid "Hungarian Electronic Invoicing"
+msgstr "Hungarian Electronic 开票"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.ui.menu,name:l10n_hu_edi.menu_finance_reports_hu
+#: model_terms:ir.ui.view,arch_db:l10n_hu_edi.product_template_form_view_l10n_hu_edi
+#: model_terms:ir.ui.view,arch_db:l10n_hu_edi.view_partner_form_l10n_hu_edi
+msgid "Hungary"
+msgstr "匈牙利"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_account_chart_template__id
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_account_debit_note__id
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_account_move_reversal__id
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_account_move_send__id
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_account_tax__id
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_l10n_hu_edi_cancellation__id
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_l10n_hu_edi_tax_audit_export__id
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_product_template__id
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_res_company__id
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_res_config_settings__id
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_res_partner__id
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_uom_uom__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_hu_edi.field_res_company__l10n_hu_group_vat
+#: model:ir.model.fields,help:l10n_hu_edi.field_res_partner__l10n_hu_group_vat
+#: model:ir.model.fields,help:l10n_hu_edi.field_res_users__l10n_hu_group_vat
+msgid ""
+"If this company belongs to a VAT group, indicate the group's VAT number "
+"here."
+msgstr "If this 公司 belongs to a VAT 分组, indicate the group's VAT 编号 here."
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_hu_edi.field_product_product__l10n_hu_product_code
+#: model:ir.model.fields,help:l10n_hu_edi.field_product_template__l10n_hu_product_code
+msgid ""
+"If your product has a code in a standard nomenclature, you can indicate its "
+"code here."
+msgstr ""
+"If your 产品 has a 代码 in a standard nomenclature, you can indicate its 代码 "
+"here."
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_hu_edi.field_product_product__l10n_hu_product_code_type
+#: model:ir.model.fields,help:l10n_hu_edi.field_product_template__l10n_hu_product_code_type
+msgid ""
+"If your product has a code in a standard nomenclature, you can indicate "
+"which nomenclature here."
+msgstr ""
+"If your 产品 has a 代码 in a standard nomenclature, you can indicate which "
+"nomenclature here."
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/res_company.py:0
+msgid ""
+"Incorrect NAV Credentials! Check that your company VAT number is set correctly. \n"
+"Error details: %s"
+msgstr ""
+"Incorrect NAV Credentials! 检查 that your 公司 VAT 编号 is set correctly. 错误 "
+"details: %s"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_account_bank_statement_line__l10n_hu_edi_batch_upload_index
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_account_move__l10n_hu_edi_batch_upload_index
+msgid "Index of invoice within a batch upload"
+msgstr "Index of 发票 within a 批次 upload"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__res_company__l10n_hu_tax_regime__ie
+msgid "Individual Exemption"
+msgstr "Individual Exemption（技术名称）"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/l10n_hu_edi_connection.py:0
+msgid "Invalid NAV response!"
+msgstr "无效 NAV response!"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_account_bank_statement_line__l10n_hu_invoice_chain_index
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_account_move__l10n_hu_invoice_chain_index
+msgid "Invoice Chain Index"
+msgstr "发票 Chain Index"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/l10n_hu_edi_connection.py:0
+msgid "Invoice Upload failed: NAV did not return a Transaction ID."
+msgstr "发票 Upload 失败: NAV did not 退货 a 交易 ID."
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_account_bank_statement_line__l10n_hu_edi_attachment
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_account_move__l10n_hu_edi_attachment
+msgid "Invoice XML file"
+msgstr "发票 XML 文件"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_account_bank_statement_line__l10n_hu_edi_attachment_filename
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_account_move__l10n_hu_edi_attachment_filename
+msgid "Invoice XML filename"
+msgstr "发票 XML filename"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid "Invoice submission failed."
+msgstr "发票 submission 失败."
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid ""
+"Invoice submission timed out. Please wait at least 6 minutes, then update "
+"the status."
+msgstr ""
+"发票 submission timed out. Please wait at least 6 minutes, then update the 状态."
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid "Invoice submitted, waiting for response."
+msgstr "发票 submitted, waiting for response."
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_l10n_hu_edi_cancellation__invoice_id
+msgid "Invoice to cancel"
+msgstr "发票 to 取消"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_account_bank_statement_line__l10n_hu_edi_send_time
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_account_move__l10n_hu_edi_send_time
+msgid "Invoice upload time"
+msgstr "发票 upload time"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move_send.py:0
+msgid ""
+"Invoices issued in Hungary must, with few exceptions, be reported to the "
+"NAV's Online-Invoice system."
+msgstr ""
+"发票 issued in Hungary must, with few exceptions, be reported to the NAV's "
+"Onlin电子发票 system."
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_hu_edi.model_account_move
+msgid "Journal Entry"
+msgstr "日记账分录"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__account_tax__l10n_hu_tax_type__kbaet
+msgid "KBAET - intra-Community exempt supply, without new means of transport"
+msgstr "KBAET - intra-Community exempt supply, without 新建 means of transport"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_tax.py:0
+msgid "KBAET sale to EU - VAT tv.§ 89."
+msgstr "KBAET 销售 to EU - VAT tv.§ 89."
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__account_tax__l10n_hu_tax_type__kbauk
+msgid "KBAUK - tax-exempt, intra-Community sales of new means of transport"
+msgstr "KBAUK - tax-exempt, intra-Community 销售 of 新建 means of transport"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_tax.py:0
+msgid "KBAUK New means of transport within the EU - VAT tv.§ 89.§(2)"
+msgstr "KBAUK 新建 means of transport within the EU - VAT tv.§ 89.§(2)"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__product_template__l10n_hu_product_code_type__kn
+msgid "KN - Combined Nomenclature Code"
+msgstr "KN - Combined Nomenclature 代码"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__product_template__l10n_hu_product_code_type__kt
+msgid "KT - Environmental Product Code"
+msgstr "KT - Environmental 产品 代码"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__uom_uom__l10n_hu_edi_code__kilogram
+msgid "Kilogram"
+msgstr "Kilogram（技术名称）"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__uom_uom__l10n_hu_edi_code__kilometer
+msgid "Kilometer"
+msgstr "Kilometer（技术名称）"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__uom_uom__l10n_hu_edi_code__kwh
+msgid "Kilowatt hour"
+msgstr "Kilowatt hour（技术名称）"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_res_config_settings__l10n_hu_edi_is_active
+msgid "L10N Hu Edi Is Active"
+msgstr "L10N Hu EDI Is 启用"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_l10n_hu_edi_cancellation__write_uid
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_l10n_hu_edi_tax_audit_export__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_l10n_hu_edi_cancellation__write_date
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_l10n_hu_edi_tax_audit_export__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_res_company__l10n_hu_edi_last_transaction_recovery
+msgid "Last transaction recovery (in production mode)"
+msgstr "Last 交易 recovery (in 生产 mode)"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__uom_uom__l10n_hu_edi_code__linear_meter
+msgid "Linear meter"
+msgstr "Linear meter（技术名称）"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__uom_uom__l10n_hu_edi_code__liter
+msgid "Liter"
+msgstr "Liter（技术名称）"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_hu_edi.custom_header
+msgid "Logo"
+msgstr "标识"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_hu_edi.field_account_tax__l10n_hu_tax_reason
+msgid ""
+"May be used to provide support for the use of a VAT-exempt VAT tax type."
+msgstr "May be used to provide support for the use of a VAT-exempt VAT 税 类型."
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__uom_uom__l10n_hu_edi_code__meter
+msgid "Meter"
+msgstr "Meter（技术名称）"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__uom_uom__l10n_hu_edi_code__minute
+msgid "Minute"
+msgstr "分钟"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/res_company.py:0
+msgid "Missing NAV credentials for company %s"
+msgstr "Missing NAV credentials for 公司 %s"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/l10n_hu_edi_connection.py:0
+msgid "Missing token in response from NAV."
+msgstr "Missing token in response 从 NAV."
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_hu_edi.res_config_settings_form_inherit_l10n_hu_edi
+msgid "Mode"
+msgstr "模式"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/l10n_hu_edi_connection.py:0
+msgid "Mode should be Production or Test!"
+msgstr "Mode should be 生产 or Test!"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__uom_uom__l10n_hu_edi_code__month
+msgid "Month"
+msgstr "月"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__account_tax__l10n_hu_tax_type__nam
+msgid ""
+"NAM - tax-exempt on other grounds related to international transactions"
+msgstr "NAM - tax-exempt on 其他 grounds 相关 to international transactions"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_tax.py:0
+msgid "NAM other export transaction VAT law § 110-118"
+msgstr "NAM 其他 导出 交易 VAT law § 110-118"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move_send.py:0
+#: model_terms:ir.ui.view,arch_db:l10n_hu_edi.view_move_form_inherit_l10n_hu_edi
+msgid "NAV 3.0"
+msgstr "NAV 3.0（技术名称）"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_account_bank_statement_line__l10n_hu_edi_state
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_account_move__l10n_hu_edi_state
+msgid "NAV 3.0 status"
+msgstr "NAV 3.0 状态"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.server,name:l10n_hu_edi.ir_cron_update_status_ir_actions_server
+msgid "NAV 3.0: Update status of pending invoices"
+msgstr "NAV 3.0: Update 状态 of pending 发票"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_hu_edi.res_config_settings_form_inherit_l10n_hu_edi
+msgid "NAV Credentials"
+msgstr "NAV Credentials（技术名称）"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/res_company.py:0
+msgid ""
+"NAV Credentials: Please set the hungarian vat number on the company first!"
+msgstr "NAV Credentials: Please set the hungarian VAT 编号 on the 公司 first!"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_res_company__l10n_hu_edi_password
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_res_config_settings__l10n_hu_edi_password
+msgid "NAV Password"
+msgstr "NAV Password（技术名称）"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_res_company__l10n_hu_edi_replacement_key
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_res_config_settings__l10n_hu_edi_replacement_key
+msgid "NAV Replacement Key"
+msgstr "NAV Replacement Key（技术名称）"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_res_company__l10n_hu_edi_signature_key
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_res_config_settings__l10n_hu_edi_signature_key
+msgid "NAV Signature Key"
+msgstr "NAV Signature Key（技术名称）"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_res_company__l10n_hu_tax_regime
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_res_config_settings__l10n_hu_tax_regime
+msgid "NAV Tax Regime"
+msgstr "NAV 税 Regime"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_uom_uom__l10n_hu_edi_code
+msgid "NAV UoM code"
+msgstr "NAV UoM 代码"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_res_company__l10n_hu_edi_username
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_res_config_settings__l10n_hu_edi_username
+msgid "NAV Username"
+msgstr "NAV Username（技术名称）"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_account_tax__l10n_hu_tax_reason
+msgid "NAV VAT Tax Exemption Reason"
+msgstr "NAV VAT 税 Exemption 原因"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_account_tax__l10n_hu_tax_type
+msgid "NAV VAT Tax Type"
+msgstr "NAV VAT 税 类型"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_hu_edi.field_account_bank_statement_line__l10n_hu_payment_mode
+#: model:ir.model.fields,help:l10n_hu_edi.field_account_move__l10n_hu_payment_mode
+msgid "NAV expected payment mode of the invoice."
+msgstr "NAV expected 付款 mode of the 发票."
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__account_tax__l10n_hu_tax_type__nonrefundable_vat
+msgid ""
+"NONREFUNDABLE_VAT - VAT incurred under sections 11 or 14, with an agreement "
+"from the beneficiary to reimburse VAT"
+msgstr ""
+"NONREFUNDABLE_VAT - VAT incurred under sections 11 or 14, with an agreement "
+"从 the beneficiary to reimburse VAT"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_l10n_hu_edi_tax_audit_export__name_from
+msgid "Name From"
+msgstr "名称 从"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_l10n_hu_edi_tax_audit_export__name_to
+msgid "Name To"
+msgstr "名称 To"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/wizard/l10n_hu_edi_tax_audit_export.py:0
+msgid "No invoice to export!"
+msgstr "否 发票 to 导出!"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__account_tax__l10n_hu_tax_type__vat
+msgid "Normal VAT (percent based)"
+msgstr "Normal VAT (percent based)（技术名称）"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid "Open Accounting Settings"
+msgstr "Open Accounting 设置"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__account_move__l10n_hu_payment_mode__other
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__product_template__l10n_hu_product_code_type__other
+msgid "Other"
+msgstr "其他"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_hu_edi.report_invoice_document
+msgid "Other Product Code"
+msgstr "其他 产品 代码"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__uom_uom__l10n_hu_edi_code__pack
+msgid "Package"
+msgstr "服务包"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_hu_edi.res_config_settings_form_inherit_l10n_hu_edi
+msgid "Password"
+msgstr "密码"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_account_bank_statement_line__l10n_hu_payment_mode
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_account_move__l10n_hu_payment_mode
+msgid "Payment mode"
+msgstr "付款 mode"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__uom_uom__l10n_hu_edi_code__piece
+msgid "Piece"
+msgstr "Piece（技术名称）"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid ""
+"Please create a sales tax with type ATK (outside the scope of the VAT Act)."
+msgstr "Please 创建 a 销售 税 with 类型 ATK (outside the scope of the VAT Act)."
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid ""
+"Please enter the Hungarian VAT (and/or Group VAT) number in 12345678-1-12 "
+"format!"
+msgstr ""
+"Please enter the Hungarian VAT (and/or 分组 VAT) 编号 in 12345678-1-12 format!"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid "Please set NAV credentials in the Accounting Settings!"
+msgstr "Please set NAV credentials in the Accounting 设置!"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid "Please set a valid recipient bank account number!"
+msgstr "Please set a 有效 recipient 银行账户 编号!"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid "Please set any VAT taxes to be 'Affected by previous taxes'!"
+msgstr "Please set any VAT 税 to be 'Affected by previous 税'!"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid ""
+"Please set any non-VAT (excise) taxes to be 'Included in Price' and 'Affects"
+" subsequent taxes'!"
+msgstr ""
+"Please set any non-VAT (excise) 税 to be 'Included in 价格' and 'Affects "
+"subsequent 税'!"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid "Please set company Country, Zip, City and Street!"
+msgstr "Please set 公司 国家/地区, Zip, 城市 and Street!"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid "Please set company VAT number!"
+msgstr "Please set 公司 VAT 编号!"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid "Please set exactly one VAT tax on each invoice line!"
+msgstr "Please set exactly one VAT 税 on each 发票明细行!"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid "Please set invoice date to today!"
+msgstr "Please set 发票日期 to today!"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid "Please set partner Country, Zip, City and Street!"
+msgstr "Please set 业务伙伴 国家/地区, Zip, 城市 and Street!"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid "Please set partner Tax ID on company partners!"
+msgstr "Please set 业务伙伴 税 ID on 公司 业务伙伴!"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid "Please use HUF or EUR as your company currency."
+msgstr "Please use HUF or EUR as your 公司 币种."
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_hu_edi.field_account_tax__l10n_hu_tax_type
+msgid "Precise identification of the VAT tax for the Hungarian authority."
+msgstr "Precise identification of the VAT 税 for the Hungarian authority."
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_hu_edi.model_product_template
+msgid "Product"
+msgstr "产品"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_hu_edi.product_template_form_view_l10n_hu_edi
+msgid "Product Code"
+msgstr "产品 代码"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_product_product__l10n_hu_product_code_type
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_product_template__l10n_hu_product_code_type
+msgid "Product Code Type"
+msgstr "产品 代码 类型"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_product_product__l10n_hu_product_code
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_product_template__l10n_hu_product_code
+msgid "Product Code Value"
+msgstr "产品 代码 值"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_hu_edi.model_uom_uom
+msgid "Product Unit of Measure"
+msgstr "产品计量单位"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__res_company__l10n_hu_edi_server_mode__production
+msgid "Production"
+msgstr "生产"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__account_tax__l10n_hu_tax_type__refundable_vat
+msgid ""
+"REFUNDABLE_VAT - VAT incurred under sections 11 or 14, without an agreement "
+"from the beneficiary to reimburse VAT"
+msgstr ""
+"REFUNDABLE_VAT - VAT incurred under sections 11 or 14, without an agreement "
+"从 the beneficiary to reimburse VAT"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__account_move__l10n_hu_edi_state__rejected
+msgid "Rejected"
+msgstr "拒绝"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_hu_edi.res_config_settings_form_inherit_l10n_hu_edi
+msgid "Replacement Key"
+msgstr "Replacement Key（技术名称）"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_hu_edi.l10n_hu_edi_cancellation_form
+msgid "Request Annulment"
+msgstr "请求 Annulment"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__account_tax__l10n_hu_tax_type__second_hand
+msgid "SECOND_HAND - Profit-margin based regime for second-hand sales"
+msgstr "SECOND_HAND - Profit-margin based regime for second-hand 销售"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__product_template__l10n_hu_product_code_type__szj
+msgid "SZJ - Service Registry Code"
+msgstr "SZJ - 服务 Registry 代码"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_l10n_hu_edi_tax_audit_export__selection_mode
+msgid "Selection mode"
+msgstr "Selection mode（技术名称）"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__account_move__l10n_hu_edi_state__sent
+msgid "Sent, waiting for response"
+msgstr "已发送, waiting for response"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_res_company__l10n_hu_edi_server_mode
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_res_config_settings__l10n_hu_edi_server_mode
+msgid "Server Mode"
+msgstr "Server Mode（技术名称）"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_hu_edi.res_config_settings_form_inherit_l10n_hu_edi
+msgid "Signature Key"
+msgstr "Signature Key（技术名称）"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__res_company__l10n_hu_tax_regime__sb
+msgid "Small Business"
+msgstr "Small Business（技术名称）"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__account_tax__l10n_hu_tax_type__tam
+msgid ""
+"TAM - tax-exempt activity or tax-exempt due to being in public interest or "
+"special in nature"
+msgstr ""
+"TAM - tax-exempt 活动 or tax-exempt due to being in public interest or special"
+" in nature"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_tax.py:0
+msgid "TAM Exempt property"
+msgstr "TAM Exempt property（技术名称）"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__product_template__l10n_hu_product_code_type__teszor
+msgid "TESZOR - CPA 2.1 Code"
+msgstr "TESZOR - CPA 2.1 代码"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__account_tax__l10n_hu_tax_type__travel_agency
+msgid "TRAVEL_AGENCY - Profit-margin based regime for travel agencies"
+msgstr "TRAVEL_AGENCY - Profit-margin based regime for travel agencies（技术名称）"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_hu_edi.report_invoice_document
+msgid "Tax ID"
+msgstr "税号ID"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.act_window,name:l10n_hu_edi.action_l10n_hu_edi_tax_audit_export_form
+#: model:ir.model,name:l10n_hu_edi.model_l10n_hu_edi_tax_audit_export
+#: model:ir.ui.menu,name:l10n_hu_edi.menu_hu_tax_audit_export
+msgid "Tax audit export - Adóhatósági Ellenőrzési Adatszolgáltatás"
+msgstr "税 audit 导出 - Adóhatósági Ellenőrzési Adatszolgáltatás"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid "Technical Annulment"
+msgstr "Technical Annulment（技术名称）"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_hu_edi.model_l10n_hu_edi_cancellation
+msgid "Technical Annulment Wizard"
+msgstr "Technical Annulment 向导"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_hu_edi.l10n_hu_edi_cancellation_form
+msgid ""
+"Technical Annulment should only be used when an error in the software caused an incorrect data report.<br/>\n"
+"                    To cancel an invoice / credit note in a normal business flow, please create a credit note / debit note."
+msgstr ""
+"Technical Annulment should only be used when an 错误 in the software caused an"
+" incorrect data 报表.<br/> To 取消 an 发票 / 贷项通知单 in a normal business flow, "
+"please 创建 a 贷项通知单 / 借方 note."
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__res_company__l10n_hu_edi_server_mode__test
+msgid "Test"
+msgstr "测试"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid ""
+"The annulment request has been approved by the user on the OnlineSzámla "
+"portal."
+msgstr "The annulment 请求 has been 已批准 by the 用户 on the OnlineSzámla portal."
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid ""
+"The annulment request is pending, please confirm it on the OnlineSzámla "
+"portal."
+msgstr "The annulment 请求 is pending, please 确认 it on the OnlineSzámla portal."
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid ""
+"The annulment request was received by the NAV, but has not been confirmed "
+"yet."
+msgstr "The annulment 请求 was 已接收 by the NAV, but has not been confirmed yet."
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid "The annulment request was rejected by NAV."
+msgstr "The annulment 请求 was rejected by NAV."
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid ""
+"The annulment request was rejected by the user on the OnlineSzámla portal."
+msgstr "The annulment 请求 was rejected by the 用户 on the OnlineSzámla portal."
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid ""
+"The annulment was sent to the NAV, but there was an error querying its "
+"status."
+msgstr ""
+"The annulment was 已发送 to the NAV, but there was an 错误 querying its 状态."
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid "The cancellation request could not be performed."
+msgstr "The cancellation 请求 could not be performed."
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid ""
+"The following invoices appear to be earlier in the chain, but have not yet "
+"been sent. Please send them first."
+msgstr ""
+"The following 发票 appear to be earlier in the chain, but have not yet been "
+"已发送. Please 发送 them first."
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid ""
+"The invoice was accepted by the NAV, but warnings were reported. To reverse,"
+" create a credit note / debit note."
+msgstr ""
+"The 发票 was 已接受 by the NAV, but warnings were reported. To reverse, 创建 a "
+"贷项通知单 / 借方 note."
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid "The invoice was received by the NAV, but has not been confirmed yet."
+msgstr "The 发票 was 已接收 by the NAV, but has not been confirmed yet."
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid "The invoice was rejected by the NAV."
+msgstr "The 发票 was rejected by the NAV."
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid ""
+"The invoice was sent to the NAV, but there was an error querying its status."
+msgstr "The 发票 was 已发送 to the NAV, but there was an 错误 querying its 状态."
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid "The invoice was successfully accepted by the NAV."
+msgstr "The 发票 was successfully 已接受 by the NAV."
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_hu_edi.report_invoice_document
+msgid "The issuer of the invoice is <u>Cash accounting</u>."
+msgstr "The issuer of the 发票 is <u>Cash accounting</u>."
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_hu_edi.report_invoice_document
+msgid "The issuer of the invoice is <u>Exempt from VAT</u>."
+msgstr "The issuer of the 发票 is <u>Exempt 从 VAT</u>."
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_hu_edi.report_invoice_document
+msgid "The issuer of the invoice is <u>Small taxpayer</u>."
+msgstr "The issuer of the 发票 is <u>Small taxpayer</u>."
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__account_move__l10n_hu_edi_state__cancel_timeout
+msgid "Timeout when requesting cancellation"
+msgstr "Timeout when requesting cancellation（技术名称）"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__account_move__l10n_hu_edi_state__send_timeout
+msgid "Timeout when sending"
+msgstr "Timeout when sending（技术名称）"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__uom_uom__l10n_hu_edi_code__ton
+msgid "Ton"
+msgstr "吨"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_account_bank_statement_line__l10n_hu_edi_transaction_code
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_account_move__l10n_hu_edi_transaction_code
+msgid "Transaction Code"
+msgstr "交易 代码"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_account_bank_statement_line__l10n_hu_edi_message_html
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_account_move__l10n_hu_edi_message_html
+msgid "Transaction messages"
+msgstr "交易 消息"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_account_bank_statement_line__l10n_hu_edi_messages
+#: model:ir.model.fields,field_description:l10n_hu_edi.field_account_move__l10n_hu_edi_messages
+msgid "Transaction messages (JSON)"
+msgstr "交易 消息 (JSON)"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__account_move__l10n_hu_payment_mode__transfer
+msgid "Transfer"
+msgstr "调拨"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_hu_edi.view_move_form_inherit_l10n_hu_edi
+msgid "Update Status"
+msgstr "Update 状态"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_hu_edi.res_config_settings_form_inherit_l10n_hu_edi
+msgid "Username"
+msgstr "用户名"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__account_tax__l10n_hu_tax_type__no_vat
+msgid "VAT not applicable pursuant to section 17 of the VAT Act"
+msgstr "VAT not applicable pursuant to section 17 of the VAT Act（技术名称）"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__product_template__l10n_hu_product_code_type__vtsz
+msgid "VTSZ - Customs Code"
+msgstr "VTSZ - Customs 代码"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid "View Company/ies"
+msgstr "查看 公司/ies"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid "View advance invoice(s)"
+msgstr "查看 advance 发票(s)"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid "View invoice(s)"
+msgstr "查看发票"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid "View partner(s)"
+msgstr "查看 业务伙伴(s)"
+
+#. module: l10n_hu_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+msgid "View tax(es)"
+msgstr "查看 税(es)"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__account_move__l10n_hu_payment_mode__voucher
+msgid "Voucher"
+msgstr "凭证"
+
+#. module: l10n_hu_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_hu_edi.res_config_settings_form_inherit_l10n_hu_edi
+msgid ""
+"Your company's specific tax arrangements, if any of these apply to your "
+"company."
+msgstr ""
+"Your company's specific 税 arrangements, if any of these apply to your 公司."

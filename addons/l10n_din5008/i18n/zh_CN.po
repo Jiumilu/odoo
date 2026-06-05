@@ -1,0 +1,417 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_din5008
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.din5008_css
+msgid ""
+"&amp;.din_page {\n"
+"                        &amp;.header {\n"
+"                            .company_header {\n"
+"                                .name_container {\n"
+"                                    color:"
+msgstr ""
+"&amp;.din_page { &amp;.header { .company_header { .name_container { "
+"color:（技术名称）"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.din5008_css
+msgid ""
+";\n"
+"                                    }\n"
+"                                }\n"
+"                            }\n"
+"                            h2 {\n"
+"                                color:"
+msgstr "; } } } h2 { color:（技术名称）"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.din5008_css
+msgid ""
+";\n"
+"                                }\n"
+"                            }\n"
+"                        }\n"
+"                        &amp;.invoice_note {\n"
+"                            td {\n"
+"                                .address {\n"
+"                                    .colored_address {\n"
+"                                        color:"
+msgstr "; } } } &amp;.invoice_note { td { .地址 { .colored_address { color:"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.din5008_css
+msgid ""
+";\n"
+"                            }\n"
+"                            .page {\n"
+"                                [name=invoice_line_table], [name=stock_move_table], .o_main_table {\n"
+"                                    th {\n"
+"                                        color:"
+msgstr ""
+"; } .page { [名称=invoice_line_table], [名称=stock_move_table], .o_main_table { "
+"th { color:"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_document
+msgid "<span class=\"fw-bold\">Beneficiary:</span>"
+msgstr "<span class=\"fw-bold\">Beneficiary:</span>（技术名称）"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_document
+msgid "<span class=\"fw-bold\">Shipping Address:</span>"
+msgstr "<span class=\"fw-bold\">Shipping 地址:</span>"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.external_layout_din5008
+msgid "<span>|</span>"
+msgstr "<span>|</span>（技术名称）"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.external_layout_din5008
+msgid "BIC:"
+msgstr "BIC:（技术名称）"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_din5008.field_base_document_layout__bank_ids
+msgid "Banks"
+msgstr "银行"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_document
+msgid "Cancelled Invoice"
+msgstr "已取消的发票"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_din5008.field_base_document_layout__city
+msgid "City"
+msgstr "城市"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_din5008.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_din5008.field_base_document_layout__company_details
+msgid "Company Details"
+msgstr "公司详情"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_din5008.model_base_document_layout
+msgid "Company Document Layout"
+msgstr "公司文档布局"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_din5008.field_base_document_layout__company_registry
+msgid "Company ID"
+msgstr "公司注册号"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_din5008.model_res_config_settings
+msgid "Config Settings"
+msgstr "配置设定"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_document
+msgid "Credit Note"
+msgstr "退款通知"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_document
+msgid "Delivery Date"
+msgstr "交付日期"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_wizard_preview
+msgid "Delivery Date:"
+msgstr "交货日期:"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_din5008.field_base_document_layout__display_name
+#: model:ir.model.fields,field_description:l10n_din5008.field_ir_actions_report__display_name
+#: model:ir.model.fields,field_description:l10n_din5008.field_res_company__display_name
+#: model:ir.model.fields,field_description:l10n_din5008.field_res_config_settings__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_document
+msgid "Draft Invoice"
+msgstr "发票草稿"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_wizard_preview
+msgid "Due Date:"
+msgstr "到期日:"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.res_config_settings_view_form
+msgid "Enable to show a 'Position' column on invoices and sales reports."
+msgstr "启用 to show a 'Position' column on 发票 and 销售 报表."
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_din5008.field_base_document_layout__account_fiscal_country_id
+msgid "Fiscal Country"
+msgstr "会计所在国家/地区"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_din5008.field_base_document_layout__report_footer
+msgid "Footer text displayed at the bottom of all reports."
+msgstr "页脚显示在所有报表的下方。"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.external_layout_din5008
+msgid "HRB Nr:"
+msgstr "HRB Nr:（技术名称）"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_din5008.field_base_document_layout__company_details
+msgid "Header text displayed at the top of all reports."
+msgstr "所有报告顶部显示的标题文本。"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.external_layout_din5008
+msgid "IBAN:"
+msgstr "IBAN:（技术名称）"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_din5008.field_base_document_layout__id
+#: model:ir.model.fields,field_description:l10n_din5008.field_ir_actions_report__id
+#: model:ir.model.fields,field_description:l10n_din5008.field_res_company__id
+#: model:ir.model.fields,field_description:l10n_din5008.field_res_config_settings__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_wizard_preview
+msgid "INV/"
+msgstr "INV/（技术名称）"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.res_config_settings_view_form
+msgid ""
+"If this checkbox is ticked, a 'Position' column will be displayed on "
+"invoices and sales reports."
+msgstr ""
+"If this checkbox is ticked, a 'Position' column will be displayed on 发票 and "
+"销售 报表."
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_document
+msgid "Incoterm"
+msgstr "国际贸易术语"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.external_layout_din5008
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_document
+msgid "Invoice"
+msgstr "发票"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_document
+msgid "Invoice Date"
+msgstr "发票日期"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_document
+msgid "Invoice Date Due"
+msgstr "发票日期 Due"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_wizard_preview
+msgid "Invoice Date:"
+msgstr "发票日期:"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_document
+msgid "Invoice No."
+msgstr "发票 否."
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_wizard_preview
+msgid "Invoice No.:"
+msgstr "发票 否.:"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_din5008.field_base_document_layout__l10n_din5008_delivery_date
+msgid "L10N Din5008 Delivery Date"
+msgstr "L10N Din5008 交货日期"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_din5008.field_base_document_layout__l10n_din5008_due_date
+msgid "L10N Din5008 Due Date"
+msgstr "L10N Din5008 到期日"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_din5008.field_base_document_layout__l10n_din5008_invoice_date
+msgid "L10N Din5008 Invoice Date"
+msgstr "L10N Din5008 发票日期"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.external_layout_din5008
+msgid "Page: <span class=\"page\"/> of <span class=\"topage\"/>"
+msgstr "Page: <span class=\"page\"/> of <span class=\"topage\"/>（技术名称）"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_document
+msgid "Position"
+msgstr "位置"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_document
+msgid "Reference"
+msgstr "参考"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_wizard_preview
+msgid "Reference:"
+msgstr "参考："
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_din5008.model_ir_actions_report
+msgid "Report Action"
+msgstr "报表动作"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_din5008.field_base_document_layout__report_footer
+msgid "Report Footer"
+msgstr "报告页脚"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_wizard_preview
+msgid "SO/2021/45678"
+msgstr "SO/2021/45678（技术名称）"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_din5008.field_res_company__has_position_column
+#: model:ir.model.fields,field_description:l10n_din5008.field_res_config_settings__has_position_column
+msgid "Show Position Column in Reports"
+msgstr "Show Position Column in 报表"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_document
+msgid "Source"
+msgstr "来源"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_din5008.field_base_document_layout__street
+msgid "Street"
+msgstr "街道"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_din5008.field_base_document_layout__street2
+msgid "Street2"
+msgstr "详细地址"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.external_layout_din5008
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_document
+msgid "Tax ID"
+msgstr "税号ID"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_din5008.field_base_document_layout__account_fiscal_country_id
+msgid "The country to use the tax reports from for this company"
+msgstr "使用该公司税务报表的国家/地区"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_din5008.field_base_document_layout__company_registry
+msgid ""
+"The registry number of the company. Use it if it is different from the Tax "
+"ID. It must be unique across all partners of a same country"
+msgstr "公司注册号。如果与税号不同，请使用该号码。在同一国家的所有合作伙伴中，该号码必须是唯一的"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_document
+msgid "VAT"
+msgstr "增值税"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_document
+msgid "Vendor Bill"
+msgstr "供应商账单"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_document
+msgid "Vendor Credit Note"
+msgstr "供应商退款"
+
+#. module: l10n_din5008
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_din5008.field_base_document_layout__zip
+msgid "Zip"
+msgstr "邮编"

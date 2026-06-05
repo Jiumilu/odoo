@@ -4,7 +4,7 @@ import mimetypes
 
 from urllib.parse import unquote, urlencode
 
-from odoo import http, modules
+from odoo import _, http, modules
 from odoo.exceptions import AccessError
 from odoo.http import request
 from odoo.tools import file_open, file_path
@@ -41,7 +41,7 @@ class WebManifest(http.Controller):
         return shortcuts
 
     def _get_webmanifest(self):
-        web_app_name = request.env['ir.config_parameter'].sudo().get_param('web.web_app_name', 'Odoo')
+        web_app_name = request.env['ir.config_parameter'].sudo().get_param('web.web_app_name', _('GlobalCloud GPC'))
         manifest = {
             'name': web_app_name,
             'scope': '/odoo',

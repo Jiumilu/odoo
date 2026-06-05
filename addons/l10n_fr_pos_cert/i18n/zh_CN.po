@@ -1,0 +1,690 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_fr_pos_cert
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_fr_pos_cert
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_fr_pos_cert/models/res_company.py:0
+msgid "(Receipt ref.: %s)"
+msgstr "(Receipt ref.: %s)（技术名称）"
+
+#. module: l10n_fr_pos_cert
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_fr_pos_cert/static/src/xml/OrderReceipt.xml:0
+#: code:addons/l10n_fr_pos_cert/static/src/xml/OrderSummary.xml:0
+msgid "/ Units"
+msgstr "/ Units（技术名称）"
+
+#. module: l10n_fr_pos_cert
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_fr_pos_cert/models/pos.py:0
+msgid "According to French law, you cannot delete a point of sale order."
+msgstr "According to French law, you cannot 删除 a 销售点 订单."
+
+#. module: l10n_fr_pos_cert
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_fr_pos_cert/models/pos.py:0
+msgid ""
+"According to the French law, you cannot modify a point of sale order line. "
+"Forbidden fields: %s."
+msgstr ""
+"According to the French law, you cannot modify a 销售点 订单 行. Forbidden fields:"
+" %s."
+
+#. module: l10n_fr_pos_cert
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_fr_pos_cert/models/pos.py:0
+msgid ""
+"According to the French law, you cannot modify a point of sale order. "
+"Forbidden fields: %s."
+msgstr ""
+"According to the French law, you cannot modify a 销售点 订单. Forbidden fields: "
+"%s."
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_fr_pos_cert.form_view_account_sale_closing
+msgid "Account Closing"
+msgstr "账户 Closing"
+
+#. module: l10n_fr_pos_cert
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_fr_pos_cert/models/res_company.py:0
+msgid ""
+"Accounting is not unalterable for the company %s. This mechanism is designed"
+" for companies where accounting is unalterable."
+msgstr ""
+"Accounting is not unalterable for the 公司 %s. This mechanism is designed for "
+"companies where accounting is unalterable."
+
+#. module: l10n_fr_pos_cert
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_fr_pos_cert/models/pos.py:0
+msgid ""
+"An error occurred when computing the inalterability. Impossible to get the "
+"unique previous posted point of sale order."
+msgstr ""
+"An 错误 occurred when computing the inalterability. Impossible to get the "
+"unique previous 已过账 销售点 订单."
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_fr_pos_cert.selection__account_sale_closing__frequency__annually
+msgid "Annual"
+msgstr "年度"
+
+#. module: l10n_fr_pos_cert
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_fr_pos_cert/models/account_closing.py:0
+msgid "Annual Closing"
+msgstr "Annual Closing（技术名称）"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_fr_pos_cert.report_pos_hash_integrity
+msgid "Aucune donnée corrompue n'a été détectée."
+msgstr "Aucune donnée corrompue n'a été détectée.（技术名称）"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_account_sale_closing__date_closing_stop
+msgid "Closing Date"
+msgstr "关闭日期"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_account_sale_closing__frequency
+msgid "Closing Type"
+msgstr "Closing 类型"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_fr_pos_cert.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_account_sale_closing__company_id
+msgid "Company"
+msgstr "公司"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_fr_pos_cert.report_pos_hash_integrity
+msgid "Contexte"
+msgstr "Contexte（技术名称）"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_fr_pos_cert.report_pos_hash_integrity
+msgid "Contrôle des données du point de vente"
+msgstr "Contrôle des données du point de vente（技术名称）"
+
+#. module: l10n_fr_pos_cert
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_fr_pos_cert/models/res_company.py:0
+msgid "Corrupted data on point of sale order with id %s."
+msgstr "Corrupted data on 销售点 订单 with ID %s."
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_account_sale_closing__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_account_sale_closing__create_date
+msgid "Created on"
+msgstr "创建日期"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_account_sale_closing__cumulative_total
+msgid "Cumulative Grand Total"
+msgstr "Cumulative Grand 合计"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_account_sale_closing__currency_id
+msgid "Currency"
+msgstr "币别"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_fr_pos_cert.selection__account_sale_closing__frequency__daily
+msgid "Daily"
+msgstr "每天"
+
+#. module: l10n_fr_pos_cert
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_fr_pos_cert/models/account_closing.py:0
+msgid "Daily Closing"
+msgstr "Daily Closing（技术名称）"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_fr_pos_cert.report_pos_hash_integrity
+msgid "Date"
+msgstr "日期"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_fr_pos_cert.field_account_sale_closing__date_closing_start
+msgid "Date from which the total interval is computed"
+msgstr "日期 从 which the 合计 interval is computed"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_fr_pos_cert.field_account_sale_closing__date_closing_stop
+msgid "Date to which the values are computed"
+msgstr "日期 to which the values are computed"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_fr_pos_cert.report_pos_hash_integrity
+msgid "Dernière transaction"
+msgstr "Dernière 交易"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_account_fiscal_position__display_name
+#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_account_sale_closing__display_name
+#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_pos_config__display_name
+#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_pos_order__display_name
+#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_pos_order_line__display_name
+#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_pos_session__display_name
+#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_report_l10n_fr_pos_cert_report_pos_hash_integrity__display_name
+#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_res_company__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_fr_pos_cert.report_pos_hash_integrity
+msgid "Données corrompues sur la commande du point de vente:"
+msgstr "Données corrompues sur la commande du point de vente:（技术名称）"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_fr_pos_cert.model_account_fiscal_position
+msgid "Fiscal Position"
+msgstr "财政状况"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.ui.menu,name:l10n_fr_pos_cert.pos_fr_statements_menu
+msgid "French Statements"
+msgstr "French Statements（技术名称）"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_fr_pos_cert.field_account_sale_closing__name
+msgid "Frequency and unique sequence number"
+msgstr "Frequency and unique 序列 编号"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.server,name:l10n_fr_pos_cert.account_sale_closing_annually_ir_actions_server
+msgid "Generate Annual Sales Closing"
+msgstr "Generate Annual 销售 Closing"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.server,name:l10n_fr_pos_cert.account_sale_closing_daily_ir_actions_server
+msgid "Generate Daily Sales Closing"
+msgstr "Generate Daily 销售 Closing"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.server,name:l10n_fr_pos_cert.account_sale_closing_monthly_ir_actions_server
+msgid "Generate Monthly Sales Closing"
+msgstr "Generate Monthly 销售 Closing"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_fr_pos_cert.model_report_l10n_fr_pos_cert_report_pos_hash_integrity
+msgid "Get french pos hash integrity result as PDF."
+msgstr "Get french POS hash integrity result as PDF.（技术名称）"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_fr_pos_cert.report_pos_hash_integrity
+msgid "Hachage"
+msgstr "Hachage（技术名称）"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_fr_pos_cert.pos_order_form_inherit
+msgid "Hash"
+msgstr "Hash（技术名称）"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.report,name:l10n_fr_pos_cert.action_report_pos_hash_integrity
+msgid "Hash integrity result PDF"
+msgstr "散列完整性结果PDF"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_account_fiscal_position__id
+#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_account_sale_closing__id
+#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_pos_config__id
+#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_pos_order__id
+#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_pos_order_line__id
+#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_pos_session__id
+#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_report_l10n_fr_pos_cert_report_pos_hash_integrity__id
+#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_res_company__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_pos_order__l10n_fr_hash
+msgid "Inalteralbility Hash"
+msgstr "Inalteralbility Hash（技术名称）"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_pos_order__l10n_fr_secure_sequence_number
+msgid "Inalteralbility No Gap Sequence #"
+msgstr "Inalteralbility 否 Gap 序列 #"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_res_company__l10n_fr_pos_cert_sequence_id
+msgid "L10N Fr Pos Cert Sequence"
+msgstr "L10N Fr POS Cert 序列"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_pos_order__l10n_fr_string_to_hash
+msgid "L10N Fr String To Hash"
+msgstr "L10N Fr String To Hash（技术名称）"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_fr_pos_cert.report_pos_hash_integrity
+msgid ""
+"La chaîne de hachage est conforme: il n'est pas possible d'altérer les "
+"données sans casser la chaîne de hachage pour les pièces ultérieurs"
+msgstr ""
+"La chaîne de hachage est conforme: il n'est pas possible d'altérer les "
+"données sans casser la chaîne de hachage pour les pièces ultérieurs（技术名称）"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_fr_pos_cert.report_pos_hash_integrity
+msgid "La date (année-mois-jour-heure-minute)"
+msgstr "La 日期 (année-mois-jour-heure-minute)"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_fr_pos_cert.report_pos_hash_integrity
+msgid ""
+"La fonction de hachage garantit que les données suivates des transactions "
+"sont inaltérables:"
+msgstr ""
+"La fonction de hachage garantit que les données suivates des transactions "
+"sont inaltérables:（技术名称）"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_account_sale_closing__last_order_hash
+msgid "Last Order entry's inalteralbility hash"
+msgstr "Last 订单 entry's inalteralbility hash"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_account_sale_closing__last_order_id
+msgid "Last Pos Order"
+msgstr "Last POS 订单"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_fr_pos_cert.field_account_sale_closing__last_order_id
+msgid "Last Pos order included in the grand total"
+msgstr "Last POS 订单 included in the grand 合计"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_account_sale_closing__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_account_sale_closing__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_fr_pos_cert.report_pos_hash_integrity
+msgid ""
+"Le détail des articles ou prestations (libellé, quantité, prix unitaire, "
+"total hors taxes de la ligne, taux de TVA associé)"
+msgstr ""
+"Le détail des articles ou prestations (libellé, quantité, prix unitaire, 合计 "
+"hors 税 de la ligne, taux de TVA associé)"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_fr_pos_cert.report_pos_hash_integrity
+msgid "Le montant total toutes taxes comprises"
+msgstr "Le montant 合计 toutes 税 comprises"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_fr_pos_cert.report_pos_hash_integrity
+msgid "Le numéro de caisse"
+msgstr "Le numéro de caisse（技术名称）"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_fr_pos_cert.report_pos_hash_integrity
+msgid "Le numéro du justificatif"
+msgstr "Le numéro du justificatif（技术名称）"
+
+#. module: l10n_fr_pos_cert
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_fr_pos_cert/static/src/app/services/pos.js:0
+msgid "Missing Country"
+msgstr "Missing 国家/地区"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_fr_pos_cert.selection__account_sale_closing__frequency__monthly
+msgid "Monthly"
+msgstr "月"
+
+#. module: l10n_fr_pos_cert
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_fr_pos_cert/models/account_closing.py:0
+msgid "Monthly Closing"
+msgstr "Monthly Closing（技术名称）"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_account_sale_closing__name
+msgid "Name"
+msgstr "名称"
+
+#. module: l10n_fr_pos_cert
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_fr_pos_cert/static/src/xml/OrderReceipt.xml:0
+#: code:addons/l10n_fr_pos_cert/static/src/xml/OrderSummary.xml:0
+msgid "Old unit price:"
+msgstr "Old 单位 价格:"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.server,name:l10n_fr_pos_cert.action_check_pos_hash_integrity
+#: model:ir.ui.menu,name:l10n_fr_pos_cert.menu_check_move_integrity_reporting
+msgid "POS Inalterability Check"
+msgstr "POS Inalterability 检查"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_account_sale_closing__total_interval
+msgid "Period Total"
+msgstr "Period 合计"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_fr_pos_cert.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr "POS 配置"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_fr_pos_cert.model_pos_order_line
+msgid "Point of Sale Order Lines"
+msgstr "POS订单明细"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_fr_pos_cert.model_pos_order
+msgid "Point of Sale Orders"
+msgstr "POS 订单"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_fr_pos_cert.model_pos_session
+msgid "Point of Sale Session"
+msgstr "POS 会话"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_pos_order__pos_version
+msgid "Pos Version"
+msgstr "POS Version（技术名称）"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_fr_pos_cert.report_pos_hash_integrity
+msgid "Première transaction"
+msgstr "Première 交易"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_pos_order__previous_order_id
+msgid "Previous Order"
+msgstr "Previous 订单"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_fr_pos_cert.report_pos_hash_integrity
+msgid "Réf. Commande"
+msgstr "Réf. Commande（技术名称）"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_fr_pos_cert.report_pos_hash_integrity
+msgid "Résultat du test"
+msgstr "Résultat du test（技术名称）"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_fr_pos_cert.report_pos_hash_integrity
+msgid "Résultat du test d'intégrité -"
+msgstr "Résultat du test d'intégrité -（技术名称）"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_fr_pos_cert.model_account_sale_closing
+msgid "Sale Closing"
+msgstr "销售 Closing"
+
+#. module: l10n_fr_pos_cert
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_fr_pos_cert/models/account_closing.py:0
+msgid ""
+"Sale Closings are not meant to be written or deleted under any "
+"circumstances."
+msgstr ""
+"销售 Closings are not meant to be written or 已删除 under any circumstances."
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.act_window,name:l10n_fr_pos_cert.action_list_view_account_sale_closing
+#: model:ir.ui.menu,name:l10n_fr_pos_cert.menu_account_closing
+#: model:ir.ui.menu,name:l10n_fr_pos_cert.menu_account_closing_reporting
+msgid "Sales Closings"
+msgstr "销售 Closings"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.actions.act_window,help:l10n_fr_pos_cert.action_list_view_account_sale_closing
+msgid ""
+"Sales closings run automatically on a daily, monthly and annual basis. It "
+"computes both period and cumulative totals from all the sales entries posted"
+" in the system after the previous closing."
+msgstr ""
+"销售 closings run automatically on a daily, monthly and annual basis. It "
+"computes both period and cumulative totals 从 all the 销售 entries 已过账 in the "
+"system after the previous closing."
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_fr_pos_cert.report_pos_hash_integrity
+msgid ""
+"Selon l'article 286 du code général des impôts français, toute livraison de bien ou prestation\n"
+"                                        de services ne donnant pas lieu à facturation et étant enregistrée au moyen d'un logiciel ou\n"
+"                                        d'un système de caisse doit satisfaire à des conditions d'inaltérabilité et de sécurisation des\n"
+"                                        données en vue d'un contrôle de l'administration fiscale.\n"
+"                                        <br/>\n"
+"                                        <br/>\n"
+"                                        Ces conditions sont respectées via une fonction de hachage des ventes du Point de Vente.\n"
+"                                        <br/>\n"
+"                                        <br/>"
+msgstr ""
+"Selon l'article 286 du 代码 général des impôts français, toute livraison de "
+"bien ou prestation de services ne donnant pas lieu à facturation et étant "
+"enregistrée au moyen d'un logiciel ou d'un système de caisse doit satisfaire"
+" à des conditions d'inaltérabilité et de sécurisation des données en vue "
+"d'un contrôle de l'administration fiscale. <br/> <br/> Ces conditions sont "
+"respectées via une fonction de hachage des ventes du Point de Vente. <br/> "
+"<br/>"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_account_sale_closing__sequence_number
+msgid "Sequence #"
+msgstr "序列 #"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_account_sale_closing__date_closing_start
+msgid "Starting Date"
+msgstr "Starting 日期"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.actions.act_window,help:l10n_fr_pos_cert.action_list_view_account_sale_closing
+msgid "The closings are created by Odoo"
+msgstr "The closings are created by 绿色供应链公共服务平台"
+
+#. module: l10n_fr_pos_cert
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_fr_pos_cert/static/src/app/services/pos.js:0
+msgid "The company %s doesn't have a country set."
+msgstr "The 公司 %s doesn't have a 国家/地区 set."
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_fr_pos_cert.field_account_sale_closing__currency_id
+msgid "The company's currency"
+msgstr "The company's 币种"
+
+#. module: l10n_fr_pos_cert
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_fr_pos_cert/models/res_company.py:0
+msgid ""
+"There isn't any order flagged for data inalterability yet for the company "
+"%s. This mechanism only runs for point of sale orders generated after the "
+"installation of the module France - Certification CGI 286 I-3 bis. - POS"
+msgstr ""
+"There isn't any 订单 flagged for data inalterability yet for the 公司 %s. This "
+"mechanism only runs for 销售点 订单 已生成 after the installation of the 模块 France -"
+" Certification CGI 286 I-3 bis. - POS"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_fr_pos_cert.field_account_sale_closing__total_interval
+msgid ""
+"Total in receivable accounts during the interval, excluding overlapping "
+"periods"
+msgstr ""
+"合计 in receivable 账户 during the interval, excluding overlapping periods"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_fr_pos_cert.field_account_sale_closing__cumulative_total
+msgid "Total in receivable accounts since the beginnig of times"
+msgstr "合计 in receivable 账户 since the beginnig of times"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_fr_pos_cert.report_pos_hash_integrity
+msgid ""
+"Toutes les données liées à la réception du paiement en contrepartie (mode de"
+" réglement notamment)"
+msgstr ""
+"Toutes les données liées à la réception du paiement en contrepartie (mode de"
+" réglement notamment)（技术名称）"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_fr_pos_cert.report_pos_hash_integrity
+msgid ""
+"Toutes les ventes effectuées via le Point de Vente sont bien dans la chaîne "
+"de hachage."
+msgstr ""
+"Toutes les ventes effectuées via le Point de Vente sont bien dans la chaîne "
+"de hachage.（技术名称）"
+
+#. module: l10n_fr_pos_cert
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_fr_pos_cert.field_pos_order__pos_version
+msgid "Version of Odoo that created the order"
+msgstr "Version of 绿色供应链公共服务平台 that created the 订单"
+
+#. module: l10n_fr_pos_cert
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_fr_pos_cert/models/account_fiscal_position.py:0
+msgid ""
+"You cannot modify a fiscal position used in a POS order. You should archive "
+"it and create a new one."
+msgstr ""
+"You cannot modify a 财务规则 used in a POS 订单. You should 归档 it and 创建 a 新建 one."
+
+#. module: l10n_fr_pos_cert
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_fr_pos_cert/models/pos.py:0
+msgid ""
+"You cannot overwrite the values ensuring the inalterability of the point of "
+"sale."
+msgstr ""
+"You cannot overwrite the values ensuring the inalterability of the 销售点."
+
+#. module: l10n_fr_pos_cert
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_fr_pos_cert/models/pos.py:0
+msgid "You have to set a country in your company setting."
+msgstr "You have to set a 国家/地区 in your 公司 setting."

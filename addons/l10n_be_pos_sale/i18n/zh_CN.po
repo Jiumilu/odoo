@@ -1,0 +1,55 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_be_pos_sale
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_be_pos_sale
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_be_pos_sale.field_pos_config__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_be_pos_sale
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_be_pos_sale.field_pos_config__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_be_pos_sale
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_be_pos_sale/static/src/js/PaymentScreen.js:0
+msgid ""
+"If you do not invoice imported orders containing intra-community taxes you "
+"will encounter issues in your accounting. Especially in the EC Sales List "
+"report"
+msgstr ""
+"If you do not 发票 imported 订单 containing intra-community 税 you will encounter"
+" issues in your accounting. Especially in the EC 销售 列表 报表"
+
+#. module: l10n_be_pos_sale
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_be_pos_sale.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr "POS 配置"
+
+#. module: l10n_be_pos_sale
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_be_pos_sale/static/src/js/PaymentScreen.js:0
+msgid "This order needs to be invoiced"
+msgstr "This 订单 needs to be invoiced"

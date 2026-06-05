@@ -11,8 +11,7 @@ msgstr ""
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2025-12-02 14:57+0000\n"
 "Last-Translator: \"Chloe Wang (chwa)\" <chwa@odoo.com>\n"
-"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
-"projects/odoo-19/hr_homeworking/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/projects/odoo-19/hr_homeworking/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -182,7 +181,7 @@ msgstr "星期五"
 #. module: hr_homeworking
 #: model:ir.model.fields,field_description:hr_homeworking.field_res_users__friday_location_id
 msgid "Fridays"
-msgstr ""
+msgstr "Fridays（技术名称）"
 
 #. module: hr_homeworking
 #: model:ir.model.fields,field_description:hr_homeworking.field_hr_employee__hr_icon_display
@@ -228,13 +227,13 @@ msgstr "星期一"
 #. module: hr_homeworking
 #: model:ir.model.fields,field_description:hr_homeworking.field_res_users__monday_location_id
 msgid "Mondays"
-msgstr ""
+msgstr "Mondays（技术名称）"
 
 #. module: hr_homeworking
 #: model:ir.model.constraint,message:hr_homeworking.constraint_hr_employee_location_uniq_exceptional_per_day
 msgid ""
-"Only one default work location and one exceptional work location per day per "
-"employee."
+"Only one default work location and one exceptional work location per day per"
+" employee."
 msgstr "每位员工每天只能有一个默认工作地点和一个特殊工作地点。"
 
 #. module: hr_homeworking
@@ -246,7 +245,7 @@ msgstr "出勤"
 #. module: hr_homeworking
 #: model:ir.model,name:hr_homeworking.model_hr_employee_public
 msgid "Public Employee"
-msgstr ""
+msgstr "公共员工"
 
 #. module: hr_homeworking
 #: model:ir.model.fields,field_description:hr_homeworking.field_hr_employee__saturday_location_id
@@ -257,7 +256,7 @@ msgstr "星期六"
 #. module: hr_homeworking
 #: model:ir.model.fields,field_description:hr_homeworking.field_res_users__saturday_location_id
 msgid "Saturdays"
-msgstr ""
+msgstr "Saturdays（技术名称）"
 
 #. module: hr_homeworking
 #: model:ir.model.fields,field_description:hr_homeworking.field_hr_employee__sunday_location_id
@@ -268,7 +267,7 @@ msgstr "星期日"
 #. module: hr_homeworking
 #: model:ir.model.fields,field_description:hr_homeworking.field_res_users__sunday_location_id
 msgid "Sundays"
-msgstr ""
+msgstr "Sundays（技术名称）"
 
 #. module: hr_homeworking
 #: model:ir.model.fields,help:hr_homeworking.field_hr_employee__exceptional_location_id
@@ -284,7 +283,7 @@ msgstr "星期四"
 #. module: hr_homeworking
 #: model:ir.model.fields,field_description:hr_homeworking.field_res_users__thursday_location_id
 msgid "Thursdays"
-msgstr ""
+msgstr "Thursdays（技术名称）"
 
 #. module: hr_homeworking
 #: model:ir.model.fields,field_description:hr_homeworking.field_hr_employee__today_location_name
@@ -301,7 +300,7 @@ msgstr "星期二"
 #. module: hr_homeworking
 #: model:ir.model.fields,field_description:hr_homeworking.field_res_users__tuesday_location_id
 msgid "Tuesdays"
-msgstr ""
+msgstr "Tuesdays（技术名称）"
 
 #. module: hr_homeworking
 #. odoo-javascript
@@ -320,7 +319,7 @@ msgstr "用户"
 #. module: hr_homeworking
 #: model_terms:ir.ui.view,arch_db:hr_homeworking.view_employee_form
 msgid "Usual Work Location"
-msgstr ""
+msgstr "Usual Work 库位"
 
 #. module: hr_homeworking
 #: model:ir.model.fields,field_description:hr_homeworking.field_hr_employee__wednesday_location_id
@@ -331,7 +330,7 @@ msgstr "星期三"
 #. module: hr_homeworking
 #: model:ir.model.fields,field_description:hr_homeworking.field_res_users__wednesday_location_id
 msgid "Wednesdays"
-msgstr ""
+msgstr "Wednesdays（技术名称）"
 
 #. module: hr_homeworking
 #: model:ir.model,name:hr_homeworking.model_hr_work_location
@@ -351,12 +350,12 @@ msgid "You cannot delete locations that are being used by your employees"
 msgstr "您不能删除员工正在使用的位置"
 
 #~ msgid ""
-#~ "<span class=\"text-muted fst-italic oe_inline\" colspan=\"2\">Specify "
-#~ "your default work location for each day of the week. This schedule will "
-#~ "repeat itself each week.</span>"
+#~ "<span class=\"text-muted fst-italic oe_inline\" colspan=\"2\">Specify your "
+#~ "default work location for each day of the week. This schedule will repeat "
+#~ "itself each week.</span>"
 #~ msgstr ""
-#~ "<span class=\"text-muted fst-italic oe_inline\" colspan=\"2\">指定一周内每"
-#~ "天的默认工作地点。该计划每周都会重复。</span>"
+#~ "<span class=\"text-muted fst-italic oe_inline\" "
+#~ "colspan=\"2\">指定一周内每天的默认工作地点。该计划每周都会重复。</span>"
 
 #~ msgid "Remote Work"
 #~ msgstr "远程工作"

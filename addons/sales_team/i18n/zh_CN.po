@@ -16,8 +16,7 @@ msgstr ""
 "POT-Creation-Date: 2026-01-25 18:37+0000\n"
 "PO-Revision-Date: 2025-11-10 14:27+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
-"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
-"projects/odoo-19/sales_team/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/projects/odoo-19/sales_team/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,12 +39,8 @@ msgstr "%(user_names)s 已在其他团队内（%(team_names)s）。"
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_member_view_kanban
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_view_form
-msgid ""
-"<i class=\"fa fa-envelope me-1\" role=\"img\" aria-label=\"Email\" "
-"title=\"Email\"/>"
-msgstr ""
-"<i class=\"fa fa-envelope me-1\" role=\"img\" aria-label=\"Email\" "
-"title=\"Email\"/>"
+msgid "<i class=\"fa fa-envelope me-1\" role=\"img\" aria-label=\"Email\" title=\"Email\"/>"
+msgstr "<i class=\"fa fa-envelope me-1\" role=\"img\" aria-label=\"Email\" title=\"Email\"/>"
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_member_view_form
@@ -107,7 +102,8 @@ msgstr "添加团队成员"
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team__crm_team_member_ids
-msgid "Add members to automatically assign their documents to this sales team."
+msgid ""
+"Add members to automatically assign their documents to this sales team."
 msgstr "添加成员，自动将他们的文件分配给这个销售团队。"
 
 #. module: sales_team
@@ -256,7 +252,8 @@ msgstr "最喜欢的成员"
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team__is_favorite
-msgid "Favorite teams to display them in the dashboard and access them easily."
+msgid ""
+"Favorite teams to display them in the dashboard and access them easily."
 msgstr "最喜欢的团队在仪表板中显示它们并轻松访问它们。"
 
 #. module: sales_team
@@ -291,8 +288,7 @@ msgstr "ID"
 msgid ""
 "If True, users may belong to several sales teams. Otherwise membership is "
 "limited to a single sales team."
-msgstr ""
-"如果是真的，用户可以属于几个销售团队。否则，成员资格只限于一个销售团队。"
+msgstr "如果是真的，用户可以属于几个销售团队。否则，成员资格只限于一个销售团队。"
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team__message_needaction
@@ -598,14 +594,15 @@ msgid ""
 "The following team members are not allowed in company '%(company)s' of the "
 "Sales Team '%(team)s': %(users)s"
 msgstr ""
+"The following team members are not allowed in 公司 '%(company)s' of the 销售 "
+"Team '%(team)s': %(users)s"
 
 #. module: sales_team
 #: model_terms:ir.actions.act_window,help:sales_team.mail_activity_type_action_config_sales
 msgid ""
 "Those represent the different categories of things you have to do (e.g. "
 "\"Call\" or \"Prepare meeting\")."
-msgstr ""
-"这些代表了您必须做的不同类别的事情（例如 \"打电话 \"或 \"准备会议\"）。"
+msgstr "这些代表了您必须做的不同类别的事情（例如 \"打电话 \"或 \"准备会议\"）。"
 
 #. module: sales_team
 #: model:crm.tag,name:sales_team.categ_oppor6
@@ -626,7 +623,8 @@ msgstr "用户体验：仅限于团队公司，如果没有公司，则仅限于
 
 #. module: sales_team
 #: model_terms:ir.actions.act_window,help:sales_team.crm_team_action_config
-msgid "Use Sales Teams to organize your sales departments and draw up reports."
+msgid ""
+"Use Sales Teams to organize your sales departments and draw up reports."
 msgstr "使用销售团队来组织您的销售部门并起草报告。"
 
 #. module: sales_team
@@ -658,6 +656,8 @@ msgid ""
 "User '%(user)s' is not allowed in the company '%(company)s' of the Sales "
 "Team '%(team)s'."
 msgstr ""
+"用户 '%(user)s' is not allowed in the 公司 '%(company)s' of the 销售 Team "
+"'%(team)s'."
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__user_company_ids
@@ -709,8 +709,8 @@ msgstr "在多个团队工作？"
 #. odoo-python
 #: code:addons/sales_team/models/crm_team_member.py:0
 msgid ""
-"You are trying to create duplicate membership(s). We found that %"
-"(duplicates)s already exist(s)."
+"You are trying to create duplicate membership(s). We found that "
+"%(duplicates)s already exist(s)."
 msgstr "您试图创建重复的会员资格。我们发现%(duplicates)s已经存在。"
 
 #. module: sales_team
@@ -743,30 +743,24 @@ msgstr "在销售应用，用户只能访问自己的数据。"
 #. module: sales_team
 #: model:res.groups,comment:sales_team.group_sale_manager
 msgid ""
-"the user will have an access to the sales configuration as well as statistic "
-"reports."
+"the user will have an access to the sales configuration as well as statistic"
+" reports."
 msgstr "用户将有权访问销售配置及统计报告。"
 
 #~ msgid ""
-#~ "Adding %(user_name)s in this team would remove him/her from its current "
-#~ "team %(team_name)s."
-#~ msgstr ""
-#~ "在这个团队中添加%(user_name)s，将把他/她从其目前的团队%(team_name)s中移"
-#~ "除。"
+#~ "Adding %(user_name)s in this team would remove him/her from its current team"
+#~ " %(team_name)s."
+#~ msgstr "在这个团队中添加%(user_name)s，将把他/她从其目前的团队%(team_name)s中移除。"
 
 #~ msgid ""
 #~ "Adding %(user_name)s in this team would remove him/her from its current "
 #~ "teams %(team_names)s."
-#~ msgstr ""
-#~ "在这个团队中添加%(user_name)s，将把他/她从其目前的团队%(team_names)s中移"
-#~ "除。"
+#~ msgstr "在这个团队中添加%(user_name)s，将把他/她从其目前的团队%(team_names)s中移除。"
 
 #~ msgid ""
 #~ "Adding %(user_names)s in this team would remove them from their current "
 #~ "teams (%(team_names)s)."
-#~ msgstr ""
-#~ "在这个团队中添加%(user_names)s将把他们从当前的团队（%(team_names)s）中移"
-#~ "除。"
+#~ msgstr "在这个团队中添加%(user_names)s将把他们从当前的团队（%(team_names)s）中移除。"
 
 #~ msgid "Contact"
 #~ msgstr "联系人"
@@ -775,8 +769,8 @@ msgstr "用户将有权访问销售配置及统计报告。"
 #~ msgstr "数据仪表图"
 
 #~ msgid ""
-#~ "Follow this salesteam to automatically track the events associated to "
-#~ "users of this team."
+#~ "Follow this salesteam to automatically track the events associated to users "
+#~ "of this team."
 #~ msgstr "跟踪此销售团队，自动跟踪此团队中用户关联的事件。"
 
 #~ msgid "Group By"
@@ -800,8 +794,8 @@ msgstr "用户将有权访问销售配置及统计报告。"
 #~ msgstr "示例数据"
 
 #~ msgid ""
-#~ "To add a Salesperson into multiple Teams, activate the Multi-Team option "
-#~ "in settings."
+#~ "To add a Salesperson into multiple Teams, activate the Multi-Team option in "
+#~ "settings."
 #~ msgstr "要将一个销售人员加入多个团队，请在设置中激活多团队选项。"
 
 #~ msgid "Undefined graph model for Sales Team: %s"

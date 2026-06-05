@@ -55,7 +55,7 @@ msgstr "会计测试"
 #. module: account_test
 #: model_terms:ir.ui.view,arch_db:account_test.report_accounttest
 msgid "Accounting tests on"
-msgstr ""
+msgstr "Accounting tests on（技术名称）"
 
 #. module: account_test
 #: model:ir.model.fields,field_description:account_test.field_accounting_assert_test__active
@@ -65,7 +65,7 @@ msgstr "有效"
 #. module: account_test
 #: model_terms:ir.ui.view,arch_db:account_test.accounting_assert_test_view_search
 msgid "Archived"
-msgstr ""
+msgstr "归档"
 
 #. module: account_test
 #: model:accounting.assert.test,desc:account_test.account_test_03
@@ -74,7 +74,9 @@ msgstr "检查凭证行是否平衡并且有相同的时间和日期"
 
 #. module: account_test
 #: model:accounting.assert.test,desc:account_test.account_test_07
-msgid "Check on bank statement that the Closing Balance = Starting Balance + sum of statement lines"
+msgid ""
+"Check on bank statement that the Closing Balance = Starting Balance + sum of"
+" statement lines"
 msgstr "在银行对账单检查，期末余额 = 期初余额 + 本期发生额"
 
 #. module: account_test
@@ -84,12 +86,16 @@ msgstr "检查支付/已调节发票并不在'开启'状态"
 
 #. module: account_test
 #: model:accounting.assert.test,desc:account_test.account_test_05_2
-msgid "Check that reconciled account moves, that define Payable and Receivable accounts, are belonging to reconciled invoices"
+msgid ""
+"Check that reconciled account moves, that define Payable and Receivable "
+"accounts, are belonging to reconciled invoices"
 msgstr "检查已调节的会计凭证，属于已调节发票的应付科目和应收科目"
 
 #. module: account_test
 #: model:accounting.assert.test,desc:account_test.account_test_05
-msgid "Check that reconciled invoice for Sales/Purchases has reconciled entries for Payable and Receivable Accounts"
+msgid ""
+"Check that reconciled invoice for Sales/Purchases has reconciled entries for"
+" Payable and Receivable Accounts"
 msgstr "检查已收和已付科目中已调节的分录相关的销售/采购发票"
 
 #. module: account_test
@@ -126,6 +132,17 @@ msgid ""
 "    cr.execute(sql)\n"
 "    result = cr.dictfetchall()"
 msgstr ""
+"代码 should always set a variable named `result` with the result of your test,"
+" that can be a 列表 or a dictionary. If `result` is an empty 列表, it means that"
+" the test was successful. Otherwise it will try to translate and 打印 what is "
+"inside `result`. If the result of your test is a dictionary, you can set a "
+"variable named `column_order` to choose in what 订单 you want to 打印 `result`'s"
+" content. Should you need them, you can also use the following variables "
+"into your 代码: * cr: cursor to the database * uid: ID of the current 用户 In "
+"any ways, the 代码 must be legal python statements with correct indentation "
+"(if needed). Example: sql = '''SELECT ID, 名称, ref, 日期 从 account_move_line "
+"WHERE account_id IN (SELECT ID 从 account_account WHERE 类型 = '查看') ''' "
+"cr.execute(sql) result = cr.dictfetchall()"
 
 #. module: account_test
 #: model_terms:ir.actions.act_window,help:account_test.action_accounting_assert
@@ -184,7 +201,7 @@ msgstr "最后更新时间"
 #. module: account_test
 #: model_terms:ir.ui.view,arch_db:account_test.accounting_assert_test_view_search
 msgid "Name"
-msgstr ""
+msgstr "名称"
 
 #. module: account_test
 #: model_terms:ir.ui.view,arch_db:account_test.account_assert_form
@@ -199,7 +216,7 @@ msgstr "Python代码"
 #. module: account_test
 #: model_terms:ir.ui.view,arch_db:account_test.accounting_assert_test_view_search
 msgid "Search Account Test"
-msgstr ""
+msgstr "搜索 账户 Test"
 
 #. module: account_test
 #: model:ir.model.fields,field_description:account_test.field_accounting_assert_test__sequence
@@ -218,7 +235,8 @@ msgstr "测试 3: 凭证行"
 
 #. module: account_test
 #: model:accounting.assert.test,name:account_test.account_test_05
-msgid "Test 5.1 : Payable and Receivable accountant lines of reconciled invoices"
+msgid ""
+"Test 5.1 : Payable and Receivable accountant lines of reconciled invoices"
 msgstr "测试 5.1 : 已调节发票的应收及应付分录"
 
 #. module: account_test

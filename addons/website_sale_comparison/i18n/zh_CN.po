@@ -16,8 +16,7 @@ msgstr ""
 "POT-Creation-Date: 2026-01-25 18:37+0000\n"
 "PO-Revision-Date: 2025-12-20 09:47+0000\n"
 "Last-Translator: \"Chloe Wang (chwa)\" <chwa@odoo.com>\n"
-"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
-"projects/odoo-19/website_sale_comparison/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/projects/odoo-19/website_sale_comparison/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -84,7 +83,7 @@ msgstr "比较产品"
 #. odoo-javascript
 #: code:addons/website_sale_comparison/static/src/js/product_comparison_bottom_bar/product_comparison_bottom_bar.xml:0
 msgid "Compare products"
-msgstr ""
+msgstr "Compare 产品"
 
 #. module: website_sale_comparison
 #: model_terms:ir.ui.view,arch_db:website_sale_comparison.product_compare
@@ -94,7 +93,7 @@ msgstr "联系我们"
 #. module: website_sale_comparison
 #: model_terms:ir.ui.view,arch_db:website_sale_comparison.product_compare
 msgid "Continue shopping"
-msgstr ""
+msgstr "Continue shopping（技术名称）"
 
 #. module: website_sale_comparison
 #: model_terms:ir.actions.act_window,help:website_sale_comparison.product_attribute_category_action
@@ -114,7 +113,7 @@ msgstr "创建日期"
 #. module: website_sale_comparison
 #: model:product.attribute.category,name:website_sale_comparison.product_attribute_category_design
 msgid "Design"
-msgstr ""
+msgstr "设计"
 
 #. module: website_sale_comparison
 #: model:product.attribute.category,name:website_sale_comparison.product_attribute_category_dimensions
@@ -187,7 +186,7 @@ msgstr "选项"
 #: model_terms:ir.ui.view,arch_db:website_sale_comparison.accordion_specs_item
 #: model_terms:ir.ui.view,arch_db:website_sale_comparison.specifications_table
 msgid "Others"
-msgstr ""
+msgstr "其它"
 
 #. module: website_sale_comparison
 #: model:ir.model,name:website_sale_comparison.model_product_attribute
@@ -204,7 +203,7 @@ msgstr "产品属性类别"
 #. odoo-javascript
 #: code:addons/website_sale_comparison/static/src/js/product_row/product_row.xml:0
 msgid "Product Image"
-msgstr ""
+msgstr "产品图像"
 
 #. module: website_sale_comparison
 #: model:ir.model,name:website_sale_comparison.model_product_template_attribute_line
@@ -230,26 +229,26 @@ msgstr "相关的属性"
 #. odoo-javascript
 #: code:addons/website_sale_comparison/static/src/js/product_comparison_bottom_bar/product_comparison_bottom_bar.xml:0
 msgid "Remove All"
-msgstr ""
+msgstr "移除 All"
 
 #. module: website_sale_comparison
 #: model_terms:ir.ui.view,arch_db:website_sale_comparison.product_compare
 msgid "Remove all"
-msgstr ""
+msgstr "删除所有"
 
 #. module: website_sale_comparison
 #. odoo-javascript
 #: code:addons/website_sale_comparison/static/src/js/product_comparison_bottom_bar/product_comparison_bottom_bar.xml:0
 #: model_terms:ir.ui.view,arch_db:website_sale_comparison.product_compare
 msgid "Remove all products from comparison"
-msgstr ""
+msgstr "移除 all 产品 从 comparison"
 
 #. module: website_sale_comparison
 #. odoo-javascript
 #: code:addons/website_sale_comparison/static/src/js/product_row/product_row.xml:0
 #: model_terms:ir.ui.view,arch_db:website_sale_comparison.product_compare
 msgid "Remove product from comparison"
-msgstr ""
+msgstr "移除 产品 从 comparison"
 
 #. module: website_sale_comparison
 #: model:ir.model.fields,field_description:website_sale_comparison.field_product_attribute_category__sequence
@@ -261,8 +260,7 @@ msgstr "序列"
 msgid ""
 "Set a category to regroup similar attributes under the same section in the "
 "Comparison page of eCommerce."
-msgstr ""
-"在电子商务的 \"比较 \"页面设置一个类别，将类似属性重新组合到同一部分下。"
+msgstr "在电子商务的 \"比较 \"页面设置一个类别，将类似属性重新组合到同一部分下。"
 
 #. module: website_sale_comparison
 #: model_terms:ir.ui.view,arch_db:website_sale_comparison.product_compare
@@ -273,7 +271,7 @@ msgstr "商店比较器"
 #. odoo-javascript
 #: code:addons/website_sale_comparison/static/src/js/product_comparison_bottom_bar/product_comparison_bottom_bar.xml:0
 msgid "Show products added to comparison"
-msgstr ""
+msgstr "Show 产品 added to comparison"
 
 #. module: website_sale_comparison
 #. odoo-javascript
@@ -290,19 +288,19 @@ msgstr "规格"
 #. module: website_sale_comparison
 #: model_terms:ir.ui.view,arch_db:website_sale_comparison.product_compare
 msgid "Tags"
-msgstr ""
+msgstr "标签"
 
 #. module: website_sale_comparison
 #. odoo-javascript
 #: code:addons/website_sale_comparison/static/src/interactions/product_comparison.js:0
 msgid "This product has already been added to the comparison."
-msgstr ""
+msgstr "This 产品 has already been added to the comparison."
 
 #. module: website_sale_comparison
 #. odoo-javascript
 #: code:addons/website_sale_comparison/static/src/interactions/product_comparison.js:0
 msgid "Too many products to compare"
-msgstr ""
+msgstr "Too many 产品 to compare"
 
 #. module: website_sale_comparison
 #: model_terms:ir.ui.view,arch_db:website_sale_comparison.product_compare
@@ -313,7 +311,7 @@ msgstr "未归类"
 #. odoo-javascript
 #: code:addons/website_sale_comparison/static/src/interactions/product_comparison.js:0
 msgid "You can compare up to 4 products at a time."
-msgstr ""
+msgstr "You can compare up to 4 产品 at a time."
 
 #. module: website_sale_comparison
 #: model:ir.model.fields,field_description:website_sale_comparison.field_product_attribute__category_id

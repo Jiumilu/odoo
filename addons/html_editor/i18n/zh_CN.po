@@ -12,8 +12,7 @@ msgstr ""
 "POT-Creation-Date: 2026-05-29 17:36+0000\n"
 "PO-Revision-Date: 2026-04-13 20:52+0000\n"
 "Last-Translator: \"Chloe Wang (chwa)\" <chwa@odoo.com>\n"
-"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
-"projects/odoo-19/html_editor/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/projects/odoo-19/html_editor/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,9 +26,7 @@ msgstr ""
 msgid ""
 "'Alt tag' specifies an alternate text for an image, if the image cannot be "
 "displayed (slow connection, missing image, screen reader ...)."
-msgstr ""
-"如果无法显示图像，则'Alt tag' 指定图像的替代文本（连接速度慢，图像丢失，屏幕"
-"阅读器......）。"
+msgstr "如果无法显示图像，则'Alt tag' 指定图像的替代文本（连接速度慢，图像丢失，屏幕阅读器......）。"
 
 #. module: html_editor
 #. odoo-javascript
@@ -95,8 +92,8 @@ msgstr "动作 %s 不是窗口操作，无法提供链接预览"
 #. odoo-python
 #: code:addons/html_editor/controllers/main.py:0
 msgid ""
-"Action %s not found, link preview is not available, please check your url is "
-"correct"
+"Action %s not found, link preview is not available, please check your url is"
+" correct"
 msgstr "操作 %s 未找到，链接预览不可用，请检查您的网址是否正确"
 
 #. module: html_editor
@@ -176,7 +173,7 @@ msgstr "添加/删除标题"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/link/link_popover.xml:0
 msgid "Advanced mode"
-msgstr ""
+msgstr "Advanced mode（技术名称）"
 
 #. module: html_editor
 #. odoo-javascript
@@ -342,7 +339,7 @@ msgstr "边框"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/link/link_popover.xml:0
 msgid "Border Size"
-msgstr ""
+msgstr "Border Size（技术名称）"
 
 #. module: html_editor
 #. odoo-javascript
@@ -378,7 +375,7 @@ msgstr "取消"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/others/embedded_components/plugins/caption_plugin/caption_plugin.js:0
 msgid "Caption"
-msgstr ""
+msgstr "Caption（技术名称）"
 
 #. module: html_editor
 #. odoo-javascript
@@ -408,7 +405,7 @@ msgstr "再次点击可重置转换"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/movenode_plugin.js:0
 msgid "Click to select"
-msgstr ""
+msgstr "单击选择"
 
 #. module: html_editor
 #. odoo-javascript
@@ -428,7 +425,7 @@ msgstr "代码"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/others/embedded_components/backend/syntax_highlighting/code_toolbar.xml:0
 msgid "Code copied to the clipboard."
-msgstr ""
+msgstr "代码 copied to the clipboard."
 
 #. module: html_editor
 #. odoo-javascript
@@ -476,7 +473,7 @@ msgstr "转换为列"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/others/embedded_components/backend/syntax_highlighting/code_toolbar.xml:0
 msgid "Convert to paragraph"
-msgstr ""
+msgstr "Convert to paragraph（技术名称）"
 
 #. module: html_editor
 #. odoo-javascript
@@ -565,7 +562,7 @@ msgstr "描述"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/link/link_popover.xml:0
 msgid "Direct download"
-msgstr ""
+msgstr "Direct download（技术名称）"
 
 #. module: html_editor
 #. odoo-javascript
@@ -613,7 +610,7 @@ msgstr "文档"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/movenode_plugin.js:0
 msgid "Drag to move"
-msgstr ""
+msgstr "Drag to move（技术名称）"
 
 #. module: html_editor
 #. odoo-javascript
@@ -897,12 +894,12 @@ msgstr "HTML"
 #. module: html_editor
 #: model:ir.model,name:html_editor.model_html_editor_converter_test_sub
 msgid "Html Editor Converter Subtest"
-msgstr ""
+msgstr "HTML Editor Converter Subtest（技术名称）"
 
 #. module: html_editor
 #: model:ir.model,name:html_editor.model_html_editor_converter_test
 msgid "Html Editor Converter Test"
-msgstr ""
+msgstr "HTML Editor Converter Test（技术名称）"
 
 #. module: html_editor
 #: model:ir.model.fields,field_description:html_editor.field_html_editor_converter_test_sub__id
@@ -967,7 +964,7 @@ msgstr "图像"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/link/link_popover.js:0
 msgid "Indicates the link is sponsored or paid content"
-msgstr ""
+msgstr "Indicates the link is sponsored or paid content（技术名称）"
 
 #. module: html_editor
 #. odoo-javascript
@@ -997,7 +994,7 @@ msgstr "插入水平分隔线"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/banner_plugin.js:0
 msgid "Insert a monospace banner"
-msgstr ""
+msgstr "Insert a monospace banner（技术名称）"
 
 #. module: html_editor
 #. odoo-javascript
@@ -1063,7 +1060,7 @@ msgstr "插入图片或图标"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/media/media_plugin.js:0
 msgid "Insert image, icon or video"
-msgstr ""
+msgstr "Insert image, icon or video（技术名称）"
 
 #. module: html_editor
 #. odoo-javascript
@@ -1128,7 +1125,7 @@ msgstr "链接"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/link/link_popover.xml:0
 msgid "Link Popover"
-msgstr ""
+msgstr "Link Popover（技术名称）"
 
 #. module: html_editor
 #. odoo-javascript
@@ -1140,7 +1137,8 @@ msgstr "链接已复制到剪贴板。"
 #. odoo-python
 #: code:addons/html_editor/controllers/main.py:0
 msgid ""
-"Link preview is not available because %s, please check if your url is correct"
+"Link preview is not available because %s, please check if your url is "
+"correct"
 msgstr "因为 %s，无法提供链接预览，请检查您的网址是否正确"
 
 #. module: html_editor
@@ -1179,7 +1177,7 @@ msgstr "循环"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/media/media_dialog/video_selector.xml:0
 msgid "MM:SS"
-msgstr ""
+msgstr "MM:SS（技术名称）"
 
 #. module: html_editor
 #. odoo-javascript
@@ -1215,19 +1213,19 @@ msgstr "缺少文件"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/powerbox/powerbox_plugin.js:0
 msgid "Modules"
-msgstr ""
+msgstr "模块"
 
 #. module: html_editor
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/banner_plugin.js:0
 msgid "Monospace"
-msgstr ""
+msgstr "Monospace（技术名称）"
 
 #. module: html_editor
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/banner_plugin.js:0
 msgid "Monospace Banner"
-msgstr ""
+msgstr "Monospace Banner（技术名称）"
 
 #. module: html_editor
 #. odoo-javascript
@@ -1350,7 +1348,7 @@ msgstr "打开一个新标签"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/link/link_popover.xml:0
 msgid "Open in new tab"
-msgstr ""
+msgstr "Open in 新建 tab"
 
 #. module: html_editor
 #. odoo-javascript
@@ -1397,7 +1395,7 @@ msgstr "Y 坐标"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/link/link_popover.js:0
 msgid "Prevents the new page from accessing the original window (security)"
-msgstr ""
+msgstr "Prevents the 新建 page 从 accessing the original window (security)"
 
 #. module: html_editor
 #. odoo-javascript
@@ -1565,7 +1563,7 @@ msgstr "移除栏"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/link/link_popover.js:0
 msgid "Removes referrer information sent to the target site"
-msgstr ""
+msgstr "Removes referrer 信息 已发送 to the target site"
 
 #. module: html_editor
 #. odoo-javascript
@@ -1578,7 +1576,7 @@ msgstr "替换"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/link/link_popover.xml:0
 msgid "Replace URL with its title"
-msgstr ""
+msgstr "Replace URL with its title（技术名称）"
 
 #. module: html_editor
 #. odoo-javascript
@@ -1704,7 +1702,7 @@ msgstr "搜索图像"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/media/media_dialog/image_selector.xml:0
 msgid "Search the web for royalty-free images"
-msgstr ""
+msgstr "搜索 the web for royalty-free images"
 
 #. module: html_editor
 #. odoo-javascript
@@ -1728,13 +1726,13 @@ msgstr "选择媒体"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/link/link_popover.xml:0
 msgid "Select button shape"
-msgstr ""
+msgstr "Select button shape（技术名称）"
 
 #. module: html_editor
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/link/link_popover.xml:0
 msgid "Select button size"
-msgstr ""
+msgstr "Select button size（技术名称）"
 
 #. module: html_editor
 #. odoo-javascript
@@ -1809,12 +1807,14 @@ msgid ""
 "Showing all differences between the current version and the selected one "
 "updated by"
 msgstr ""
+"Showing all differences between the current version and the selected one 已更新"
+" by"
 
 #. module: html_editor
 #. odoo-javascript
 #: code:addons/html_editor/static/src/components/history_dialog/history_dialog.xml:0
 msgid "Showing the document as it was on"
-msgstr ""
+msgstr "Showing the 单据 as it was on"
 
 #. module: html_editor
 #. odoo-javascript
@@ -1850,7 +1850,7 @@ msgstr "对不起，您的提示太长了。请尝试用更少的字数表达。
 #. odoo-javascript
 #: code:addons/html_editor/static/src/components/history_dialog/history_dialog.xml:0
 msgid "Split view"
-msgstr ""
+msgstr "Split 查看"
 
 #. module: html_editor
 #. odoo-javascript
@@ -1862,7 +1862,7 @@ msgstr "星"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/media/media_dialog/video_selector.js:0
 msgid "Start at"
-msgstr ""
+msgstr "Start at（技术名称）"
 
 #. module: html_editor
 #. odoo-javascript
@@ -1905,7 +1905,7 @@ msgstr "目录"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/link/link_popover.js:0
 msgid "Tells search engines not to follow this link"
-msgstr ""
+msgstr "Tells 搜索 engines not to 关注 this link"
 
 #. module: html_editor
 #. odoo-javascript
@@ -1943,9 +1943,7 @@ msgstr "日期时间值 %(value)s 不符合 %(format)s格式"
 msgid ""
 "The document was already saved from someone with a different history for "
 "model \"%(model)s\", field \"%(field)s\" with id \"%(id)d\"."
-msgstr ""
-"文件已由其他有不同历史记录的人保存。历史记录项目：模型 \"%(model)s\", 字段 "
-"\"%(field)s\" 唯一ID \"%(id)d\"."
+msgstr "文件已由其他有不同历史记录的人保存。历史记录项目：模型 \"%(model)s\", 字段 \"%(field)s\" 唯一ID \"%(id)d\"."
 
 #. module: html_editor
 #. odoo-javascript
@@ -1954,6 +1952,8 @@ msgid ""
 "The image could not be deleted because it is used in the\n"
 "                following pages or views:"
 msgstr ""
+"The image could not be 已删除 because it is used in the following pages or "
+"views:"
 
 #. module: html_editor
 #. odoo-javascript
@@ -2001,7 +2001,7 @@ msgstr "这个图像是一个外部图像"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/components/history_dialog/history_dialog.xml:0
 msgid "This is the current version, nothing to compare."
-msgstr ""
+msgstr "This is the current version, nothing to compare.（技术名称）"
 
 #. module: html_editor
 #. odoo-javascript
@@ -2009,9 +2009,7 @@ msgstr ""
 msgid ""
 "This type of image is not supported for cropping.<br/>If you want to crop "
 "it, please first download it from the original source and upload it in Odoo."
-msgstr ""
-"这种类型的图像不支持裁剪。<br/>如果您想裁剪，请先从原始来源下载并在Odoo中上"
-"传。"
+msgstr "这种类型的图像不支持裁剪。<br/>如果您想裁剪，请先从原始来源下载并在绿色供应链公共服务平台中上传。"
 
 #. module: html_editor
 #. odoo-javascript
@@ -2102,13 +2100,13 @@ msgstr "尝试使用其他关键字进行搜索。"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/table/table_menu.js:0
 msgid "Turn into header"
-msgstr ""
+msgstr "Turn into header（技术名称）"
 
 #. module: html_editor
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/table/table_menu.js:0
 msgid "Turn into row"
-msgstr ""
+msgstr "Turn into row（技术名称）"
 
 #. module: html_editor
 #. odoo-javascript
@@ -2150,7 +2148,7 @@ msgstr "取消"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/components/history_dialog/history_dialog.xml:0
 msgid "Unified view"
-msgstr ""
+msgstr "Unified 查看"
 
 #. module: html_editor
 #. odoo-javascript
@@ -2180,13 +2178,13 @@ msgstr "上传的图像格式不被支持。请尝试使用:%s"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/components/history_dialog/history_dialog.xml:0
 msgid "Version date"
-msgstr ""
+msgstr "Version 日期"
 
 #. module: html_editor
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/table/table_align_plugin.js:0
 msgid "Vertical align table cells content"
-msgstr ""
+msgstr "Vertical align table cells content（技术名称）"
 
 #. module: html_editor
 #. odoo-javascript
@@ -2222,19 +2220,19 @@ msgstr "视图"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/components/history_dialog/history_dialog.xml:0
 msgid "View Content"
-msgstr ""
+msgstr "查看 Content"
 
 #. module: html_editor
 #. odoo-javascript
 #: code:addons/html_editor/static/src/components/history_dialog/history_dialog.xml:0
 msgid "View comparison"
-msgstr ""
+msgstr "查看 comparison"
 
 #. module: html_editor
 #. odoo-javascript
 #: code:addons/html_editor/static/src/components/history_dialog/history_dialog.xml:0
 msgid "View content"
-msgstr ""
+msgstr "查看 content"
 
 #. module: html_editor
 #. odoo-javascript
@@ -2260,7 +2258,7 @@ msgstr "哇，这里感觉有点空。从右上角的按钮上传！"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/others/embedded_components/plugins/caption_plugin/caption_plugin.js:0
 msgid "Write a caption..."
-msgstr ""
+msgstr "Write a caption...（技术名称）"
 
 #. module: html_editor
 #. odoo-javascript
@@ -2274,9 +2272,7 @@ msgstr "是"
 msgid ""
 "You can not replace a field by this image. If you want to use this image, "
 "first save it on your computer and then upload it here."
-msgstr ""
-"您不能用该图片替换字段。如果您想使用该图片，请先将其保存在电脑上，然后上传到"
-"这里。"
+msgstr "您不能用该图片替换字段。如果您想使用该图片，请先将其保存在电脑上，然后上传到这里。"
 
 #. module: html_editor
 #. odoo-javascript
@@ -2359,7 +2355,7 @@ msgstr "度"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/separator_plugin.js:0
 msgid "divider"
-msgstr ""
+msgstr "divider（技术名称）"
 
 #. module: html_editor
 #. odoo-javascript
@@ -2383,13 +2379,13 @@ msgstr "文件"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/separator_plugin.js:0
 msgid "line"
-msgstr ""
+msgstr "行"
 
 #. module: html_editor
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/link/link_popover.xml:0
 msgid "noopener"
-msgstr ""
+msgstr "noopener（技术名称）"
 
 #. module: html_editor
 #. odoo-javascript
@@ -2413,7 +2409,7 @@ msgstr "px"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/font/font_plugin.js:0
 msgid "title"
-msgstr ""
+msgstr "title（技术名称）"
 
 #. module: html_editor
 #. odoo-javascript
@@ -2430,7 +2426,7 @@ msgstr "websocket消息处理"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/table/table_picker.xml:0
 msgid "x"
-msgstr ""
+msgstr "x（技术名称）"
 
 #~ msgid "Copy Link"
 #~ msgstr "复制链接"
@@ -2457,8 +2453,8 @@ msgstr ""
 #~ msgstr "内容"
 
 #~ msgid ""
-#~ "Discover a world of awesomeness in our copyright-free image haven. No "
-#~ "legal drama, just nice images!"
+#~ "Discover a world of awesomeness in our copyright-free image haven. No legal "
+#~ "drama, just nice images!"
 #~ msgstr "在我们的无版权图片天堂，发现精彩世界。没有法律纠纷，只有精美图片！"
 
 #~ msgid "Embed a video"

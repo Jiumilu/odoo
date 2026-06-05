@@ -1,0 +1,86 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_ma
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_ma
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ma.model_account_chart_template
+msgid "Account Chart Template"
+msgstr "科目表模版"
+
+#. module: l10n_ma
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ma.field_base_document_layout__company_details
+msgid "Company Details"
+msgstr "公司详情"
+
+#. module: l10n_ma
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ma.model_base_document_layout
+msgid "Company Document Layout"
+msgstr "公司文档布局"
+
+#. module: l10n_ma
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ma.model_res_partner
+msgid "Contact"
+msgstr "联系人"
+
+#. module: l10n_ma
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,website_form_label:l10n_ma.model_res_partner
+msgid "Create a Customer"
+msgstr "创建客户"
+
+#. module: l10n_ma
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ma.field_account_chart_template__display_name
+#: model:ir.model.fields,field_description:l10n_ma.field_base_document_layout__display_name
+#: model:ir.model.fields,field_description:l10n_ma.field_res_partner__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_ma
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ma.field_base_document_layout__company_details
+msgid "Header text displayed at the top of all reports."
+msgstr "所有报告顶部显示的标题文本。"
+
+#. module: l10n_ma
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ma/models/res_partner.py:0
+#: model_terms:ir.ui.view,arch_db:l10n_ma.view_company_form
+#: model_terms:ir.ui.view,arch_db:l10n_ma.view_partner_property_form
+msgid "ICE"
+msgstr "ICE（技术名称）"
+
+#. module: l10n_ma
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ma/models/res_partner.py:0
+msgid "ICE number should have exactly 15 digits."
+msgstr "ICE 编号 should have exactly 15 digits."
+
+#. module: l10n_ma
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ma.field_account_chart_template__id
+#: model:ir.model.fields,field_description:l10n_ma.field_base_document_layout__id
+#: model:ir.model.fields,field_description:l10n_ma.field_res_partner__id
+msgid "ID"
+msgstr "ID"

@@ -11,8 +11,7 @@ msgstr ""
 "POT-Creation-Date: 2025-11-13 15:34+0000\n"
 "PO-Revision-Date: 2025-11-17 03:14+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
-"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
-"projects/odoo-19-l10n/l10n_lk/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/projects/odoo-19-l10n/l10n_lk/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,17 +23,17 @@ msgstr ""
 #: model:account.report.line,name:l10n_lk.l10n_lk_wht001_lk_wht_001e_aitd_1
 #: model:account.report.line,name:l10n_lk.l10n_lk_wht001_lk_wht_001e_whtd_1
 msgid "1. Interest or Discount"
-msgstr ""
+msgstr "1. Interest or 折扣"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_wht001_lk_wht_001e_whtd_10
 msgid "10. Sale of gem at an auction"
-msgstr ""
+msgstr "10. 销售 of gem at an auction"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_10
 msgid "10: Brought Forward Input Tax"
-msgstr ""
+msgstr "10: Brought Forward Input 税"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_11
@@ -42,6 +41,8 @@ msgid ""
 "11: Zero Rated Supplies/Suspended Supplies/22(7) {Cage "
 "9*(C+D+D1)/(A+A1+A2+B+C+D+D1)}"
 msgstr ""
+"11: Zero Rated Supplies/Suspended Supplies/22(7) {Cage "
+"9*(C+D+D1)/(A+A1+A2+B+C+D+D1)}（技术名称）"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_12
@@ -49,134 +50,137 @@ msgid ""
 "12: Not belongs to above {(9+10-11) or 100% of cage 0+1+1A+2 whichever is "
 "lower} "
 msgstr ""
+"12: Not belongs to above {(9+10-11) or 100% of cage 0+1+1A+2 whichever is "
+"lower}（技术名称）"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_13
 msgid "13: Allowable Input (11+12)"
-msgstr ""
+msgstr "13: Allowable Input (11+12)（技术名称）"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_14
 msgid "14: Unabsorbed Excess Input Tax C/F to next Quarter (9+10-13)"
-msgstr ""
+msgstr "14: Unabsorbed Excess Input 税 C/F to next Quarter (9+10-13)"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_15
 msgid "15: Gross Refund Due if (13-3-8A) > 0"
-msgstr ""
+msgstr "15: Gross 退款 Due if (13-3-8A) > 0"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_16
 msgid "16: Tax Payable if (3-13+8A) > 0"
-msgstr ""
+msgstr "16: 税 Payable if (3-13+8A) > 0"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_17
 msgid "17: Total Tax Credits (Q+R+R1+R2+R3+S)"
-msgstr ""
+msgstr "17: 合计 税 Credits (Q+R+R1+R2+R3+S)"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_18
 msgid "18: Tax Payable/(Refund Due) (16-17-15)"
-msgstr ""
+msgstr "18: 税 Payable/(退款 Due) (16-17-15)"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_wht001_lk_wht_001e_aitd_2
 #: model:account.report.line,name:l10n_lk.l10n_lk_wht001_lk_wht_001e_whtd_2
 msgid "2. Charges"
-msgstr ""
+msgstr "2. Charges（技术名称）"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_wht001_lk_wht_001e_aitd_3
 msgid "3. Natural resource Payments"
-msgstr ""
+msgstr "3. Natural resource 付款"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_wht001_lk_wht_001e_whtd_3
 msgid "3. Natural resource payment"
-msgstr ""
+msgstr "3. Natural resource 付款"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_tot
 msgid "3: Total Output Tax (0+1+1A+2+2A)"
-msgstr ""
+msgstr "3: 合计 Output 税 (0+1+1A+2+2A)"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_wht001_lk_wht_001e_aitd_4
 #: model:account.report.line,name:l10n_lk.l10n_lk_wht001_lk_wht_001e_whtd_4
 msgid "4. Rent"
-msgstr ""
+msgstr "4. Rent（技术名称）"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_wht001_lk_wht_001e_aitd_5
 #: model:account.report.line,name:l10n_lk.l10n_lk_wht001_lk_wht_001e_whtd_5
 msgid "5. Royalty"
-msgstr ""
+msgstr "5. Royalty（技术名称）"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_wht001_lk_wht_001e_aitd_6
 msgid "6. Dividend"
-msgstr ""
+msgstr "6. Dividend（技术名称）"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_wht001_lk_wht_001e_whtd_6
 msgid "6. Service fee or insurance premium"
-msgstr ""
+msgstr "6. 服务 fee or insurance premium"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_wht001_lk_wht_001e_whtd_7
 msgid "7. Fee on Transport or Telecommunications Service"
-msgstr ""
+msgstr "7. Fee on Transport or Telecommunications 服务"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_wht001_lk_wht_001e_aitd_7
 msgid "7. Premium or Similar Periodic Payment or payment on services"
-msgstr ""
+msgstr "7. Premium or Similar Periodic 付款 or 付款 on services"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_tit
 msgid "7: Total Input Tax (4+5+6)"
-msgstr ""
+msgstr "7: 合计 Input 税 (4+5+6)"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_wht001_lk_wht_001e_whtd_8
 msgid "8. Any other payments (Dividend, ect)"
-msgstr ""
+msgstr "8. Any 其他 付款 (Dividend, ect)"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_8
 msgid "8: Disallowable Input Tax on Imports, other Purchases and Adjustments"
-msgstr ""
+msgstr "8: Disallowable Input 税 on Imports, 其他 Purchases and Adjustments"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_8a
 msgid "8A: Disallowable Input Tax on Suspended Purchases"
-msgstr ""
+msgstr "8A: Disallowable Input 税 on Suspended Purchases"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_wht001_lk_wht_001e_whtd_9
 msgid "9. Rewards, ro winnings from lottery / betting / gambling"
-msgstr ""
+msgstr "9. Rewards, ro winnings 从 lottery / betting / gambling"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_9
 msgid "9: Allowable Input Tax excluding B/F Amounts (7–8)"
-msgstr ""
+msgstr "9: Allowable Input 税 excluding B/F Amounts (7–8)"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_a
 msgid "A, 0: Taxable Supplies"
-msgstr ""
+msgstr "A, 0: Taxable Supplies（技术名称）"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_a1
 msgid "A1, 1: Deemed Taxable Supplies (Specified Projects)"
-msgstr ""
+msgstr "A1, 1: Deemed Taxable Supplies (Specified Projects)（技术名称）"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_a2
 msgid "A2, 1A: Deemed Taxable Supplies (Strategic Development Projects)"
 msgstr ""
+"A2, 1A: Deemed Taxable Supplies (Strategic Development Projects)（技术名称）"
 
 #. module: l10n_lk
 #: model:ir.model,name:l10n_lk.model_account_chart_template
@@ -186,42 +190,42 @@ msgstr "科目表模版"
 #. module: l10n_lk
 #: model:account.report.column,name:l10n_lk.l10n_lk_wht001_balance_d
 msgid "Amount Deducted"
-msgstr ""
+msgstr "金额 Deducted"
 
 #. module: l10n_lk
 #: model:account.report.column,name:l10n_lk.l10n_lk_wht001_balance_c
 msgid "Amount Liable"
-msgstr ""
+msgstr "金额 Liable"
 
 #. module: l10n_lk
 #: model:account.report.column,name:l10n_lk.l10n_lk_wht001_balance_b
 msgid "Amount Not Liable"
-msgstr ""
+msgstr "金额 Not Liable"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_b
 msgid "B, 2: Wholesale and Retail Taxable Supplies"
-msgstr ""
+msgstr "B, 2: Wholesale and Retail Taxable Supplies（技术名称）"
 
 #. module: l10n_lk
 #: model:account.report.column,name:l10n_lk.l10n_lk_vat001_balance_a
 msgid "Balance A"
-msgstr ""
+msgstr "余额 A"
 
 #. module: l10n_lk
 #: model:account.report.column,name:l10n_lk.l10n_lk_vat001_balance_b
 msgid "Balance B"
-msgstr ""
+msgstr "余额 B"
 
 #. module: l10n_lk
 #: model:account.report.column,name:l10n_lk.l10n_lk_vat001_balance_c
 msgid "Balance C"
-msgstr ""
+msgstr "余额 C"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_c
 msgid "C, 2A: VAT Suspended Taxable Supplies"
-msgstr ""
+msgstr "C, 2A: VAT Suspended Taxable Supplies（技术名称）"
 
 #. module: l10n_lk
 #. odoo-python
@@ -232,12 +236,12 @@ msgstr "现金"
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_d1
 msgid "D1: Zero Rated Supplies (Services)"
-msgstr ""
+msgstr "D1: Zero Rated Supplies (Services)（技术名称）"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_d
 msgid "D: Zero Rated Supplies (Goods)"
-msgstr ""
+msgstr "D: Zero Rated Supplies (Goods)（技术名称）"
 
 #. module: l10n_lk
 #: model:ir.model.fields,field_description:l10n_lk.field_account_chart_template__display_name
@@ -247,37 +251,37 @@ msgstr "显示名称"
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_e1
 msgid "E1: Excluded Supplies"
-msgstr ""
+msgstr "E1: Excluded Supplies（技术名称）"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_e
 msgid "E: Exempt Supplies"
-msgstr ""
+msgstr "E: Exempt Supplies（技术名称）"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_f
 msgid "F, F1: Local Supply of Garments"
-msgstr ""
+msgstr "F, F1: Local Supply of Garments（技术名称）"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_g
 msgid "G, G1: Local Supply of Fabrics"
-msgstr ""
+msgstr "G, G1: Local Supply of Fabrics（技术名称）"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_h
 msgid "H, 4, 5: Imports"
-msgstr ""
+msgstr "H, 4, 5: Imports（技术名称）"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_i
 msgid "I, 6: Local Purchases"
-msgstr ""
+msgstr "I, 6: Local Purchases（技术名称）"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_wht001_lk_wht_001e_whtd_11
 msgid "IA Total (1-10)"
-msgstr ""
+msgstr "IA 合计 (1-10)"
 
 #. module: l10n_lk
 #: model:ir.model.fields,field_description:l10n_lk.field_account_chart_template__id
@@ -287,102 +291,102 @@ msgstr "ID"
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_wht001_lk_wht_001e_aitd_8
 msgid "IIA Total (1-7)"
-msgstr ""
+msgstr "IIA 合计 (1-7)"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_j
 msgid "J, K: VAT Suspended Purchases"
-msgstr ""
+msgstr "J, K: VAT Suspended Purchases（技术名称）"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_j1
 msgid "J1, K1: Non-Foreign Exchange Purchases"
-msgstr ""
+msgstr "J1, K1: Non-Foreign Exchange Purchases（技术名称）"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_j2
 msgid "J2: Imports on which VAT is not charged"
-msgstr ""
+msgstr "J2: Imports on which VAT is not charged（技术名称）"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_j3
 msgid "J3: Local Purchases on which VAT is not charged"
-msgstr ""
+msgstr "J3: Local Purchases on which VAT is not charged（技术名称）"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_j4
 msgid "J4: Goods Purchased from Non VAT Registered Persons"
-msgstr ""
+msgstr "J4: Goods Purchased 从 Non VAT Registered Persons"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_l
 msgid "L: Unabsorbed VAT as at 31/12/2010"
-msgstr ""
+msgstr "L: Unabsorbed VAT as at 31/12/2010（技术名称）"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_m
 msgid "M: The aggregate Input Tax set off against VAT after 01/01/2011"
-msgstr ""
+msgstr "M: The aggregate Input 税 set off against VAT after 01/01/2011"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_n
 msgid "N: The aggregate Input Tax set off against other taxes payable to CGIR"
-msgstr ""
+msgstr "N: The aggregate Input 税 set off against 其他 税 payable to CGIR"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_o
 msgid "O: The aggregate input Tax set off against taxes payable to DGC"
-msgstr ""
+msgstr "O: The aggregate input 税 set off against 税 payable to DGC"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_p
 msgid "P: Unabsorbed balance to be C/F (L-(M+N+O))"
-msgstr ""
+msgstr "P: Unabsorbed 余额 to be C/F (L-(M+N+O))"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_wht001_lk_wht_001e_whtd
 msgid "PART I – Summery of Withholding Tax (WHT) Deductions "
-msgstr ""
+msgstr "PART I – Summery of Withholding 税 (WHT) Deductions"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_wht001_lk_wht_001e_aitd
 msgid "PART II – Summery of Advance Income Tax (AIT) Deductions "
-msgstr ""
+msgstr "PART II – Summery of Advance Income 税 (AIT) Deductions"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_ot
 msgid "Part (I) - Output tax"
-msgstr ""
+msgstr "Part (I) - Output 税"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_it
 msgid "Part (II) - Input tax"
-msgstr ""
+msgstr "Part (II) - Input 税"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_ait
 msgid "Part (III) - Allowable Input tax"
-msgstr ""
+msgstr "Part (III) - Allowable Input 税"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_tpr
 msgid "Part (IV) - Tax Payable/Refundable"
-msgstr ""
+msgstr "Part (IV) - 税 Payable/Refundable"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_q
 msgid "Q: Monthly Payment"
-msgstr ""
+msgstr "Q: Monthly 付款"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_r1
 msgid "R1: Deemed Tax Credit (Strategic Development Project)"
-msgstr ""
+msgstr "R1: Deemed 税 贷方 (Strategic Development 项目)"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_r2
 msgid "R2: Tax Credit based on SVAT Credit Voucher"
-msgstr ""
+msgstr "R2: 税 贷方 based on SVAT 贷方 Voucher"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_r3
@@ -390,46 +394,48 @@ msgid ""
 "R3: Allowed Deemed Input Credit on Wholesale and Retail R2 R3=(R3B+R3F) = "
 "Lesser amount of cage 2 or {Cage 16 – (R+R1+R2}"
 msgstr ""
+"R3: Allowed Deemed Input 贷方 on Wholesale and Retail R2 R3=(R3B+R3F) = Lesser"
+" 金额 of cage 2 or {Cage 16 – (R+R1+R2}"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_r3a
 msgid "R3A: B/F Credit on Stock"
-msgstr ""
+msgstr "R3A: B/F 贷方 on 库存"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_r3b
 msgid "R3B: Claimed Credit on Stock for the Period"
-msgstr ""
+msgstr "R3B: Claimed 贷方 on 库存 for the Period"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_r3c
 msgid "R3C: C/F Credit on Stock"
-msgstr ""
+msgstr "R3C: C/F 贷方 on 库存"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_r3d
 msgid "R3D: B/F Credit on Purchase"
-msgstr ""
+msgstr "R3D: B/F 贷方 on 采购"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_r3e
 msgid "R3E: Credit on purchases for the Period"
-msgstr ""
+msgstr "R3E: 贷方 on purchases for the Period"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_r3f
 msgid "R3F: Claimed Credit on purchases for the Period"
-msgstr ""
+msgstr "R3F: Claimed 贷方 on purchases for the Period"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_r3g
 msgid "R3G: C/F Credit on Purchase"
-msgstr ""
+msgstr "R3G: C/F 贷方 on 采购"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_r
 msgid "R: Deemed Tax Credit (Specified Projects)"
-msgstr ""
+msgstr "R: Deemed 税 贷方 (Specified Projects)"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_s1
@@ -437,33 +443,34 @@ msgid ""
 "S1A, S1B, S1C: The Input tax set off against other taxes payable to CGIR "
 "(IT/ESC/NBT)"
 msgstr ""
+"S1A, S1B, S1C: The Input 税 set off against 其他 税 payable to CGIR (IT/ESC/NBT)"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_s2
 msgid "S2: The Input tax set off against taxes payable to DGC"
-msgstr ""
+msgstr "S2: The Input 税 set off against 税 payable to DGC"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_s3
 msgid "S3: Total claimed from Unabsorbed Input Tax (S+S1A+S1B+S1C+S2)"
-msgstr ""
+msgstr "S3: 合计 claimed 从 Unabsorbed Input 税 (S+S1A+S1B+S1C+S2)"
 
 #. module: l10n_lk
 #: model:account.report.line,name:l10n_lk.l10n_lk_vat001_lk_vat_001e_s
 msgid "S: Claim for this Period out of Cage L"
-msgstr ""
+msgstr "S: Claim for this Period out of Cage L（技术名称）"
 
 #. module: l10n_lk
 #: model:account.report.column,name:l10n_lk.l10n_lk_wht001_balance_a
 msgid "Total Payment Value"
-msgstr ""
+msgstr "合计 付款 值"
 
 #. module: l10n_lk
 #: model:account.report,name:l10n_lk.l10n_lk_vat001
 msgid "VAT Return Form VAT-001"
-msgstr ""
+msgstr "VAT 退货 表单 VAT-001"
 
 #. module: l10n_lk
 #: model:account.report,name:l10n_lk.l10n_lk_wht001
 msgid "WHT/AIT Return Form WHT-001"
-msgstr ""
+msgstr "WHT/AIT 退货 表单 WHT-001"

@@ -1,0 +1,822 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_es_edi_tbai
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_tbai.selection__l10n_es_edi_tbai_document__state__accepted
+msgid "Accepted"
+msgstr "已接收"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_es_edi_tbai.model_account_move_reversal
+msgid "Account Move Reversal"
+msgstr "会计分录撤销"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_es_edi_tbai.model_account_move_send
+msgid "Account Move Send"
+msgstr "科目分录发送"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_es_edi_tbai.field_account_bank_statement_line__l10n_es_tbai_refund_reason
+#: model:ir.model.fields,help:l10n_es_edi_tbai.field_account_move__l10n_es_tbai_refund_reason
+#: model:ir.model.fields,help:l10n_es_edi_tbai.field_account_move_reversal__l10n_es_tbai_refund_reason
+msgid ""
+"BOE-A-1992-28740. Ley 37/1992, de 28 de diciembre, del Impuesto sobre el "
+"Valor Añadido. Artículo 80. Modificación de la base imponible."
+msgstr ""
+"BOE-A-1992-28740. Ley 37/1992, de 28 de diciembre, del Impuesto sobre el "
+"Valor Añadido. Artículo 80. Modificación de la base imponible.（技术名称）"
+
+#. module: l10n_es_edi_tbai
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai/models/account_move.py:0
+msgid ""
+"Be careful if you modified this vendor bill, because the official version is"
+" still the previous one sent. "
+msgstr ""
+"Be careful if you modified this 供应商账单, because the official version is still"
+" the previous one 已发送."
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_tbai.selection__account_move__l10n_es_tbai_state__cancelled
+msgid "Cancelled"
+msgstr "已取消"
+
+#. module: l10n_es_edi_tbai
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai/models/account_move.py:0
+msgid "Cannot send an entry that is not posted to TicketBAI."
+msgstr "Cannot 发送 an 分录 that is not 已过账 to TicketBAI."
+
+#. module: l10n_es_edi_tbai
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai/models/account_move.py:0
+msgid "Cannot send this entry as it is already being processed."
+msgstr "Cannot 发送 this 分录 as it is already being processed."
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_es_edi_tbai.model_certificate_certificate
+msgid "Certificate"
+msgstr "证书"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_res_company__l10n_es_tbai_certificate_id
+msgid "Certificate (TicketBAI)"
+msgstr "证书 (TicketBAI)"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_certificate_certificate__scope
+msgid "Certificate scope"
+msgstr "证书范围"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.ui.menu,name:l10n_es_edi_tbai.menu_l10n_es_edi_tbai_certificates
+msgid "Certificates"
+msgstr "证书"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.act_window,name:l10n_es_edi_tbai.l10n_es_edi_tbai_certificate_action
+msgid "Certificates for EDI TicketBAI invoices on Spain"
+msgstr "Certificates for EDI TicketBAI 发票 on Spain"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_l10n_es_edi_tbai_document__chain_index
+msgid "Chain Index"
+msgstr "Chain Index（技术名称）"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_es_edi_tbai.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_l10n_es_edi_tbai_document__company_id
+msgid "Company"
+msgstr "公司"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_es_edi_tbai.model_res_config_settings
+msgid "Config Settings"
+msgstr "配置设定"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.actions.act_window,help:l10n_es_edi_tbai.l10n_es_edi_tbai_certificate_action
+msgid "Create the first certificate"
+msgstr "创建 the first 证书"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_l10n_es_edi_tbai_document__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_l10n_es_edi_tbai_document__create_date
+msgid "Created on"
+msgstr "创建日期"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_l10n_es_edi_tbai_document__date
+msgid "Date"
+msgstr "日期"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_account_move_line__display_name
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_account_move_reversal__display_name
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_account_move_send__display_name
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_certificate_certificate__display_name
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_l10n_es_edi_tbai_document__display_name
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_res_company__display_name
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_res_config_settings__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_es_edi_tbai
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai/models/account_move_send.py:0
+msgid "Error when sending the invoice to TicketBAI:"
+msgstr "错误 when sending the 发票 to TicketBAI:"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_tbai.selection__res_company__l10n_es_tbai_tax_agency__araba
+msgid "Hacienda Foral de Araba"
+msgstr "Hacienda Foral de Araba（技术名称）"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_tbai.selection__res_company__l10n_es_tbai_tax_agency__bizkaia
+msgid "Hacienda Foral de Bizkaia"
+msgstr "Hacienda Foral de Bizkaia（技术名称）"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_tbai.selection__res_company__l10n_es_tbai_tax_agency__gipuzkoa
+msgid "Hacienda Foral de Gipuzkoa"
+msgstr "Hacienda Foral de Gipuzkoa（技术名称）"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_tbai.template_LROE_recibidas_common
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_tbai.template_invoice_factura
+msgid "I"
+msgstr "I（技术名称）"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_account_move_line__id
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_account_move_reversal__id
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_account_move_send__id
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_certificate_certificate__id
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_l10n_es_edi_tbai_document__id
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_res_company__id
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_res_config_settings__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_es_edi_tbai
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai/models/l10n_es_edi_tbai_document.py:0
+msgid ""
+"In case of a foreign customer, you need to configure the tax scope on taxes:\n"
+"%s"
+msgstr "In case of a foreign 客户, you need to 配置 the 税 scope on 税: %s"
+
+#. module: l10n_es_edi_tbai
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai/models/l10n_es_edi_tbai_document.py:0
+msgid ""
+"In order to use Ticketbai Batuz for freelancers, you will need to configure "
+"the Epigrafe or Main Activity.  In this version, you need to go in debug "
+"mode to Settings > Technical > System Parameters and set the parameter "
+"'l10n_es_edi_tbai.epigrafe'to your epigrafe number. You can find them in %s"
+msgstr ""
+"In 订单 to use Ticketbai Batuz for freelancers, you will need to 配置 the "
+"Epigrafe or Main 活动. In this version, you need to go in debug mode to 设置 > "
+"Technical > System Parameters and set the parameter "
+"'l10n_es_edi_tbai.epigrafe'to your epigrafe 编号. You can find them in %s"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_es_edi_tbai.field_account_bank_statement_line__l10n_es_tbai_reversed_ids
+#: model:ir.model.fields,help:l10n_es_edi_tbai.field_account_move__l10n_es_tbai_reversed_ids
+msgid ""
+"In the case where a vendor refund has multiple original invoices, you can "
+"set them here. "
+msgstr ""
+"In the case where a 供应商 退款 has multiple original 发票, you can set them here."
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_account_bank_statement_line__l10n_es_tbai_refund_reason
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_account_move__l10n_es_tbai_refund_reason
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_account_move_reversal__l10n_es_tbai_refund_reason
+msgid "Invoice Refund Reason Code (TicketBai)"
+msgstr "发票 退款 原因 代码 (TicketBai)"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_es_edi_tbai.field_account_bank_statement_line__l10n_es_tbai_chain_index
+#: model:ir.model.fields,help:l10n_es_edi_tbai.field_account_move__l10n_es_tbai_chain_index
+msgid ""
+"Invoice index in chain, set if and only if an in-chain XML was submitted and"
+" did not error"
+msgstr ""
+"发票 index in chain, set if and only if an in-chain XML was submitted and did "
+"not 错误"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_l10n_es_edi_tbai_document__is_cancel
+msgid "Is Cancel"
+msgstr "Is 取消"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_account_move_reversal__l10n_es_tbai_is_required
+msgid "Is TicketBai required for this reversal"
+msgstr "Is TicketBai 必填 for this reversal"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_es_edi_tbai.field_account_bank_statement_line__l10n_es_tbai_is_required
+#: model:ir.model.fields,help:l10n_es_edi_tbai.field_account_move__l10n_es_tbai_is_required
+msgid "Is the Basque EDI (TicketBAI) needed ?"
+msgstr "Is the Basque EDI (TicketBAI) needed ?（技术名称）"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_es_edi_tbai.model_account_move
+msgid "Journal Entry"
+msgstr "日记账分录"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_es_edi_tbai.model_account_move_line
+msgid "Journal Item"
+msgstr "日记账项目"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_account_bank_statement_line__l10n_es_tbai_cancel_document_id
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_account_move__l10n_es_tbai_cancel_document_id
+msgid "L10N Es Tbai Cancel Document"
+msgstr "L10N Es Tbai 取消 单据"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_res_company__l10n_es_tbai_certificate_ids
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_res_config_settings__l10n_es_tbai_certificate_ids
+msgid "L10N Es Tbai Certificate"
+msgstr "L10N Es Tbai 证书"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_res_company__l10n_es_tbai_is_enabled
+msgid "L10N Es Tbai Is Enabled"
+msgstr "L10N Es Tbai Is 已启用"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_account_bank_statement_line__l10n_es_tbai_post_document_id
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_account_move__l10n_es_tbai_post_document_id
+msgid "L10N Es Tbai Post Document"
+msgstr "L10N Es Tbai Post 单据"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_l10n_es_edi_tbai_document__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_l10n_es_edi_tbai_document__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: l10n_es_edi_tbai
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai/models/res_company.py:0
+msgid "Licence NIF"
+msgstr "Licence NIF（技术名称）"
+
+#. module: l10n_es_edi_tbai
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai/models/res_company.py:0
+msgid "Licence number"
+msgstr "Licence 编号"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.ui.menu,name:l10n_es_edi_tbai.menu_l10n_es_edi_tbai_license
+msgid "Licenses"
+msgstr "Licenses（技术名称）"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_tbai.res_config_settings_view_form
+msgid "Manage certificates (TicketBAI)"
+msgstr "Manage certificates (TicketBAI)（技术名称）"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_tbai.template_invoice_sujetos
+msgid "N"
+msgstr "N（技术名称）"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_l10n_es_edi_tbai_document__name
+msgid "Name"
+msgstr "名称"
+
+#. module: l10n_es_edi_tbai
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai/models/l10n_es_edi_tbai_document.py:0
+msgid "No XML response received."
+msgstr "否 XML response 已接收."
+
+#. module: l10n_es_edi_tbai
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai/models/l10n_es_edi_tbai_document.py:0
+msgid "No certificate found"
+msgstr "否 证书 found"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_tbai.res_config_settings_view_form
+msgid "No tax agency selected: TicketBAI not activated."
+msgstr "否 税 agency selected: TicketBAI not activated."
+
+#. module: l10n_es_edi_tbai
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai/models/l10n_es_edi_tbai_document.py:0
+msgid ""
+"No valid certificate found for this company, TicketBAI file will not be "
+"signed.\n"
+msgstr "否 有效 证书 found for this 公司, TicketBAI 文件 will not be signed.\n"
+
+#. module: l10n_es_edi_tbai
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai/models/l10n_es_edi_tbai_document.py:0
+msgid "Please configure the Tax ID on your company for TicketBAI."
+msgstr "Please 配置 the 税 ID on your 公司 for TicketBAI."
+
+#. module: l10n_es_edi_tbai
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai/models/l10n_es_edi_tbai_document.py:0
+msgid "Please configure the certificate for TicketBAI."
+msgstr "Please 配置 the 证书 for TicketBAI."
+
+#. module: l10n_es_edi_tbai
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai/models/l10n_es_edi_tbai_document.py:0
+msgid "Please specify a tax agency on your company for TicketBAI."
+msgstr "Please specify a 税 agency on your 公司 for TicketBAI."
+
+#. module: l10n_es_edi_tbai
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai/models/res_company.py:0
+msgid "Production license"
+msgstr "生产 license"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_tbai.res_config_settings_view_form
+msgid "Production mode: EDI data is sent to the official agency servers."
+msgstr "生产 mode: EDI data is 已发送 to the official agency servers."
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_tbai.selection__account_move__l10n_es_tbai_refund_reason__r1
+#: model:ir.model.fields.selection,name:l10n_es_edi_tbai.selection__account_move_reversal__l10n_es_tbai_refund_reason__r1
+msgid "R1: Art. 80.1, 80.2, 80.6 and rights founded error"
+msgstr "R1: Art. 80.1, 80.2, 80.6 and rights founded 错误"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_tbai.selection__account_move__l10n_es_tbai_refund_reason__r2
+#: model:ir.model.fields.selection,name:l10n_es_edi_tbai.selection__account_move_reversal__l10n_es_tbai_refund_reason__r2
+msgid "R2: Art. 80.3"
+msgstr "R2: Art. 80.3（技术名称）"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_tbai.selection__account_move__l10n_es_tbai_refund_reason__r3
+#: model:ir.model.fields.selection,name:l10n_es_edi_tbai.selection__account_move_reversal__l10n_es_tbai_refund_reason__r3
+msgid "R3: Art. 80.4"
+msgstr "R3: Art. 80.4（技术名称）"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_tbai.selection__account_move__l10n_es_tbai_refund_reason__r4
+#: model:ir.model.fields.selection,name:l10n_es_edi_tbai.selection__account_move_reversal__l10n_es_tbai_refund_reason__r4
+msgid "R4: Art. 80 - other"
+msgstr "R4: Art. 80 - 其他"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_tbai.selection__account_move__l10n_es_tbai_refund_reason__r5
+#: model:ir.model.fields.selection,name:l10n_es_edi_tbai.selection__account_move_reversal__l10n_es_tbai_refund_reason__r5
+msgid "R5: Factura rectificativa en facturas simplificadas"
+msgstr "R5: Factura rectificativa en facturas simplificadas（技术名称）"
+
+#. module: l10n_es_edi_tbai
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai/models/l10n_es_edi_tbai_document.py:0
+msgid "Refund reason cannot be R5 for non-simplified invoices (TicketBAI)"
+msgstr "退款 原因 cannot be R5 for non-simplified 发票 (TicketBAI)"
+
+#. module: l10n_es_edi_tbai
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai/models/l10n_es_edi_tbai_document.py:0
+msgid "Refund reason must be R5 for simplified invoices (TicketBAI)"
+msgstr "退款 原因 must be R5 for simplified 发票 (TicketBAI)"
+
+#. module: l10n_es_edi_tbai
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai/models/l10n_es_edi_tbai_document.py:0
+msgid "Refund reason must be specified (TicketBAI)"
+msgstr "退款 原因 must be specified (TicketBAI)"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_account_bank_statement_line__l10n_es_tbai_reversed_ids
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_account_move__l10n_es_tbai_reversed_ids
+msgid "Refunded Vendor Bills"
+msgstr "Refunded 供应商账单s"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_tbai.res_config_settings_view_form
+msgid "Registro de Libros connection TicketBAI"
+msgstr "Registro de Libros 连接 TicketBAI"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_tbai.selection__l10n_es_edi_tbai_document__state__rejected
+msgid "Rejected"
+msgstr "拒绝"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_tbai.view_move_form_inherit_l10n_es_edi_tbai
+msgid "Resend to TicketBAI"
+msgstr "Resend to TicketBAI（技术名称）"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_l10n_es_edi_tbai_document__response_message
+msgid "Response Message"
+msgstr "Response 消息"
+
+#. module: l10n_es_edi_tbai
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai/wizards/account_move_reversal.py:0
+msgid "Reversals mixing invoices with and without TicketBAI are not allowed."
+msgstr "Reversals mixing 发票 with and without TicketBAI are not allowed."
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_tbai.view_move_form_inherit_l10n_es_edi_tbai
+msgid "Send Bill to TicketBAI"
+msgstr "发送 账单 to TicketBAI"
+
+#. module: l10n_es_edi_tbai
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai/models/account_move_send.py:0
+msgid "Send the e-invoice to the Basque Government."
+msgstr "发送 the 电子发票 to the Basque Government."
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_tbai.selection__account_move__l10n_es_tbai_state__sent
+msgid "Sent"
+msgstr "已发送"
+
+#. module: l10n_es_edi_tbai
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai/models/res_company.py:0
+msgid "Software name"
+msgstr "Software 名称"
+
+#. module: l10n_es_edi_tbai
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai/models/res_company.py:0
+msgid "Software version"
+msgstr "Software version（技术名称）"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.ui.menu,name:l10n_es_edi_tbai.menu_l10n_es_edi_tbai_root
+msgid "Spain TicketBAI"
+msgstr "Spain TicketBAI（技术名称）"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_tbai.selection__certificate_certificate__scope__tbai
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_tbai.certificate_certificate_view_search
+msgid "TBAI"
+msgstr "TBAI（技术名称）"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_res_company__l10n_es_tbai_test_env
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_res_config_settings__l10n_es_tbai_test_env
+msgid "TBAI Test Mode"
+msgstr "TBAI Test Mode（技术名称）"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_tbai.certificate_certificate_view_search
+msgid "TBAI certificates"
+msgstr "TBAI certificates（技术名称）"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_tbai.template_invoice_bundle
+msgid "TEST-DEVICE-001"
+msgstr "TEST-DEVICE-001（技术名称）"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_res_company__l10n_es_tbai_tax_agency
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_res_config_settings__l10n_es_tbai_tax_agency
+msgid "Tax Agency for TBAI"
+msgstr "税 Agency for TBAI"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_tbai.res_config_settings_view_form
+msgid "Tax agency selected: invoices will be sent by TicketBAI."
+msgstr "税 agency selected: 发票 will be 已发送 by TicketBAI."
+
+#. module: l10n_es_edi_tbai
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai/models/res_company.py:0
+msgid "Test license (Araba)"
+msgstr "Test license (Araba)（技术名称）"
+
+#. module: l10n_es_edi_tbai
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai/models/res_company.py:0
+msgid "Test license (Bizkaia)"
+msgstr "Test license (Bizkaia)（技术名称）"
+
+#. module: l10n_es_edi_tbai
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai/models/res_company.py:0
+msgid "Test license (Gipuzkoa)"
+msgstr "Test license (Gipuzkoa)（技术名称）"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_tbai.res_config_settings_view_form
+msgid ""
+"Test mode: EDI data is sent to separate test servers and is not considered "
+"official."
+msgstr ""
+"Test mode: EDI data is 已发送 to separate test servers and is not considered "
+"official."
+
+#. module: l10n_es_edi_tbai
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai/models/l10n_es_edi_tbai_document.py:0
+msgid ""
+"There should be at least one tax set on each line in order to send to "
+"TicketBAI."
+msgstr ""
+"There should be at least one 税 set on each 行 in 订单 to 发送 to TicketBAI."
+
+#. module: l10n_es_edi_tbai
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai/models/account_move.py:0
+msgid "This entry has already been posted."
+msgstr "This 分录 has already been 已过账."
+
+#. module: l10n_es_edi_tbai
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai/models/account_move_send.py:0
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_tbai.view_move_form_inherit_l10n_es_edi_tbai
+msgid "TicketBAI"
+msgstr "TicketBAI（技术名称）"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_tbai.view_move_form_inherit_l10n_es_edi_tbai
+msgid "TicketBAI Cancel"
+msgstr "TicketBAI 取消"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_account_bank_statement_line__l10n_es_tbai_cancel_file
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_account_move__l10n_es_tbai_cancel_file
+msgid "TicketBAI Cancel File"
+msgstr "TicketBAI 取消 文件"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_account_bank_statement_line__l10n_es_tbai_cancel_file_name
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_account_move__l10n_es_tbai_cancel_file_name
+msgid "TicketBAI Cancel File Name"
+msgstr "TicketBAI 取消 文件 名称"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_es_edi_tbai.model_l10n_es_edi_tbai_document
+msgid "TicketBAI Document"
+msgstr "TicketBAI 单据"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_account_bank_statement_line__l10n_es_tbai_post_file_name
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_account_move__l10n_es_tbai_post_file_name
+msgid "TicketBAI Post Attachment Name"
+msgstr "TicketBAI Post 附件 名称"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_account_bank_statement_line__l10n_es_tbai_post_file
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_account_move__l10n_es_tbai_post_file
+msgid "TicketBAI Post File"
+msgstr "TicketBAI Post 文件"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_account_bank_statement_line__l10n_es_tbai_chain_index
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_account_move__l10n_es_tbai_chain_index
+msgid "TicketBAI chain index"
+msgstr "TicketBAI chain index（技术名称）"
+
+#. module: l10n_es_edi_tbai
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai/models/res_company.py:0
+msgid "TicketBAI is not configured"
+msgstr "TicketBAI is not configured（技术名称）"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_res_company__l10n_es_tbai_license_html
+msgid "TicketBAI license"
+msgstr "TicketBAI license（技术名称）"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_account_bank_statement_line__l10n_es_tbai_is_required
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_account_move__l10n_es_tbai_is_required
+msgid "TicketBAI required"
+msgstr "TicketBAI 必填"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_account_bank_statement_line__l10n_es_tbai_state
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_account_move__l10n_es_tbai_state
+msgid "TicketBAI status"
+msgstr "TicketBAI 状态"
+
+#. module: l10n_es_edi_tbai
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai/models/l10n_es_edi_tbai_document.py:0
+msgid ""
+"TicketBAI: Cannot post a reversal document while the source document has not"
+" been posted"
+msgstr ""
+"TicketBAI: Cannot post a reversal 单据 while the source 单据 has not been 已过账"
+
+#. module: l10n_es_edi_tbai
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai/models/l10n_es_edi_tbai_document.py:0
+msgid ""
+"TicketBAI: Cannot post invoice while chain head (%s) has not been posted"
+msgstr "TicketBAI: Cannot post 发票 while chain head (%s) has not been 已过账"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_res_company__l10n_es_tbai_chain_sequence_id
+msgid "TicketBai account.move chain sequence"
+msgstr "TicketBai 账户.move chain 序列"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_tbai.selection__account_move__l10n_es_tbai_state__to_send
+#: model:ir.model.fields.selection,name:l10n_es_edi_tbai.selection__l10n_es_edi_tbai_document__state__to_send
+msgid "To Send"
+msgstr "发送"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_es_edi_tbai.field_res_company__l10n_es_tbai_test_env
+#: model:ir.model.fields,help:l10n_es_edi_tbai.field_res_config_settings__l10n_es_tbai_test_env
+msgid "Use the test environment for TicketBAI"
+msgstr "Use the test environment for TicketBAI（技术名称）"
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_l10n_es_edi_tbai_document__xml_attachment_id
+msgid "XML Attachment"
+msgstr "XML 附件"
+
+#. module: l10n_es_edi_tbai
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai/models/account_move.py:0
+msgid "You cannot delete a move that has a TicketBAI chain id."
+msgstr "You cannot 删除 a move that has a TicketBAI chain ID."
+
+#. module: l10n_es_edi_tbai
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai/models/account_move.py:0
+msgid "You cannot reset to draft a locked journal entry."
+msgstr "无法重置以起草锁定的日记账分录。"
+
+#. module: l10n_es_edi_tbai
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai/models/account_move.py:0
+msgid ""
+"You cannot reset to draft an entry that has been posted to TicketBAI's chain"
+msgstr "You cannot reset to 草稿 an 分录 that has been 已过账 to TicketBAI's chain"
+
+#. module: l10n_es_edi_tbai
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai/models/account_move.py:0
+msgid ""
+"You need to fill in the Reference field as the invoice number from your "
+"vendor."
+msgstr "You need to fill in the 参考 field as the 发票 编号 从 your 供应商."
+
+#. module: l10n_es_edi_tbai
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_l10n_es_edi_tbai_document__state
+msgid "status"
+msgstr "状态"

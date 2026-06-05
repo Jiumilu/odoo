@@ -16,8 +16,7 @@ msgstr ""
 "POT-Creation-Date: 2026-04-10 18:38+0000\n"
 "PO-Revision-Date: 2026-01-08 02:24+0000\n"
 "Last-Translator: \"Chloe Wang (chwa)\" <chwa@odoo.com>\n"
-"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
-"projects/odoo-19/hr_work_entry/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/projects/odoo-19/hr_work_entry/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,12 +32,9 @@ msgid ""
 "\n"
 "        Defines the source for work entries generation\n"
 "\n"
-"        Working Schedule: Work entries will be generated from the working "
-"hours below.\n"
-"        Attendances: Work entries will be generated from the employee's "
-"attendances. (requires Attendance app)\n"
-"        Planning: Work entries will be generated from the employee's "
-"planning. (requires Planning app)\n"
+"        Working Schedule: Work entries will be generated from the working hours below.\n"
+"        Attendances: Work entries will be generated from the employee's attendances. (requires Attendance app)\n"
+"        Planning: Work entries will be generated from the employee's planning. (requires Planning app)\n"
 "    "
 msgstr ""
 "\n"
@@ -58,11 +54,11 @@ msgstr "%s工作条目"
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_regeneration_wizard
 msgid ""
-"<i class=\"fa fa-exclamation-triangle me-1\" title=\"Warning\"/>Employees in "
-"red will be skipped because they have at least one validated work entry."
+"<i class=\"fa fa-exclamation-triangle me-1\" title=\"Warning\"/>Employees in"
+" red will be skipped because they have at least one validated work entry."
 msgstr ""
-"<i class=\"fa fa-exclamation-triangle me-1\" title=\"Warning\"/>红色员工将被"
-"跳过，因为他们至少有一项经过验证的工作条目。"
+"<i class=\"fa fa-exclamation-triangle me-1\" "
+"title=\"Warning\"/>红色员工将被跳过，因为他们至少有一项经过验证的工作条目。"
 
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_regeneration_wizard
@@ -85,9 +81,7 @@ msgstr ""
 msgid ""
 "<span class=\"text-muted\">Warning: The work entry regeneration will delete "
 "all manual changes on the selected period.</span>"
-msgstr ""
-"<span class=\"text-muted\">警告：重新生成工作记录将删除选定时间段的所有手动更"
-"改。</span>"
+msgstr "<span class=\"text-muted\">警告：重新生成工作记录将删除选定时间段的所有手动更改。</span>"
 
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_form
@@ -97,7 +91,7 @@ msgstr "<span>小时</span>"
 #. module: hr_work_entry
 #: model:hr.work.entry.type,display_code:hr_work_entry.work_entry_type_attendance
 msgid "A"
-msgstr ""
+msgstr "A（技术名称）"
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_user_work_entry_employee__active
@@ -116,13 +110,13 @@ msgstr "加"
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_work_entry_type__is_extra_hours
 msgid "Added to Monthly Pay"
-msgstr ""
+msgstr "Added to Monthly 支付"
 
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_calendar_multi_create_form
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_form
 msgid "Additional Description..."
-msgstr ""
+msgstr "Additional 说明..."
 
 #. module: hr_work_entry
 #: model:hr.work.entry.type,name:hr_work_entry.l10n_be_work_entry_type_additional_paid
@@ -200,6 +194,8 @@ msgid ""
 "Check this setting if you want the hours to be considered as extra time and "
 "added as a bonus to the basic salary."
 msgstr ""
+"检查 this setting if you want the hours to be considered as extra time and "
+"added as a bonus to the basic salary."
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_work_entry__color
@@ -313,7 +309,7 @@ msgstr "因病失去工作能力（IMSS）"
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_work_entry__display_code
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_work_entry_type__display_code
 msgid "Display Code"
-msgstr ""
+msgstr "显示 代码"
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_employee__display_name
@@ -347,7 +343,7 @@ msgstr "时长"
 #. odoo-python
 #: code:addons/hr_work_entry/models/hr_work_entry.py:0
 msgid "Duration must be positive and cannot exceed 24 hours."
-msgstr ""
+msgstr "Duration must be positive and cannot exceed 24 hours.（技术名称）"
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_work_entry_regeneration_wizard__earliest_available_date_message
@@ -372,7 +368,7 @@ msgstr "教育休假"
 #. module: hr_work_entry
 #: model:hr.work.entry.type,name:hr_work_entry.l10n_sa_work_entry_type_emergency
 msgid "Emergency Leave"
-msgstr ""
+msgstr "紧急休假"
 
 #. module: hr_work_entry
 #: model:ir.model,name:hr_work_entry.model_hr_employee
@@ -390,7 +386,7 @@ msgstr "员工合同"
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_work_entry__version_id
 msgid "Employee Record"
-msgstr ""
+msgstr "员工 Record"
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_work_entry_regeneration_wizard__employee_ids
@@ -436,7 +432,7 @@ msgstr "来自"
 #. module: hr_work_entry
 #: model:hr.work.entry.type,display_code:hr_work_entry.work_entry_type_leave
 msgid "GTO"
-msgstr ""
+msgstr "GTO（技术名称）"
 
 #. module: hr_work_entry
 #: model:ir.actions.server,name:hr_work_entry.ir_cron_generate_missing_work_entries_ir_actions_server
@@ -473,7 +469,7 @@ msgstr "人力资源工作类型"
 #. module: hr_work_entry
 #: model:hr.work.entry.type,display_code:hr_work_entry.work_entry_type_home_working
 msgid "HW"
-msgstr ""
+msgstr "HW（技术名称）"
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_employee__has_work_entries
@@ -540,24 +536,27 @@ msgstr "如果 '有效' 字段设为否，将可以将其隐藏而不用删除�
 #: model:ir.model.fields,help:hr_work_entry.field_hr_work_entry_type__amount_rate
 msgid "If you want the hours should be paid double, the rate should be 200%."
 msgstr ""
+"If you want the hours should be paid double, the rate should be 200%.（技术名称）"
 
 #. module: hr_work_entry
 #: model:ir.model.fields.selection,name:hr_work_entry.selection__hr_work_entry__state__conflict
 msgid "In Conflict"
-msgstr ""
+msgstr "In Conflict（技术名称）"
 
 #. module: hr_work_entry
 #: model:ir.model.fields.selection,name:hr_work_entry.selection__hr_work_entry__state__validated
 msgid "In Payslip"
-msgstr ""
+msgstr "In Payslip（技术名称）"
 
 #. module: hr_work_entry
 #. odoo-python
 #: code:addons/hr_work_entry/wizard/hr_work_entry_regeneration_wizard.py:0
 msgid ""
-"In order to regenerate the work entries, you need to provide the wizard with "
-"an employee_id, a date_from and a date_to."
+"In order to regenerate the work entries, you need to provide the wizard with"
+" an employee_id, a date_from and a date_to."
 msgstr ""
+"In 订单 to regenerate the work entries, you need to provide the 向导 with an "
+"employee_id, a date_from and a date_to."
 
 #. module: hr_work_entry
 #: model:hr.work.entry.type,name:hr_work_entry.l10n_ch_swissdec_interruption_wt
@@ -675,19 +674,19 @@ msgstr "医疗辅助"
 #. module: hr_work_entry
 #: model:hr.work.entry.type,name:hr_work_entry.l10n_mx_work_entry_type_care_children_with_cancer_imss
 msgid "Medical Leave for Care of Children Diagnosed with Cancer (IMSS)"
-msgstr ""
+msgstr "Medical 休假 for Care of Children Diagnosed with Cancer (IMSS)"
 
 #. module: hr_work_entry
 #. odoo-python
 #: code:addons/hr_work_entry/models/hr_version.py:0
 msgid "Missing date or duration on work entry"
-msgstr ""
+msgstr "Missing 日期 or duration on work 分录"
 
 #. module: hr_work_entry
 #. odoo-python
 #: code:addons/hr_work_entry/models/hr_version.py:0
 msgid "Missing timezone for work entries generation."
-msgstr ""
+msgstr "Missing timezone for work entries generation.（技术名称）"
 
 #. module: hr_work_entry
 #: model:hr.work.entry.type,name:hr_work_entry.l10n_ch_swissdec_monthly_wt
@@ -715,7 +714,7 @@ msgstr "无数据显示"
 #: code:addons/hr_work_entry/wizard/hr_work_entry_regeneration_wizard.py:0
 msgid ""
 "No work entry can be regenerated in this range of dates and these employees."
-msgstr ""
+msgstr "否 work 分录 can be regenerated in this range of dates and these 员工."
 
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_form
@@ -730,12 +729,12 @@ msgstr "通知（未有提供）"
 #. module: hr_work_entry
 #: model:hr.work.entry.type,display_code:hr_work_entry.work_entry_type_overtime
 msgid "OT"
-msgstr ""
+msgstr "OT（技术名称）"
 
 #. module: hr_work_entry
 #: model:hr.work.entry.type,display_code:hr_work_entry.hr_work_entry_type_out_of_contract
 msgid "OoC"
-msgstr ""
+msgstr "OoC（技术名称）"
 
 #. module: hr_work_entry
 #: model:hr.work.entry.type,name:hr_work_entry.l10n_au_work_entry_type_other
@@ -765,7 +764,7 @@ msgstr "加班时间"
 #. module: hr_work_entry
 #: model:hr.work.entry.type,name:hr_work_entry.l10n_us_work_entry_type_overtime
 msgid "Overtime Hours (Paid at 150%)"
-msgstr ""
+msgstr "Overtime Hours (Paid at 150%)（技术名称）"
 
 #. module: hr_work_entry
 #: model:hr.work.entry.type,name:hr_work_entry.l10n_au_work_entry_type_overtime_pto
@@ -800,7 +799,7 @@ msgstr "加班：周日和公共假期"
 #. module: hr_work_entry
 #: model:hr.work.entry.type,display_code:hr_work_entry.work_entry_type_legal_leave
 msgid "PTO"
-msgstr ""
+msgstr "PTO（技术名称）"
 
 #. module: hr_work_entry
 #: model:hr.work.entry.type,name:hr_work_entry.l10n_au_work_entry_type_parental
@@ -838,7 +837,7 @@ msgstr "陪产假"
 #. module: hr_work_entry
 #: model:hr.work.entry.type,name:hr_work_entry.l10n_hk_work_entry_type_paternity_leave_80
 msgid "Paternity Leave 80%"
-msgstr ""
+msgstr "Paternity 休假 80%"
 
 #. module: hr_work_entry
 #: model:hr.work.entry.type,name:hr_work_entry.l10n_be_work_entry_type_paternity_legal
@@ -853,7 +852,7 @@ msgstr "陪产假（公司发薪）"
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_work_entry__amount_rate
 msgid "Pay rate"
-msgstr ""
+msgstr "支付 rate"
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_work_entry__code
@@ -927,7 +926,7 @@ msgstr "重置"
 #. odoo-javascript
 #: code:addons/hr_work_entry/static/src/views/work_entry_calendar/work_entry_multi_selection_buttons.xml:0
 msgid "Reset Selected Work Entries"
-msgstr ""
+msgstr "Reset Selected Work Entries（技术名称）"
 
 #. module: hr_work_entry
 #: model:ir.model,name:hr_work_entry.model_resource_calendar_leaves
@@ -952,7 +951,7 @@ msgstr "追溯正常工资工时"
 #. module: hr_work_entry
 #: model:hr.work.entry.type,display_code:hr_work_entry.work_entry_type_sick_leave
 msgid "STO"
-msgstr ""
+msgstr "STO（技术名称）"
 
 #. module: hr_work_entry
 #: model:hr.work.entry.type,name:hr_work_entry.l10n_ch_swissdec_accident_wt
@@ -1003,12 +1002,12 @@ msgstr "设置"
 #. module: hr_work_entry
 #: model:ir.actions.server,name:hr_work_entry.action_hr_work_entry_set_to_draft
 msgid "Set to Draft"
-msgstr ""
+msgstr "设置为草稿"
 
 #. module: hr_work_entry
 #: model:hr.work.entry.type,name:hr_work_entry.l10n_sa_work_entry_type_sick_leave_100
 msgid "Sick Leave (100% Paid)"
-msgstr ""
+msgstr "Sick 休假 (100% Paid)"
 
 #. module: hr_work_entry
 #: model:hr.work.entry.type,name:hr_work_entry.l10n_sa_work_entry_type_sick_leave_75
@@ -1019,7 +1018,7 @@ msgstr "病假（75% 薪金）"
 #: model:hr.work.entry.type,name:hr_work_entry.l10n_jo_work_entry_type_sick_leave_unpaid
 #: model:hr.work.entry.type,name:hr_work_entry.l10n_sa_work_entry_type_sick_leave_0
 msgid "Sick Leave (Unpaid)"
-msgstr ""
+msgstr "Sick 休假 (Unpaid)"
 
 #. module: hr_work_entry
 #: model:hr.work.entry.type,name:hr_work_entry.uae_sick_leave_0_entry_type
@@ -1044,7 +1043,7 @@ msgstr "病假"
 #. module: hr_work_entry
 #: model:hr.work.entry.type,name:hr_work_entry.l10n_pl_work_entry_type_sick_leave
 msgid "Sick Time Off (Paid at 80%)"
-msgstr ""
+msgstr "Sick Time Off (Paid at 80%)（技术名称）"
 
 #. module: hr_work_entry
 #: model:hr.work.entry.type,name:hr_work_entry.l10n_be_work_entry_type_part_sick
@@ -1112,7 +1111,7 @@ msgstr "拆分"
 #. odoo-javascript
 #: code:addons/hr_work_entry/static/src/views/work_entry_calendar/work_entry_calendar_controller.js:0
 msgid "Split Work Entry"
-msgstr ""
+msgstr "Split Work 分录"
 
 #. module: hr_work_entry
 #. odoo-python
@@ -1121,6 +1120,7 @@ msgid ""
 "Split work entry duration has to be less than the existing work entry "
 "duration."
 msgstr ""
+"Split work 分录 duration has to be less than the existing work 分录 duration."
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_work_entry__state
@@ -1149,7 +1149,7 @@ msgstr ""
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_form
 msgid "The amount of work on the day should not exceed 24 hours."
-msgstr ""
+msgstr "The 金额 of work on the day should not exceed 24 hours."
 
 #. module: hr_work_entry
 #. odoo-python
@@ -1159,8 +1159,8 @@ msgid ""
 "be <= '%(latest_available_date)s', which correspond to the generated work "
 "entries time interval."
 msgstr ""
-"起始日期必须是> ='%(earliest_available_date)s'，截止日期必须是<='%"
-"(latest_available_date)s'，对应于生成的工作条目时间间隔。"
+"起始日期必须是> "
+"='%(earliest_available_date)s'，截止日期必须是<='%(latest_available_date)s'，对应于生成的工作条目时间间隔。"
 
 #. module: hr_work_entry
 #. odoo-python
@@ -1173,7 +1173,7 @@ msgstr "同一代码不能与多个工作条目类型相关联（%s）"
 #: model:ir.model.fields,help:hr_work_entry.field_hr_work_entry_type__display_code
 msgid ""
 "This code can be changed, it is only for a display purpose (3 letters max)"
-msgstr ""
+msgstr "This 代码 can be changed, it is only for a 显示 purpose (3 letters max)"
 
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_form
@@ -1221,7 +1221,7 @@ msgstr "类型"
 #. module: hr_work_entry
 #: model:hr.work.entry.type,display_code:hr_work_entry.work_entry_type_unpaid_leave
 msgid "UN"
-msgstr ""
+msgstr "UN（技术名称）"
 
 #. module: hr_work_entry
 #. odoo-python
@@ -1372,9 +1372,7 @@ msgstr "工作时间"
 msgid ""
 "You can't change the Country of this work entry type cause it's currently "
 "used by the system. You need to delete related working entries first."
-msgstr ""
-"您无法更改此工作条目类型的国家/地区，因为系统当前正在使用它。您需要先删除相关"
-"的工作条目。"
+msgstr "您无法更改此工作条目类型的国家/地区，因为系统当前正在使用它。您需要先删除相关的工作条目。"
 
 #. module: hr_work_entry
 #. odoo-python
@@ -1386,13 +1384,13 @@ msgstr "您无法更改此特定工作条目类型的国家/地区。"
 #. odoo-python
 #: code:addons/hr_work_entry/models/hr_work_entry.py:0
 msgid "You can't split a work entry with less than 1 hour."
-msgstr ""
+msgstr "You can't split a work 分录 with less than 1 hour."
 
 #. module: hr_work_entry
 #. odoo-javascript
 #: code:addons/hr_work_entry/static/src/views/work_entry_calendar/calendar_common/work_entry_calendar_common_popover.xml:0
 msgid "You cannot edit a validated work entry"
-msgstr ""
+msgstr "You cannot 编辑 a validated work 分录"
 
 #. module: hr_work_entry
 #: model:ir.model.constraint,message:hr_work_entry.constraint_hr_user_work_entry_employee_user_id_employee_id_unique

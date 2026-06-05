@@ -16,8 +16,7 @@ msgstr ""
 "POT-Creation-Date: 2026-04-03 18:38+0000\n"
 "PO-Revision-Date: 2026-01-13 15:35+0000\n"
 "Last-Translator: \"Chloe Wang (chwa)\" <chwa@odoo.com>\n"
-"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
-"projects/odoo-19/website_sale_wishlist/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/projects/odoo-19/website_sale_wishlist/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -175,40 +174,40 @@ msgstr "6 列"
 msgid ""
 "<i class=\"fa fa-heart-o me-2 me-lg-0\" role=\"img\" aria-label=\"Add to "
 "wishlist\"/>"
-msgstr ""
-"<i class=\"fa fa-heart-o me-2 me-lg-0\" role=\"img\" aria-label=\"添加到愿望"
-"清单\"/>"
+msgstr "<i class=\"fa fa-heart-o me-2 me-lg-0\" role=\"img\" aria-label=\"添加到愿望清单\"/>"
 
 #. module: website_sale_wishlist
 #: model_terms:ir.ui.view,arch_db:website_sale_wishlist.product_wishlist
 msgid ""
 "<span class=\"d-inline-flex align-items-baseline\">\n"
-"                                                        <i class=\"fa fa-fw "
-"fa-envelope o_not-animable\" role=\"presentation\"/>\n"
-"                                                        <span "
-"class=\"o_label small ms-1\">\n"
+"                                                        <i class=\"fa fa-fw fa-envelope o_not-animable\" role=\"presentation\"/>\n"
+"                                                        <span class=\"o_label small ms-1\">\n"
 "                                                            Contact Us\n"
 "                                                        </span>\n"
 "                                                    </span>"
 msgstr ""
+"<span class=\"d-inline-flex align-items-baseline\"> <i class=\"fa fa-fw fa-"
+"envelope o_not-animable\" role=\"presentation\"/> <span class=\"o_label "
+"small ms-1\"> 联系人 Us </span> </span>"
 
 #. module: website_sale_wishlist
 #: model_terms:ir.ui.view,arch_db:website_sale_wishlist.product_wishlist
 msgid ""
 "<span class=\"d-inline-flex align-items-baseline\">\n"
-"                                                        <i class=\"fa fa-fw "
-"fa-shopping-cart o_not-animable\" role=\"presentation\"/>\n"
-"                                                        <span "
-"class=\"o_label small ms-1\">\n"
+"                                                        <i class=\"fa fa-fw fa-shopping-cart o_not-animable\" role=\"presentation\"/>\n"
+"                                                        <span class=\"o_label small ms-1\">\n"
 "                                                            Add to Cart\n"
 "                                                        </span>\n"
 "                                                    </span>"
 msgstr ""
+"<span class=\"d-inline-flex align-items-baseline\"> <i class=\"fa fa-fw fa-"
+"shopping-cart o_not-animable\" role=\"presentation\"/> <span class=\"o_label"
+" small ms-1\"> 添加 to Cart </span> </span>"
 
 #. module: website_sale_wishlist
 #: model_terms:ir.ui.view,arch_db:website_sale_wishlist.product_cart_lines
 msgid "<span class=\"text-300\">|</span>"
-msgstr ""
+msgstr "<span class=\"text-300\">|</span>（技术名称）"
 
 #. module: website_sale_wishlist
 #: model:ir.model.fields,field_description:website_sale_wishlist.field_product_wishlist__active
@@ -230,7 +229,7 @@ msgstr "添加到心愿单"
 #. module: website_sale_wishlist
 #: model:ir.model.fields,help:website_sale_wishlist.field_website__wishlist_opt_products_design_classes
 msgid "CSS class for wishlist page design"
-msgstr ""
+msgstr "CSS class for wishlist page design（技术名称）"
 
 #. module: website_sale_wishlist
 #: model:ir.model,name:website_sale_wishlist.model_res_partner
@@ -240,7 +239,7 @@ msgstr "联系人"
 #. module: website_sale_wishlist
 #: model:ir.model,website_form_label:website_sale_wishlist.model_res_partner
 msgid "Create a Customer"
-msgstr ""
+msgstr "创建客户"
 
 #. module: website_sale_wishlist
 #: model:ir.model.fields,field_description:website_sale_wishlist.field_product_wishlist__create_uid
@@ -282,29 +281,29 @@ msgstr "此合作伙伴的愿望产品清单重复。"
 #. odoo-javascript
 #: code:addons/website_sale_wishlist/static/src/website_builder/products_design_panel.xml:0
 msgid "Fixed"
-msgstr ""
+msgstr "固定的"
 
 #. module: website_sale_wishlist
 #. odoo-javascript
 #: code:addons/website_sale_wishlist/static/src/website_builder/products_design_panel.xml:0
 msgid "Fixed - On Hover"
-msgstr ""
+msgstr "Fixed - On Hover（技术名称）"
 
 #. module: website_sale_wishlist
 #. odoo-javascript
 #: code:addons/website_sale_wishlist/static/src/website_builder/products_design_panel.xml:0
 msgid "Gap"
-msgstr ""
+msgstr "差额"
 
 #. module: website_sale_wishlist
 #: model:ir.model.fields,help:website_sale_wishlist.field_website__wishlist_gap
 msgid "Gap between products on the wishlist page"
-msgstr ""
+msgstr "Gap between 产品 on the wishlist page"
 
 #. module: website_sale_wishlist
 #: model_terms:ir.ui.view,arch_db:website_sale_wishlist.add_to_wishlist
 msgid "Handle your wishlist from the menu icon."
-msgstr ""
+msgstr "Handle your wishlist 从 the menu icon."
 
 #. module: website_sale_wishlist
 #: model:ir.model.fields,field_description:website_sale_wishlist.field_product_product__id
@@ -319,13 +318,13 @@ msgstr "ID"
 #. module: website_sale_wishlist
 #: model_terms:ir.ui.view,arch_db:website_sale_wishlist.add_to_wishlist
 msgid "In your wishlist"
-msgstr ""
+msgstr "In your wishlist（技术名称）"
 
 #. module: website_sale_wishlist
 #. odoo-javascript
 #: code:addons/website_sale_wishlist/static/src/website_builder/products_design_panel.xml:0
 msgid "Inline"
-msgstr ""
+msgstr "内联"
 
 #. module: website_sale_wishlist
 #: model:ir.model.fields,field_description:website_sale_wishlist.field_product_wishlist__write_uid
@@ -341,13 +340,13 @@ msgstr "上次更新日期"
 #. odoo-javascript
 #: code:addons/website_sale_wishlist/static/src/website_builder/wishlist_page_option.xml:0
 msgid "Layout"
-msgstr ""
+msgstr "布局"
 
 #. module: website_sale_wishlist
 #. odoo-javascript
 #: code:addons/website_sale_wishlist/static/src/website_builder/wishlist_page_option.xml:0
 msgid "Mobile"
-msgstr ""
+msgstr "手机"
 
 #. module: website_sale_wishlist
 #: model_terms:ir.ui.view,arch_db:website_sale_wishlist.product_wishlist
@@ -357,23 +356,23 @@ msgstr "我的收藏"
 #. module: website_sale_wishlist
 #: model:ir.model.fields,help:website_sale_wishlist.field_website__wishlist_mobile_columns
 msgid "Number of columns to display on mobile for the wishlist page (1 or 2)"
-msgstr ""
+msgstr "编号 of columns to 显示 on 手机 for the wishlist page (1 or 2)"
 
 #. module: website_sale_wishlist
 #: model:ir.model.fields,help:website_sale_wishlist.field_website__wishlist_grid_columns
 msgid "Number of columns to display on the wishlist page"
-msgstr ""
+msgstr "编号 of columns to 显示 on the wishlist page"
 
 #. module: website_sale_wishlist
 #. odoo-javascript
 #: code:addons/website_sale_wishlist/static/src/website_builder/products_design_panel.xml:0
 msgid "On Hover"
-msgstr ""
+msgstr "悬停时"
 
 #. module: website_sale_wishlist
 #: model_terms:ir.ui.view,arch_db:website_sale_wishlist.product_wishlist
 msgid "Original price"
-msgstr ""
+msgstr "Original 价格"
 
 #. module: website_sale_wishlist
 #: model:ir.model.fields,field_description:website_sale_wishlist.field_product_wishlist__partner_id
@@ -420,27 +419,27 @@ msgstr "商品需求清单"
 #. odoo-javascript
 #: code:addons/website_sale_wishlist/static/src/website_builder/wishlist_page_option.xml:0
 msgid "Products Design"
-msgstr ""
+msgstr "产品 Design"
 
 #. module: website_sale_wishlist
 #: model_terms:ir.ui.view,arch_db:website_sale_wishlist.product_wishlist
 msgid "Remove from wishlist"
-msgstr ""
+msgstr "从心愿单中移除"
 
 #. module: website_sale_wishlist
 #: model_terms:ir.ui.view,arch_db:website_sale_wishlist.product_wishlist
 msgid "Sale price"
-msgstr ""
+msgstr "销售 价格"
 
 #. module: website_sale_wishlist
 #: model_terms:ir.ui.view,arch_db:website_sale_wishlist.product_cart_lines
 msgid "Save for Later"
-msgstr ""
+msgstr "保存 for Later"
 
 #. module: website_sale_wishlist
 #: model_terms:ir.ui.view,arch_db:website_sale_wishlist.product_wishlist
 msgid "Shop"
-msgstr ""
+msgstr "商店"
 
 #. module: website_sale_wishlist
 #: model_terms:ir.ui.view,arch_db:website_sale_wishlist.product_wishlist
@@ -473,44 +472,40 @@ msgstr "愿望单"
 #. module: website_sale_wishlist
 #: model:ir.model.fields,field_description:website_sale_wishlist.field_website__wishlist_grid_columns
 msgid "Wishlist Grid Columns"
-msgstr ""
+msgstr "Wishlist Grid Columns（技术名称）"
 
 #. module: website_sale_wishlist
 #: model:ir.model.fields,field_description:website_sale_wishlist.field_website__wishlist_gap
 msgid "Wishlist Grid Gap"
-msgstr ""
+msgstr "Wishlist Grid Gap（技术名称）"
 
 #. module: website_sale_wishlist
 #: model:ir.model.fields,field_description:website_sale_wishlist.field_website__wishlist_mobile_columns
 msgid "Wishlist Mobile Columns"
-msgstr ""
+msgstr "Wishlist 手机 Columns"
 
 #. module: website_sale_wishlist
 #. odoo-javascript
 #: code:addons/website_sale_wishlist/static/src/website_builder/wishlist_page_option_plugin.js:0
 msgid "Wishlist Page"
-msgstr ""
+msgstr "Wishlist Page（技术名称）"
 
 #. module: website_sale_wishlist
 #: model:ir.model.fields,field_description:website_sale_wishlist.field_website__wishlist_opt_products_design_classes
 msgid "Wishlist Page Design Class"
-msgstr ""
+msgstr "Wishlist Page Design Class（技术名称）"
 
 #. module: website_sale_wishlist
 #: model_terms:ir.ui.view,arch_db:website_sale_wishlist.product_wishlist
 msgid "Your wishlist is empty!"
-msgstr ""
+msgstr "Your wishlist is empty!（技术名称）"
 
 #~ msgid ""
-#~ "<i class=\"fa fa-fw fa-shopping-cart o_not-animable\" "
-#~ "role=\"presentation\"/>\n"
-#~ "                                                    <span class=\"o_label "
-#~ "small ms-1\">Add to Cart</span>"
+#~ "<i class=\"fa fa-fw fa-shopping-cart o_not-animable\" role=\"presentation\"/>\n"
+#~ "                                                    <span class=\"o_label small ms-1\">Add to Cart</span>"
 #~ msgstr ""
-#~ "<i class=\"fa fa-fw fa-shopping-cart o_not-animable\" "
-#~ "role=\"presentation\"/>\n"
-#~ "                                                    <span class=\"o_label "
-#~ "small ms-1\">添加到购物车</span>"
+#~ "<i class=\"fa fa-fw fa-shopping-cart o_not-animable\" role=\"presentation\"/>\n"
+#~ "                                                    <span class=\"o_label small ms-1\">添加到购物车</span>"
 
 #~ msgid "Contact Us"
 #~ msgstr "联系我们"
@@ -532,10 +527,8 @@ msgstr ""
 #~ msgid "<small><i class=\"fa fa-trash-o\"/> Remove</small>"
 #~ msgstr "<small><i class=\"fa fa-trash-o\"/> 移除</small>"
 
-#~ msgid ""
-#~ "<span class=\"fa fa-heart\" role=\"img\" aria-label=\"Add to wishlist\"/>"
-#~ msgstr ""
-#~ "<span class=\"fa fa-heart\" role=\"img\" aria-label=\"Add to wishlist\"/>"
+#~ msgid "<span class=\"fa fa-heart\" role=\"img\" aria-label=\"Add to wishlist\"/>"
+#~ msgstr "<span class=\"fa fa-heart\" role=\"img\" aria-label=\"Add to wishlist\"/>"
 
 #~ msgid "Add <span class=\"d-none d-md-inline\">to Cart</span>"
 #~ msgstr "加到<span class=\"d-none d-md-inline\">购物车</span>"

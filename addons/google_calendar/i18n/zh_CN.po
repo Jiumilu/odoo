@@ -14,8 +14,7 @@ msgstr ""
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2025-09-16 15:23+0000\n"
 "Last-Translator: \"Tiffany Chang (tic)\" <tic@odoo.com>\n"
-"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
-"projects/odoo-19/google_calendar/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/projects/odoo-19/google_calendar/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -72,13 +71,13 @@ msgstr "使用前需要管理员配置 谷歌 同步项目!"
 #. odoo-python
 #: code:addons/google_calendar/models/res_users_settings.py:0
 msgid ""
-"An error occurred while generating the token. Your authorization code may be "
-"invalid or has already expired [%s]. You should check your Client ID and "
-"secret on the Google APIs plateform or try to stop and restart your calendar "
-"synchronization."
+"An error occurred while generating the token. Your authorization code may be"
+" invalid or has already expired [%s]. You should check your Client ID and "
+"secret on the Google APIs plateform or try to stop and restart your calendar"
+" synchronization."
 msgstr ""
-"生成令牌时发生错误。您的授权码可能无效或已过期 [%s]。您应该在 Google API 平台"
-"上检查您的客户 ID 和密码，或者尝试停止并重新启动日历同步。"
+"生成令牌时发生错误。您的授权码可能无效或已过期 [%s]。您应该在 Google API 平台上检查您的客户 ID "
+"和密码，或者尝试停止并重新启动日历同步。"
 
 #. module: google_calendar
 #: model:ir.model,name:google_calendar.model_calendar_attendee
@@ -156,7 +155,7 @@ msgstr "创建日期"
 #. module: google_calendar
 #: model:ir.model.fields.selection,name:google_calendar.selection__google_calendar_account_reset__delete_policy__delete_odoo
 msgid "Delete from Odoo"
-msgstr "‎从 Odoo 中删除‎"
+msgstr "‎从 绿色供应链公共服务平台 中删除‎"
 
 #. module: google_calendar
 #: model:ir.model.fields.selection,name:google_calendar.selection__google_calendar_account_reset__delete_policy__delete_both
@@ -301,8 +300,7 @@ msgid ""
 "Last Calendar ID who has been synchronized. If it is changed, we remove all "
 "links between GoogleID and Odoo Google Internal ID"
 msgstr ""
-"最后一次同步的日历ID。如果它发生改变， 将清除全部在 GoogleID 和 Odoo Google "
-"Internal ID之间的连接"
+"最后一次同步的日历ID。如果它发生改变， 将清除全部在 GoogleID 和 绿色供应链公共服务平台 Google Internal ID之间的连接"
 
 #. module: google_calendar
 #: model:ir.model.fields,field_description:google_calendar.field_google_calendar_account_reset__write_uid
@@ -453,14 +451,13 @@ msgid ""
 msgstr "您似乎没有权限在谷歌日历上修改这个事件"
 
 #~ msgid ""
-#~ "An error occurred while generating the token. Your authorization code may "
-#~ "be invalid or has already expired [%s]. You should check your Client ID "
-#~ "and secret on the Google APIs plateform or try to stop and restart your "
-#~ "calendar synchronisation."
+#~ "An error occurred while generating the token. Your authorization code may be"
+#~ " invalid or has already expired [%s]. You should check your Client ID and "
+#~ "secret on the Google APIs plateform or try to stop and restart your calendar"
+#~ " synchronisation."
 #~ msgstr ""
-#~ "在生成令牌时发生了一个错误。您的授权码可能是无效的或已经过期[%s]。您应该在"
-#~ "Google APIs平台上检查您的客户ID和秘密，或者尝试停止并重新启动您的日历同"
-#~ "步。"
+#~ "在生成令牌时发生了一个错误。您的授权码可能是无效的或已经过期[%s]。您应该在Google "
+#~ "APIs平台上检查您的客户ID和秘密，或者尝试停止并重新启动您的日历同步。"
 
 #~ msgid "Google Calendar Account"
 #~ msgstr "谷歌日历帐户"
@@ -481,6 +478,6 @@ msgstr "您似乎没有权限在谷歌日历上修改这个事件"
 #~ msgstr "用户已经有一个谷歌账户"
 
 #~ msgid ""
-#~ "You are about to stop the synchronization of your calendar with Google. "
-#~ "Are you sure you want to continue?"
+#~ "You are about to stop the synchronization of your calendar with Google. Are "
+#~ "you sure you want to continue?"
 #~ msgstr "您即将停止与谷歌的日历同步。您确定您要继续吗？"

@@ -16,9 +16,9 @@ version_info = (19, 0, 0, FINAL, 0, '')
 series = serie = major_version = '.'.join(str(s) for s in version_info[:2])
 version = series + RELEASE_LEVELS_DISPLAY[version_info[3]] + str(version_info[4] or '') + version_info[5]
 
-product_name = 'Odoo'
-description = 'Odoo Server'
-long_desc = '''Odoo is a complete ERP and CRM. The main features are accounting (analytic
+product_name = 'GlobalCloud GPC'
+description = 'GlobalCloud GPC Server'
+long_desc = '''GlobalCloud GPC is a green supply chain public service platform. The main features are accounting (analytic
 and financial), stock management, sales and purchases management, tasks
 automation, marketing campaigns, help desk, POS, etc. Technical features include
 a distributed server, an object database, a dynamic GUI,

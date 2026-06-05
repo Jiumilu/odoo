@@ -1,0 +1,133 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_sk
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_sk
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sk.report_invoice_document
+msgid "<strong>Trade registry: </strong>"
+msgstr "<strong>Trade registry: </strong>（技术名称）"
+
+#. module: l10n_sk
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_sk.model_account_chart_template
+msgid "Account Chart Template"
+msgstr "科目表模版"
+
+#. module: l10n_sk
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_sk.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: l10n_sk
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_sk.model_base_document_layout
+msgid "Company Document Layout"
+msgstr "公司文档布局"
+
+#. module: l10n_sk
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sk.field_base_document_layout__company_registry
+msgid "Company ID"
+msgstr "公司注册号"
+
+#. module: l10n_sk
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sk.field_account_chart_template__display_name
+#: model:ir.model.fields,field_description:l10n_sk.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_sk.field_base_document_layout__display_name
+#: model:ir.model.fields,field_description:l10n_sk.field_res_company__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_sk
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sk.field_base_document_layout__account_fiscal_country_id
+msgid "Fiscal Country"
+msgstr "会计所在国家/地区"
+
+#. module: l10n_sk
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sk.field_account_chart_template__id
+#: model:ir.model.fields,field_description:l10n_sk.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_sk.field_base_document_layout__id
+#: model:ir.model.fields,field_description:l10n_sk.field_res_company__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_sk
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sk.l10n_sk_external_layout_folder
+#: model_terms:ir.ui.view,arch_db:l10n_sk.report_invoice_document
+#: model_terms:ir.ui.view,arch_db:l10n_sk.vat_registry_tax_id_external_layout
+msgid "ID:"
+msgstr "ID："
+
+#. module: l10n_sk
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sk.field_base_document_layout__income_tax_id
+#: model:ir.model.fields,field_description:l10n_sk.field_res_company__income_tax_id
+msgid "Income Tax ID"
+msgstr "Income 税 ID"
+
+#. module: l10n_sk
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_sk.model_account_move
+msgid "Journal Entry"
+msgstr "日记账分录"
+
+#. module: l10n_sk
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report,name:l10n_sk.l10n_sk_vat_report
+msgid "Slovakia VAT Return (DPHv25)"
+msgstr "Slovakia VAT 退货 (DPHv25)"
+
+#. module: l10n_sk
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sk.l10n_sk_external_layout_folder
+#: model_terms:ir.ui.view,arch_db:l10n_sk.vat_registry_tax_id_external_layout
+msgid "Tax ID"
+msgstr "税号ID"
+
+#. module: l10n_sk
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_sk.l10n_sk_external_layout_folder
+#: model_terms:ir.ui.view,arch_db:l10n_sk.vat_registry_tax_id_external_layout
+msgid "Tax ID:"
+msgstr "税 ID:"
+
+#. module: l10n_sk
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_sk.field_base_document_layout__account_fiscal_country_id
+msgid "The country to use the tax reports from for this company"
+msgstr "使用该公司税务报表的国家/地区"
+
+#. module: l10n_sk
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_sk.field_base_document_layout__company_registry
+msgid ""
+"The registry number of the company. Use it if it is different from the Tax "
+"ID. It must be unique across all partners of a same country"
+msgstr "公司注册号。如果与税号不同，请使用该号码。在同一国家的所有合作伙伴中，该号码必须是唯一的"
+
+#. module: l10n_sk
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_sk.field_res_company__trade_registry
+msgid "Trade Registry"
+msgstr "Trade Registry（技术名称）"

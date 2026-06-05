@@ -1,0 +1,1398 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_ar
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ar.report_invoice_document
+msgid "% VAT"
+msgstr "% VAT（技术名称）"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/l10n_latam_document_type.py:0
+msgid ""
+"%(value)s is not a valid value for %(field)s.\n"
+"The document number must be entered with a dash (-) and a maximum of 5 characters for the first part and 8 for the second. The following are examples of valid numbers:\n"
+"* 1-1\n"
+"* 0001-00000001\n"
+"* 00001-00000001"
+msgstr ""
+"%(value)s is not a 有效 值 for %(field)s. The 单据 编号 must be entered with a dash"
+" (-) and a maximum of 5 characters for the first part and 8 for the second. "
+"The following are examples of 有效 numbers: * 1-1 * 0001-00000001 * "
+"00001-00000001"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/l10n_latam_document_type.py:0
+msgid ""
+"%(value)s is not a valid value for %(field)s.\n"
+"The number of import Dispatch must be 16 characters."
+msgstr ""
+"%(value)s is not a 有效 值 for %(field)s. The 编号 of 导入 Dispatch must be 16 "
+"characters."
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ar.custom_header
+msgid "- Activities Start:"
+msgstr "- 活动 Start:"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ar.custom_header
+msgid "- CUIT:"
+msgstr "- CUIT:（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ar.selection__account_tax_group__l10n_ar_tribute_afip_code__01
+msgid "01 - National Taxes"
+msgstr "01 - National 税"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ar.selection__account_tax_group__l10n_ar_tribute_afip_code__02
+msgid "02 - Provincial Taxes"
+msgstr "02 - Provincial 税"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ar.selection__account_tax_group__l10n_ar_tribute_afip_code__03
+msgid "03 - Municipal Taxes"
+msgstr "03 - Municipal 税"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ar.selection__account_tax_group__l10n_ar_tribute_afip_code__04
+msgid "04 - Internal Taxes"
+msgstr "04 - Internal 税"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ar.selection__account_tax_group__l10n_ar_tribute_afip_code__06
+msgid "06 - VAT perception"
+msgstr "06 - VAT perception（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ar.selection__account_tax_group__l10n_ar_tribute_afip_code__07
+msgid "07 - IIBB perception"
+msgstr "07 - IIBB perception（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ar.selection__account_tax_group__l10n_ar_tribute_afip_code__08
+msgid "08 - Municipal Taxes Perceptions"
+msgstr "08 - Municipal 税 Perceptions"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ar.selection__account_tax_group__l10n_ar_tribute_afip_code__09
+msgid "09 - Other Perceptions"
+msgstr "09 - 其他 Perceptions"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ar.selection__account_tax_group__l10n_ar_tribute_afip_code__99
+msgid "99 - Others"
+msgstr "99 - 其他"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ar.report_invoice_document
+msgid ""
+"<br/>\n"
+"                        <strong>Incoterm:</strong>"
+msgstr "<br/> <strong>Incoterm:</strong>（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ar.report_invoice_document
+msgid "<br/><strong>CBU for payment: </strong>"
+msgstr "<br/><strong>CBU for 付款: </strong>"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ar.report_invoice_document
+msgid "<br/><strong>Currency: </strong>"
+msgstr "<br/><strong>Currency: </strong>（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ar.report_invoice_document
+msgid "<br/><strong>Payment Terms: </strong>"
+msgstr "<br/><strong>Payment Terms: </strong>（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ar.report_invoice_document
+msgid "<br/><strong>Reference:</strong>"
+msgstr "<br/><strong>Reference:</strong>（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ar.report_invoice_document
+msgid "<br/><strong>Source:</strong>"
+msgstr "<br/><strong>Source:</strong>（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ar.address_form_fields
+msgid "<option value=\"\">ARCA Responsibility...</option>"
+msgstr "<option value=\"\">ARCA Responsibility...</option>（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ar.report_invoice_document
+msgid "<span>Amount</span>"
+msgstr "<span>金额</span>"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ar.report_invoice_document
+msgid "<span>NCM</span>"
+msgstr "<span>NCM</span>（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ar.report_invoice_document
+msgid "<strong>Customer: </strong>"
+msgstr "<strong>Customer: </strong>（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ar.report_invoice_document
+msgid "<strong>Due Date: </strong>"
+msgstr "<strong>到期日: </strong>"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ar.report_invoice_document
+msgid "<strong>Invoiced period: </strong>"
+msgstr "<strong>Invoiced period: </strong>（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ar.report_invoice_document
+msgid "<strong>Son: </strong>"
+msgstr "<strong>Son: </strong>（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ar.report_invoice_document
+msgid "<strong>Supplier: </strong>"
+msgstr "<strong>Supplier: </strong>（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ar.report_invoice_document
+msgid "<strong>VAT Cond: </strong>"
+msgstr "<strong>VAT Cond: </strong>（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ar.field_account_bank_statement_line__l10n_ar_afip_concept
+#: model:ir.model.fields,help:l10n_ar.field_account_move__l10n_ar_afip_concept
+msgid ""
+"A concept is suggested regarding the type of the products on the invoice."
+msgstr "A concept is suggested regarding the 类型 of the 产品 on the 发票."
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/account_move.py:0
+msgid ""
+"A required tax group could not be found (XML ID: %s).\n"
+"Please reload your chart template in order to reinstall the required tax group.\n"
+"\n"
+"Note: You might have to relink your existing taxes to this new tax group."
+msgstr ""
+"A 必填 税 分组 could not be found (XML ID: %s). Please reload your chart 模板 in 订单"
+" to reinstall the 必填 税 分组. Note: You might have to relink your existing 税 to"
+" this 新建 税 分组."
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.ui.menu,name:l10n_ar.menu_afip_config
+msgid "ARCA"
+msgstr "ARCA（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ar.field_l10n_latam_identification_type__l10n_ar_afip_code
+#: model:ir.model.fields,field_description:l10n_ar.field_res_country__l10n_ar_afip_code
+#: model:ir.model.fields,field_description:l10n_ar.field_res_currency__l10n_ar_afip_code
+msgid "ARCA Code"
+msgstr "ARCA 代码"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ar.field_account_bank_statement_line__l10n_ar_afip_concept
+#: model:ir.model.fields,field_description:l10n_ar.field_account_move__l10n_ar_afip_concept
+msgid "ARCA Concept"
+msgstr "ARCA Concept（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ar.field_account_journal__l10n_ar_afip_pos_partner_id
+msgid "ARCA POS Address"
+msgstr "ARCA POS 地址"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ar.field_account_journal__l10n_ar_afip_pos_number
+msgid "ARCA POS Number"
+msgstr "ARCA POS 编号"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ar.field_account_journal__l10n_ar_afip_pos_system
+msgid "ARCA POS System"
+msgstr "ARCA POS System（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ar.address_form_fields
+msgid "ARCA Responsibility"
+msgstr "ARCA Responsibility（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ar.model_l10n_ar_afip_responsibility_type
+#: model:ir.model.fields,field_description:l10n_ar.field_account_bank_statement_line__l10n_ar_afip_responsibility_type_id
+#: model:ir.model.fields,field_description:l10n_ar.field_account_move__l10n_ar_afip_responsibility_type_id
+#: model:ir.model.fields,field_description:l10n_ar.field_res_company__l10n_ar_afip_responsibility_type_id
+#: model:ir.model.fields,field_description:l10n_ar.field_res_partner__l10n_ar_afip_responsibility_type_id
+#: model:ir.model.fields,field_description:l10n_ar.field_res_users__l10n_ar_afip_responsibility_type_id
+#: model_terms:ir.ui.view,arch_db:l10n_ar.view_account_move_filter
+#: model_terms:ir.ui.view,arch_db:l10n_ar.view_afip_responsibility_type_form
+#: model_terms:ir.ui.view,arch_db:l10n_ar.view_afip_responsibility_type_tree
+#: model_terms:ir.ui.view,arch_db:l10n_ar.view_res_partner_filter
+msgid "ARCA Responsibility Type"
+msgstr "ARCA Responsibility 类型"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.act_window,name:l10n_ar.action_afip_responsibility_type
+#: model:ir.model.fields,field_description:l10n_ar.field_account_fiscal_position__l10n_ar_afip_responsibility_type_ids
+msgid "ARCA Responsibility Types"
+msgstr "ARCA Responsibility Types（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ar.field_account_bank_statement_line__l10n_ar_afip_service_end
+#: model:ir.model.fields,field_description:l10n_ar.field_account_move__l10n_ar_afip_service_end
+msgid "ARCA Service End Date"
+msgstr "ARCA 服务 End 日期"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ar.field_account_bank_statement_line__l10n_ar_afip_service_start
+#: model:ir.model.fields,field_description:l10n_ar.field_account_move__l10n_ar_afip_service_start
+msgid "ARCA Service Start Date"
+msgstr "ARCA 服务 Start 日期"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ar.view_account_invoice_report_search_inherit
+msgid "Account"
+msgstr "科目"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ar.model_account_chart_template
+msgid "Account Chart Template"
+msgstr "科目表模版"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ar.field_account_invoice_report__date
+msgid "Accounting Date"
+msgstr "会计日期"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ar.view_account_invoice_report_search_inherit
+msgid "Accounting Date: This Year"
+msgstr "Accounting 日期: This Year"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/account_move.py:0
+msgid "Accounting Settings"
+msgstr "Accounting 设置"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ar.field_l10n_ar_afip_responsibility_type__active
+msgid "Active"
+msgstr "有效"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ar.field_res_company__l10n_ar_afip_start_date
+msgid "Activities Start"
+msgstr "活动 Start"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ar.field_account_journal__l10n_ar_is_pos
+msgid ""
+"Argentina: Specify if this Journal will be used to send electronic invoices "
+"to ARCA."
+msgstr "Argentina: Specify if this 日记账 will be used to 发送 电子发票s to ARCA."
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ar.field_account_journal__l10n_ar_afip_pos_system
+msgid ""
+"Argentina: Specify which type of system will be used to create the "
+"electronic invoice. This will depend on the type of invoice to be created."
+msgstr ""
+"Argentina: Specify which 类型 of system will be used to 创建 the 电子发票. This will"
+" depend on the 类型 of 发票 to be created."
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ar.field_uom_uom__l10n_ar_afip_code
+msgid "Argentina: This code will be used on electronic invoice."
+msgstr "Argentina: This 代码 will be used on 电子发票."
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ar.field_res_partner__l10n_ar_gross_income_type
+#: model:ir.model.fields,help:l10n_ar.field_res_users__l10n_ar_gross_income_type
+msgid "Argentina: Type of gross income: exempt, local, multilateral."
+msgstr "Argentina: 类型 of gross income: exempt, local, multilateral."
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/template_ar_ex.py:0
+msgid "Argentine Generic Chart of Accounts for Exempt Individuals"
+msgstr "Argentine Generic Chart of 账户 for Exempt Individuals"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/template_ar_ri.py:0
+msgid "Argentine Generic Chart of Accounts for Registered Accountants"
+msgstr "Argentine Generic Chart of 账户 for Registered Accountants"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ar.view_document_type_filter
+msgid "Argentinean Documents"
+msgstr "Argentinean 单据"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ar.res_config_settings_view_form
+msgid "Argentinean Localization"
+msgstr "Argentinean Localization（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.ui.menu,name:l10n_ar.account_reports_ar_statements_menu
+msgid "Argentinean Statements"
+msgstr "Argentinean Statements（技术名称）"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/account_journal.py:0
+msgid "BFERCEL"
+msgstr "BFERCEL（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ar.model_res_partner_bank
+msgid "Bank Accounts"
+msgstr "银行账号"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:product.template,name:l10n_ar.product_product_exento_product_template
+msgid "Book \"Development in Odoo\" (VAT Exempt)"
+msgstr "Book \"Development in 绿色供应链公共服务平台\" (VAT Exempt)"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/res_partner_bank.py:0
+msgid "CBU"
+msgstr "CBU（技术名称）"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/account_journal.py:0
+msgid "CF"
+msgstr "CF（技术名称）"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/account_journal.py:0
+msgid "CPERCEL"
+msgstr "CPERCEL（技术名称）"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/res_partner.py:0
+msgid "CUIT number must be prefixed with one of the following: %s"
+msgstr "CUIT 编号 must be prefixed with one of the following: %s"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/account_journal.py:0
+msgid ""
+"Can not create chart of account until you configure your company ARCA "
+"Responsibility and VAT."
+msgstr ""
+"Can not 创建 chart of 账户 until you 配置 your 公司 ARCA Responsibility and VAT."
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ar.address_form_fields
+msgid ""
+"Changing ARCA Responsibility type is not allowed once document(s) have"
+"                         been issued for your account. Please contact us "
+"directly for this                         operation."
+msgstr ""
+"Changing ARCA Responsibility 类型 is not allowed once 单据(s) have been issued "
+"for your 账户. Please 联系人 us directly for this operation."
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ar.field_l10n_ar_afip_responsibility_type__code
+#: model:ir.model.fields,field_description:l10n_ar.field_uom_uom__l10n_ar_afip_code
+msgid "Code"
+msgstr "代码"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.constraint,message:l10n_ar.constraint_l10n_ar_afip_responsibility_type_code_uniq
+msgid "Code must be unique!"
+msgstr "代码 must be unique!"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ar.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ar.field_res_company__l10n_ar_company_requires_vat
+msgid "Company Requires Vat?"
+msgstr "公司 Requires VAT?"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ar.field_res_partner__l10n_ar_vat
+#: model:ir.model.fields,help:l10n_ar.field_res_users__l10n_ar_vat
+msgid ""
+"Computed field that returns VAT or nothing if this one is not set for the "
+"partner"
+msgstr ""
+"Computed field that 退货 VAT or nothing if this one is not set for the 业务伙伴"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ar.field_res_partner__l10n_ar_formatted_vat
+#: model:ir.model.fields,help:l10n_ar.field_res_users__l10n_ar_formatted_vat
+msgid ""
+"Computed field that will convert the given VAT number to the format "
+"{person_category:2}-{number:10}-{validation_number:1}"
+msgstr ""
+"Computed field that will convert the given VAT 编号 to the format "
+"{person_category:2}-{number:10}-{validation_number:1}"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ar.model_res_partner
+msgid "Contact"
+msgstr "联系人"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/res_company.py:0
+msgid ""
+"Could not change the ARCA Responsibility of this company because there are "
+"already accounting entries."
+msgstr ""
+"Could not change the ARCA Responsibility of this 公司 because there are "
+"already accounting entries."
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ar.model_res_country
+msgid "Country"
+msgstr "国家/地区"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,website_form_label:l10n_ar.model_res_partner
+msgid "Create a Customer"
+msgstr "创建客户"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ar.field_l10n_ar_afip_responsibility_type__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ar.field_l10n_ar_afip_responsibility_type__create_date
+msgid "Created on"
+msgstr "创建日期"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ar.model_res_currency
+msgid "Currency"
+msgstr "币别"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ar.custom_header
+msgid "Date:"
+msgstr "日期："
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ar.field_account_bank_statement_line__l10n_ar_afip_responsibility_type_id
+#: model:ir.model.fields,help:l10n_ar.field_account_move__l10n_ar_afip_responsibility_type_id
+#: model:ir.model.fields,help:l10n_ar.field_res_company__l10n_ar_afip_responsibility_type_id
+#: model:ir.model.fields,help:l10n_ar.field_res_partner__l10n_ar_afip_responsibility_type_id
+#: model:ir.model.fields,help:l10n_ar.field_res_users__l10n_ar_afip_responsibility_type_id
+msgid ""
+"Defined by ARCA to identify the type of responsibilities that a person or a "
+"legal entity could have and that impacts in the type of operations and "
+"requirements they need."
+msgstr ""
+"Defined by ARCA to identify the 类型 of responsibilities that a person or a "
+"legal entity could have and that impacts in the 类型 of operations and "
+"requirements they need."
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ar.field_account_invoice_report__l10n_ar_state_id
+msgid "Delivery Province"
+msgstr "交货 Province"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ar.field_account_chart_template__display_name
+#: model:ir.model.fields,field_description:l10n_ar.field_account_fiscal_position__display_name
+#: model:ir.model.fields,field_description:l10n_ar.field_account_invoice_report__display_name
+#: model:ir.model.fields,field_description:l10n_ar.field_account_journal__display_name
+#: model:ir.model.fields,field_description:l10n_ar.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_ar.field_account_move_line__display_name
+#: model:ir.model.fields,field_description:l10n_ar.field_account_tax_group__display_name
+#: model:ir.model.fields,field_description:l10n_ar.field_l10n_ar_afip_responsibility_type__display_name
+#: model:ir.model.fields,field_description:l10n_ar.field_l10n_latam_document_type__display_name
+#: model:ir.model.fields,field_description:l10n_ar.field_l10n_latam_identification_type__display_name
+#: model:ir.model.fields,field_description:l10n_ar.field_res_company__display_name
+#: model:ir.model.fields,field_description:l10n_ar.field_res_country__display_name
+#: model:ir.model.fields,field_description:l10n_ar.field_res_currency__display_name
+#: model:ir.model.fields,field_description:l10n_ar.field_res_partner__display_name
+#: model:ir.model.fields,field_description:l10n_ar.field_res_partner_bank__display_name
+#: model:ir.model.fields,field_description:l10n_ar.field_uom_uom__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ar.view_document_type_filter
+msgid "Document Letter"
+msgstr "单据 Letter"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.act_window,name:l10n_ar.action_document_type_argentina
+#: model:ir.ui.menu,name:l10n_ar.menu_document_type_argentina
+msgid "Document Types"
+msgstr "单据类型"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/account_journal.py:0
+msgid "Electronic Fiscal Bond - Online Invoice"
+msgstr "Electronic 财务 Bond - Online 发票"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ar.selection__account_tax_group__l10n_ar_vat_afip_code__2
+#: model:ir.model.fields.selection,name:l10n_ar.selection__res_partner__l10n_ar_gross_income_type__exempt
+msgid "Exempt"
+msgstr "Exempt（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.journal,name:l10n_ar.sale_expo_journal_exento
+#: model:account.journal,name:l10n_ar.sale_expo_journal_mono
+#: model:account.journal,name:l10n_ar.sale_expo_journal_ri
+msgid "Expo Sales Journal"
+msgstr "Expo 销售 日记账"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/account_journal.py:0
+msgid "Export Voucher - Billing Plus"
+msgstr "导出 Voucher - Billing Plus"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/account_journal.py:0
+msgid "Export Voucher - Online Invoice"
+msgstr "导出 Voucher - Online 发票"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/account_journal.py:0
+msgid "External Fiscal Controller"
+msgstr "External 财务 Controller"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/account_journal.py:0
+msgid "FEERCEL"
+msgstr "FEERCEL（技术名称）"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/account_journal.py:0
+msgid "FEERCELP"
+msgstr "FEERCELP（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ar.model_account_fiscal_position
+msgid "Fiscal Position"
+msgstr "财政状况"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ar.report_invoice_document
+msgid "Fiscal Transparency Regime for the Final Consumer (Law 27.743)"
+msgstr "财务 Transparency Regime for the Final Consumer (Law 27.743)"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/controllers/portal.py:0
+msgid ""
+"For the selected ARCA Responsibility you will need to set CUIT "
+"Identification Type"
+msgstr ""
+"For the selected ARCA Responsibility you will need to set CUIT "
+"Identification 类型"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ar.field_res_partner__l10n_ar_formatted_vat
+#: model:ir.model.fields,field_description:l10n_ar.field_res_users__l10n_ar_formatted_vat
+msgid "Formatted VAT"
+msgstr "Formatted VAT（技术名称）"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/template_ar_base.py:0
+msgid "Generic Chart of Accounts Argentina Single Taxpayer / Basis"
+msgstr "Generic Chart of 账户 Argentina Single Taxpayer / Basis"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ar.field_res_country__l10n_ar_legal_entity_vat
+msgid ""
+"Generic VAT number defined by ARCA in order to recognize partners from this "
+"country that are legal entity"
+msgstr ""
+"Generic VAT 编号 defined by ARCA in 订单 to recognize 业务伙伴 从 this 国家/地区 that are"
+" legal entity"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ar.field_res_country__l10n_ar_natural_vat
+msgid ""
+"Generic VAT number defined by ARCA in order to recognize partners from this "
+"country that are natural persons"
+msgstr ""
+"Generic VAT 编号 defined by ARCA in 订单 to recognize 业务伙伴 从 this 国家/地区 that are"
+" natural persons"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ar.field_res_country__l10n_ar_other_vat
+msgid ""
+"Generic VAT number defined by ARCA in order to recognize partners from this "
+"country that are not natural persons or legal entities"
+msgstr ""
+"Generic VAT 编号 defined by ARCA in 订单 to recognize 业务伙伴 从 this 国家/地区 that are"
+" not natural persons or legal entities"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/account_journal.py:0
+msgid "Go to Companies"
+msgstr "Go to Companies（技术名称）"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/account_move.py:0
+msgid "Go to Journals"
+msgstr "Go to Journals（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ar.field_res_company__l10n_ar_gross_income_type
+#: model_terms:ir.ui.view,arch_db:l10n_ar.view_company_form
+#: model_terms:ir.ui.view,arch_db:l10n_ar.view_partner_property_form
+msgid "Gross Income"
+msgstr "Gross Income（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ar.field_res_company__l10n_ar_gross_income_number
+#: model:ir.model.fields,field_description:l10n_ar.field_res_partner__l10n_ar_gross_income_number
+#: model:ir.model.fields,field_description:l10n_ar.field_res_users__l10n_ar_gross_income_number
+msgid "Gross Income Number"
+msgstr "Gross Income 编号"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ar.field_res_partner__l10n_ar_gross_income_type
+#: model:ir.model.fields,field_description:l10n_ar.field_res_users__l10n_ar_gross_income_type
+msgid "Gross Income Type"
+msgstr "Gross Income 类型"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:product.template,name:l10n_ar.product_product_servicio_de_guarda_product_template
+msgid "Guard Service"
+msgstr "Guard 服务"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ar.field_account_chart_template__id
+#: model:ir.model.fields,field_description:l10n_ar.field_account_fiscal_position__id
+#: model:ir.model.fields,field_description:l10n_ar.field_account_invoice_report__id
+#: model:ir.model.fields,field_description:l10n_ar.field_account_journal__id
+#: model:ir.model.fields,field_description:l10n_ar.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_ar.field_account_move_line__id
+#: model:ir.model.fields,field_description:l10n_ar.field_account_tax_group__id
+#: model:ir.model.fields,field_description:l10n_ar.field_l10n_ar_afip_responsibility_type__id
+#: model:ir.model.fields,field_description:l10n_ar.field_l10n_latam_document_type__id
+#: model:ir.model.fields,field_description:l10n_ar.field_l10n_latam_identification_type__id
+#: model:ir.model.fields,field_description:l10n_ar.field_res_company__id
+#: model:ir.model.fields,field_description:l10n_ar.field_res_country__id
+#: model:ir.model.fields,field_description:l10n_ar.field_res_currency__id
+#: model:ir.model.fields,field_description:l10n_ar.field_res_partner__id
+#: model:ir.model.fields,field_description:l10n_ar.field_res_partner_bank__id
+#: model:ir.model.fields,field_description:l10n_ar.field_uom_uom__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.act_window,name:l10n_ar.action_iibb_purchases_by_state_and_account_pivot
+#: model:ir.ui.menu,name:l10n_ar.menu_iibb_purchases_by_state_and_account
+msgid "IIBB - Purchases by jurisdiction"
+msgstr "IIBB - Purchases by jurisdiction（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.act_window,name:l10n_ar.action_iibb_sales_by_state_and_account_pivot
+#: model:ir.ui.menu,name:l10n_ar.menu_iibb_sales_by_state_and_account
+msgid "IIBB - Sales by jurisdiction"
+msgstr "IIBB - 销售 by jurisdiction"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ar.custom_header
+msgid "IIBB:"
+msgstr "IIBB:（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ar.model_l10n_latam_identification_type
+msgid "Identification Types"
+msgstr "Identification Types（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:product.template,name:l10n_ar.product_product_quote_despacho_product_template
+msgid "Import Clearance"
+msgstr "导入 Clearance"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/res_partner.py:0
+msgid "Invalid length for \"%s\""
+msgstr "无效 length for \"%s\""
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ar.model_account_invoice_report
+msgid "Invoices Statistics"
+msgstr "发票统计"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ar.field_account_journal__l10n_ar_is_pos
+msgid "Is ARCA POS?"
+msgstr "Is ARCA POS?（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ar.model_account_journal
+msgid "Journal"
+msgstr "日记账"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ar.model_account_move
+msgid "Journal Entry"
+msgstr "日记账分录"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ar.model_account_move_line
+msgid "Journal Item"
+msgstr "日记账项目"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ar.field_l10n_ar_afip_responsibility_type__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ar.field_l10n_ar_afip_responsibility_type__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ar.model_l10n_latam_document_type
+msgid "Latam Document Type"
+msgstr "Latam 单据类型"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ar.field_res_country__l10n_ar_legal_entity_vat
+msgid "Legal Entity VAT"
+msgstr "Legal Entity VAT（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ar.field_l10n_latam_document_type__l10n_ar_letter
+msgid "Letters"
+msgstr "信"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ar.field_l10n_latam_document_type__l10n_ar_letter
+msgid ""
+"Letters defined by the ARCA that can be used to identify the documents "
+"presented to the government and that depends on the operation type, the "
+"responsibility of both the issuer and the receptor of the document"
+msgstr ""
+"Letters defined by the ARCA that can be used to identify the 单据 presented to"
+" the government and that depends on the operation 类型, the responsibility of "
+"both the issuer and the receptor of the 单据"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ar.field_account_fiscal_position__l10n_ar_afip_responsibility_type_ids
+msgid ""
+"List of ARCA responsibilities where this fiscal position should be auto-"
+"detected"
+msgstr "列表 of ARCA responsibilities where this 财务规则 should be auto-detected"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ar.selection__res_partner__l10n_ar_gross_income_type__local
+msgid "Local"
+msgstr "Local（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ar.custom_header
+msgid "Logo"
+msgstr "标识"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/account_move.py:0
+msgid "Missing Partner Configuration"
+msgstr "Missing 业务伙伴 配置"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ar.selection__res_partner__l10n_ar_gross_income_type__multilateral
+msgid "Multilateral"
+msgstr "Multilateral（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ar.field_l10n_ar_afip_responsibility_type__name
+msgid "Name"
+msgstr "名称"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.constraint,message:l10n_ar.constraint_l10n_ar_afip_responsibility_type_name_uniq
+msgid "Name must be unique!"
+msgstr "名称 must be unique!"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ar.field_res_country__l10n_ar_natural_vat
+msgid "Natural Person VAT"
+msgstr "Natural Person VAT（技术名称）"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/res_partner.py:0
+msgid "No VAT configured for partner [%i] %s"
+msgstr "否 VAT configured for 业务伙伴 [%i] %s"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:product.template,name:l10n_ar.product_product_cero_product_template
+msgid "Non-industrialized animals and vegetables (VAT Zero)"
+msgstr "Non-industrialized animals and vegetables (VAT Zero)（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ar.selection__account_tax_group__l10n_ar_vat_afip_code__0
+msgid "Not Applicable"
+msgstr "Not Applicable（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ar.selection__l10n_latam_document_type__purchase_aliquots__not_zero
+msgid "Not Zero"
+msgstr "Not Zero（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ar.custom_header
+msgid "Nro:"
+msgstr "Nro:（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ar.view_company_form
+#: model_terms:ir.ui.view,arch_db:l10n_ar.view_partner_property_form
+msgid "Number..."
+msgstr "编号..."
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/account_move.py:0
+msgid "On invoice id “%s” you must use VAT Not Applicable on every line."
+msgstr "On 发票 ID “%s” you must use VAT Not Applicable on every 行."
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/account_move.py:0
+msgid ""
+"On invoice id “%s” you must use a VAT tax that is not VAT Not Applicable"
+msgstr "On 发票 ID “%s” you must use a VAT 税 that is not VAT Not Applicable"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/account_journal.py:0
+msgid "Online Invoice"
+msgstr "Online 发票"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/res_partner.py:0
+msgid "Only numbers allowed for \"%s\""
+msgstr "Only numbers allowed for \"%s\"（技术名称）"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/account_move.py:0
+msgid "Other National Ind. Taxes %s"
+msgstr "其他 National Ind. 税 %s"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ar.field_res_country__l10n_ar_other_vat
+msgid "Other VAT"
+msgstr "其他 VAT"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ar.report_invoice_document
+msgid "Page: <span class=\"page\"/> / <span class=\"topage\"/>"
+msgstr "Page: <span class=\"page\"/> / <span class=\"topage\"/>（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ar.field_account_journal__company_partner
+msgid "Partner"
+msgstr "合作伙伴"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/account_move.py:0
+msgid "Please configure the ARCA Responsibility for \"%s\" in order to continue"
+msgstr "Please 配置 the ARCA Responsibility for \"%s\" in 订单 to continue"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/account_journal.py:0
+msgid "Please define a valid ARCA POS number (5 digits max)"
+msgstr "Please define a 有效 ARCA POS 编号 (5 digits max)"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/account_journal.py:0
+msgid "Please define an ARCA POS number"
+msgstr "Please define an ARCA POS 编号"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/account_journal.py:0
+msgid "Pre-printed Invoice"
+msgstr "Pre-printed 发票"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/account_journal.py:0
+msgid "Product Coding - Online Voucher"
+msgstr "产品 Coding - Online Voucher"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ar.model_uom_uom
+msgid "Product Unit of Measure"
+msgstr "产品计量单位"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ar.field_l10n_latam_document_type__purchase_aliquots
+msgid "Purchase Aliquots"
+msgstr "采购 Aliquots"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/account_journal.py:0
+msgid "RLI_RLM"
+msgstr "RLI_RLM（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ar.field_l10n_latam_document_type__purchase_aliquots
+msgid ""
+"Raise an error if a vendor bill is miss encoded. \"Not Zero\" means the VAT "
+"taxes are required for the invoices related to this document type, and those"
+" with \"Zero\" means that only \"VAT Not Applicable\" tax is allowed."
+msgstr ""
+"Raise an 错误 if a 供应商账单 is miss encoded. \"Not Zero\" means the VAT 税 are 必填 "
+"for the 发票 相关 to this 单据类型, and those with \"Zero\" means that only \"VAT "
+"Not Applicable\" 税 is allowed."
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.ui.menu,name:l10n_ar.menu_afip_responsibility_type
+msgid "Responsibility Types"
+msgstr "Responsibility Types（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ar.field_l10n_ar_afip_responsibility_type__sequence
+msgid "Sequence"
+msgstr "序列"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ar.view_move_form
+msgid "Service Date"
+msgstr "服务 日期"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ar.view_account_invoice_report_search_inherit
+msgid "State"
+msgstr "省/州"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:product.template,name:l10n_ar.product_product_tasa_estadistica_product_template
+msgid "Statistics Rate"
+msgstr "Statistics Rate（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:product.template,name:l10n_ar.product_product_arancel_product_template
+msgid "Tariff"
+msgstr "Tariff（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ar.model_account_tax_group
+msgid "Tax Group"
+msgstr "税项组"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ar.report_invoice_document
+msgid "Taxes"
+msgstr "税项"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:product.template,name:l10n_ar.product_product_telefonia_product_template
+msgid "Telephone service (VAT 27)"
+msgstr "Telephone 服务 (VAT 27)"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/account_move.py:0
+msgid ""
+"The document number can not be changed for this journal, you can only modify"
+" the POS number if there is not posted (or posted before) invoices"
+msgstr ""
+"The 单据 编号 can not be changed for this 日记账, you can only modify the POS 编号 if"
+" there is not 已过账 (or 已过账 before) 发票"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/account_journal.py:0
+msgid ""
+"The pos system %(system)s can not be used on a purchase journal (id %(id)s)"
+msgstr "The POS system %(system)s can not be used on a 采购 日记账 (ID %(id)s)"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/account_move.py:0
+msgid ""
+"The selected Journal can't be used in this transaction, please select one "
+"that doesn't use documents as these are just for Invoices."
+msgstr ""
+"The selected 日记账 can't be used in this 交易, please select one that doesn't "
+"use 单据 as these are just for 发票."
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ar.report_invoice_document
+msgid ""
+"The tax credit specified in this voucher may only be computed for purposes "
+"of the Tax Support and Inclusion Regime for Small Taxpayers of Law No. "
+"27,618."
+msgstr ""
+"The 税 贷方 specified in this voucher may only be computed for purposes of the "
+"税 Support and Inclusion Regime for Small Taxpayers of Law 否. 27,618."
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/account_tax_group.py:0
+msgid ""
+"The tax group '%s' can't be removed, since it is required in the Argentinian"
+" localization."
+msgstr ""
+"The 税 分组 '%s' can't be removed, since it is 必填 in the Argentinian "
+"localization."
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/res_partner.py:0
+msgid "The validation digit is not valid for \"%s\""
+msgstr "The validation digit is not 有效 for \"%s\""
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/account_move.py:0
+msgid ""
+"There should be a single tax from the “VAT“ tax group per line, but this is "
+"not the case for line “%s”. Please add a tax to this line or check the tax "
+"configuration's advanced options for the corresponding field “Tax Group”."
+msgstr ""
+"There should be a single 税 从 the “VAT“ 税 分组 per 行, but this is not the case "
+"for 行 “%s”. Please 添加 a 税 to this 行 or 检查 the 税 configuration's advanced "
+"options for the corresponding field “税 分组”."
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ar.field_res_country__l10n_ar_afip_code
+#: model:ir.model.fields,help:l10n_ar.field_res_currency__l10n_ar_afip_code
+msgid "This code will be used on electronic invoice"
+msgstr "This 代码 will be used on 电子发票"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ar.field_res_company__l10n_ar_gross_income_number
+#: model:ir.model.fields,help:l10n_ar.field_res_company__l10n_ar_gross_income_type
+msgid "This field is required in order to print the invoice report properly"
+msgstr "This field is 必填 in 订单 to 打印 the 发票 报表 properly"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ar.field_account_journal__l10n_ar_afip_pos_partner_id
+msgid "This is the address used for invoice reports of this POS"
+msgstr "This is the 地址 used for 发票 报表 of this POS"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ar.field_account_journal__l10n_ar_afip_pos_number
+msgid ""
+"This is the point of sale number assigned by ARCA in order to generate "
+"invoices"
+msgstr "This is the 销售点 编号 assigned by ARCA in 订单 to 生成发票s"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ar.field_account_tax_group__l10n_ar_tribute_afip_code
+msgid "Tribute ARCA Code"
+msgstr "Tribute ARCA 代码"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ar.selection__account_tax_group__l10n_ar_vat_afip_code__1
+msgid "Untaxed"
+msgstr "不含税"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:product.template,name:l10n_ar.product_product_no_gravado_product_template
+msgid "Untaxed concepts (VAT NT)"
+msgstr "Untaxed concepts (VAT NT)（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ar.field_res_partner__l10n_ar_vat
+#: model:ir.model.fields,field_description:l10n_ar.field_res_users__l10n_ar_vat
+msgid "VAT"
+msgstr "增值税"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ar.field_account_tax_group__l10n_ar_vat_afip_code
+msgid "VAT ARCA Code"
+msgstr "VAT ARCA 代码"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/account_move.py:0
+msgid "VAT Content %s"
+msgstr "VAT Content %s（技术名称）"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/template_ar_base.py:0
+msgid "Ventas Preimpreso"
+msgstr "Ventas Preimpreso（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ar.view_account_invoice_report_search_inherit
+msgid "With Document"
+msgstr "With 单据"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/account_move.py:0
+msgid ""
+"You are trying to create an invoice for domestic partner but you don't have "
+"a domestic market journal"
+msgstr ""
+"You are trying to 创建 an 发票 for domestic 业务伙伴 but you don't have a domestic "
+"market 日记账"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/account_move.py:0
+msgid ""
+"You are trying to create an invoice for foreign partner but you don't have "
+"an exportation journal"
+msgstr ""
+"You are trying to 创建 an 发票 for foreign 业务伙伴 but you don't have an "
+"exportation 日记账"
+
+#. module: l10n_ar
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_ar/models/account_journal.py:0
+msgid ""
+"You can not change %s journal's configuration if it already has validated "
+"invoices"
+msgstr "You can not change %s journal's 配置 if it already has validated 发票"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_ar.selection__l10n_latam_document_type__purchase_aliquots__zero
+msgid "Zero"
+msgstr "Zero（技术名称）"
+
+#. module: l10n_ar
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ar.report_invoice_document
+#: model_terms:ir.ui.view,arch_db:l10n_ar.view_move_form
+msgid "to"
+msgstr "到"

@@ -1,0 +1,116 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_co
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_co
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_co.model_account_chart_template
+msgid "Account Chart Template"
+msgstr "科目表模版"
+
+#. module: l10n_co
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.ui.menu,name:l10n_co.account_reports_co_statements_menu
+msgid "Colombia"
+msgstr "哥伦比亚"
+
+#. module: l10n_co
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.identification.type,name:l10n_co.national_citizen_id
+msgid "Cédula de ciudadanía"
+msgstr "Cédula de ciudadanía（技术名称）"
+
+#. module: l10n_co
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.identification.type,name:l10n_co.foreign_resident_card
+msgid "Cédula de extranjería"
+msgstr "Cédula de extranjería（技术名称）"
+
+#. module: l10n_co
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_co.field_account_chart_template__display_name
+#: model:ir.model.fields,field_description:l10n_co.field_l10n_latam_identification_type__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_co
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_co.field_l10n_latam_identification_type__l10n_co_document_code
+msgid "Document Code"
+msgstr "单据 代码"
+
+#. module: l10n_co
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_co.field_account_chart_template__id
+#: model:ir.model.fields,field_description:l10n_co.field_l10n_latam_identification_type__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_co
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_co.model_l10n_latam_identification_type
+msgid "Identification Types"
+msgstr "Identification Types（技术名称）"
+
+#. module: l10n_co
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.identification.type,name:l10n_co.rut
+msgid "NIT"
+msgstr "NIT"
+
+#. module: l10n_co
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.identification.type,name:l10n_co.niup_id
+msgid "NIUP"
+msgstr "NIUP（技术名称）"
+
+#. module: l10n_co
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.identification.type,name:l10n_co.external_id
+msgid "Nit de otro país"
+msgstr "Nit de otro país（技术名称）"
+
+#. module: l10n_co
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.identification.type,name:l10n_co.residence_document
+msgid "PEP (Permiso Especial de Permanencia)"
+msgstr "PEP (Permiso Especial de Permanencia)（技术名称）"
+
+#. module: l10n_co
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.identification.type,name:l10n_co.48
+msgid "PPT(Permiso Protección Temporal)"
+msgstr "PPT(Permiso Protección Temporal)（技术名称）"
+
+#. module: l10n_co
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.identification.type,name:l10n_co.civil_registration
+msgid "Registro Civil"
+msgstr "Registro Civil（技术名称）"
+
+#. module: l10n_co
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.identification.type,name:l10n_co.id_card
+msgid "Tarjeta de Identidad"
+msgstr "Tarjeta de Identidad（技术名称）"
+
+#. module: l10n_co
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:l10n_latam.identification.type,name:l10n_co.foreign_colombian_card
+msgid "Tarjeta de extranjería"
+msgstr "Tarjeta de extranjería（技术名称）"

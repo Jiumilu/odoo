@@ -1,0 +1,763 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_pl_edi
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/res_config_settings.py:0
+msgid "A polish VAT number must be set on your company."
+msgstr "A polish VAT 编号 must be set on your 公司."
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_pl_edi.selection__account_move__l10n_pl_edi_status__accepted
+msgid "Accepted"
+msgstr "已接收"
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_pl_edi.model_account_move_send
+msgid "Account Move Send"
+msgstr "科目分录发送"
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_res_config_settings__l10n_pl_edi_register
+msgid "Allow KSeF integration"
+msgstr "Allow KSeF integration（技术名称）"
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/res_config_settings.py:0
+msgid "Authentication with KSeF failed."
+msgstr "Authentication with KSeF 失败."
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_pl_edi.res_config_settings_view_form_l10n_pl_edi
+msgid ""
+"By checking this box, I authorize Odoo to send and receive my invoices "
+"through the KSeF in the FA(3) format."
+msgstr ""
+"By checking this box, I authorize 绿色供应链公共服务平台 to 发送 and receive my 发票 "
+"through the KSeF in the FA(3) format."
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_pl_edi.view_move_form_l10n_pl_edi
+msgid "Check Sending"
+msgstr "检查 Sending"
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_pl_edi.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_pl_edi.model_res_config_settings
+msgid "Config Settings"
+msgstr "配置设定"
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_pl_edi.model_res_partner
+msgid "Contact"
+msgstr "联系人"
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/tools/ksef_api_service.py:0
+msgid "Could not fetch KSeF public keys: %s"
+msgstr "Could not fetch KSeF public keys: %s（技术名称）"
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/tools/ksef_api_service.py:0
+msgid ""
+"Could not find all required KSeF public keys ('SymmetricKeyEncryption' and "
+"'KsefTokenEncryption')."
+msgstr ""
+"Could not find all 必填 KSeF public keys ('SymmetricKeyEncryption' and "
+"'KsefTokenEncryption')."
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,website_form_label:l10n_pl_edi.model_res_partner
+msgid "Create a Customer"
+msgstr "创建客户"
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_pl_edi.fa3_xml_template
+msgid "Data wystawienia faktury"
+msgstr "Data wystawienia faktury（技术名称）"
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_account_move_send__display_name
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_res_company__display_name
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_res_partner__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_pl_edi.fa3_xml_template
+msgid "Dni"
+msgstr "Dni（技术名称）"
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_pl_edi.view_move_form_l10n_pl_edi
+msgid "Download UPO"
+msgstr "Download UPO（技术名称）"
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/account_move_send.py:0
+msgid "Error when sending invoices to the KSeF"
+msgstr "错误 when sending 发票 to the KSeF"
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_pl_edi.fa3_xml_template
+msgid "FA"
+msgstr "FA（技术名称）"
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/tools/ksef_api_service.py:0
+msgid "Failed to authenticate with XAdES: %s"
+msgstr "失败 to authenticate with XAdES: %s"
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/tools/ksef_api_service.py:0
+msgid "Failed to check KSeF auth status: %s"
+msgstr "失败 to 检查 KSeF auth 状态: %s"
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/tools/ksef_api_service.py:0
+msgid "Failed to check KSeF session: %s"
+msgstr "失败 to 检查 KSeF session: %s"
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/account_move.py:0
+msgid "Failed to check KSeF status: %s"
+msgstr "失败 to 检查 KSeF 状态: %s"
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/account_move.py:0
+msgid "Failed to download UPO: %s"
+msgstr "失败 to download UPO: %s"
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/tools/ksef_api_service.py:0
+msgid "Failed to get challenge code: %s"
+msgstr "失败 to get challenge 代码: %s"
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/res_config_settings.py:0
+msgid "Failed to initiate KSeF authentication."
+msgstr "失败 to initiate KSeF authentication."
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/tools/ksef_api_service.py:0
+msgid "Failed to open KSeF session: %s"
+msgstr "失败 to open KSeF session: %s"
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/tools/ksef_api_service.py:0
+msgid "Failed to redeem token: %s"
+msgstr "失败 to redeem token: %s"
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/tools/ksef_api_service.py:0
+msgid ""
+"Failed to refresh KSeF access token. You may need to re-authenticate "
+"manually. Error: %s"
+msgstr ""
+"失败 to refresh KSeF 访问 token. You may need to re-authenticate manually. 错误: "
+"%s"
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/tools/ksef_api_service.py:0
+msgid "Failed to retrieve a new access token from KSeF response."
+msgstr "失败 to retrieve a 新建 访问 token 从 KSeF response."
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/res_config_settings.py:0
+msgid "Failed to retrieve access or refresh tokens."
+msgstr "失败 to retrieve 访问 or refresh tokens."
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/tools/ksef_api_service.py:0
+msgid "Failed to start token authentication: %s"
+msgstr "失败 to start token authentication: %s"
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_account_move_send__id
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_res_company__id
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_res_config_settings__id
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_res_partner__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_pl_edi.model_account_move
+msgid "Journal Entry"
+msgstr "日记账分录"
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/tools/ksef_api_service.py:0
+msgid "KSeF API Error: %s"
+msgstr "KSeF API 错误: %s"
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_res_config_settings__l10n_pl_edi_access_token
+msgid "KSeF Access Token"
+msgstr "KSeF 访问 Token"
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_account_bank_statement_line__l10n_pl_edi_attachment_id
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_account_move__l10n_pl_edi_attachment_id
+msgid "KSeF Attachment"
+msgstr "KSeF 附件"
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/tools/ksef_api_service.py:0
+msgid ""
+"KSeF Authentication failed with status %(status_code)s: "
+"%(status_description)s"
+msgstr ""
+"KSeF Authentication 失败 with 状态 %(status_code)s: %(status_description)s"
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/tools/ksef_api_service.py:0
+msgid "KSeF Authentication timed out. Please try again in a moment."
+msgstr "KSeF Authentication timed out. Please try again in a moment.（技术名称）"
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_res_company__l10n_pl_edi_certificate
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_res_config_settings__l10n_pl_edi_certificate
+msgid "KSeF Certificate"
+msgstr "KSeF 证书"
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/account_move.py:0
+msgid "KSeF Fetched Invoice XML"
+msgstr "KSeF Fetched 发票 XML"
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_account_bank_statement_line__l10n_pl_edi_register
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_account_move__l10n_pl_edi_register
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_res_company__l10n_pl_edi_register
+msgid "KSeF Integration Enabled"
+msgstr "KSeF Integration 已启用"
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_account_bank_statement_line__l10n_pl_edi_number
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_account_move__l10n_pl_edi_number
+msgid "KSeF Number"
+msgstr "KSeF 编号"
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/account_move.py:0
+msgid "KSeF Official Confirmation of Receipt (UPO)"
+msgstr "KSeF Official Confirmation of Receipt (UPO)（技术名称）"
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_account_bank_statement_line__l10n_pl_edi_ref
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_account_move__l10n_pl_edi_ref
+msgid "KSeF Reference Number"
+msgstr "KSeF 参考 编号"
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/account_move_send.py:0
+msgid "KSeF Sent Invoice XML"
+msgstr "KSeF 已发送 发票 XML"
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_account_bank_statement_line__l10n_pl_edi_session_id
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_account_move__l10n_pl_edi_session_id
+msgid "KSeF Session Number used for sending"
+msgstr "KSeF Session 编号 used for sending"
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_account_bank_statement_line__l10n_pl_edi_status
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_account_move__l10n_pl_edi_status
+msgid "KSeF Status"
+msgstr "KSeF 状态"
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/account_move.py:0
+msgid "KSeF Status: Error (Code: 500). Unknown error."
+msgstr "KSeF 状态: 错误 (代码: 500). Unknown 错误."
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/account_move.py:0
+msgid "KSeF Status: Invoice accepted for further processing (Code: 100)."
+msgstr "KSeF 状态: 发票 已接受 for further processing (代码: 100)."
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/account_move.py:0
+msgid "KSeF Status: Processing in progress (Code: 150)."
+msgstr "KSeF 状态: Processing in progress (代码: 150)."
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/account_move.py:0
+msgid "KSeF Status: Rejected (Code: 405). Processing canceled."
+msgstr "KSeF 状态: Rejected (代码: 405). Processing canceled."
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/account_move.py:0
+msgid "KSeF Status: Rejected (Code: 410). Incorrect scope of permissions."
+msgstr "KSeF 状态: Rejected (代码: 410). Incorrect scope of permissions."
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/account_move.py:0
+msgid ""
+"KSeF Status: Rejected (Code: 415). It is not possible to send an invoice "
+"with an attachment."
+msgstr ""
+"KSeF 状态: Rejected (代码: 415). It is not possible to 发送 an 发票 with an 附件."
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/account_move.py:0
+msgid "KSeF Status: Rejected (Code: 430). Invoice file verification error."
+msgstr "KSeF 状态: Rejected (代码: 430). 发票 文件 verification 错误."
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/account_move.py:0
+msgid "KSeF Status: Rejected (Code: 435). File decryption error."
+msgstr "KSeF 状态: Rejected (代码: 435). 文件 decryption 错误."
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/account_move.py:0
+msgid "KSeF Status: Rejected (Code: 440). Duplicate invoice."
+msgstr "KSeF 状态: Rejected (代码: 440). 复制 发票."
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/account_move.py:0
+msgid ""
+"KSeF Status: Rejected (Code: 450). Invoice document semantics verification "
+"error."
+msgstr "KSeF 状态: Rejected (代码: 450). 发票 单据 semantics verification 错误."
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/account_move.py:0
+msgid "KSeF Status: Success (Code: 200). Invoice accepted."
+msgstr "KSeF 状态: Success (代码: 200). 发票 已接受."
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_res_company__l10n_pl_edi_access_token
+msgid "KSeF Token"
+msgstr "KSeF Token（技术名称）"
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_res_company__l10n_pl_edi_refresh_token
+msgid "KSeF Token Expiration"
+msgstr "KSeF Token Expiration（技术名称）"
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/res_config_settings.py:0
+msgid "KSeF certificate and private key are not set."
+msgstr "KSeF 证书 and private key are not set."
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_pl_edi.fa3_xml_template
+msgid "Koniec miesiąca"
+msgstr "Koniec miesiąca（技术名称）"
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_pl_edi.fa3_xml_template
+msgid "Koniec następnego miesiąca"
+msgstr "Koniec następnego miesiąca（技术名称）"
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_account_bank_statement_line__l10n_pl_edi_attachment_file
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_account_move__l10n_pl_edi_attachment_file
+msgid "L10N Pl Edi Attachment File"
+msgstr "L10N Pl EDI 附件 文件"
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_account_bank_statement_line__l10n_pl_edi_header
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_account_move__l10n_pl_edi_header
+msgid "L10N Pl Edi Header"
+msgstr "L10N Pl EDI Header（技术名称）"
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_account_bank_statement_line__l10n_pl_edi_upo_file
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_account_move__l10n_pl_edi_upo_file
+msgid "L10N Pl Edi Upo File"
+msgstr "L10N Pl EDI Upo 文件"
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/tools/ksef_api_service.py:0
+msgid "No active KSeF session found. Please open a session first."
+msgstr "否 启用 KSeF session found. Please open a session first."
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/account_move.py:0
+msgid "No description provided."
+msgstr "否 说明 provided."
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/account_move.py:0
+msgid ""
+"No net or gross unit price found in the FA (3) for the line with product "
+"'%s'."
+msgstr "否 net or gross 单位 价格 found in the FA (3) for the 行 with 产品 '%s'."
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/tools/ksef_api_service.py:0
+msgid "No refresh token found to renew the session."
+msgstr "否 refresh token found to renew the session."
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_pl_edi.fa3_xml_template
+msgid "Odoo"
+msgstr "绿色供应链公共服务平台"
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/account_move.py:0
+msgid "Please complete the address of your company\n"
+msgstr "Please complete the 地址 of your 公司\n"
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/res_config_settings.py:0
+msgid "Please set up a valid KSeF Certificate, with its Private Key set"
+msgstr "Please set up a 有效 KSeF 证书, with its Private Key set"
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_pl_edi.selection__res_partner__invoice_edi_format__fa3_pl
+msgid "Polish FA3"
+msgstr "Polish FA3（技术名称）"
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.server,name:l10n_pl_edi.cron_l10n_pl_edi_ksef_download_bills_ir_actions_server
+msgid "Polish eInvoice: Download vendor bills from KSeF"
+msgstr "Polish eInvoice: Download 供应商账单s 从 KSeF"
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.server,name:l10n_pl_edi.cron_l10n_pl_edi_refresh_tokens_ir_actions_server
+msgid "Polish eInvoice: Refresh KSeF tokens"
+msgstr "Polish eInvoice: Refresh KSeF tokens（技术名称）"
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.server,name:l10n_pl_edi.cron_auto_checks_the_polish_invoice_status_ir_actions_server
+msgid "Polish eInvoice: automatically check the status of the invoice in ksef"
+msgstr "Polish eInvoice: automatically 检查 the 状态 of the 发票 in ksef"
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/account_move.py:0
+msgid ""
+"Purchase tax corresponding to '%s' required for the KSeF import was not "
+"found in the system."
+msgstr ""
+"采购 税 corresponding to '%s' 必填 for the KSeF 导入 was not found in the system."
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_res_company__l10n_pl_edi_session_id
+msgid "Reference number"
+msgstr "参考 编号"
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_pl_edi.selection__account_move__l10n_pl_edi_status__rejected
+msgid "Rejected"
+msgstr "拒绝"
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/account_move_send.py:0
+msgid ""
+"Send the electronic invoice to the Polish National e-Invoicing System "
+"(KSeF)."
+msgstr "发送 the 电子发票 to the Polish National e-Invoicing System (KSeF)."
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_pl_edi.selection__account_move__l10n_pl_edi_status__sent
+msgid "Sent (In Progress)"
+msgstr "已发送 (In Progress)"
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_res_company__l10n_pl_edi_session_iv
+msgid "Session iv"
+msgstr "Session iv（技术名称）"
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_res_company__l10n_pl_edi_session_key
+msgid "Session key"
+msgstr "Session key（技术名称）"
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/account_move.py:0
+msgid ""
+"Tax corresponding to '%s' required to derive the net unit price from gross "
+"price during KSeF import was not found in the mapping."
+msgstr ""
+"税 corresponding to '%s' 必填 to derive the net 单位 价格 从 gross 价格 during KSeF 导入"
+" was not found in the mapping."
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/account_move.py:0
+msgid ""
+"The KSeF Official Confirmation of Receipt (UPO) has been downloaded and "
+"attached."
+msgstr ""
+"The KSeF Official Confirmation of Receipt (UPO) has been downloaded and "
+"attached.（技术名称）"
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/account_move_send.py:0
+msgid "The KSeF XML has been attached."
+msgstr "The KSeF XML has been attached.（技术名称）"
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.constraint,message:l10n_pl_edi.constraint_account_move_l10n_pl_edi_number_uniq
+msgid "The KSeF number must be unique"
+msgstr "The KSeF 编号 must be unique"
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/account_move.py:0
+msgid "The KSeF service returned empty UPO content."
+msgstr "The KSeF 服务 returned empty UPO content."
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/account_move_send.py:0
+msgid "The move was skipped because it is future-dated"
+msgstr "The move was skipped because it is future-dated（技术名称）"
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/res_config_settings.py:0
+msgid "The selected certificate record (%(name)s) is missing a private key."
+msgstr "The selected 证书 record (%(name)s) is missing a private key."
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/account_move.py:0
+msgid ""
+"This invoice does not have a KSeF Invoice Reference Number. It may not have "
+"been sent yet."
+msgstr "This 发票 does not have a KSeF 发票参考 编号. It may not have been 已发送 yet."
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_account_bank_statement_line__l10n_pl_edi_upo_id
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_account_move__l10n_pl_edi_upo_id
+msgid "UPO Attachment"
+msgstr "UPO 附件"
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/account_move.py:0
+msgid "Unknown status received from KSeF (Code: %(code)s): %(description)s"
+msgstr "Unknown 状态 已接收 从 KSeF (代码: %(code)s): %(description)s"
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_pl_edi.field_account_bank_statement_line__l10n_pl_edi_header
+#: model:ir.model.fields,help:l10n_pl_edi.field_account_move__l10n_pl_edi_header
+msgid ""
+"User description of the current state, with hints to make the flow progress"
+msgstr "用户 说明 of the current 状态, with hints to make the flow progress"
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/account_move.py:0
+msgid ""
+"You can only download a UPO for an 'Accepted' invoice. Please update the "
+"status first."
+msgstr ""
+"You can only download a UPO for an '已接受' 发票. Please update the 状态 first."
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/account_move.py:0
+msgid "You must have a VAT number to be able to issue e-invoices\n"
+msgstr "You must have a VAT 编号 to be able to issue 电子发票s\n"
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/account_move.py:0
+msgid "accepted"
+msgstr "已接受"
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/account_move_send.py:0
+msgid "by KSeF (e-Faktura)"
+msgstr "by KSeF (e-Faktura)（技术名称）"
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_pl_edi.res_config_settings_view_form_l10n_pl_edi
+msgid "certificate.pem"
+msgstr "证书.pem"
+
+#. module: l10n_pl_edi
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_res_partner__invoice_edi_format
+#: model:ir.model.fields,field_description:l10n_pl_edi.field_res_users__invoice_edi_format
+msgid "eInvoice format"
+msgstr "电子发票格式"
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/account_move.py:0
+msgid "rejected"
+msgstr "rejected（技术名称）"
+
+#. module: l10n_pl_edi
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl_edi/models/account_move.py:0
+msgid "sent"
+msgstr "发送"

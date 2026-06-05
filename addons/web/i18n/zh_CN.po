@@ -24,8 +24,7 @@ msgstr ""
 "POT-Creation-Date: 2026-04-24 17:37+0000\n"
 "PO-Revision-Date: 2026-04-13 20:49+0000\n"
 "Last-Translator: \"Chloe Wang (chwa)\" <chwa@odoo.com>\n"
-"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
-"projects/odoo-19/web/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/projects/odoo-19/web/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -160,7 +159,7 @@ msgstr "二等奖奖牌"
 #. odoo-javascript
 #: code:addons/web/static/src/views/fields/datetime/datetime_field.js:0
 msgid "31/01/%s"
-msgstr ""
+msgstr "31/01/%s（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -209,18 +208,19 @@ msgstr "<i class=\"fa fa-repeat\"/> 重置"
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.config_speedscope_index
 msgid ""
-"<select class=\"form-select\" name=\"profile_aggregation_mode\" "
-"id=\"profile_aggregation_mode\">\n"
-"                                        <option value=\"tabs\">Separated "
-"(one per tab)</option>\n"
-"                                        <option value=\"temporal\">Temporal "
-"(experimental)</option>\n"
+"<select class=\"form-select\" name=\"profile_aggregation_mode\" id=\"profile_aggregation_mode\">\n"
+"                                        <option value=\"tabs\">Separated (one per tab)</option>\n"
+"                                        <option value=\"temporal\">Temporal (experimental)</option>\n"
 "                                    </select>\n"
-"                                    <span id=\"temporal_warning\" "
-"class=\"alert alert-warning\" style=\"display:none\"><b>Warning:</b> "
-"Temporal mode will merge all samples.<br/>It can lead to partially invalid "
-"result in case of concurrent profiles.<br/>Use with caution </span>"
+"                                    <span id=\"temporal_warning\" class=\"alert alert-warning\" style=\"display:none\"><b>Warning:</b> Temporal mode will merge all samples.<br/>It can lead to partially invalid result in case of concurrent profiles.<br/>Use with caution </span>"
 msgstr ""
+"<select class=\"form-select\" name=\"profile_aggregation_mode\" "
+"id=\"profile_aggregation_mode\"> <option value=\"tabs\">Separated (one per "
+"tab)</option> <option value=\"temporal\">Temporal (experimental)</option> "
+"</select> <span id=\"temporal_warning\" class=\"alert alert-warning\" "
+"style=\"display:none\"><b>Warning:</b> Temporal mode will merge all "
+"samples.<br/>It can lead to partially 无效 result in case of concurrent "
+"profiles.<br/>Use with caution </span>"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.report_invoice_wizard_preview
@@ -230,20 +230,20 @@ msgstr "<span class=\"text-nowrap\">$ 2,887.50</span>"
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.report_invoice_wizard_preview
 msgid ""
-"<span class=\"text-nowrap\">$ <span class=\"oe_currency_value\">11,750.00</"
-"span></span>"
+"<span class=\"text-nowrap\">$ <span "
+"class=\"oe_currency_value\">11,750.00</span></span>"
 msgstr ""
-"<span class=\"text-nowrap\">$ <span class=\"oe_currency_value\">11,750.00</"
-"span></span>"
+"<span class=\"text-nowrap\">$ <span "
+"class=\"oe_currency_value\">11,750.00</span></span>"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.report_invoice_wizard_preview
 msgid ""
-"<span class=\"text-nowrap\">$ <span class=\"oe_currency_value\">7,500.00</"
-"span></span>"
+"<span class=\"text-nowrap\">$ <span "
+"class=\"oe_currency_value\">7,500.00</span></span>"
 msgstr ""
-"<span class=\"text-nowrap\">$ <span class=\"oe_currency_value\">7,500.00</"
-"span></span>"
+"<span class=\"text-nowrap\">$ <span "
+"class=\"oe_currency_value\">7,500.00</span></span>"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.report_invoice_wizard_preview
@@ -263,15 +263,11 @@ msgstr "<span class=\"text-nowrap\">税 15%</span>"
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.report_invoice_wizard_preview
 msgid ""
-"<span class=\"w-100 o_force_ltr\" itemprop=\"streetAddress\">77 Santa "
-"Barbara\n"
-"                                       Rd<br/>Pleasant Hill CA 94523<br/"
-">United States</span>"
+"<span class=\"w-100 o_force_ltr\" itemprop=\"streetAddress\">77 Santa Barbara\n"
+"                                       Rd<br/>Pleasant Hill CA 94523<br/>United States</span>"
 msgstr ""
-"<span class=\"w-100 o_force_ltr\" itemprop=\"streetAddress\">77 Santa "
-"Barbara\n"
-"                                       Rd<br/>Pleasant Hill CA 94523<br/"
-">United States</span>"
+"<span class=\"w-100 o_force_ltr\" itemprop=\"streetAddress\">77 Santa Barbara\n"
+"                                       Rd<br/>Pleasant Hill CA 94523<br/>United States</span>"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.report_invoice_wizard_preview
@@ -281,7 +277,7 @@ msgstr "<span id=\"line_tax_ids\">15%</span>"
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.report_invoice_wizard_preview
 msgid "<span itemprop=\"name\">Acme Corporation</span>"
-msgstr ""
+msgstr "<span itemprop=\"name\">Acme Corporation</span>（技术名称）"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.report_invoice_wizard_preview
@@ -336,8 +332,7 @@ msgstr "<span>单价</span>"
 #: model_terms:ir.ui.view,arch_db:web.report_invoice_wizard_preview
 msgid ""
 "<span>[FURN_8220] Four Person Desk<br/>\n"
-"                                       Four person modern office "
-"workstation</span>"
+"                                       Four person modern office workstation</span>"
 msgstr ""
 "<span>[FURN_8220] 四人办公桌<br/>\n"
 "                                       四个工位时尚办公桌</span>"
@@ -346,8 +341,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:web.report_invoice_wizard_preview
 msgid ""
 "<span>[FURN_8999] Three-Seat Sofa<br/>\n"
-"                                       Three Seater Sofa with Lounger in "
-"Steel Grey Colour</span>"
+"                                       Three Seater Sofa with Lounger in Steel Grey Colour</span>"
 msgstr ""
 "<span>[FURN_8999] 三座沙发<br/>\n"
 "                                       灰色靠背含钢材料沙发</span>"
@@ -356,12 +350,10 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:web.report_invoice_wizard_preview
 msgid ""
 "<strong class=\"text-nowrap\">$ <span class=\"oe_currency_value\">\n"
-"                                                       22,137.50</span></"
-"strong>"
+"                                                       22,137.50</span></strong>"
 msgstr ""
 "<strong class=\"text-nowrap\">$ <span class=\"oe_currency_value\">\n"
-"                                                       22,137.50</span></"
-"strong>"
+"                                                       22,137.50</span></strong>"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.address_layout
@@ -443,7 +435,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 msgid "A"
-msgstr ""
+msgstr "A（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -469,9 +461,7 @@ msgstr "您的新动作需要一个名称。"
 msgid ""
 "A popup window has been blocked. You may need to change your browser "
 "settings to allow popup windows for this page."
-msgstr ""
-"Odoo的弹出窗口已被浏览器阻止弹出。您需要更改浏览器的设置选项以便允许本页的弹"
-"出窗口。"
+msgstr "绿色供应链公共服务平台的弹出窗口已被浏览器阻止弹出。您需要更改浏览器的设置选项以便允许本页的弹出窗口。"
 
 #. module: web
 #. odoo-javascript
@@ -640,13 +630,13 @@ msgstr "添加照片"
 #. odoo-javascript
 #: code:addons/web/static/src/views/fields/properties/properties_field.xml:0
 msgid "Add Property"
-msgstr ""
+msgstr "添加 Property"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/views/list/list_renderer.xml:0
 msgid "Add a"
-msgstr ""
+msgstr "添加 a"
 
 #. module: web
 #. odoo-javascript
@@ -683,7 +673,7 @@ msgstr "添加条件"
 #. odoo-javascript
 #: code:addons/web/static/src/core/tree_editor/tree_editor.xml:0
 msgid "Add nested rule"
-msgstr ""
+msgstr "添加 nested 规则"
 
 #. module: web
 #. odoo-javascript
@@ -823,6 +813,8 @@ msgid ""
 "Among the %(total)s selected records, %(valid_count)s are valid for this "
 "update."
 msgstr ""
+"Among the %(total)s selected records, %(valid_count)s are 有效 for this "
+"update."
 
 #. module: web
 #. odoo-javascript
@@ -905,13 +897,13 @@ msgstr "您确定要删除此嵌入操作吗？"
 #. odoo-javascript
 #: code:addons/web/static/src/views/view_components/multi_selection_buttons.js:0
 msgid "Are you sure you want to delete the %(nbSelected)s selected records?"
-msgstr ""
+msgstr "Are you sure you want to 删除 the %(nbSelected)s selected records?"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/views/view_components/multi_selection_buttons.js:0
 msgid "Are you sure you want to delete the selected record?"
-msgstr ""
+msgstr "Are you sure you want to 删除 the selected record?"
 
 #. module: web
 #. odoo-javascript
@@ -929,13 +921,13 @@ msgstr "您确定要删除这一列吗？"
 #. odoo-javascript
 #: code:addons/web/static/src/views/fields/properties/properties_field.js:0
 msgid "Are you sure you want to delete this property field?"
-msgstr ""
+msgstr "Are you sure you want to 删除 this property field?"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/views/list/list_confirmation_dialog.js:0
 msgid "Are you sure you want to update %(count)s records?"
-msgstr ""
+msgstr "Are you sure you want to update %(count)s records?（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -1037,7 +1029,7 @@ msgstr "形象"
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 msgid "B"
-msgstr ""
+msgstr "B（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -1113,7 +1105,7 @@ msgstr "徽标"
 #. odoo-javascript
 #: code:addons/web/static/src/views/fields/badge_selection_with_filter/badge_selection_field_with_filter.js:0
 msgid "Badges for Selection With Filter"
-msgstr ""
+msgstr "Badges for Selection With 筛选"
 
 #. module: web
 #. odoo-javascript
@@ -1148,10 +1140,9 @@ msgstr "成为超级用户"
 #. odoo-python
 #: code:addons/web/controllers/export.py:0
 msgid ""
-"Binary fields can not be exported to Excel unless their content is base64-"
-"encoded. That does not seem to be the case for %s."
-msgstr ""
-"二进制字段不能导出到Excel，除非它们的内容是Base64编码。这似乎不适用于 %s。"
+"Binary fields can not be exported to Excel unless their content is "
+"base64-encoded. That does not seem to be the case for %s."
+msgstr "二进制字段不能导出到Excel，除非它们的内容是Base64编码。这似乎不适用于 %s。"
 
 #. module: web
 #. odoo-javascript
@@ -1222,13 +1213,12 @@ msgstr "按钮类型："
 #. odoo-javascript
 #: code:addons/web/static/src/core/signature/signature_dialog.xml:0
 msgid ""
-"By clicking Adopt & Sign, I agree that the chosen signature/initials will be "
-"a valid electronic representation of my hand-written signature/initials for "
-"all purposes when it is used on documents, including legally binding "
+"By clicking Adopt & Sign, I agree that the chosen signature/initials will be"
+" a valid electronic representation of my hand-written signature/initials for"
+" all purposes when it is used on documents, including legally binding "
 "contracts."
 msgstr ""
-"通过单击“采纳并签名”按钮，我同意所选的签字/姓名首字母将是我的手写签字/姓名首"
-"字母的有效电子表示，用于文件（包括具有法律约束力的合同）的所有目的。"
+"通过单击“采纳并签名”按钮，我同意所选的签字/姓名首字母将是我的手写签字/姓名首字母的有效电子表示，用于文件（包括具有法律约束力的合同）的所有目的。"
 
 #. module: web
 #. odoo-javascript
@@ -1253,7 +1243,7 @@ msgstr "Bytes|Kb|Mb|Gb|Tb|Pb|Eb|Zb|Yb"
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 msgid "C"
-msgstr ""
+msgstr "C（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -1360,7 +1350,7 @@ msgstr "摩羯座"
 #. odoo-javascript
 #: code:addons/web/static/src/public/caps_lock_warning.xml:0
 msgid "Caps Lock is on!"
-msgstr ""
+msgstr "Caps Lock is on!（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -1390,7 +1380,7 @@ msgstr "检查您的浏览器权限"
 msgid ""
 "Check your network connection and come back here. Odoo will load as soon as "
 "you're back online."
-msgstr "检查您的网络连接，然后返回此处。一旦恢复网络连接，Odoo 将立即加载。"
+msgstr "检查您的网络连接，然后返回此处。一旦恢复网络连接，绿色供应链公共服务平台 将立即加载。"
 
 #. module: web
 #. odoo-javascript
@@ -1966,7 +1956,7 @@ msgstr "自定义分组"
 #. odoo-javascript
 #: code:addons/web/static/src/core/tree_editor/tree_editor_components.js:0
 msgid "Custom range"
-msgstr ""
+msgstr "Custom range（技术名称）"
 
 #. module: web
 #. odoo-python
@@ -2140,9 +2130,7 @@ msgstr "默认："
 msgid ""
 "Defines the minimum number of characters to perform the search. If not set, "
 "the search is performed on focus."
-msgstr ""
-"设定执行搜寻最少需要的字符数目。 若未设定，字段获得焦点时（focus）便会进行搜"
-"寻。"
+msgstr "设定执行搜寻最少需要的字符数目。 若未设定，字段获得焦点时（focus）便会进行搜寻。"
 
 #. module: web
 #. odoo-javascript
@@ -2254,7 +2242,7 @@ msgstr "禁用只读功能"
 #. odoo-javascript
 #: code:addons/web/static/src/search/search_bar_menu/search_bar_menu.xml:0
 msgid "Disabled due to invalid configuration"
-msgstr ""
+msgstr "Disabled due to 无效 配置"
 
 #. module: web
 #. odoo-javascript
@@ -2347,6 +2335,8 @@ msgid ""
 "Displays or hides the seconds in the datetime value. Affect only the "
 "readable datetime format."
 msgstr ""
+"Displays or hides the seconds in the datetime 值. Affect only the readable "
+"datetime format."
 
 #. module: web
 #. odoo-javascript
@@ -2358,7 +2348,7 @@ msgstr "显示或隐藏日期时间值中的时间。"
 #. odoo-javascript
 #: code:addons/web/static/src/views/fields/datetime/datetime_field.js:0
 msgid "Displays the date either in 31/01/%(year)s or in Jan 31, %(year)s"
-msgstr ""
+msgstr "Displays the 日期 either in 31/01/%(year)s or in Jan 31, %(year)s"
 
 #. module: web
 #. odoo-javascript
@@ -2580,7 +2570,7 @@ msgstr "电子邮件"
 #. module: web
 #: model:ir.model.fields,field_description:web.field_res_users_settings__embedded_actions_config_ids
 msgid "Embedded Actions Config"
-msgstr ""
+msgstr "Embedded 操作 Config"
 
 #. module: web
 #. odoo-javascript
@@ -2662,7 +2652,7 @@ msgstr "欧洲"
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/res_user_group_ids_field/res_user_group_ids_popover.xml:0
 msgid "Exclusively implies"
-msgstr ""
+msgstr "Exclusively implies（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -2825,8 +2815,7 @@ msgstr "不支持字段属性"
 msgid ""
 "Field that holds the maximum value of the progress bar. If set, will be "
 "displayed next to the progress bar (e.g. 10 / 200)."
-msgstr ""
-"保存进度条最大值的字段。如果设置，将显示在进度条旁边（例如 10 / 200）。"
+msgstr "保存进度条最大值的字段。如果设置，将显示在进度条旁边（例如 10 / 200）。"
 
 #. module: web
 #. odoo-javascript
@@ -2928,8 +2917,7 @@ msgstr "显示在所有报表下方的页脚文字。"
 #. odoo-javascript
 #: code:addons/web/static/src/views/pivot/pivot_renderer.js:0
 msgid ""
-"For Excel compatibility, data cannot be exported if there are more than "
-"16384 columns.\n"
+"For Excel compatibility, data cannot be exported if there are more than 16384 columns.\n"
 "\n"
 "Tip: try to flip axis, filter further or reduce the number of measures."
 msgstr ""
@@ -2941,9 +2929,9 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web/static/src/views/list/list_confirmation_dialog.xml:0
 msgid ""
-"For example, if the value is \"1\" and you enter \"+=2\", it will be updated "
-"to \"3\"."
-msgstr ""
+"For example, if the value is \"1\" and you enter \"+=2\", it will be updated"
+" to \"3\"."
+msgstr "For example, if the 值 is \"1\" and you enter \"+=2\", it will be 已更新 to \"3\"."
 
 #. module: web
 #. odoo-javascript
@@ -3042,7 +3030,7 @@ msgstr "双子座"
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/settings_form_view/fields/upgrade_dialog.xml:0
 msgid "Get this feature and much more with Odoo Enterprise!"
-msgstr "通过Odoo企业版获得该功能及其他更多！"
+msgstr "通过绿色供应链公共服务平台企业版获得该功能及其他更多！"
 
 #. module: web
 #. odoo-javascript
@@ -3114,9 +3102,12 @@ msgstr "标题文本显示在所有报表的顶部。"
 #: code:addons/web/static/src/model/relational_model/record.js:0
 msgid ""
 "Heads up! Your recent changes are too large to save automatically. Please "
-"click the %(upload_icon)s button now to ensure your work is saved before you "
-"exit this tab."
+"click the %(upload_icon)s button now to ensure your work is saved before you"
+" exit this tab."
 msgstr ""
+"Heads up! Your recent changes are too large to 保存 automatically. Please "
+"click the %(upload_icon)s button now to ensure your work is saved before you"
+" exit this tab."
 
 #. module: web
 #. odoo-javascript
@@ -3159,13 +3150,13 @@ msgstr "隐藏技术细节"
 #: code:addons/web/static/src/views/fields/float/float_field.js:0
 #: code:addons/web/static/src/views/fields/monetary/monetary_field.js:0
 msgid "Hide trailing zeros"
-msgstr ""
+msgstr "Hide trailing zeros（技术名称）"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/views/fields/password/password_field.js:0
 msgid "Hide value"
-msgstr ""
+msgstr "Hide 值"
 
 #. module: web
 #. odoo-javascript
@@ -3174,6 +3165,8 @@ msgstr ""
 msgid ""
 "Hide zeros to the right of the last non-zero digit, e.g. 1.20 becomes 1.2"
 msgstr ""
+"Hide zeros to the right of the last non-zero digit, e.g. 1.20 becomes "
+"1.2（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -3200,9 +3193,7 @@ msgid ""
 "Houston, we have a database naming issue! Make sure you only use letters, "
 "numbers, underscores, hyphens, or dots in the database name, and you'll be "
 "golden."
-msgstr ""
-"休斯顿，我们遇到了数据库命名问题！确保在数据库名称中只使用字母、数字、下划"
-"线、连字符或点，这样就万无一失了。"
+msgstr "休斯顿，我们遇到了数据库命名问题！确保在数据库名称中只使用字母、数字、下划线、连字符或点，这样就万无一失了。"
 
 #. module: web
 #. odoo-javascript
@@ -3275,7 +3266,8 @@ msgstr "图标"
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/views/fields/url/url_field.js:0
-msgid "If True, the url will be used as it is, without any prefix added to it."
+msgid ""
+"If True, the url will be used as it is, without any prefix added to it."
 msgstr "如果为 True，URL 将按原样使用，不添加任何前缀。"
 
 #. module: web
@@ -3285,9 +3277,7 @@ msgid ""
 "If checked, clicking on the tag will open the form that allows to directly "
 "edit it. Note that if a color field is also set, the tag edition will "
 "prevail. So, the color picker will not be displayed on click on the tag."
-msgstr ""
-"如果选中，点击标签将打开一个可以直接编辑它的表单。请注意，如果还设置了颜色字"
-"段，则标签编辑将优先。因此，点击标签时不会显示颜色选择器。"
+msgstr "如果选中，点击标签将打开一个可以直接编辑它的表单。请注意，如果还设置了颜色字段，则标签编辑将优先。因此，点击标签时不会显示颜色选择器。"
 
 #. module: web
 #. odoo-javascript
@@ -3296,6 +3286,8 @@ msgid ""
 "If checked, the checkboxes will be displayed in a column. Otherwise, they "
 "will be inlined."
 msgstr ""
+"If checked, the checkboxes will be displayed in a column. Otherwise, they "
+"will be inlined.（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -3314,8 +3306,7 @@ msgstr "如果选中，则在修改字段时将立即保存记录。"
 msgid ""
 "If checked, users will not be able to create records based on the text "
 "input; they will still be able to create records via a popup form."
-msgstr ""
-"如果选中该选项，用户将无法根据文本输入创建记录；但仍可通过弹出表单创建记录。"
+msgstr "如果选中该选项，用户将无法根据文本输入创建记录；但仍可通过弹出表单创建记录。"
 
 #. module: web
 #. odoo-javascript
@@ -3324,9 +3315,7 @@ msgstr ""
 msgid ""
 "If checked, users will not be able to create records based through a popup "
 "form; they will still be able to create records based on the text input."
-msgstr ""
-"如果选中此选项，用户将无法通过弹出式表单创建记录；但仍可根据文本输入创建记"
-"录。"
+msgstr "如果选中此选项，用户将无法通过弹出式表单创建记录；但仍可根据文本输入创建记录。"
 
 #. module: web
 #. odoo-javascript
@@ -3357,7 +3346,7 @@ msgstr "图像"
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/res_user_group_ids_field/res_user_group_ids_popover.xml:0
 msgid "Implied by"
-msgstr ""
+msgstr "Implied by（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -3444,7 +3433,7 @@ msgstr "间隔"
 #. odoo-javascript
 #: code:addons/web/static/src/views/kanban/kanban_record_quick_create.js:0
 msgid "Invalid Display Name"
-msgstr ""
+msgstr "显示名称无效"
 
 #. module: web
 #. odoo-javascript
@@ -3571,22 +3560,16 @@ msgstr "伊斯兰教徒"
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/debug/profiling/profiling_qweb.xml:0
 msgid ""
-"It is possible that the \"t-call\" time does not correspond to the overall "
-"time of the\n"
-"            template. Because the global time (in the drop down) does not "
-"take into account the\n"
-"            duration which is not in the rendering (look for the template, "
-"read, inheritance,\n"
-"            compilation...). During rendering, the global time also takes "
-"part of the time to make\n"
-"            the profile as well as some part not logged in the function "
-"generated by the qweb."
+"It is possible that the \"t-call\" time does not correspond to the overall time of the\n"
+"            template. Because the global time (in the drop down) does not take into account the\n"
+"            duration which is not in the rendering (look for the template, read, inheritance,\n"
+"            compilation...). During rendering, the global time also takes part of the time to make\n"
+"            the profile as well as some part not logged in the function generated by the qweb."
 msgstr ""
 "有可能 \"t-call \"时间与模板的整体时间不一致。\n"
 "            模板的整体时间。因为全局时间（在下拉菜单中）并没有考虑到\n"
 "            不在渲染中的时间（寻找模板，读取，继承。\n"
-"            编译...）。在渲染过程中，全局时间也考虑到了制作配置文件的部分时"
-"间\n"
+"            编译...）。在渲染过程中，全局时间也考虑到了制作配置文件的部分时间\n"
 "            以及一些没有被记录在qweb生成的函数中的部分时间。"
 
 #. module: web
@@ -3601,21 +3584,23 @@ msgstr "似乎找不到 ID 为%s的记录。它们可能已被删除。"
 #. odoo-javascript
 #: code:addons/web/static/src/views/fields/properties/properties_field.js:0
 msgid ""
-"It will be removed for everyone using the \"%(parentName)s\" %"
-"(parentFieldLabel)s."
+"It will be removed for everyone using the \"%(parentName)s\" "
+"%(parentFieldLabel)s."
 msgstr ""
+"It will be removed for everyone using the \"%(parentName)s\" "
+"%(parentFieldLabel)s.（技术名称）"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/views/fields/properties/properties_field.js:0
 msgid "It will be removed for everyone!"
-msgstr ""
+msgstr "It will be removed for everyone!（技术名称）"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/views/fields/datetime/datetime_field.js:0
 msgid "Jan 31, %s"
-msgstr ""
+msgstr "Jan 31, %s（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -3777,7 +3762,7 @@ msgstr "犹太"
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/res_user_group_ids_field/res_user_group_ids_popover.xml:0
 msgid "Jointly implies"
-msgstr ""
+msgstr "Jointly implies（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -3844,7 +3829,7 @@ msgstr "标签："
 #. odoo-javascript
 #: code:addons/web/static/src/views/kanban/kanban_renderer.xml:0
 msgid "Lack of inspiration?"
-msgstr ""
+msgstr "Lack of inspiration?（技术名称）"
 
 #. module: web
 #. odoo-python
@@ -4067,7 +4052,7 @@ msgstr "Logo次要颜色"
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 msgid "M"
-msgstr ""
+msgstr "M（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -4197,12 +4182,12 @@ msgstr "会议主题"
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.config_speedscope_index
 msgid "Memory limit (in bytes)"
-msgstr ""
+msgstr "Memory limit (in bytes)（技术名称）"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.config_speedscope_index
 msgid "Memory profile"
-msgstr ""
+msgstr "Memory profile（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -4252,7 +4237,7 @@ msgstr "最小精度"
 #. odoo-javascript
 #: code:addons/web/static/src/views/fields/float/float_field.js:0
 msgid "Minimum Digits"
-msgstr ""
+msgstr "Minimum Digits（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -4282,7 +4267,7 @@ msgstr "缺少记录ID"
 #. odoo-javascript
 #: code:addons/web/static/src/model/relational_model/record.js:0
 msgid "Missing required fields"
-msgstr ""
+msgstr "Missing 必填 fields"
 
 #. module: web
 #. odoo-javascript
@@ -4369,7 +4354,7 @@ msgstr "月"
 #. odoo-javascript
 #: code:addons/web/static/src/core/tree_editor/tree_editor_components.js:0
 msgid "Month to date"
-msgstr ""
+msgstr "Month to 日期"
 
 #. module: web
 #. odoo-javascript
@@ -4487,13 +4472,13 @@ msgstr "伊斯兰教徒"
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/user_menu/user_menu_items.js:0
 msgid "My Odoo.com Account"
-msgstr "我的 Odoo.com 账户"
+msgstr "我的 绿色供应链公共服务平台.com 账户"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/user_menu/user_menu_items.js:0
 msgid "My Preferences"
-msgstr ""
+msgstr "My Preferences（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -4670,7 +4655,7 @@ msgstr "无数据显示"
 #. odoo-python
 #: code:addons/web/controllers/pivot.py:0
 msgid "No data to export"
-msgstr ""
+msgstr "否 data to 导出"
 
 #. module: web
 #. odoo-javascript
@@ -4688,7 +4673,7 @@ msgstr "找不到任何设备。"
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_picker.xml:0
 msgid "No emojis match your search"
-msgstr ""
+msgstr "否 emojis match your 搜索"
 
 #. module: web
 #. odoo-javascript
@@ -4745,13 +4730,13 @@ msgstr "没有结果"
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/settings_form_view/settings_form_view.xml:0
 msgid "No settings found"
-msgstr ""
+msgstr "否 设置 found"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/views/kanban/kanban_renderer.xml:0
 msgid "No stages yet, let's create some!"
-msgstr ""
+msgstr "否 stages yet, let's 创建 some!"
 
 #. module: web
 #. odoo-javascript
@@ -4795,6 +4780,7 @@ msgid ""
 "Not possible to create monetary field because there is no currency on "
 "current model."
 msgstr ""
+"Not possible to 创建 monetary field because there is 否 币种 on current 模型."
 
 #. module: web
 #. odoo-javascript
@@ -4806,7 +4792,7 @@ msgstr "文件的数量"
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 msgid "O"
-msgstr ""
+msgstr "O（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -4874,31 +4860,31 @@ msgstr "物体"
 #: code:addons/web/static/src/webclient/settings_form_view/widgets/res_config_edition.xml:0
 #: model_terms:ir.ui.view,arch_db:web.brand_promotion_message
 msgid "Odoo"
-msgstr "Odoo"
+msgstr "绿色供应链公共服务平台"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 msgid "Odoo Client Error"
-msgstr "Odoo客户端错误"
+msgstr "绿色供应链公共服务平台客户端错误"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/settings_form_view/fields/upgrade_dialog.xml:0
 msgid "Odoo Enterprise"
-msgstr "Odoo 企业版"
+msgstr "绿色供应链公共服务平台 企业版"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 msgid "Odoo Error"
-msgstr "Odoo错误"
+msgstr "绿色供应链公共服务平台错误"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 msgid "Odoo Network Error"
-msgstr "Odoo网络错误"
+msgstr "绿色供应链公共服务平台网络错误"
 
 #. module: web
 #. odoo-javascript
@@ -4906,44 +4892,44 @@ msgstr "Odoo网络错误"
 msgid ""
 "Odoo Push notifications have been blocked. Go to your browser settings to "
 "allow them."
-msgstr "Odoo推送通知已被阻止。请转到您的浏览器设置以允许它们。"
+msgstr "绿色供应链公共服务平台推送通知已被阻止。请转到您的浏览器设置以允许它们。"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/install_scoped_app/install_scoped_app.xml:0
 #: code:addons/web/static/src/webclient/settings_form_view/widgets/res_config_edition.xml:0
 msgid "Odoo S.A."
-msgstr "Odoo S.A."
+msgstr "GlobalCloud GPC"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 msgid "Odoo Server Error"
-msgstr "Odoo服务器错误"
+msgstr "绿色供应链公共服务平台服务器错误"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.xml:0
 #: code:addons/web/static/src/public/error_notifications.js:0
 msgid "Odoo Session Expired"
-msgstr "Odoo会话过期"
+msgstr "绿色供应链公共服务平台会话过期"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 msgid "Odoo Warning"
-msgstr "Odoo警告"
+msgstr "绿色供应链公共服务平台警告"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.webclient_offline
 msgid "Odoo logo"
-msgstr "Odoo 徽标"
+msgstr "绿色供应链公共服务平台 徽标"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/barcode/barcode_video_scanner.js:0
 msgid "Odoo needs your authorization first."
-msgstr "Odoo首先需要您的授权。"
+msgstr "绿色供应链公共服务平台首先需要您的授权。"
 
 #. module: web
 #. odoo-javascript
@@ -4951,8 +4937,7 @@ msgstr "Odoo首先需要您的授权。"
 msgid ""
 "Of the %(selectedRecord)s selected records, only the first %(firstRecords)s "
 "have been archived/unarchived."
-msgstr ""
-"在所选的 %(selectedRecord)s 项记录中，只归档/取消归档了 %(firstRecords)s 项。"
+msgstr "在所选的 %(selectedRecord)s 项记录中，只归档/取消归档了 %(firstRecords)s 项。"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.webclient_offline
@@ -4999,18 +4984,17 @@ msgstr "只刪除了 %(count)s 项记录（在全部所选的 %(total)s 项记�
 #. odoo-python
 #: code:addons/web/models/models.py:0
 msgid ""
-"Only types %(supported_types)s are supported for category (found type %"
-"(field_type)s)"
+"Only types %(supported_types)s are supported for category (found type "
+"%(field_type)s)"
 msgstr "只支持类型为%(supported_types)s的分类（发现类型为%(field_type)s）"
 
 #. module: web
 #. odoo-python
 #: code:addons/web/models/models.py:0
 msgid ""
-"Only types %(supported_types)s are supported for filter (found type %"
-"(field_type)s)"
-msgstr ""
-"只支持类型为 %(supported_types)s 的筛选条件 (发现类型为 %(field_type)s)"
+"Only types %(supported_types)s are supported for filter (found type "
+"%(field_type)s)"
+msgstr "只支持类型为 %(supported_types)s 的筛选条件 (发现类型为 %(field_type)s)"
 
 #. module: web
 #. odoo-javascript
@@ -5046,7 +5030,7 @@ msgstr "哎唷！您不可编辑 %(parentFieldLabel)s“%(parentName)s”。"
 #. odoo-javascript
 #: code:addons/web/static/src/core/color_picker/custom_color_picker/custom_color_picker.xml:0
 msgid "Opacity"
-msgstr ""
+msgstr "Opacity（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -5139,7 +5123,7 @@ msgstr "溢流样式"
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 msgid "P"
-msgstr ""
+msgstr "P（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -5290,12 +5274,9 @@ msgstr "请输入字段列表的名称"
 #: model_terms:ir.ui.view,arch_db:web.view_view_form_inherit_view
 msgid ""
 "Please note that your view includes invalid locators.<br/>\n"
-"                    These nodes could not be anchored to the parent view and "
-"have no effect.<br/>\n"
-"                    This issue may have arisen as a result of manual "
-"modifications or during the upgrade process.<br/>\n"
-"                    For your reference, invalid xpath nodes are highlighted "
-"in red."
+"                    These nodes could not be anchored to the parent view and have no effect.<br/>\n"
+"                    This issue may have arisen as a result of manual modifications or during the upgrade process.<br/>\n"
+"                    For your reference, invalid xpath nodes are highlighted in red."
 msgstr ""
 "请注意，您的视图包含无效定位器。<br/>\n"
 "                    这些节点无法锚定到母视图且不会产生任何效果。<br/>\n"
@@ -5329,7 +5310,7 @@ msgstr "由%s%s提供支持"
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login_layout
 msgid "Powered by <span>Odoo</span>"
-msgstr "由<span>Odoo</span>提供支持"
+msgstr "由<span>绿色供应链公共服务平台</span>提供支持"
 
 #. module: web
 #. odoo-javascript
@@ -5341,7 +5322,7 @@ msgstr "预填"
 #. odoo-javascript
 #: code:addons/web/static/src/core/tree_editor/tree_editor_value_editors.js:0
 msgid "Press \"Enter\" to add criterion"
-msgstr ""
+msgstr "Press \"Enter\" to 添加 criterion"
 
 #. module: web
 #. odoo-javascript
@@ -5474,7 +5455,7 @@ msgstr "权益"
 #. module: web
 #: model:ir.model,name:web.model_properties_base_definition
 msgid "Properties Base Definition"
-msgstr ""
+msgstr "属性基础定义"
 
 #. module: web
 #. odoo-javascript
@@ -5554,7 +5535,7 @@ msgstr "Qweb 图像字段"
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 msgid "R"
-msgstr ""
+msgstr "R（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -5612,7 +5593,7 @@ msgstr "记录规则"
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/debug/profiling/profiling_item.xml:0
 msgid "Record memory"
-msgstr ""
+msgstr "Record memory（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -5814,7 +5795,7 @@ msgstr "重置至徽标颜色"
 #. odoo-javascript
 #: code:addons/web/static/src/views/fields/password/password_field.js:0
 msgid "Reveal value"
-msgstr ""
+msgstr "Reveal 值"
 
 #. module: web
 #. odoo-javascript
@@ -5909,13 +5890,14 @@ msgstr "周六"
 #. odoo-javascript
 #: code:addons/web/static/src/core/color_picker/custom_color_picker/custom_color_picker.xml:0
 msgid "Saturation and brightness color picker."
-msgstr ""
+msgstr "Saturation and brightness color picker.（技术名称）"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/color_picker/custom_color_picker/custom_color_picker.js:0
 msgid "Saturation: %(saturationLvl)s %. Brightness: %(brightnessLvl)s %"
 msgstr ""
+"Saturation: %(saturationLvl)s %. Brightness: %(brightnessLvl)s %（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -6118,9 +6100,7 @@ msgstr "选择 \"添加到主屏幕\""
 msgid ""
 "Select <i class=\"fa fa-database\" role=\"img\" aria-label=\"Database\" "
 "title=\"Database\"/>"
-msgstr ""
-"选择 <i class=\"fa fa-database\" role=\"img\" aria-label=\"数据库\" "
-"title=\"数据库\"/>"
+msgstr "选择 <i class=\"fa fa-database\" role=\"img\" aria-label=\"数据库\" title=\"数据库\"/>"
 
 #. module: web
 #. odoo-javascript
@@ -6186,7 +6166,7 @@ msgstr "选择月份"
 #. odoo-javascript
 #: code:addons/web/static/src/core/tree_editor/tree_editor_value_editors.js:0
 msgid "Select one or several criteria"
-msgstr ""
+msgstr "Select one or several criteria（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -6256,7 +6236,7 @@ msgstr "在您的用户设置时区"
 #: code:addons/web/static/src/views/fields/badge/badge_field.js:0
 #: code:addons/web/static/src/views/fields/badge_selection/list_badge_selection_field.js:0
 msgid "Set an integer field to use colors with the badge."
-msgstr ""
+msgstr "Set an integer field to use colors with the badge.（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -6280,7 +6260,8 @@ msgstr "设置优先权..."
 #. odoo-javascript
 #: code:addons/web/static/src/views/fields/datetime/datetime_field.js:0
 msgid ""
-"Set to true the full range input has to be display by default, even if empty."
+"Set to true the full range input has to be display by default, even if "
+"empty."
 msgstr "设置为真（true）时，即使为空，也必须默认显示全范围输入。"
 
 #. module: web
@@ -6330,7 +6311,7 @@ msgstr "显示匹配记录"
 #. odoo-javascript
 #: code:addons/web/static/src/core/model_field_selector/model_field_selector_popover.xml:0
 msgid "Show options"
-msgstr ""
+msgstr "Show options（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -6687,8 +6668,7 @@ msgid ""
 "The Tax Identification Number. Values here will be validated based on the "
 "country format. You can use '/' to indicate that the partner is not subject "
 "to tax."
-msgstr ""
-"税务识别号。此处的值将根据国家格式进行验证。可以使用“/”表示合作伙伴无需纳税。"
+msgstr "税务识别号。此处的值将根据国家格式进行验证。可以使用“/”表示合作伙伴无需纳税。"
 
 #. module: web
 #. odoo-python
@@ -6720,8 +6700,7 @@ msgstr "该应用程序似乎已安装在您的设备上"
 msgid ""
 "The content of this cell is too long for an XLSX file (more than %s "
 "characters). Please use the CSV format for this export."
-msgstr ""
-"对于XLSX文件，此单元格的内容太长（超过%s个字符）。请使用此导出的CSV格式。"
+msgstr "对于XLSX文件，此单元格的内容太长（超过%s个字符）。请使用此导出的CSV格式。"
 
 #. module: web
 #. odoo-javascript
@@ -6739,42 +6718,45 @@ msgstr "域名不应涉及非字母"
 #. odoo-javascript
 #: code:addons/web/static/src/core/utils/files.js:0
 msgid "The file is not an image, resizing is not possible"
-msgstr ""
+msgstr "The 文件 is not an image, resizing is not possible"
 
 #. module: web
 #. odoo-python
 #: code:addons/web/models/res_users_settings_embedded_action.py:0
 msgid "The ids in %(field_name)s must not be duplicated: “%(action_ids)s”"
 msgstr ""
+"The ids in %(field_name)s must not be duplicated: “%(action_ids)s”（技术名称）"
 
 #. module: web
 #. odoo-python
 #: code:addons/web/models/res_users_settings_embedded_action.py:0
 msgid ""
-"The ids in %(field_name)s must only be integers or \"false\": “%"
-"(action_ids)s”"
+"The ids in %(field_name)s must only be integers or \"false\": "
+"“%(action_ids)s”"
 msgstr ""
+"The ids in %(field_name)s must only be integers or \"false\": "
+"“%(action_ids)s”（技术名称）"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.xml:0
 #: code:addons/web/static/src/public/error_notifications.js:0
 msgid ""
-"The operation was interrupted. This usually means that the current operation "
-"is taking too much time."
+"The operation was interrupted. This usually means that the current operation"
+" is taking too much time."
 msgstr "操作被中断了。这通常意味着当前的操作花费了太多时间。"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 msgid "The request sent to the server was too large"
-msgstr ""
+msgstr "The 请求 已发送 to the server was too large"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/utils/files.js:0
 msgid "The resizing of the image failed"
-msgstr ""
+msgstr "The resizing of the image 失败"
 
 #. module: web
 #. odoo-javascript
@@ -6786,8 +6768,8 @@ msgstr "所选字段将用于预填签名"
 #. odoo-javascript
 #: code:addons/web/static/src/core/utils/files.js:0
 msgid ""
-"The selected file (%(size)sB) is larger than the maximum allowed file size (%"
-"(maxSize)sB)."
+"The selected file (%(size)sB) is larger than the maximum allowed file size "
+"(%(maxSize)sB)."
 msgstr "选择的文件（%(size)s B）超过文件大小上限（%(maxSize)s B）。"
 
 #. module: web
@@ -6797,9 +6779,7 @@ msgid ""
 "The style compilation failed. This is an administrator or developer error "
 "that must be fixed for the entire database before continuing working. See "
 "browser console or server logs for details."
-msgstr ""
-"样式编译失败。这是管理员或开发人员的错误，必须修复整个数据库的错误后才能继续"
-"工作。有关详情，请查看浏览器控制台或服务器日志。"
+msgstr "样式编译失败。这是管理员或开发人员的错误，必须修复整个数据库的错误后才能继续工作。有关详情，请查看浏览器控制台或服务器日志。"
 
 #. module: web
 #: model:ir.model.constraint,message:web.constraint_res_users_settings_embedded_action_res_user_settings_e_91890fa3
@@ -6807,6 +6787,8 @@ msgid ""
 "The user should have one unique embedded action setting per user setting, "
 "action and record id."
 msgstr ""
+"The 用户 should have one unique embedded 操作 setting per 用户 setting, 操作 and "
+"record ID."
 
 #. module: web
 #. odoo-javascript
@@ -6823,8 +6805,7 @@ msgid ""
 "There are too many rows (%(count)s rows, limit: %(limit)s) to export as "
 "Excel 2007-2013 (.xlsx) format. Consider splitting the export."
 msgstr ""
-"尝试导出为 Excel 2007-2013（.xlsx）格式的列数太多（%(count)s 列，上限：%"
-"(limit)s）。可考虑分拆导出。"
+"尝试导出为 Excel 2007-2013（.xlsx）格式的列数太多（%(count)s 列，上限：%(limit)s）。可考虑分拆导出。"
 
 #. module: web
 #. odoo-javascript
@@ -6938,8 +6919,7 @@ msgstr "时间间隔"
 #: code:addons/web/static/src/views/fields/timezone_mismatch/timezone_mismatch_field.js:0
 msgid ""
 "Timezone Mismatch : This timezone is different from that of your browser.\n"
-"Please, set the same timezone as your browser's to avoid time discrepancies "
-"in your system."
+"Please, set the same timezone as your browser's to avoid time discrepancies in your system."
 msgstr ""
 "时区不匹配：时区与您的浏览器不同。\n"
 "请设置与浏览器相同的时区，以避免系统中的时间差异。"
@@ -6998,7 +6978,7 @@ msgstr "切换搜索面板"
 #. odoo-javascript
 #: code:addons/web/static/src/core/datetime/datetime_picker.xml:0
 msgid "Toggle date range mode"
-msgstr ""
+msgstr "Toggle 日期 range mode"
 
 #. module: web
 #. odoo-javascript
@@ -7077,7 +7057,7 @@ msgstr "海王星"
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/settings_form_view/settings_form_view.xml:0
 msgid "Try searching for another keyword"
-msgstr ""
+msgstr "Try searching for another keyword（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -7086,6 +7066,7 @@ msgid ""
 "Try to add some records, or make sure that there is no\n"
 "                        active filter in the search bar."
 msgstr ""
+"Try to 添加 some records, or make sure that there is 否 启用 筛选 in the 搜索 bar."
 
 #. module: web
 #. odoo-javascript
@@ -7194,8 +7175,8 @@ msgstr "无法访问相机"
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/actions/reports/utils.js:0
 msgid ""
-"Unable to find Wkhtmltopdf on this system. The report will be shown in html.%"
-"(link)s"
+"Unable to find Wkhtmltopdf on this system. The report will be shown in "
+"html.%(link)s"
 msgstr "在此系统上找不到 Wkhtmltopdf。报告将以 html 形式显示。%(link)s"
 
 #. module: web
@@ -7366,10 +7347,8 @@ msgstr "使用 \"用户友好格式 \"选项可自定义格式。"
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/views/list/list_confirmation_dialog.xml:0
-msgid ""
-"Use the operators \"+=\", \"-=\", \"*=\" and \"/=\" to update the current "
-"value."
-msgstr ""
+msgid "Use the operators \"+=\", \"-=\", \"*=\" and \"/=\" to update the current value."
+msgstr "Use the operators \"+=\", \"-=\", \"*=\" and \"/=\" to update the current 值."
 
 #. module: web
 #. odoo-javascript
@@ -7383,17 +7362,19 @@ msgstr "打开这个视图时请使用默认过滤器"
 msgid ""
 "Use to override the display value (e.g. if your progress bar is a computed "
 "percentage but you want to display the actual field value instead)."
-msgstr ""
-"用于覆盖显示值（例如：如果进度条是计算的百分比，但您想显示实际字段值）。"
+msgstr "用于覆盖显示值（例如：如果进度条是计算的百分比，但您想显示实际字段值）。"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/color_picker/custom_color_picker/custom_color_picker.xml:0
 msgid ""
-"Use up and down arrow keys to adapt the brightness. Use left and right arrow "
-"keys to adapt the saturation. Press the Control or Command key at the same "
+"Use up and down arrow keys to adapt the brightness. Use left and right arrow"
+" keys to adapt the saturation. Press the Control or Command key at the same "
 "time to have finer control."
 msgstr ""
+"Use up and down arrow keys to adapt the brightness. Use left and right arrow"
+" keys to adapt the saturation. Press the Control or Command key at the same "
+"time to have finer control.（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -7416,7 +7397,7 @@ msgstr "用户设置"
 #. module: web
 #: model:ir.model,name:web.model_res_users_settings_embedded_action
 msgid "User Settings for Embedded Actions"
-msgstr ""
+msgstr "用户 设置 for Embedded 操作"
 
 #. module: web
 #. odoo-javascript
@@ -7709,7 +7690,7 @@ msgstr "年"
 #. odoo-javascript
 #: code:addons/web/static/src/core/tree_editor/tree_editor_components.js:0
 msgid "Year to date"
-msgstr ""
+msgstr "Year to 日期"
 
 #. module: web
 #. odoo-javascript
@@ -7758,7 +7739,7 @@ msgstr "你可以能浏览器菜单安装这个应用"
 #. odoo-python
 #: code:addons/web/models/properties_base_definition.py:0
 msgid "You can not read that field definition."
-msgstr ""
+msgstr "You can not read that field definition.（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -7797,25 +7778,23 @@ msgstr "在打开动态占位符选择器之前，您需要选择一个模型。
 msgid ""
 "You need to start Odoo with at least two workers to print a pdf version of "
 "the reports."
-msgstr "您需要至少使用两个工人来启动Odoo以打印报告的pdf版本。"
+msgstr "您需要至少使用两个工人来启动绿色供应链公共服务平台以打印报告的pdf版本。"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/actions/reports/utils.js:0
 msgid ""
 "You should upgrade your version of Wkhtmltopdf to at least 0.12.0 in order "
-"to get a correct display of headers and footers as well as support for table-"
-"breaking between pages.%(link)s"
-msgstr ""
-"您应该将Wkhtmltopdf的版本至少升级到0.12.0，以便正确显示页眉和页脚，以及支持页"
-"之间的表分隔。%(link)s"
+"to get a correct display of headers and footers as well as support for "
+"table-breaking between pages.%(link)s"
+msgstr "您应该将Wkhtmltopdf的版本至少升级到0.12.0，以便正确显示页眉和页脚，以及支持页之间的表分隔。%(link)s"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.xml:0
 #: code:addons/web/static/src/public/error_notifications.js:0
 msgid "Your Odoo session expired. The current page is about to be refreshed."
-msgstr "您的Odoo会话已过期。当前页面即将被刷新。"
+msgstr "您的绿色供应链公共服务平台会话已过期。当前页面即将被刷新。"
 
 #. module: web
 #. odoo-javascript
@@ -8950,7 +8929,7 @@ msgstr "甲壳虫"
 #. odoo-javascript
 #: code:addons/web/static/src/core/tree_editor/tree_editor_operator_editor.js:0
 msgid "before"
-msgstr ""
+msgstr "before（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -9016,7 +8995,7 @@ msgstr "浆果"
 #. odoo-javascript
 #: code:addons/web/static/src/core/tree_editor/tree_editor_operator_editor.js:0
 msgid "between"
-msgstr ""
+msgstr "between（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -12573,7 +12552,7 @@ msgstr "馅饼"
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/actions/blank_component.xml:0
 msgid "empty"
-msgstr ""
+msgstr "empty（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -14403,7 +14382,7 @@ msgstr "蝗虫"
 #. odoo-javascript
 #: code:addons/web/static/src/core/tree_editor/tree_editor_operator_editor.js:0
 msgid "greater or equal to"
-msgstr ""
+msgstr "greater or equal to（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -15441,7 +15420,7 @@ msgstr "hóngbāo"
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 msgid "i"
-msgstr ""
+msgstr "i（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -16875,13 +16854,13 @@ msgstr "低的"
 #. odoo-javascript
 #: code:addons/web/static/src/core/tree_editor/tree_editor_operator_editor.js:0
 msgid "lower or equal to"
-msgstr ""
+msgstr "lower or equal to（技术名称）"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/tree_editor/tree_editor_operator_editor.js:0
 msgid "lower than"
-msgstr ""
+msgstr "lower than（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -18700,13 +18679,13 @@ msgstr "不是"
 #. odoo-javascript
 #: code:addons/web/static/src/core/tree_editor/tree_editor_operator_editor.js:0
 msgid "not %(operator_label)s"
-msgstr ""
+msgstr "not %(operator_label)s（技术名称）"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/tree_editor/tree_processor.js:0
 msgid "not ="
-msgstr ""
+msgstr "not =（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -18785,7 +18764,7 @@ msgstr "螺母"
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 msgid "o"
-msgstr ""
+msgstr "o（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -19086,14 +19065,14 @@ msgstr "光盘"
 #. odoo-javascript
 #: code:addons/web/static/src/core/autocomplete/autocomplete.xml:0
 msgid "option.label"
-msgstr ""
+msgstr "option.label（技术名称）"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/record_selectors/record_autocomplete.xml:0
 #: code:addons/web/static/src/views/fields/relational_utils.xml:0
 msgid "optionScope.label"
-msgstr ""
+msgstr "optionScope.label（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -20877,7 +20856,7 @@ msgstr "安静的"
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 msgid "r"
-msgstr ""
+msgstr "r（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -25074,7 +25053,7 @@ msgstr "瓮"
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 msgid "v"
-msgstr ""
+msgstr "v（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -26460,7 +26439,7 @@ msgstr "啼笑皆非的"
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 msgid "x"
-msgstr ""
+msgstr "x（技术名称）"
 
 #. module: web
 #. odoo-javascript
@@ -26748,97 +26727,226 @@ msgstr "ココ"
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 msgid "サ"
-msgstr ""
+msgstr "サ"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 msgid "割"
-msgstr ""
+msgstr "割"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 msgid "可"
-msgstr ""
+msgstr "可"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 msgid "合"
-msgstr ""
+msgstr "合"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 msgid "営"
-msgstr ""
+msgstr "営"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 msgid "得"
-msgstr ""
+msgstr "得"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 msgid "指"
-msgstr ""
+msgstr "指"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 msgid "月"
-msgstr ""
+msgstr "月"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 msgid "有"
-msgstr ""
+msgstr "有"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 msgid "満"
-msgstr ""
+msgstr "満"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 msgid "無"
-msgstr ""
+msgstr "無"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 msgid "申"
-msgstr ""
+msgstr "申"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 msgid "祝"
-msgstr ""
+msgstr "祝"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 msgid "禁"
-msgstr ""
+msgstr "禁"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 msgid "秘"
-msgstr ""
+msgstr "秘"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 msgid "空"
-msgstr ""
+msgstr "空"
+
+#. module: web
+msgid "GlobalCloud GPC"
+msgstr "绿色供应链公共服务平台"
+
+#. module: web
+msgid "GlobalCloud GPC Server"
+msgstr "绿色供应链公共服务平台服务器"
+
+#. module: web
+msgid "GlobalCloud GPC Report"
+msgstr "绿色供应链公共服务平台报表"
+
+#. module: web
+msgid "GlobalCloud GPC logo"
+msgstr "绿色供应链公共服务平台标志"
+
+#. module: web
+#. odoo-javascript
+msgid "GlobalCloud GPC Error"
+msgstr "绿色供应链公共服务平台错误"
+
+#. module: web
+#. odoo-javascript
+msgid "GlobalCloud GPC Client Error"
+msgstr "绿色供应链公共服务平台客户端错误"
+
+#. module: web
+#. odoo-javascript
+msgid "GlobalCloud GPC Network Error"
+msgstr "绿色供应链公共服务平台网络错误"
+
+#. module: web
+#. odoo-javascript
+msgid "GlobalCloud GPC Server Error"
+msgstr "绿色供应链公共服务平台服务器错误"
+
+#. module: web
+#. odoo-javascript
+msgid "GlobalCloud GPC Session Expired"
+msgstr "绿色供应链公共服务平台会话过期"
+
+#. module: web
+#. odoo-javascript
+msgid "GlobalCloud GPC Warning"
+msgstr "绿色供应链公共服务平台警告"
+
+#. module: web
+#. odoo-javascript
+msgid "GlobalCloud GPC Enterprise"
+msgstr "绿色供应链公共服务平台企业版"
+
+#. module: web
+#. odoo-javascript
+msgid ""
+"GlobalCloud GPC Push notifications have been blocked. Go to your browser "
+"settings to allow them."
+msgstr "绿色供应链公共服务平台推送通知已被阻止。请到浏览器设置中允许通知。"
+
+#. module: web
+#. odoo-javascript
+msgid "GlobalCloud GPC needs your authorization first."
+msgstr "绿色供应链公共服务平台需要先获得您的授权。"
+
+#. module: web
+#. odoo-javascript
+msgid "My GlobalCloud GPC Account"
+msgstr "我的绿色供应链公共服务平台账户"
+
+#. module: web
+msgid ""
+"Check your network connection and come back here. GlobalCloud GPC will load "
+"as soon as you're back online."
+msgstr "请检查网络连接后返回此页面。网络恢复后，绿色供应链公共服务平台将自动加载。"
+
+#. module: web
+#. odoo-javascript
+msgid ""
+"Your GlobalCloud GPC session expired. The current page is about to be "
+"refreshed."
+msgstr "您的绿色供应链公共服务平台会话已过期。当前页面即将刷新。"
+
+#. module: web
+#. odoo-javascript
+msgid ""
+"You need to start GlobalCloud GPC with at least two workers to print a pdf "
+"version of the reports."
+msgstr "需要至少以两个 worker 启动绿色供应链公共服务平台，才能打印报表的 PDF 版本。"
+
+#. module: web
+msgid ""
+"Warning, your GlobalCloud GPC database manager is not protected. To secure "
+"it, we have generated the following master password for it:"
+msgstr "警告：您的绿色供应链公共服务平台数据库管理器未受保护。为确保安全，系统已生成以下主密码："
+
+#. module: web
+msgid "Warning, your GlobalCloud GPC database manager is not protected."
+msgstr "警告：您的绿色供应链公共服务平台数据库管理器未受保护。"
+
+#. module: web
+msgid ""
+"To enhance your experience, some data may be sent to GlobalCloud GPC online "
+"services. See our"
+msgstr "为提升您的使用体验，部分数据可能会发送至绿色供应链公共服务平台在线服务。请参阅"
+
+#. module: web
+msgid ""
+"In order to avoid conflicts between databases, GlobalCloud GPC needs to know"
+" if this database was moved or copied."
+msgstr "为避免数据库之间发生冲突，绿色供应链公共服务平台需要知道该数据库是移动而来还是复制而来。"
+
+#. module: web
+#. odoo-javascript
+msgid "Get this feature and much more with GlobalCloud GPC Enterprise!"
+msgstr "使用绿色供应链公共服务平台企业版可获得此功能及更多能力！"
+
+#. module: web
+#. odoo-javascript
+msgid ""
+"An error whose details cannot be accessed by the GlobalCloud GPC framework "
+"has occurred.\n"
+msgstr "发生了一个绿色供应链公共服务平台框架无法访问其详细信息的错误。\n"
+
+#. module: web
+#. odoo-javascript
+msgid ""
+"An unknown error occured. This may be due to a Chrome extension meddling "
+"with GlobalCloud GPC.\n"
+msgstr "发生未知错误。这可能是由于 Chrome 扩展干扰了绿色供应链公共服务平台。\n"
 
 #~ msgid "00"
 #~ msgstr "00"
@@ -27079,23 +27187,17 @@ msgstr ""
 
 #~ msgid ""
 #~ "<span class=\"text-nowrap\">$ <span class=\"oe_currency_value\">\n"
-#~ "                                                       22,137.50</span></"
-#~ "span>"
+#~ "                                                       22,137.50</span></span>"
 #~ msgstr ""
 #~ "<span class=\"text-nowrap\">$<span class=\"oe_currency_value\">\n"
-#~ "                                                       22,137.50</span></"
-#~ "span>"
+#~ "                                                       22,137.50</span></span>"
 
 #~ msgid ""
-#~ "<span class=\"w-100 o_force_ltr\" itemprop=\"streetAddress\">77 Santa "
-#~ "Barbara\n"
-#~ "                                                   Rd<br/>Pleasant Hill "
-#~ "CA 94523<br/>United States</span>"
+#~ "<span class=\"w-100 o_force_ltr\" itemprop=\"streetAddress\">77 Santa Barbara\n"
+#~ "                                                   Rd<br/>Pleasant Hill CA 94523<br/>United States</span>"
 #~ msgstr ""
-#~ "<span class=\"w-100 o_force_ltr\" itemprop=\"streetAddress\">77 Santa "
-#~ "Barbara\n"
-#~ "                                                   Rd<br/>Pleasant Hill "
-#~ "CA 94523<br/>United States</span>"
+#~ "<span class=\"w-100 o_force_ltr\" itemprop=\"streetAddress\">77 Santa Barbara\n"
+#~ "                                                   Rd<br/>Pleasant Hill CA 94523<br/>United States</span>"
 
 #~ msgid "<span id=\"line_tax_ids\">15.00%</span>"
 #~ msgstr "<span id=\"line_tax_ids\">15.00%</span>"
@@ -27174,8 +27276,8 @@ msgstr ""
 #~ msgstr "任意"
 
 #~ msgid ""
-#~ "Appears by default on the top right corner of your printed documents "
-#~ "(report header)."
+#~ "Appears by default on the top right corner of your printed documents (report"
+#~ " header)."
 #~ msgstr "将出现在打印的报告的右上角（报告页眉）"
 
 #~ msgid "Archive All"
@@ -27189,8 +27291,8 @@ msgstr ""
 #~ msgstr "您确定要移除此筛选吗？"
 
 #~ msgid ""
-#~ "Are you sure you want to delete this property field? It will be removed "
-#~ "for everyone using the \"%s\" %s."
+#~ "Are you sure you want to delete this property field? It will be removed for "
+#~ "everyone using the \"%s\" %s."
 #~ msgstr "您确定要删除这个属性字段吗？它将从每个使用\"%s\"%s的人那里删除"
 
 #~ msgid "Are you sure you want to delete this record?"
@@ -27329,8 +27431,8 @@ msgstr ""
 #~ msgstr "我确信这一点。"
 
 #~ msgid ""
-#~ "If you change %s or %s, the synchronization will be reapplied and the "
-#~ "data will be modified."
+#~ "If you change %s or %s, the synchronization will be reapplied and the data "
+#~ "will be modified."
 #~ msgstr "如果您改变%s或%s，同步将被重新应用，数据将被修改。"
 
 #~ msgid "In"
@@ -27342,10 +27444,9 @@ msgstr ""
 #~ msgstr "数据库名称无效。只允许字母数字字符、下划线、连字符和点。"
 
 #~ msgid ""
-#~ "Invalid field chain. You may have used a non-existing field name or "
-#~ "followed a non-relational field."
-#~ msgstr ""
-#~ "无效的字段链。您可能使用了一个不存在的字段名，或跟随一个非关系字段。"
+#~ "Invalid field chain. You may have used a non-existing field name or followed"
+#~ " a non-relational field."
+#~ msgstr "无效的字段链。您可能使用了一个不存在的字段名，或跟随一个非关系字段。"
 
 #~ msgid "Kanban: no action for type: "
 #~ msgstr "看板: 类型无动作: "
@@ -27519,11 +27620,9 @@ msgstr ""
 #~ msgstr "尺寸："
 
 #~ msgid ""
-#~ "Something happened while trying to contact the server, check that the "
-#~ "server is online and that you still have a working network connection."
-#~ msgstr ""
-#~ "在试图联系服务器时发生了一些事情，请检查服务器是否线上，并且您的网络连接是"
-#~ "否仍然正常。"
+#~ "Something happened while trying to contact the server, check that the server"
+#~ " is online and that you still have a working network connection."
+#~ msgstr "在试图联系服务器时发生了一些事情，请检查服务器是否线上，并且您的网络连接是否仍然正常。"
 
 #~ msgid "Still loading...<br />Please be patient."
 #~ msgstr "仍在加载...<br />请耐心等待。"
@@ -27552,9 +27651,7 @@ msgstr ""
 #~ msgid ""
 #~ "There are too many rows (%s rows, limit: %s) to export as Excel 2007-2013 "
 #~ "(.xlsx) format. Consider splitting the export."
-#~ msgstr ""
-#~ "太多行(%s 行，限制：%s)而未能导出为 Excel 2007-2013 (.xlsx) 格式。考虑拆分"
-#~ "导出。"
+#~ msgstr "太多行(%s 行，限制：%s)而未能导出为 Excel 2007-2013 (.xlsx) 格式。考虑拆分导出。"
 
 #~ msgid "There was a problem while uploading your file"
 #~ msgstr "上传您的文件时发生了问题"
@@ -27579,8 +27676,7 @@ msgstr ""
 #~ msgstr "键入默认文本或按回车键"
 
 #~ msgid ""
-#~ "Unable to find Wkhtmltopdf on this system. The report will be shown in "
-#~ "html."
+#~ "Unable to find Wkhtmltopdf on this system. The report will be shown in html."
 #~ msgstr "在这个系统上找不到Wkhtmltopdf。报告将以HTML显示。"
 
 #~ msgid "Unarchive All"
@@ -27599,8 +27695,7 @@ msgstr ""
 #~ "Unknown CORS error\n"
 #~ "\n"
 #~ "An unknown CORS error occured.\n"
-#~ "The error probably originates from a JavaScript file served from a "
-#~ "different origin.\n"
+#~ "The error probably originates from a JavaScript file served from a different origin.\n"
 #~ "(Opening your browser console might give you a hint on the error.)"
 #~ msgstr ""
 #~ "未知的CORS错误\n"
@@ -27656,17 +27751,15 @@ msgstr ""
 #~ msgstr "请耐心等待，<br />应用仍在加载..."
 
 #~ msgid ""
-#~ "You need to save this new record before editing the translation. Do you "
-#~ "want to proceed?"
+#~ "You need to save this new record before editing the translation. Do you want"
+#~ " to proceed?"
 #~ msgstr "您需要在编辑翻译之前保存此新记录，您要继续吗？"
 
 #~ msgid ""
-#~ "You should upgrade your version of Wkhtmltopdf to at least 0.12.0 in "
-#~ "order to get a correct display of headers and footers as well as support "
-#~ "for table-breaking between pages."
-#~ msgstr ""
-#~ "您应该将Wkhtmltopdf的版本至少升级到0.12.0，以便正确显示页眉和页脚，以及支"
-#~ "持页之间的表分隔。"
+#~ "You should upgrade your version of Wkhtmltopdf to at least 0.12.0 in order "
+#~ "to get a correct display of headers and footers as well as support for "
+#~ "table-breaking between pages."
+#~ msgstr "您应该将Wkhtmltopdf的版本至少升级到0.12.0，以便正确显示页眉和页脚，以及支持页之间的表分隔。"
 
 #~ msgid ""
 #~ "Your installation of Wkhtmltopdf seems to be broken. The report will be "

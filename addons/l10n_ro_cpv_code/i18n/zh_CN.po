@@ -1,0 +1,109 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_ro_cpv_code
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_ro_cpv_code
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ro_cpv_code.model_account_edi_xml_ubl_ro
+msgid "CIUS RO"
+msgstr "CIUS RO（技术名称）"
+
+#. module: l10n_ro_cpv_code
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_ro_cpv_code.product_template_form_inherit
+msgid "CPV"
+msgstr "CPV（技术名称）"
+
+#. module: l10n_ro_cpv_code
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ro_cpv_code.model_l10n_ro_cpv_code
+#: model:ir.model.fields,field_description:l10n_ro_cpv_code.field_product_product__cpv_code_id
+#: model:ir.model.fields,field_description:l10n_ro_cpv_code.field_product_template__cpv_code_id
+msgid "CPV Code"
+msgstr "CPV 代码"
+
+#. module: l10n_ro_cpv_code
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ro_cpv_code.field_l10n_ro_cpv_code__code
+msgid "Code"
+msgstr "代码"
+
+#. module: l10n_ro_cpv_code
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.constraint,message:l10n_ro_cpv_code.constraint_l10n_ro_cpv_code_code_uniq
+msgid "Code must be unique!"
+msgstr "代码 must be unique!"
+
+#. module: l10n_ro_cpv_code
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_ro_cpv_code.field_product_product__cpv_code_id
+#: model:ir.model.fields,help:l10n_ro_cpv_code.field_product_template__cpv_code_id
+msgid "Common Procurement Vocabulary, used by e-Factura"
+msgstr "Common Procurement Vocabulary, used by e-Factura（技术名称）"
+
+#. module: l10n_ro_cpv_code
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ro_cpv_code.field_l10n_ro_cpv_code__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: l10n_ro_cpv_code
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ro_cpv_code.field_l10n_ro_cpv_code__create_date
+msgid "Created on"
+msgstr "创建日期"
+
+#. module: l10n_ro_cpv_code
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ro_cpv_code.field_account_edi_xml_ubl_ro__display_name
+#: model:ir.model.fields,field_description:l10n_ro_cpv_code.field_l10n_ro_cpv_code__display_name
+#: model:ir.model.fields,field_description:l10n_ro_cpv_code.field_product_template__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_ro_cpv_code
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ro_cpv_code.field_account_edi_xml_ubl_ro__id
+#: model:ir.model.fields,field_description:l10n_ro_cpv_code.field_l10n_ro_cpv_code__id
+#: model:ir.model.fields,field_description:l10n_ro_cpv_code.field_product_template__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_ro_cpv_code
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ro_cpv_code.field_l10n_ro_cpv_code__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: l10n_ro_cpv_code
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ro_cpv_code.field_l10n_ro_cpv_code__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: l10n_ro_cpv_code
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_ro_cpv_code.field_l10n_ro_cpv_code__name
+msgid "Name"
+msgstr "名称"
+
+#. module: l10n_ro_cpv_code
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_ro_cpv_code.model_product_template
+msgid "Product"
+msgstr "产品"

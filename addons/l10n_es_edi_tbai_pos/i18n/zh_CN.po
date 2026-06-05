@@ -1,0 +1,231 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_es_edi_tbai_pos
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_es_edi_tbai_pos
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai_pos/static/src/app/components/popups/add_tbai_refund_reason_popup/add_tbai_refund_reason_popup.xml:0
+msgid "Additional Refund Information"
+msgstr "Additional 退款 信息"
+
+#. module: l10n_es_edi_tbai_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_es_edi_tbai_pos.field_pos_order__l10n_es_tbai_refund_reason
+msgid ""
+"BOE-A-1992-28740. Ley 37/1992, de 28 de diciembre, del Impuesto sobre el "
+"Valor Añadido. Artículo 80. Modificación de la base imponible."
+msgstr ""
+"BOE-A-1992-28740. Ley 37/1992, de 28 de diciembre, del Impuesto sobre el "
+"Valor Añadido. Artículo 80. Modificación de la base imponible.（技术名称）"
+
+#. module: l10n_es_edi_tbai_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_es_edi_tbai_pos.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: l10n_es_edi_tbai_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai_pos.field_pos_config__display_name
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai_pos.field_pos_order__display_name
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai_pos.field_res_company__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_es_edi_tbai_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai_pos.field_pos_config__id
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai_pos.field_pos_order__id
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai_pos.field_res_company__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_es_edi_tbai_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai_pos.field_pos_order__l10n_es_tbai_refund_reason
+msgid "Invoice Refund Reason Code (TicketBai)"
+msgstr "发票 退款 原因 代码 (TicketBai)"
+
+#. module: l10n_es_edi_tbai_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_es_edi_tbai_pos.field_pos_order__l10n_es_tbai_chain_index
+msgid ""
+"Invoice index in chain, set if and only if an in-chain XML was submitted and"
+" did not error"
+msgstr ""
+"发票 index in chain, set if and only if an in-chain XML was submitted and did "
+"not 错误"
+
+#. module: l10n_es_edi_tbai_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai_pos.field_pos_order__l10n_es_tbai_post_document_id
+msgid "L10N Es Tbai Post Document"
+msgstr "L10N Es Tbai Post 单据"
+
+#. module: l10n_es_edi_tbai_pos
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai_pos/static/src/app/components/popups/add_tbai_refund_reason_popup/add_tbai_refund_reason_popup.xml:0
+msgid "Ok"
+msgstr "确定"
+
+#. module: l10n_es_edi_tbai_pos
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai_pos/models/pos_order.py:0
+msgid "Please create an invoice for an amount over %s."
+msgstr "Please 创建 an 发票 for an 金额 over %s."
+
+#. module: l10n_es_edi_tbai_pos
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai_pos/models/pos_order.py:0
+msgid "Please invoice the refund as the linked order has been invoiced."
+msgstr "Please 发票 the 退款 as the linked 订单 has been invoiced."
+
+#. module: l10n_es_edi_tbai_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_es_edi_tbai_pos.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr "POS 配置"
+
+#. module: l10n_es_edi_tbai_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_es_edi_tbai_pos.model_pos_order
+msgid "Point of Sale Orders"
+msgstr "POS 订单"
+
+#. module: l10n_es_edi_tbai_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_tbai_pos.selection__pos_order__l10n_es_tbai_refund_reason__r1
+msgid "R1: Art. 80.1, 80.2, 80.6 and rights founded error"
+msgstr "R1: Art. 80.1, 80.2, 80.6 and rights founded 错误"
+
+#. module: l10n_es_edi_tbai_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_tbai_pos.selection__pos_order__l10n_es_tbai_refund_reason__r2
+msgid "R2: Art. 80.3"
+msgstr "R2: Art. 80.3（技术名称）"
+
+#. module: l10n_es_edi_tbai_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_tbai_pos.selection__pos_order__l10n_es_tbai_refund_reason__r3
+msgid "R3: Art. 80.4"
+msgstr "R3: Art. 80.4（技术名称）"
+
+#. module: l10n_es_edi_tbai_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_tbai_pos.selection__pos_order__l10n_es_tbai_refund_reason__r4
+msgid "R4: Art. 80 - other"
+msgstr "R4: Art. 80 - 其他"
+
+#. module: l10n_es_edi_tbai_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_tbai_pos.selection__pos_order__l10n_es_tbai_refund_reason__r5
+msgid "R5: Factura rectificativa en facturas simplificadas"
+msgstr "R5: Factura rectificativa en facturas simplificadas（技术名称）"
+
+#. module: l10n_es_edi_tbai_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_tbai_pos.view_pos_order_form_inherit_l10n_es_pos_tbai
+msgid "Send to TicketBAI"
+msgstr "发送 to TicketBAI"
+
+#. module: l10n_es_edi_tbai_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_tbai_pos.selection__pos_order__l10n_es_tbai_state__sent
+msgid "Sent"
+msgstr "已发送"
+
+#. module: l10n_es_edi_tbai_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_tbai_pos.view_pos_order_form_inherit_l10n_es_pos_tbai
+msgid "TicketBAI"
+msgstr "TicketBAI（技术名称）"
+
+#. module: l10n_es_edi_tbai_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai_pos.field_pos_order__l10n_es_tbai_post_file_name
+msgid "TicketBAI Post Attachment Name"
+msgstr "TicketBAI Post 附件 名称"
+
+#. module: l10n_es_edi_tbai_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai_pos.field_pos_order__l10n_es_tbai_post_file
+msgid "TicketBAI Post File"
+msgstr "TicketBAI Post 文件"
+
+#. module: l10n_es_edi_tbai_pos
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai_pos/static/src/app/components/popups/add_tbai_refund_reason_popup/add_tbai_refund_reason_popup.xml:0
+msgid "TicketBAI Refund Reason:"
+msgstr "TicketBAI 退款 原因:"
+
+#. module: l10n_es_edi_tbai_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai_pos.field_pos_order__l10n_es_tbai_chain_index
+msgid "TicketBAI chain index"
+msgstr "TicketBAI chain index（技术名称）"
+
+#. module: l10n_es_edi_tbai_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai_pos.field_pos_order__l10n_es_tbai_is_required
+msgid "TicketBAI required"
+msgstr "TicketBAI 必填"
+
+#. module: l10n_es_edi_tbai_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai_pos.field_pos_order__l10n_es_tbai_state
+msgid "TicketBAI status"
+msgstr "TicketBAI 状态"
+
+#. module: l10n_es_edi_tbai_pos
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai_pos/static/src/app/screens/receipt_screen/order_receipt.xml:0
+msgid "TicketBai QR Code"
+msgstr "TicketBai 二维码"
+
+#. module: l10n_es_edi_tbai_pos
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_es_edi_tbai_pos.selection__pos_order__l10n_es_tbai_state__to_send
+msgid "To Send"
+msgstr "发送"
+
+#. module: l10n_es_edi_tbai_pos
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai_pos/models/pos_order.py:0
+msgid "You cannot consolidate orders with different TicketBAI refund reasons."
+msgstr "You cannot consolidate 订单 with different TicketBAI 退款 reasons."
+
+#. module: l10n_es_edi_tbai_pos
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai_pos/models/pos_order.py:0
+msgid "You cannot invoice a refund whose linked order hasn't been invoiced."
+msgstr "You cannot 发票 a 退款 whose linked 订单 hasn't been invoiced."
+
+#. module: l10n_es_edi_tbai_pos
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_es_edi_tbai_pos/models/pos_order.py:0
+msgid "You cannot mix orders that require TicketBAI with those that don't."
+msgstr "You cannot mix 订单 that require TicketBAI with those that don't."

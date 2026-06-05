@@ -18,8 +18,7 @@ msgstr ""
 "POT-Creation-Date: 2026-04-03 18:36+0000\n"
 "PO-Revision-Date: 2025-11-08 17:49+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
-"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
-"projects/odoo-19/im_livechat/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/projects/odoo-19/im_livechat/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -72,7 +71,7 @@ msgstr "% 开心"
 #. odoo-python
 #: code:addons/im_livechat/models/chatbot_script_step.py:0
 msgid "%(title)s - Step %(sequence)d"
-msgstr ""
+msgstr "%(title)s - Step %(sequence)d（技术名称）"
 
 #. module: im_livechat
 #. odoo-python
@@ -85,17 +84,16 @@ msgstr "%s（副本）"
 #: code:addons/im_livechat/models/chatbot_script.py:0
 #: code:addons/im_livechat/models/discuss_channel.py:0
 msgid ""
-"'%(input_email)s' does not look like a valid email. Can you please try again?"
+"'%(input_email)s' does not look like a valid email. Can you please try "
+"again?"
 msgstr "%(input_email)s看起来不像是有效的电子邮件。你能再试一次吗？"
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel_rule__action
 msgid ""
 "* 'Show' displays the chat button on the pages.\n"
-"* 'Show with notification' is 'Show' in addition to a floating text just "
-"next to the button.\n"
-"* 'Open automatically' displays the button and automatically opens the "
-"conversation pane.\n"
+"* 'Show with notification' is 'Show' in addition to a floating text just next to the button.\n"
+"* 'Open automatically' displays the button and automatically opens the conversation pane.\n"
 "* 'Hide' hides the chat button on the pages.\n"
 msgstr ""
 "*“显示”，在页面上显示聊天按钮。\n"
@@ -130,56 +128,48 @@ msgstr "<span class=\"fw-bold\">国家/地区：</span>"
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "<span class=\"o_stat_text\">Happy</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Happy</span>（技术名称）"
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "<span class=\"o_stat_text\">Sessions</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Sessions</span>（技术名称）"
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "<span>Ongoing Sessions:</span>"
-msgstr ""
+msgstr "<span>Ongoing Sessions:</span>（技术名称）"
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.chatbot_script_step_view_form
 msgid ""
-"<span>Reminder: This step will only be played if no operator is available.</"
-"span>"
+"<span>Reminder: This step will only be played if no operator is "
+"available.</span>"
 msgstr "<span>提醒：仅当没有可用的运算符时，才会播放此步骤。</span>"
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.chatbot_script_view_form
 msgid ""
-"<span>Tip: At least one interaction (Question, Email, ...) is needed before "
-"the Bot can perform more complex actions (Forward to an Operator, ...). </"
-"span>\n"
-"                    <span>Use Channel Rules if you want the Bot to interact "
-"with visitors only when no operator is available.</span>"
+"<span>Tip: At least one interaction (Question, Email, ...) is needed before the Bot can perform more complex actions (Forward to an Operator, ...). </span>\n"
+"                    <span>Use Channel Rules if you want the Bot to interact with visitors only when no operator is available.</span>"
 msgstr ""
-"<span>提示：至少需要一个交互（问题、电子邮件等），机器人才能执行更复杂的操作"
-"（转发给操作员等）。 </span>\n"
-"                    <span>如果您希望机器人仅在没有操作员可用时与访客交互，请"
-"使用通道规则。</span>"
+"<span>提示：至少需要一个交互（问题、电子邮件等），机器人才能执行更复杂的操作（转发给操作员等）。 </span>\n"
+"                    <span>如果您希望机器人仅在没有操作员可用时与访客交互，请使用通道规则。</span>"
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.chatbot_script_view_form
 msgid ""
 "<span>Tip: At least one interaction (Question, Email, ...) is needed before "
-"the Bot can perform more complex actions (Forward to an Operator, ...).</"
-"span>"
-msgstr ""
-"<span>提示：至少需要一个交互（问题、电子邮件等），机器人才能执行更复杂的操作"
-"（转发给操作员等）。</span>"
+"the Bot can perform more complex actions (Forward to an Operator, "
+"...).</span>"
+msgstr "<span>提示：至少需要一个交互（问题、电子邮件等），机器人才能执行更复杂的操作（转发给操作员等）。</span>"
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.chatbot_script_step_view_form
 msgid ""
-"<span>Tip: Plan further steps for the Bot in case no operator is available.</"
-"span>"
-msgstr ""
-"<span>提示：在没有操作员可用的情况下，为机器人计划进一步的步骤。</span>"
+"<span>Tip: Plan further steps for the Bot in case no operator is "
+"available.</span>"
+msgstr "<span>提示：在没有操作员可用的情况下，为机器人计划进一步的步骤。</span>"
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.chatbot_test_script_page
@@ -210,7 +200,7 @@ msgstr "有效"
 #. odoo-javascript
 #: code:addons/im_livechat/static/src/core/web/expertise_tags_autocomplete.js:0
 msgid "Add expertise"
-msgstr ""
+msgstr "添加 expertise"
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
@@ -268,11 +258,13 @@ msgid ""
 "Agents who are inactive in Odoo for more than 30 minutes will be considered "
 "disconnected."
 msgstr ""
+"Agents who are inactive in 绿色供应链公共服务平台 for more than 30 minutes will be "
+"considered disconnected."
 
 #. module: im_livechat
 #: model:ir.ui.menu,name:im_livechat.menu_livechat_all_conversations
 msgid "All Conversations"
-msgstr ""
+msgstr "All Conversations（技术名称）"
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_rule_view_form
@@ -382,7 +374,7 @@ msgstr "按钮背景颜色"
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "Button Colors"
-msgstr ""
+msgstr "Button Colors（技术名称）"
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel__button_text_color
@@ -456,11 +448,9 @@ msgstr "频道"
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_discuss_channel__channel_type
 msgid ""
-"Chat is private and unique between 2 persons. Group is private among invited "
-"persons. Channel can be freely joined (depending on its configuration)."
-msgstr ""
-"在 2 个人之间的聊天是私密且唯一的。受邀者之间群聊是私密的。频道可以自由加入"
-"（取决于其配置）。"
+"Chat is private and unique between 2 persons. Group is private among invited"
+" persons. Channel can be freely joined (depending on its configuration)."
+msgstr "在 2 个人之间的聊天是私密且唯一的。受邀者之间群聊是私密的。频道可以自由加入（取决于其配置）。"
 
 #. module: im_livechat
 #: model:ir.actions.act_window,name:im_livechat.chatbot_script_action
@@ -536,7 +526,7 @@ msgstr "聊天机器人步骤"
 #. odoo-javascript
 #: code:addons/im_livechat/static/src/core/web/livechat_channel_info_list.xml:0
 msgid "Chatbot answers"
-msgstr ""
+msgstr "Chatbot answers（技术名称）"
 
 #. module: im_livechat
 #: model:ir.ui.menu,name:im_livechat.chatbot_config
@@ -589,7 +579,7 @@ msgstr "配置"
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_kanban
 msgid "Configure Channel"
-msgstr ""
+msgstr "配置 Channel"
 
 #. module: im_livechat
 #: model:ir.model,name:im_livechat.model_res_partner
@@ -611,7 +601,7 @@ msgstr "对话"
 #. odoo-javascript
 #: code:addons/im_livechat/static/src/core/web/thread_model_patch.js:0
 msgid "Conversation has ended"
-msgstr ""
+msgstr "Conversation has ended（技术名称）"
 
 #. module: im_livechat
 #. odoo-python
@@ -646,7 +636,7 @@ msgstr "国家/地区"
 #. odoo-javascript
 #: code:addons/im_livechat/static/src/core/web/livechat_channel_info_list.xml:0
 msgid "Country & Language"
-msgstr ""
+msgstr "国家/地区 & 语言"
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_channel__country_id
@@ -662,7 +652,7 @@ msgstr "此频道访客的国家"
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.discuss_channel_looking_for_help_view_kanban
 msgid "Country:"
-msgstr ""
+msgstr "国家/地区:"
 
 #. module: im_livechat
 #. odoo-javascript
@@ -800,9 +790,7 @@ msgid ""
 "Delay (in seconds) to automatically open the conversation window. Note: the "
 "selected action must be 'Open automatically' otherwise this parameter will "
 "not be taken into account."
-msgstr ""
-"延迟自动打开对话窗口（以秒计）。请注意：所选操作须为“自动打开”，否则将不会考"
-"虑此参数。"
+msgstr "延迟自动打开对话窗口（以秒计）。请注意：所选操作须为“自动打开”，否则将不会考虑此参数。"
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.discuss_channel_looking_for_help_view_list
@@ -829,7 +817,7 @@ msgstr "讨论"
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_conversation_tag__conversation_ids
 msgid "Discuss Channels"
-msgstr ""
+msgstr "Discuss Channels（技术名称）"
 
 #. module: im_livechat
 #: model:chatbot.script.answer,name:im_livechat.chatbot_script_answer_discuss_livechat_demo
@@ -878,14 +866,14 @@ msgstr "不要将访客重新导向"
 #. odoo-javascript
 #: code:addons/im_livechat/static/src/core/web/livechat_channel_info_list.xml:0
 msgid "Download"
-msgstr ""
+msgstr "下载"
 
 #. module: im_livechat
 #. odoo-javascript
 #: code:addons/im_livechat/static/src/core/web/livechat_channel_info_list.xml:0
 #: code:addons/im_livechat/static/src/embed/common/feedback_panel/feedback_panel.xml:0
 msgid "Download a copy of this conversation"
-msgstr ""
+msgstr "Download a copy of this conversation（技术名称）"
 
 #. module: im_livechat
 #. odoo-javascript
@@ -967,7 +955,7 @@ msgstr "专业知识"
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.discuss_channel_looking_for_help_view_kanban
 msgid "Expertise:"
-msgstr ""
+msgstr "Expertise:（技术名称）"
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_report_channel_view_list
@@ -998,7 +986,7 @@ msgstr "其他网站"
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "FOR WEBSITES BUILT WITH ODOO"
-msgstr "使用 Odoo 制作的网站"
+msgstr "使用 绿色供应链公共服务平台 制作的网站"
 
 #. module: im_livechat
 #: model:chatbot.script.answer,name:im_livechat.chatbot_script_troubleshooting_answer_firefox_demo
@@ -1062,9 +1050,7 @@ msgstr "提出反馈意见"
 msgid ""
 "Given the order to find a matching rule. If 2 rules are matching for the "
 "given url/country, the one with the lowest sequence will be chosen."
-msgstr ""
-"帮助订单找到匹配规则。如果两条规则同时匹配给定的链接地址/国家，会选择较小序号"
-"的一个。"
+msgstr "帮助订单找到匹配规则。如果两条规则同时匹配给定的链接地址/国家，会选择较小序号的一个。"
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
@@ -1073,8 +1059,8 @@ msgid ""
 "<strong>Settings</strong> &gt; <strong>Email</strong> &amp; "
 "<strong>Marketing.</strong>"
 msgstr ""
-"前往<strong>网站制作</strong> &gt; <strong>配置</strong> &gt; <strong>设置</"
-"strong> &gt; <strong>电邮</strong> &amp; <strong>市场推广</strong>。"
+"前往<strong>网站制作</strong> &gt; <strong>配置</strong> &gt; <strong>设置</strong> "
+"&gt; <strong>电邮</strong> &amp; <strong>市场推广</strong>。"
 
 #. module: im_livechat
 #. odoo-javascript
@@ -1164,11 +1150,13 @@ msgid ""
 "Help out by joining requests from teammates, or mark your own conversations "
 "as needing help."
 msgstr ""
+"帮助 out by joining requests 从 teammates, or mark your own conversations as "
+"needing 帮助."
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.livechat_email_template
 msgid "Here's a copy of your conversation with"
-msgstr ""
+msgstr "Here's a copy of your conversation with（技术名称）"
 
 #. module: im_livechat
 #: model:ir.model.fields.selection,name:im_livechat.selection__im_livechat_channel_rule__action__hide_button
@@ -1325,7 +1313,7 @@ msgstr "通话中"
 #. odoo-javascript
 #: code:addons/im_livechat/static/src/views/boolean_phone/boolean_phone.xml:0
 msgid "In a Call"
-msgstr ""
+msgstr "In a Call（技术名称）"
 
 #. module: im_livechat
 #. odoo-javascript
@@ -1395,7 +1383,7 @@ msgstr "加入频道"
 #. odoo-javascript
 #: code:addons/im_livechat/static/src/core/web/thread_actions.js:0
 msgid "Join Chat"
-msgstr ""
+msgstr "Join Chat（技术名称）"
 
 #. module: im_livechat
 #: model:ir.model,name:im_livechat.model_discuss_call_history
@@ -1531,12 +1519,12 @@ msgstr "离开频道"
 #: code:addons/im_livechat/static/src/core/common/close_confirmation.xml:0
 #: code:addons/im_livechat/static/src/core/public_web/thread_model_patch.js:0
 msgid "Leaving will end the live chat. Do you want to proceed?"
-msgstr ""
+msgstr "Leaving will end the live chat. Do you want to proceed?（技术名称）"
 
 #. module: im_livechat
 #: model_terms:chatbot.script.step,message:im_livechat.chatbot_script_module_info_expert_text_step_demo
 msgid "Let me check if I can connect you with the right expert..."
-msgstr ""
+msgstr "Let me 检查 if I can connect you with the right expert..."
 
 #. module: im_livechat
 #: model:ir.model.fields.selection,name:im_livechat.selection__im_livechat_channel__max_sessions_mode__limited
@@ -1560,20 +1548,20 @@ msgstr "在线聊天按钮"
 #. module: im_livechat
 #: model:ir.actions.act_window,name:im_livechat.im_livechat_channel_action
 msgid "Live Chat Channels"
-msgstr ""
+msgstr "Live Chat Channels（技术名称）"
 
 #. module: im_livechat
 #: model:ir.actions.report,name:im_livechat.action_report_livechat_conversation
 #: model_terms:ir.ui.view,arch_db:im_livechat.livechat_email_template
 msgid "Live Chat Conversation"
-msgstr ""
+msgstr "Live Chat Conversation（技术名称）"
 
 #. module: im_livechat
 #: model:ir.model,name:im_livechat.model_im_livechat_conversation_tag
 #: model:ir.model.fields,field_description:im_livechat.field_discuss_channel__livechat_conversation_tag_ids
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_member_history__conversation_tag_ids
 msgid "Live Chat Conversation Tags"
-msgstr ""
+msgstr "Live Chat Conversation Tags（技术名称）"
 
 #. module: im_livechat
 #: model:ir.model,name:im_livechat.model_im_livechat_expertise
@@ -1590,7 +1578,7 @@ msgstr "在线聊天历史"
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_discuss_channel__livechat_note
 msgid "Live Chat Note"
-msgstr ""
+msgstr "Live Chat Note（技术名称）"
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_discuss_channel__livechat_failure
@@ -1600,13 +1588,13 @@ msgstr "在线聊天会话失败"
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "Live Chat Window"
-msgstr ""
+msgstr "Live Chat Window（技术名称）"
 
 #. module: im_livechat
 #. odoo-javascript
 #: code:addons/im_livechat/static/src/core/public_web/messaging_menu_patch.js:0
 msgid "Live Chats"
-msgstr ""
+msgstr "Live Chats（技术名称）"
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_member_history__session_livechat_channel_id
@@ -1657,7 +1645,7 @@ msgstr "在线对话"
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_discuss_channel__livechat_expertise_ids
 msgid "Livechat Expertise"
-msgstr ""
+msgstr "Livechat Expertise（技术名称）"
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.unit_embed_suite
@@ -1677,12 +1665,12 @@ msgstr "Livechat 语言"
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_discuss_channel__livechat_matches_self_expertise
 msgid "Livechat Matches Self Expertise"
-msgstr ""
+msgstr "Livechat Matches Self Expertise（技术名称）"
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_discuss_channel__livechat_matches_self_lang
 msgid "Livechat Matches Self Lang"
-msgstr ""
+msgstr "Livechat Matches Self Lang（技术名称）"
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_discuss_channel_member__livechat_member_history_ids
@@ -1699,7 +1687,7 @@ msgstr "在线客服成员类型"
 #: model_terms:ir.ui.view,arch_db:im_livechat.res_users_form_view
 #: model_terms:ir.ui.view,arch_db:im_livechat.res_users_form_view_simple_modif
 msgid "Livechat Name"
-msgstr ""
+msgstr "Livechat 名称"
 
 #. module: im_livechat
 #: model:ir.model.constraint,message:im_livechat.constraint_discuss_channel_livechat_operator_id
@@ -1750,7 +1738,7 @@ msgstr "即时聊天语言"
 #: model:ir.actions.act_window,name:im_livechat.discuss_channel_looking_for_help_action
 #: model:ir.ui.menu,name:im_livechat.menu_livechat_looking_for_help
 msgid "Looking for Help"
-msgstr ""
+msgstr "Looking for 帮助"
 
 #. module: im_livechat
 #. odoo-javascript
@@ -1841,12 +1829,12 @@ msgstr "周一"
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.discuss_channel_looking_for_help_view_search
 msgid "My Expertise"
-msgstr ""
+msgstr "My Expertise（技术名称）"
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.discuss_channel_looking_for_help_view_search
 msgid "My Languages"
-msgstr ""
+msgstr "My Languages（技术名称）"
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.discuss_channel_looking_for_help_view_search
@@ -1871,7 +1859,7 @@ msgstr "名称"
 #: model:im_livechat.channel,button_text:im_livechat.im_livechat_channel_data
 #: model:im_livechat.channel,button_text:im_livechat.support_bot_channel_demo
 msgid "Need help? Chat with us."
-msgstr ""
+msgstr "Need 帮助? Chat with us."
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.discuss_channel_view_search
@@ -1920,7 +1908,7 @@ msgstr "找不到对话"
 #. module: im_livechat
 #: model_terms:ir.actions.act_window,help:im_livechat.discuss_channel_looking_for_help_action
 msgid "No conversations found"
-msgstr ""
+msgstr "否 conversations found"
 
 #. module: im_livechat
 #: model_terms:ir.actions.act_window,help:im_livechat.discuss_channel_action
@@ -1951,7 +1939,7 @@ msgstr "没有人有空"
 #. odoo-javascript
 #: code:addons/im_livechat/static/src/core/web/livechat_conversation_tag_edit.xml:0
 msgid "No tags found"
-msgstr ""
+msgstr "否 tags found"
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_agent_history_view_search
@@ -1975,7 +1963,7 @@ msgstr "备注"
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "Notification Text"
-msgstr ""
+msgstr "Notification Text（技术名称）"
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_discuss_channel__message_needaction_counter
@@ -2026,7 +2014,7 @@ msgstr "发送错误的消息的数量"
 #: model:chatbot.script,title:im_livechat.chatbot_script_welcome_bot_demo
 #: model_terms:ir.ui.view,arch_db:im_livechat.livechat_email_template
 msgid "Odoo"
-msgstr "Odoo"
+msgstr "绿色供应链公共服务平台"
 
 #. module: im_livechat
 #: model:ir.model.constraint,message:im_livechat.constraint_im_livechat_channel_member_history_channel_id_guest_id_unique
@@ -2152,7 +2140,7 @@ msgstr "疑问"
 #. module: im_livechat
 #: model:ir.model,name:im_livechat.model_ir_qweb
 msgid "Qweb"
-msgstr ""
+msgstr "Qweb"
 
 #. module: im_livechat
 #. odoo-python
@@ -2258,7 +2246,7 @@ msgstr "相关邮件消息"
 #: code:addons/im_livechat/static/src/core/public_web/discuss_sidebar_channel_actions_patch.xml:0
 #: code:addons/im_livechat/static/src/core/web/discuss_sidebar_category_patch.xml:0
 msgid "Relevant to your expertise"
-msgstr ""
+msgstr "Relevant to your expertise（技术名称）"
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel__remaining_session_capacity
@@ -2391,7 +2379,7 @@ msgstr "搜索历史"
 #. odoo-javascript
 #: code:addons/im_livechat/static/src/core/web/livechat_conversation_tag_edit.xml:0
 msgid "Search or create new tags"
-msgstr ""
+msgstr "搜索 or 创建 新建 tags"
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_report_channel_view_search
@@ -2420,7 +2408,7 @@ msgstr "发送"
 #. odoo-javascript
 #: code:addons/im_livechat/static/src/core/web/livechat_channel_info_list.xml:0
 msgid "Send conversation"
-msgstr ""
+msgstr "发送 conversation"
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_chatbot_script_answer__sequence
@@ -2523,7 +2511,7 @@ msgstr "显示通知"
 #. odoo-javascript
 #: code:addons/im_livechat/static/src/core/web/thread_actions.js:0
 msgid "Someone has already joined this conversation"
-msgstr ""
+msgstr "Someone has already joined this conversation（技术名称）"
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_chatbot_script__source_id
@@ -2534,7 +2522,7 @@ msgstr "来源"
 #: model_terms:ir.ui.view,arch_db:im_livechat.res_users_form_view
 #: model_terms:ir.ui.view,arch_db:im_livechat.res_users_form_view_simple_modif
 msgid "Spoken Languages"
-msgstr ""
+msgstr "Spoken Languages（技术名称）"
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_channel__start_date
@@ -2611,7 +2599,7 @@ msgstr "切换到下一个即时聊天"
 #. odoo-javascript
 #: code:addons/im_livechat/static/src/core/web/livechat_conversation_tag_edit.xml:0
 msgid "Tag has already been selected"
-msgstr ""
+msgstr "Tag has already been selected（技术名称）"
 
 #. module: im_livechat
 #. odoo-javascript
@@ -2633,12 +2621,12 @@ msgstr "标签"
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel_member_history__conversation_tag_ids
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_report_channel__conversation_tag_ids
 msgid "Tags to qualify the conversation."
-msgstr ""
+msgstr "Tags to qualify the conversation.（技术名称）"
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_channel__conversation_tag_ids
 msgid "Tags used in this conversation"
-msgstr ""
+msgstr "Tags used in this conversation（技术名称）"
 
 #. module: im_livechat
 #: model:ir.ui.menu,name:im_livechat.livechat_technical
@@ -2677,12 +2665,10 @@ msgstr "对话已发送。"
 msgid ""
 "The rule will only be applied for these countries. Example: if you select "
 "'Belgium' and 'United States' and that you set the action to 'Hide', the "
-"chat button will be hidden on the specified URL from the visitors located in "
-"these 2 countries. This feature requires GeoIP installed on your server."
+"chat button will be hidden on the specified URL from the visitors located in"
+" these 2 countries. This feature requires GeoIP installed on your server."
 msgstr ""
-"本规则仅适用于这些国家。示例：如果您选择“比利时”和“美国”，并将操作设置为“隐"
-"藏”，则聊天按钮将对这两个国家的访问者隐藏在指定URL上。本功能要求在服务器上安"
-"装GeoIP。"
+"本规则仅适用于这些国家。示例：如果您选择“比利时”和“美国”，并将操作设置为“隐藏”，则聊天按钮将对这两个国家的访问者隐藏在指定URL上。本功能要求在服务器上安装GeoIP。"
 
 #. module: im_livechat
 #: model:res.groups,comment:im_livechat.im_livechat_group_manager
@@ -2699,9 +2685,7 @@ msgstr "用户能够加入服务支持频道。"
 msgid ""
 "The visitor will be redirected to this link upon clicking the option (note "
 "that the script will end if the link is external to the livechat website)."
-msgstr ""
-"单击该选项后，访问者将被重定向到此链接（请注意，如果链接位于实时聊天网站外"
-"部，脚本将结束）。"
+msgstr "单击该选项后，访问者将被重定向到此链接（请注意，如果链接位于实时聊天网站外部，脚本将结束）。"
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_res_users_settings__livechat_lang_ids
@@ -2722,7 +2706,7 @@ msgstr "这是一个自动的 '欢迎' 信息，当访客开始新的会话时�
 #: code:addons/im_livechat/static/src/core/common/thread_model_patch.js:0
 #: code:addons/im_livechat/static/src/embed/common/thread_model_patch.js:0
 msgid "This livechat conversation has ended."
-msgstr ""
+msgstr "This livechat conversation has ended.（技术名称）"
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_res_users_settings__livechat_username
@@ -2743,7 +2727,7 @@ msgstr "用户会话时长（小时）"
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_rule__auto_popup_timer
 msgid "Time to Open"
-msgstr ""
+msgstr "Time to Open（技术名称）"
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_digest_digest__kpi_livechat_response
@@ -2769,13 +2753,14 @@ msgstr "标题颜色"
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid ""
-"To apply the rule only to certain pages of your website, enter a URL regex "
-"like /shop. This will match any page that starts with /shop, such as /shop/"
-"product. Leave the field empty to apply the rule to all pages.<br/>\n"
-"                                    For on-premise databases, GeoIP must be "
-"installed on your server to geolocate visitors. Without it, rules that "
-"include country restrictions will be ignored."
+"To apply the rule only to certain pages of your website, enter a URL regex like /shop. This will match any page that starts with /shop, such as /shop/product. Leave the field empty to apply the rule to all pages.<br/>\n"
+"                                    For on-premise databases, GeoIP must be installed on your server to geolocate visitors. Without it, rules that include country restrictions will be ignored."
 msgstr ""
+"To apply the 规则 only to certain pages of your website, enter a URL regex "
+"like /shop. This will match any page that starts with /shop, such as "
+"/shop/产品. 休假 the field empty to apply the 规则 to all pages.<br/> For on-"
+"premise databases, GeoIP must be installed on your server to geolocate "
+"visitors. Without it, rules that include 国家/地区 restrictions will be ignored."
 
 #. module: im_livechat
 #: model_terms:ir.actions.act_window,help:im_livechat.im_livechat_agent_history_action
@@ -2784,8 +2769,7 @@ msgstr ""
 msgid ""
 "Track and improve live chat performance with insights on session activity, "
 "response times, customer ratings, and call interactions."
-msgstr ""
-"通过洞察会话活动、响应时间、客户评分和呼叫互动，追踪并改进在线聊天性能。"
+msgstr "通过洞察会话活动、响应时间、客户评分和呼叫互动，追踪并改进在线聊天性能。"
 
 #. module: im_livechat
 #: model:chatbot.script.answer,name:im_livechat.chatbot_script_answer_troubleshooting_demo
@@ -2848,17 +2832,15 @@ msgstr "未评级"
 #. odoo-javascript
 #: code:addons/im_livechat/static/src/core/web/livechat_conversation_tag_edit.xml:0
 msgid "Unselect tag"
-msgstr ""
+msgstr "Unselect tag（技术名称）"
 
 #. module: im_livechat
 #: model_terms:digest.tip,tip_description:im_livechat.digest_tip_im_livechat_0
 msgid ""
-"Use canned responses to define templates of messages in the livechat app. To "
-"load a canned response, start your sentence with '::' and select the "
+"Use canned responses to define templates of messages in the livechat app. To"
+" load a canned response, start your sentence with '::' and select the "
 "template."
-msgstr ""
-"使用预制回复在即时聊天应用程序中定义消息模板。要加载预制回复，请以“::”开头并"
-"选择模板。"
+msgstr "使用预制回复在即时聊天应用程序中定义消息模板。要加载预制回复，请以“::”开头并选择模板。"
 
 #. module: im_livechat
 #: model:ir.model,name:im_livechat.model_res_users
@@ -2896,13 +2878,13 @@ msgstr "用户的原始答案"
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_kanban
 msgid "View Channel"
-msgstr ""
+msgstr "查看 Channel"
 
 #. module: im_livechat
 #. odoo-javascript
 #: code:addons/im_livechat/static/src/core/web/livechat_channel_info_list.xml:0
 msgid "View Contact"
-msgstr ""
+msgstr "查看 联系人"
 
 #. module: im_livechat
 #. odoo-python
@@ -3044,7 +3026,7 @@ msgstr "小工具"
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "Window Colors"
-msgstr ""
+msgstr "Window Colors（技术名称）"
 
 #. module: im_livechat
 #: model_terms:chatbot.script.step,message:im_livechat.chatbot_script_welcome_step_pricing_email
@@ -3057,7 +3039,7 @@ msgstr "您是否介意留下您的电子邮件地址，以便我们可以与您
 #. odoo-python
 #: code:addons/im_livechat/controllers/channel.py:0
 msgid "Write expertises: Only LINK and UNLINK commands are allowed."
-msgstr ""
+msgstr "Write expertises: Only LINK and UNLINK commands are allowed.（技术名称）"
 
 #. module: im_livechat
 #. odoo-javascript
@@ -3087,19 +3069,17 @@ msgstr "您可以使用定义的脚本创建一个新的聊天机器人，以与
 #: model_terms:ir.actions.act_window,help:im_livechat.im_livechat_channel_action
 msgid ""
 "You can create channels for each website on which you want\n"
-"                to integrate the website live chat widget, allowing your "
-"website\n"
+"                to integrate the website live chat widget, allowing your website\n"
 "                visitors to talk in real time with your operators."
 msgstr ""
 "您可以为每个想要\n"
-" 集成网站实时聊天小工具的网站创建频道，这样您的网站访客便能够与操作人员实时交"
-"流。"
+" 集成网站实时聊天小工具的网站创建频道，这样您的网站访客便能够与操作人员实时交流。"
 
 #. module: im_livechat
 #. odoo-javascript
 #: code:addons/im_livechat/static/src/core/public_web/discuss_sidebar_categories_patch.xml:0
 msgid "You have joined this live chat channel"
-msgstr ""
+msgstr "You have joined this live chat channel（技术名称）"
 
 #. module: im_livechat
 #. odoo-javascript
@@ -3147,7 +3127,7 @@ msgstr "例如：您好！请问有什么可以帮您的吗？"
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "e.g. Need help? Chat with us."
-msgstr ""
+msgstr "e.g. Need 帮助? Chat with us."
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
@@ -3164,7 +3144,7 @@ msgstr "通话中"
 #. odoo-javascript
 #: code:addons/im_livechat/static/src/core/public_web/discuss_sidebar_categories_patch.xml:0
 msgid "joined"
-msgstr ""
+msgstr "joined（技术名称）"
 
 #. module: im_livechat
 #. odoo-javascript
@@ -3191,14 +3171,11 @@ msgstr "websocket消息处理"
 #~ msgstr "即时聊天对话已结束"
 
 #~ msgid ""
-#~ "<span groups=\"im_livechat.im_livechat_group_manager\">Configure Channel</"
-#~ "span>\n"
-#~ "                                <span groups=\"!"
-#~ "im_livechat.im_livechat_group_manager\">View Channel</span>"
+#~ "<span groups=\"im_livechat.im_livechat_group_manager\">Configure Channel</span>\n"
+#~ "                                <span groups=\"!im_livechat.im_livechat_group_manager\">View Channel</span>"
 #~ msgstr ""
 #~ "<span groups=\"im_livechat.im_livechat_group_manager\">配置频道</span>\n"
-#~ "                                <span groups=\"!"
-#~ "im_livechat.im_livechat_group_manager\">检视频道</span>"
+#~ "                                <span groups=\"!im_livechat.im_livechat_group_manager\">检视频道</span>"
 
 #~ msgid " (copy)"
 #~ msgstr " (副本)"
@@ -3233,10 +3210,8 @@ msgstr "websocket消息处理"
 #~ msgid "1 is Monday, 7 is Sunday"
 #~ msgstr "1 是星期一，7 是星期日"
 
-#~ msgid ""
-#~ "<i class=\"fa fa-user\" role=\"img\" aria-label=\"User\" title=\"User\"/>"
-#~ msgstr ""
-#~ "<i class=\"fa fa-user\" role=\"img\" aria-label=\"用户\" title=\"用户\"/>"
+#~ msgid "<i class=\"fa fa-user\" role=\"img\" aria-label=\"User\" title=\"User\"/>"
+#~ msgstr "<i class=\"fa fa-user\" role=\"img\" aria-label=\"用户\" title=\"用户\"/>"
 
 #~ msgid "<span style=\"font-size: 10px;\">Livechat Conversation</span><br/>"
 #~ msgstr "<span style=\"font-size: 10px;\">即时聊天</span><br/>"
@@ -3249,12 +3224,10 @@ msgstr "websocket消息处理"
 
 #~ msgid ""
 #~ "A session is without answer if the operator did not answer. \n"
-#~ "                                       If the visitor is also the "
-#~ "operator, the session will always be answered."
+#~ "                                       If the visitor is also the operator, the session will always be answered."
 #~ msgstr ""
 #~ "如果操作员没有应答，会话将无人应答。\n"
-#~ "                                       如果访问者也是操作员，则会话将始终"
-#~ "得到应答。"
+#~ "                                       如果访问者也是操作员，则会话将始终得到应答。"
 
 #~ msgid "Anonymous"
 #~ msgstr "匿名"
@@ -3288,10 +3261,8 @@ msgstr "websocket消息处理"
 
 #~ msgid ""
 #~ "Canned responses allow you to insert prewritten responses in\n"
-#~ "                your messages by typing <i>:shortcut</i>. The shortcut "
-#~ "is\n"
-#~ "                replaced directly in your message, so that you can still "
-#~ "edit\n"
+#~ "                your messages by typing <i>:shortcut</i>. The shortcut is\n"
+#~ "                replaced directly in your message, so that you can still edit\n"
 #~ "                it before sending."
 #~ msgstr ""
 #~ "预设回复允许您通过输入 <i>:快捷方式</i>在\n"
@@ -3358,14 +3329,14 @@ msgstr "websocket消息处理"
 #~ msgstr "在线客服按钮上的默认内容"
 
 #~ msgid ""
-#~ "Define rules for your live support channel. You can apply an action for "
-#~ "the given URL, and per country.<br/>To identify the country, GeoIP must "
-#~ "be installed on your server, otherwise, the countries of the rule will "
-#~ "not be taken into account."
+#~ "Define rules for your live support channel. You can apply an action for the "
+#~ "given URL, and per country.<br/>To identify the country, GeoIP must be "
+#~ "installed on your server, otherwise, the countries of the rule will not be "
+#~ "taken into account."
 #~ msgstr ""
-#~ "<span class=\"text-muted\">为实时支持通道定义规则。您可以对给定的链接地址"
-#~ "和每个国家/地区应用操作。<br/>要识别国家/地区，必须在服务器上安装 GeoIP，"
-#~ "否则，将不考虑该规则的国家/地区。</span>"
+#~ "<span class=\"text-"
+#~ "muted\">为实时支持通道定义规则。您可以对给定的链接地址和每个国家/地区应用操作。<br/>要识别国家/地区，必须在服务器上安装 "
+#~ "GeoIP，否则，将不考虑该规则的国家/地区。</span>"
 
 #~ msgid "Duration of the conversation (in seconds)"
 #~ msgstr "对话持续时间(秒)"
@@ -3377,12 +3348,10 @@ msgstr "websocket消息处理"
 #~ msgstr "仅在没有操作员时启用"
 
 #~ msgid ""
-#~ "For websites built with the Odoo CMS, go to Website &gt; Configuration "
-#~ "&gt; Settings and select the Website Live Chat Channel you want to add to "
-#~ "your website."
-#~ msgstr ""
-#~ "对于用Odoo CMS建立的网站，进入网站&gt;配置&gt;设置，选择您想添加到网站的网"
-#~ "站即时聊天频道。"
+#~ "For websites built with the Odoo CMS, go to Website &gt; Configuration &gt; "
+#~ "Settings and select the Website Live Chat Channel you want to add to your "
+#~ "website."
+#~ msgstr "对于用Odoo CMS建立的网站，进入网站&gt;配置&gt;设置，选择您想添加到网站的网站即时聊天频道。"
 
 #~ msgid "Good"
 #~ msgstr "好"
@@ -3421,12 +3390,10 @@ msgstr "websocket消息处理"
 #~ msgstr "即时聊天按钮颜色"
 
 #~ msgid ""
-#~ "Livechat Support Channel Statistics allows you to easily check and "
-#~ "analyse your company livechat session performance. Extract information "
-#~ "about the missed sessions, the audience, the duration of a session, etc."
-#~ msgstr ""
-#~ "实时聊天支持渠道统计可让您轻松检查和分析公司的实时聊天会话性能。提取有关错"
-#~ "过的会话、受众、会话持续时间等的信息。"
+#~ "Livechat Support Channel Statistics allows you to easily check and analyse "
+#~ "your company livechat session performance. Extract information about the "
+#~ "missed sessions, the audience, the duration of a session, etc."
+#~ msgstr "实时聊天支持渠道统计可让您轻松检查和分析公司的实时聊天会话性能。提取有关错过的会话、受众、会话持续时间等的信息。"
 
 #~ msgid "Livechat Support Operator Report"
 #~ msgstr "实时聊天支持操作员报告"
@@ -3479,13 +3446,11 @@ msgstr "websocket消息处理"
 #~ msgid ""
 #~ "Operators\n"
 #~ "                                            <br/>\n"
-#~ "                                            <i class=\"fa fa-comments\" "
-#~ "role=\"img\" aria-label=\"Comments\" title=\"Comments\"/>"
+#~ "                                            <i class=\"fa fa-comments\" role=\"img\" aria-label=\"Comments\" title=\"Comments\"/>"
 #~ msgstr ""
 #~ "操作员\n"
 #~ "                                            <br/>\n"
-#~ "                                            <i class=\"fa fa-comments\" "
-#~ "role=\"img\" aria-label=\"Comments\" title=\"Comments\"/>"
+#~ "                                            <i class=\"fa fa-comments\" role=\"img\" aria-label=\"Comments\" title=\"Comments\"/>"
 
 #~ msgid ""
 #~ "Operators that do not show any activity In Odoo for more than 30 minutes "
@@ -3555,17 +3520,14 @@ msgstr "websocket消息处理"
 #~ msgid "Try again"
 #~ msgstr "重试"
 
-#~ msgid ""
-#~ "Type <b>:shortcut</b> to insert a canned response in your message.<br>"
+#~ msgid "Type <b>:shortcut</b> to insert a canned response in your message.<br>"
 #~ msgstr "键入<b>:快捷键</b>，在您的信息中插入一个预制的回应。<br>"
 
 #~ msgid ""
-#~ "Use canned responses to define templates of messages in the livechat app. "
-#~ "To load a canned response, start your sentence with ':' and select the "
+#~ "Use canned responses to define templates of messages in the livechat app. To"
+#~ " load a canned response, start your sentence with ':' and select the "
 #~ "template."
-#~ msgstr ""
-#~ "使用预制回复来定义即时聊天应用程序中的消息模板。要加载预设回复，请以':'开"
-#~ "始您的句子并选择模板。"
+#~ msgstr "使用预制回复来定义即时聊天应用程序中的消息模板。要加载预设回复，请以':'开始您的句子并选择模板。"
 
 #~ msgid "Visitor has left the conversation."
 #~ msgstr "访客已经离开了谈话。"
@@ -3588,8 +3550,7 @@ msgstr "websocket消息处理"
 #~ msgid "is typing"
 #~ msgstr "打字"
 
-#~ msgid ""
-#~ "or copy this url and send it by email to your customers or suppliers:"
+#~ msgid "or copy this url and send it by email to your customers or suppliers:"
 #~ msgstr "或者拷贝这个URL并且通过邮件发送给您的客户、供应商："
 
 #~ msgid "read less"

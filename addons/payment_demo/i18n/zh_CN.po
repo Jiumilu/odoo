@@ -10,8 +10,7 @@ msgstr ""
 "POT-Creation-Date: 2026-04-03 18:39+0000\n"
 "PO-Revision-Date: 2025-09-16 15:34+0000\n"
 "Last-Translator: \"Tiffany Chang (tic)\" <tic@odoo.com>\n"
-"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
-"projects/odoo-19/payment_demo/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/projects/odoo-19/payment_demo/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,8 +28,7 @@ msgid ""
 "                    <option value=\"pending\" title=\"Payment processing\">\n"
 "                        Pending\n"
 "                    </option>\n"
-"                    <option value=\"cancel\" title=\"Payment cancelled by "
-"customer\">\n"
+"                    <option value=\"cancel\" title=\"Payment cancelled by customer\">\n"
 "                        Cancelled\n"
 "                    </option>\n"
 "                    <option value=\"error\" title=\"Processing error\">\n"
@@ -106,7 +104,7 @@ msgstr "授权"
 #. module: payment_demo
 #: model_terms:ir.ui.view,arch_db:payment_demo.express_inline_form
 msgid "Belgium"
-msgstr ""
+msgstr "比利时"
 
 #. module: payment_demo
 #: model_terms:ir.ui.view,arch_db:payment_demo.payment_transaction_form
@@ -130,7 +128,7 @@ msgid ""
 "Use this if you want to charge your customers cards only when\n"
 "you are sure you can ship the goods to them."
 msgstr ""
-"当交货完成时，从Odoo获取金额。\n"
+"当交货完成时，从绿色供应链公共服务平台获取金额。\n"
 "如果您想在确定您可以向客户发货时才从客户的卡上扣款，就可以使用这个方法。\n"
 "您确定您能把货物运给他们时才使用。"
 
@@ -176,7 +174,7 @@ msgstr "应永久禁用演示提供商。"
 #: model:ir.model.fields,field_description:payment_demo.field_payment_token__display_name
 #: model:ir.model.fields,field_description:payment_demo.field_payment_transaction__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "显示名称"
 
 #. module: payment_demo
 #: model:ir.model.fields.selection,name:payment_demo.selection__payment_token__demo_simulated_state__error
@@ -188,7 +186,7 @@ msgstr "错误"
 #: model:ir.model.fields,field_description:payment_demo.field_payment_token__id
 #: model:ir.model.fields,field_description:payment_demo.field_payment_transaction__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: payment_demo
 #. odoo-javascript
@@ -235,8 +233,8 @@ msgstr "使用此付款方式将<b>成功付款</b>。"
 #. module: payment_demo
 #: model_terms:ir.ui.view,arch_db:payment_demo.token_inline_form
 msgid ""
-"Payments made with this payment method will be automatically <b>cancelled</"
-"b>."
+"Payments made with this payment method will be automatically "
+"<b>cancelled</b>."
 msgstr "使用此付款方式支付的款项将自动<b>取消</b>。"
 
 #. module: payment_demo
@@ -247,8 +245,8 @@ msgstr "使用此付款方式的付款将保持<b>待处理</b>状态。"
 #. module: payment_demo
 #: model_terms:ir.ui.view,arch_db:payment_demo.token_inline_form
 msgid ""
-"Payments made with this payment method will simulate a processing <b>error</"
-"b>."
+"Payments made with this payment method will simulate a processing "
+"<b>error</b>."
 msgstr "使用此付款方式的付款将模拟处理<b>错误</b>。"
 
 #. module: payment_demo
@@ -260,7 +258,7 @@ msgstr "待定"
 #. odoo-python
 #: code:addons/payment_demo/controllers/portal.py:0
 msgid "Provider %s is not properly configured."
-msgstr ""
+msgstr "Provider %s is not properly configured.（技术名称）"
 
 #. module: payment_demo
 #: model_terms:ir.ui.view,arch_db:payment_demo.payment_transaction_form

@@ -14,8 +14,7 @@ msgstr ""
 "POT-Creation-Date: 2026-05-29 17:36+0000\n"
 "PO-Revision-Date: 2025-09-16 15:20+0000\n"
 "Last-Translator: \"Tiffany Chang (tic)\" <tic@odoo.com>\n"
-"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
-"projects/odoo-19/base_vat/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/projects/odoo-19/base_vat/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,15 +31,15 @@ msgstr "1-01-85004-3 或 101850043"
 #. module: base_vat
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
-msgid "10XXXXXXXXY or 20XXXXXXXXY or 15XXXXXXXXY or 16XXXXXXXXY or 17XXXXXXXXY"
-msgstr ""
-"10XXXXXXXXY 或 20XXXXXXXXY 或 15XXXXXXXXY 或 16XXXXXXXXY 或 17XXXXXXXXY"
+msgid ""
+"10XXXXXXXXY or 20XXXXXXXXY or 15XXXXXXXXY or 16XXXXXXXXY or 17XXXXXXXXY"
+msgstr "10XXXXXXXXY 或 20XXXXXXXXY 或 15XXXXXXXXY 或 16XXXXXXXXY 或 17XXXXXXXXY"
 
 #. module: base_vat
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
 msgid "11111111111 (NIN) or 2222222222 (VKN)"
-msgstr ""
+msgstr "11111111111 (NIN) or 2222222222 (VKN)（技术名称）"
 
 #. module: base_vat
 #. odoo-python
@@ -48,6 +47,8 @@ msgstr ""
 msgid ""
 "12345678 or UA12345678 (EDRPOU), 1234567890 (RNOPP) or 123456789012 (IPN)"
 msgstr ""
+"12345678 or UA12345678 (EDRPOU), 1234567890 (RNOPP) or 123456789012 "
+"(IPN)（技术名称）"
 
 #. module: base_vat
 #. odoo-python
@@ -70,7 +71,7 @@ msgstr "49-098-576 或 49098576"
 #. module: base_vat
 #: model:ir.actions.server,name:base_vat.vies_iap_check_update_ir_actions_server
 msgid "Base VAT: Sync updates from IAP VIES"
-msgstr ""
+msgstr "Base VAT: Sync updates 从 IAP VIES"
 
 #. module: base_vat
 #. odoo-python
@@ -168,8 +169,7 @@ msgstr "ID"
 msgid ""
 "If this checkbox is ticked, the default fiscal position that applies will "
 "depend upon the output of the verification by the European VIES Service."
-msgstr ""
-"如果勾选本复选框，则适用的默认财务状况将取决于欧洲 VIES 服务的核查结果。"
+msgstr "如果勾选本复选框，则适用的默认财务状况将取决于欧洲 VIES 服务的核查结果。"
 
 #. module: base_vat
 #. odoo-python
@@ -177,6 +177,7 @@ msgstr ""
 msgid ""
 "If you are trying to input a European number, this is the expected format: "
 msgstr ""
+"If you are trying to input a European 编号, this is the expected format:"
 
 #. module: base_vat
 #: model:ir.model.fields,field_description:base_vat.field_res_partner__vies_valid
@@ -188,7 +189,7 @@ msgstr "共同体内有效"
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
 msgid "Invalid IAP VIES endpoint"
-msgstr ""
+msgstr "无效 IAP VIES endpoint"
 
 #. module: base_vat
 #. odoo-python
@@ -213,8 +214,8 @@ msgstr "税务识别码"
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
 msgid ""
-"The %(vat_label)s number [%(wrong_vat)s] does not seem to be valid. %"
-"(expected_note)s"
+"The %(vat_label)s number [%(wrong_vat)s] does not seem to be valid. "
+"%(expected_note)s"
 msgstr "%(vat_label)s 的号码 [%(wrong_vat)s] 似乎无效。%(expected_note)s"
 
 #. module: base_vat
@@ -224,14 +225,14 @@ msgid ""
 "The %(vat_label)s number [%(wrong_vat)s] for %(record_label)s does not seem "
 "to be valid. %(expected_note)s"
 msgstr ""
-"以下记录的 %(vat_label)s 号码 [%(wrong_vat)s] 似乎无效。记录：%"
-"(record_label)s。%(expected_note)s"
+"以下记录的 %(vat_label)s 号码 [%(wrong_vat)s] "
+"似乎无效。记录：%(record_label)s。%(expected_note)s"
 
 #. module: base_vat
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
 msgid "The Intra-Community validity has been updated to: %s."
-msgstr ""
+msgstr "The Intra-Community validity has been 已更新 to: %s."
 
 #. module: base_vat
 #: model:ir.model.fields,help:base_vat.field_res_partner__vat
@@ -240,20 +241,19 @@ msgid ""
 "The Tax Identification Number. Values here will be validated based on the "
 "country format. You can use '/' to indicate that the partner is not subject "
 "to tax."
-msgstr ""
-"税务识别号。此处的值将根据国家格式进行验证。可以使用“/”表示合作伙伴无需纳税。"
+msgstr "税务识别号。此处的值将根据国家格式进行验证。可以使用“/”表示合作伙伴无需纳税。"
 
 #. module: base_vat
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
 msgid "The VIES check failed. Please check the Tax ID manually."
-msgstr ""
+msgstr "The VIES 检查 失败. Please 检查 the 税 ID manually."
 
 #. module: base_vat
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
 msgid "The VIES check is pending. The status will be updated soon."
-msgstr ""
+msgstr "The VIES 检查 is pending. The 状态 will be 已更新 soon."
 
 #. module: base_vat
 #. odoo-python
@@ -282,7 +282,7 @@ msgstr "使用欧洲 VIES 服务验证增值税号码"
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
 msgid "XXXXXXXXX [9 digits]"
-msgstr ""
+msgstr "XXXXXXXXX [9 digits]（技术名称）"
 
 #. module: base_vat
 #. odoo-python
@@ -294,7 +294,7 @@ msgstr "XXXXXXXXX [9 位数]，并应遵守卢恩校验和"
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
 msgid "either 11 digits for CPF or 14 characters for CNPJ"
-msgstr ""
+msgstr "either 11 digits for CPF or 14 characters for CNPJ（技术名称）"
 
 #. module: base_vat
 #. odoo-python
@@ -314,8 +314,8 @@ msgstr "业务伙伴[%s]"
 #~ msgstr "VIES 服务器无法解释增值税号%s。"
 
 #~ msgid ""
-#~ "The request for VAT validation was not processed. VIES service has "
-#~ "responded with the following error: %s"
+#~ "The request for VAT validation was not processed. VIES service has responded"
+#~ " with the following error: %s"
 #~ msgstr "增值税验证请求未处理。VIES 服务回复如下错误：%s"
 
 #~ msgid "17291716060 (NIN) or 1729171602 (VKN)"
@@ -327,12 +327,9 @@ msgstr "业务伙伴[%s]"
 #~ msgid ""
 #~ "If this checkbox is ticked, you will not be able to save a contact if its "
 #~ "VAT number cannot be verified by the European VIES service."
-#~ msgstr ""
-#~ "如果勾选此复选框，则在欧洲 VIES 服务无法验证合同的增值税号码时，您将无法保"
-#~ "存联系人。"
+#~ msgstr "如果勾选此复选框，则在欧洲 VIES 服务无法验证合同的增值税号码时，您将无法保存联系人。"
 
-#~ msgid ""
-#~ "Technical field display a message to the user if the VIES check fails."
+#~ msgid "Technical field display a message to the user if the VIES check fails."
 #~ msgstr "如果VIES检查失败，技术字段将向用户显示消息。"
 
 #~ msgid ""
@@ -343,8 +340,7 @@ msgstr "业务伙伴[%s]"
 #~ "注：预期格式为%(expected_format)s"
 
 #~ msgid ""
-#~ "The %(vat_label)s number [%(wrong_vat)s] for %(record_label)s does not "
-#~ "seem to be valid. \n"
+#~ "The %(vat_label)s number [%(wrong_vat)s] for %(record_label)s does not seem to be valid. \n"
 #~ "Note: the expected format is %(expected_format)s"
 #~ msgstr ""
 #~ "%(vat_label)s数字[%(wrong_vat)s]用于%(record_label)s，似乎无效。\n"
@@ -354,8 +350,8 @@ msgstr "业务伙伴[%s]"
 #~ msgstr "增值税编号%s未通过VIES增值税验证检查。"
 
 #~ msgid ""
-#~ "The country detected for this foreign VAT number does not match the one "
-#~ "set on this fiscal position."
+#~ "The country detected for this foreign VAT number does not match the one set "
+#~ "on this fiscal position."
 #~ msgstr "该外国增值税号检测到的国家与该财政状况上设定的国家不一致。"
 
 #~ msgid "fiscal position [%s]"

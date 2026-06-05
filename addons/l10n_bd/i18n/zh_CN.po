@@ -1,0 +1,204 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_bd
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_bd
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_bd.model_account_chart_template
+msgid "Account Chart Template"
+msgstr "科目表模版"
+
+#. module: l10n_bd
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.column,name:l10n_bd.tr_column_net
+msgid "Balance"
+msgstr "余额"
+
+#. module: l10n_bd
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.ui.menu,name:l10n_bd.account_reports_bd_corporate_report_menu
+msgid "Bangladesh"
+msgstr "孟加拉国"
+
+#. module: l10n_bd
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_bd.account_tags_tax_c_cog
+msgid "Bangladesh Corporate Tax - Cost of Goods Sold"
+msgstr "Bangladesh Corporate 税 - 成本 of Goods Sold"
+
+#. module: l10n_bd
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_bd.account_tags_tax_c_exempt
+msgid "Bangladesh Corporate Tax - Exempt Income"
+msgstr "Bangladesh Corporate 税 - Exempt Income"
+
+#. module: l10n_bd
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.account.tag,name:l10n_bd.account_tags_tax_c_exp
+msgid "Bangladesh Corporate Tax - Expense"
+msgstr "Bangladesh Corporate 税 - 费用"
+
+#. module: l10n_bd
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_bd.field_account_chart_template__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_bd
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_bd.tr_line_S_EX_0
+msgid "Exports"
+msgstr "导出"
+
+#. module: l10n_bd
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_bd.field_account_chart_template__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_bd
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_bd.tr_line_P_EX_0
+msgid "Imports"
+msgstr "Imports（技术名称）"
+
+#. module: l10n_bd
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_bd.tr_title_net_vat_due
+msgid "Net VAT Due"
+msgstr "Net VAT Due（技术名称）"
+
+#. module: l10n_bd
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_bd.tr_title_purchases_vat
+msgid "Purchases Taxes"
+msgstr "Purchases 税"
+
+#. module: l10n_bd
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_bd.tr_line_P_net_vat
+msgid "Purchases VAT Paid (Recoverable)"
+msgstr "Purchases VAT Paid (Recoverable)（技术名称）"
+
+#. module: l10n_bd
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_bd.tr_line_P_0
+msgid "Purchases at 0% VAT"
+msgstr "Purchases at 0% VAT（技术名称）"
+
+#. module: l10n_bd
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_bd.tr_line_P_10
+msgid "Purchases at 10% VAT"
+msgstr "Purchases at 10% VAT（技术名称）"
+
+#. module: l10n_bd
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_bd.tr_line_P_15
+msgid "Purchases at 15% VAT"
+msgstr "Purchases at 15% VAT（技术名称）"
+
+#. module: l10n_bd
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_bd.tr_line_P_2
+msgid "Purchases at 2% VAT"
+msgstr "Purchases at 2% VAT（技术名称）"
+
+#. module: l10n_bd
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_bd.tr_line_P_45
+msgid "Purchases at 4.5% VAT"
+msgstr "Purchases at 4.5% VAT（技术名称）"
+
+#. module: l10n_bd
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_bd.tr_line_P_5
+msgid "Purchases at 5% VAT"
+msgstr "Purchases at 5% VAT（技术名称）"
+
+#. module: l10n_bd
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_bd.tr_line_P_75
+msgid "Purchases at 7.5% VAT"
+msgstr "Purchases at 7.5% VAT（技术名称）"
+
+#. module: l10n_bd
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_bd.tr_title_sales_vat
+msgid "Sales Taxes"
+msgstr "销售税"
+
+#. module: l10n_bd
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_bd.tr_line_S_net_vat
+msgid "Sales VAT Received (Payable)"
+msgstr "销售 VAT 已接收 (Payable)"
+
+#. module: l10n_bd
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_bd.tr_line_S_0
+msgid "Sales at 0% VAT"
+msgstr "销售 at 0% VAT"
+
+#. module: l10n_bd
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_bd.tr_line_S_10
+msgid "Sales at 10% VAT"
+msgstr "销售 at 10% VAT"
+
+#. module: l10n_bd
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_bd.tr_line_S_15
+msgid "Sales at 15% VAT"
+msgstr "销售 at 15% VAT"
+
+#. module: l10n_bd
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_bd.tr_line_S_2
+msgid "Sales at 2% VAT"
+msgstr "销售 at 2% VAT"
+
+#. module: l10n_bd
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_bd.tr_line_S_45
+msgid "Sales at 4.5% VAT"
+msgstr "销售 at 4.5% VAT"
+
+#. module: l10n_bd
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_bd.tr_line_S_5
+msgid "Sales at 5% VAT"
+msgstr "销售 at 5% VAT"
+
+#. module: l10n_bd
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.line,name:l10n_bd.tr_line_S_75
+msgid "Sales at 7.5% VAT"
+msgstr "销售 at 7.5% VAT"
+
+#. module: l10n_bd
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report.column,name:l10n_bd.tr_column_tax
+msgid "Tax Amount"
+msgstr "税 金额"
+
+#. module: l10n_bd
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:account.report,name:l10n_bd.tr_form
+msgid "Tax Report"
+msgstr "税务报表"

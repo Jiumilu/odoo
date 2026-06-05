@@ -12,8 +12,7 @@ msgstr ""
 "POT-Creation-Date: 2026-05-29 17:36+0000\n"
 "PO-Revision-Date: 2026-04-09 11:32+0000\n"
 "Last-Translator: \"Chloe Wang (chwa)\" <chwa@odoo.com>\n"
-"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
-"projects/odoo-19/account_peppol/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/projects/odoo-19/account_peppol/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,7 +36,7 @@ msgstr " (示例)"
 #. odoo-python
 #: code:addons/account_peppol/wizard/account_move_send_wizard.py:0
 msgid " (Missing %(eas)s)"
-msgstr ""
+msgstr "(Missing %(eas)s)（技术名称）"
 
 #. module: account_peppol
 #. odoo-python
@@ -61,7 +60,7 @@ msgstr " （无法访问）"
 #. odoo-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid " Expected format: %(expected_format)s."
-msgstr ""
+msgstr "Expected format: %(expected_format)s.（技术名称）"
 
 #. module: account_peppol
 #. odoo-python
@@ -78,25 +77,22 @@ msgstr "%s 要求通过 Peppol 接收电子发票。"
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid "<b>Authentify with itsme</b>"
-msgstr ""
+msgstr "<b>Authentify with itsme</b>（技术名称）"
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid ""
 "<br/>\n"
-"                                In Belgium, electronic invoicing is "
-"<u>mandatory as of January 2026</u> - don't wait to register."
+"                                In Belgium, electronic invoicing is <u>mandatory as of January 2026</u> - don't wait to register."
 msgstr ""
 "<br/>\n"
-"                                比利时<u>自 2026 年 1 月起强制使用电子发票</"
-"u>，请立即注册。"
+"                                比利时<u>自 2026 年 1 月起强制使用电子发票</u>，请立即注册。"
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid ""
 "<br/>\n"
-"                            But you are receiving your e-invoices via this "
-"Access Point:"
+"                            But you are receiving your e-invoices via this Access Point:"
 msgstr ""
 "<br/>\n"
 "                            但您通过该接入点接收电子发票："
@@ -104,59 +100,41 @@ msgstr ""
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid "<span><strong>Disconnected from Peppol!</strong></span>"
-msgstr ""
+msgstr "<span><strong>Disconnected 从 Peppol!</strong></span>"
 
 #. module: account_peppol
 #: model:mail.template,body_html:account_peppol.mail_template_peppol_registration
 msgid ""
-"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: "
-"16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; "
-"color: #454748; width: 100%; border-collapse:separate;\">\n"
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\">\n"
 "    <tr>\n"
 "        <td align=\"center\">\n"
-"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" "
-"width=\"590\" style=\"padding: 16px; background-color: white; color: "
-"#454748; border-collapse:separate;\">\n"
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\">\n"
 "                <!-- HEADER -->\n"
 "                <tr>\n"
 "                    <td align=\"center\" style=\"min-width: 590px;\">\n"
-"                        <table width=\"590\" cellpadding=\"0\" "
-"cellspacing=\"0\" style=\"padding: 0px 8px; background-color: white; border-"
-"collapse:separate;\">\n"
+"                        <table width=\"590\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding: 0px 8px; background-color: white; border-collapse:separate;\">\n"
 "                            <tr>\n"
 "                                <td valign=\"middle\">\n"
-"                                    <span style=\"font-size: 10px;"
-"\">Notification</span>\n"
+"                                    <span style=\"font-size: 10px;\">Notification</span>\n"
 "                                    <br/>\n"
-"                                    <span style=\"font-size: 20px; font-"
-"weight: bold;\">\n"
+"                                    <span style=\"font-size: 20px; font-weight: bold;\">\n"
 "                                        Welcome to Peppol\n"
 "                                    </span>\n"
-"                                    <div style=\"margin-bottom: 5px; margin-"
-"top: 18px;\">\n"
-"                                        <a t-attf-href=\"/odoo/accounting/\" "
-"target=\"_blank\" t-attf-style=\"padding: 8px 12px; font-size: 12px; color: "
-"{{ object.email_primary_color or '#FFFFFF' }}; text-decoration: none !"
-"important; font-weight: 400; background-color: "
-"{{ object.email_secondary_color or '#875A7B' }}; border-radius:3px\">\n"
+"                                    <div style=\"margin-bottom: 5px; margin-top: 18px;\">\n"
+"                                        <a t-attf-href=\"/odoo/accounting/\" target=\"_blank\" t-attf-style=\"padding: 8px 12px; font-size: 12px; color: {{ object.email_primary_color or '#FFFFFF' }}; text-decoration: none !important; font-weight: 400; background-color: {{ object.email_secondary_color or '#875A7B' }}; border-radius:3px\">\n"
 "                                            Send invoices\n"
 "                                        </a>\n"
 "                                    </div>\n"
 "                                </td>\n"
 "                                <td valign=\"middle\" align=\"right\">\n"
-"                                    <t t-if=\"not "
-"object.uses_default_logo\">\n"
-"                                        <img t-att-src=\"'/logo.png?"
-"company=%s' % object.id\" style=\"height: auto; width: 80px; margin-right: "
-"10px;\" t-att-alt=\"'%s' % object.name\"/>\n"
+"                                    <t t-if=\"not object.uses_default_logo\">\n"
+"                                        <img t-att-src=\"'/logo.png?company=%s' % object.id\" style=\"height: auto; width: 80px; margin-right: 10px;\" t-att-alt=\"'%s' % object.name\"/>\n"
 "                                    </t>\n"
 "                                </td>\n"
 "                            </tr>\n"
 "                            <tr>\n"
-"                                <td colspan=\"2\" style=\"text-align:center;"
-"\">\n"
-"                                    <hr style=\"background-color:#CCCCCC; "
-"border:none; height:1px; margin:16px 0;\"/>\n"
+"                                <td colspan=\"2\" style=\"text-align:center;\">\n"
+"                                    <hr style=\"background-color:#CCCCCC; border:none; height:1px; margin:16px 0;\"/>\n"
 "                                </td>\n"
 "                            </tr>\n"
 "                        </table>\n"
@@ -165,25 +143,18 @@ msgid ""
 "                <!-- BODY -->\n"
 "                <tr>\n"
 "                    <td align=\"center\">\n"
-"                        <table width=\"590\" cellpadding=\"0\" "
-"cellspacing=\"0\" style=\"padding: 0px 8px; background-color: white; border-"
-"collapse:separate;\">\n"
+"                        <table width=\"590\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding: 0px 8px; background-color: white; border-collapse:separate;\">\n"
 "                            <tr>\n"
 "                                <td style=\"font-size: 14px;\">\n"
-"                                    <p>Dear <t t-out=\"object.name or "
-"''\">YourCompany</t>,</p>\n"
+"                                    <p>Dear <t t-out=\"object.name or ''\">YourCompany</t>,</p>\n"
 "\n"
-"                                    <p>We have successfully added your "
-"company to the <strong>Peppol Network</strong>.</p>\n"
+"                                    <p>We have successfully added your company to the <strong>Peppol Network</strong>.</p>\n"
 "\n"
-"                                    <p>You can now <strong>send<t t-"
-"if=\"object.account_peppol_proxy_state == 'receiver'\"> and receive</t></"
-"strong> electronic invoices via Odoo — completely free of charge.</p>\n"
+"                                    <p>You can now <strong>send<t t-if=\"object.account_peppol_proxy_state == 'receiver'\"> and receive</t></strong> electronic invoices via Odoo — completely free of charge.</p>\n"
 "\n"
 "                                    <p>Best regards,</p>\n"
 "\n"
-"                                    <p style=\"margin-bottom: 24px;\">The "
-"Odoo Team</p>\n"
+"                                    <p style=\"margin-bottom: 24px;\">The Odoo Team</p>\n"
 "                                </td>\n"
 "                            </tr>\n"
 "                        </table>\n"
@@ -195,54 +166,36 @@ msgid ""
 "</table>\n"
 "            "
 msgstr ""
-"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: "
-"16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; "
-"color: #454748; width: 100%; border-collapse:separate;\">\n"
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\">\n"
 "    <tr>\n"
 "        <td align=\"center\">\n"
-"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" "
-"width=\"590\" style=\"padding: 16px; background-color: white; color: "
-"#454748; border-collapse:separate;\">\n"
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\">\n"
 "                <!-- HEADER -->\n"
 "                <tr>\n"
 "                    <td align=\"center\" style=\"min-width: 590px;\">\n"
-"                        <table width=\"590\" cellpadding=\"0\" "
-"cellspacing=\"0\" style=\"padding: 0px 8px; background-color: white; border-"
-"collapse:separate;\">\n"
+"                        <table width=\"590\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding: 0px 8px; background-color: white; border-collapse:separate;\">\n"
 "                            <tr>\n"
 "                                <td valign=\"middle\">\n"
-"                                    <span style=\"font-size: 10px;\">通知</"
-"span>\n"
+"                                    <span style=\"font-size: 10px;\">通知</span>\n"
 "                                    <br/>\n"
-"                                    <span style=\"font-size: 20px; font-"
-"weight: bold;\">\n"
+"                                    <span style=\"font-size: 20px; font-weight: bold;\">\n"
 "                                        欢迎来到 Peppol\n"
 "                                    </span>\n"
-"                                    <div style=\"margin-bottom: 5px; margin-"
-"top: 18px;\">\n"
-"                                        <a t-attf-href=\"/odoo/accounting/\" "
-"target=\"_blank\" t-attf-style=\"padding: 8px 12px; font-size: 12px; color: "
-"{{ object.email_primary_color or '#FFFFFF' }}; text-decoration: none !"
-"important; font-weight: 400; background-color: "
-"{{ object.email_secondary_color or '#875A7B' }}; border-radius:3px\">\n"
+"                                    <div style=\"margin-bottom: 5px; margin-top: 18px;\">\n"
+"                                        <a t-attf-href=\"/odoo/accounting/\" target=\"_blank\" t-attf-style=\"padding: 8px 12px; font-size: 12px; color: {{ object.email_primary_color or '#FFFFFF' }}; text-decoration: none !important; font-weight: 400; background-color: {{ object.email_secondary_color or '#875A7B' }}; border-radius:3px\">\n"
 "                                            发送发票\n"
 "                                        </a>\n"
 "                                    </div>\n"
 "                                </td>\n"
 "                                <td valign=\"middle\" align=\"right\">\n"
-"                                    <t t-if=\"not "
-"object.uses_default_logo\">\n"
-"                                        <img t-att-src=\"'/logo.png?"
-"company=%s' % object.id\" style=\"height: auto; width: 80px; margin-right: "
-"10px;\" t-att-alt=\"'%s' % object.name\"/>\n"
+"                                    <t t-if=\"not object.uses_default_logo\">\n"
+"                                        <img t-att-src=\"'/logo.png?company=%s' % object.id\" style=\"height: auto; width: 80px; margin-right: 10px;\" t-att-alt=\"'%s' % object.name\"/>\n"
 "                                    </t>\n"
 "                                </td>\n"
 "                            </tr>\n"
 "                            <tr>\n"
-"                                <td colspan=\"2\" style=\"text-align:center;"
-"\">\n"
-"                                    <hr style=\"background-color:#CCCCCC; "
-"border:none; height:1px; margin:16px 0;\"/>\n"
+"                                <td colspan=\"2\" style=\"text-align:center;\">\n"
+"                                    <hr style=\"background-color:#CCCCCC; border:none; height:1px; margin:16px 0;\"/>\n"
 "                                </td>\n"
 "                            </tr>\n"
 "                        </table>\n"
@@ -251,25 +204,18 @@ msgstr ""
 "                <!-- BODY -->\n"
 "                <tr>\n"
 "                    <td align=\"center\">\n"
-"                        <table width=\"590\" cellpadding=\"0\" "
-"cellspacing=\"0\" style=\"padding: 0px 8px; background-color: white; border-"
-"collapse:separate;\">\n"
+"                        <table width=\"590\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding: 0px 8px; background-color: white; border-collapse:separate;\">\n"
 "                            <tr>\n"
 "                                <td style=\"font-size: 14px;\">\n"
-"                                    <p>亲爱的 <t t-out=\"object.name or "
-"''\">YourCompany</t>，</p>\n"
+"                                    <p>亲爱的 <t t-out=\"object.name or ''\">YourCompany</t>，</p>\n"
 "\n"
-"                                    <p>我们已成功地将您的公司添加到 "
-"<strong>Peppol Network</strong>。</p>\n"
+"                                    <p>我们已成功地将您的公司添加到 <strong>Peppol Network</strong>。</p>\n"
 "\n"
-"                                    <p>您现在可以通过 Odoo<strong>发送<t t-"
-"if=\"object.account_peppol_proxy_state == 'receiver'\"> 和接收</t></strong> "
-"电子发票，完全免费。</p>\n"
+"                                    <p>您现在可以通过 绿色供应链公共服务平台<strong>发送<t t-if=\"object.account_peppol_proxy_state == 'receiver'\"> 和接收</t></strong> 电子发票，完全免费。</p>\n"
 "\n"
 "                                    <p>祝好，</p>\n"
 "\n"
-"                                    <p style=\"margin-bottom: 24px;\">Odoo 团"
-"队</p>\n"
+"                                    <p style=\"margin-bottom: 24px;\">绿色供应链公共服务平台 团队</p>\n"
 "                                </td>\n"
 "                            </tr>\n"
 "                        </table>\n"
@@ -289,9 +235,7 @@ msgid ""
 "MSH generating this error, but the content does not match the message "
 "content (e.g. some part has not been acknowledged, or the digest associated "
 "does not match the signature digest, for NRR)."
-msgstr ""
-"已收到产生此错误的 MSH 之前发送的报文的收据，但内容与报文内容不符（例如，某些"
-"部分未确认，或相关摘要与 NRR 的签名摘要不符）。"
+msgstr "已收到产生此错误的 MSH 之前发送的报文的收据，但内容与报文内容不符（例如，某些部分未确认，或相关摘要与 NRR 的签名摘要不符）。"
 
 #. module: account_peppol
 #. odoo-python
@@ -344,11 +288,9 @@ msgstr "由于捆绑消息中相关消息单元出错，导致该消息单元未
 #. odoo-python
 #: code:addons/account_peppol/models/res_company.py:0
 msgid ""
-"A participant with these details has already been registered on the network. "
-"If you have previously registered to a Peppol service, please deregister."
-msgstr ""
-"已存在使用该详细信息的参与者在网络上注册。如果您曾注册过 Peppol 服务，请先注"
-"销。"
+"A participant with these details has already been registered on the network."
+" If you have previously registered to a Peppol service, please deregister."
+msgstr "已存在使用该详细信息的参与者在网络上注册。如果您曾注册过 Peppol 服务，请先注销。"
 
 #. module: account_peppol
 #. odoo-python
@@ -445,22 +387,22 @@ msgstr "激活 Peppol（测试）"
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_config_wizard__peppol_activate_self_billing
 msgid "Activate self-billing"
-msgstr ""
+msgstr "Activate self-billing（技术名称）"
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_res_company__peppol_activate_self_billing_sending
 msgid "Activate self-billing sending"
-msgstr ""
+msgstr "Activate self-billing sending（技术名称）"
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__active_parent_company
 msgid "Active Parent Company"
-msgstr ""
+msgstr "启用 Parent 公司"
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__active_parent_company_name
 msgid "Active Parent Company Name"
-msgstr ""
+msgstr "启用 Parent 公司 名称"
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
@@ -476,35 +418,29 @@ msgstr "允许通过 Peppol 网络发送和接收发票"
 #. odoo-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
-"Although the message document is well formed and schema valid, some element/"
-"attribute contains a value that could not be recognized and therefore could "
-"not be used by the MSH."
-msgstr ""
-"虽然消息文档格式良好且符合模式，但某些元素/属性包含无法识别的值，因此无法被 "
-"MSH 使用。"
+"Although the message document is well formed and schema valid, some "
+"element/attribute contains a value that could not be recognized and "
+"therefore could not be used by the MSH."
+msgstr "虽然消息文档格式良好且符合模式，但某些元素/属性包含无法识别的值，因此无法被 MSH 使用。"
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
-"Although the message document is well formed and schema valid, some element/"
-"attribute value cannot be processed as expected because the related feature "
-"is not supported by the MSH."
-msgstr ""
-"虽然消息文档格式良好且符合模式，但由于 MSH 不支持相关功能，某些元素/属性值无"
-"法按预期处理。"
+"Although the message document is well formed and schema valid, some "
+"element/attribute value cannot be processed as expected because the related "
+"feature is not supported by the MSH."
+msgstr "虽然消息文档格式良好且符合模式，但由于 MSH 不支持相关功能，某些元素/属性值无法按预期处理。"
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
-"Although the message document is well formed and schema valid, some element/"
-"attribute value is inconsistent either with the content of other element/"
-"attribute, or with the processing mode of the MSH, or with the normative "
-"requirements of the ebMS specification."
-msgstr ""
-"虽然消息文档格式良好且符合模式，但某些元素/属性值与其他元素/属性内容、MSH 处"
-"理模式或 ebMS 规范要求不一致。"
+"Although the message document is well formed and schema valid, some "
+"element/attribute value is inconsistent either with the content of other "
+"element/attribute, or with the processing mode of the MSH, or with the "
+"normative requirements of the ebMS specification."
+msgstr "虽然消息文档格式良好且符合模式，但某些元素/属性值与其他元素/属性内容、MSH 处理模式或 ebMS 规范要求不一致。"
 
 #. module: account_peppol
 #. odoo-python
@@ -513,9 +449,7 @@ msgid ""
 "Although the message document is well formed and schema valid, the presence "
 "or absence of some element/ attribute is not consistent with the capability "
 "of the MSH, with respect to supported features."
-msgstr ""
-"虽然报文文档格式良好，模式有效，但就支持的功能而言，某些元素/属性的存在或不存"
-"在与 MSH 的能力不符。"
+msgstr "虽然报文文档格式良好，模式有效，但就支持的功能而言，某些元素/属性的存在或不存在与 MSH 的能力不符。"
 
 #. module: account_peppol
 #. odoo-python
@@ -524,9 +458,7 @@ msgid ""
 "Although the message was sent under Guaranteed delivery requirement, the "
 "Reliability module could not get assurance that the message was properly "
 "delivered, in spite of resending efforts."
-msgstr ""
-"尽管信息是按照 “保证送达” 的要求发送的，但可靠性模块仍无法保证信息已被正确送"
-"达，尽管已做出了重新发送的努力。"
+msgstr "尽管信息是按照 “保证送达” 的要求发送的，但可靠性模块仍无法保证信息已被正确送达，尽管已做出了重新发送的努力。"
 
 #. module: account_peppol
 #. odoo-python
@@ -551,9 +483,7 @@ msgid ""
 "An entry in the routing function is matched that assigns the message to an "
 "MPC for pulling, but the intermediary MSH is unable to store the message "
 "with this MPC"
-msgstr ""
-"路由功能中的条目已匹配，将报文分配给一个 MPC 拉取，但中间 MSH 无法将报文存储"
-"在该 MPC 中"
+msgstr "路由功能中的条目已匹配，将报文分配给一个 MPC 拉取，但中间 MSH 无法将报文存储在该 MPC 中"
 
 #. module: account_peppol
 #. odoo-python
@@ -583,9 +513,7 @@ msgid ""
 "successfully stored it. However the intermediary set a limit on the time it "
 "was prepared to wait for the message to be pulled, and that limit has been "
 "reached."
-msgstr ""
-"中间 MSH 已将报文分配给 MPC 提取并成功存储。但是，中间人对等待提取报文的时间"
-"设定了限制，而该限制已经达到。"
+msgstr "中间 MSH 已将报文分配给 MPC 提取并成功存储。但是，中间人对等待提取报文的时间设定了限制，而该限制已经达到。"
 
 #. module: account_peppol
 #. odoo-python
@@ -600,18 +528,20 @@ msgid ""
 "Any self-billed invoices / credit notes received via Peppol will be created "
 "in draft in this journal. Defaults to the first sale journal."
 msgstr ""
+"Any self-billed 发票 / 贷项通知单s 已接收 via Peppol will be created in 草稿 in this "
+"日记账. Defaults to the first 销售 日记账."
 
 #. module: account_peppol
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/peppol_auth/peppol_auth_service.js:0
 msgid "Authentication failed"
-msgstr ""
+msgstr "Authentication 失败"
 
 #. module: account_peppol
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/peppol_auth/peppol_auth_service.js:0
 msgid "Authentication successful"
-msgstr ""
+msgstr "Authentication successful（技术名称）"
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_res_partner__available_peppol_edi_formats
@@ -628,17 +558,17 @@ msgstr "可用的 Peppol 发送方法"
 #. module: account_peppol
 #: model:ir.model,name:account_peppol.model_account_edi_ubl
 msgid "Base helpers for UBL"
-msgstr ""
+msgstr "Base helpers for UBL（技术名称）"
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid "By clicking the button below:"
-msgstr ""
+msgstr "By clicking the button below:（技术名称）"
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__can_use_parent_connection
 msgid "Can Use Parent Connection"
-msgstr ""
+msgstr "Can Use Parent 连接"
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_company__account_peppol_proxy_state__receiver
@@ -692,12 +622,10 @@ msgstr "检查合作伙伴"
 #: model:ir.model.fields,help:account_peppol.field_res_users__peppol_eas
 msgid ""
 "Code used to identify the Endpoint for BIS Billing 3.0 and its derivatives.\n"
-"             List available at https://docs.peppol.eu/poacc/billing/3.0/"
-"codelist/eas/"
+"             List available at https://docs.peppol.eu/poacc/billing/3.0/codelist/eas/"
 msgstr ""
 "用于识别 BIS Billing 3.0 及其衍生版本的端点的代码。\n"
-"             列表可从 https://docs.peppol.eu/poacc/billing/3.0/codelist/eas/ "
-"获取。"
+"             列表可从 https://docs.peppol.eu/poacc/billing/3.0/codelist/eas/ 获取。"
 
 #. module: account_peppol
 #: model:ir.model,name:account_peppol.model_account_edi_common
@@ -751,7 +679,7 @@ msgstr "需要提供联络电子邮箱和电话号码。"
 #. odoo-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "Could not connect to Proxy Server."
-msgstr ""
+msgstr "Could not connect to Proxy Server.（技术名称）"
 
 #. module: account_peppol
 #. odoo-python
@@ -805,7 +733,7 @@ msgstr "演示"
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_config_wizard_form
 msgid "Disable the reception."
-msgstr ""
+msgstr "Disable the reception.（技术名称）"
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_config_wizard_form
@@ -820,23 +748,23 @@ msgstr "中断连接"
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid "Disconnect Peppol"
-msgstr ""
+msgstr "Disconnect Peppol（技术名称）"
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid "Disconnect this database"
-msgstr ""
+msgstr "Disconnect this database（技术名称）"
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/models/res_config_settings.py:0
 msgid "Disconnected this branch company peppol configuration from %s."
-msgstr ""
+msgstr "Disconnected this branch 公司 peppol 配置 从 %s."
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__display_itsme_login
 msgid "Display Itsme Login"
-msgstr ""
+msgstr "显示 Itsme Login"
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_account_edi_common__display_name
@@ -860,12 +788,12 @@ msgstr "显示名称"
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__display_no_auth_buttons
 msgid "Display No Auth Buttons"
-msgstr ""
+msgstr "显示 否 Auth Buttons"
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__display_use_parent_connection_selection
 msgid "Display Use Parent Connection Selection"
-msgstr ""
+msgstr "显示 Use Parent 连接 Selection"
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service__document_identifier
@@ -923,7 +851,7 @@ msgstr "电子邮件"
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_config_wizard_form
 msgid "Enable reception"
-msgstr ""
+msgstr "启用 reception"
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service__enabled
@@ -945,7 +873,7 @@ msgstr "创建 EDI 文档时出现错误（格式：%s）："
 #. odoo-python
 #: code:addons/account_peppol/tools/peppol_iap_connector.py:0
 msgid "Failed to connect to Odoo Peppol Proxy."
-msgstr ""
+msgstr "失败 to connect to 绿色供应链公共服务平台 Peppol Proxy."
 
 #. module: account_peppol
 #. odoo-python
@@ -953,15 +881,18 @@ msgstr ""
 msgid ""
 "Failed to connect to Peppol Access Point. This might happen if you restored "
 "a database from a backup or copied it without neutralization. To fix this, "
-"please go to Settings > Accounting > Peppol Settings and click on 'Reconnect "
-"this database'."
+"please go to Settings > Accounting > Peppol Settings and click on 'Reconnect"
+" this database'."
 msgstr ""
+"失败 to connect to Peppol 访问 Point. This might happen if you restored a "
+"database 从 a backup or copied it without neutralization. To fix this, please"
+" go to 设置 > Accounting > Peppol 设置 and click on 'Reconnect this database'."
 
 #. module: account_peppol
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid "Free on Odoo"
-msgstr "在 Odoo 上免费"
+msgstr "在 绿色供应链公共服务平台 上免费"
 
 #. module: account_peppol
 #. odoo-javascript
@@ -978,12 +909,12 @@ msgstr "知道了！"
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid "I accept that Odoo may process my e-invoices,"
-msgstr ""
+msgstr "I accept that 绿色供应链公共服务平台 may process my 电子发票s,"
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid "I reckon I'm allowed to register this company."
-msgstr ""
+msgstr "I reckon I'm allowed to 登记 this 公司."
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_account_edi_common__id
@@ -1011,6 +942,9 @@ msgid ""
 "Peppol.You can still disable reception by disabling the self-billing "
 "document types below."
 msgstr ""
+"If activated, you will be able to 发送 and receive self-billed 发票 via "
+"Peppol.You can still disable reception by disabling the self-billing 单据类型 "
+"below."
 
 #. module: account_peppol
 #: model:ir.model.fields,help:account_peppol.field_res_company__peppol_activate_self_billing_sending
@@ -1018,28 +952,30 @@ msgid ""
 "If activated, you will be able to send vendor bills as self-billed invoices "
 "via Peppol."
 msgstr ""
+"If activated, you will be able to 发送 供应商账单s as self-billed 发票 via Peppol."
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid "If you don't have Itsme, please contact"
-msgstr ""
+msgstr "If you don't have Itsme, please 联系人"
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/controllers/portal.py:0
-msgid "If you want to be invoiced by Peppol, your configuration must be valid."
+msgid ""
+"If you want to be invoiced by Peppol, your configuration must be valid."
 msgstr "如果您希望由 Peppol 开具发票，您的配置必须有效。"
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid "Incoming Accounting Journal"
-msgstr ""
+msgstr "传入 Accounting 日记账"
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "Invoice %s is too big to send via peppol (64MB limit)"
-msgstr ""
+msgstr "发票 %s is too big to 发送 via peppol (64MB limit)"
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_res_partner__invoice_sending_method
@@ -1050,12 +986,12 @@ msgstr "传送发票"
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__is_branch_company
 msgid "Is Branch Company"
-msgstr ""
+msgstr "Is Branch 公司"
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid "Itsme"
-msgstr ""
+msgstr "Itsme（技术名称）"
 
 #. module: account_peppol
 #: model:ir.model.fields,help:account_peppol.field_peppol_config_wizard__service_json
@@ -1155,18 +1091,18 @@ msgstr "Peppol 注册状态更新的通知邮件"
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid "Odoo"
-msgstr "Odoo"
+msgstr "绿色供应链公共服务平台"
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_partner__peppol_eas__odemo
 msgid "Odoo Demo ID"
-msgstr ""
+msgstr "绿色供应链公共服务平台 Demo ID"
 
 #. module: account_peppol
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid "Odoo keeps you up to date with the new regulation."
-msgstr "Odoo 让您及时了解新规定。"
+msgstr "绿色供应链公共服务平台 让您及时了解新规定。"
 
 #. module: account_peppol
 #. odoo-python
@@ -1190,7 +1126,8 @@ msgstr "PEPPOL 可完全自动化发送和接收电子发票。"
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid ""
-"PEPPOL is the secure standard for e-invoices used in EU and across the world."
+"PEPPOL is the secure standard for e-invoices used in EU and across the "
+"world."
 msgstr "PEPPOL 是欧盟和世界各地使用的电子发票的安全标准。"
 
 #. module: account_peppol
@@ -1233,12 +1170,12 @@ msgstr "PEPPOL：Webhook 保持活动"
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__parent_company_id
 msgid "Parent Company"
-msgstr ""
+msgstr "上级公司"
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_partner__peppol_verification_state__not_valid_format
 msgid "Partner cannot receive format"
-msgstr ""
+msgstr "业务伙伴 cannot receive format"
 
 #. module: account_peppol
 #. odoo-python
@@ -1249,12 +1186,12 @@ msgstr "合作伙伴没有有效的 Peppol 配置。"
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_partner__peppol_verification_state__not_valid
 msgid "Partner is not on Peppol"
-msgstr ""
+msgstr "业务伙伴 is not on Peppol"
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_partner__peppol_verification_state__valid
 msgid "Partner is on Peppol"
-msgstr ""
+msgstr "业务伙伴 is on Peppol"
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__account_move__peppol_move_state__processing
@@ -1270,12 +1207,12 @@ msgstr "应提供 Peppol 地址。"
 #. module: account_peppol
 #: model:ir.actions.client,name:account_peppol.action_peppol_auth_callback
 msgid "Peppol Auth Callback action"
-msgstr ""
+msgstr "Peppol Auth Callback 操作"
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__peppol_can_connect_data
 msgid "Peppol Can Connect Data"
-msgstr ""
+msgstr "Peppol Can Connect Data（技术名称）"
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_res_company__peppol_can_send
@@ -1290,7 +1227,7 @@ msgstr "Peppol 配置向导"
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid "Peppol Contact Email"
-msgstr ""
+msgstr "Peppol 联系人 电子邮件"
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__peppol_endpoint
@@ -1326,34 +1263,34 @@ msgstr "Peppol ID"
 #. odoo-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "Peppol ID should be different from main company."
-msgstr ""
+msgstr "Peppol ID should be different 从 main 公司."
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_account_bank_statement_line__peppol_is_sent
 #: model:ir.model.fields,field_description:account_peppol.field_account_move__peppol_is_sent
 msgid "Peppol Is Sent"
-msgstr ""
+msgstr "Peppol Is 已发送"
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_res_company__peppol_metadata
 msgid "Peppol Metadata"
-msgstr ""
+msgstr "Peppol Metadata（技术名称）"
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_res_company__peppol_parent_company_id
 msgid "Peppol Parent Company"
-msgstr ""
+msgstr "Peppol Parent 公司"
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_res_config_settings__peppol_parent_company_name
 msgid "Peppol Parent Company Name"
-msgstr ""
+msgstr "Peppol Parent 公司 名称"
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_res_config_settings__peppol_participation_role
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid "Peppol Participation Role"
-msgstr ""
+msgstr "Peppol Participation Role（技术名称）"
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_res_company__peppol_purchase_journal_id
@@ -1379,13 +1316,13 @@ msgstr "Peppol 服务"
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_res_config_settings__peppol_use_parent_company
 msgid "Peppol Use Parent Company"
-msgstr ""
+msgstr "Peppol Use Parent 公司"
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/models/account_edi_common.py:0
 msgid "Peppol document UUID: %s"
-msgstr ""
+msgstr "Peppol 单据 UUID: %s"
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.portal_my_details
@@ -1405,12 +1342,12 @@ msgstr "Peppol电子地址（EAS）"
 #. odoo-python
 #: code:addons/account_peppol/models/account_edi_common.py:0
 msgid "Peppol invoice received"
-msgstr ""
+msgstr "Peppol 发票 已接收"
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_res_company__peppol_metadata_updated_at
 msgid "Peppol meta updated at"
-msgstr ""
+msgstr "Peppol meta 已更新 at"
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_res_partner__peppol_verification_state
@@ -1447,6 +1384,8 @@ msgid ""
 "Please enter the mobile number in the correct international format.\n"
 "For example: +32123456789, where +32 is the country code."
 msgstr ""
+"Please enter the 手机 编号 in the correct international format. For example: "
+"+32123456789, where +32 is the 国家/地区 代码."
 
 #. module: account_peppol
 #. odoo-python
@@ -1464,7 +1403,7 @@ msgstr "请安装 phonenumbers 库."
 #. odoo-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "Please select a country for your company."
-msgstr ""
+msgstr "Please select a 国家/地区 for your 公司."
 
 #. module: account_peppol
 #. odoo-python
@@ -1483,11 +1422,12 @@ msgstr "主要联系邮箱"
 #: model:ir.model.fields,help:account_peppol.field_peppol_registration__contact_email
 #: model:ir.model.fields,help:account_peppol.field_res_company__account_peppol_contact_email
 msgid ""
-"Primary contact email for Peppol connection related communications and "
-"notifications.\n"
-"In particular, this email is used by Odoo to reconnect your Peppol account "
-"in case of database change."
+"Primary contact email for Peppol connection related communications and notifications.\n"
+"In particular, this email is used by Odoo to reconnect your Peppol account in case of database change."
 msgstr ""
+"Primary 联系人 电子邮件 for Peppol 连接 相关 communications and notifications. In "
+"particular, this 电子邮件 is used by 绿色供应链公共服务平台 to reconnect your Peppol 账户 in "
+"case of database change."
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_account_edi_proxy_client_user__proxy_type
@@ -1500,7 +1440,7 @@ msgstr "代理类型"
 msgid ""
 "Proxy error, please contact Odoo (missing \"%s\" - please make sure that it "
 "was loaded from the configuration panel)"
-msgstr "代理错误，请联系 Odoo（缺少“%s” - 请确保已从配置面板加载）"
+msgstr "代理错误，请联系 绿色供应链公共服务平台（缺少“%s” - 请确保已从配置面板加载）"
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__account_move__peppol_move_state__to_send
@@ -1515,12 +1455,12 @@ msgstr "准备发送"
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_config_wizard_form
 msgid "Receive your electronic invoices in Odoo"
-msgstr "在 Odoo 接收电子发票"
+msgstr "在 绿色供应链公共服务平台 接收电子发票"
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid "Reconnect this database"
-msgstr ""
+msgstr "Reconnect this database（技术名称）"
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__smp_registration
@@ -1530,12 +1470,12 @@ msgstr "注册成为接收方"
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__peppol_registration__use_parent_connection_selection__use_self
 msgid "Register this company on peppol"
-msgstr ""
+msgstr "登记 this 公司 on peppol"
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid "Register with Odoo"
-msgstr "注册使用 Odoo"
+msgstr "注册使用 绿色供应链公共服务平台"
 
 #. module: account_peppol
 #. odoo-python
@@ -1567,13 +1507,13 @@ msgstr "保存"
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__selected_company_id
 msgid "Selected Company"
-msgstr ""
+msgstr "Selected 公司"
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "Selected authentication method is not available."
-msgstr ""
+msgstr "Selected authentication 方式 is not 可用."
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_config_wizard_form
@@ -1584,7 +1524,7 @@ msgstr "自助开票"
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_config_wizard__peppol_self_billing_reception_journal_id
 #: model:ir.model.fields,field_description:account_peppol.field_res_company__peppol_self_billing_reception_journal_id
 msgid "Self-Billing reception journal"
-msgstr ""
+msgstr "Self-Billing reception 日记账"
 
 #. module: account_peppol
 #. odoo-python
@@ -1595,22 +1535,22 @@ msgstr "发送"
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid "Send electronic invoices, and receive bills automatically via Peppol."
-msgstr ""
+msgstr "发送 电子发票s, and receive bills automatically via Peppol."
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__peppol_registration__use_parent_connection_selection__use_parent
 msgid "Send from parent company"
-msgstr ""
+msgstr "发送 从 parent 公司"
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_config_settings__peppol_participation_role__sending_and_receiving
 msgid "Sending & Receiving"
-msgstr ""
+msgstr "Sending & Receiving（技术名称）"
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_config_settings__peppol_participation_role__sending_only
 msgid "Sending Only"
-msgstr ""
+msgstr "Sending Only（技术名称）"
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_config_wizard__service_ids
@@ -1636,7 +1576,7 @@ msgstr "忽略"
 #. odoo-python
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "Some attachments could not be sent with the XML:"
-msgstr ""
+msgstr "Some attachments could not be 已发送 with the XML:"
 
 #. module: account_peppol
 #. odoo-python
@@ -1645,17 +1585,17 @@ msgid ""
 "Some reliability function as implemented by the Reliability module, is not "
 "operational, or the reliability state associated with this message sequence "
 "is not valid."
-msgstr ""
-"可靠性模块实现的某些可靠性功能未运行，或与此消息序列关联的可靠性状态无效。"
+msgstr "可靠性模块实现的某些可靠性功能未运行，或与此消息序列关联的可靠性状态无效。"
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_config_wizard_form
 msgid ""
-"Some service support migration keys. If this is your case you can enter your "
-"migration key below.\n"
-"                            If not, you should de-register from your current "
-"service provider and register with Odoo afterward."
+"Some service support migration keys. If this is your case you can enter your migration key below.\n"
+"                            If not, you should de-register from your current service provider and register with Odoo afterward."
 msgstr ""
+"Some 服务 support migration keys. If this is your case you can enter your "
+"migration key below. If not, you should de-register 从 your current 服务 "
+"provider and 登记 with 绿色供应链公共服务平台 afterward."
 
 #. module: account_peppol
 #. odoo-python
@@ -1672,9 +1612,10 @@ msgstr "测试"
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid ""
 "Test mode allows sending e-invoices through the test Peppol network.<br/>\n"
-"                            By clicking the button below I accept that Odoo "
-"may process my e-invoices."
+"                            By clicking the button below I accept that Odoo may process my e-invoices."
 msgstr ""
+"Test mode allows sending 电子发票s through the test Peppol network.<br/> By "
+"clicking the button below I accept that 绿色供应链公共服务平台 may process my 电子发票s."
 
 #. module: account_peppol
 #. odoo-python
@@ -1694,12 +1635,10 @@ msgstr "MSH 在尝试与远程 MSH 建立传输连接时出现暂时性或永久
 #. odoo-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
-"The MSH is unable to resolve an external payload reference (i.e. a Part that "
-"is not contained within the ebMS Message, as identified by a PartInfo/href "
+"The MSH is unable to resolve an external payload reference (i.e. a Part that"
+" is not contained within the ebMS Message, as identified by a PartInfo/href "
 "URI)."
-msgstr ""
-"MSH 无法解析外部负载引用（即未包含在 ebMS 消息中的 Part，由 PartInfo/href "
-"URI 标识）。"
+msgstr "MSH 无法解析外部负载引用（即未包含在 ebMS 消息中的 Part，由 PartInfo/href URI 标识）。"
 
 #. module: account_peppol
 #. odoo-python
@@ -1778,6 +1717,7 @@ msgstr "该 XML 文档未通过 Schematron 规则校验。"
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "The database you are trying to connect to is not suitable for Peppol."
 msgstr ""
+"The database you are trying to connect to is not suitable for Peppol.（技术名称）"
 
 #. module: account_peppol
 #. odoo-python
@@ -1809,8 +1749,7 @@ msgstr "电子发票网络"
 msgid ""
 "The eb3:Message header copied to the fragment header does not match the "
 "eb3:Message header in the reassembled source message."
-msgstr ""
-"复制到片段头的 eb3:Message 标头与重组后源消息中的 eb3:Message 标头不匹配。"
+msgstr "复制到片段头的 eb3:Message 标头与重组后源消息中的 eb3:Message 标头不匹配。"
 
 #. module: account_peppol
 #. odoo-python
@@ -1825,11 +1764,9 @@ msgstr "ebMS 标头格式不符合 XML 文档规范，或未遵循 ebMS 打包�
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "The ebMS header or another header (e.g. reliability, security) expected by "
-"the MSH is not compatible with the expected content, based on the associated "
-"P-Mode."
-msgstr ""
-"根据相关 P-Mode 配置，MSH 预期的 ebMS 标头或其他标头（如可靠性、安全性标头）"
-"与预期内容不兼容。"
+"the MSH is not compatible with the expected content, based on the associated"
+" P-Mode."
+msgstr "根据相关 P-Mode 配置，MSH 预期的 ebMS 标头或其他标头（如可靠性、安全性标头）与预期内容不兼容。"
 
 #. module: account_peppol
 #. odoo-python
@@ -1854,20 +1791,16 @@ msgid ""
 "The following services are listed on your participant but cannot be "
 "configured here. If you wish to configure them differently, please contact "
 "support."
-msgstr ""
-"以下服务已列在参与者中，但不能在此配置。如果您希望对它们进行不同的配置，请联"
-"系支持部门。"
+msgstr "以下服务已列在参与者中，但不能在此配置。如果您希望对它们进行不同的配置，请联系支持部门。"
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "The href attribute does not reference a valid MIME data part, MIME parts "
-"other than the fragment header and a data part are in the message. are added "
-"or the SOAP Body is not empty."
-msgstr ""
-"href 属性未指向有效的 MIME 数据部分，消息中除片段头和数据部分外包含其他 MIME "
-"部分，或 SOAP 正文非空。"
+"other than the fragment header and a data part are in the message. are added"
+" or the SOAP Body is not empty."
+msgstr "href 属性未指向有效的 MIME 数据部分，消息中除片段头和数据部分外包含其他 MIME 部分，或 SOAP 正文非空。"
 
 #. module: account_peppol
 #. odoo-python
@@ -1882,6 +1815,8 @@ msgid ""
 "The invoice has been sent to the Peppol Access Point. The following "
 "attachments were sent with the XML:"
 msgstr ""
+"The 发票 has been 已发送 to the Peppol 访问 Point. The following attachments were "
+"已发送 with the XML:"
 
 #. module: account_peppol
 #. odoo-python
@@ -1896,8 +1831,7 @@ msgid ""
 "The processor determined that the message's security methods, parameters, "
 "scope or other security policy-level requirements or agreements were not "
 "satisfied."
-msgstr ""
-"处理器判定该消息的安全方法、参数、范围或其他安全策略级别要求或协议未满足。"
+msgstr "处理器判定该消息的安全方法、参数、范围或其他安全策略级别要求或协议未满足。"
 
 #. module: account_peppol
 #. odoo-python
@@ -1938,7 +1872,8 @@ msgstr "MIME 的使用方式不符合本规范要求。"
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/exceptions.py:0
-msgid "There is no message available for pulling from this MPC at this moment."
+msgid ""
+"There is no message available for pulling from this MPC at this moment."
 msgstr "当前无法从此 MPC 拉取消息。"
 
 #. module: account_peppol
@@ -1975,14 +1910,14 @@ msgstr "Peppol 参与者出现了问题。"
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid "This branch company will use the active Peppol connection found on"
-msgstr ""
+msgstr "This branch 公司 will use the 启用 Peppol 连接 found on"
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid ""
 "This connection has been superseded by another database. Register again."
-msgstr ""
+msgstr "This 连接 has been superseded by another database. 登记 again."
 
 #. module: account_peppol
 #: model:ir.model.fields,help:account_peppol.field_res_config_settings__account_is_token_out_of_sync
@@ -1991,6 +1926,9 @@ msgid ""
 "the proxy server. It is set to True when the token needs to be refreshed or "
 "updated."
 msgstr ""
+"This field is used to indicate that the EDI 用户 token is out of sync with the"
+" proxy server. It is set to True when the token needs to be refreshed or "
+"已更新."
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
@@ -2002,7 +1940,7 @@ msgstr "此发票已"
 #: model:ir.model.fields,help:account_peppol.field_res_company__account_peppol_phone_number
 #: model:ir.model.fields,help:account_peppol.field_res_config_settings__account_peppol_phone_number
 msgid "This number is used for identification purposes only."
-msgstr ""
+msgstr "This 编号 is used for identification purposes only."
 
 #. module: account_peppol
 #. odoo-python
@@ -2016,9 +1954,7 @@ msgstr "该用户未在我们的接入点注册。"
 msgid ""
 "This user's is not a Peppol User. The proxy_type associated must be "
 "\"peppol\". This is required to create a peppol participant."
-msgstr ""
-"该用户不是 Peppol 用户。相关的 proxy_type 必须为 “peppol”。这是创建 Peppol 参"
-"与者的必要条件。"
+msgstr "该用户不是 Peppol 用户。相关的 proxy_type 必须为 “peppol”。这是创建 Peppol 参与者的必要条件。"
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_config_wizard_form
@@ -2035,12 +1971,12 @@ msgstr "要生成完整的电子发票，还需为该合作伙伴设置国家/�
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_res_config_settings__account_is_token_out_of_sync
 msgid "Token Out of Sync"
-msgstr ""
+msgstr "Token Out of Sync（技术名称）"
 
 #. module: account_peppol
 #: model:ir.model,name:account_peppol.model_account_edi_xml_ubl_bis3
 msgid "UBL BIS Billing 3.0.12"
-msgstr ""
+msgstr "UBL BIS Billing 3.0.12"
 
 #. module: account_peppol
 #. odoo-python
@@ -2051,7 +1987,7 @@ msgstr "无法验证摘要值。"
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_partner__peppol_verification_state__not_verified
 msgid "Unchecked"
-msgstr ""
+msgstr "Unchecked（技术名称）"
 
 #. module: account_peppol
 #. odoo-python
@@ -2077,12 +2013,12 @@ msgstr "未知 Peppol 错误：%s"
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__use_parent_connection
 msgid "Use Parent Connection"
-msgstr ""
+msgstr "Use Parent 连接"
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__use_parent_connection_selection
 msgid "Use Parent Connection Selection"
-msgstr ""
+msgstr "Use Parent 连接 Selection"
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_partner_form_account_peppol
@@ -2149,34 +2085,36 @@ msgid ""
 "your Company Registry (BCE/KBO) first to be compliant with the new "
 "regulation."
 msgstr ""
+"You are about to 登记 with your VAT 编号. Make sure you 登记 with your 公司 Registry"
+" (BCE/KBO) first to be compliant with the 新建 regulation."
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/wizard/account_move_send_wizard.py:0
 msgid "You are not allowed to send invoice on behalf of %s."
-msgstr ""
+msgstr "You are not allowed to 发送 发票 on behalf of %s."
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid "You are not authorized to change the contact email."
-msgstr ""
+msgstr "You are not authorized to change the 联系人 电子邮件."
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_config_wizard_form
 msgid ""
 "You are sending and receiving your e-invoices via Odoo with this Peppol ID"
-msgstr "您使用此 Peppol ID 通过 Odoo 发送和接收电子发票"
+msgstr "您使用此 Peppol ID 通过 绿色供应链公共服务平台 发送和接收电子发票"
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid "You are sending from"
-msgstr ""
+msgstr "You are sending 从"
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_config_wizard_form
 msgid "You are sending your e-invoices via Odoo with this Peppol ID"
-msgstr "您使用 Peppol ID 通过 Odoo 发送电子发票"
+msgstr "您使用 Peppol ID 通过 绿色供应链公共服务平台 发送电子发票"
 
 #. module: account_peppol
 #. odoo-python
@@ -2200,11 +2138,12 @@ msgstr "您可以通过 Peppol 发送电子发票。"
 #. odoo-python
 #: code:addons/account_peppol/models/account_journal.py:0
 msgid ""
-"You can't change the type of a journal used for Peppol invoice reception toa "
-"type different than 'Purchase'.\n"
-"Please change the journal used for Peppol reception before changing the type "
-"of this journal."
+"You can't change the type of a journal used for Peppol invoice reception toa type different than 'Purchase'.\n"
+"Please change the journal used for Peppol reception before changing the type of this journal."
 msgstr ""
+"You can't change the 类型 of a 日记账 used for Peppol 发票 reception toa 类型 "
+"different than '采购'. Please change the 日记账 used for Peppol reception before "
+"changing the 类型 of this 日记账."
 
 #. module: account_peppol
 #. odoo-python
@@ -2218,22 +2157,19 @@ msgstr "您的余额不足"
 msgid ""
 "You have reached the limit of documents you can send today. Retry later. "
 "Please contact the support if you think you need to increase that limit."
-msgstr ""
-"您已达到今日可发送文档的限制。请稍后重试。如需提高限制，请联系支持团队。"
+msgstr "您已达到今日可发送文档的限制。请稍后重试。如需提高限制，请联系支持团队。"
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "You need to authenticate to continue."
-msgstr ""
+msgstr "You need to authenticate to continue.（技术名称）"
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid ""
-"You registration has been rejected, the reason has been sent to you via "
-"email.\n"
-"                            Please contact our support if you need further "
-"assistance."
+"You registration has been rejected, the reason has been sent to you via email.\n"
+"                            Please contact our support if you need further assistance."
 msgstr ""
 "您的注册被拒绝，原因已通过电子邮件发送给您。\n"
 "                            如果您需要进一步帮助，请联系我们的支持人员。"
@@ -2241,7 +2177,7 @@ msgstr ""
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid "Your Peppol ID"
-msgstr ""
+msgstr "Your Peppol ID（技术名称）"
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
@@ -2254,6 +2190,7 @@ msgid ""
 "Your Peppol registration is being processed, it should be active within a "
 "day."
 msgstr ""
+"Your Peppol registration is being processed, it should be 启用 within a day."
 
 #. module: account_peppol
 #. odoo-python
@@ -2269,17 +2206,17 @@ msgstr "您的 Peppol 注册即将激活，现在即可开始发送发票。"
 msgid ""
 "Your company is already registered on an Access Point (%s) for receiving "
 "invoices. We will register you on Odoo as a sender only."
-msgstr ""
-"您公司已在接入点（%s）完成接收发票的注册。我们将仅在 Odoo 为您注册为发送方。"
+msgstr "您公司已在接入点（%s）完成接收发票的注册。我们将仅在 绿色供应链公共服务平台 为您注册为发送方。"
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid ""
-"Your database is not linked to Peppol anymore. This might be due to a "
-"database duplication or restoration.\n"
-"                                        Make sure to reconnect the correct "
-"database."
+"Your database is not linked to Peppol anymore. This might be due to a database duplication or restoration.\n"
+"                                        Make sure to reconnect the correct database."
 msgstr ""
+"Your database is not linked to Peppol anymore. This might be due to a "
+"database duplication or restoration. Make sure to reconnect the correct "
+"database.（技术名称）"
 
 #. module: account_peppol
 #. odoo-python
@@ -2291,19 +2228,19 @@ msgstr "您的身份验证尚未通过此操作审批"
 #. odoo-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "Your identifier does not have a valid format.%s"
-msgstr ""
+msgstr "Your identifier does not have a 有效 format.%s"
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "Your identifier is invalid."
-msgstr ""
+msgstr "Your identifier is 无效."
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "Your identifier you entered is invalid for Peppol."
-msgstr ""
+msgstr "Your identifier you entered is 无效 for Peppol."
 
 #. module: account_peppol
 #. odoo-python
@@ -2319,8 +2256,7 @@ msgstr "您的注册被拒绝。如需进一步帮助，请联系技术支持。
 msgid ""
 "Your registration on Peppol network should be activated within a day. The "
 "updated status will be visible in Settings."
-msgstr ""
-"您在 Peppol 网络上的注册将在一天内激活。更新后的状态将在 “设置” 中显示。"
+msgstr "您在 Peppol 网络上的注册将在一天内激活。更新后的状态将在 “设置” 中显示。"
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
@@ -2340,6 +2276,8 @@ msgid ""
 "[PEPPOL-EN16931-R010] An electronic address (EAS) must be provided on the "
 "customer '%s'."
 msgstr ""
+"[PEPPOL-EN16931-R010] An electronic 地址 (EAS) must be provided on the 客户 "
+"'%s'."
 
 #. module: account_peppol
 #. odoo-python
@@ -2348,11 +2286,13 @@ msgid ""
 "[PEPPOL-EN16931-R020] An electronic address (EAS) must be provided on the "
 "company '%s'."
 msgstr ""
+"[PEPPOL-EN16931-R020] An electronic 地址 (EAS) must be provided on the 公司 "
+"'%s'."
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid "and send invoices via Peppol on their behalf."
-msgstr ""
+msgstr "and 发送 发票 via Peppol on their behalf."
 
 #. module: account_peppol
 #. odoo-python
@@ -2374,7 +2314,7 @@ msgstr "已通过 Peppol 发送"
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid "support"
-msgstr ""
+msgstr "support（技术名称）"
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
@@ -2404,12 +2344,10 @@ msgstr "使用"
 
 #~ msgid ""
 #~ "Test mode allows sending e-invoices through the test Peppol network.\n"
-#~ "                                    By clicking the button below I accept "
-#~ "that Odoo may process my e-invoices."
+#~ "                                    By clicking the button below I accept that Odoo may process my e-invoices."
 #~ msgstr ""
 #~ "在测试模式下，您可通过 Peppol 测试网络发送电子发票。\n"
-#~ "                                    点击下方按鈕，即表示我同意 Odoo 可处理"
-#~ "我的电子发票。"
+#~ "                                    点击下方按鈕，即表示我同意 Odoo 可处理我的电子发票。"
 
 #~ msgid "You can now receive demo vendor bills."
 #~ msgstr "您现在可以收到供应商的演示账单。"
@@ -2421,22 +2359,18 @@ msgstr "使用"
 #~ msgstr "入账发票日记账"
 
 #~ msgid ""
-#~ "Some service support migration keys. If this is your case you can enter "
-#~ "your migration key below.\n"
-#~ "                        If not, you should de-register from your current "
-#~ "service provider and register with Odoo afterward."
+#~ "Some service support migration keys. If this is your case you can enter your migration key below.\n"
+#~ "                        If not, you should de-register from your current service provider and register with Odoo afterward."
 #~ msgstr ""
 #~ "某些服务支持迁移密钥。如果是这种情况，您可以在下面输入您的迁移密钥。\n"
-#~ "                        如果不是，您应从当前的服务提供商注销注册，然后再"
-#~ "向 Odoo 注册。"
+#~ "                        如果不是，您应从当前的服务提供商注销注册，然后再向 Odoo 注册。"
 
 #~ msgid "The document has been sent to Peppol for processing"
 #~ msgstr "文件已发送至Peppol网络处理中"
 
 #~ msgid ""
 #~ ".<br/>\n"
-#~ "                            But you are receiving your e-invoices via "
-#~ "this Access Point:"
+#~ "                            But you are receiving your e-invoices via this Access Point:"
 #~ msgstr ""
 #~ ".<br/>\n"
 #~ "                            但您通过该接入点接收电子发票："
@@ -2466,8 +2400,8 @@ msgstr "使用"
 #~ msgstr "合作伙伴缺少 Peppol EAS 和/或端点标识符。"
 
 #~ msgid ""
-#~ "The recommended identification method for Belgium is your Company "
-#~ "Registry Number."
+#~ "The recommended identification method for Belgium is your Company Registry "
+#~ "Number."
 #~ msgstr "比利时推荐的身份识别方法是公司注册号。"
 
 #~ msgid "Peppol document (UUID: %(uuid)s) has been received successfully"

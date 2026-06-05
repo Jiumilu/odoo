@@ -1,4 +1,5 @@
 import { registry } from "../registry";
+import { _t } from "@web/core/l10n/translation";
 
 export const titleService = {
     start() {
@@ -35,7 +36,7 @@ export const titleService = {
 
         function updateTitle() {
             const counter = Object.values(titleCounters).reduce((acc, count) => acc + count, 0);
-            const name = Object.values(titleParts).join(" - ") || "Odoo";
+            const name = Object.values(titleParts).join(" - ") || _t("GlobalCloud GPC");
             if (!counter) {
                 document.title = name;
             } else {

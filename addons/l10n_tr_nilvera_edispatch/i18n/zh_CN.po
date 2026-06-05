@@ -1,0 +1,628 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_tr_nilvera_edispatch
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_tr_nilvera_edispatch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_edispatch/models/res_partner.py:0
+msgid "%(name)s's %(errors)s."
+msgstr "%(name)s's %(errors)s.（技术名称）"
+
+#. module: l10n_tr_nilvera_edispatch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_edispatch/models/stock_picking.py:0
+msgid "%s TCKN is required."
+msgstr "%s TCKN is 必填."
+
+#. module: l10n_tr_nilvera_edispatch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_edispatch/models/res_partner.py:0
+msgid "%s is required"
+msgstr "%s is 必填"
+
+#. module: l10n_tr_nilvera_edispatch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_edispatch/models/stock_picking.py:0
+msgid "%s's"
+msgstr "%s's（技术名称）"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.constraint,message:l10n_tr_nilvera_edispatch.constraint_l10n_tr_nilvera_trailer_plate_name_uniq
+msgid "A Plate Number with that type already exists."
+msgstr "A Plate 编号 with that 类型 already exists."
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_tr_nilvera_edispatch.view_picking_form_inherit_l10n_tr_nilvera_edispatch
+msgid "Additional Information"
+msgstr "其它信息"
+
+#. module: l10n_tr_nilvera_edispatch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_edispatch/models/stock_picking.py:0
+msgid "At least one Driver is required."
+msgstr "At least one Driver is 必填."
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_edispatch.field_stock_picking__l10n_tr_nilvera_buyer_id
+msgid "Buyer"
+msgstr "采购员"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_edispatch.field_stock_picking__l10n_tr_nilvera_buyer_originator_id
+msgid "Buyer Originator"
+msgstr "Buyer Originator（技术名称）"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_tr_nilvera_edispatch.view_picking_form_inherit_l10n_tr_nilvera_edispatch
+msgid "Carrier"
+msgstr "承运商"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_edispatch.field_stock_picking__l10n_tr_nilvera_carrier_id
+msgid "Carrier (TR)"
+msgstr "Carrier (TR)（技术名称）"
+
+#. module: l10n_tr_nilvera_edispatch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_edispatch/models/stock_picking.py:0
+msgid ""
+"Carrier is required (optional when both the Driver and Vehicle Plate are "
+"filled)."
+msgstr ""
+"Carrier is 必填 (optional when both the Driver and Vehicle Plate are filled)."
+
+#. module: l10n_tr_nilvera_edispatch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_edispatch/models/res_partner.py:0
+msgid "City"
+msgstr "城市"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_tr_nilvera_edispatch.model_res_partner
+msgid "Contact"
+msgstr "联系人"
+
+#. module: l10n_tr_nilvera_edispatch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_edispatch/models/res_partner.py:0
+msgid "Country"
+msgstr "国家/地区"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,website_form_label:l10n_tr_nilvera_edispatch.model_res_partner
+msgid "Create a Customer"
+msgstr "创建客户"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_edispatch.field_l10n_tr_nilvera_trailer_plate__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_edispatch.field_l10n_tr_nilvera_trailer_plate__create_date
+msgid "Created on"
+msgstr "创建日期"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_edispatch.field_res_partner__l10n_tr_nilvera_edispatch_customs_zip
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_edispatch.field_res_users__l10n_tr_nilvera_edispatch_customs_zip
+#: model_terms:ir.ui.view,arch_db:l10n_tr_nilvera_edispatch.view_partner_form_inherit_l10n_tr_nilvera_edispatch
+msgid "Customs ZIP"
+msgstr "Customs ZIP（技术名称）"
+
+#. module: l10n_tr_nilvera_edispatch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_edispatch/models/res_partner.py:0
+msgid "Customs ZIP of 5 characters must be present"
+msgstr "Customs ZIP of 5 characters must be present（技术名称）"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_edispatch.field_stock_picking__l10n_tr_nilvera_delivery_notes
+msgid "Delivery Notes"
+msgstr "交货 Notes"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_edispatch.field_stock_picking__l10n_tr_nilvera_dispatch_type
+msgid "Dispatch Type"
+msgstr "Dispatch 类型"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_edispatch.field_l10n_tr_nilvera_trailer_plate__display_name
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_edispatch.field_res_partner__display_name
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_edispatch.field_stock_picking__display_name
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_edispatch.field_stock_picking_type__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_tr_nilvera_edispatch.view_picking_form_inherit_l10n_tr_nilvera_edispatch
+msgid "Driver Information"
+msgstr "Driver 信息"
+
+#. module: l10n_tr_nilvera_edispatch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_edispatch/models/stock_picking.py:0
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_edispatch.field_stock_picking__l10n_tr_nilvera_driver_ids
+msgid "Drivers"
+msgstr "驾驶员"
+
+#. module: l10n_tr_nilvera_edispatch
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_edispatch/static/src/views/list_view/ereceipt_upload.js:0
+msgid "Error occured in reading following XML file(s): %s"
+msgstr "错误 occured in reading following XML 文件(s): %s"
+
+#. module: l10n_tr_nilvera_edispatch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_edispatch/models/stock_picking.py:0
+msgid ""
+"Error occurred in generating XML for following records:\n"
+"- %s"
+msgstr "错误 occurred in generating XML for following records: - %s"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_tr_nilvera_edispatch.view_picking_form_inherit_l10n_tr_nilvera_edispatch
+msgid "General Information"
+msgstr "一般信息"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.server,name:l10n_tr_nilvera_edispatch.action_export_l10n_tr_nilvera_edispatch_list
+#: model_terms:ir.ui.view,arch_db:l10n_tr_nilvera_edispatch.view_picking_form_inherit_l10n_tr_nilvera_edispatch
+msgid "Generate GİB e-Dispatch (XML)"
+msgstr "Generate GİB e-Dispatch (XML)（技术名称）"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_edispatch.field_l10n_tr_nilvera_trailer_plate__name
+#: model_terms:ir.ui.view,arch_db:l10n_tr_nilvera_edispatch.l10n_tr_nilvera_trailer_plate_view_form
+msgid "GİB Plate Number"
+msgstr "GİB Plate 编号"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.act_window,name:l10n_tr_nilvera_edispatch.action_l10n_tr_nilvera_trailer_plate
+#: model:ir.ui.menu,name:l10n_tr_nilvera_edispatch.menu_l10n_tr_nilvera_trailer_plate
+#: model_terms:ir.ui.view,arch_db:l10n_tr_nilvera_edispatch.l10n_tr_nilvera_trailer_plate_view_tree
+msgid "GİB Plate Numbers"
+msgstr "GİB Plate Numbers（技术名称）"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_tr_nilvera_edispatch.model_l10n_tr_nilvera_trailer_plate
+msgid "GİB Plate numbers"
+msgstr "GİB Plate numbers（技术名称）"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.ui.menu,name:l10n_tr_nilvera_edispatch.menu_l10n_tr_nilvera
+msgid "GİB e-Dispatch"
+msgstr "GİB e-Dispatch（技术名称）"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_tr_nilvera_edispatch.view_picking_internal_search_inherit_l10n_tr_nilvera_edispatch
+msgid "GİB e-Dispatch State"
+msgstr "GİB e-Dispatch 状态"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_edispatch.field_l10n_tr_nilvera_trailer_plate__id
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_edispatch.field_res_partner__id
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_edispatch.field_stock_picking__id
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_edispatch.field_stock_picking_type__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_tr_nilvera_edispatch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_edispatch/models/stock_picking.py:0
+msgid "Imported E-Receipts"
+msgstr "Imported E-Receipts（技术名称）"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_edispatch.field_stock_picking__l10n_tr_nilvera_edispatch_warnings
+msgid "L10N Tr Nilvera Edispatch Warnings"
+msgstr "L10N Tr Nilvera Edispatch Warnings（技术名称）"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_edispatch.field_l10n_tr_nilvera_trailer_plate__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_edispatch.field_l10n_tr_nilvera_trailer_plate__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_tr_nilvera_edispatch.l10n_tr_edispatch_format
+msgid "MATBU"
+msgstr "MATBU（技术名称）"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.actions.server,name:l10n_tr_nilvera_edispatch.action_mark_l10n_tr_nilvera_edispatch_status
+msgid "Mark as sent (GİB e-Dispatch)"
+msgstr "Mark as 已发送 (GİB e-Dispatch)"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_tr_nilvera_edispatch.selection__stock_picking__l10n_tr_nilvera_dispatch_type__sevk
+msgid "Online"
+msgstr "线上"
+
+#. module: l10n_tr_nilvera_edispatch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_edispatch/models/stock_picking_type.py:0
+msgid "Only 3 characters are allowed in the Sequence Prefix by GİB"
+msgstr "Only 3 characters are allowed in the 序列 Prefix by GİB"
+
+#. module: l10n_tr_nilvera_edispatch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_edispatch/models/stock_picking.py:0
+msgid ""
+"Only Drivers from Türkiye are valid. Please update the Country and enter a "
+"valid TCKN in the Tax ID."
+msgstr ""
+"Only Drivers 从 Türkiye are 有效. Please update the 国家/地区 and enter a 有效 TCKN "
+"in the 税 ID."
+
+#. module: l10n_tr_nilvera_edispatch
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_edispatch/static/src/views/list_view/ereceipt_upload.js:0
+msgid "Only XML files can be uploaded"
+msgstr "Only XML files can be uploaded（技术名称）"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_tr_nilvera_edispatch.model_stock_picking_type
+msgid "Picking Type"
+msgstr "拣货类型"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_tr_nilvera_edispatch.selection__l10n_tr_nilvera_trailer_plate__plate_number_type__trailer
+msgid "Plate"
+msgstr "Plate（技术名称）"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_edispatch.field_l10n_tr_nilvera_trailer_plate__plate_number_type
+#: model_terms:ir.ui.view,arch_db:l10n_tr_nilvera_edispatch.l10n_tr_nilvera_trailer_plate_view_form
+msgid "Plate Number"
+msgstr "Plate 编号"
+
+#. module: l10n_tr_nilvera_edispatch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_edispatch/models/stock_picking.py:0
+msgid "Please validate the transfer first to generate the XML"
+msgstr "Please 验证 the 调拨 first to generate the XML"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_tr_nilvera_edispatch.selection__stock_picking__l10n_tr_nilvera_dispatch_type__matbudan
+msgid "Pre-printed"
+msgstr "Pre-printed（技术名称）"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_edispatch.field_stock_picking__l10n_tr_nilvera_delivery_date
+msgid "Printed Delivery Note Date"
+msgstr "Printed 交货 Note 日期"
+
+#. module: l10n_tr_nilvera_edispatch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_edispatch/models/stock_picking.py:0
+msgid "Printed Delivery Note Date is required."
+msgstr "Printed 交货 Note 日期 is 必填."
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_edispatch.field_stock_picking__l10n_tr_nilvera_delivery_printed_number
+msgid "Printed Delivery Note Number"
+msgstr "Printed 交货 Note 编号"
+
+#. module: l10n_tr_nilvera_edispatch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_edispatch/models/stock_picking.py:0
+msgid "Printed Delivery Note Number of 16 characters is required."
+msgstr "Printed 交货 Note 编号 of 16 characters is 必填."
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_edispatch.field_stock_picking__l10n_tr_nilvera_seller_supplier_id
+msgid "Seller Supplier"
+msgstr "Seller 供应商"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_tr_nilvera_edispatch.selection__stock_picking__l10n_tr_nilvera_dispatch_state__sent
+msgid "Sent"
+msgstr "已发送"
+
+#. module: l10n_tr_nilvera_edispatch
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_edispatch/static/src/views/list_view/ereceipt_upload.js:0
+msgid "Something went wrong. Please try again."
+msgstr "Something went wrong. Please try again.（技术名称）"
+
+#. module: l10n_tr_nilvera_edispatch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_edispatch/models/res_partner.py:0
+msgid "State"
+msgstr "省/州"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_tr_nilvera_edispatch.model_stock_picking
+msgid "Stock Picking - Delivery Guide (Uruguay)"
+msgstr "库存 Picking - 交货 Guide (Uruguay)"
+
+#. module: l10n_tr_nilvera_edispatch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_edispatch/models/res_partner.py:0
+msgid "Street"
+msgstr "街道"
+
+#. module: l10n_tr_nilvera_edispatch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_edispatch/models/res_partner.py:0
+msgid "TCKN/VKN"
+msgstr "TCKN/VKN（技术名称）"
+
+#. module: l10n_tr_nilvera_edispatch
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_edispatch/static/src/views/list_view/ereceipt_upload.js:0
+msgid "The file(s): %s must be of type XML."
+msgstr "The 文件(s): %s must be of 类型 XML."
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_tr_nilvera_edispatch.field_res_partner__l10n_tr_nilvera_edispatch_customs_zip
+#: model:ir.model.fields,help:l10n_tr_nilvera_edispatch.field_res_users__l10n_tr_nilvera_edispatch_customs_zip
+msgid ""
+"The postal code of the customs office used to ship to the destination "
+"country."
+msgstr ""
+"The postal 代码 of the customs office used to 收货方 the destination 国家/地区."
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_tr_nilvera_edispatch.selection__stock_picking__l10n_tr_nilvera_dispatch_state__to_send
+msgid "To Send"
+msgstr "发送"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_edispatch.field_stock_picking__l10n_tr_nilvera_trailer_plate_ids
+msgid "Trailer Plates"
+msgstr "Trailer Plates（技术名称）"
+
+#. module: l10n_tr_nilvera_edispatch
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_edispatch/static/src/views/list_view/ereceipt_upload.xml:0
+msgid "Upload e-Receipt (XML)"
+msgstr "Upload e-Receipt (XML)（技术名称）"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_tr_nilvera_edispatch.field_stock_picking__l10n_tr_nilvera_driver_ids
+msgid "Used for the individuals driving the truck."
+msgstr "Used for the individuals driving the truck.（技术名称）"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_tr_nilvera_edispatch.field_stock_picking__l10n_tr_nilvera_seller_supplier_id
+msgid ""
+"Used for the information of the supplier of the goods in the delivery note."
+msgstr "Used for the 信息 of the 供应商 of the goods in the 交货 note."
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_tr_nilvera_edispatch.field_stock_picking__l10n_tr_nilvera_buyer_originator_id
+msgid ""
+"Used for the original initiator of the goods acquisition and requesting "
+"process."
+msgstr ""
+"Used for the original initiator of the goods acquisition and requesting "
+"process.（技术名称）"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_tr_nilvera_edispatch.field_stock_picking__l10n_tr_nilvera_buyer_id
+msgid ""
+"Used for the original party who purchases the good when the Delivery Address"
+" is for another recipient"
+msgstr ""
+"Used for the original party who purchases the good when the 送货地址 is for "
+"another recipient"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_tr_nilvera_edispatch.field_stock_picking__l10n_tr_vehicle_plate
+msgid "Used to input the plate number of the truck."
+msgstr "Used to input the plate 编号 of the truck."
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_tr_nilvera_edispatch.field_stock_picking__l10n_tr_nilvera_trailer_plate_ids
+msgid "Used to input the plate numbers of the trailers attached to the truck."
+msgstr ""
+"Used to input the plate numbers of the trailers attached to the truck.（技术名称）"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_tr_nilvera_edispatch.field_stock_picking__l10n_tr_nilvera_dispatch_type
+msgid "Used to populate the type of dispatch."
+msgstr "Used to populate the 类型 of dispatch."
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_tr_nilvera_edispatch.field_stock_picking__l10n_tr_nilvera_carrier_id
+msgid ""
+"Used when the dispatch is made through a third-party carrier company. "
+"Populating this makes the Vehicle Plate and Drivers optional."
+msgstr ""
+"Used when the dispatch is made through a third-party carrier 公司. Populating "
+"this makes the Vehicle Plate and Drivers optional."
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_tr_nilvera_edispatch.selection__l10n_tr_nilvera_trailer_plate__plate_number_type__vehicle
+msgid "Vehicle"
+msgstr "车辆"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_tr_nilvera_edispatch.view_picking_form_inherit_l10n_tr_nilvera_edispatch
+msgid "Vehicle Information"
+msgstr "车辆信息"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_edispatch.field_stock_picking__l10n_tr_vehicle_plate
+msgid "Vehicle Plate"
+msgstr "Vehicle Plate（技术名称）"
+
+#. module: l10n_tr_nilvera_edispatch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_edispatch/models/stock_picking.py:0
+msgid "Vehicle Plate is required."
+msgstr "Vehicle Plate is 必填."
+
+#. module: l10n_tr_nilvera_edispatch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_edispatch/models/res_partner.py:0
+#: code:addons/l10n_tr_nilvera_edispatch/models/stock_picking.py:0
+msgid "View %s"
+msgstr "视图 %s"
+
+#. module: l10n_tr_nilvera_edispatch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_edispatch/models/res_partner.py:0
+msgid "View Partner"
+msgstr "查看 业务伙伴"
+
+#. module: l10n_tr_nilvera_edispatch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_edispatch/models/res_partner.py:0
+msgid "ZIP"
+msgstr "邮政编码"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_tr_nilvera_edispatch.view_picking_form_inherit_l10n_tr_nilvera_edispatch
+msgid "e-Dispatch"
+msgstr "e-Dispatch（技术名称）"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_tr_nilvera_edispatch.field_stock_picking__l10n_tr_nilvera_dispatch_state
+msgid "e-Dispatch State"
+msgstr "e-Dispatch 状态"
+
+#. module: l10n_tr_nilvera_edispatch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_edispatch/models/stock_picking.py:0
+msgid "e-Dispatch XML file generated successfully."
+msgstr "e-Dispatch XML 文件 已生成 successfully."
+
+#. module: l10n_tr_nilvera_edispatch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_edispatch/models/stock_picking.py:0
+msgid "e-Dispatch will not be generated as the Delivery Address is not set."
+msgstr "e-Dispatch will not be 已生成 as the 送货地址 is not set."
+
+#. module: l10n_tr_nilvera_edispatch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_edispatch/models/stock_picking.py:0
+msgid "e-Receipt uploaded successfully."
+msgstr "e-Receipt uploaded successfully.（技术名称）"
+
+#. module: l10n_tr_nilvera_edispatch
+#. odoo-javascript
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_edispatch/static/src/views/list_view/ereceipt_upload.js:0
+msgid "e-Receipt(s) Imported Successfully"
+msgstr "e-Receipt(s) Imported Successfully（技术名称）"
+
+#. module: l10n_tr_nilvera_edispatch
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_tr_nilvera_edispatch/models/stock_picking.py:0
+msgid "id"
+msgstr "id"
+
+#. module: l10n_tr_nilvera_edispatch
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_tr_nilvera_edispatch.l10n_tr_edispatch_format
+msgid "Şoför"
+msgstr "Şoför（技术名称）"

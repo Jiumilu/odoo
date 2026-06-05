@@ -1,0 +1,338 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_pl
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_pl.model_account_chart_template
+msgid "Account Chart Template"
+msgstr "科目表模版"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl.field_account_bank_statement_line__l10n_pl_vat_b_mpv_prowizja
+#: model:ir.model.fields,field_description:l10n_pl.field_account_move__l10n_pl_vat_b_mpv_prowizja
+msgid "B_MPV_Prowizja"
+msgstr "B_MPV_Prowizja（技术名称）"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl.field_account_bank_statement_line__l10n_pl_vat_b_spv
+#: model:ir.model.fields,field_description:l10n_pl.field_account_move__l10n_pl_vat_b_spv
+msgid "B_SPV"
+msgstr "B_SPV（技术名称）"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl.field_account_bank_statement_line__l10n_pl_vat_b_spv_dostawa
+#: model:ir.model.fields,field_description:l10n_pl.field_account_move__l10n_pl_vat_b_spv_dostawa
+msgid "B_SPV_Dostawa"
+msgstr "B_SPV_Dostawa（技术名称）"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl.field_l10n_pl_l10n_pl_tax_office__code
+msgid "Code"
+msgstr "代码"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_pl.field_product_product__l10n_pl_vat_gtu
+#: model:ir.model.fields,help:l10n_pl.field_product_template__l10n_pl_vat_gtu
+msgid "Codes for specific types of products, needed for VAT declaration"
+msgstr "Codes for specific types of 产品, needed for VAT declaration"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_pl.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_pl.model_res_config_settings
+msgid "Config Settings"
+msgstr "配置设定"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_pl.model_res_partner
+msgid "Contact"
+msgstr "联系人"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,website_form_label:l10n_pl.model_res_partner
+msgid "Create a Customer"
+msgstr "创建客户"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl.field_l10n_pl_l10n_pl_tax_office__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl.field_l10n_pl_l10n_pl_tax_office__create_date
+msgid "Created on"
+msgstr "创建日期"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl.field_l10n_pl_l10n_pl_tax_office__name
+msgid "Description"
+msgstr "描述"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl.field_account_chart_template__display_name
+#: model:ir.model.fields,field_description:l10n_pl.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_pl.field_l10n_pl_l10n_pl_tax_office__display_name
+#: model:ir.model.fields,field_description:l10n_pl.field_product_template__display_name
+#: model:ir.model.fields,field_description:l10n_pl.field_res_company__display_name
+#: model:ir.model.fields,field_description:l10n_pl.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:l10n_pl.field_res_partner__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_pl.product_template_form
+msgid "GTU"
+msgstr "GTU（技术名称）"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl.field_product_product__l10n_pl_vat_gtu
+#: model:ir.model.fields,field_description:l10n_pl.field_product_template__l10n_pl_vat_gtu
+msgid "GTU Codes"
+msgstr "GTU Codes（技术名称）"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_pl.selection__product_template__l10n_pl_vat_gtu__gtu_01
+msgid "GTU_01 - Alcoholic beverages"
+msgstr "GTU_01 - Alcoholic beverages（技术名称）"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_pl.selection__product_template__l10n_pl_vat_gtu__gtu_02
+msgid "GTU_02 - Goods referred to under Art. 103 sec 5aa"
+msgstr "GTU_02 - Goods referred to under Art. 103 sec 5aa（技术名称）"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_pl.selection__product_template__l10n_pl_vat_gtu__gtu_03
+msgid "GTU_03 - Fuel oil for excise duty, lubricating oils and other oils"
+msgstr "GTU_03 - Fuel oil for excise duty, lubricating oils and 其他 oils"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_pl.selection__product_template__l10n_pl_vat_gtu__gtu_04
+msgid "GTU_04 - Tobacco products, tobacco, e-liquid"
+msgstr "GTU_04 - Tobacco 产品, tobacco, e-liquid"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_pl.selection__product_template__l10n_pl_vat_gtu__gtu_05
+msgid "GTU_05 - Wastes"
+msgstr "GTU_05 - Wastes（技术名称）"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_pl.selection__product_template__l10n_pl_vat_gtu__gtu_06
+msgid "GTU_06 - Electronic devices, their parts and materials"
+msgstr "GTU_06 - Electronic devices, their parts and materials（技术名称）"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_pl.selection__product_template__l10n_pl_vat_gtu__gtu_07
+msgid "GTU_07 - Vehicles and vehicle parts"
+msgstr "GTU_07 - Vehicles and vehicle parts（技术名称）"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_pl.selection__product_template__l10n_pl_vat_gtu__gtu_08
+msgid "GTU_08 - Precious metals and base metals"
+msgstr "GTU_08 - Precious metals and base metals（技术名称）"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_pl.selection__product_template__l10n_pl_vat_gtu__gtu_09
+msgid "GTU_09 - Medicament and medical devices, medicinal products"
+msgstr "GTU_09 - Medicament and medical devices, medicinal 产品"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_pl.selection__product_template__l10n_pl_vat_gtu__gtu_10
+msgid "GTU_10 - Buildings, structures and land"
+msgstr "GTU_10 - Buildings, structures and land（技术名称）"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_pl.selection__product_template__l10n_pl_vat_gtu__gtu_11
+msgid ""
+"GTU_11 - Services related to the greenhouse gas emission allowance trading"
+msgstr "GTU_11 - Services 相关 to the greenhouse gas emission allowance trading"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_pl.selection__product_template__l10n_pl_vat_gtu__gtu_12
+msgid "GTU_12 - Intangible services"
+msgstr "GTU_12 - Intangible services（技术名称）"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_pl.selection__product_template__l10n_pl_vat_gtu__gtu_13
+msgid "GTU_13 - Transport services and warehouse management services"
+msgstr "GTU_13 - Transport services and warehouse management services（技术名称）"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl.field_account_chart_template__id
+#: model:ir.model.fields,field_description:l10n_pl.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_pl.field_l10n_pl_l10n_pl_tax_office__id
+#: model:ir.model.fields,field_description:l10n_pl.field_product_template__id
+#: model:ir.model.fields,field_description:l10n_pl.field_res_company__id
+#: model:ir.model.fields,field_description:l10n_pl.field_res_config_settings__id
+#: model:ir.model.fields,field_description:l10n_pl.field_res_partner__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_pl
+#. odoo-python
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: code:addons/l10n_pl/models/account_move.py:0
+msgid "Invoice Date"
+msgstr "发票日期"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_pl.model_account_move
+msgid "Journal Entry"
+msgstr "日记账分录"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl.field_l10n_pl_l10n_pl_tax_office__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl.field_l10n_pl_l10n_pl_tax_office__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl.field_res_partner__l10n_pl_links_with_customer
+#: model:ir.model.fields,field_description:l10n_pl.field_res_users__l10n_pl_links_with_customer
+msgid "Links With Company"
+msgstr "Links With 公司"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_pl.view_move_form_l10n_pl
+msgid "PL Extra"
+msgstr "PL Extra（技术名称）"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_pl.res_partner_account_pl_form
+msgid "PL Information"
+msgstr "PL 信息"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_pl.res_config_settings_view_form
+msgid "Polish Localization"
+msgstr "Polish Localization（技术名称）"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_pl.model_product_template
+msgid "Product"
+msgstr "产品"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_pl.field_account_bank_statement_line__l10n_pl_vat_b_mpv_prowizja
+#: model:ir.model.fields,help:l10n_pl.field_account_move__l10n_pl_vat_b_mpv_prowizja
+msgid ""
+"Supply of agency and other services pertaining to the transfer of a single-"
+"purpose voucher"
+msgstr ""
+"Supply of agency and 其他 services pertaining to the 调拨 of a single-purpose "
+"voucher"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_pl.field_account_bank_statement_line__l10n_pl_vat_b_spv_dostawa
+#: model:ir.model.fields,help:l10n_pl.field_account_move__l10n_pl_vat_b_spv_dostawa
+msgid ""
+"Supply of goods and/or services covered by a single-purpose voucher to a "
+"taxpayer"
+msgstr ""
+"Supply of goods and/or services covered by a single-purpose voucher to a "
+"taxpayer（技术名称）"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_pl.field_res_partner__l10n_pl_links_with_customer
+#: model:ir.model.fields,help:l10n_pl.field_res_users__l10n_pl_links_with_customer
+msgid ""
+"TP: Existing connection or influence between the customer and the supplier"
+msgstr "TP: Existing 连接 or influence between the 客户 and the 供应商"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl.field_res_company__l10n_pl_reports_tax_office_id
+#: model:ir.model.fields,field_description:l10n_pl.field_res_config_settings__l10n_pl_reports_tax_office_id
+msgid "Tax Office"
+msgstr "税 Office"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_pl.model_l10n_pl_l10n_pl_tax_office
+msgid "Tax Office in Poland"
+msgstr "税 Office in Poland"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.constraint,message:l10n_pl.constraint_l10n_pl_l10n_pl_tax_office_code_company_uniq
+msgid "The code of the tax office must be unique !"
+msgstr "The 代码 of the 税 office must be unique !"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_pl.field_account_bank_statement_line__l10n_pl_vat_b_spv
+#: model:ir.model.fields,help:l10n_pl.field_account_move__l10n_pl_vat_b_spv
+msgid ""
+"Transfer of a single-purpose voucher effected by a taxable person acting on "
+"his/its own behalf"
+msgstr ""
+"调拨 of a single-purpose voucher effected by a taxable person acting on "
+"his/its own behalf"
+
+#. module: l10n_pl
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_pl.res_config_settings_view_form
+msgid "Values set here are company-specific."
+msgstr "此处设置的值是特定于每家公司的"

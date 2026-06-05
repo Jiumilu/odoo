@@ -1,0 +1,241 @@
+# # Translation of GlobalCloud GPC.
+# # This file contains the translation of the following modules:
+# # * l10n_pl_bank_verification
+# #
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalCloud GPC 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlobalCloud GPC Localization Automation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: l10n_pl_bank_verification
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_pl_bank_verification.selection__l10n_pl_bank_account_verification__verification_status__error
+msgid "An error occurred during check with Government API"
+msgstr "An 错误 occurred during 检查 with Government API"
+
+#. module: l10n_pl_bank_verification
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_bank_verification.field_l10n_pl_bank_account_verification__partner_bank_id
+msgid "Bank Account"
+msgstr "银行账户"
+
+#. module: l10n_pl_bank_verification
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_pl_bank_verification.view_account_payment_form_inherit_l10n_pl
+msgid "Bank verification"
+msgstr "银行 verification"
+
+#. module: l10n_pl_bank_verification
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_bank_verification.field_account_payment__l10n_pl_verification_request_id
+#: model:ir.model.fields,field_description:l10n_pl_bank_verification.field_l10n_pl_bank_account_verification__verification_request_id
+msgid "Correlation ID"
+msgstr "Correlation ID（技术名称）"
+
+#. module: l10n_pl_bank_verification
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_bank_verification.field_l10n_pl_bank_account_verification__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: l10n_pl_bank_verification
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_bank_verification.field_l10n_pl_bank_account_verification__create_date
+msgid "Created on"
+msgstr "创建日期"
+
+#. module: l10n_pl_bank_verification
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_bank_verification.field_account_payment__display_name
+#: model:ir.model.fields,field_description:l10n_pl_bank_verification.field_account_payment_register__display_name
+#: model:ir.model.fields,field_description:l10n_pl_bank_verification.field_l10n_pl_bank_account_verification__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: l10n_pl_bank_verification
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,help:l10n_pl_bank_verification.field_account_payment__l10n_pl_verification_status
+#: model:ir.model.fields,help:l10n_pl_bank_verification.field_l10n_pl_bank_account_verification__verification_status
+msgid ""
+"Flag the payment verification status with one of the following:\n"
+"- Valid: The partner VAT is linked to the bank account used for this payment.\n"
+"- Invalid: The partner VAT is not linked to the bank account used for this payment.\n"
+"- Incomplete partner: The partner has no VAT or no bank account.\n"
+"- Partner not found: Partner VAT not found in Government files.\n"
+"- Error: An error occurred during check with Government API.\n"
+msgstr ""
+"Flag the 付款 verification 状态 with one of the following: - 有效: The 业务伙伴 VAT is"
+" linked to the 银行账户 used for this 付款. - 无效: The 业务伙伴 VAT is not linked to "
+"the 银行账户 used for this 付款. - Incomplete 业务伙伴: The 业务伙伴 has 否 VAT or 否 银行账户. "
+"- 业务伙伴 not found: 业务伙伴 VAT not found in Government files. - 错误: An 错误 "
+"occurred during 检查 with Government API.\n"
+
+#. module: l10n_pl_bank_verification
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_bank_verification.field_account_payment__id
+#: model:ir.model.fields,field_description:l10n_pl_bank_verification.field_account_payment_register__id
+#: model:ir.model.fields,field_description:l10n_pl_bank_verification.field_l10n_pl_bank_account_verification__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_pl_bank_verification
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_pl_bank_verification.selection__l10n_pl_bank_account_verification__verification_status__incomplete_partner
+msgid "Incomplete partner"
+msgstr "Incomplete 业务伙伴"
+
+#. module: l10n_pl_bank_verification
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_pl_bank_verification.selection__l10n_pl_bank_account_verification__verification_status__invalid
+msgid "Invalid"
+msgstr "无效"
+
+#. module: l10n_pl_bank_verification
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_bank_verification.field_account_payment_register__l10n_pl_bank_verification_ids
+msgid "L10N Pl Bank Verification"
+msgstr "L10N Pl 银行 Verification"
+
+#. module: l10n_pl_bank_verification
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_bank_verification.field_account_payment_register__l10n_pl_bank_verification_invalid_bank_account_ids
+msgid "L10N Pl Bank Verification Invalid Bank Account"
+msgstr "L10N Pl 银行 Verification 无效 银行账户"
+
+#. module: l10n_pl_bank_verification
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_bank_verification.field_account_payment_register__l10n_pl_incomplete_data_partner_ids
+msgid "L10N Pl Incomplete Data Partner"
+msgstr "L10N Pl Incomplete Data 业务伙伴"
+
+#. module: l10n_pl_bank_verification
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_bank_verification.field_account_payment_register__l10n_pl_not_found_partner_ids
+msgid "L10N Pl Not Found Partner"
+msgstr "L10N Pl Not Found 业务伙伴"
+
+#. module: l10n_pl_bank_verification
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_bank_verification.field_l10n_pl_bank_account_verification__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: l10n_pl_bank_verification
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_bank_verification.field_l10n_pl_bank_account_verification__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: l10n_pl_bank_verification
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_pl_bank_verification.model_l10n_pl_bank_account_verification
+msgid "PL Bank Account Verification"
+msgstr "PL 银行账户 Verification"
+
+#. module: l10n_pl_bank_verification
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_bank_verification.field_account_payment__l10n_pl_verification_id
+msgid "PL Bank Verification"
+msgstr "PL 银行 Verification"
+
+#. module: l10n_pl_bank_verification
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_bank_verification.field_l10n_pl_bank_account_verification__partner_id
+msgid "Partner"
+msgstr "合作伙伴"
+
+#. module: l10n_pl_bank_verification
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_bank_verification.field_l10n_pl_bank_account_verification__partner_bank_account_number
+msgid "Partner Bank Account Number"
+msgstr "业务伙伴 银行账户 编号"
+
+#. module: l10n_pl_bank_verification
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_bank_verification.field_l10n_pl_bank_account_verification__partner_vat
+msgid "Partner Vat"
+msgstr "业务伙伴 VAT"
+
+#. module: l10n_pl_bank_verification
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_pl_bank_verification.selection__l10n_pl_bank_account_verification__verification_status__not_found_partner
+msgid "Partner not found"
+msgstr "业务伙伴 not found"
+
+#. module: l10n_pl_bank_verification
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_pl_bank_verification.model_account_payment_register
+msgid "Pay"
+msgstr "支付"
+
+#. module: l10n_pl_bank_verification
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model,name:l10n_pl_bank_verification.model_account_payment
+msgid "Payments"
+msgstr "付款"
+
+#. module: l10n_pl_bank_verification
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_pl_bank_verification.l10n_pl_view_account_payment_register_form
+msgid ""
+"The following partner(s) bank account(s) are not linked with their vat in "
+"the government files:"
+msgstr ""
+"The following 业务伙伴(s) 银行账户(s) are not linked with their VAT in the "
+"government files:"
+
+#. module: l10n_pl_bank_verification
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_pl_bank_verification.l10n_pl_view_account_payment_register_form
+msgid ""
+"The following partner(s) cannot be found in the government files, please "
+"check vat number:"
+msgstr ""
+"The following 业务伙伴(s) cannot be found in the government files, please 检查 VAT"
+" 编号:"
+
+#. module: l10n_pl_bank_verification
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model_terms:ir.ui.view,arch_db:l10n_pl_bank_verification.l10n_pl_view_account_payment_register_form
+msgid ""
+"The following partners do not have a VAT number and/or bank account, so we "
+"cannot check their bank account with government authorities:"
+msgstr ""
+"The following 业务伙伴 do not have a VAT 编号 and/or 银行账户, so we cannot 检查 their "
+"银行账户 with government authorities:"
+
+#. module: l10n_pl_bank_verification
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields.selection,name:l10n_pl_bank_verification.selection__l10n_pl_bank_account_verification__verification_status__valid
+msgid "Valid"
+msgstr "有效的"
+
+#. module: l10n_pl_bank_verification
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_bank_verification.field_l10n_pl_bank_account_verification__verification_date
+msgid "Verification Date"
+msgstr "Verification 日期"
+
+#. module: l10n_pl_bank_verification
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_bank_verification.field_account_payment__l10n_pl_verification_status
+#: model:ir.model.fields,field_description:l10n_pl_bank_verification.field_l10n_pl_bank_account_verification__verification_status
+msgid "Verification Status"
+msgstr "Verification 状态"
+
+#. module: l10n_pl_bank_verification
+# Auto-completed for GlobalCloud GPC zh_CN coverage.
+#: model:ir.model.fields,field_description:l10n_pl_bank_verification.field_account_payment__l10n_pl_verification_timestamp
+#: model:ir.model.fields,field_description:l10n_pl_bank_verification.field_l10n_pl_bank_account_verification__verification_timestamp
+msgid "Verification Timestamp"
+msgstr "Verification Timestamp（技术名称）"
