@@ -1,0 +1,131 @@
+name: GlobalCloud GPC Quality Gate
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  quality:
+    name: Python, i18n, and Odoo smoke checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_DB: gpc_ci
+          POSTGRES_USER: odoo
+          POSTGRES_PASSWORD: odoo
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U odoo -d gpc_ci"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install system packages
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends gettext postgresql-client libldap2-dev libsasl2-dev libpq-dev
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip setuptools wheel
+          python -m pip install -r requirements.txt
+          python -m pip install -r requirements-dev.txt
+
+      - name: Create CI runtime config
+        run: |
+          mkdir -p .runtime/ci-data
+          cat > .runtime/ci-odoo.conf <<'EOF'
+          [options]
+          addons_path = addons,odoo/addons
+          data_dir = .runtime/ci-data
+          db_host = 127.0.0.1
+          db_port = 5432
+          db_user = odoo
+          db_password = odoo
+          db_name = gpc_ci
+          list_db = False
+          admin_passwd = ci-admin
+          http_interface = 127.0.0.1
+          http_port = 18069
+          workers = 0
+          max_cron_threads = 0
+          log_level = warn
+          EOF
+
+      - name: Check Python dependency consistency
+        run: python -m pip check
+
+      - name: Compile local maintenance tools
+        run: python -m py_compile tools/gpc_health_check.py tools/gpc_reverse_proxy.py tools/complete_zh_cn_i18n.py
+
+      - name: Validate zh_CN translation syntax
+        run: |
+          find addons odoo/addons -path '*/i18n/zh_CN.po' -print0 \
+            | xargs -0 -n 1 msgfmt --check -o /tmp/gpc_i18n_check.mo
+
+      - name: Install core GlobalCloud GPC business modules
+        run: |
+          python odoo-bin -c .runtime/ci-odoo.conf -d gpc_ci \
+            --init contacts,crm,sale_management,purchase,stock,mrp,project \
+            --stop-after-init \
+            --workers=0 \
+            --max-cron-threads=0 \
+            --http-port=18069 \
+            --log-level=warn
+
+      - name: Run minimal Odoo test runner smoke test
+        run: |
+          pg_isready -h 127.0.0.1 -p 5432 -U odoo -d gpc_ci
+          python odoo-bin -c .runtime/ci-odoo.conf -d gpc_ci \
+            --test-enable \
+            --test-tags ':TestSelector.test_selector_parser' \
+            --stop-after-init \
+            --workers=0 \
+            --max-cron-threads=0 \
+            --http-port=18069 \
+            --log-level=test
+
+      - name: Run HTTP smoke check
+        run: |
+          python odoo-bin -c .runtime/ci-odoo.conf -d gpc_ci \
+            --workers=0 \
+            --max-cron-threads=0 \
+            --http-port=18069 \
+            --log-level=warn &
+          ODOO_PID=$!
+          trap 'kill "$ODOO_PID" || true' EXIT
+          for attempt in $(seq 1 60); do
+            if curl -fsS http://127.0.0.1:18069/web/login >/dev/null; then
+              exit 0
+            fi
+            sleep 2
+          done
+          exit 1
+
+      - name: Run core business flow smoke test
+        run: |
+          coverage run --include='*/tools/gpc_core_flow_smoke.py' tools/gpc_core_flow_smoke.py \
+            --config .runtime/ci-odoo.conf \
+            --database gpc_ci \
+            --base-url http://127.0.0.1:18069 \
+            --report-json .runtime/gpc-core-flow-smoke.json \
+            --report-md .runtime/gpc-core-flow-smoke.md
+          coverage report -m tools/gpc_core_flow_smoke.py
+          coverage json -o .runtime/gpc-coverage.json
