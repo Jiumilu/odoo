@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-06T07:14:52+0800",
+  "timestamp": "2026-06-06T07:41:14+0800",
   "config": ".runtime/gpc-odoo.conf",
   "database": "GCGPC",
   "base_url": "http://127.0.0.1:8069",
@@ -8,19 +8,19 @@
       "ok": true,
       "status": 200,
       "bytes": 21202,
-      "seconds": 1.328
+      "seconds": 0.099
     },
     "login": {
       "ok": true,
       "status": 200,
       "bytes": 20192,
-      "seconds": 0.29
+      "seconds": 0.082
     },
     "apps": {
       "ok": true,
       "status": 200,
       "bytes": 20239,
-      "seconds": 0.092
+      "seconds": 0.124
     }
   },
   "flows": {
@@ -49,7 +49,7 @@
     "contact_crud": {
       "ok": true,
       "model": "res.partner",
-      "record_id": 108,
+      "record_id": 111,
       "created_name": "GPC Smoke Customer",
       "updated_phone": "13800000000",
       "lang": "zh_CN",
@@ -58,7 +58,7 @@
     "crm_opportunity": {
       "ok": true,
       "model": "crm.lead",
-      "record_id": 66,
+      "record_id": 67,
       "before_stage": "New",
       "after_stage": "Won",
       "is_won": true
@@ -66,7 +66,7 @@
     "sales_order": {
       "ok": true,
       "model": "sale.order",
-      "record_id": 48,
+      "record_id": 49,
       "before_state": "draft",
       "after_state": "sale",
       "delivery_count": 1
@@ -74,15 +74,15 @@
     "purchase_order": {
       "ok": true,
       "model": "purchase.order",
-      "record_id": 35,
+      "record_id": 36,
       "before_state": "draft",
       "after_state": "purchase",
       "receipt_count": 1
     },
     "stock_receipt_delivery": {
       "ok": true,
-      "receipt_id": 113,
-      "delivery_id": 114,
+      "receipt_id": 117,
+      "delivery_id": 118,
       "receipt_state": "done",
       "delivery_state": "done",
       "qty_after_receipt": 5.0,
@@ -90,7 +90,7 @@
     },
     "manufacturing_order": {
       "ok": true,
-      "production_id": 23,
+      "production_id": 24,
       "states": [
         "draft",
         "confirmed",
@@ -104,15 +104,19 @@
     "project_task": {
       "ok": true,
       "model": "project.task",
-      "record_id": 98,
-      "project_id": 29,
+      "record_id": 99,
+      "project_id": 30,
       "before_stage": false,
       "after_stage": "Inbox"
     },
     "permission_boundary": {
       "ok": true,
       "admin_create_partner": true,
+      "admin_login": "gcgpc@csydsc.com",
+      "portal_login": "portal",
+      "portal_source": "existing",
       "portal_sale_create": "AccessError",
+      "public_login": "public",
       "public_sale_create": "AccessError",
       "expected_denial": "AccessError"
     }

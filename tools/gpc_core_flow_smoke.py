@@ -278,9 +278,24 @@ def run_orm_smoke(config_path: str, db_name: str) -> dict[str, Any]:
             flows["project_task"] = mark(False, {"model": "project.task"}, repr(exc))
 
         try:
-            admin = env["res.users"].with_context(active_test=False).search([("login", "=", "gcgpc@csydsc.com")], limit=1)
-            portal = env["res.users"].with_context(active_test=False).search([("login", "=", "portal")], limit=1)
-            public = env["res.users"].with_context(active_test=False).search([("login", "=", "public")], limit=1)
+            user_model = env["res.users"].with_context(active_test=False)
+            admin = user_model.search([("login", "=", "gcgpc@csydsc.com")], limit=1) or env.ref("base.user_admin")
+            public = env.ref("base.public_user")
+            portal = user_model.search([("login", "=", "portal")], limit=1)
+            portal_source = "existing"
+            if not portal:
+                portal_source = "created_for_smoke"
+                group_field = "groups_id" if "groups_id" in env["res.users"]._fields else "group_ids"
+                portal_partner = env["res.partner"].create({"name": "GPC Smoke Portal User", "email": "gpc-smoke-portal@example.invalid"})
+                portal = env["res.users"].with_context(no_reset_password=True).create(
+                    {
+                        "name": "GPC Smoke Portal User",
+                        "login": "gpc-smoke-portal@example.invalid",
+                        "email": "gpc-smoke-portal@example.invalid",
+                        "partner_id": portal_partner.id,
+                        group_field: [(6, 0, [env.ref("base.group_portal").id])],
+                    }
+                )
             admin_partner = env(user=admin)["res.partner"].create({"name": "GPC Permission Smoke Customer"})
             denied: dict[str, str] = {}
             for login, user in (("portal", portal), ("public", public)):
@@ -293,7 +308,11 @@ def run_orm_smoke(config_path: str, db_name: str) -> dict[str, Any]:
                 bool(admin_partner.id) and denied == {"portal": "AccessError", "public": "AccessError"},
                 {
                     "admin_create_partner": bool(admin_partner.id),
+                    "admin_login": admin.login,
+                    "portal_login": portal.login,
+                    "portal_source": portal_source,
                     "portal_sale_create": denied.get("portal"),
+                    "public_login": public.login,
                     "public_sale_create": denied.get("public"),
                     "expected_denial": "AccessError",
                 },

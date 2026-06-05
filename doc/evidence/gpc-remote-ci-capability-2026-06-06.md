@@ -21,6 +21,7 @@ git remote get-url --push origin
 | CI 分支 | `gpc-quality-100` |
 | 首次 CI run | `27045220938` |
 | 第二次 CI run | `27045410278` |
+| 第三次 CI run | `27045705371` |
 
 ## 首次远端 CI 结果
 
@@ -64,6 +65,26 @@ git remote get-url --push origin
 - 登录态后台 smoke 增加已安装语言选择逻辑：优先使用 `zh_CN`，未安装时回退到 `en_US` 或当前任一已安装语言。
 - 本地证据 `doc/evidence/gpc-authenticated-backend-smoke.json` 已记录测试账号实际语言为 `zh_CN`。
 
+## 第三次远端 CI 结果
+
+第三次 run 已验证第二次修复有效，以下步骤新增通过：
+
+- 安装核心业务模块时加载 `zh_CN`
+- 登录态后台 smoke 创建测试账号并使用 `lang=zh_CN`
+- Browser 表单 E2E
+- 核心业务 smoke 中联系人、CRM、销售、采购、库存、制造、项目流程
+
+失败步骤：`Run core business flow smoke test` 中的 `permission_boundary` 子项。
+
+失败原因：CI 最小数据库未加载 demo portal 用户；脚本按 `login=portal` 查询得到空记录集后继续调用 `env(user=portal)`，触发 `ValueError('Expected singleton: res.users()')`。同时脚本对自定义管理员 `gcgpc@csydsc.com` 的存在也有本地环境假设。
+
+修复动作：
+
+- 权限边界 smoke 在自定义管理员不存在时回退到 `base.user_admin`。
+- public 用户改用稳定 XMLID `base.public_user`。
+- portal 用户不存在时创建事务内临时 smoke 门户用户，并在脚本结尾 rollback，不污染数据库。
+- 本地证据 `doc/evidence/gpc-core-flow-smoke.json` 已验证 `portal_sale_create=AccessError`、`public_sale_create=AccessError`。
+
 ## 结论
 
-当前已具备可写 fork 并已触发远端 CI。前两次 run 已连续关闭 CI-only 缺陷；需要重新推送后确认第三轮 run 结果。
+当前已具备可写 fork 并已触发远端 CI。前三次 run 已连续关闭 CI-only 缺陷；需要重新推送后确认第四轮 run 结果。
