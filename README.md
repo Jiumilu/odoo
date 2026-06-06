@@ -102,11 +102,13 @@ find addons odoo/addons -path '*/i18n/zh_CN.po' -print0 | xargs -0 -n 1 msgfmt -
 
 ```bash
 .venv311/bin/python -m pip install -r requirements-dev.txt
-.venv311/bin/coverage run --include='*/tools/gpc_core_flow_smoke.py' tools/gpc_core_flow_smoke.py \
+.venv311/bin/python -m coverage erase
+.venv311/bin/python -m coverage run --include='*/tools/gpc_core_flow_smoke.py' -m unittest tests.test_gpc_tools.CoreFlowSmokeTests
+.venv311/bin/python -m coverage run --append --include='*/tools/gpc_core_flow_smoke.py' tools/gpc_core_flow_smoke.py \
   --config .runtime/gpc-odoo.conf \
   --database GCGPC \
   --base-url http://127.0.0.1:8069
-.venv311/bin/coverage report -m tools/gpc_core_flow_smoke.py
+.venv311/bin/python -m coverage report -m tools/gpc_core_flow_smoke.py
 ```
 
 真实浏览器表单级 E2E：
@@ -120,8 +122,10 @@ GitHub Actions 工作流位于 [.github/workflows/gpc-quality.yml](/.github/work
 ## 交付文档
 
 - [执行基线](/doc/GPC_EXECUTION_BASELINE_2026-06-05.md)
+- [100 分目标完成审计](/doc/GPC_100_SCORE_GAP_AUDIT_2026-06-06.md)
 - [P0/P1 执行 Backlog](/doc/GPC_P0_P1_EXECUTION_BACKLOG.md)
 - [下一阶段处置决策](/doc/GPC_NEXT_STAGE_DECISION.md)
+- [中文术语表](/doc/GPC_TERMINOLOGY.md)
 - [部署说明](/doc/GPC_DEPLOYMENT.md)
 - [运维说明](/doc/GPC_OPERATIONS.md)
 - [回滚预案](/doc/GPC_ROLLBACK.md)
@@ -130,9 +134,10 @@ GitHub Actions 工作流位于 [.github/workflows/gpc-quality.yml](/.github/work
 
 ## 当前限制
 
-- 当前项目已具备继续开发和交付准备基础。
-- 正式上线前仍需在远端 GitHub Actions 或目标交付环境运行完整门禁。
-- 对上游 Odoo 深层文案的全量人工审校尚未完成；当前中文化证据覆盖 GPC 交付主路径和关键表面。
+- 当前项目在已启用 GPC 交付范围内五项评分已达到 `100/100`。
+- 远端 GitHub Actions 已在 fork 分支 `gpc-quality-100` 通过，最新成功 run 为 `27046352273`。
+- 未配置真实凭证的外部邮件、短信、OAuth、Recaptcha、支付通道不计入当前评分范围；生产上线前需另行完成沙箱或真实联调。
+- 当前中文化证据覆盖 GPC 交付主路径和关键表面，不声称逐条人工审校全部未启用的上游 Odoo 深层文案。
 
 ## 上游说明
 

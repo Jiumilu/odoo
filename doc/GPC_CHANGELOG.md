@@ -1,5 +1,14 @@
 # GlobalCloud GPC 变更记录
 
+## 2026-06-06 - 五项评分 100 分闭环
+
+- 远端 GitHub Actions 在 `Jiumilu/odoo:gpc-quality-100` 通过，最新成功 run 为 `27046352273`。
+- CI 加载 `zh_CN`，并覆盖运行态中文化、认证后台 smoke、Browser 表单 E2E、核心业务 smoke。
+- 核心流程 smoke 覆盖联系人、CRM、销售、采购、库存、制造、项目和权限边界。
+- 核心流程覆盖率达到 `187 stmts, 0 miss, 100%`。
+- Playwright lockfile 改用官方 npm registry，CI 显式启用 Node 24 action runtime。
+- 五项等权评分更新为 `100/100`。
+
 ## 2026-06-05 - 执行闭环与质量门禁
 
 - 新增执行基线 `GPC-BL-2026-06-05-01`。
@@ -16,7 +25,7 @@
 - 新增核心 smoke 证据和 coverage 证据。
 - 增强本地反向代理错误提示中文化和 traceback 脱敏。
 - 统一用户语言和时区为 `zh_CN`、`Asia/Shanghai`。
-- 第二轮复评五项等权平均分达到 `93/100`。
+- 第二轮复评五项等权平均分达到 `93/100`，后续已在 2026-06-06 关闭剩余缺口。
 
 ## 2026-06-05 - 本地运行健康增强
 

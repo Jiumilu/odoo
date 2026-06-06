@@ -10,13 +10,14 @@
 
 | 步骤 | 命令/证据 | 结果 |
 |---|---|---|
-| 工作树健康 | `git status --short --branch` | 提交后复跑应为干净工作树 |
+| 工作树健康 | `git status --short --branch` | 无未提交或未跟踪文件 |
 | 系统健康 | `.venv311/bin/python tools/gpc_health_check.py --json` | `local_health_score=100`，`production_readiness_score=100` |
-| 单元测试 | `.venv311/bin/python -m unittest discover -s tests -p 'test_*.py' -v` | `11/11 OK` |
+| 单元测试 | `.venv311/bin/python -m unittest discover -s tests -p 'test_*.py' -v` | `14/14 OK` |
 | 认证后台 smoke | `.venv311/bin/python tools/gpc_authenticated_backend_smoke.py --base-url http://127.0.0.1:8069` | 登录成功，9 个后台入口通过 |
 | 核心流程 smoke | `tools/gpc_core_flow_smoke.py --report-json ... --report-md ...` | 联系人、CRM、销售、采购、库存、制造、项目、权限边界均通过 |
-| 覆盖率 | `coverage report -m tools/gpc_core_flow_smoke.py` | 核心 smoke coverage `99%` |
+| 覆盖率 | `coverage report -m tools/gpc_core_flow_smoke.py` | `187 stmts, 0 miss, 100%` |
 | 浏览器表单 E2E | `node tools/gpc_browser_form_e2e.cjs --base-url http://127.0.0.1:8069 ...` | 登录、联系人新建、保存、搜索通过 |
+| 远端 CI | `https://github.com/Jiumilu/odoo/actions/runs/27046352273` | `success` |
 
 ## 回滚方案
 
@@ -26,4 +27,4 @@
 
 ## 演练结论
 
-当前项目具备继续开发和交付准备基础。正式上线前仍需把浏览器 E2E 的 Playwright 来源标准化到目标 CI/部署环境，并执行远端 CI 或目标环境等价门禁。
+当前项目在已启用 GPC 交付范围内具备交付准备基础。远端 CI、浏览器 E2E、核心流程、权限边界、覆盖率和健康检查均已通过；生产上线前只需对未配置真实凭证的外部集成另行完成联调。

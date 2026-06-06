@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-06-05T23:14:51.909Z",
+  "timestamp": "2026-06-06T00:08:09.506Z",
   "baseUrl": "http://127.0.0.1:8069",
   "playwrightSource": "/Users/lujunxiang/Projects/GlobalCloud GPC/node_modules/playwright/index.js",
-  "contactName": "GPC Browser Form E2E 20260605231431",
+  "contactName": "GPC Browser Form E2E 20260606000756",
   "steps": [
     {
       "name": "login",
@@ -19,20 +19,20 @@
     {
       "name": "fill_contact_form",
       "ok": true,
-      "contactName": "GPC Browser Form E2E 20260605231431",
+      "contactName": "GPC Browser Form E2E 20260606000756",
       "email": "browser-form-e2e@gc-gpc.example.com",
       "phone": "13900000002"
     },
     {
       "name": "save_contact",
       "ok": true,
-      "url": "http://127.0.0.1:8069/odoo/contacts/107",
-      "title": "GPC Browser Form E2E 20260605231431",
-      "recordId": 107,
+      "url": "http://127.0.0.1:8069/odoo/contacts/126",
+      "title": "GPC Browser Form E2E 20260606000756",
+      "recordId": 126,
       "hasContactName": true,
       "savedRecord": {
-        "id": 107,
-        "name": "GPC Browser Form E2E 20260605231431",
+        "id": 126,
+        "name": "GPC Browser Form E2E 20260606000756",
         "email": "browser-form-e2e@gc-gpc.example.com",
         "phone": "13900000002"
       }
