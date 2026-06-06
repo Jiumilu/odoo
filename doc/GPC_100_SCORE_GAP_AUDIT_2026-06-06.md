@@ -10,7 +10,7 @@
 
 - 本地健康检查：`.venv311/bin/python tools/gpc_health_check.py --json` 返回 `local_health_score=100`、`production_readiness_score=100`，`findings=[]`。
 - 当前工作树：`git status --short --branch` 复核时无未提交或未跟踪文件。
-- 远端 CI：`https://github.com/Jiumilu/odoo/actions/runs/27046352273`，workflow `GlobalCloud GPC Quality Gate`，结论 `success`。
+- 远端 CI：fork 分支 `gpc-quality-100` 的 workflow `GlobalCloud GPC Quality Gate` 已通过；成功 run 包括 `27046352273`、`27046712068`、`27046852713`。
 - 远端 CI 覆盖步骤：依赖安装、`pip check`、`py_compile`、单元测试、`zh_CN.po` 语法、核心模块安装、`zh_CN` 加载、运行态中文化、Odoo test runner、HTTP smoke、认证后台 smoke、Browser 表单 E2E、核心业务 smoke。
 - 核心流程：`doc/evidence/gpc-core-flow-smoke.json` 中 `ok=true`，覆盖联系人、CRM、销售、采购、库存、制造、项目、权限边界。
 - 核心流程覆盖率：`doc/evidence/gpc-core-coverage.json` 和远端 CI 均证明 `tools/gpc_core_flow_smoke.py 187 stmts, 0 miss, 100%`。
@@ -23,7 +23,7 @@
 | 维度 | 当前评分 | 判定 | 证据 | 说明 |
 |---|---:|---|---|---|
 | 健康度 | 100 | 已验证 | `tools/gpc_health_check.py --json`：local/prod 均 `100`；工作树干净；8069/8070/8072/54329 可用 | 当前具备稳定开发、运行和维护基础 |
-| 功能完整性 | 100 | 已验证 | `gpc_core_flow_smoke.py`、`gpc_authenticated_backend_smoke.py`、`gpc_browser_form_e2e.cjs`；远端 CI run `27046352273` | 当前评分范围内的核心业务流程、页面入口、数据写入、状态流转、权限边界和用户反馈均闭环 |
+| 功能完整性 | 100 | 已验证 | `gpc_core_flow_smoke.py`、`gpc_authenticated_backend_smoke.py`、`gpc_browser_form_e2e.cjs`；远端 CI 已通过 | 当前评分范围内的核心业务流程、页面入口、数据写入、状态流转、权限边界和用户反馈均闭环 |
 | 软件测试 | 100 | 已验证 | 单元测试 `14/14 OK`；Browser E2E 通过；核心 smoke 通过；远端 CI 通过；核心 smoke 覆盖率 `100%` | 已从“有测试文件”提升为可复跑、可证明、可远端执行的测试体系 |
 | 中文化 | 100 | 已验证 | 浏览器 E2E、中文化表面抽查、`zh_CN.po` 语法、运行态中文化、导出字段和模板抽查 | 当前 GPC 交付主路径和关键表面适合中文业务用户直接使用；未启用或非交付路径的上游 Odoo 深层文案不计入当前评分范围 |
 | 治理成熟度 | 100 | 已验证 | README、部署、运维、回滚、ADR、发布说明、变更记录、范围说明、远端 CI 证据、上线演练 | 版本、交付物、风险边界、决策记录、复评证据和远端质量门禁已闭环 |

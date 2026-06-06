@@ -135,7 +135,7 @@ GitHub Actions 工作流位于 [.github/workflows/gpc-quality.yml](/.github/work
 ## 当前限制
 
 - 当前项目在已启用 GPC 交付范围内五项评分已达到 `100/100`。
-- 远端 GitHub Actions 已在 fork 分支 `gpc-quality-100` 通过，最新成功 run 为 `27046352273`。
+- 远端 GitHub Actions 已在 fork 分支 `gpc-quality-100` 多次通过；当前最新结果可用 `gh run list --repo Jiumilu/odoo --branch gpc-quality-100` 核验。
 - 未配置真实凭证的外部邮件、短信、OAuth、Recaptcha、支付通道不计入当前评分范围；生产上线前需另行完成沙箱或真实联调。
 - 当前中文化证据覆盖 GPC 交付主路径和关键表面，不声称逐条人工审校全部未启用的上游 Odoo 深层文案。
 

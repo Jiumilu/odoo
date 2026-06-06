@@ -16,7 +16,7 @@
 | 核心业务 smoke | `.venv311/bin/python tools/gpc_core_flow_smoke.py --config .runtime/gpc-odoo.conf --database GCGPC --base-url http://127.0.0.1:8069 --report-json doc/evidence/gpc-core-flow-smoke.json --report-md doc/evidence/gpc-core-flow-smoke.md` | 通过 |
 | 核心 smoke 覆盖率 | `.venv311/bin/python -m coverage report -m tools/gpc_core_flow_smoke.py` | `tools/gpc_core_flow_smoke.py 187 stmts, 0 miss, 100%` |
 | 浏览器表单 E2E | `node tools/gpc_browser_form_e2e.cjs --base-url http://127.0.0.1:8069 --report-json doc/evidence/gpc-browser-form-e2e.json --report-md doc/evidence/gpc-browser-form-e2e.md --screenshot doc/evidence/gpc-browser-form-e2e.png` | 通过 |
-| 远端 CI | `gh run view 27046352273 --repo Jiumilu/odoo --json status,conclusion` | `completed/success` |
+| 远端 CI | `gh run list --repo Jiumilu/odoo --branch gpc-quality-100` / `gh run view <run>` | 最新成功 run 可复核；已验证成功 run 包括 `27046352273`、`27046712068`、`27046852713` |
 
 ## 当前限制
 
